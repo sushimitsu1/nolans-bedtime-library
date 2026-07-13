@@ -1,4 +1,5 @@
-const stories = [{
+const stories = [
+{
   id: 'ra-ratata',
   title: 'Ra the Ratata and the Rocky Road',
   category: 'Construction Vehicles',
@@ -6,7 +7,17 @@ const stories = [{
   keywords: ['ra','ratata','excavator','breaker','jackhammer','hydraulic','rock','road','construction','playground','teamwork'],
   cover: 'assets/books/ra-ratata/cover.png',
   pages: Array.from({length:15},(_,i)=>`assets/books/ra-ratata/page-${String(i+1).padStart(2,'0')}.png`)
-}];
+},
+{
+  id: 'po-police-pickup',
+  title: 'Po the Police Pickup and the Lost Little Duck',
+  category: 'Emergency Vehicles',
+  description: 'Po and his emergency-vehicle friends help Pip the duckling find Mama Duck at Sunny Park.',
+  keywords: ['po','police','pickup','truck','duck','duckling','pip','mama duck','park','ambulance','helicopter','rescue','teamwork','emergency'],
+  cover: 'assets/books/po-police-pickup/cover.png',
+  pages: Array.from({length:15},(_,i)=>`assets/books/po-police-pickup/page-${String(i+1).padStart(2,'0')}.png`)
+}
+];
 
 const $ = id => document.getElementById(id);
 let selectedCategory = 'all';
