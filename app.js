@@ -5,8 +5,8 @@ const stories = [
   category: 'Construction Vehicles',
   description: 'Ra uses his noisy breaker and teamwork to clear the road to a new playground.',
   keywords: ['ra','ratata','excavator','breaker','jackhammer','hydraulic','rock','road','construction','playground','teamwork'],
-  cover: 'assets/books/ra-ratata/cover.png',
-  pages: Array.from({length:15},(_,i)=>`assets/books/ra-ratata/page-${String(i+1).padStart(2,'0')}.png`)
+  cover: 'assets/books/ra-ratata/cover.webp',
+  pages: Array.from({length:15},(_,i)=>`assets/books/ra-ratata/page-${String(i+1).padStart(2,'0')}.webp`)
 },
 {
   id: 'po-police-pickup',
@@ -14,8 +14,35 @@ const stories = [
   category: 'Emergency Vehicles',
   description: 'Po and his emergency-vehicle friends help Pip the duckling find Mama Duck at Sunny Park.',
   keywords: ['po','police','pickup','truck','duck','duckling','pip','mama duck','park','ambulance','helicopter','rescue','teamwork','emergency'],
-  cover: 'assets/books/po-police-pickup/cover.png',
-  pages: Array.from({length:15},(_,i)=>`assets/books/po-police-pickup/page-${String(i+1).padStart(2,'0')}.png`)
+  cover: 'assets/books/po-police-pickup/cover.webp',
+  pages: Array.from({length:15},(_,i)=>`assets/books/po-police-pickup/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+  id: 'mo-motor-grader',
+  title: 'Mo the Motor Grader and the Bumpy Road',
+  category: 'Construction Vehicles',
+  description: 'Mo and his road-crew friends smooth a bumpy country road so everyone can travel safely.',
+  keywords: ['mo','motor grader','grader','bumpy road','road crew','roller','dump truck','apple grove','construction','teamwork'],
+  cover: 'assets/books/mo-motor-grader/cover.webp',
+  pages: Array.from({length:15},(_,i)=>`assets/books/mo-motor-grader/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+  id: 'dan-dump-truck',
+  title: 'Dan the Dump Truck and the Busy Bridge',
+  category: 'Construction Vehicles',
+  description: 'Dan delivers gravel, beams, and one final load to help his friends finish a little bridge.',
+  keywords: ['dan','dump truck','bridge','gravel','stones','crane truck','motor grader','roller','construction','teamwork'],
+  cover: 'assets/books/dan-dump-truck/cover.webp',
+  pages: Array.from({length:15},(_,i)=>`assets/books/dan-dump-truck/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+  id: 'bella-bulldozer',
+  title: 'Bella the Bulldozer and the Muddy Path',
+  category: 'Construction Vehicles',
+  description: 'Bella and her friends clear and strengthen a muddy woodland path for the animals.',
+  keywords: ['bella','bulldozer','mud','muddy path','woodland','animals','dump truck','roller','construction','teamwork'],
+  cover: 'assets/books/bella-bulldozer/cover.webp',
+  pages: Array.from({length:15},(_,i)=>`assets/books/bella-bulldozer/page-${String(i+1).padStart(2,'0')}.webp`)
 }
 ];
 
