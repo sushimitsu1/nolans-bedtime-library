@@ -16,6 +16,9 @@
 9. Megalodon and the Splashy Shortcut
 10. Monster Mutt Dalmatian and the Firehouse Race
 
+## Race Cars
+11. Chev the Camaro and the Sleepy Speedway — approved one-story exception: 14 illustrated pages (rather than the usual 15)
+
 ## Approved future Monster Jam pool
 - Zombie
 - Dragon

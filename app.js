@@ -69,10 +69,16 @@ const stories = [
   cover: 'assets/books/megalodon/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/megalodon/page-${String(i+1).padStart(2,'0')}.webp`)
 },
 {
-  id: 'monster-mutt-dalmatian', title: 'Monster Mutt Dalmatian and the Firehouse Race', category: 'Monster Trucks',
-  description: 'Monster Mutt Dalmatian helps prepare the firehouse track, races safely, and stops to help a friend.',
-  keywords: ['monster mutt dalmatian','monster jam','monster truck','dalmatian','firehouse','race','fire truck','teamwork'],
-  cover: 'assets/books/monster-mutt-dalmatian/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/monster-mutt-dalmatian/page-${String(i+1).padStart(2,'0')}.webp`)
+id: 'monster-mutt-dalmatian', title: 'Monster Mutt Dalmatian and the Firehouse Race', category: 'Monster Trucks',
+description: 'Monster Mutt Dalmatian helps prepare the firehouse track, races safely, and stops to help a friend.',
+keywords: ['monster mutt dalmatian','monster jam','monster truck','dalmatian','firehouse','race','fire truck','teamwork'],
+cover: 'assets/books/monster-mutt-dalmatian/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/monster-mutt-dalmatian/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: 'Race Cars',
+description: 'Chev and his friends make the little speedway smooth and safe for a gentle moonlight roll before bed.',
+keywords: ['chev','camaro','race car','race cars','speedway','moonlight','safe driving','teamwork','bedtime'],
+cover: 'assets/books/chev-camaro/cover.webp', pages: Array.from({length:14},(_,i)=>`assets/books/chev-camaro/page-${String(i+1).padStart(2,'0')}.webp`)
 }
 ];
 
@@ -119,7 +125,7 @@ function toggleFavorite(id){
 
 function renderCategoryCounts(){
   const countFor = category => stories.filter(story=>story.category===category).length;
-  [['Emergency Vehicles','emergencyCount'],['Construction Vehicles','constructionCount'],['Monster Trucks','monsterCount']].forEach(([category,id])=>{
+  [['Emergency Vehicles','emergencyCount'],['Construction Vehicles','constructionCount'],['Monster Trucks','monsterCount'],['Race Cars','raceCarsCount']].forEach(([category,id])=>{
     const count=countFor(category);
     $(id).textContent=`${count} ${count===1?'story':'stories'} available`;
   });
@@ -138,7 +144,7 @@ function renderLibrary(){
       <div class="story-info">
         <span class="story-category">${story.category}</span>
         <h3>${story.title}</h3><p>${story.description}</p>
-        <div class="story-meta"><span>📖 15 pages</span><span>🌙 About 5 min</span></div>
+        <div class="story-meta"><span>📖 ${story.pages.length} pages</span><span>🌙 About 5 min</span></div>
         <div class="card-actions">
           <button class="favorite-button" type="button" data-favorite="${story.id}" aria-pressed="${isFavorite(story)}">${isFavorite(story)?'★ Favorited':'☆ Favorite'}</button>
           <button class="read-button" type="button" data-story="${story.id}">${getProgressLabel(story)}</button>

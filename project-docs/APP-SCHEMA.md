@@ -22,6 +22,10 @@ Use exactly:
 - `Emergency Vehicles`
 - `Construction Vehicles`
 - `Monster Trucks`
+- `Race Cars`
+
+### Approved per-story exception
+`chev-camaro` uses 14 pages. Its `pages` array intentionally uses `Array.from({ length: 14 }, ...)`; all other current stories use the standard 15-page structure.
 
 ## Service worker
 Whenever artwork or static files are replaced but filenames stay the same:
