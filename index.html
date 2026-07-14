@@ -16,7 +16,11 @@
       <img src="assets/icons/icon-192.png" alt="" class="brand-icon">
       <span><strong>Nolan's</strong><small>Big Vehicle Bedtime Library</small></span>
     </button>
-    <button id="fullscreenButton" class="icon-button" aria-label="Enter full screen" title="Full screen">⛶</button>
+    <div class="header-actions">
+      <button id="timerStatus" class="timer-status" type="button" hidden aria-label="Open parent settings"></button>
+      <button id="settingsButton" class="icon-button" type="button" aria-label="Open parent settings" title="Parent settings">⚙</button>
+      <button id="fullscreenButton" class="icon-button" type="button" aria-label="Enter full screen" title="Full screen">⛶</button>
+    </div>
   </header>
 
   <main>
@@ -29,6 +33,7 @@
           <span aria-hidden="true">⌕</span>
           <input id="searchInput" type="search" placeholder="Try “excavator” or “Ratata”" autocomplete="off">
         </label>
+        <button id="surpriseButton" class="surprise-button" type="button">Surprise Me Tonight</button>
       </div>
 
       <nav class="category-tabs" aria-label="Story categories">
@@ -36,6 +41,7 @@
         <button class="category-tab" data-category="Emergency Vehicles">Emergency</button>
         <button class="category-tab" data-category="Construction Vehicles">Construction</button>
         <button class="category-tab" data-category="Monster Trucks">Monster Trucks</button>
+        <button class="category-tab" data-category="favorites">Favorites</button>
       </nav>
 
       <section class="library-section">
@@ -55,9 +61,9 @@
         <h2>Growing every day</h2>
         <p>New construction, emergency vehicle, and monster truck stories will appear here as they are completed.</p>
         <div class="coming-cards">
-          <article><span>🚑</span><strong>Emergency Vehicles</strong><small>1 story available</small></article>
-          <article><span>🏗️</span><strong>Construction Vehicles</strong><small>1 story available</small></article>
-          <article><span>🏁</span><strong>Monster Trucks</strong><small>Coming soon</small></article>
+          <article><span>🚑</span><strong>Emergency Vehicles</strong><small id="emergencyCount">1 story available</small></article>
+          <article><span>🏗️</span><strong>Construction Vehicles</strong><small id="constructionCount">4 stories available</small></article>
+          <article><span>🏁</span><strong>Monster Trucks</strong><small id="monsterCount">5 stories available</small></article>
         </div>
       </section>
     </section>
@@ -86,7 +92,44 @@
       </div>
       <p class="reader-hint">Tap the page edges, swipe, or use your keyboard arrows.</p>
     </section>
+
+    <section id="finishedView" class="view finished-view" aria-labelledby="finishedTitle">
+      <div class="finished-card">
+        <p class="eyebrow">A calm ending</p>
+        <h1 id="finishedTitle">Storytime is finished</h1>
+        <p id="finishedMessage">Thank you for sharing a cozy story together.</p>
+        <div class="finished-actions">
+          <button id="finishedLibraryButton" class="reader-button secondary" type="button">Back to library</button>
+          <button id="readAgainButton" class="reader-button primary" type="button">Read it again</button>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <section id="settingsPanel" class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle" hidden>
+    <div class="settings-backdrop" data-close-settings></div>
+    <div class="settings-card">
+      <div class="settings-heading">
+        <div><p class="eyebrow">Parent controls</p><h2 id="settingsTitle">Bedtime settings</h2></div>
+        <button id="closeSettingsButton" class="icon-button small-icon" type="button" aria-label="Close parent settings">×</button>
+      </div>
+      <p class="settings-intro">These choices stay on this device and keep storytime calm and parent-led.</p>
+      <label class="setting-row"><span><strong>Interface text size</strong><small>Make menus and buttons easier to read.</small></span>
+        <select id="fontSizeSelect"><option value="normal">Normal</option><option value="large">Large</option></select>
+      </label>
+      <label class="setting-row"><span><strong>High contrast</strong><small>Use stronger colors and borders.</small></span>
+        <input id="contrastToggle" type="checkbox" role="switch">
+      </label>
+      <div class="timer-setting">
+        <label for="timerSelect"><strong>Gentle bedtime timer</strong><small>It will never turn pages automatically.</small></label>
+        <div class="timer-controls"><select id="timerSelect"><option value="0">Off</option><option value="5">5 minutes</option><option value="10">10 minutes</option><option value="15">15 minutes</option></select><button id="startTimerButton" class="reader-button secondary" type="button">Start timer</button></div>
+      </div>
+      <div class="settings-actions">
+        <button id="resetProgressButton" class="text-button danger-button" type="button">Reset reading progress</button>
+        <button id="resetPreferencesButton" class="text-button danger-button" type="button">Reset favorites and settings</button>
+      </div>
+    </div>
+  </section>
 
   <script src="app.js"></script>
 </body>

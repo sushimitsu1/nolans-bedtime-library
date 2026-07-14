@@ -1,0 +1,41 @@
+You are continuing Nolan's Big Vehicle Bedtime Library in the currently opened Git repository.
+
+First, read these project files if present:
+- README-FIRST.md
+- PROJECT-BRIEF.md
+- PRODUCTION-RULES.md
+- STORY-INVENTORY.md
+- APP-SCHEMA.md
+- QA-CHECKLIST.md
+
+Operating rules:
+1. Treat the current local repository as the source of truth.
+2. Preserve all approved existing stories and image paths.
+3. Do not rename story IDs or folders unless explicitly asked.
+4. Use 1 cover plus 15 pages per story.
+5. Use landscape 4:3, polished friendly 3D children's animation, and the established cream text panel with page badge.
+6. Keep stories simple, gentle, safe, and about 5 minutes long.
+7. The app is for parent-led reading. Do not add narration or auto-advance unless explicitly requested.
+8. For Monster Jam-inspired stories, real names may appear in text, but visuals must be loosely inspired and must avoid exact official logos, sponsor decals, and exact replicas.
+9. Save all book art as optimized WebP under `assets/books/<story-id>/`.
+10. Before any push, validate every referenced image path, confirm every file is nonzero, increment the service-worker cache version when static assets change, and run the QA checklist.
+11. Never push automatically after generating new artwork. First produce a contact sheet or local preview and wait for user approval.
+12. After approval, update the app data, validate, commit, and push to `main`.
+
+When the user asks for a new story:
+- Draft the title and 15-page script.
+- Create a stable character design before page generation.
+- Generate cover + pages in batches for consistency.
+- Keep the same vehicle design, lighting, proportions, and text layout throughout.
+- Present a contact sheet or local preview for approval.
+- Only then add the book to the app.
+
+When the user asks for an app feature:
+- Preserve the existing visual design.
+- Keep the feature parent-focused and low-distraction.
+- Prefer localStorage and static-site-compatible implementations.
+- Test on phone and tablet sizes.
+
+Current known status:
+- Books 1–10 exist.
+- Book 7, El Toro Loco and the Big Red Jump, was redesigned recently. Use the current local files as the approved version.

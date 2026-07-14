@@ -81,42 +81,85 @@ let selectedCategory = 'all';
 let activeStory = null;
 let currentPage = 0; // -1 cover, 0-14 pages
 let touchStartX = null;
+let visibleStories = stories;
+let timerInterval = null;
+const storage = {
+  favorites: 'nolan:favorites',
+  fontSize: 'nolan:font-size',
+  highContrast: 'nolan:high-contrast',
+  timerMinutes: 'nolan:timer-minutes',
+  timerEndsAt: 'nolan:timer-ends-at'
+};
+
+function readFavorites(){
+  try {
+    const saved = JSON.parse(localStorage.getItem(storage.favorites) || '[]');
+    return new Set(Array.isArray(saved) ? saved.filter(id=>stories.some(story=>story.id===id)) : []);
+  } catch { return new Set(); }
+}
+
+let favoriteIds = readFavorites();
+let fontSize = localStorage.getItem(storage.fontSize)==='large' ? 'large' : 'normal';
+let highContrast = localStorage.getItem(storage.highContrast)==='true';
+let timerEndsAt = Number(localStorage.getItem(storage.timerEndsAt)) || 0;
 
 function showView(view){
-  $('libraryView').classList.toggle('active', view==='library');
-  $('readerView').classList.toggle('active', view==='reader');
+  ['library','reader','finished'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
+}
+
+function isFavorite(story){ return favoriteIds.has(story.id); }
+function saveFavorites(){ localStorage.setItem(storage.favorites,JSON.stringify([...favoriteIds])); }
+
+function toggleFavorite(id){
+  if(favoriteIds.has(id)) favoriteIds.delete(id); else favoriteIds.add(id);
+  saveFavorites();
+  renderLibrary();
+}
+
+function renderCategoryCounts(){
+  const countFor = category => stories.filter(story=>story.category===category).length;
+  [['Emergency Vehicles','emergencyCount'],['Construction Vehicles','constructionCount'],['Monster Trucks','monsterCount']].forEach(([category,id])=>{
+    const count=countFor(category);
+    $(id).textContent=`${count} ${count===1?'story':'stories'} available`;
+  });
 }
 
 function renderLibrary(){
   const q = $('searchInput').value.trim().toLowerCase();
-  const filtered = stories.filter(s => {
-    const categoryMatch = selectedCategory==='all' || s.category===selectedCategory;
-    const haystack = [s.title,s.category,s.description,...s.keywords].join(' ').toLowerCase();
+  visibleStories = stories.filter(story => {
+    const categoryMatch = selectedCategory==='all' || (selectedCategory==='favorites' ? isFavorite(story) : story.category===selectedCategory);
+    const haystack = [story.title,story.category,story.description,...story.keywords].join(' ').toLowerCase();
     return categoryMatch && (!q || haystack.includes(q));
   });
-  $('storyGrid').innerHTML = filtered.map(s => `
+  $('storyGrid').innerHTML = visibleStories.map(story => `
     <article class="story-card">
-      <div class="cover-wrap"><img src="${s.cover}" alt="Cover of ${s.title}"></div>
+      <div class="cover-wrap"><img src="${story.cover}" alt="Cover of ${story.title}"></div>
       <div class="story-info">
-        <span class="story-category">${s.category}</span>
-        <h3>${s.title}</h3><p>${s.description}</p>
+        <span class="story-category">${story.category}</span>
+        <h3>${story.title}</h3><p>${story.description}</p>
         <div class="story-meta"><span>📖 15 pages</span><span>🌙 About 5 min</span></div>
-        <button class="read-button" data-story="${s.id}">${getProgressLabel(s)}</button>
+        <div class="card-actions">
+          <button class="favorite-button" type="button" data-favorite="${story.id}" aria-pressed="${isFavorite(story)}">${isFavorite(story)?'★ Favorited':'☆ Favorite'}</button>
+          <button class="read-button" type="button" data-story="${story.id}">${getProgressLabel(story)}</button>
+        </div>
       </div>
     </article>`).join('');
-  $('storyCount').textContent = `${filtered.length} ${filtered.length===1?'story':'stories'}`;
-  $('emptyState').hidden = filtered.length>0;
-  document.querySelectorAll('.read-button').forEach(b=>b.addEventListener('click',()=>openStory(b.dataset.story)));
+  $('storyCount').textContent = `${visibleStories.length} ${visibleStories.length===1?'story':'stories'}`;
+  $('emptyState').hidden = visibleStories.length>0;
+  document.querySelectorAll('.read-button').forEach(button=>button.addEventListener('click',()=>openStory(button.dataset.story)));
+  document.querySelectorAll('.favorite-button').forEach(button=>button.addEventListener('click',()=>toggleFavorite(button.dataset.favorite)));
+  renderCategoryCounts();
 }
 
 function getProgressLabel(story){
   const saved = Number(localStorage.getItem(`progress:${story.id}`));
-  return Number.isFinite(saved) && saved>0 && saved<story.pages.length ? `Continue from page ${saved+1}` : 'Read tonight';
+  return Number.isFinite(saved) && saved>=0 && saved<story.pages.length ? `Continue from page ${saved+1}` : 'Read tonight';
 }
 
 function openStory(id){
-  activeStory = stories.find(s=>s.id===id);
+  activeStory = stories.find(story=>story.id===id);
+  if(!activeStory) return;
   const saved = Number(localStorage.getItem(`progress:${id}`));
   currentPage = Number.isFinite(saved) && saved>=0 && saved<activeStory.pages.length ? saved : -1;
   $('readerTitle').textContent = activeStory.title;
@@ -145,31 +188,145 @@ function renderPage(){
 }
 
 function nextPage(){
-  if(!activeStory)return;
-  if(currentPage<activeStory.pages.length-1){currentPage++;renderPage();}
-  else {localStorage.removeItem(`progress:${activeStory.id}`);showView('library');renderLibrary();}
+  if(!activeStory) return;
+  if(currentPage<activeStory.pages.length-1){ currentPage++; renderPage(); }
+  else { localStorage.removeItem(`progress:${activeStory.id}`); finishStorytime('story'); }
 }
-function prevPage(){if(currentPage>-1){currentPage--;renderPage();}}
+
+function prevPage(){ if(currentPage>-1){ currentPage--; renderPage(); } }
+
 function preloadNearby(){
-  [-1,1].forEach(delta=>{const p=currentPage+delta;if(p>=0&&p<activeStory.pages.length){const img=new Image();img.src=activeStory.pages[p];}});
+  [-1,1].forEach(delta=>{const page=currentPage+delta;if(page>=0&&page<activeStory.pages.length){const image=new Image();image.src=activeStory.pages[page];}});
+}
+
+function finishStorytime(reason){
+  const finishedByTimer=reason==='timer';
+  $('finishedTitle').textContent='Storytime is finished';
+  $('finishedMessage').textContent=finishedByTimer
+    ? 'The gentle timer is done. You can snuggle, say good night, or keep reading whenever you are ready.'
+    : 'That was a lovely story. Thank you for sharing a cozy reading moment together.';
+  $('readAgainButton').hidden=!activeStory;
+  showView('finished');
+}
+
+function applyPreferences(){
+  document.documentElement.dataset.fontSize=fontSize;
+  document.documentElement.dataset.contrast=highContrast ? 'high' : 'normal';
+  $('fontSizeSelect').value=fontSize;
+  $('contrastToggle').checked=highContrast;
+  $('timerSelect').value=localStorage.getItem(storage.timerMinutes) || '0';
+}
+
+function openSettings(){
+  $('settingsPanel').hidden=false;
+  applyPreferences();
+  setTimeout(()=>$('closeSettingsButton').focus(),0);
+}
+
+function closeSettings(){
+  $('settingsPanel').hidden=true;
+  $('settingsButton').focus();
+}
+
+function formatTimer(milliseconds){
+  const seconds=Math.max(0,Math.ceil(milliseconds/1000));
+  return `${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}`;
+}
+
+function stopTimer(){
+  if(timerInterval) clearInterval(timerInterval);
+  timerInterval=null;
+  timerEndsAt=0;
+  localStorage.removeItem(storage.timerEndsAt);
+  $('timerStatus').hidden=true;
+}
+
+function updateTimerStatus(){
+  if(!timerEndsAt){ $('timerStatus').hidden=true; return; }
+  const remaining=timerEndsAt-Date.now();
+  if(remaining<=0){ stopTimer(); finishStorytime('timer'); return; }
+  $('timerStatus').hidden=false;
+  $('timerStatus').textContent=`Timer ${formatTimer(remaining)}`;
+}
+
+function startTimer(){
+  const minutes=Number($('timerSelect').value);
+  localStorage.setItem(storage.timerMinutes,String(minutes));
+  stopTimer();
+  if(!minutes) return;
+  timerEndsAt=Date.now()+minutes*60*1000;
+  localStorage.setItem(storage.timerEndsAt,String(timerEndsAt));
+  updateTimerStatus();
+  timerInterval=setInterval(updateTimerStatus,1000);
+  closeSettings();
+}
+
+function restoreTimer(){
+  if(!timerEndsAt) return;
+  updateTimerStatus();
+  if(timerEndsAt) timerInterval=setInterval(updateTimerStatus,1000);
+}
+
+function resetReadingProgress(){
+  if(!window.confirm('Reset reading progress for every story on this device?')) return;
+  for(let index=localStorage.length-1;index>=0;index--){
+    const key=localStorage.key(index);
+    if(key && key.startsWith('progress:')) localStorage.removeItem(key);
+  }
+  renderLibrary();
+}
+
+function resetPreferences(){
+  if(!window.confirm('Reset favorites and bedtime settings on this device?')) return;
+  stopTimer();
+  [storage.favorites,storage.fontSize,storage.highContrast,storage.timerMinutes].forEach(key=>localStorage.removeItem(key));
+  favoriteIds=new Set();
+  fontSize='normal';
+  highContrast=false;
+  applyPreferences();
+  renderLibrary();
 }
 
 $('searchInput').addEventListener('input',renderLibrary);
 document.querySelectorAll('.category-tab').forEach(tab=>tab.addEventListener('click',()=>{
   selectedCategory=tab.dataset.category;
-  document.querySelectorAll('.category-tab').forEach(t=>t.classList.toggle('selected',t===tab));
-  $('resultsTitle').textContent=selectedCategory==='all'?'Available stories':selectedCategory;
+  document.querySelectorAll('.category-tab').forEach(item=>item.classList.toggle('selected',item===tab));
+  $('resultsTitle').textContent=selectedCategory==='all'?'Available stories':selectedCategory==='favorites'?'Favorite stories':selectedCategory;
   renderLibrary();
 }));
-$('homeButton').addEventListener('click',()=>{showView('library');renderLibrary();});
-$('backButton').addEventListener('click',()=>{showView('library');renderLibrary();});
-$('restartButton').addEventListener('click',()=>{currentPage=-1;renderPage();});
-$('nextButton').addEventListener('click',nextPage);$('nextOverlay').addEventListener('click',nextPage);
-$('prevButton').addEventListener('click',prevPage);$('prevOverlay').addEventListener('click',prevPage);
+$('surpriseButton').addEventListener('click',()=>{
+  const choices=visibleStories.length?visibleStories:stories;
+  openStory(choices[Math.floor(Math.random()*choices.length)].id);
+});
+$('homeButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
+$('backButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
+$('restartButton').addEventListener('click',()=>{ currentPage=-1; renderPage(); });
+$('nextButton').addEventListener('click',nextPage); $('nextOverlay').addEventListener('click',nextPage);
+$('prevButton').addEventListener('click',prevPage); $('prevOverlay').addEventListener('click',prevPage);
+$('finishedLibraryButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
+$('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
+$('settingsButton').addEventListener('click',openSettings);
+$('closeSettingsButton').addEventListener('click',closeSettings);
+document.querySelector('[data-close-settings]').addEventListener('click',closeSettings);
+$('timerStatus').addEventListener('click',openSettings);
+$('fontSizeSelect').addEventListener('change',event=>{ fontSize=event.target.value; localStorage.setItem(storage.fontSize,fontSize); applyPreferences(); });
+$('contrastToggle').addEventListener('change',event=>{ highContrast=event.target.checked; localStorage.setItem(storage.highContrast,String(highContrast)); applyPreferences(); });
+$('timerSelect').addEventListener('change',event=>localStorage.setItem(storage.timerMinutes,event.target.value));
+$('startTimerButton').addEventListener('click',startTimer);
+$('resetProgressButton').addEventListener('click',resetReadingProgress);
+$('resetPreferencesButton').addEventListener('click',resetPreferences);
 $('fullscreenButton').addEventListener('click',async()=>{try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();}catch{}});
-document.addEventListener('keydown',e=>{if(!$('readerView').classList.contains('active'))return;if(['ArrowRight',' ','Enter'].includes(e.key)){e.preventDefault();nextPage();}if(['ArrowLeft','Backspace'].includes(e.key)){e.preventDefault();prevPage();}if(e.key==='Escape'&&!document.fullscreenElement){showView('library');renderLibrary();}});
-$('bookStage').addEventListener('touchstart',e=>touchStartX=e.changedTouches[0].clientX,{passive:true});
-$('bookStage').addEventListener('touchend',e=>{if(touchStartX===null)return;const dx=e.changedTouches[0].clientX-touchStartX;if(Math.abs(dx)>55)(dx<0?nextPage:prevPage)();touchStartX=null;},{passive:true});
+document.addEventListener('keydown',event=>{
+  if(!$('settingsPanel').hidden && event.key==='Escape'){ closeSettings(); return; }
+  if(!$('readerView').classList.contains('active')) return;
+  if(['ArrowRight',' ','Enter'].includes(event.key)){ event.preventDefault(); nextPage(); }
+  if(['ArrowLeft','Backspace'].includes(event.key)){ event.preventDefault(); prevPage(); }
+  if(event.key==='Escape'&&!document.fullscreenElement){ showView('library'); renderLibrary(); }
+});
+$('bookStage').addEventListener('touchstart',event=>touchStartX=event.changedTouches[0].clientX,{passive:true});
+$('bookStage').addEventListener('touchend',event=>{if(touchStartX===null)return;const distance=event.changedTouches[0].clientX-touchStartX;if(Math.abs(distance)>55)(distance<0?nextPage:prevPage)();touchStartX=null;},{passive:true});
 
-if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
+applyPreferences();
 renderLibrary();
+restoreTimer();
+if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
