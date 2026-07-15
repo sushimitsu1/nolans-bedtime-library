@@ -75,6 +75,30 @@ keywords: ['monster mutt dalmatian','monster jam','monster truck','dalmatian','f
 cover: 'assets/books/monster-mutt-dalmatian/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/monster-mutt-dalmatian/page-${String(i+1).padStart(2,'0')}.webp`)
 },
 {
+id: 'zombie-sleepy-stadium', title: 'Zombie and the Sleepy Stadium', category: 'Monster Trucks',
+description: 'Zombie and his friends prepare the quiet stadium for a gentle nighttime roll under the stars.',
+keywords: ['zombie','monster truck','sleepy stadium','stadium','nighttime','flags','little fans','teamwork','bedtime'],
+cover: 'assets/books/zombie-sleepy-stadium/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/zombie-sleepy-stadium/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'towie-stuck-little-van', title: 'Towie the Tow Truck and the Stuck Little Van', category: 'Construction Vehicles',
+description: 'Towie makes a careful plan to help Willow out of the mud and bring her safely home.',
+keywords: ['towie','tow truck','willow','little van','stuck','mud','cozy corner','rescue','construction','teamwork'],
+cover: 'assets/books/towie-stuck-little-van/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/towie-stuck-little-van/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'cranky-wobbly-sign', title: 'Cranky the Crane Truck and the Wobbly Sign', category: 'Construction Vehicles',
+description: 'Cranky and his friends work carefully together to make the bakery sign straight and steady again.',
+keywords: ['cranky','crane truck','wobbly sign','bright meadow','bakery','bella','construction','repair','teamwork'],
+cover: 'assets/books/cranky-wobbly-sign/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/cranky-wobbly-sign/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'lila-rooftop-balloon', title: 'Lila the Ladder Truck and the Rooftop Balloon', category: 'Emergency Vehicles',
+description: 'Lila raises her ladder slowly and safely to rescue a little red balloon from the bakery roof.',
+keywords: ['lila','ladder truck','fire truck','rooftop balloon','red balloon','sunnyville','bakery','rescue','emergency','teamwork'],
+cover: 'assets/books/lila-rooftop-balloon/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/lila-rooftop-balloon/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
 id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: 'Race Cars',
 description: 'Chev and his friends make the little speedway smooth and safe for a gentle moonlight roll before bed.',
 keywords: ['chev','camaro','race car','race cars','speedway','moonlight','safe driving','teamwork','bedtime'],
