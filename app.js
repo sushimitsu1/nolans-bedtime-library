@@ -102,7 +102,7 @@ cover: 'assets/books/lila-rooftop-balloon/cover.webp', pages: Array.from({length
 id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: 'Race Cars',
 description: 'Chev and his friends make the little speedway smooth and safe for a gentle moonlight roll before bed.',
 keywords: ['chev','camaro','race car','race cars','speedway','moonlight','safe driving','teamwork','bedtime'],
-cover: 'assets/books/chev-camaro/cover.webp', pages: Array.from({length:14},(_,i)=>`assets/books/chev-camaro/page-${String(i+1).padStart(2,'0')}.webp`)
+cover: 'assets/books/chev-camaro/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/chev-camaro/page-${String(i+1).padStart(2,'0')}.webp`)
 }
 ];
 
