@@ -132,7 +132,24 @@ cover: 'assets/books/freddy-smoky-campfire/cover.webp', pages: Array.from({lengt
 id: 'tess-quiet-night-drive', title: 'Tess the Tesla and the Quiet Night Drive', category: 'Race Cars',
 description: 'Tess enjoys a peaceful evening drive and helps Ollie find his way home through the softly glowing town.',
 keywords: ['tess','tesla','electric car','race cars','quiet night drive','ollie','lantern lane','charging','helping','bedtime'],
-cover: 'assets/books/tess-quiet-night-drive/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/tess-quiet-night-drive/page-${String(i+1).padStart(2,'0')}.webp`)
+cover: 'assets/books/tess-quiet-night-drive/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/tess-quiet-night-drive/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Tess the Tesla loved driving through town in the evening. Her electric motor made a soft, gentle hum.",
+  "One night, the streetlights along Maple Lane went dark. The road became difficult to see.",
+  "Tess turned on her bright headlights. “I can help guide everyone safely,” she said.",
+  "A little delivery van was waiting near the corner. It was nervous about driving in the darkness.",
+  "“Follow my lights,” Tess said kindly. She rolled forward very slowly.",
+  "They reached a narrow bridge over a quiet stream. Tess checked that the road was clear.",
+  "A fallen branch lay across one side of the bridge. The vehicles stopped at a safe distance.",
+  "Paco the Pickup arrived with a tow strap. Together, they pulled the branch away.",
+  "Tess guided the delivery van across the bridge. Moonlight shimmered on the water below.",
+  "After her short rest, Tess unplugged and rolled on. The quiet road curved gently beneath the stars.",
+  "Tess drove past sleepy trees and tiny fireflies twinkling like stars. Everything was peaceful and still.",
+  "From the hill, Tess looked down at the twinkling town. “Good night, everyone,” she whispered.",
+  "A little fog rolled in, but Tess’s bright lights helped her see. She drove slow and safe.",
+  "Tess arrived home and rolled in for a cozy rest. “What a quiet, wonderful night,” she said.",
+  "Tess closed her headlights and dreamed of tomorrow’s adventures. Good night, little driver. Sleep tight!"
+]
 }
 ];
 
