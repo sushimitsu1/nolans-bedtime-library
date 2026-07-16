@@ -103,6 +103,36 @@ id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: '
 description: 'Chev and his friends make the little speedway smooth and safe for a gentle moonlight roll before bed.',
 keywords: ['chev','camaro','race car','race cars','speedway','moonlight','safe driving','teamwork','bedtime'],
 cover: 'assets/books/chev-camaro/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/chev-camaro/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'dragon-glowing-cave-trail', title: 'Dragon and the Glowing Cave Trail', category: 'Monster Trucks',
+description: 'Dragon and his friends follow a glowing crystal trail, help one another, and find a peaceful cave.',
+keywords: ['dragon','monster truck','glowing cave','crystals','blue thunder','earth shaker','trail','teamwork','bedtime'],
+cover: 'assets/books/dragon-glowing-cave-trail/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/dragon-glowing-cave-trail/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'max-d-twisty-training-track', title: 'Max-D and the Twisty Training Track', category: 'Monster Trucks',
+description: 'Max-D practices careful turns and helps his friends make the twisty training track safe and ready.',
+keywords: ['max-d','max d','monster truck','twisty track','training track','practice','flags','turns','teamwork','bedtime'],
+cover: 'assets/books/max-d-twisty-training-track/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/max-d-twisty-training-track/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'eddie-buried-water-pipe', title: 'Eddie the Excavator and the Buried Water Pipe', category: 'Construction Vehicles',
+description: 'Eddie discovers a leaking buried pipe and works carefully with Rory and the construction crew to fix it.',
+keywords: ['eddie','excavator','buried water pipe','rory','repair truck','construction','leak','digging','teamwork','bedtime'],
+cover: 'assets/books/eddie-buried-water-pipe/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/eddie-buried-water-pipe/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'freddy-smoky-campfire', title: 'Freddy the Fire Engine and the Smoky Campfire', category: 'Emergency Vehicles',
+description: 'Freddy and his friends carefully cool a smoky campfire so Pinecone Park can settle down safely for the night.',
+keywords: ['freddy','fire engine','fire truck','smoky campfire','pinecone park','camping','fire safety','emergency','teamwork','bedtime'],
+cover: 'assets/books/freddy-smoky-campfire/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/freddy-smoky-campfire/page-${String(i+1).padStart(2,'0')}.webp`)
+},
+{
+id: 'tess-quiet-night-drive', title: 'Tess the Tesla and the Quiet Night Drive', category: 'Race Cars',
+description: 'Tess enjoys a peaceful evening drive and helps Ollie find his way home through the softly glowing town.',
+keywords: ['tess','tesla','electric car','race cars','quiet night drive','ollie','lantern lane','charging','helping','bedtime'],
+cover: 'assets/books/tess-quiet-night-drive/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/tess-quiet-night-drive/page-${String(i+1).padStart(2,'0')}.webp`)
 }
 ];
 
