@@ -136,6 +136,8 @@ cover: 'assets/books/tess-quiet-night-drive/cover.webp', pages: Array.from({leng
 }
 ];
 
+stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
+
 const $ = id => document.getElementById(id);
 let selectedCategory = 'all';
 let activeStory = null;
@@ -143,6 +145,10 @@ let currentPage = 0; // -1 cover, 0-14 pages
 let touchStartX = null;
 let visibleStories = stories;
 let timerInterval = null;
+const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+let narrationUtterance = null;
+let narrationActive = false;
+let narrationPaused = false;
 const storage = {
   favorites: 'nolan:favorites',
   fontSize: 'nolan:font-size',
@@ -164,8 +170,95 @@ let highContrast = localStorage.getItem(storage.highContrast)==='true';
 let timerEndsAt = Number(localStorage.getItem(storage.timerEndsAt)) || 0;
 
 function showView(view){
+  if(view!=='reader') stopNarration();
   ['library','reader','finished'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
+}
+
+function getCurrentNarrationText(){
+  if(!activeStory || currentPage<0 || !Array.isArray(activeStory.narration)) return '';
+  const text=activeStory.narration[currentPage];
+  return typeof text==='string' ? text.trim() : '';
+}
+
+function setNarrationState(state){
+  $('narrationStatus').textContent=state;
+}
+
+function updateNarrationControls(){
+  const hasText=Boolean(getCurrentNarrationText());
+  $('readPageButton').disabled=!speechSupported || !hasText;
+  $('pauseNarrationButton').disabled=!speechSupported || !hasText || !narrationActive;
+  $('restartNarrationButton').disabled=!speechSupported || !hasText;
+  $('stopNarrationButton').disabled=!speechSupported || !narrationActive;
+  $('narrationUnsupported').hidden=speechSupported;
+  $('narrationUnavailable').hidden=!speechSupported || currentPage<0 || hasText;
+}
+
+function preferredNarrationVoice(){
+  if(!speechSupported) return null;
+  const englishVoices=window.speechSynthesis.getVoices().filter(voice=>/^en([-_]|$)/i.test(voice.lang));
+  const naturalPattern=/natural|neural|aria|jenny|samantha|google us english/i;
+  return englishVoices.find(voice=>voice.lang.toLowerCase()==='en-us' && naturalPattern.test(voice.name))
+    || englishVoices.find(voice=>voice.lang.toLowerCase()==='en-us')
+    || englishVoices[0]
+    || null;
+}
+
+function stopNarration(){
+  const hadNarration=narrationActive || narrationUtterance;
+  narrationUtterance=null;
+  narrationActive=false;
+  narrationPaused=false;
+  if(speechSupported && hadNarration) window.speechSynthesis.cancel();
+  setNarrationState('Ready');
+  updateNarrationControls();
+}
+
+function readCurrentPage(){
+  const text=getCurrentNarrationText();
+  if(!speechSupported || !text) return;
+  stopNarration();
+  const utterance=new SpeechSynthesisUtterance(text);
+  utterance.lang='en-US';
+  utterance.rate=.85;
+  utterance.pitch=1;
+  utterance.volume=1;
+  const voice=preferredNarrationVoice();
+  if(voice) utterance.voice=voice;
+  narrationUtterance=utterance;
+  narrationActive=true;
+  narrationPaused=false;
+  utterance.onstart=()=>{ if(narrationUtterance===utterance){ setNarrationState('Reading'); updateNarrationControls(); } };
+  utterance.onpause=()=>{ if(narrationUtterance===utterance){ narrationPaused=true; setNarrationState('Paused'); updateNarrationControls(); } };
+  utterance.onresume=()=>{ if(narrationUtterance===utterance){ narrationPaused=false; setNarrationState('Reading'); updateNarrationControls(); } };
+  utterance.onend=()=>{ if(narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
+  utterance.onerror=()=>{ if(narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
+  setNarrationState('Reading');
+  updateNarrationControls();
+  window.speechSynthesis.speak(utterance);
+}
+
+function pauseOrResumeNarration(){
+  if(!speechSupported || !narrationActive) return;
+  if(narrationPaused){
+    window.speechSynthesis.resume();
+    narrationPaused=false;
+    setNarrationState('Reading');
+  } else {
+    window.speechSynthesis.pause();
+    narrationPaused=true;
+    setNarrationState('Paused');
+  }
+  updateNarrationControls();
+}
+
+function restartCurrentPageNarration(){
+  const storyId=activeStory?.id;
+  const page=currentPage;
+  if(!speechSupported || !getCurrentNarrationText()) return;
+  stopNarration();
+  setTimeout(()=>{ if(activeStory?.id===storyId && currentPage===page) readCurrentPage(); },0);
 }
 
 function isFavorite(story){ return favoriteIds.has(story.id); }
@@ -218,6 +311,7 @@ function getProgressLabel(story){
 }
 
 function openStory(id){
+  stopNarration();
   activeStory = stories.find(story=>story.id===id);
   if(!activeStory) return;
   const saved = Number(localStorage.getItem(`progress:${id}`));
@@ -230,6 +324,7 @@ function openStory(id){
 
 function renderPage(){
   if(!activeStory) return;
+  stopNarration();
   const isCover=currentPage===-1;
   const src=isCover?activeStory.cover:activeStory.pages[currentPage];
   $('loadingIndicator').style.display='block';
@@ -244,6 +339,7 @@ function renderPage(){
   $('nextButton').textContent=atEnd?'Finish ✓':'Next →';
   $('progressFill').style.width=`${isCover?0:((currentPage+1)/activeStory.pages.length)*100}%`;
   if(!isCover) localStorage.setItem(`progress:${activeStory.id}`,currentPage);
+  updateNarrationControls();
   preloadNearby();
 }
 
@@ -363,6 +459,10 @@ $('backButton').addEventListener('click',()=>{ showView('library'); renderLibrar
 $('restartButton').addEventListener('click',()=>{ currentPage=-1; renderPage(); });
 $('nextButton').addEventListener('click',nextPage); $('nextOverlay').addEventListener('click',nextPage);
 $('prevButton').addEventListener('click',prevPage); $('prevOverlay').addEventListener('click',prevPage);
+$('readPageButton').addEventListener('click',readCurrentPage);
+$('pauseNarrationButton').addEventListener('click',pauseOrResumeNarration);
+$('restartNarrationButton').addEventListener('click',restartCurrentPageNarration);
+$('stopNarrationButton').addEventListener('click',stopNarration);
 $('finishedLibraryButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
 $('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
 $('settingsButton').addEventListener('click',openSettings);
@@ -379,6 +479,7 @@ $('fullscreenButton').addEventListener('click',async()=>{try{if(!document.fullsc
 document.addEventListener('keydown',event=>{
   if(!$('settingsPanel').hidden && event.key==='Escape'){ closeSettings(); return; }
   if(!$('readerView').classList.contains('active')) return;
+  if(event.target.closest?.('.narration-panel') && event.key!=='Escape') return;
   if(['ArrowRight',' ','Enter'].includes(event.key)){ event.preventDefault(); nextPage(); }
   if(['ArrowLeft','Backspace'].includes(event.key)){ event.preventDefault(); prevPage(); }
   if(event.key==='Escape'&&!document.fullscreenElement){ showView('library'); renderLibrary(); }
@@ -389,4 +490,5 @@ $('bookStage').addEventListener('touchend',event=>{if(touchStartX===null)return;
 applyPreferences();
 renderLibrary();
 restoreTimer();
+updateNarrationControls();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});

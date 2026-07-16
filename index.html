@@ -92,6 +92,19 @@
         <div class="progress-track" aria-hidden="true"><div id="progressFill"></div></div>
         <button id="nextButton" class="reader-button primary">Next →</button>
       </div>
+      <div class="narration-panel" aria-label="Read-aloud controls">
+        <div class="narration-actions">
+          <button id="readPageButton" class="reader-button primary" type="button" aria-label="Read current story page aloud">Read Page</button>
+          <button id="pauseNarrationButton" class="reader-button secondary" type="button" aria-label="Pause or resume reading the current story page">Pause / Resume</button>
+          <button id="restartNarrationButton" class="reader-button secondary" type="button" aria-label="Restart reading the current story page">Restart Page</button>
+          <button id="stopNarrationButton" class="reader-button secondary" type="button" aria-label="Stop reading the current story page">Stop</button>
+        </div>
+        <div class="narration-feedback" aria-live="polite">
+          <span>Read-aloud: <strong id="narrationStatus">Ready</strong></span>
+          <small id="narrationUnsupported" hidden>Read-aloud is not supported on this device.</small>
+          <small id="narrationUnavailable" hidden>No read-aloud text is available for this page.</small>
+        </div>
+      </div>
       <p class="reader-hint">Tap the page edges, swipe, or use your keyboard arrows.</p>
     </section>
 
