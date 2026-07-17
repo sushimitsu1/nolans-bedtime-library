@@ -33,23 +33,23 @@ narration: [
   keywords: ['po','police','pickup','truck','duck','duckling','pip','mama duck','park','ambulance','helicopter','rescue','teamwork','emergency'],
   cover: 'assets/books/po-police-pickup/cover.webp',
   pages: Array.from({length:15},(_,i)=>`assets/books/po-police-pickup/page-${String(i+1).padStart(2,'0')}.webp`),
-narration: [
-  "Po the Police Pickup began his morning patrol around Sunny Park. He liked helping everyone feel safe.",
-  "Po drove slowly past the swings, the pond, and the flower garden. “Good morning!” he called.",
-  "Near the park path, Po heard a tiny sound. “Peep! Peep! Peep!”",
-  "A little yellow duckling stood alone beside a bench. “My name is Pip,” he sniffled. “I can’t find Mama.”",
-  "“Don’t worry, Pip,” said Po gently. “We will find her together.”",
-  "Po switched on his little flashing lights. He helped bicycles and scooters slow down safely.",
-  "Amy the Ambulance arrived. She checked Pip and gave him a warm little blanket.",
-  "Po looked near the playground. Amy searched beside the flower garden. But Mama Duck was not there.",
-  "Then Po called Heli the Police Helicopter. “Can you look from high above?” he asked.",
-  "Heli flew over the trees, the paths, and the sparkling pond. Soon he spotted a worried duck near the reeds.",
-  "“I found Mama Duck!” called Heli. “She is waiting beside the pond!”",
-  "Po carried Pip safely along the quiet park path. Amy and Heli followed nearby.",
-  "“Pip!” quacked Mama Duck. “Mama!” peeped Pip. They hurried toward each other.",
-  "“Thank you, Po,” said Mama Duck. Po smiled. “Everyone helped.”",
-  "That evening, Po returned to the quiet police station. He dimmed his lights and whispered, ‘Goodnight, little duck.’"
-]
+  narration: [
+    "Po the Police Pickup began his morning patrol around Sunny Park. He liked helping everyone feel safe.",
+    "Po drove slowly past the swings, the pond, and the flower garden. “Good morning!” he called.",
+    "Near the park path, Po heard a tiny sound. “Peep! Peep! Peep!”",
+    "A little yellow duckling stood alone beside a bench. “My name is Pip,” he sniffled. “I can’t find Mama.”",
+    "“Don’t worry, Pip,” said Po gently. “We will find her together.”",
+    "Po switched on his little flashing lights. He helped bicycles and scooters slow down safely.",
+    "Amy the Ambulance arrived. She checked Pip and gave him a warm little blanket.",
+    "Po looked near the playground. Amy searched beside the flower garden. But Mama Duck was not there.",
+    "Then Po called Heli the Police Helicopter. “Can you look from high above?” he asked.",
+    "Heli flew over the trees, the paths, and the sparkling pond. Soon he spotted a worried duck near the reeds.",
+    "“I found Mama Duck!” called Heli. “She is waiting beside the pond!”",
+    "Po carried Pip safely along the quiet park path. Amy and Heli followed nearby.",
+    "“Pip!” quacked Mama Duck. “Mama!” peeped Pip. They hurried toward each other.",
+    "“Thank you, Po,” said Mama Duck. Po smiled. “Everyone helped.”",
+    "That evening, Po returned to the quiet police station. He dimmed his lights and whispered, ‘Goodnight, little duck.’"
+  ]
 },
 {
   id: 'mo-motor-grader',
