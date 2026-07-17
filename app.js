@@ -473,6 +473,121 @@ narration: [
   "Tess arrived home and rolled in for a cozy rest. ‘What a quiet, wonderful night,’ she said.",
   "Tess closed her headlights and dreamed of tomorrow’s adventures. Good night, little driver. Sleep tight!"
 ]
+},
+{
+id: 'earth-shaker-wobbly-dirt-bridge', title: 'Earth Shaker and the Wobbly Dirt Bridge', category: 'Monster Trucks',
+description: 'Earth Shaker helps two rabbits make a wobbly forest bridge strong, steady, and safe.',
+keywords: ['earth shaker','monster truck','dirt bridge','forest','rabbits','clover meadow','teamwork','helping'],
+cover: 'assets/books/earth-shaker-wobbly-dirt-bridge/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/earth-shaker-wobbly-dirt-bridge/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Earth Shaker rumbled along Sunny Forest Trail. He loved helping friends in the woods.",
+  "By the creek, he saw a little dirt bridge wobble. Two rabbits waited on the path.",
+  "The rabbits wanted to cross to Clover Meadow. ‘The bridge feels too shaky,’ they said.",
+  "Earth Shaker looked very carefully. “I can help make it strong,” he said.",
+  "First, he pressed the loose dirt flat with his big tires. Pat, pat, pat went the ground.",
+  "Then he rolled small stones into the soft spots. The bridge started to feel steadier.",
+  "Next, Earth Shaker nudged a sturdy log beside the edge. It helped hold the dirt in place.",
+  "Earth Shaker tested the bridge one more time. Wobble, wobble... then it felt much better!",
+  "The rabbits stepped onto the bridge very slowly. ‘It feels safe now!’ they cheered.",
+  "The little rabbits hopped onto the bridge once more. This time it felt strong, steady, and safe.",
+  "One by one, the rabbits crossed to the other side. Earth Shaker smiled as he watched them go.",
+  "‘Thank you, Earth Shaker!’ the rabbits cheered. They brought him wildflowers from the meadow.",
+  "As the sun began to set, Earth Shaker looked at the bridge. It was no longer wobbly at all.",
+  "Earth Shaker rumbled slowly home through the quiet forest. The sky turned soft and golden above the trees.",
+  "‘Helping friends feels wonderful,’ said Earth Shaker. Then he rested for the night beneath the twinkling stars."
+]
+},
+{
+id: 'son-uva-digger-moonlit-hill-climb', title: 'Son-uva Digger and the Moonlit Hill Climb', category: 'Monster Trucks',
+description: 'Son-uva Digger takes a calm, careful climb up Moonbeam Hill beneath the silver moon.',
+keywords: ['son-uva digger','monster truck','moonlit hill','moonbeam hill','hill climb','night','bravery','careful'],
+cover: 'assets/books/son-uva-digger-moonlit-hill-climb/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/son-uva-digger-moonlit-hill-climb/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One calm evening, Son-uva Digger rolled to Moonbeam Hill. He was ready for a careful hill climb.",
+  "The hill looked tall beneath the silver moon. ‘Slow and steady,’ Son-uva Digger said.",
+  "At the first bump, the loose dirt wiggled. Son-uva Digger kept his wheels straight.",
+  "Higher and higher he climbed. The little lights below began to twinkle.",
+  "A few pebbles rolled down the path. Son-uva Digger stayed calm and did not rush.",
+  "His friends cheered from the bottom of the hill. ‘You can do it!’ they called.",
+  "Son-uva Digger found a smooth line up the slope. Grip, grip, grip went his big tires.",
+  "Near the top, the moon shone bright. Son-uva Digger felt brave and strong.",
+  "At last, he reached the top of Moonbeam Hill. He smiled at the sparkling town below.",
+  "Near the top, Son-uva Digger slowed down and took a careful breath. ‘Almost there,’ he whispered.",
+  "At last he reached the hilltop. The moon shone bright above him.",
+  "Below him, the little lights of the town twinkled softly.",
+  "He looked at the moonlit path behind him. ‘I did it,’ he said happily.",
+  "Then he rolled gently down the sleepy hill. The night air felt calm and cool.",
+  "Back home, Son-uva Digger felt brave and proud. Good night, Moonbeam Hill."
+]
+},
+{
+id: 'benny-backhoe-little-garden-pond', title: 'Benny the Backhoe and the Little Garden Pond', category: 'Construction Vehicles',
+description: 'Benny clears and shapes a muddy garden pond so the ducklings, frog, and flowers can enjoy it.',
+keywords: ['benny','backhoe','garden pond','ducklings','frog','lily pads','construction','helping'],
+cover: 'assets/books/benny-backhoe-little-garden-pond/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/benny-backhoe-little-garden-pond/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One sunny morning, Benny saw a little garden pond. The water was muddy after the rain.",
+  "The ducklings could not splash. The frog had nowhere to sit.",
+  "‘I can help!’ said Benny. He scooped the heavy mud away.",
+  "Then Benny used his backhoe arm. He shaped the pond nice and round.",
+  "Benny placed smooth stones all around. The little pond looked tidy and strong.",
+  "Fresh water shimmered in the sun. Pink lilies floated on top.",
+  "The ducklings swam, and the frog found a lily pad.",
+  "The flowers drank the pond water. The whole garden seemed to smile.",
+  "‘What a lovely little pond,’ said Benny. Then he rested in the golden glow.",
+  "Soon, little ducks came to visit the pond. They paddled in circles and gave happy quacks.",
+  "Benny placed a few smooth stones by the side. Now the pond was easy to reach.",
+  "The flowers leaned close to see the shining water. The little garden looked beautiful and new.",
+  "As the sun began to set, the garden friends smiled. Everyone loved the little pond.",
+  "Soon, fireflies twinkled over the quiet pond. Benny felt proud of his careful work.",
+  "‘Good night, little pond,’ Benny whispered softly. Then he rolled home for a cozy sleep."
+]
+},
+{
+id: 'finn-fireboat-drifting-sailboat', title: 'Finn the Fireboat and the Drifting Sailboat', category: 'Emergency Vehicles',
+description: 'Finn calmly guides a worried little sailboat away from the rocks and safely back to Seabreeze Harbor.',
+keywords: ['finn','fireboat','sailboat','seabreeze harbor','harbor','rescue','emergency','helping'],
+cover: 'assets/books/finn-fireboat-drifting-sailboat/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/finn-fireboat-drifting-sailboat/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Finn the Fireboat began his morning patrol in Seabreeze Harbor. He liked helping everyone feel safe.",
+  "One breezy morning, Finn spotted a little sailboat. It was drifting away from the dock.",
+  "The little sailboat looked worried. ‘Oh dear,’ it said. ‘I can't get back by myself.’",
+  "Finn floated closer and smiled. ‘Don't worry. I will help you,’ he said.",
+  "Finn gently led the sailboat away from the rocks. He kept his line nice and steady.",
+  "The breeze puffed, and the water wobbled. But Finn stayed calm and careful.",
+  "Soon they turned back toward Seabreeze Harbor. The little sailboat felt much better.",
+  "At the dock, harbor friends waved and cheered. “Hooray for Finn!” they called.",
+  "Finn smiled as the little sailboat came safely in. The warm sunset made the harbor glow.",
+  "Slowly, Finn turned the little sailboat around. The dock lights began to glow ahead.",
+  "The little sailboat smiled. “Thank you, Finn,” he said. “I'm glad you helped me find my way.”",
+  "Together they glided back into Seabreeze Harbor. The water shimmered softly in the evening light.",
+  "At the dock, harbor friends waved good night. Everyone felt safe and happy again.",
+  "Finn made one last calm patrol past the lighthouse. Seabreeze Harbor was peaceful and still.",
+  "Then Finn rested by the dock and watched the moon. Good night, Finn. Sleep tight!"
+]
+},
+{
+id: 'cody-cement-mixer-cracked-sidewalk', title: 'Cody the Cement Mixer and the Cracked Sidewalk', category: 'Construction Vehicles',
+description: 'Cody repairs a cracked sidewalk on Maple Lane so all the neighborhood animals can travel safely.',
+keywords: ['cody','cement mixer','cracked sidewalk','maple lane','construction','cement','animals','helping'],
+cover: 'assets/books/cody-cement-mixer-cracked-sidewalk/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/cody-cement-mixer-cracked-sidewalk/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One sunny morning, Cody the Cement Mixer rolled down Maple Lane. He noticed a sidewalk with a long, bumpy crack.",
+  "A bunny, a duck, and a little squirrel had to tiptoe around it. “This sidewalk needs some help,” said Cody.",
+  "‘I can fix it!’ said Cody with a smile. He parked beside the path and got ready to work.",
+  "First, Cody helped clear the broken pieces away. Soon the sidewalk was clean and ready.",
+  "Then Cody mixed fresh, smooth cement in his turning drum. Swish, swish, swish went the mixer.",
+  "Cody carefully poured the cement into the cracked sidewalk. He filled the long crack from end to end.",
+  "Next, he smoothed the cement so it looked flat and neat. The little animals watched quietly.",
+  "The new sidewalk looked better already. “It is strong and smooth!” cheered the animals.",
+  "But the cement still needed time to dry. Cody placed bright cones nearby and waited patiently.",
+  "The fresh sidewalk dried nice and smooth. “Now Maple Lane is safe again!” said Cody.",
+  "Neighbors came to see the new path. They walked, skipped, and smiled.",
+  "Cody cleaned the last little mess. Maple Lane looked neat and bright.",
+  "Everyone thanked Cody for helping. He felt proud of his careful work.",
+  "As the sun went down, Cody rolled home. The new sidewalk glowed in the evening light.",
+  "Cody rested with a happy yawn. He dreamed of helping again tomorrow."
+]
 }
 ];
 
