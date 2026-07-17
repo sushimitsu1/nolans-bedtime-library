@@ -484,6 +484,7 @@ let activeStory = null;
 let currentPage = 0; // -1 cover, 0-14 pages
 let touchStartX = null;
 let visibleStories = stories;
+let libraryScrollY = 0;
 let timerInterval = null;
 const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let narrationUtterance = null;
@@ -513,6 +514,14 @@ function showView(view){
   if(view!=='reader') stopNarration();
   ['library','reader','finished'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
+}
+
+function returnToLibrary(){
+  showView('library');
+  renderLibrary();
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    if($('libraryView').classList.contains('active')) window.scrollTo(0,libraryScrollY);
+  }));
 }
 
 function getCurrentNarrationText(){
@@ -652,8 +661,10 @@ function getProgressLabel(story){
 
 function openStory(id){
   stopNarration();
-  activeStory = stories.find(story=>story.id===id);
-  if(!activeStory) return;
+  const story = stories.find(item=>item.id===id);
+  if(!story) return;
+  if($('libraryView').classList.contains('active')) libraryScrollY=window.scrollY;
+  activeStory = story;
   const saved = Number(localStorage.getItem(`progress:${id}`));
   currentPage = Number.isFinite(saved) && saved>=0 && saved<activeStory.pages.length ? saved : -1;
   $('readerTitle').textContent = activeStory.title;
@@ -795,7 +806,7 @@ $('surpriseButton').addEventListener('click',()=>{
   openStory(choices[Math.floor(Math.random()*choices.length)].id);
 });
 $('homeButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
-$('backButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
+$('backButton').addEventListener('click',returnToLibrary);
 $('restartButton').addEventListener('click',()=>{ currentPage=-1; renderPage(); });
 $('nextButton').addEventListener('click',nextPage); $('nextOverlay').addEventListener('click',nextPage);
 $('prevButton').addEventListener('click',prevPage); $('prevOverlay').addEventListener('click',prevPage);
@@ -803,7 +814,7 @@ $('readPageButton').addEventListener('click',readCurrentPage);
 $('pauseNarrationButton').addEventListener('click',pauseOrResumeNarration);
 $('restartNarrationButton').addEventListener('click',restartCurrentPageNarration);
 $('stopNarrationButton').addEventListener('click',stopNarration);
-$('finishedLibraryButton').addEventListener('click',()=>{ showView('library'); renderLibrary(); });
+$('finishedLibraryButton').addEventListener('click',returnToLibrary);
 $('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
 $('settingsButton').addEventListener('click',openSettings);
 $('closeSettingsButton').addEventListener('click',closeSettings);
@@ -822,7 +833,7 @@ document.addEventListener('keydown',event=>{
   if(event.target.closest?.('.narration-panel') && event.key!=='Escape') return;
   if(['ArrowRight',' ','Enter'].includes(event.key)){ event.preventDefault(); nextPage(); }
   if(['ArrowLeft','Backspace'].includes(event.key)){ event.preventDefault(); prevPage(); }
-  if(event.key==='Escape'&&!document.fullscreenElement){ showView('library'); renderLibrary(); }
+  if(event.key==='Escape'&&!document.fullscreenElement) returnToLibrary();
 });
 $('bookStage').addEventListener('touchstart',event=>touchStartX=event.changedTouches[0].clientX,{passive:true});
 $('bookStage').addEventListener('touchend',event=>{if(touchStartX===null)return;const distance=event.changedTouches[0].clientX-touchStartX;if(Math.abs(distance)>55)(distance<0?nextPage:prevPage)();touchStartX=null;},{passive:true});
