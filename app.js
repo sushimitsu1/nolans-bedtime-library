@@ -661,8 +661,6 @@ let resolveNarrationVoice = null;
 let availableNarrationVoices = [];
 let narrationVoicesLogged = false;
 let narrationVoiceLocked = false;
-let narrationVoiceChosenByUser = false;
-let savedNarrationVoiceURI = localStorage.getItem('nolan:narration-voice-uri') || '';
 let pageRenderGeneration = 0;
 const storage = {
   favorites: 'nolan:favorites',
@@ -670,11 +668,35 @@ const storage = {
   highContrast: 'nolan:high-contrast',
   timerMinutes: 'nolan:timer-minutes',
   timerEndsAt: 'nolan:timer-ends-at',
-  narrationVoiceURI: 'nolan:narration-voice-uri',
+  narratorVoiceURI: 'nolan:narratorVoiceURI',
+  narratorVoiceWasUserSelected: 'nolan:narratorVoiceWasUserSelected',
+  legacyNarrationVoiceURI: 'nolan:narration-voice-uri',
   narrationRate: 'nolan:narration-rate',
   narrationPitch: 'nolan:narration-pitch',
   narrationVolume: 'nolan:narration-volume'
 };
+
+function readNarratorPreference(){
+  let voiceURI=localStorage.getItem(storage.narratorVoiceURI) || '';
+  const storedUserSelection=localStorage.getItem(storage.narratorVoiceWasUserSelected);
+  let wasUserSelected=storedUserSelection==='true';
+  const legacyVoiceURI=localStorage.getItem(storage.legacyNarrationVoiceURI) || '';
+  if(!voiceURI && legacyVoiceURI){
+    voiceURI=legacyVoiceURI;
+    wasUserSelected=false;
+    localStorage.setItem(storage.narratorVoiceURI,voiceURI);
+    localStorage.setItem(storage.narratorVoiceWasUserSelected,'false');
+  }
+  if(voiceURI && storedUserSelection===null) localStorage.setItem(storage.narratorVoiceWasUserSelected,'false');
+  if(!voiceURI){
+    wasUserSelected=false;
+    localStorage.removeItem(storage.narratorVoiceWasUserSelected);
+  }
+  if(legacyVoiceURI) localStorage.removeItem(storage.legacyNarrationVoiceURI);
+  return {voiceURI,wasUserSelected};
+}
+
+let narratorPreference=readNarratorPreference();
 
 const SPEECH_SOUND_PRONUNCIATIONS = Object.freeze([
   {pattern:/\bvro{2,}m+\b/gi, replacement:'vroom'},
@@ -775,18 +797,35 @@ function filterBrowserVoices(voices){
   return Array.from(voices || []).filter(voice=>voice && !isMockVoice(voice));
 }
 
-function chooseNarrationVoice(voices,savedVoiceURI=''){
+function findAriaVoice(voices){
+  return voices.find(voice=>isEnglishVoice(voice) && voiceIdentity(voice).includes('aria')) || null;
+}
+
+function chooseNarrationVoice(voices,{voiceURI='',wasUserSelected=false}={}){
   const browserVoices=filterBrowserVoices(voices);
-  const savedVoice=browserVoices.find(voice=>voice.voiceURI===savedVoiceURI);
-  if(savedVoice) return savedVoice;
+  const savedVoice=browserVoices.find(voice=>voice.voiceURI===voiceURI);
+  if(wasUserSelected && savedVoice) return savedVoice;
   const englishVoices=browserVoices.filter(isEnglishVoice);
-  return englishVoices.find(voice=>voiceIdentity(voice).includes('aria'))
+  return findAriaVoice(englishVoices)
     || englishVoices.find(voice=>isUsEnglishVoice(voice) && VOICE_QUALITY_INDICATORS.some(indicator=>voiceIdentity(voice).includes(indicator)))
     || englishVoices.find(isUsEnglishVoice)
     || englishVoices[0]
     || browserVoices.find(voice=>voice.default)
     || browserVoices[0]
     || null;
+}
+
+function clearNarratorPreference(){
+  localStorage.removeItem(storage.narratorVoiceURI);
+  localStorage.removeItem(storage.narratorVoiceWasUserSelected);
+  localStorage.removeItem(storage.legacyNarrationVoiceURI);
+  narratorPreference={voiceURI:'',wasUserSelected:false};
+}
+
+function saveNarratorPreference(voice,wasUserSelected){
+  narratorPreference={voiceURI:voice.voiceURI,wasUserSelected:Boolean(wasUserSelected)};
+  localStorage.setItem(storage.narratorVoiceURI,voice.voiceURI);
+  localStorage.setItem(storage.narratorVoiceWasUserSelected,String(Boolean(wasUserSelected)));
 }
 
 function logNarrationVoicesOnce(voices){
@@ -803,25 +842,38 @@ function logNarrationVoicesOnce(voices){
 
 function refreshNarratorSelector(){
   const englishVoices=availableNarrationVoices.filter(isEnglishVoice);
+  const ariaVoice=findAriaVoice(englishVoices);
   const control=$('narratorControl');
   const select=$('narratorSelect');
-  control.hidden=!speechSupported || !englishVoices.length;
+  control.hidden=!speechSupported || !availableNarrationVoices.length;
   select.disabled=!englishVoices.length;
-  select.replaceChildren(...englishVoices.map(voice=>{
+  const options=englishVoices.map(voice=>{
     const option=document.createElement('option');
     option.value=voice.voiceURI;
-    option.textContent=`${voice.name} — ${voice.lang}`;
+    const isActive=selectedNarrationVoice?.voiceURI===voice.voiceURI;
+    option.textContent=`${voice.name} — ${voice.lang}${isActive?' — Active':''}`;
     return option;
-  }));
+  });
+  if(!options.length){
+    const option=document.createElement('option');
+    option.textContent='No English voices available';
+    options.push(option);
+  }
+  select.replaceChildren(...options);
   if(selectedNarrationVoice && englishVoices.some(voice=>voice.voiceURI===selectedNarrationVoice.voiceURI)){
     select.value=selectedNarrationVoice.voiceURI;
   }
+  $('ariaAvailability').textContent=ariaVoice ? `Aria detected: ${ariaVoice.name}` : 'Aria not available in this browser';
+  const voice=selectedNarrationVoice;
+  $('narratorDiagnosticText').textContent=voice
+    ? `Selected: ${voice.name} | voiceURI: ${voice.voiceURI} | Language: ${voice.lang || 'unknown'} | localService: ${Boolean(voice.localService)} | Selection: ${narratorPreference.wasUserSelected?'user-selected':'automatic'} | English voices: ${englishVoices.length} | Aria detected: ${ariaVoice?'yes':'no'}`
+    : `Selected: none | English voices: ${englishVoices.length} | Aria detected: ${ariaVoice?'yes':'no'}`;
 }
 
-function setSelectedNarrationVoice(voice,{persist=true}={}){
+function setSelectedNarrationVoice(voice,{wasUserSelected=false,persist=true}={}){
   if(!voice) return null;
   selectedNarrationVoice=voice;
-  if(persist) localStorage.setItem(storage.narrationVoiceURI,voice.voiceURI);
+  if(persist) saveNarratorPreference(voice,wasUserSelected);
   if(resolveNarrationVoice){
     resolveNarrationVoice(voice);
     resolveNarrationVoice=null;
@@ -834,16 +886,23 @@ function selectNarrationVoiceFromAvailable(){
   if(!speechSupported) return null;
   availableNarrationVoices=filterBrowserVoices(window.speechSynthesis.getVoices());
   logNarrationVoicesOnce(availableNarrationVoices);
-  if(selectedNarrationVoice && (narrationVoiceLocked || narrationVoiceChosenByUser)){
+  if(selectedNarrationVoice && narrationVoiceLocked){
     refreshNarratorSelector();
     return selectedNarrationVoice;
   }
+  if(availableNarrationVoices.length && narratorPreference.voiceURI && !availableNarrationVoices.some(voice=>voice.voiceURI===narratorPreference.voiceURI)){
+    clearNarratorPreference();
+  }
   const voice=chooseNarrationVoice(
     availableNarrationVoices,
-    savedNarrationVoiceURI
+    narratorPreference
   );
-  refreshNarratorSelector();
-  return setSelectedNarrationVoice(voice);
+  if(!voice){
+    selectedNarrationVoice=null;
+    refreshNarratorSelector();
+    return null;
+  }
+  return setSelectedNarrationVoice(voice,{wasUserSelected:narratorPreference.wasUserSelected});
 }
 
 function initializeNarrationVoice(){
@@ -866,9 +925,18 @@ function chooseNarratorFromSelector(event){
   const voice=availableNarrationVoices.find(candidate=>isEnglishVoice(candidate) && candidate.voiceURI===event.target.value);
   if(!voice) return;
   stopNarration({disableReadAlong:true});
-  narrationVoiceChosenByUser=true;
-  savedNarrationVoiceURI=voice.voiceURI;
-  setSelectedNarrationVoice(voice);
+  narrationVoiceLocked=false;
+  setSelectedNarrationVoice(voice,{wasUserSelected:true});
+}
+
+function resetNarrator(){
+  stopNarration({disableReadAlong:true});
+  narrationVoiceLocked=false;
+  selectedNarrationVoice=null;
+  narrationVoicePromise=null;
+  resolveNarrationVoice=null;
+  clearNarratorPreference();
+  selectNarrationVoiceFromAvailable();
 }
 
 function stopNarration({disableReadAlong=false}={}){
@@ -1180,6 +1248,7 @@ $('pauseNarrationButton').addEventListener('click',pauseOrResumeNarration);
 $('restartNarrationButton').addEventListener('click',restartCurrentPageNarration);
 $('stopNarrationButton').addEventListener('click',()=>stopNarration({disableReadAlong:true}));
 $('narratorSelect').addEventListener('change',chooseNarratorFromSelector);
+$('resetNarratorButton').addEventListener('click',resetNarrator);
 $('finishedLibraryButton').addEventListener('click',returnToLibrary);
 $('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
 $('settingsButton').addEventListener('click',openSettings);

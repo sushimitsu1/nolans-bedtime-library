@@ -57,30 +57,63 @@ if(api){
     {name:'French Default',voiceURI:'test:french',lang:'fr-FR',default:true},
     {name:'Mock Aria',voiceURI:'mock:aria',lang:'en-US'}
   ];
-  const selected=api.chooseNarrationVoice(voices,'test:missing');
-  if(selected?.voiceURI!=='test:aria-online') errors.push('Aria was not preferred over other English voices');
-  const saved=api.chooseNarrationVoice(voices,'test:basic-us');
-  if(saved?.voiceURI!=='test:basic-us') errors.push('available saved voiceURI was not preserved');
-  const natural=api.chooseNarrationVoice(voices.filter(voice=>!voice.name.includes('Aria')),'');
+  const migratedAutomatic=api.chooseNarrationVoice(voices,{voiceURI:'test:basic-us',wasUserSelected:false});
+  if(migratedAutomatic?.voiceURI!=='test:aria-online') errors.push('Aria did not replace an old automatically saved fallback');
+  const manual=api.chooseNarrationVoice(voices,{voiceURI:'test:basic-us',wasUserSelected:true});
+  if(manual?.voiceURI!=='test:basic-us') errors.push('a real manually selected voice was not preserved');
+  const missing=api.chooseNarrationVoice(voices,{voiceURI:'test:missing',wasUserSelected:true});
+  if(missing?.voiceURI!=='test:aria-online') errors.push('a missing saved voice did not trigger fresh Aria selection');
+  const natural=api.chooseNarrationVoice(voices.filter(voice=>!voice.name.includes('Aria')),{wasUserSelected:false});
   if(natural?.voiceURI!=='test:ava-natural') errors.push('natural en-US fallback was not preferred');
-  const mockOnly=api.chooseNarrationVoice([{name:'Mock Aria',voiceURI:'mock:aria',lang:'en-US'}],'');
+  const mockOnly=api.chooseNarrationVoice([{name:'Mock Aria',voiceURI:'mock:aria',lang:'en-US'}],{});
   if(mockOnly!==null || api.filterBrowserVoices(voices).some(voice=>voice.voiceURI.startsWith('mock:'))){
     errors.push('mock voices were treated as real browser voices');
   }
 }
 
+const migratedValues=new Map([['nolan:narration-voice-uri','legacy:male']]);
+const migrationContext={
+  storage:{
+    narratorVoiceURI:'nolan:narratorVoiceURI',
+    narratorVoiceWasUserSelected:'nolan:narratorVoiceWasUserSelected',
+    legacyNarrationVoiceURI:'nolan:narration-voice-uri'
+  },
+  localStorage:{
+    getItem:key=>migratedValues.get(key) ?? null,
+    setItem:(key,value)=>migratedValues.set(key,String(value)),
+    removeItem:key=>migratedValues.delete(key)
+  }
+};
+try{
+  const migrationSource=sourceSlice('function readNarratorPreference','const SPEECH_SOUND_PRONUNCIATIONS');
+  vm.runInNewContext(`${migrationSource}\nthis.preference=narratorPreference;`,migrationContext);
+  if(migrationContext.preference.voiceURI!=='legacy:male' || migrationContext.preference.wasUserSelected!==false){
+    errors.push('legacy narrator preference was not migrated as automatic');
+  }
+  if(migratedValues.get('nolan:narratorVoiceWasUserSelected')!=='false' || migratedValues.has('nolan:narration-voice-uri')){
+    errors.push('legacy narrator storage was not rewritten to the new preference keys');
+  }
+}catch(error){
+  errors.push(`preference migration test failed: ${error.message}`);
+}
+
 requireSource(/speechSynthesis\.getVoices\(\)/,'available voices must come from getVoices()');
 requireSource(/addEventListener\(['"]voiceschanged['"]/,'voiceschanged listener is required');
 requireSource(/voiceschanged['"],\(\)=>\{\s*selectNarrationVoiceFromAvailable\(\)/,'voiceschanged must refresh the actual browser voice list');
-requireSource(/selectedNarrationVoice && \(narrationVoiceLocked \|\| narrationVoiceChosenByUser\)/,'voiceschanged must not replace a locked or manually selected voice');
-requireSource(/localStorage\.setItem\(storage\.narrationVoiceURI,voice\.voiceURI\)/,'selected voiceURI must be persisted');
+requireSource(/selectedNarrationVoice && narrationVoiceLocked/,'voiceschanged must not replace the active story voice');
+requireSource(/localStorage\.setItem\(storage\.narratorVoiceURI,voice\.voiceURI\)/,'selected voiceURI must be persisted');
+requireSource(/localStorage\.setItem\(storage\.narratorVoiceWasUserSelected,String\(Boolean\(wasUserSelected\)\)\)/,'manual-versus-automatic selection must be persisted');
+requireSource(/availableNarrationVoices\.length && narratorPreference\.voiceURI[\s\S]*clearNarratorPreference\(\)/,'a missing saved voice must be removed after the real list loads');
 requireSource(/setNarrationState\(['"]Preparing voice…['"]\)[\s\S]*await initializeNarrationVoice\(\)/,'Page 1 must wait in Preparing voice state');
 requireSource(/utterance\.lang=voice\.lang \|\| ['"]en-US['"]/,'utterance language must follow the selected voice');
 requireSource(/utterance\.voice=voice/,'every utterance must receive the selected voice');
 requireSource(/narrationVoiceLocked=true;[\s\S]*utterance\.voice=voice/,'the voice must lock before Page 1 begins');
 requireSource(/console\.info\(['"]Available speech synthesis voices['"][\s\S]*localService:Boolean\(voice\.localService\)[\s\S]*default:Boolean\(voice\.default\)/,'the real voice metadata must be logged once for diagnosis');
 requireSource(/englishVoices=availableNarrationVoices\.filter\(isEnglishVoice\)[\s\S]*option\.value=voice\.voiceURI/,'the selector must contain actual English browser voices');
-requireSource(/function chooseNarratorFromSelector[\s\S]*stopNarration\(\{disableReadAlong:true\}\)[\s\S]*setSelectedNarrationVoice\(voice\)/,'manual narrator changes must cancel speech without starting it');
+requireSource(/Aria not available in this browser/,'the selector must report when Aria is unavailable');
+requireSource(/function chooseNarratorFromSelector[\s\S]*stopNarration\(\{disableReadAlong:true\}\)[\s\S]*setSelectedNarrationVoice\(voice,\{wasUserSelected:true\}\)/,'manual narrator changes must cancel speech and mark the preference explicit');
+requireSource(/function resetNarrator\(\)[\s\S]*stopNarration\(\{disableReadAlong:true\}\)[\s\S]*clearNarratorPreference\(\);[\s\S]*selectNarrationVoiceFromAvailable\(\);/,'Reset narrator must cancel speech, clear preference, and reload real voices');
+requireSource(/narratorDiagnosticText['"]\)\.textContent=[\s\S]*localService:[\s\S]*English voices:[\s\S]*Aria detected:/,'the live diagnostic must expose the required voice metadata');
 requireSource(/new SpeechSynthesisUtterance\(prepareSpeechText\(text\)\)/,'only playback text may be pronunciation-normalized');
 requireSource(/stopNarration\(\)[\s\S]*await initializeNarrationVoice\(\)[\s\S]*speechSynthesis\.speak\(utterance\)/,'old speech must be cancelled before new speech starts');
 requireSource(/function pauseOrResumeNarration\(\)[\s\S]*speechSynthesis\.pause\(\)/,'Pause must reuse the active utterance');
