@@ -93,6 +93,10 @@
         <button id="nextButton" class="reader-button primary">Next →</button>
       </div>
       <div class="narration-panel" aria-label="Read-aloud controls">
+        <label id="narratorControl" class="narrator-control" for="narratorSelect" hidden>
+          <span>Narrator</span>
+          <select id="narratorSelect" aria-label="Narrator voice"></select>
+        </label>
         <div class="narration-actions">
           <button id="readPageButton" class="reader-button primary" type="button" aria-label="Read current story page aloud">Read Page</button>
           <button id="pauseNarrationButton" class="reader-button secondary" type="button" aria-label="Pause or resume reading the current story page">Pause / Resume</button>

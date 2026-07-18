@@ -658,6 +658,11 @@ let narrationGeneration = 0;
 let selectedNarrationVoice = null;
 let narrationVoicePromise = null;
 let resolveNarrationVoice = null;
+let availableNarrationVoices = [];
+let narrationVoicesLogged = false;
+let narrationVoiceLocked = false;
+let narrationVoiceChosenByUser = false;
+let savedNarrationVoiceURI = localStorage.getItem('nolan:narration-voice-uri') || '';
 let pageRenderGeneration = 0;
 const storage = {
   favorites: 'nolan:favorites',
@@ -750,40 +755,95 @@ function prepareSpeechText(displayText){
   );
 }
 
-function voiceQualityScore(voice){
-  const language=String(voice.lang || '').toLowerCase().replace('_','-');
-  const name=String(voice.name || '').toLowerCase();
-  let score=language==='en-us' ? 200 : language.startsWith('en-') ? 100 : 0;
-  VOICE_QUALITY_INDICATORS.forEach((indicator,index)=>{
-    if(name.includes(indicator)) score+=1000-(index*10);
-  });
-  return score;
+function isEnglishVoice(voice){
+  return /^en(?:[-_]|$)/i.test(voice?.lang || '');
+}
+
+function isUsEnglishVoice(voice){
+  return /^en[-_]us$/i.test(voice?.lang || '');
+}
+
+function voiceIdentity(voice){
+  return `${voice?.name || ''} ${voice?.voiceURI || ''}`.toLowerCase();
+}
+
+function isMockVoice(voice){
+  return /(?:^|\s)mock:/i.test(`${voice?.name || ''} ${voice?.voiceURI || ''}`);
+}
+
+function filterBrowserVoices(voices){
+  return Array.from(voices || []).filter(voice=>voice && !isMockVoice(voice));
 }
 
 function chooseNarrationVoice(voices,savedVoiceURI=''){
-  const englishVoices=voices.filter(voice=>/^en([-_]|$)/i.test(voice.lang || ''));
-  const savedVoice=englishVoices.find(voice=>voice.voiceURI===savedVoiceURI);
+  const browserVoices=filterBrowserVoices(voices);
+  const savedVoice=browserVoices.find(voice=>voice.voiceURI===savedVoiceURI);
   if(savedVoice) return savedVoice;
-  return englishVoices
-    .map((voice,index)=>({voice,index,score:voiceQualityScore(voice)}))
-    .sort((left,right)=>right.score-left.score || left.index-right.index)[0]?.voice
+  const englishVoices=browserVoices.filter(isEnglishVoice);
+  return englishVoices.find(voice=>voiceIdentity(voice).includes('aria'))
+    || englishVoices.find(voice=>isUsEnglishVoice(voice) && VOICE_QUALITY_INDICATORS.some(indicator=>voiceIdentity(voice).includes(indicator)))
+    || englishVoices.find(isUsEnglishVoice)
+    || englishVoices[0]
+    || browserVoices.find(voice=>voice.default)
+    || browserVoices[0]
     || null;
 }
 
-function selectNarrationVoiceFromAvailable(){
-  if(!speechSupported || selectedNarrationVoice) return selectedNarrationVoice;
-  const voice=chooseNarrationVoice(
-    window.speechSynthesis.getVoices(),
-    localStorage.getItem(storage.narrationVoiceURI) || ''
-  );
+function logNarrationVoicesOnce(voices){
+  if(narrationVoicesLogged || !voices.length) return;
+  narrationVoicesLogged=true;
+  console.info('Available speech synthesis voices',voices.map(voice=>({
+    name:voice.name,
+    voiceURI:voice.voiceURI,
+    language:voice.lang,
+    localService:Boolean(voice.localService),
+    default:Boolean(voice.default)
+  })));
+}
+
+function refreshNarratorSelector(){
+  const englishVoices=availableNarrationVoices.filter(isEnglishVoice);
+  const control=$('narratorControl');
+  const select=$('narratorSelect');
+  control.hidden=!speechSupported || !englishVoices.length;
+  select.disabled=!englishVoices.length;
+  select.replaceChildren(...englishVoices.map(voice=>{
+    const option=document.createElement('option');
+    option.value=voice.voiceURI;
+    option.textContent=`${voice.name} — ${voice.lang}`;
+    return option;
+  }));
+  if(selectedNarrationVoice && englishVoices.some(voice=>voice.voiceURI===selectedNarrationVoice.voiceURI)){
+    select.value=selectedNarrationVoice.voiceURI;
+  }
+}
+
+function setSelectedNarrationVoice(voice,{persist=true}={}){
   if(!voice) return null;
   selectedNarrationVoice=voice;
-  localStorage.setItem(storage.narrationVoiceURI,voice.voiceURI);
+  if(persist) localStorage.setItem(storage.narrationVoiceURI,voice.voiceURI);
   if(resolveNarrationVoice){
     resolveNarrationVoice(voice);
     resolveNarrationVoice=null;
   }
+  refreshNarratorSelector();
   return voice;
+}
+
+function selectNarrationVoiceFromAvailable(){
+  if(!speechSupported) return null;
+  availableNarrationVoices=filterBrowserVoices(window.speechSynthesis.getVoices());
+  logNarrationVoicesOnce(availableNarrationVoices);
+  if(selectedNarrationVoice && (narrationVoiceLocked || narrationVoiceChosenByUser)){
+    refreshNarratorSelector();
+    return selectedNarrationVoice;
+  }
+  const voice=chooseNarrationVoice(
+    availableNarrationVoices,
+    savedNarrationVoiceURI
+  );
+  refreshNarratorSelector();
+  return setSelectedNarrationVoice(voice);
 }
 
 function initializeNarrationVoice(){
@@ -798,8 +858,17 @@ function initializeNarrationVoice(){
 
 if(speechSupported){
   window.speechSynthesis.addEventListener('voiceschanged',()=>{
-    if(!selectedNarrationVoice) selectNarrationVoiceFromAvailable();
+    selectNarrationVoiceFromAvailable();
   });
+}
+
+function chooseNarratorFromSelector(event){
+  const voice=availableNarrationVoices.find(candidate=>isEnglishVoice(candidate) && candidate.voiceURI===event.target.value);
+  if(!voice) return;
+  stopNarration({disableReadAlong:true});
+  narrationVoiceChosenByUser=true;
+  savedNarrationVoiceURI=voice.voiceURI;
+  setSelectedNarrationVoice(voice);
 }
 
 function stopNarration({disableReadAlong=false}={}){
@@ -839,9 +908,10 @@ async function readCurrentPage({enableReadAlong=true}={}){
     || activeStory?.id!==storyId
     || currentPage!==page
   ) return;
+  narrationVoiceLocked=true;
   narrationPreparing=false;
   const utterance=new SpeechSynthesisUtterance(prepareSpeechText(text));
-  utterance.lang='en-US';
+  utterance.lang=voice.lang || 'en-US';
   utterance.rate=narrationSettings.rate;
   utterance.pitch=narrationSettings.pitch;
   utterance.volume=narrationSettings.volume;
@@ -1109,6 +1179,7 @@ $('readPageButton').addEventListener('click',()=>readCurrentPage());
 $('pauseNarrationButton').addEventListener('click',pauseOrResumeNarration);
 $('restartNarrationButton').addEventListener('click',restartCurrentPageNarration);
 $('stopNarrationButton').addEventListener('click',()=>stopNarration({disableReadAlong:true}));
+$('narratorSelect').addEventListener('change',chooseNarratorFromSelector);
 $('finishedLibraryButton').addEventListener('click',returnToLibrary);
 $('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
 $('settingsButton').addEventListener('click',openSettings);
@@ -1137,4 +1208,5 @@ applyPreferences();
 renderLibrary();
 restoreTimer();
 updateNarrationControls();
+if(speechSupported) selectNarrationVoiceFromAvailable();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});

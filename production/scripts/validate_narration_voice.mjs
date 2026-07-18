@@ -22,10 +22,10 @@ function sourceSlice(startMarker,endMarker){
 }
 
 const constants=sourceSlice('const SPEECH_SOUND_PRONUNCIATIONS','function readFavorites');
-const pureFunctions=sourceSlice('function prepareSpeechText','function selectNarrationVoiceFromAvailable');
+const pureFunctions=sourceSlice('function prepareSpeechText','function logNarrationVoicesOnce');
 const context={};
 try{
-  vm.runInNewContext(`${constants}\n${pureFunctions}\nthis.testApi={prepareSpeechText,chooseNarrationVoice};`,context);
+  vm.runInNewContext(`${constants}\n${pureFunctions}\nthis.testApi={prepareSpeechText,chooseNarrationVoice,filterBrowserVoices};`,context);
 }catch(error){
   errors.push(`speech helper extraction failed: ${error.message}`);
 }
@@ -50,24 +50,37 @@ if(api){
   if(api.prepareSpeechText(ordinary)!==ordinary) errors.push('ordinary repeated-letter words were changed');
 
   const voices=[
-    {name:'Basic US English',voiceURI:'mock:basic-us',lang:'en-US'},
-    {name:'Ava Natural Online',voiceURI:'mock:ava-natural',lang:'en-US'},
-    {name:'Premium English UK',voiceURI:'mock:premium-uk',lang:'en-GB'}
+    {name:'Basic US English',voiceURI:'test:basic-us',lang:'en-US',default:true},
+    {name:'Ava Natural Online',voiceURI:'test:ava-natural',lang:'en-US'},
+    {name:'Microsoft Aria Online (Natural)',voiceURI:'test:aria-online',lang:'en-US'},
+    {name:'English UK',voiceURI:'test:english-uk',lang:'en-GB'},
+    {name:'French Default',voiceURI:'test:french',lang:'fr-FR',default:true},
+    {name:'Mock Aria',voiceURI:'mock:aria',lang:'en-US'}
   ];
-  const selected=api.chooseNarrationVoice(voices,'mock:missing');
-  if(selected?.voiceURI!=='mock:ava-natural') errors.push('ranked voice selection did not choose the strongest natural en-US voice');
-  const saved=api.chooseNarrationVoice(voices,'mock:basic-us');
-  if(saved?.voiceURI!=='mock:basic-us') errors.push('available saved voiceURI was not preserved');
-  if(selected) console.log(`SELECTED TEST VOICE: ${selected.name} | ${selected.voiceURI}`);
+  const selected=api.chooseNarrationVoice(voices,'test:missing');
+  if(selected?.voiceURI!=='test:aria-online') errors.push('Aria was not preferred over other English voices');
+  const saved=api.chooseNarrationVoice(voices,'test:basic-us');
+  if(saved?.voiceURI!=='test:basic-us') errors.push('available saved voiceURI was not preserved');
+  const natural=api.chooseNarrationVoice(voices.filter(voice=>!voice.name.includes('Aria')),'');
+  if(natural?.voiceURI!=='test:ava-natural') errors.push('natural en-US fallback was not preferred');
+  const mockOnly=api.chooseNarrationVoice([{name:'Mock Aria',voiceURI:'mock:aria',lang:'en-US'}],'');
+  if(mockOnly!==null || api.filterBrowserVoices(voices).some(voice=>voice.voiceURI.startsWith('mock:'))){
+    errors.push('mock voices were treated as real browser voices');
+  }
 }
 
 requireSource(/speechSynthesis\.getVoices\(\)/,'available voices must come from getVoices()');
 requireSource(/addEventListener\(['"]voiceschanged['"]/,'voiceschanged listener is required');
-requireSource(/if\(!selectedNarrationVoice\) selectNarrationVoiceFromAvailable\(\)/,'voiceschanged must not replace a locked voice');
+requireSource(/voiceschanged['"],\(\)=>\{\s*selectNarrationVoiceFromAvailable\(\)/,'voiceschanged must refresh the actual browser voice list');
+requireSource(/selectedNarrationVoice && \(narrationVoiceLocked \|\| narrationVoiceChosenByUser\)/,'voiceschanged must not replace a locked or manually selected voice');
 requireSource(/localStorage\.setItem\(storage\.narrationVoiceURI,voice\.voiceURI\)/,'selected voiceURI must be persisted');
 requireSource(/setNarrationState\(['"]Preparing voice…['"]\)[\s\S]*await initializeNarrationVoice\(\)/,'Page 1 must wait in Preparing voice state');
-requireSource(/utterance\.lang=['"]en-US['"]/,'utterance language must stay en-US');
+requireSource(/utterance\.lang=voice\.lang \|\| ['"]en-US['"]/,'utterance language must follow the selected voice');
 requireSource(/utterance\.voice=voice/,'every utterance must receive the selected voice');
+requireSource(/narrationVoiceLocked=true;[\s\S]*utterance\.voice=voice/,'the voice must lock before Page 1 begins');
+requireSource(/console\.info\(['"]Available speech synthesis voices['"][\s\S]*localService:Boolean\(voice\.localService\)[\s\S]*default:Boolean\(voice\.default\)/,'the real voice metadata must be logged once for diagnosis');
+requireSource(/englishVoices=availableNarrationVoices\.filter\(isEnglishVoice\)[\s\S]*option\.value=voice\.voiceURI/,'the selector must contain actual English browser voices');
+requireSource(/function chooseNarratorFromSelector[\s\S]*stopNarration\(\{disableReadAlong:true\}\)[\s\S]*setSelectedNarrationVoice\(voice\)/,'manual narrator changes must cancel speech without starting it');
 requireSource(/new SpeechSynthesisUtterance\(prepareSpeechText\(text\)\)/,'only playback text may be pronunciation-normalized');
 requireSource(/stopNarration\(\)[\s\S]*await initializeNarrationVoice\(\)[\s\S]*speechSynthesis\.speak\(utterance\)/,'old speech must be cancelled before new speech starts');
 requireSource(/function pauseOrResumeNarration\(\)[\s\S]*speechSynthesis\.pause\(\)/,'Pause must reuse the active utterance');
