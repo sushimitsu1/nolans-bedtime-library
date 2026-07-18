@@ -8,7 +8,13 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 from common import FINAL_NAMES, FINAL_SIZE, write_json
-from compose_page import compose
+from compose_page import (
+    FULL_BLEED_BOX,
+    INTEGRATED_BADGE_BOX,
+    INTEGRATED_PANEL_BOX,
+    SAFE_ZONE_TOP,
+    compose,
+)
 from validate_assets import validate_assets
 from validate_story import validate_story
 from validate_text import validate_text
@@ -98,26 +104,106 @@ def main() -> int:
         results.append("PASS duplicate-image validation catches copied artwork")
 
         source = root / "sample-source.png"
-        Image.new("RGB", (800, 800), "#8CC8EA").save(source)
+        Image.new("RGB", (1600, 1200), "#8CC8EA").save(source)
         output = root / "sample-page.webp"
-        record = compose(source, output, story["pages"][0]["text"], 1)
+        subject_boxes = [{"label": "Milo", "box": [380, 140, 980, 650]}]
+        record = compose(source, output, story["pages"][0]["text"], 1, required_subject_boxes=subject_boxes)
         with Image.open(output) as composed:
             assert composed.size == FINAL_SIZE
             assert composed.getpixel((724, 400))[2] > composed.getpixel((724, 400))[0]
-            cream = composed.getpixel((10, 900))
-            assert cream[0] > 235 and cream[1] > 225 and cream[2] > 195
+            for corner in ((10, 10), (1438, 10), (10, 1075), (1438, 1075)):
+                pixel = composed.getpixel(corner)
+                assert pixel[2] > pixel[0], f"unexpected outer frame at {corner}: {pixel}"
         assert record["pageBadge"] == 1 and record["text"] == story["pages"][0]["text"]
-        assert record["illustrationBox"] == [0, 0, 1448, 815]
-        assert record["textAreaBox"] == [0, 815, 1448, 1086]
-        assert record["overlap"] is False and record["textFits"] is True
-        results.append("PASS compositor produces one correctly sized non-overlapping sample page")
+        assert record["layout"] == "integrated_full_bleed"
+        assert record["illustrationBox"] == list(FULL_BLEED_BOX)
+        assert record["panelBox"] == list(INTEGRATED_PANEL_BOX)
+        assert record["badgeBox"] == list(INTEGRATED_BADGE_BOX)
+        assert record["fullBleed"] is True and record["letterboxed"] is False and record["outerFrame"] is False
+        assert record["textFits"] is True
+        results.append("PASS compliant 4:3 artwork produces a full-bleed integrated page with exact text and dimensions")
 
         try:
-            compose(source, root / "overflow-page.webp", "word " * 1000, 2)
+            compose(
+                source,
+                root / "unsafe-subject-page.webp",
+                story["pages"][1]["text"],
+                2,
+                required_subject_boxes=[{"label": "Milo", "box": [380, 300, 980, SAFE_ZONE_TOP + 40]}],
+            )
+            raise AssertionError("Expected a subject inside the safe zone to fail composition")
+        except ValueError as exc:
+            assert "enters the text-safe zone" in str(exc)
+        results.append("PASS compositor rejects a required subject inside the text-safe zone")
+
+        repair_source = root / "legacy-square-source.png"
+        Image.new("RGB", (800, 800), "#8CC8EA").save(repair_source)
+        try:
+            compose(repair_source, root / "forbidden-default-fallback.webp", story["pages"][2]["text"], 3, required_subject_boxes=subject_boxes)
+            raise AssertionError("Expected non-4:3 legacy artwork to fail the default layout")
+        except ValueError as exc:
+            assert "require a 4:3 source" in str(exc)
+        repair_record = compose(
+            repair_source,
+            root / "repair-fallback-page.webp",
+            story["pages"][2]["text"],
+            3,
+            layout="repair_fallback",
+        )
+        assert repair_record["layout"] == "separate_illustration_and_text"
+        results.append("PASS separated layout remains available only through explicit repair fallback")
+
+        try:
+            compose(source, root / "overflow-page.webp", "word " * 1000, 2, required_subject_boxes=subject_boxes)
             raise AssertionError("Expected oversized page text to fail composition")
         except ValueError as exc:
             assert "does not fit" in str(exc)
         results.append("PASS compositor clearly rejects text that cannot fit")
+
+        integrated_pages = []
+        review_pages = []
+        for page in story["pages"]:
+            boxes = [{"label": "Milo", "box": [380, 140, 980, 650]}]
+            integrated_pages.append({
+                "file": f"page-{page['number']:02d}.webp",
+                "text": page["text"],
+                "pageBadge": page["number"],
+                "panel": True,
+                "layout": "integrated_full_bleed",
+                "illustrationBox": list(FULL_BLEED_BOX),
+                "textAreaBox": list(INTEGRATED_PANEL_BOX),
+                "panelBox": list(INTEGRATED_PANEL_BOX),
+                "badgeBox": list(INTEGRATED_BADGE_BOX),
+                "safeZoneTop": SAFE_ZONE_TOP,
+                "requiredSubjectBoxes": boxes,
+                "requiredArtworkOverlap": False,
+                "fullBleed": True,
+                "letterboxed": False,
+                "outerFrame": False,
+                "textFits": True,
+            })
+            review_pages.append({
+                "number": page["number"],
+                "requiredSubjectBoxes": boxes,
+                "finalChecks": {
+                    "subjectPlacement": "passed",
+                    "safeZoneCompliance": "passed",
+                    "panelIntegration": "passed",
+                    "consistentPanelSize": "passed",
+                    "consistentBadgePlacement": "passed",
+                    "noBlockedStoryAction": "passed",
+                },
+            })
+        integrated_manifest = {
+            "storySlug": story["slug"],
+            "pages": [
+                {"file": "cover.webp", "text": None, "pageBadge": None, "panel": False, "layout": "full_page_cover", "textAreaBox": None},
+                *integrated_pages,
+            ],
+        }
+        visual_review = {"storySlug": story["slug"], "pages": review_pages}
+        assert validate_text(story, [page["text"] for page in story["pages"]], integrated_manifest, visual_review) == []
+        results.append("PASS integrated-layout validator accepts consistent panel, badge, safe-zone, and review records")
 
         narration = [page["text"] for page in story["pages"]]
         narration[4] = "This does not match."
