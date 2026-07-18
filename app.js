@@ -588,6 +588,29 @@ narration: [
   "As the sun went down, Cody rolled home. The new sidewalk glowed in the evening light.",
   "Cody rested with a happy yawn. He dreamed of helping again tomorrow."
 ]
+},
+{
+id: 'amy-ambulance-sleepy-kitten', title: 'Amy the Ambulance and the Sleepy Kitten', category: 'Emergency Vehicles',
+description: 'Amy gives a very sleepy kitten a calm ride home through a gentle evening shower.',
+keywords: ['amy','ambulance','kitten','miso','willow lane','rain','cozy ride','helping','bedtime','emergency vehicle'],
+cover: 'assets/books/amy-ambulance-sleepy-kitten/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/amy-ambulance-sleepy-kitten/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One warm evening, Amy the Ambulance finished her gentle check around Willow Lane. Her amber lights glowed softly.",
+  "Near the library garden, Amy heard a tiny yawn. A ginger kitten sat beneath a bench, blinking his sleepy green eyes.",
+  "“I’m Miso,” the kitten murmured. “But I played too long, and now I’m too tired to walk home.”",
+  "“I can help you get there safely,” said Amy. She checked the quiet road toward Miso’s little blue cottage.",
+  "A cool breeze rustled the willow leaves. Plip, plip—two raindrops landed on Amy’s shiny hood.",
+  "Amy opened her rear door and lowered the little ramp. Inside waited a soft lavender blanket.",
+  "Miso padded up the ramp and curled onto the blanket. “This feels cozy,” he purred.",
+  "Amy rolled slowly along the lantern path. The gentle rain made tiny silver circles in the puddles.",
+  "At the duck pond, a fallen branch blocked the lane. Amy stopped with plenty of room to spare.",
+  "Amy spotted a smooth path around the pond. “We can take the quiet way,” she said.",
+  "Around the pond they went, past sleepy ducks and shining reeds. Miso’s purr became a soft little rumble.",
+  "Soon the little blue cottage appeared beyond the willow trees. Its yellow porch light shone like a star.",
+  "Miso’s mama hurried onto the porch. “You brought my sleepy kitten home,” she said with a grateful smile.",
+  "Miso carried the lavender blanket to his basket by the window. “Thank you for the cozy ride, Amy.”",
+  "That night, Amy rested beneath the quiet moon. In the blue cottage, Miso dreamed warm and snug. Goodnight, Amy, and goodnight, Miso."
+]
 }
 ];
 

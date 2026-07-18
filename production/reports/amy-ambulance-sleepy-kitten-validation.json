@@ -1,0 +1,24 @@
+{
+  "storySlug": "amy-ambulance-sleepy-kitten",
+  "storyValidation": "passed",
+  "characterContinuity": {
+    "status": "passed",
+    "referenceLocked": true,
+    "checkedFeatures": ["vehicle color", "body shape", "eyes and facial design", "wheels", "accessories", "supporting characters", "setting"],
+    "repair": "Page 12 was regenerated once because Miso appeared inside the cottage before arrival; the replacement keeps Miso inside Amy."
+  },
+  "rawIllustrations": 16,
+  "coverCount": 1,
+  "finalPageCount": 15,
+  "narrationEntries": 15,
+  "textToNarrationEquality": "passed",
+  "assetValidation": "passed",
+  "appValidation": "passed",
+  "smokeChecks": {
+    "libraryCard": "passed",
+    "cover": "passed",
+    "page1": "passed",
+    "page15": "passed",
+    "readPageOnPage1": "passed"
+  }
+}

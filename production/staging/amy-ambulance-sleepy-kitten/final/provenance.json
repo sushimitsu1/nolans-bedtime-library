@@ -1,0 +1,21 @@
+{
+  "storySlug": "amy-ambulance-sleepy-kitten",
+  "assets": [
+    {"file":"cover.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/cover.webp","compositionType":"single_scene"},
+    {"file":"page-01.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-01.webp","compositionType":"single_scene"},
+    {"file":"page-02.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-02.webp","compositionType":"single_scene"},
+    {"file":"page-03.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-03.webp","compositionType":"single_scene"},
+    {"file":"page-04.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-04.webp","compositionType":"single_scene"},
+    {"file":"page-05.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-05.webp","compositionType":"single_scene"},
+    {"file":"page-06.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-06.webp","compositionType":"single_scene"},
+    {"file":"page-07.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-07.webp","compositionType":"single_scene"},
+    {"file":"page-08.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-08.webp","compositionType":"single_scene"},
+    {"file":"page-09.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-09.webp","compositionType":"single_scene"},
+    {"file":"page-10.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-10.webp","compositionType":"single_scene"},
+    {"file":"page-11.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-11.webp","compositionType":"single_scene"},
+    {"file":"page-12.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-12.webp","compositionType":"single_scene"},
+    {"file":"page-13.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-13.webp","compositionType":"single_scene"},
+    {"file":"page-14.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-14.webp","compositionType":"single_scene"},
+    {"file":"page-15.webp","sourceIllustration":"production/staging/amy-ambulance-sleepy-kitten/illustrations/page-15.webp","compositionType":"single_scene"}
+  ]
+}

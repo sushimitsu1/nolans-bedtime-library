@@ -1,0 +1,50 @@
+{
+  "title": "Amy the Ambulance and the Sleepy Kitten",
+  "slug": "amy-ambulance-sleepy-kitten",
+  "category": "Emergency Vehicles",
+  "description": "Amy gives a very sleepy kitten a calm ride home through a gentle evening shower.",
+  "characterBible": {
+    "Amy": {
+      "role": "Main character; a calm, kind neighborhood ambulance",
+      "color": "Warm coral-red lower body with a creamy white upper body and pale teal trim",
+      "bodyShape": "Compact rounded boxy ambulance with a short hood, softly curved corners, and no arms or hands",
+      "face": "Large hazel windshield eyes with soft lashes and a small friendly smile in the front grille",
+      "wheels": "Four dark charcoal tires with cream hubcaps and pale teal center dots",
+      "accessories": "Small amber roof light bar, pale teal heart badge on each side, silver mirrors, and a folded lavender blanket visible inside"
+    },
+    "Miso": {
+      "role": "Supporting character; a small sleepy kitten",
+      "appearance": "Tiny ginger kitten with a cream muzzle and chest, three darker forehead stripes, green eyes, and a sky-blue collar with a round gold tag"
+    }
+  },
+  "settingBible": {
+    "Willow Lane": "A cozy vehicle village with a small clinic, flower boxes, rounded cottages, a duck pond, willow trees, and warm lanterns",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle evening colors, and no readable text"
+  },
+  "continuityRules": [
+    "Amy keeps the same coral-red, creamy white, and pale teal color blocking on every page.",
+    "Amy always has hazel windshield eyes, four matching wheels, amber roof lights, silver mirrors, and pale teal heart badges.",
+    "Amy and every vehicle have no human-like arms or hands.",
+    "Miso remains a tiny ginger kitten with a cream muzzle and chest, three forehead stripes, green eyes, and a sky-blue collar.",
+    "The lavender blanket appears only after Amy opens her rear door on Page 6 and stays with Miso through Page 14.",
+    "The sky progresses from golden evening to lavender dusk, light rain, clearing twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {"number":1,"text":"One warm evening, Amy the Ambulance finished her gentle check around Willow Lane. Her amber lights glowed softly.","illustrationScene":"Amy rolls away from the little clinic into Willow Lane at golden evening, with flower boxes and round cottages behind her.","requiredCharacters":["Amy"],"timeOfDay":"golden evening","continuityNotes":"Establish Amy's exact coral-red and creamy white color blocking, pale teal trim, hazel windshield eyes, four matching wheels, amber roof lights, and silver mirrors."},
+    {"number":2,"text":"Near the library garden, Amy heard a tiny yawn. A ginger kitten sat beneath a bench, blinking his sleepy green eyes.","illustrationScene":"Amy pauses beside a garden bench where Miso sits under hanging purple flowers, yawning in the mellow evening light.","requiredCharacters":["Amy","Miso"],"timeOfDay":"early evening","continuityNotes":"Introduce Miso's ginger fur, cream muzzle and chest, three forehead stripes, green eyes, blue collar, and gold tag. No blanket yet."},
+    {"number":3,"text":"“I’m Miso,” the kitten murmured. “But I played too long, and now I’m too tired to walk home.”","illustrationScene":"Miso sits beside Amy's front wheel and looks toward a distant hill of cottages while Amy listens with a caring expression.","requiredCharacters":["Amy","Miso"],"timeOfDay":"early evening","continuityNotes":"Keep their scale consistent: Miso is shorter than Amy's wheel. Amy remains parked with roof lights softly glowing."},
+    {"number":4,"text":"“I can help you get there safely,” said Amy. She checked the quiet road toward Miso’s little blue cottage.","illustrationScene":"Amy faces a curving lane toward a small blue cottage on a distant hill, while Miso points with his nose from beside the bench.","requiredCharacters":["Amy","Miso"],"timeOfDay":"soft evening","continuityNotes":"The destination is a small rounded blue cottage with a yellow door and crescent-shaped weathervane; repeat it on Pages 12-15."},
+    {"number":5,"text":"A cool breeze rustled the willow leaves. Plip, plip—two raindrops landed on Amy’s shiny hood.","illustrationScene":"A breeze bends willow branches over Amy and Miso as the first two raindrops bead on Amy's hood and the sky turns lavender.","requiredCharacters":["Amy","Miso"],"timeOfDay":"lavender dusk","continuityNotes":"Begin the gentle weather transition. Miso remains outside without the blanket; Amy's surfaces are only lightly damp."},
+    {"number":6,"text":"Amy opened her rear door and lowered the little ramp. Inside waited a soft lavender blanket.","illustrationScene":"Amy is shown in a rear three-quarter view with one rear door open and a short ramp lowered, revealing a neatly folded lavender blanket inside.","requiredCharacters":["Amy","Miso"],"timeOfDay":"lavender dusk","continuityNotes":"Amy still has no arms or hands. Show the same body colors and wheels from a new angle; introduce the lavender blanket."},
+    {"number":7,"text":"Miso padded up the ramp and curled onto the blanket. “This feels cozy,” he purred.","illustrationScene":"Miso walks up Amy's lowered ramp toward the lavender blanket, with his tail curved happily and light rain sparkling around them.","requiredCharacters":["Amy","Miso"],"timeOfDay":"rainy dusk","continuityNotes":"Keep Miso's collar and markings visible. The blanket stays inside Amy and remains lavender."},
+    {"number":8,"text":"Amy rolled slowly along the lantern path. The gentle rain made tiny silver circles in the puddles.","illustrationScene":"Amy drives along a lantern-lined lane with Miso visible through a side window, while small round puddles ripple in gentle rain.","requiredCharacters":["Amy","Miso"],"timeOfDay":"rainy dusk","continuityNotes":"Amy's amber lights are soft, not flashing brightly. Miso is wrapped loosely in the lavender blanket inside."},
+    {"number":9,"text":"At the duck pond, a fallen branch blocked the lane. Amy stopped with plenty of room to spare.","illustrationScene":"Amy stops safely before a leafy branch lying across the narrow pond lane, with ducks sheltered under reeds and Miso watching through the window.","requiredCharacters":["Amy","Miso"],"timeOfDay":"rainy twilight","continuityNotes":"Show a small leafy branch, not danger or damage. Amy and Miso keep their exact established appearance."},
+    {"number":10,"text":"Amy spotted a smooth path around the pond. “We can take the quiet way,” she said.","illustrationScene":"From the stopped position, Amy looks toward a safe curved path of pale stones around the pond as the rain begins to ease.","requiredCharacters":["Amy","Miso"],"timeOfDay":"clearing twilight","continuityNotes":"The blocked lane stays behind Amy; the alternate path is clearly separate, safe, broad, and single-scene."},
+    {"number":11,"text":"Around the pond they went, past sleepy ducks and shining reeds. Miso’s purr became a soft little rumble.","illustrationScene":"Amy follows the pale stone path beside the pond, passing drowsy ducks and wet reeds under a clearing violet sky.","requiredCharacters":["Amy","Miso"],"timeOfDay":"violet twilight","continuityNotes":"Miso remains visible inside with the lavender blanket; use the same pond and path geography introduced on Pages 9-10."},
+    {"number":12,"text":"Soon the little blue cottage appeared beyond the willow trees. Its yellow porch light shone like a star.","illustrationScene":"Amy emerges from the willow-lined path and approaches Miso's rounded blue cottage with yellow door, crescent weathervane, and glowing porch light.","requiredCharacters":["Amy","Miso"],"timeOfDay":"blue twilight","continuityNotes":"Match the destination established on Page 4. The rain has stopped, and droplets still glimmer on Amy."},
+    {"number":13,"text":"Miso’s mama hurried onto the porch. “You brought my sleepy kitten home,” she said with a grateful smile.","illustrationScene":"A slightly larger ginger mother cat with a cream chest waits on the cottage porch as Amy lowers her ramp and Miso looks up sleepily.","requiredCharacters":["Amy","Miso","Miso's mama"],"timeOfDay":"blue twilight","continuityNotes":"Miso's mama resembles Miso but has no collar and only two forehead stripes. Amy's ramp and lavender blanket match Pages 6-7."},
+    {"number":14,"text":"Miso carried the lavender blanket to his basket by the window. “Thank you for the cozy ride, Amy.”","illustrationScene":"Through the open cottage doorway, Miso settles with the lavender blanket in a round basket by the window while Amy smiles from the porch path.","requiredCharacters":["Amy","Miso","Miso's mama"],"timeOfDay":"moonrise","continuityNotes":"The same lavender blanket moves with Miso into the cottage. Amy remains outside; her rear door is now closed."},
+    {"number":15,"text":"That night, Amy rested beneath the quiet moon. In the blue cottage, Miso dreamed warm and snug. Goodnight, Amy, and goodnight, Miso.","illustrationScene":"Amy rests on the lane beneath a crescent moon while the blue cottage glows softly and sleeping Miso is visible in his window basket.","requiredCharacters":["Amy","Miso"],"timeOfDay":"moonlit night","continuityNotes":"Bedtime ending: Amy keeps all locked features, Miso sleeps with the lavender blanket, and the cottage matches Pages 4 and 12-14."}
+  ]
+}

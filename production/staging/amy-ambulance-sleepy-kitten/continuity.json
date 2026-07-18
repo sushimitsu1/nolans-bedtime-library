@@ -1,0 +1,19 @@
+{
+  "storySlug": "amy-ambulance-sleepy-kitten",
+  "locked": true,
+  "mainCharacter": {
+    "name": "Amy",
+    "vehicleColor": "warm coral-red lower body, creamy white upper body, pale teal trim",
+    "bodyShape": "compact rounded box ambulance, short hood, softly curved corners, no arms or hands",
+    "eyesAndFace": "large hazel windshield eyes with soft lashes; small friendly grille smile",
+    "wheels": "four dark charcoal tires, cream hubcaps, pale teal center dots",
+    "accessories": "small amber roof light bar, pale teal heart badges, silver mirrors, lavender blanket inside"
+  },
+  "supportingCharacters": {
+    "Miso": "tiny ginger kitten, cream muzzle and chest, three forehead stripes, green eyes, sky-blue collar, round gold tag",
+    "Miso's mama": "larger ginger cat, cream chest, two forehead stripes, no collar"
+  },
+  "setting": "Willow Lane vehicle village; clinic, library garden, willow-lined duck pond, pale stone path, rounded blue cottage with yellow door and crescent weathervane",
+  "style": "warm polished 3D children's illustration; true 4:3 landscape; one scene; soft rounded forms; no text, badge, logo, watermark, collage, grid, or panels",
+  "referenceImage": "production/staging/amy-ambulance-sleepy-kitten/character-reference.webp"
+}
