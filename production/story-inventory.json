@@ -33,7 +33,7 @@
     {"title":"Sparkle Smash","slug":"sparkle-smash","category":"Monster Trucks","status":"not_started","published":false,"dateAdded":null,"notes":"Approved future Monster Jam pool; final story title not yet defined."},
     {"title":"Scooby-Doo","slug":"scooby-doo","category":"Monster Trucks","status":"not_started","published":false,"dateAdded":null,"notes":"Approved future Monster Jam pool; final story title not yet defined."},
     {"title":"Amy the Ambulance and the Sleepy Kitten","slug":"amy-ambulance-sleepy-kitten","category":"Emergency Vehicles","status":"published","published":true,"dateAdded":"2026-07-17","notes":"Autonomous pilot story; published with structured source, narration, raw illustrations, and validated final assets."},
-    {"title":"Heli the Rescue Helicopter and the Mountain Picnic","slug":"heli-rescue-helicopter-mountain-picnic","category":"Emergency Vehicles","status":"not_started","published":false,"dateAdded":null,"notes":"Approved planned non-monster story."},
+    {"title":"Heli the Rescue Helicopter and the Mountain Picnic","slug":"heli-rescue-helicopter-mountain-picnic","category":"Emergency Vehicles","status":"published","published":true,"dateAdded":"2026-07-17","notes":"Integrated full-bleed pilot; published with structured source, narration, locked continuity, same-story raw illustrations, and validated final assets."},
     {"title":"Cora the Crane Truck and the Wobbly Sign","slug":"cora-crane-truck-wobbly-sign","category":"Construction Vehicles","status":"not_started","published":false,"dateAdded":null,"notes":"Approved planned title; distinct from the published Cranky story unless explicitly reconciled."}
   ]
 }

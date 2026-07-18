@@ -611,6 +611,29 @@ narration: [
   "Miso carried the lavender blanket to his basket by the window. “Thank you for the cozy ride, Amy.”",
   "That night, Amy rested beneath the quiet moon. In the blue cottage, Miso dreamed warm and snug. Goodnight, Amy, and goodnight, Miso."
 ]
+},
+{
+id: 'heli-rescue-helicopter-mountain-picnic', title: 'Heli the Rescue Helicopter and the Mountain Picnic', category: 'Emergency Vehicles',
+description: 'Heli carries a picnic basket over a blocked mountain trail and finds a calm path through the mist.',
+keywords: ['heli','rescue helicopter','mountain picnic','piper','park ranger pickup','lookout meadow','goat','rabbit','waterfall','mist','emergency vehicle'],
+cover: 'assets/books/heli-rescue-helicopter-mountain-picnic/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/heli-rescue-helicopter-mountain-picnic/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Early one sunny morning, Heli the Rescue Helicopter woke at the Sunrise Valley rescue pad. His yellow body gleamed.",
+  "Piper the Park Ranger Pickup rolled in with a picnic basket. “The meadow trail is blocked, and our mountain friends need help,” she said.",
+  "Heli looked toward the high green meadow. “I can carry the picnic safely over the rocks,” he promised.",
+  "First, Heli checked the breeze, his rotor, and the clear blue sky. Everything was ready for a gentle flight.",
+  "Piper fastened the basket into Heli’s blue cargo sling. Heli lifted it smoothly above the soft grass.",
+  "Up Heli flew above the pine forest. The little basket swayed as softly as a sleepy swing.",
+  "Near the mountain, a ribbon of pearly mist drifted across Heli’s usual route. Heli slowed and hovered.",
+  "Heli listened for the little waterfall beside Lookout Meadow. Splash and sparkle showed him a clearer way.",
+  "Heli followed the waterfall around the misty ridge. Beyond the last pine tree, warm sunlight opened ahead.",
+  "There was Lookout Meadow, bright with purple flowers. The little goat and rabbit waved from a clear landing spot.",
+  "Heli lowered the basket onto the meadow together with one careful hover. The picnic arrived safe and snug.",
+  "The goat opened the basket while the rabbit spread the coral picnic cloth. Sweet berries and tiny sandwiches were ready to share.",
+  "Piper reached the meadow by the newly cleared trail. Everyone cheered for Heli’s calm and clever flight.",
+  "As the sun turned peach and gold, Heli flew home above the quiet pines. Lookout Meadow glowed behind him.",
+  "That night, Heli rested beneath a silver moon. “Goodnight, mountain friends,” he whispered, and closed his sleepy eyes."
+]
 }
 ];
 

@@ -1,0 +1,20 @@
+{
+  "storySlug": "heli-rescue-helicopter-mountain-picnic",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Heli",
+    "vehicleColor": "sunshine yellow, white nose, sky-blue lower stripe, coral-red tail tip",
+    "bodyShape": "compact rounded helicopter cabin, short tail boom, four-blade charcoal rotor",
+    "eyesAndFace": "large warm-brown windshield eyes, soft brows, small friendly smile",
+    "landingGear": "two short silver skids with dark charcoal foot pads",
+    "accessories": "blue beacon, silver mirrors, sky-blue heart emblem; blue cargo sling only on Pages 5-11",
+    "forbidden": "human-like arms or hands, readable text, logos, extra rotors, wheels"
+  },
+  "supportingCharacters": {
+    "Piper": "forest-green compact pickup, cream roof, amber windshield eyes, tan bumpers, four black tires, pine-tree emblem",
+    "Mountain friends": "one small white goat with gray horns and one cinnamon-brown rabbit with upright ears"
+  },
+  "setting": "Sunrise Valley rescue pad, pine mountains, pearly mist, silver waterfall, and purple-flowered Lookout Meadow",
+  "propContinuity": "Honey-brown basket with coral cloth; blue cargo sling visible only while Heli carries or lowers the basket on Pages 5-11.",
+  "safeZone": "Every page keeps characters, faces, vehicle features, animals, required objects, and story action above y=760; bottom area is only low-detail grass, stone, water, or sky reflection."
+}

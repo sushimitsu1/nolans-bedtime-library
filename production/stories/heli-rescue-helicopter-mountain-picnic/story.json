@@ -1,0 +1,161 @@
+{
+  "title": "Heli the Rescue Helicopter and the Mountain Picnic",
+  "slug": "heli-rescue-helicopter-mountain-picnic",
+  "category": "Emergency Vehicles",
+  "description": "Heli carries a picnic basket over a blocked mountain trail and finds a calm path through the mist.",
+  "characterBible": {
+    "Heli": {
+      "role": "Main character; a careful, kind mountain rescue helicopter",
+      "color": "Sunshine-yellow rounded body with a white nose, sky-blue lower stripe, and coral-red tail tip",
+      "bodyShape": "Compact friendly helicopter with a bulbous cabin, short tail boom, one large four-blade charcoal rotor, and no arms or hands",
+      "face": "Two large warm-brown windshield eyes with soft brows and a small friendly smile below the glass",
+      "landingGear": "Two short silver skids with dark charcoal foot pads",
+      "accessories": "Small blue rescue beacon, silver side mirrors, round sky-blue heart emblem, and a blue cargo sling carried only on delivery pages"
+    },
+    "Piper": {
+      "role": "Supporting character; a practical little park ranger pickup",
+      "appearance": "Forest-green compact pickup with cream roof, amber windshield eyes, tan bumpers, four black tires, and a small pine-tree emblem with no readable text"
+    },
+    "Mountain friends": {
+      "role": "Picnic guests at Lookout Meadow",
+      "appearance": "One small white mountain goat with gray horns and one cinnamon-brown rabbit with long upright ears"
+    }
+  },
+  "settingBible": {
+    "Sunrise Valley Rescue Pad": "A round pale-stone helipad beside a tiny red-roofed rescue shed, wildflowers, pine trees, and distant blue mountains",
+    "Lookout Meadow": "A high green meadow with purple lupines, smooth gray rocks, a little waterfall, and a wide view across layered mountains",
+    "visualStyle": "Warm polished 3D children's illustration with rounded forms, soft cinematic light, clean single-scene composition, and no readable text"
+  },
+  "continuityRules": [
+    "Heli keeps the same yellow, white, sky-blue, and coral-red color blocking on every page.",
+    "Heli always has warm-brown windshield eyes, four charcoal rotor blades, silver skids, blue beacon, side mirrors, and one sky-blue heart emblem.",
+    "Heli and every vehicle have no human-like arms or hands.",
+    "Piper remains forest green with a cream roof, tan bumpers, amber windshield eyes, four matching tires, and a pine-tree emblem.",
+    "The picnic basket is woven honey-brown with a coral cloth tucked beneath its lid and hangs from the same blue cargo sling on Pages 5-11.",
+    "The mountain goat remains small and white with gray horns; the rabbit remains cinnamon brown with upright ears.",
+    "The day progresses from clear sunrise to bright morning, pearly mist, warm afternoon, sunset, and calm moonlit night.",
+    "Every illustration is a single full-bleed 4:3 scene with the bottom 25-30 percent reserved for low-detail scenery and no text, badge, panel, logo, watermark, collage, or grid."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Early one sunny morning, Heli the Rescue Helicopter woke at the Sunrise Valley rescue pad. His yellow body gleamed.",
+      "illustrationScene": "Heli rests on the pale-stone rescue pad at sunrise, with the red-roofed shed, flowers, pines, and distant mountains behind him.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "sunrise",
+      "continuityNotes": "Establish Heli's exact yellow body, white nose, blue lower stripe, coral tail tip, brown windshield eyes, charcoal rotor, silver skids, beacon, mirrors, and heart emblem."
+    },
+    {
+      "number": 2,
+      "text": "Piper the Park Ranger Pickup rolled in with a picnic basket. “The meadow trail is blocked, and our mountain friends need help,” she said.",
+      "illustrationScene": "Piper arrives beside Heli carrying the woven picnic basket in her open truck bed while a small safe rockfall is visible far up the empty trail.",
+      "requiredCharacters": ["Heli", "Piper"],
+      "timeOfDay": "early morning",
+      "continuityNotes": "Introduce Piper's green body, cream roof, amber eyes, tan bumpers, black tires, and pine emblem. Show the honey-brown basket with coral cloth."
+    },
+    {
+      "number": 3,
+      "text": "Heli looked toward the high green meadow. “I can carry the picnic safely over the rocks,” he promised.",
+      "illustrationScene": "Heli and Piper look toward Lookout Meadow high above the blocked trail, with Heli smiling confidently and the basket between them.",
+      "requiredCharacters": ["Heli", "Piper"],
+      "timeOfDay": "early morning",
+      "continuityNotes": "Keep both vehicles at established scale; Heli remains grounded and the basket is not attached yet."
+    },
+    {
+      "number": 4,
+      "text": "First, Heli checked the breeze, his rotor, and the clear blue sky. Everything was ready for a gentle flight.",
+      "illustrationScene": "Heli performs a calm preflight check on the rescue pad as a windsock moves lightly and Piper waits beside the basket.",
+      "requiredCharacters": ["Heli", "Piper"],
+      "timeOfDay": "bright morning",
+      "continuityNotes": "Rotor is still or turning very slowly; show no hands, tools, readable signs, or extra rescue gear."
+    },
+    {
+      "number": 5,
+      "text": "Piper fastened the basket into Heli’s blue cargo sling. Heli lifted it smoothly above the soft grass.",
+      "illustrationScene": "Heli hovers low above the pad with the picnic basket secured in a blue sling below his cabin while Piper watches proudly from a safe distance.",
+      "requiredCharacters": ["Heli", "Piper"],
+      "timeOfDay": "bright morning",
+      "continuityNotes": "Introduce the blue sling and keep the basket closed, level, and clearly below Heli; place all subjects well above the bottom safe zone."
+    },
+    {
+      "number": 6,
+      "text": "Up Heli flew above the pine forest. The little basket swayed as softly as a sleepy swing.",
+      "illustrationScene": "Heli flies over rounded pine treetops with the secured basket hanging steadily beneath him and the valley rescue pad shrinking behind.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "midmorning",
+      "continuityNotes": "Keep Heli and the full sling visible against open sky; basket remains closed with coral cloth tucked inside."
+    },
+    {
+      "number": 7,
+      "text": "Near the mountain, a ribbon of pearly mist drifted across Heli’s usual route. Heli slowed and hovered.",
+      "illustrationScene": "Heli pauses before a gentle band of pearly mist between two pine-covered slopes, with the basket steady beneath him.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "late morning",
+      "continuityNotes": "Mist is calm and nonthreatening; Heli stays outside it with alert brown eyes and unchanged colors."
+    },
+    {
+      "number": 8,
+      "text": "Heli listened for the little waterfall beside Lookout Meadow. Splash and sparkle showed him a clearer way.",
+      "illustrationScene": "Heli turns toward a visible silver waterfall beyond the mist, following a sunlit gap while the blue sling remains vertical.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "late morning",
+      "continuityNotes": "Show the waterfall as the new landmark and maintain the same basket, sling, rotor, skids, and heart emblem."
+    },
+    {
+      "number": 9,
+      "text": "Heli followed the waterfall around the misty ridge. Beyond the last pine tree, warm sunlight opened ahead.",
+      "illustrationScene": "Heli rounds the final pine-covered ridge beside the waterfall, leaving mist behind as bright meadow light appears beyond the frame direction of travel.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "near noon",
+      "continuityNotes": "Bridge naturally into Page 10: waterfall and final pine mark the ridge, with open sunlit meadow immediately ahead."
+    },
+    {
+      "number": 10,
+      "text": "There was Lookout Meadow, bright with purple flowers. The little goat and rabbit waved from a clear landing spot.",
+      "illustrationScene": "Heli emerges from beside the same waterfall into Lookout Meadow where the white goat and cinnamon rabbit wait near a clear grassy landing area.",
+      "requiredCharacters": ["Heli", "Mountain friends"],
+      "timeOfDay": "noon",
+      "continuityNotes": "Continue Page 9 geography with waterfall behind Heli; introduce the goat and rabbit at consistent small scale above the safe zone."
+    },
+    {
+      "number": 11,
+      "text": "Heli lowered the basket onto the meadow together with one careful hover. The picnic arrived safe and snug.",
+      "illustrationScene": "Heli hovers over the clear meadow as the basket gently touches the grass, with the goat and rabbit watching from a safe distance.",
+      "requiredCharacters": ["Heli", "Mountain friends"],
+      "timeOfDay": "early afternoon",
+      "continuityNotes": "Basket is still in the blue sling at touchdown; keep rotor, skids, faces, friends, and basket above the text-safe boundary."
+    },
+    {
+      "number": 12,
+      "text": "The goat opened the basket while the rabbit spread the coral picnic cloth. Sweet berries and tiny sandwiches were ready to share.",
+      "illustrationScene": "The goat and rabbit arrange berries and small sandwiches on the coral cloth in the meadow while Heli rests nearby and the empty blue sling is neatly reeled up.",
+      "requiredCharacters": ["Heli", "Mountain friends"],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "Basket is open, coral cloth is spread, and Heli's sling is no longer hanging; keep food simple and all key objects above the safe zone."
+    },
+    {
+      "number": 13,
+      "text": "Piper reached the meadow by the newly cleared trail. Everyone cheered for Heli’s calm and clever flight.",
+      "illustrationScene": "Piper rolls into Lookout Meadow on the cleared trail as Heli, the goat, and the rabbit greet her beside the picnic.",
+      "requiredCharacters": ["Heli", "Piper", "Mountain friends"],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Reintroduce Piper unchanged; show the cleared trail without workers or machinery, and keep the picnic arrangement consistent."
+    },
+    {
+      "number": 14,
+      "text": "As the sun turned peach and gold, Heli flew home above the quiet pines. Lookout Meadow glowed behind him.",
+      "illustrationScene": "Heli flies alone toward Sunrise Valley at sunset, with peach clouds, darkening pines below, and the glowing meadow far behind.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "sunset",
+      "continuityNotes": "No basket or sling hangs beneath Heli; preserve every locked feature in warm sunset light."
+    },
+    {
+      "number": 15,
+      "text": "That night, Heli rested beneath a silver moon. “Goodnight, mountain friends,” he whispered, and closed his sleepy eyes.",
+      "illustrationScene": "Heli rests on the Sunrise Valley rescue pad beneath a silver crescent moon, eyes closed, with the little shed warmly lit and mountains sleeping beyond.",
+      "requiredCharacters": ["Heli"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Return to the Page 1 rescue pad; Heli has no sling, keeps all locked features, and ends in a calm bedtime pose."
+    }
+  ]
+}

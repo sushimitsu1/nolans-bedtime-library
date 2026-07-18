@@ -1,0 +1,1033 @@
+{
+  "storySlug": "heli-rescue-helicopter-mountain-picnic",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\cover.webp",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-01.webp",
+      "text": "Early one sunny morning, Heli the Rescue Helicopter woke at the Sunrise Valley rescue pad. His yellow body gleamed.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            275,
+            90,
+            1160,
+            690
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-02.webp",
+      "text": "Piper the Park Ranger Pickup rolled in with a picnic basket. “The meadow trail is blocked, and our mountain friends need help,” she said.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            180,
+            230,
+            770,
+            650
+          ]
+        },
+        {
+          "label": "Piper",
+          "box": [
+            700,
+            350,
+            1320,
+            705
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            1090,
+            390,
+            1210,
+            520
+          ]
+        },
+        {
+          "label": "blocked trail",
+          "box": [
+            1020,
+            200,
+            1370,
+            430
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-03.webp",
+      "text": "Heli looked toward the high green meadow. “I can carry the picnic safely over the rocks,” he promised.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            120,
+            180,
+            670,
+            570
+          ]
+        },
+        {
+          "label": "Piper",
+          "box": [
+            790,
+            300,
+            1230,
+            580
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            645,
+            430,
+            785,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-04.webp",
+      "text": "First, Heli checked the breeze, his rotor, and the clear blue sky. Everything was ready for a gentle flight.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            180,
+            80,
+            960,
+            640
+          ]
+        },
+        {
+          "label": "Piper",
+          "box": [
+            880,
+            300,
+            1400,
+            640
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            820,
+            520,
+            940,
+            650
+          ]
+        },
+        {
+          "label": "windsock",
+          "box": [
+            40,
+            200,
+            200,
+            350
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-05.webp",
+      "text": "Piper fastened the basket into Heli’s blue cargo sling. Heli lifted it smoothly above the soft grass.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            540,
+            50,
+            1040,
+            390
+          ]
+        },
+        {
+          "label": "Piper",
+          "box": [
+            950,
+            480,
+            1330,
+            715
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            690,
+            450,
+            840,
+            570
+          ]
+        },
+        {
+          "label": "blue cargo sling",
+          "box": [
+            690,
+            320,
+            840,
+            570
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-06.webp",
+      "text": "Up Heli flew above the pine forest. The little basket swayed as softly as a sleepy swing.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            470,
+            50,
+            1130,
+            510
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            710,
+            520,
+            860,
+            720
+          ]
+        },
+        {
+          "label": "blue cargo sling",
+          "box": [
+            710,
+            430,
+            860,
+            720
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-07.webp",
+      "text": "Near the mountain, a ribbon of pearly mist drifted across Heli’s usual route. Heli slowed and hovered.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            330,
+            20,
+            1160,
+            580
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            750,
+            570,
+            940,
+            730
+          ]
+        },
+        {
+          "label": "blue cargo sling",
+          "box": [
+            750,
+            520,
+            940,
+            730
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-08.webp",
+      "text": "Heli listened for the little waterfall beside Lookout Meadow. Splash and sparkle showed him a clearer way.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            250,
+            80,
+            690,
+            430
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            375,
+            440,
+            500,
+            605
+          ]
+        },
+        {
+          "label": "blue cargo sling",
+          "box": [
+            375,
+            390,
+            500,
+            605
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-09.webp",
+      "text": "Heli followed the waterfall around the misty ridge. Beyond the last pine tree, warm sunlight opened ahead.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            450,
+            120,
+            880,
+            430
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            580,
+            450,
+            710,
+            590
+          ]
+        },
+        {
+          "label": "blue cargo sling",
+          "box": [
+            580,
+            390,
+            710,
+            590
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-10.webp",
+      "text": "There was Lookout Meadow, bright with purple flowers. The little goat and rabbit waved from a clear landing spot.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            320,
+            80,
+            1050,
+            600
+          ]
+        },
+        {
+          "label": "Mountain friends",
+          "box": [
+            965,
+            310,
+            1375,
+            675
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            610,
+            465,
+            790,
+            650
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-11.webp",
+      "text": "Heli lowered the basket onto the meadow together with one careful hover. The picnic arrived safe and snug.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            255,
+            55,
+            1060,
+            590
+          ]
+        },
+        {
+          "label": "Mountain friends",
+          "box": [
+            970,
+            315,
+            1390,
+            690
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            645,
+            480,
+            835,
+            675
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-12.webp",
+      "text": "The goat opened the basket while the rabbit spread the coral picnic cloth. Sweet berries and tiny sandwiches were ready to share.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            590,
+            65,
+            1300,
+            600
+          ]
+        },
+        {
+          "label": "Mountain friends",
+          "box": [
+            245,
+            350,
+            960,
+            715
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            425,
+            475,
+            650,
+            650
+          ]
+        },
+        {
+          "label": "picnic food",
+          "box": [
+            250,
+            570,
+            815,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-13.webp",
+      "text": "Piper reached the meadow by the newly cleared trail. Everyone cheered for Heli’s calm and clever flight.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            655,
+            75,
+            1290,
+            570
+          ]
+        },
+        {
+          "label": "Piper",
+          "box": [
+            75,
+            235,
+            650,
+            625
+          ]
+        },
+        {
+          "label": "Mountain friends",
+          "box": [
+            1230,
+            305,
+            1440,
+            610
+          ]
+        },
+        {
+          "label": "picnic basket",
+          "box": [
+            1160,
+            475,
+            1360,
+            625
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-14.webp",
+      "text": "As the sun turned peach and gold, Heli flew home above the quiet pines. Lookout Meadow glowed behind him.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            390,
+            45,
+            1090,
+            530
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production\\staging\\heli-rescue-helicopter-mountain-picnic\\illustrations\\page-15.webp",
+      "text": "That night, Heli rested beneath a silver moon. “Goodnight, mountain friends,” he whispered, and closed his sleepy eyes.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Heli",
+          "box": [
+            510,
+            95,
+            1215,
+            580
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
