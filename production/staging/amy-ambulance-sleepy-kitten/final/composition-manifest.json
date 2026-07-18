@@ -6,112 +6,362 @@
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\cover.webp",
       "text": null,
       "pageBadge": null,
-      "panel": false
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
     },
     {
       "file": "page-01.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-01.webp",
       "text": "One warm evening, Amy the Ambulance finished her gentle check around Willow Lane. Her amber lights glowed softly.",
       "pageBadge": 1,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-02.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-02.webp",
       "text": "Near the library garden, Amy heard a tiny yawn. A ginger kitten sat beneath a bench, blinking his sleepy green eyes.",
       "pageBadge": 2,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-03.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-03.webp",
       "text": "“I’m Miso,” the kitten murmured. “But I played too long, and now I’m too tired to walk home.”",
       "pageBadge": 3,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-04.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-04.webp",
       "text": "“I can help you get there safely,” said Amy. She checked the quiet road toward Miso’s little blue cottage.",
       "pageBadge": 4,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-05.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-05.webp",
       "text": "A cool breeze rustled the willow leaves. Plip, plip—two raindrops landed on Amy’s shiny hood.",
       "pageBadge": 5,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-06.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-06.webp",
       "text": "Amy opened her rear door and lowered the little ramp. Inside waited a soft lavender blanket.",
       "pageBadge": 6,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-07.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-07.webp",
       "text": "Miso padded up the ramp and curled onto the blanket. “This feels cozy,” he purred.",
       "pageBadge": 7,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-08.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-08.webp",
       "text": "Amy rolled slowly along the lantern path. The gentle rain made tiny silver circles in the puddles.",
       "pageBadge": 8,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-09.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-09.webp",
       "text": "At the duck pond, a fallen branch blocked the lane. Amy stopped with plenty of room to spare.",
       "pageBadge": 9,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-10.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-10.webp",
       "text": "Amy spotted a smooth path around the pond. “We can take the quiet way,” she said.",
       "pageBadge": 10,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-11.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-11.webp",
       "text": "Around the pond they went, past sleepy ducks and shining reeds. Miso’s purr became a soft little rumble.",
       "pageBadge": 11,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-12.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-12.webp",
       "text": "Soon the little blue cottage appeared beyond the willow trees. Its yellow porch light shone like a star.",
       "pageBadge": 12,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-13.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-13.webp",
       "text": "Miso’s mama hurried onto the porch. “You brought my sleepy kitten home,” she said with a grateful smile.",
       "pageBadge": 13,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-14.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-14.webp",
       "text": "Miso carried the lavender blanket to his basket by the window. “Thank you for the cozy ride, Amy.”",
       "pageBadge": 14,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     },
     {
       "file": "page-15.webp",
       "sourceIllustration": "production\\staging\\amy-ambulance-sleepy-kitten\\illustrations\\page-15.webp",
       "text": "That night, Amy rested beneath the quiet moon. In the blue cottage, Miso dreamed warm and snug. Goodnight, Amy, and goodnight, Miso.",
       "pageBadge": 15,
-      "panel": true
+      "panel": true,
+      "layout": "separate_illustration_and_text",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        815
+      ],
+      "textAreaBox": [
+        0,
+        815,
+        1448,
+        1086
+      ],
+      "overlap": false,
+      "textFits": true,
+      "fontSize": 44
     }
   ]
 }

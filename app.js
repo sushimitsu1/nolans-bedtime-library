@@ -628,6 +628,10 @@ const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance
 let narrationUtterance = null;
 let narrationActive = false;
 let narrationPaused = false;
+let readAlongEnabled = false;
+let readAlongStoryId = null;
+let narrationGeneration = 0;
+let pageRenderGeneration = 0;
 const storage = {
   favorites: 'nolan:favorites',
   fontSize: 'nolan:font-size',
@@ -649,7 +653,7 @@ let highContrast = localStorage.getItem(storage.highContrast)==='true';
 let timerEndsAt = Number(localStorage.getItem(storage.timerEndsAt)) || 0;
 
 function showView(view){
-  if(view!=='reader') stopNarration();
+  if(view!=='reader') stopNarration({disableReadAlong:true});
   ['library','reader','finished'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
 }
@@ -677,7 +681,7 @@ function updateNarrationControls(){
   $('readPageButton').disabled=!speechSupported || !hasText;
   $('pauseNarrationButton').disabled=!speechSupported || !hasText || !narrationActive;
   $('restartNarrationButton').disabled=!speechSupported || !hasText;
-  $('stopNarrationButton').disabled=!speechSupported || !narrationActive;
+  $('stopNarrationButton').disabled=!speechSupported || (!narrationActive && !readAlongEnabled);
   $('narrationUnsupported').hidden=speechSupported;
   $('narrationUnavailable').hidden=!speechSupported || currentPage<0 || hasText;
 }
@@ -692,7 +696,12 @@ function preferredNarrationVoice(){
     || null;
 }
 
-function stopNarration(){
+function stopNarration({disableReadAlong=false}={}){
+  narrationGeneration++;
+  if(disableReadAlong){
+    readAlongEnabled=false;
+    readAlongStoryId=null;
+  }
   const hadNarration=narrationActive || narrationUtterance;
   narrationUtterance=null;
   narrationActive=false;
@@ -702,10 +711,15 @@ function stopNarration(){
   updateNarrationControls();
 }
 
-function readCurrentPage(){
+function readCurrentPage({enableReadAlong=true}={}){
+  if(enableReadAlong && activeStory){
+    readAlongEnabled=true;
+    readAlongStoryId=activeStory.id;
+  }
   const text=getCurrentNarrationText();
-  if(!speechSupported || !text) return;
+  if(!speechSupported || !text){ updateNarrationControls(); return; }
   stopNarration();
+  const generation=narrationGeneration;
   const utterance=new SpeechSynthesisUtterance(text);
   utterance.lang='en-US';
   utterance.rate=.85;
@@ -716,11 +730,11 @@ function readCurrentPage(){
   narrationUtterance=utterance;
   narrationActive=true;
   narrationPaused=false;
-  utterance.onstart=()=>{ if(narrationUtterance===utterance){ setNarrationState('Reading'); updateNarrationControls(); } };
-  utterance.onpause=()=>{ if(narrationUtterance===utterance){ narrationPaused=true; setNarrationState('Paused'); updateNarrationControls(); } };
-  utterance.onresume=()=>{ if(narrationUtterance===utterance){ narrationPaused=false; setNarrationState('Reading'); updateNarrationControls(); } };
-  utterance.onend=()=>{ if(narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
-  utterance.onerror=()=>{ if(narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
+  utterance.onstart=()=>{ if(narrationGeneration===generation && narrationUtterance===utterance){ setNarrationState('Reading'); updateNarrationControls(); } };
+  utterance.onpause=()=>{ if(narrationGeneration===generation && narrationUtterance===utterance){ narrationPaused=true; setNarrationState('Paused'); updateNarrationControls(); } };
+  utterance.onresume=()=>{ if(narrationGeneration===generation && narrationUtterance===utterance){ narrationPaused=false; setNarrationState('Reading'); updateNarrationControls(); } };
+  utterance.onend=()=>{ if(narrationGeneration===generation && narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
+  utterance.onerror=()=>{ if(narrationGeneration===generation && narrationUtterance===utterance){ narrationUtterance=null; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
   setNarrationState('Reading');
   updateNarrationControls();
   window.speechSynthesis.speak(utterance);
@@ -745,7 +759,7 @@ function restartCurrentPageNarration(){
   const page=currentPage;
   if(!speechSupported || !getCurrentNarrationText()) return;
   stopNarration();
-  setTimeout(()=>{ if(activeStory?.id===storyId && currentPage===page) readCurrentPage(); },0);
+  setTimeout(()=>{ if(activeStory?.id===storyId && currentPage===page) readCurrentPage({enableReadAlong:false}); },0);
 }
 
 function isFavorite(story){ return favoriteIds.has(story.id); }
@@ -798,7 +812,7 @@ function getProgressLabel(story){
 }
 
 function openStory(id){
-  stopNarration();
+  stopNarration({disableReadAlong:true});
   const story = stories.find(item=>item.id===id);
   if(!story) return;
   if($('libraryView').classList.contains('active')) libraryScrollY=window.scrollY;
@@ -811,14 +825,34 @@ function openStory(id){
   setTimeout(()=>$('bookStage').focus(),100);
 }
 
-function renderPage(){
+function renderPage({autoRead=false}={}){
   if(!activeStory) return;
   stopNarration();
+  const renderGeneration=++pageRenderGeneration;
+  const renderedStoryId=activeStory.id;
+  const renderedPage=currentPage;
   const isCover=currentPage===-1;
   const src=isCover?activeStory.cover:activeStory.pages[currentPage];
   $('loadingIndicator').style.display='block';
   $('pageImage').style.opacity='.35';
-  $('pageImage').onload=()=>{$('loadingIndicator').style.display='none';$('pageImage').style.opacity='1';};
+  let renderSettled=false;
+  const finishRender=()=>{
+    if(renderSettled || renderGeneration!==pageRenderGeneration) return;
+    renderSettled=true;
+    $('loadingIndicator').style.display='none';
+    $('pageImage').style.opacity='1';
+    if(autoRead) setTimeout(()=>{
+      if(
+        renderGeneration===pageRenderGeneration
+        && activeStory?.id===renderedStoryId
+        && currentPage===renderedPage
+        && readAlongEnabled
+        && readAlongStoryId===renderedStoryId
+      ) readCurrentPage({enableReadAlong:false});
+    },0);
+  };
+  $('pageImage').onload=finishRender;
+  $('pageImage').onerror=finishRender;
   $('pageImage').src=src;
   $('pageImage').alt=isCover?`Cover of ${activeStory.title}`:`${activeStory.title}, page ${currentPage+1}`;
   $('pageCounter').textContent=isCover?'Cover':`Page ${currentPage+1} of ${activeStory.pages.length}`;
@@ -834,7 +868,11 @@ function renderPage(){
 
 function nextPage(){
   if(!activeStory) return;
-  if(currentPage<activeStory.pages.length-1){ currentPage++; renderPage(); }
+  if(currentPage<activeStory.pages.length-1){
+    const autoRead=readAlongEnabled && readAlongStoryId===activeStory.id;
+    currentPage++;
+    renderPage({autoRead});
+  }
   else { localStorage.removeItem(`progress:${activeStory.id}`); finishStorytime('story'); }
 }
 
@@ -948,10 +986,10 @@ $('backButton').addEventListener('click',returnToLibrary);
 $('restartButton').addEventListener('click',()=>{ currentPage=-1; renderPage(); });
 $('nextButton').addEventListener('click',nextPage); $('nextOverlay').addEventListener('click',nextPage);
 $('prevButton').addEventListener('click',prevPage); $('prevOverlay').addEventListener('click',prevPage);
-$('readPageButton').addEventListener('click',readCurrentPage);
+$('readPageButton').addEventListener('click',()=>readCurrentPage());
 $('pauseNarrationButton').addEventListener('click',pauseOrResumeNarration);
 $('restartNarrationButton').addEventListener('click',restartCurrentPageNarration);
-$('stopNarrationButton').addEventListener('click',stopNarration);
+$('stopNarrationButton').addEventListener('click',()=>stopNarration({disableReadAlong:true}));
 $('finishedLibraryButton').addEventListener('click',returnToLibrary);
 $('readAgainButton').addEventListener('click',()=>{ if(activeStory) openStory(activeStory.id); });
 $('settingsButton').addEventListener('click',openSettings);

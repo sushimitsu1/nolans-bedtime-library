@@ -103,14 +103,27 @@ def main() -> int:
         record = compose(source, output, story["pages"][0]["text"], 1)
         with Image.open(output) as composed:
             assert composed.size == FINAL_SIZE
+            assert composed.getpixel((724, 400))[2] > composed.getpixel((724, 400))[0]
+            cream = composed.getpixel((10, 900))
+            assert cream[0] > 235 and cream[1] > 225 and cream[2] > 195
         assert record["pageBadge"] == 1 and record["text"] == story["pages"][0]["text"]
-        results.append("PASS compositor produces one correctly sized sample page")
+        assert record["illustrationBox"] == [0, 0, 1448, 815]
+        assert record["textAreaBox"] == [0, 815, 1448, 1086]
+        assert record["overlap"] is False and record["textFits"] is True
+        results.append("PASS compositor produces one correctly sized non-overlapping sample page")
+
+        try:
+            compose(source, root / "overflow-page.webp", "word " * 1000, 2)
+            raise AssertionError("Expected oversized page text to fail composition")
+        except ValueError as exc:
+            assert "does not fit" in str(exc)
+        results.append("PASS compositor clearly rejects text that cannot fit")
 
         narration = [page["text"] for page in story["pages"]]
         narration[4] = "This does not match."
         manifest = {"storySlug": story["slug"], "pages": [
-            {"file": "cover.webp", "text": None, "pageBadge": None, "panel": False},
-            *[{"file": f"page-{page['number']:02d}.webp", "text": page["text"], "pageBadge": page["number"], "panel": True} for page in story["pages"]],
+            {"file": "cover.webp", "text": None, "pageBadge": None, "panel": False, "layout": "full_page_cover", "textAreaBox": None},
+            *[{"file": f"page-{page['number']:02d}.webp", "text": page["text"], "pageBadge": page["number"], "panel": True, "layout": "separate_illustration_and_text", "illustrationBox": [0, 0, 1448, 815], "textAreaBox": [0, 815, 1448, 1086], "overlap": False, "textFits": True} for page in story["pages"]],
         ]}
         assert_contains(validate_text(story, narration, manifest), "narration entry 5")
         results.append("PASS narration validation catches a text mismatch")
