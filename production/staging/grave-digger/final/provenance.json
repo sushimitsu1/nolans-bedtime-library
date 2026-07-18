@@ -1,0 +1,12 @@
+{
+  "storySlug": "grave-digger",
+  "repairScope": [10, 11, 12, 13, 14, 15],
+  "assets": [
+    {"file": "page-10.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-10.webp", "compositionType": "single_scene"},
+    {"file": "page-11.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-11.webp", "compositionType": "single_scene"},
+    {"file": "page-12.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-12.webp", "compositionType": "single_scene"},
+    {"file": "page-13.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-13.webp", "compositionType": "single_scene"},
+    {"file": "page-14.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-14.webp", "compositionType": "single_scene"},
+    {"file": "page-15.webp", "sourceIllustration": "production/staging/grave-digger/illustrations/page-15.webp", "compositionType": "single_scene"}
+  ]
+}

@@ -144,12 +144,12 @@ narration: [
   "Grave Digger found a firm path around the deepest puddle. ‘Follow me!’ he called.",
   "One by one, the trucks followed Grave Digger. No one got stuck.",
   "‘Great job, Grave Digger!’ said the little crowd. The moonlight ride could begin.",
-  "The finals were here! Grave Digger lined up at the starting line. The flag waved... VROOMMM! He ROCKED, he RUMBLED, he took off like a rocket!",
-  "He flew over the first ramp—higher than the clouds! He spun in the air, did a big twirl, and landed with a muddy BOOM!",
-  "Next came the mud pit. It was deep and slippery, but that didn’t stop Grave Digger! He splashed through like a champion! SPLASHHHH!",
-  "Then came the moon jump! Grave Digger roared up the hill and launched as high as the moon! The crowd went WOOO!",
-  "Grave Digger crossed the finish line first! He did one last spin for the fans and let out a happy GRRRAVE ROAR! He had done it! He won the race!",
-  "The moon smiled down, the crowd cheered, and Grave Digger rolled back to the garage. He was tired, but very happy. Another awesome night of racing! Goodnight, Grave Digger. Sleep tight!"
+  "Grave Digger rolled beneath the starting arch, and the moonlight ride began. His friends followed the firm path behind him.",
+  "At the lantern bend, silver puddles shimmered across the track. Grave Digger slowed so every truck could see the safe turn.",
+  "A purple flag had slipped onto the road. Grave Digger stopped, and the little bulldozer gently pushed it clear.",
+  "One by one, the friends crossed a shallow splash and climbed the soft hill. Their lights twinkled in a cheerful line.",
+  "Back at the starting arch, the little crowd waved and cheered. “You led a safe and wonderful ride!”",
+  "Later, Grave Digger rested in his quiet garage beneath the moon. “Goodnight, mud track,” he whispered with a sleepy smile."
 ]
 },
 {
@@ -651,17 +651,38 @@ const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance
 let narrationUtterance = null;
 let narrationActive = false;
 let narrationPaused = false;
+let narrationPreparing = false;
 let readAlongEnabled = false;
 let readAlongStoryId = null;
 let narrationGeneration = 0;
+let selectedNarrationVoice = null;
+let narrationVoicePromise = null;
+let resolveNarrationVoice = null;
 let pageRenderGeneration = 0;
 const storage = {
   favorites: 'nolan:favorites',
   fontSize: 'nolan:font-size',
   highContrast: 'nolan:high-contrast',
   timerMinutes: 'nolan:timer-minutes',
-  timerEndsAt: 'nolan:timer-ends-at'
+  timerEndsAt: 'nolan:timer-ends-at',
+  narrationVoiceURI: 'nolan:narration-voice-uri',
+  narrationRate: 'nolan:narration-rate',
+  narrationPitch: 'nolan:narration-pitch',
+  narrationVolume: 'nolan:narration-volume'
 };
+
+const SPEECH_SOUND_PRONUNCIATIONS = Object.freeze([
+  {pattern:/\bvro{2,}m+\b/gi, replacement:'vroom'},
+  {pattern:/\brumbl(e{2,})\b/gi, replacement:'rumble'},
+  {pattern:/\bbe{3,}p\b/gi, replacement:'beep'},
+  {pattern:/\b(?:honk{2,}|ho{2,}nk)\b/gi, replacement:'honk'},
+  {pattern:/\b(?:zo{3,}m|zoom{2,})\b/gi, replacement:'zoom'},
+  {pattern:/\bscre{3,}ch\b/gi, replacement:'screech'},
+  {pattern:/\b(?:spla{3,}sh|splash{2,})\b/gi, replacement:'splash'},
+  {pattern:/\bcru{3,}nch\b/gi, replacement:'crunch'},
+  {pattern:/\bratatata\b/gi, replacement:'rat-a-tat-a'}
+]);
+const VOICE_QUALITY_INDICATORS = Object.freeze(['natural','neural','premium','online','enhanced']);
 
 function readFavorites(){
   try {
@@ -674,6 +695,19 @@ let favoriteIds = readFavorites();
 let fontSize = localStorage.getItem(storage.fontSize)==='large' ? 'large' : 'normal';
 let highContrast = localStorage.getItem(storage.highContrast)==='true';
 let timerEndsAt = Number(localStorage.getItem(storage.timerEndsAt)) || 0;
+
+function storedNarrationSetting(key,fallback,min,max){
+  const storedValue=localStorage.getItem(key);
+  if(storedValue===null) return fallback;
+  const value=Number(storedValue);
+  return Number.isFinite(value) && value>=min && value<=max ? value : fallback;
+}
+
+const narrationSettings = {
+  rate: storedNarrationSetting(storage.narrationRate,.9,.5,2),
+  pitch: storedNarrationSetting(storage.narrationPitch,1,0,2),
+  volume: storedNarrationSetting(storage.narrationVolume,1,0,1)
+};
 
 function showView(view){
   if(view!=='reader') stopNarration({disableReadAlong:true});
@@ -704,19 +738,68 @@ function updateNarrationControls(){
   $('readPageButton').disabled=!speechSupported || !hasText;
   $('pauseNarrationButton').disabled=!speechSupported || !hasText || !narrationActive;
   $('restartNarrationButton').disabled=!speechSupported || !hasText;
-  $('stopNarrationButton').disabled=!speechSupported || (!narrationActive && !readAlongEnabled);
+  $('stopNarrationButton').disabled=!speechSupported || (!narrationActive && !narrationPreparing && !readAlongEnabled);
   $('narrationUnsupported').hidden=speechSupported;
   $('narrationUnavailable').hidden=!speechSupported || currentPage<0 || hasText;
 }
 
-function preferredNarrationVoice(){
-  if(!speechSupported) return null;
-  const englishVoices=window.speechSynthesis.getVoices().filter(voice=>/^en([-_]|$)/i.test(voice.lang));
-  const naturalPattern=/natural|neural|aria|jenny|samantha|google us english/i;
-  return englishVoices.find(voice=>voice.lang.toLowerCase()==='en-us' && naturalPattern.test(voice.name))
-    || englishVoices.find(voice=>voice.lang.toLowerCase()==='en-us')
-    || englishVoices[0]
+function prepareSpeechText(displayText){
+  return SPEECH_SOUND_PRONUNCIATIONS.reduce(
+    (speechText,rule)=>speechText.replace(rule.pattern,rule.replacement),
+    String(displayText || '')
+  );
+}
+
+function voiceQualityScore(voice){
+  const language=String(voice.lang || '').toLowerCase().replace('_','-');
+  const name=String(voice.name || '').toLowerCase();
+  let score=language==='en-us' ? 200 : language.startsWith('en-') ? 100 : 0;
+  VOICE_QUALITY_INDICATORS.forEach((indicator,index)=>{
+    if(name.includes(indicator)) score+=1000-(index*10);
+  });
+  return score;
+}
+
+function chooseNarrationVoice(voices,savedVoiceURI=''){
+  const englishVoices=voices.filter(voice=>/^en([-_]|$)/i.test(voice.lang || ''));
+  const savedVoice=englishVoices.find(voice=>voice.voiceURI===savedVoiceURI);
+  if(savedVoice) return savedVoice;
+  return englishVoices
+    .map((voice,index)=>({voice,index,score:voiceQualityScore(voice)}))
+    .sort((left,right)=>right.score-left.score || left.index-right.index)[0]?.voice
     || null;
+}
+
+function selectNarrationVoiceFromAvailable(){
+  if(!speechSupported || selectedNarrationVoice) return selectedNarrationVoice;
+  const voice=chooseNarrationVoice(
+    window.speechSynthesis.getVoices(),
+    localStorage.getItem(storage.narrationVoiceURI) || ''
+  );
+  if(!voice) return null;
+  selectedNarrationVoice=voice;
+  localStorage.setItem(storage.narrationVoiceURI,voice.voiceURI);
+  if(resolveNarrationVoice){
+    resolveNarrationVoice(voice);
+    resolveNarrationVoice=null;
+  }
+  return voice;
+}
+
+function initializeNarrationVoice(){
+  if(!speechSupported) return Promise.resolve(null);
+  const availableVoice=selectNarrationVoiceFromAvailable();
+  if(availableVoice) return Promise.resolve(availableVoice);
+  if(!narrationVoicePromise){
+    narrationVoicePromise=new Promise(resolve=>{ resolveNarrationVoice=resolve; });
+  }
+  return narrationVoicePromise;
+}
+
+if(speechSupported){
+  window.speechSynthesis.addEventListener('voiceschanged',()=>{
+    if(!selectedNarrationVoice) selectNarrationVoiceFromAvailable();
+  });
 }
 
 function stopNarration({disableReadAlong=false}={}){
@@ -729,12 +812,13 @@ function stopNarration({disableReadAlong=false}={}){
   narrationUtterance=null;
   narrationActive=false;
   narrationPaused=false;
-  if(speechSupported && hadNarration) window.speechSynthesis.cancel();
+  narrationPreparing=false;
+  if(speechSupported && (hadNarration || window.speechSynthesis.speaking || window.speechSynthesis.pending)) window.speechSynthesis.cancel();
   setNarrationState('Ready');
   updateNarrationControls();
 }
 
-function readCurrentPage({enableReadAlong=true}={}){
+async function readCurrentPage({enableReadAlong=true}={}){
   if(enableReadAlong && activeStory){
     readAlongEnabled=true;
     readAlongStoryId=activeStory.id;
@@ -743,13 +827,25 @@ function readCurrentPage({enableReadAlong=true}={}){
   if(!speechSupported || !text){ updateNarrationControls(); return; }
   stopNarration();
   const generation=narrationGeneration;
-  const utterance=new SpeechSynthesisUtterance(text);
+  const storyId=activeStory?.id;
+  const page=currentPage;
+  narrationPreparing=true;
+  setNarrationState('Preparing voice…');
+  updateNarrationControls();
+  const voice=await initializeNarrationVoice();
+  if(
+    !voice
+    || narrationGeneration!==generation
+    || activeStory?.id!==storyId
+    || currentPage!==page
+  ) return;
+  narrationPreparing=false;
+  const utterance=new SpeechSynthesisUtterance(prepareSpeechText(text));
   utterance.lang='en-US';
-  utterance.rate=.85;
-  utterance.pitch=1;
-  utterance.volume=1;
-  const voice=preferredNarrationVoice();
-  if(voice) utterance.voice=voice;
+  utterance.rate=narrationSettings.rate;
+  utterance.pitch=narrationSettings.pitch;
+  utterance.volume=narrationSettings.volume;
+  utterance.voice=voice;
   narrationUtterance=utterance;
   narrationActive=true;
   narrationPaused=false;

@@ -1,0 +1,58 @@
+{
+  "storySlug": "grave-digger",
+  "repairScope": [10, 11, 12, 13, 14, 15],
+  "batches": {"pages10to15": "final_composition_passed"},
+  "rawArtChecks": {"generatedText": "passed", "singleScene": "passed", "characterStyleContinuity": "passed"},
+  "transitionChecks": {"page9To10": "passed", "distinctEvents10To15": "passed", "calmEnding": "passed"},
+  "pages": [
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [340, 270, 950, 690]},
+        {"label": "Moonlight ride friends", "box": [20, 335, 1415, 735]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [135, 185, 850, 700]},
+        {"label": "Moonlight ride friends", "box": [810, 285, 1415, 610]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [325, 150, 870, 575]},
+        {"label": "Moonlight ride friends", "box": [55, 275, 1415, 615]},
+        {"label": "fallen purple flag", "box": [330, 510, 500, 610]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [45, 185, 725, 690]},
+        {"label": "Moonlight ride friends", "box": [650, 315, 1415, 670]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [295, 180, 970, 670]},
+        {"label": "Moonlight ride friends", "box": [0, 295, 1415, 690]},
+        {"label": "Little crowd", "box": [955, 425, 1305, 720]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {"label": "Grave Digger", "box": [145, 125, 905, 640]}
+      ],
+      "finalChecks": {"subjectPlacement": "passed", "safeZoneCompliance": "passed", "panelIntegration": "passed", "consistentPanelSize": "passed", "consistentBadgePlacement": "passed", "noBlockedStoryAction": "passed"}
+    }
+  ]
+}

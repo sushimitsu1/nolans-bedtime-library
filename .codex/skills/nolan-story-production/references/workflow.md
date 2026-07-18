@@ -14,4 +14,8 @@
 
 For an existing-art repair only, pass `--repair-fallback` explicitly. The fallback contains the old artwork without crop or stretch above a separate cream text area; it must never be selected automatically.
 
+For a partial existing-story repair, preserve hashes for every approved asset outside the repair range, create a structured repair source whose page text is authoritative for each rebuilt page, and use the approved earlier pages as the character, style, setting, and transition reference. Newly generated repair pages must use the integrated full-bleed layout when their raw art reserves the required safe zone; do not select the separated fallback merely because the story itself is old.
+
+Narration playback must select and lock one available English voice before the first utterance, explicitly assign that voice and `en-US` to every page utterance, and keep visible/source narration text unchanged. Normalize expressive vehicle sounds only in a separate playback-time speech-preparation function; never rewrite `story.json`, visible page text, or stored narration to improve pronunciation.
+
 Stop only for a genuine blocker that cannot be corrected safely. Do not continue to another story while the queue contains an active record.

@@ -1,0 +1,17 @@
+{
+  "storySlug": "grave-digger",
+  "repairScope": [10, 11, 12, 13, 14, 15],
+  "authoritativeAssets": ["cover.webp", "page-01.webp", "page-02.webp", "page-03.webp", "page-04.webp", "page-05.webp", "page-06.webp", "page-07.webp", "page-08.webp", "page-09.webp"],
+  "lockedMainCharacter": {
+    "body": "Tall rounded boxy black monster-truck cabin with short hood",
+    "colors": "Black and charcoal, neon lime-green, and rich purple",
+    "face": "Large green windshield eyes and broad friendly grille smile",
+    "wheels": "Four enormous muddy deep-tread tires with purple hubs and lime rim rings",
+    "suspension": "Tall exposed purple coil springs with green links",
+    "lights": "Five round green roof lamps and two round green headlights",
+    "sideArt": "Skull-and-haunted-graveyard motifs without readable words"
+  },
+  "lockedStyle": "Polished cinematic 3D children's animation, saturated deep-blue moonlight, warm lantern highlights, glossy paint, realistic mud texture, rounded friendly forms, and true 4:3 landscape staging.",
+  "safeZone": "All required vehicles, faces, wheels, objects, and action end above y=760; the bottom 25-30 percent contains only low-detail mud, road, reflections, or garage floor.",
+  "forbidden": ["readable generated text", "page numbers", "panels in raw art", "outer frame", "letterboxing", "portrait layout", "collage", "grid", "contact sheet", "multi-panel scene", "human-like arms or hands"]
+}

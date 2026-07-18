@@ -1,0 +1,160 @@
+{
+  "title": "Grave Digger and the Moonlight Mud Track",
+  "slug": "grave-digger",
+  "category": "Monster Trucks",
+  "description": "Grave Digger finds a safe path through a giant muddy puddle so the moonlight ride can begin.",
+  "characterBible": {
+    "Grave Digger": {
+      "role": "Main character; a careful and friendly moonlight-track leader",
+      "color": "Glossy black and deep charcoal body with neon-lime hood, grille guard, headlights, roof lamps, and flame accents; rich purple trim and suspension",
+      "bodyShape": "Tall rounded boxy monster-truck cabin with a short hood, four enormous deeply treaded muddy tires, purple wheel hubs with lime rings, and high exposed suspension",
+      "face": "Two large green windshield eyes with black pupils and soft brows; broad smiling black grille mouth with white teeth and a small red tongue",
+      "wheels": "Four matching oversized brown-mud tires with chunky tread, purple inner rims, and thin lime-green rim rings",
+      "accessories": "Five round neon-green roof lamps, two round glowing green headlights, lime grille guard, purple coil springs, green suspension links, and decorative skull-and-haunted-graveyard side artwork without readable words"
+    },
+    "Moonlight ride friends": {
+      "role": "Recurring supporting vehicles who follow Grave Digger",
+      "appearance": "The same friendly yellow bulldozer with front blade, sturdy blue utility truck, compact purple dump truck, and little green road truck seen at the Page 9 starting arch; all have windshield eyes and friendly smiles"
+    },
+    "Little crowd": {
+      "role": "Gentle trackside spectators",
+      "appearance": "The same small friendly white sheet-ghost and brown-and-white puppy with blue collar seen on Page 9"
+    }
+  },
+  "settingBible": {
+    "Moonlight Mud Track": "A friendly muddy woodland track beneath a large full moon, with deep-blue starry sky, pine silhouettes, warm hanging lanterns, purple-and-lime pennants, shallow reflective puddles, a soft hill, and a sturdy wooden start arch without readable signs",
+    "Track Garage": "A quiet open-front wooden garage beside the track with warm amber lantern light, simple tools in shadow, and moonlit mud outside",
+    "visualStyle": "Polished cinematic 3D children's animation matching the approved Cover and Pages 1-9: rounded forms, glossy paint, realistic muddy tire texture, saturated blue moonlight, warm lantern highlights, friendly expressive faces, and shallow depth without portrait framing"
+  },
+  "continuityRules": [
+    "The existing cover and Pages 1-9 are immutable visual and story references and must not be regenerated or recomposed.",
+    "Grave Digger keeps the same glossy black body, neon-lime hood and guards, purple trim, green windshield eyes, friendly grille smile, five green roof lamps, four enormous tires, purple rims, and tall purple-and-green suspension on Pages 10-15.",
+    "No generated raw illustration contains readable words, logos, page numbers, text panels, badges, borders, collages, grids, or multiple panels.",
+    "The yellow bulldozer, blue utility truck, purple dump truck, green road truck, white ghost, and brown-and-white puppy retain their Page 9 colors, shapes, faces, and relative scale whenever they recur.",
+    "Page 10 begins beneath the same wooden starting arch and full moon shown on Page 9, with the ride beginning rather than changing into a race.",
+    "The ride progresses from the start arch to a lantern bend, a fallen flag, a shallow splash and hill, a return celebration, and a quiet garage ending.",
+    "Every new raw illustration is a single full-bleed 4:3 landscape scene with the bottom 25-30 percent reserved as low-detail mud, road, or garage floor and all required subjects above y=760."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Grave Digger loved the moonlight mud track. It was muddy, bumpy, and full of fun.",
+      "illustrationScene": "Grave Digger smiles on the moonlit mud track beneath the full moon.",
+      "requiredCharacters": ["Grave Digger"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 2,
+      "text": "One evening, Grave Digger rolled out under the bright moon. His green lights twinkled in the night.",
+      "illustrationScene": "Grave Digger rolls beneath the moon with his green lights glowing.",
+      "requiredCharacters": ["Grave Digger"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 3,
+      "text": "Soon he saw his friends waiting by the track. “Let’s take a moonlight ride!” they cheered.",
+      "illustrationScene": "Grave Digger meets the friendly trucks beside the track.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 4,
+      "text": "But the middle of the track was covered by a giant muddy puddle. Splash!",
+      "illustrationScene": "The friends discover the large muddy puddle across the track.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 5,
+      "text": "‘We need a safe way through,’ said Grave Digger. He looked carefully at the mud.",
+      "illustrationScene": "Grave Digger studies the mud while his friends wait.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 6,
+      "text": "Slowly, he rolled into the squishy mud. Squish, squash went his giant tires.",
+      "illustrationScene": "Grave Digger carefully tests the shallow edge of the mud.",
+      "requiredCharacters": ["Grave Digger"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 7,
+      "text": "Grave Digger found a firm path around the deepest puddle. ‘Follow me!’ he called.",
+      "illustrationScene": "Grave Digger discovers the firm route beside the deepest puddle.",
+      "requiredCharacters": ["Grave Digger"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 8,
+      "text": "One by one, the trucks followed Grave Digger. No one got stuck.",
+      "illustrationScene": "The trucks follow Grave Digger along the safe muddy route.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification."
+    },
+    {
+      "number": 9,
+      "text": "‘Great job, Grave Digger!’ said the little crowd. The moonlight ride could begin.",
+      "illustrationScene": "Grave Digger and his friends gather beneath the wooden moonlight-ride starting arch.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends", "Little crowd"],
+      "timeOfDay": "moonlit evening",
+      "continuityNotes": "Existing approved page; preserve without modification. This arch, full moon, group, and ready-to-begin action lead directly into Page 10."
+    },
+    {
+      "number": 10,
+      "text": "Grave Digger rolled beneath the starting arch, and the moonlight ride began. His friends followed the firm path behind him.",
+      "illustrationScene": "Grave Digger leads the same yellow, blue, purple, and green vehicle friends forward from beneath the Page 9 wooden arch, beginning the ride along the firm moonlit track.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Direct continuation of Page 9: same arch, moon, pennants, vehicle order, mud, and lighting. The vehicles move away from the start at a gentle pace."
+    },
+    {
+      "number": 11,
+      "text": "At the lantern bend, silver puddles shimmered across the track. Grave Digger slowed so every truck could see the safe turn.",
+      "illustrationScene": "At a curved track section lit by two warm hanging lanterns, Grave Digger slows at the front while the blue and purple friends approach the clearly visible firm outer turn.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "New event and location after the start; retain the full moon, wet reflections, friendly faces, and unchanged vehicle proportions."
+    },
+    {
+      "number": 12,
+      "text": "A purple flag had slipped onto the road. Grave Digger stopped, and the little bulldozer gently pushed it clear.",
+      "illustrationScene": "Grave Digger waits safely above the lane while the familiar yellow bulldozer uses its blade to slide one fallen purple pennant off the track.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Distinct teamwork event. Show only one loose flag, no hands, no danger, and the Page 9 yellow bulldozer design."
+    },
+    {
+      "number": 13,
+      "text": "One by one, the friends crossed a shallow splash and climbed the soft hill. Their lights twinkled in a cheerful line.",
+      "illustrationScene": "Grave Digger crests a low muddy hill as the blue, purple, yellow, and green friends follow single-file through a small shallow reflective splash.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Distinct gentle hill event; no jumping, racing, spins, or repeated starting-arch composition. Keep all vehicles fully grounded."
+    },
+    {
+      "number": 14,
+      "text": "Back at the starting arch, the little crowd waved and cheered. “You led a safe and wonderful ride!”",
+      "illustrationScene": "Grave Digger and the vehicle friends return beside the wooden arch where the familiar white ghost and brown-and-white puppy cheer under warm lanterns.",
+      "requiredCharacters": ["Grave Digger", "Moonlight ride friends", "Little crowd"],
+      "timeOfDay": "late moonlit night",
+      "continuityNotes": "Return to the Page 9 setting after completing the loop; keep the celebration gentle and the recurring crowd designs unchanged."
+    },
+    {
+      "number": 15,
+      "text": "Later, Grave Digger rested in his quiet garage beneath the moon. “Goodnight, mud track,” he whispered with a sleepy smile.",
+      "illustrationScene": "Grave Digger rests alone inside the warm open-front track garage, eyes softly lowered, with the full moon and quiet muddy track visible outside.",
+      "requiredCharacters": ["Grave Digger"],
+      "timeOfDay": "quiet moonlit night",
+      "continuityNotes": "Calm bedtime ending. Preserve all locked features; tires are still lightly muddy, roof lamps are softly dimmed, and no other character or action distracts from rest."
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "storySlug": "grave-digger",
+  "pages": [
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-10.webp",
+      "text": "Grave Digger rolled beneath the starting arch, and the moonlight ride began. His friends followed the firm path behind him.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            340,
+            270,
+            950,
+            690
+          ]
+        },
+        {
+          "label": "Moonlight ride friends",
+          "box": [
+            20,
+            335,
+            1415,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-11.webp",
+      "text": "At the lantern bend, silver puddles shimmered across the track. Grave Digger slowed so every truck could see the safe turn.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            135,
+            185,
+            850,
+            700
+          ]
+        },
+        {
+          "label": "Moonlight ride friends",
+          "box": [
+            810,
+            285,
+            1415,
+            610
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-12.webp",
+      "text": "A purple flag had slipped onto the road. Grave Digger stopped, and the little bulldozer gently pushed it clear.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            325,
+            150,
+            870,
+            575
+          ]
+        },
+        {
+          "label": "Moonlight ride friends",
+          "box": [
+            55,
+            275,
+            1415,
+            615
+          ]
+        },
+        {
+          "label": "fallen purple flag",
+          "box": [
+            330,
+            510,
+            500,
+            610
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-13.webp",
+      "text": "One by one, the friends crossed a shallow splash and climbed the soft hill. Their lights twinkled in a cheerful line.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            45,
+            185,
+            725,
+            690
+          ]
+        },
+        {
+          "label": "Moonlight ride friends",
+          "box": [
+            650,
+            315,
+            1415,
+            670
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-14.webp",
+      "text": "Back at the starting arch, the little crowd waved and cheered. “You led a safe and wonderful ride!”",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            295,
+            180,
+            970,
+            670
+          ]
+        },
+        {
+          "label": "Moonlight ride friends",
+          "box": [
+            0,
+            295,
+            1415,
+            690
+          ]
+        },
+        {
+          "label": "Little crowd",
+          "box": [
+            955,
+            425,
+            1305,
+            720
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production\\staging\\grave-digger\\illustrations\\page-15.webp",
+      "text": "Later, Grave Digger rested in his quiet garage beneath the moon. “Goodnight, mud track,” he whispered with a sleepy smile.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Grave Digger",
+          "box": [
+            145,
+            125,
+            905,
+            640
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
