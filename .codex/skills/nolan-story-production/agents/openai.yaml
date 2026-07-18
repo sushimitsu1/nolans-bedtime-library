@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nolan Story Production"
+  short_description: "Produce and publish validated Nolan stories"
+  default_prompt: "Use $nolan-story-production to produce the next approved Nolan story from inventory through validation and publishing."

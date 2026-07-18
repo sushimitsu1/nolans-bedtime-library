@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nolan final-asset provenance",
+  "type": "object",
+  "required": ["storySlug", "assets"],
+  "properties": {
+    "storySlug": {"type": "string"},
+    "assets": {
+      "type": "array",
+      "minItems": 16,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": ["file", "sourceIllustration", "compositionType"],
+        "properties": {
+          "file": {"type": "string"},
+          "sourceIllustration": {"type": "string"},
+          "compositionType": {"const": "single_scene"}
+        }
+      }
+    }
+  }
+}
