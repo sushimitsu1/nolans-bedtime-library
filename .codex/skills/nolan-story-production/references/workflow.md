@@ -1,21 +1,32 @@
-# Production workflow
+# Three-phase production workflow
 
-1. Select one approved `not_started` record; set it to `selected` and add it to the queue.
-2. Write and review `story.json`; move through `writing` only after schema and story validation pass.
-3. Create `production/staging/<slug>/character-reference.webp` and `continuity.json`. Compare every later illustration with both.
-4. Generate `illustrations/cover.webp` separately.
-5. Generate `illustrations/page-01.webp` through `page-09.webp` individually at 1448 x 1086 or a compatible larger 4:3 resolution. Make the scene full-bleed, reserve the bottom 25-30% for low-detail scenery, and keep all required characters, faces, eyes, vehicle features, animals, objects, and action above y=760. Include no text, badges, page numbers, cream panel, collage, grid, contact sheet, split screen, or multiple scenes.
-6. Inspect each raw image, record labeled `requiredSubjectBoxes` in `visual-review.json`, and regenerate any safe-zone failure. Compose Pages 1-9 with `compose_page.py --visual-review ...`; its default full-bleed layout adds the fixed inset rounded panel and badge. Never pass `--repair-fallback` for a newly generated story.
-7. Visually review the composed Pages 1-9 and mark all six final checks `passed`: subject placement, safe-zone compliance, panel integration, consistent panel size, consistent badge placement, and no blocked story action. Repair failures before continuing.
-8. Repeat generation, raw inspection, selective repair, default composition, and the same required batch visual review for Pages 10-15.
-9. Record every output in `final/provenance.json`, including its same-story source illustration and `compositionType: single_scene`.
-10. Create `narration.json` with one exact story-text string per page and `final/composition-manifest.json` from compositor output.
-11. Run `validate_story.py`, `validate_assets.py`, and `validate_text.py --visual-review production/staging/<slug>/visual-review.json`. Confirm every new page is full-bleed, has the exact integrated panel and badge boxes, contains no outer frame or letterboxing, keeps required-subject bounds above the safe zone, preserves exact story text, and passes both batch reviews. Move to `ready_to_publish` only after all pass.
+## Phase 1: batch planning
 
-For an existing-art repair only, pass `--repair-fallback` explicitly. The fallback contains the old artwork without crop or stretch above a separate cream text area; it must never be selected automatically.
+1. Start from a clean, synchronized planner worktree. Select exactly five inventory records whose status is `not_started`; never select `published` or `needs_review`.
+2. Record the five slugs in one batch manifest before writing. Prefer category variety when the eligible inventory permits it.
+3. Create `production/stories/<slug>/story.json` for all five. Each has exactly 15 distinct pages and uses `pages[].text` as the sole visible-text and narration source.
+4. Create character and setting bibles beside each story. Lock colors, shapes, faces, wheels, accessories, supporting characters, locations, lighting progression, and continuity constraints.
+5. Run schema, repetition, transition, recent-story similarity, character, and pacing validation across all five. Correct failures before approval.
+6. Generate no artwork. Do not change `app.js` or `sw.js`. The planner alone may update shared batch, queue, or inventory records.
+7. Commit the five approved structured story packages once. Create one isolated worktree and one production owner per slug from that commit.
 
-For a partial existing-story repair, preserve hashes for every approved asset outside the repair range, create a structured repair source whose page text is authoritative for each rebuilt page, and use the approved earlier pages as the character, style, setting, and transition reference. Newly generated repair pages must use the integrated full-bleed layout when their raw art reserves the required safe zone; do not select the separated fallback merely because the story itself is old.
+## Phase 2: isolated story production
 
-Narration playback must select and lock one available English voice before the first utterance, explicitly assign that voice and `en-US` to every page utterance, and keep visible/source narration text unchanged. Normalize expressive vehicle sounds only in a separate playback-time speech-preparation function; never rewrite `story.json`, visible page text, or stored narration to improve pronunciation.
+An owner may write only `production/stories/<assigned-slug>/` and `assets/books/<assigned-slug>/`. Run `batch_workflow.py isolation <slug> <changed-path>...` before every producer commit. Any path outside those prefixes is a hard failure. Producers must not change `app.js`, `sw.js`, shared inventory or queue files, batch manifests, another story directory, or another asset directory.
 
-Stop only for a genuine blocker that cannot be corrected safely. Do not continue to another story while the queue contains an active record.
+For the assigned story:
+
+1. Read the planner-approved `story.json` and bibles. Do not rewrite approved page text.
+2. Generate one cover and inspect it. Use the passing cover as the default character reference. Create a separate reference only when a complex multi-character bible cannot fit clearly on the cover.
+3. Generate Pages 1-9 individually with the bottom 25-30% reserved and required subjects above y=760. Compose only passing images with the integrated full-bleed layout and validate the batch.
+4. Generate, inspect, compose, and validate Pages 10-15 the same way. Page 9 must transition naturally to Page 10.
+5. On a failed image, allow exactly one additional generation attempt. Never regenerate a passing page. If the retry fails, preserve completed work, set `package-status.json` to `needs_review`, record the page and reason, and stop only that producer.
+6. Generate `narration.json` directly from the 15 page texts.
+7. Produce one temporary `qa-contact-sheet.webp` from the 15 final pages. Review it once for character, setting, lighting, pacing, and Page 9-to-10 continuity. Then inspect Pages 1, 5, 9, 10, and 15 individually.
+8. Delete the contact sheet with `batch_workflow.py cleanup-contact-sheet <story-dir>`. Run targeted validators and set `package-status.json` to `ready_to_publish` only after all pass.
+
+Use separate Codex threads or agents only in isolated Git worktrees, one owner and slug per worktree, all starting at the planner commit. Each producer commits only its two allowed prefixes. The publisher verifies changed paths before integration. Reject a conflicting producer change; never let a producer edit shared files to resolve it.
+
+Do not deploy from a producer. Do not create ZIPs, publish per story, rerun passed validation without changed inputs, inspect unrelated books, run full-project tests unless a targeted check fails, or use extended browser automation.
+
+For existing-art repair only, `--repair-fallback` remains explicit. Narration voice playback stays outside this production workflow; do not change narrator behavior.

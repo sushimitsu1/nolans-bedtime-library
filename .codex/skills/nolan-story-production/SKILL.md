@@ -1,20 +1,18 @@
 ---
 name: nolan-story-production
-description: Run the repository-based Nolan bedtime-story pipeline from approved inventory selection through writing, continuity-controlled artwork, deterministic page composition, narration, validation, app integration, publishing, and deployment verification. Use for producing, reviewing, repairing, validating, integrating, or publishing Nolan library stories.
+description: Plan, produce, validate, integrate, and publish Nolan bedtime-story batches, including isolated parallel story worktrees, deterministic full-bleed composition, exact narration, retry-limited QA, shared-file protection, and one-time batch deployment. Use for creating, reviewing, repairing, validating, coordinating, or publishing Nolan library stories.
 ---
 
 # Nolan Story Production
 
-Work on one story at a time. Read [format-and-schema.md](references/format-and-schema.md) before writing and [workflow.md](references/workflow.md) before producing assets. Read [publishing.md](references/publishing.md) only when integrating or publishing.
+Use three explicit phases. Read [format-and-schema.md](references/format-and-schema.md) before planning, [workflow.md](references/workflow.md) before production, and [publishing.md](references/publishing.md) before publishing. Use `scripts/batch_workflow.py` for isolation checks, package eligibility, narration derivation, cache bumping, and QA cleanup.
 
-1. Run `production/scripts/select_story.py` to select one `not_started` inventory record; stop if another story is active.
-2. Create `production/stories/<slug>/story.json` and validate it before artwork. Use exact page text as the only source for visible text and narration.
-3. Create and inspect a character reference plus continuity record.
-4. Generate the cover separately, then Pages 1-9 as individual full 4:3, illustration-only images. Reserve the bottom 25-30% as a low-detail text-safe zone and keep every required subject and action above it.
-5. Inspect every image and record required-subject bounds; regenerate only failures. Compose passing images with the default full-bleed integrated layout in `compose_page.py`, then complete the required batch visual review.
-6. Generate, inspect, selectively repair, compose, and batch-review Pages 10-15 the same way.
-7. Generate `narration.json` by copying story text exactly; never OCR or paraphrase new stories.
-8. Run story, asset, and text validators. Do not select another story until all pass.
-9. Follow [publishing.md](references/publishing.md), validate app changes, smoke-test only Pages 1 and 15, commit once, push once, and verify deployment.
+1. **Plan once.** Select exactly five `not_started` records. Write and validate all five `story.json` files plus character and setting bibles. Generate no artwork and change neither `app.js` nor `sw.js`. Commit the approved structured stories once.
+2. **Produce in isolation.** Give each story to one agent or Codex thread in its own worktree. That producer may change only `production/stories/<slug>/` and `assets/books/<slug>/`. It must never change shared inventory, queue, app, service worker, or another story. Use the cover as the default character reference; create a separate reference only for complex multi-character continuity.
+3. **Publish once.** After every producer finishes, admit only packages marked `ready_to_publish`; exclude `needs_review`. Validate each accepted package, derive app narration from `story.json`, update `app.js` once, bump `sw.js` once, run targeted smoke checks, commit once, push once, and verify deployment once.
 
-The separated illustration-and-text layout is an explicit repair fallback for existing artwork only; never use it automatically for a new story. Never ask the image generator to add text, page numbers, badges, or a cream panel. Never use old artwork as a substitute, infer missing pages, request multi-page images, modify unrelated stories, or bypass a failed validation.
+For each story, generate the cover, Pages 1-9, then Pages 10-15 as separate full-bleed 4:3 illustrations. Inspect failures only and allow at most one additional generation attempt per failed page. Never regenerate a passing page. After the retry, preserve all assets and mark only that package `needs_review`; other producers continue.
+
+Create a temporary 15-page QA contact sheet only after all pages exist. Use it for one continuity review, then inspect Pages 1, 5, 9, 10, and 15 individually and delete the contact sheet. Contact sheets are QA artifacts only and must never enter final assets, package validation, commits, or deployment.
+
+The integrated full-bleed compositor remains the default. Never ask image generation to render text, badges, panels, collages, grids, or multi-panel images. Never use the repair fallback for a new story. Never OCR or rewrite narration; visible page text and narration come exactly from `story.json`.
