@@ -1,0 +1,20 @@
+{
+  "storySlug": "cora-crane-truck-wobbly-sign",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Cora",
+    "vehicleColor": "lavender cab and rounded body, cream roof, coral boom tip, teal side stripe",
+    "bodyShape": "compact six-wheeled crane truck, short rounded hood, broad stable chassis, one telescoping boom",
+    "eyesAndFace": "large hazel windshield eyes, curved brows, small friendly grille smile",
+    "wheels": "six charcoal tires, teal hubs, cream fenders",
+    "accessories": "amber roof beacon, silver hook, two navy straps, round moon emblem",
+    "forbidden": "human-like arms or hands, extra wheels, extra booms, readable text, logos"
+  },
+  "supportingCharacters": {
+    "Tuck": "moss-green rounded utility tractor, tan roof, amber windshield eyes, four black tires, rear rope hitch",
+    "Pippa": "coral compact pickup, cream bed rails, blue windshield eyes, four black tires, paintbrush picture emblem"
+  },
+  "setting": "Lantern Yard hilltop, pine path, hedge windbreak, and lantern-lit Pinecone Reading Nook",
+  "propContinuity": "Honey-brown acorn sign with open-book picture; two navy lifting straps; two pale guide ropes only on Pages 7-13.",
+  "safeZone": "Every page keeps vehicles, faces, sign, rigging, and action above y=760; bottom 25-30 percent contains only low-detail ground."
+}

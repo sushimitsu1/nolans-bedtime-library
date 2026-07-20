@@ -1,0 +1,177 @@
+{
+  "title": "Cora the Crane Truck and the Wobbly Sign",
+  "slug": "cora-crane-truck-wobbly-sign",
+  "category": "Construction Vehicles",
+  "description": "Cora learns how to carry a swinging woodland sign safely through an evening breeze.",
+  "characterBible": {
+    "Cora": {
+      "role": "Main character; a patient crane truck who solves lifting problems calmly",
+      "color": "Lavender cab and rounded body, cream roof, coral boom tip, and teal side stripe",
+      "bodyShape": "Compact six-wheeled crane truck with a short rounded hood, broad stable chassis, and one telescoping boom",
+      "face": "Two large hazel windshield eyes with curved brows and a small friendly smile in the front grille",
+      "wheels": "Six matching charcoal tires with teal hubs and cream fenders",
+      "accessories": "Amber roof beacon, silver hook, two navy lifting straps, and a round moon emblem without text"
+    },
+    "Tuck": {
+      "role": "Supporting character; a careful little utility tractor",
+      "appearance": "Moss-green rounded tractor with tan roof, amber windshield eyes, four black tires, and a rear rope hitch"
+    },
+    "Pippa": {
+      "role": "Supporting character; the sign painter and delivery helper",
+      "appearance": "Coral compact pickup with cream bed rails, blue windshield eyes, four black tires, and paintbrush emblem without text"
+    }
+  },
+  "settingBible": {
+    "Lantern Yard": "A tidy hilltop work yard with a small cream shed, low stone wall, windsock, and potted marigolds",
+    "Pinecone Reading Nook": "A woodland clearing with rounded pines, a tiny open book shelter, smooth stones, lanterns, and a prepared sign base",
+    "sign": "A wide honey-brown wooden sign shaped like an acorn, painted only with a simple open-book picture and no readable words",
+    "visualStyle": "Bright polished 3D children's storybook illustration with rounded forms, soft cinematic light, and clean single-scene composition"
+  },
+  "continuityRules": [
+    "Cora keeps the same lavender, cream, coral, and teal color blocking, six wheels, hazel eyes, amber beacon, silver hook, and moon emblem on every page.",
+    "Cora and all vehicles have no human-like arms or hands.",
+    "Tuck remains moss green with tan roof and rope hitch; Pippa remains coral with cream bed rails and blue eyes.",
+    "The acorn-shaped sign stays honey brown with one painted open-book picture and no readable text.",
+    "Two navy straps hold the sign whenever it hangs from Cora's hook; two pale guide ropes attach only on Pages 7-13.",
+    "The story moves from late afternoon through golden evening to a calm moonlit night.",
+    "Every raw illustration is a single full-bleed 4:3 scene with all required subjects above y=760 and only low-detail ground in the lower safe zone.",
+    "No raw artwork contains text, page numbers, badges, panels, logos, watermarks, collages, grids, or multiple scenes."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One sunny afternoon, Cora the Crane Truck polished her silver hook at Lantern Yard. She was ready for a careful delivery.",
+      "speechText": "One sunny afternoon, Cora the Crane Truck polished her silver hook at Lantern Yard. She was ready for a careful delivery.",
+      "illustrationScene": "Cora waits in Lantern Yard beside the cream shed and marigolds, with her short boom folded and silver hook shining.",
+      "requiredCharacters": ["Cora"],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Establish Cora's lavender body, cream roof, coral boom tip, teal stripe and hubs, six tires, hazel eyes, beacon, hook, and moon emblem."
+    },
+    {
+      "number": 2,
+      "text": "Pippa arrived with a new wooden sign for the Pinecone Reading Nook. An open-book picture gleamed on its front.",
+      "speechText": "Pippa arrived with a new wooden sign for the Pinecone Reading Nook. An open-book picture gleamed on its front.",
+      "illustrationScene": "Pippa parks beside Cora with the acorn-shaped wooden sign secured flat in her pickup bed.",
+      "requiredCharacters": ["Cora", "Pippa"],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Introduce Pippa unchanged and show the honey-brown acorn sign with only a simple picture, not readable words."
+    },
+    {
+      "number": 3,
+      "text": "A playful hilltop breeze fluttered the marigolds. When Cora tested the lift, the wide sign grew wobbly.",
+      "speechText": "A playful hilltop breeze fluttered the marigolds. When Cora tested the lift, the wide sign grew wobbly.",
+      "illustrationScene": "Cora raises the strapped sign only a little above Pippa's bed as it tilts gently in the breeze and both vehicles watch closely.",
+      "requiredCharacters": ["Cora", "Pippa"],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "The sign uses two navy straps and hangs low; show a safe gentle wobble with no people or hands."
+    },
+    {
+      "number": 4,
+      "text": "Cora lowered the sign at once. “A safe load should feel calm and steady,” she said.",
+      "speechText": "Cora lowered the sign at once. A safe load should feel calm and steady, she said.",
+      "illustrationScene": "The sign rests safely back in Pippa's bed while Cora studies the windsock and keeps her boom low.",
+      "requiredCharacters": ["Cora", "Pippa"],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Sign is supported, straps remain attached, and Cora's expression is thoughtful rather than worried."
+    },
+    {
+      "number": 5,
+      "text": "Cora shortened her boom and turned her truck toward the breeze. The next tiny lift wobbled much less.",
+      "speechText": "Cora shortened her boom and turned her truck toward the breeze. The next tiny lift wobbled much less.",
+      "illustrationScene": "Cora faces the windsock with her boom short and centered while the sign hangs just above the pickup bed, nearly level.",
+      "requiredCharacters": ["Cora", "Pippa"],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep boom compact and sign low; maintain the exact two navy straps and unchanged sign face."
+    },
+    {
+      "number": 6,
+      "text": "Tuck rolled over with two soft guide ropes on his hitch. “These can help the sign stay straight,” he said.",
+      "speechText": "Tuck rolled over with two soft guide ropes on his hitch. These can help the sign stay straight, he said.",
+      "illustrationScene": "Tuck joins Cora and Pippa in the yard, carrying two neatly coiled pale ropes on his rear hitch beside the lowered sign.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Introduce Tuck's moss-green body, tan roof, amber eyes, four tires, and rear hitch. Ropes are still coiled."
+    },
+    {
+      "number": 7,
+      "text": "Pippa clipped one guide rope to each lower corner. Tuck held both ropes gently with his sturdy hitch.",
+      "speechText": "Pippa clipped one guide rope to each lower corner. Tuck held both ropes gently with his sturdy hitch.",
+      "illustrationScene": "The sign hangs low from Cora's two navy straps while pale guide ropes run from its lower corners to Tuck's hitch and Pippa checks from beside her truck.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Show attachment results without human-like hands; the guide ropes are pale and gently taut, and the sign remains above the safe zone."
+    },
+    {
+      "number": 8,
+      "text": "Cora lifted again, slow and smooth. The sign stayed straight while Tuck rolled one small step beside it.",
+      "speechText": "Cora lifted again, slow and smooth. The sign stayed straight while Tuck rolled one small step beside it.",
+      "illustrationScene": "Cora performs a stable practice lift in the yard as Tuck moves beside the level sign and Pippa smiles near the shed.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Sign is level at a low transport height with two straps and two ropes; all three vehicles retain locked designs."
+    },
+    {
+      "number": 9,
+      "text": "Together they left Lantern Yard along the smooth pine path. Cora carried the steady sign low and close.",
+      "speechText": "Together they left Lantern Yard along the smooth pine path. Cora carried the steady sign low and close.",
+      "illustrationScene": "Cora leads onto a pine-lined path carrying the low sign, Tuck guides beside it, and Pippa follows as the yard gate recedes behind.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Bridge to Page 10 with the same pine path, low sign height, straps, ropes, travel order, and warm light."
+    },
+    {
+      "number": 10,
+      "text": "At the first bend, the same breeze slipped between the pine trees. Cora stopped before the sign could sway.",
+      "speechText": "At the first bend, the same breeze slipped between the pine trees. Cora stopped before the sign could sway.",
+      "illustrationScene": "At the next bend of the same pine path, Cora pauses with the sign level while Tuck and Pippa stop in their established positions.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Continue Page 9 geography and formation exactly; the sign has not begun swinging and remains safely low."
+    },
+    {
+      "number": 11,
+      "text": "A thick hedge made a quiet windbreak beside the path. The friends waited there until the pine needles grew still.",
+      "speechText": "A thick hedge made a quiet windbreak beside the path. The friends waited there until the pine needles grew still.",
+      "illustrationScene": "Cora, Tuck, and Pippa wait calmly behind a rounded green hedge, with the suspended sign sheltered and level.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "early sunset",
+      "continuityNotes": "Keep all rigging attached and show calm waiting; the hedge blocks wind without hiding required vehicles or sign."
+    },
+    {
+      "number": 12,
+      "text": "Soon the lanterns of the reading nook twinkled ahead. Cora carried the sign through the last quiet turn.",
+      "speechText": "Soon the lanterns of the reading nook twinkled ahead. Cora carried the sign through the last quiet turn.",
+      "illustrationScene": "The three vehicles approach the Pinecone Reading Nook, where warm lanterns, the tiny book shelter, and prepared sign base appear ahead.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Reading nook matches setting bible; sign is still suspended low with straps and ropes as they approach the empty base."
+    },
+    {
+      "number": 13,
+      "text": "Cora lowered the sign into its prepared base. Tuck kept the guide ropes steady until it stood safely on its own.",
+      "speechText": "Cora lowered the sign into its prepared base. Tuck kept the guide ropes steady until it stood safely on its own.",
+      "illustrationScene": "Cora gently seats the acorn sign in the prepared woodland base while Tuck's ropes keep it aligned and Pippa watches nearby.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Show final lowering rather than repair work; straps and guide ropes remain attached until the sign is seated."
+    },
+    {
+      "number": 14,
+      "text": "The new sign stood straight beside the cozy books. “Slow, low, and steady worked,” Cora said with a proud smile.",
+      "speechText": "The new sign stood straight beside the cozy books. Slow, low, and steady worked, Cora said with a proud smile.",
+      "illustrationScene": "Cora, Pippa, and Tuck admire the installed acorn sign beside the glowing book shelter as the last sunset colors fill the clearing.",
+      "requiredCharacters": ["Cora", "Pippa", "Tuck"],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Hook is empty, straps and ropes are neatly coiled on Tuck's hitch, and the sign stands independently with no readable words."
+    },
+    {
+      "number": 15,
+      "text": "That night, Cora folded her boom beneath the quiet moon. She closed her sleepy hazel eyes and dreamed of steady, gentle lifts.",
+      "speechText": "That night, Cora folded her boom beneath the quiet moon. She closed her sleepy hazel eyes and dreamed of steady, gentle lifts.",
+      "illustrationScene": "Cora rests back at Lantern Yard under a crescent moon, boom folded, eyes closed, with the shed window glowing softly.",
+      "requiredCharacters": ["Cora"],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Return to Page 1 yard; Cora has no sign or ropes, retains every locked feature, and ends in a calm bedtime pose."
+    }
+  ]
+}
