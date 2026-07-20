@@ -49,11 +49,14 @@ def validate_story(story: dict, recent_root: Path | None = None, source: Path | 
 
     seen_text = {}
     seen_events = {}
+    uses_speech_text = any("speechText" in page for page in pages)
     for index, page in enumerate(pages, 1):
         for key in REQUIRED_PAGE:
             value = page.get(key)
             if value is None or value == "" or value == []:
                 errors.append(f"page {index}: missing or empty {key}")
+        if uses_speech_text and not page.get("speechText"):
+            errors.append(f"page {index}: missing or empty speechText")
         text = page.get("text", "")
         key = normalized(text)
         if key in seen_text:

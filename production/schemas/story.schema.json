@@ -24,6 +24,7 @@
         "properties": {
           "number": {"type": "integer", "minimum": 1, "maximum": 15},
           "text": {"type": "string", "minLength": 1},
+          "speechText": {"type": "string", "minLength": 1},
           "illustrationScene": {"type": "string", "minLength": 1},
           "requiredCharacters": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
           "timeOfDay": {"type": "string", "minLength": 1},
