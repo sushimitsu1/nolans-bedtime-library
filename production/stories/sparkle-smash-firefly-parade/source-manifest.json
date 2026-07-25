@@ -1,0 +1,104 @@
+{
+  "title": "Sparkle Smash and the Firefly Parade",
+  "slug": "sparkle-smash-firefly-parade",
+  "category": "Monster Trucks",
+  "pageCount": 15,
+  "coverCount": 1,
+  "imageSize": [
+    1448,
+    1086
+  ],
+  "assets": [
+    {
+      "file": "cover.png",
+      "sha256": "9c5834f3b2b14c7a6c3a888f8e7579850590eed0fbf57c163c42bb50742c1102",
+      "bytes": 2762966
+    },
+    {
+      "file": "page-01.png",
+      "sha256": "92d31cd0705a5eaa8b31e53098aa735ebb56d623a7d593f8d8123e51c1c7e6e4",
+      "bytes": 2661334
+    },
+    {
+      "file": "page-02.png",
+      "sha256": "755d9b39b272b3c8c7d9094ee6f209bd9dd5f80bb8316bd3aee4df6caf8f9831",
+      "bytes": 2691810
+    },
+    {
+      "file": "page-03.png",
+      "sha256": "a8f08ece839063a6cdd595137c1150db1b1ee675fc86d7865768241c401b8d89",
+      "bytes": 2711183
+    },
+    {
+      "file": "page-04.png",
+      "sha256": "443557c031ef8df27913c46f5b7f306cb544dc6d12b134b9e3e85415e4b681eb",
+      "bytes": 2529762
+    },
+    {
+      "file": "page-05.png",
+      "sha256": "796a76426a7fbcb6d4e97c528ece86b58a5998749bf14f56ad28de2983946c98",
+      "bytes": 2696563
+    },
+    {
+      "file": "page-06.png",
+      "sha256": "9a504e9f5c1d3e242a9dc5f86e188c6fd7b10720597dffce5a175b4325af787b",
+      "bytes": 2615392
+    },
+    {
+      "file": "page-07.png",
+      "sha256": "4c668a250e4780f6ab1d0a58a6b8fb611f0c4b484868482823b0ead7d08c7d88",
+      "bytes": 2382858
+    },
+    {
+      "file": "page-08.png",
+      "sha256": "4ebdbd01108a08a96717a5ae998482c4df97a30518c78e82b95e586cd2bb5cd2",
+      "bytes": 2640802
+    },
+    {
+      "file": "page-09.png",
+      "sha256": "28b7f822e313f763b3e98c0d90cbf930d50369ba8c6a70f81dc6a862c1615da6",
+      "bytes": 2574225
+    },
+    {
+      "file": "page-10.png",
+      "sha256": "a065fb4f66eb13ba6d43d84be2b31c7e7f1306bf054b8a17847fd8d51e090d1f",
+      "bytes": 2620844
+    },
+    {
+      "file": "page-11.png",
+      "sha256": "7f081a7081d9b4e684181421cebd55eb8a60129bf11dc979dfc6661f26a84018",
+      "bytes": 2487620
+    },
+    {
+      "file": "page-12.png",
+      "sha256": "378f196be2a4a7875dfa0d9b79900a6257f160fba969754bc8807a8181d18558",
+      "bytes": 2642941
+    },
+    {
+      "file": "page-13.png",
+      "sha256": "97bd7322fe155b6fb0a89bb30c2f19ab32e2cdff6be572955c1389f455d778ad",
+      "bytes": 2591249
+    },
+    {
+      "file": "page-14.png",
+      "sha256": "767848d9596081204b458219c7a3dc0a538198c351d217029004960394ae697b",
+      "bytes": 2400002
+    },
+    {
+      "file": "page-15.png",
+      "sha256": "05c7af6313765de2c55b14524bcc6abb21463220691a931557387bb0090bed6b",
+      "bytes": 2526630
+    }
+  ],
+  "narrationEntries": 15,
+  "narrationSource": "story.json pages[].text",
+  "speechTextOverrides": [],
+  "manualReview": {
+    "correctStoryAndPageAssignment": "passed",
+    "exactVisibleText": "passed",
+    "characterContinuity": "passed",
+    "page9To10Continuity": "passed",
+    "collagesOrContactSheets": "none"
+  },
+  "status": "ready_to_publish"
+}

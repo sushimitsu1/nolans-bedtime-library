@@ -1,0 +1,209 @@
+{
+  "title": "Pirate’s Curse and the Foggy Lighthouse",
+  "slug": "pirates-curse-foggy-lighthouse",
+  "category": "Monster Trucks",
+  "description": "When a lighthouse lens cart becomes stuck in wet sand and fog hides the hill path, Pirate’s Curse uses patience, clues, and teamwork to bring the golden light home.",
+  "characterBible": {
+    "mainCharacter": "Pirate’s Curse is a friendly pirate-ship-themed monster truck with a dark brown wood-plank body, deep red bandana accents, a black pirate hat roof piece, a small black flag, a golden anchor-shaped tow hook, warm amber windshield eyes, and four huge black tires. His pirate details remain playful, never scary.",
+    "supportingCharacters": [
+      "Keeper Marina is a cheerful lighthouse keeper with tan skin, curly dark hair, a teal coat, cream trousers, and red rubber boots.",
+      "Pip is a round gray harbor seal with dark whiskers and bright gentle eyes.",
+      "The evening boats are three small colorful sailboats with warm cabin lamps, seen only offshore and at the dock."
+    ]
+  },
+  "settingBible": {
+    "description": "Coral Cove at dusk, moving from a wet sandy beach with tide pools to a shell-lined hill path and a white stone lighthouse. Fog is thick but soft, never threatening. Lighting progresses from muted gray-blue beach light to the lighthouse’s warm golden beam and a silver moonlit harbor."
+  },
+  "continuityRules": [
+    "Pirate’s Curse keeps the same wood-plank body, red accents, pirate hat, black flag, golden anchor hook, face, and tire proportions throughout.",
+    "The lens is a large round golden glass lens secured inside the same low wooden cart on every page.",
+    "Keeper Marina always wears a teal coat and red boots.",
+    "Pip is the same small gray seal and does not wear clothing.",
+    "Page 9 ends at the fallen driftwood branch on the final hill turn; Page 10 begins at that exact branch and turn.",
+    "Fog softens backgrounds but faces, vehicles, the lens, and the path remain bright and readable."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Pirate’s Curse rolled along Coral Cove, where waves whispered beside a tall lighthouse.",
+      "speechText": "Pirate’s Curse rolled along Coral Cove, where waves whispered beside a tall lighthouse.",
+      "illustrationScene": "Wide coastal establishing scene with Pirate’s Curse rolling on firm wet sand; calm waves, tide pools, and a white lighthouse on a nearby hill are clearly visible through light fog.",
+      "requiredCharacters": [
+        "Pirate’s Curse"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Establishes the truck, cove, lighthouse destination, and gentle fog."
+    },
+    {
+      "number": 2,
+      "text": "Keeper Marina was preparing the lighthouse for the evening boats. A new golden lens waited in a wooden cart.",
+      "speechText": "Keeper Marina was preparing the lighthouse for the evening boats. A new golden lens waited in a wooden cart.",
+      "illustrationScene": "Keeper Marina stands beside a low wooden cart holding a secured round golden lighthouse lens; Pirate’s Curse approaches, with the lighthouse above them.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Introduces Marina, the lens cart, and the delivery goal."
+    },
+    {
+      "number": 3,
+      "text": "A thick fog drifted over the beach. The cart’s small wheels sank deep into the wet sand.",
+      "speechText": "A thick fog drifted over the beach. The cart’s small wheels sank deep into the wet sand.",
+      "illustrationScene": "Fog thickens softly around the beach; the cart wheels are visibly half-sunk in wet sand while Marina and Pirate’s Curse inspect the problem.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Creates the first obstacle without danger; lens remains strapped securely."
+    },
+    {
+      "number": 4,
+      "text": "Pirate’s Curse lowered his golden anchor hook. “A pirate never leaves treasure stuck,” he said.",
+      "speechText": "Pirate’s Curse lowered his golden anchor hook. “A pirate never leaves treasure stuck,” he said.",
+      "illustrationScene": "Pirate’s Curse carefully connects his golden anchor-shaped tow hook to the front ring of the lens cart while Marina checks the straps.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Begins the first careful attempt to free the cart."
+    },
+    {
+      "number": 5,
+      "text": "He pulled gently, but the cart wobbled toward a tide pool. Tiny crabs raised their claws.",
+      "speechText": "He pulled gently, but the cart wobbled toward a tide pool. Tiny crabs raised their claws.",
+      "illustrationScene": "The cart shifts only slightly toward a shallow tide pool; Pirate’s Curse stops immediately, Marina signals pause, and two tiny red crabs stand safely on a rock.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "The first attempt reveals a need for a straighter, firmer surface."
+    },
+    {
+      "number": 6,
+      "text": "Marina placed wide boards under the wheels. Pirate’s Curse tried again, slow and straight.",
+      "speechText": "Marina placed wide boards under the wheels. Pirate’s Curse tried again, slow and straight.",
+      "illustrationScene": "Marina lays two broad wooden boards under the cart wheels; Pirate’s Curse pulls in a straight line, with the cart rolling smoothly and the lens steady.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Resolves the sand problem and moves the cart toward the hill path."
+    },
+    {
+      "number": 7,
+      "text": "The cart rolled free, but the fog hid the path up the lighthouse hill. Even the bell sounded far away.",
+      "speechText": "The cart rolled free, but the fog hid the path up the lighthouse hill. Even the bell sounded far away.",
+      "illustrationScene": "At the base of the hill, Pirate’s Curse and Marina pause with the freed cart; several paths fade into fog, and the lighthouse bell tower is only a soft silhouette.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Introduces the second problem after the cart is freed."
+    },
+    {
+      "number": 8,
+      "text": "Pip the seal splashed beside a line of bright shells. The shells curved toward the stone steps.",
+      "speechText": "Pip the seal splashed beside a line of bright shells. The shells curved toward the stone steps.",
+      "illustrationScene": "Pip splashes at the shoreline beside a clear line of white and coral shells leading from beach to the first stone steps; Pirate’s Curse and Marina notice the clue.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina",
+        "Pip"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Provides a gentle visual clue that guides them through fog."
+    },
+    {
+      "number": 9,
+      "text": "They followed the shell trail until a fallen driftwood branch blocked the last turn.",
+      "speechText": "They followed the shell trail until a fallen driftwood branch blocked the last turn.",
+      "illustrationScene": "Pirate’s Curse tows the lens cart behind him on the shell-lined hill path; at the final bend, a large pale driftwood branch lies across the path beneath the lighthouse wall.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "End at the blocked final turn with branch, cart, and lighthouse wall fixed for Page 10."
+    },
+    {
+      "number": 10,
+      "text": "Pirate’s Curse rolled the branch safely aside. The golden lens cart climbed the clear path behind him.",
+      "speechText": "Pirate’s Curse rolled the branch safely aside. The golden lens cart climbed the clear path behind him.",
+      "illustrationScene": "Same final bend as Page 9: Pirate’s Curse uses one front tire to roll the driftwood branch to the grassy edge while Marina guides the lens cart through the newly clear opening.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Directly resolves the Page 9 obstruction in the same location."
+    },
+    {
+      "number": 11,
+      "text": "At the lighthouse, Marina fitted the lens into the lamp. Warm light swept across the fog.",
+      "speechText": "At the lighthouse, Marina fitted the lens into the lamp. Warm light swept across the fog.",
+      "illustrationScene": "Inside the open lantern room, Marina secures the golden lens in the lamp while Pirate’s Curse waits on the circular terrace; a warm beam begins cutting through fog.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Completes the delivery goal and changes the lighting from gray fog to warm gold."
+    },
+    {
+      "number": 12,
+      "text": "The evening boats saw the golden beam and followed it home. Their little horns tooted thanks.",
+      "speechText": "The evening boats saw the golden beam and followed it home. Their little horns sounded a gentle thank-you.",
+      "illustrationScene": "View from lighthouse hill: three small sailboats with warm cabin lights follow the golden beam toward Coral Cove dock; Pirate’s Curse and Marina watch from above.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina",
+        "Evening boats"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Shows the practical result of the working lighthouse."
+    },
+    {
+      "number": 13,
+      "text": "Marina gave Pirate’s Curse a shiny shell badge. It glimmered like buried treasure.",
+      "speechText": "Marina gave Pirate’s Curse a shiny shell badge. It glimmered like buried treasure.",
+      "illustrationScene": "At the lighthouse door, Marina attaches a polished shell-shaped badge near Pirate’s Curse’s red bandana accent; Pip watches from a nearby rock.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Keeper Marina",
+        "Pip"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Gratitude and keepsake after the successful delivery."
+    },
+    {
+      "number": 14,
+      "text": "The fog thinned, and the sea became smooth and silver. Pirate’s Curse watched the boats settle at the dock.",
+      "speechText": "The fog thinned, and the sea became smooth and silver. Pirate’s Curse watched the boats settle at the dock.",
+      "illustrationScene": "Wide peaceful harbor view with fog lifting, moonlight on calm water, boats secured at dock, and Pirate’s Curse parked beside the lighthouse.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Evening boats"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Transitions from active solution to quiet harbor rest."
+    },
+    {
+      "number": 15,
+      "text": "He parked beside the lighthouse and listened to the slow waves. His engine hummed a quiet pirate lullaby.",
+      "speechText": "He parked beside the lighthouse and listened to the slow waves. His engine hummed a quiet pirate lullaby.",
+      "illustrationScene": "Pirate’s Curse rests beside the white lighthouse with headlights low, black flag hanging still, Pip asleep on a rock, and slow silver waves below.",
+      "requiredCharacters": [
+        "Pirate’s Curse",
+        "Pip"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Calm bedtime ending in the completed lighthouse setting."
+    }
+  ]
+}

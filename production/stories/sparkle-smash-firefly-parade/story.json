@@ -1,0 +1,217 @@
+{
+  "title": "Sparkle Smash and the Firefly Parade",
+  "slug": "sparkle-smash-firefly-parade",
+  "category": "Monster Trucks",
+  "description": "When bright lanterns and a noisy parade scare the meadow fireflies into hiding, Sparkle Smash helps create a softer celebration where every little light can shine.",
+  "characterBible": {
+    "mainCharacter": "Sparkle Smash is a friendly hot-pink and purple Monster Jam monster truck with turquoise accents, crystal-like side panels, white star decals, long curved eyelash details above bright violet windshield eyes, and four enormous black tires with pink hubs. Her glitter effect is subtle and never changes color.",
+    "supportingCharacters": [
+      "Twinkle is a small lavender parade cart with a gold star topper, four tiny turquoise wheels, soft yellow eyes, and a rack of folded paper star shades.",
+      "The meadow fireflies are tiny warm yellow-green lights with simple rounded bodies and remain small throughout.",
+      "Town helpers wear pastel festival vests and appear only as a small background group."
+    ]
+  },
+  "settingBible": {
+    "description": "Starflower Meadow at twilight, filled with daisies, purple starflowers, a ribbon arch, small parade carts, and a quiet pond. Lighting progresses from overly bright crystal lanterns to warm shaded stars, natural firefly glow, and a dark peaceful pond under the moon."
+  },
+  "continuityRules": [
+    "Sparkle Smash keeps the same hot-pink and purple body, turquoise accents, crystal panels, white stars, violet eyes, pink hubs, and tire proportions.",
+    "Twinkle remains lavender with turquoise wheels and a gold star topper.",
+    "Fireflies are tiny yellow-green lights, never large glowing creatures.",
+    "Crystal lanterns start uncovered and bright; from Page 5 onward they wear soft cream paper star shades.",
+    "Page 9 ends with Sparkle Smash holding the ribbon arch while Twinkle loosens tangled ribbons; Page 10 begins at the same arch as fireflies enter.",
+    "The parade remains slow, quiet, and gentle, with no racing or smashing despite the character’s name."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Sparkle Smash arrived at Starflower Meadow with pink wheels and a trail of tiny sparkles.",
+      "speechText": "Sparkle Smash arrived at Starflower Meadow with pink wheels and a trail of tiny sparkles.",
+      "illustrationScene": "Wide meadow establishing view: Sparkle Smash rolls gently between daisies and purple starflowers, leaving a subtle trail of small pink-white sparkles; ribbon arch and pond are visible in distance.",
+      "requiredCharacters": [
+        "Sparkle Smash"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Establishes Sparkle Smash, meadow, and gentle sparkle effect."
+    },
+    {
+      "number": 2,
+      "text": "The town was building a twilight parade for the meadow fireflies. Crystal lanterns hung from every little float.",
+      "speechText": "The town was building a twilight parade for the meadow fireflies. Crystal lanterns hung from every little float.",
+      "illustrationScene": "Sparkle Smash meets Twinkle among several small parade floats covered in clear crystal lanterns; town helpers decorate in the background.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Town helpers"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Introduces Twinkle, parade plan, and bright crystal lanterns."
+    },
+    {
+      "number": 3,
+      "text": "When all the lanterns switched on, the meadow became bright as noon. The fireflies hid beneath the flowers.",
+      "speechText": "When all the lanterns switched on, the meadow became bright as noon. The fireflies hid beneath the flowers.",
+      "illustrationScene": "The crystal lanterns glow too brightly; Sparkle Smash and Twinkle squint gently while tiny yellow-green fireflies tuck under flower petals, still visible and safe.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Creates the problem of excessive light without making the meadow scary."
+    },
+    {
+      "number": 4,
+      "text": "Sparkle Smash dimmed her headlights. “Maybe the smallest lights need a gentler welcome.”",
+      "speechText": "Sparkle Smash dimmed her headlights. “Maybe the smallest lights need a gentler welcome.”",
+      "illustrationScene": "Sparkle Smash lowers her headlight glow beside a cluster of daisies; Twinkle mirrors her by dimming the star topper, and one firefly peeks out.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Begins the quieter solution and establishes the emotional insight."
+    },
+    {
+      "number": 5,
+      "text": "She and Twinkle covered the crystal lanterns with soft paper stars. The glare became a warm glow.",
+      "speechText": "She and Twinkle covered the crystal lanterns with soft paper stars. The glare became a warm glow.",
+      "illustrationScene": "Sparkle Smash holds a float steady while Twinkle fits cream paper star shades over crystal lanterns; harsh white light changes to soft warm gold.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Changes all future lantern appearance from bare crystal to shaded stars."
+    },
+    {
+      "number": 6,
+      "text": "They moved the loud drum float to the far end of the field. A quiet bell cart took its place.",
+      "speechText": "They moved the loud drum float to the far end of the field. A quiet bell cart took its place.",
+      "illustrationScene": "Sparkle Smash gently tows a red drum float away from the parade start while Twinkle positions a small silver bell cart at the front; no one is playing the drum.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Reduces noise and varies the solution beyond lighting."
+    },
+    {
+      "number": 7,
+      "text": "One shy firefly blinked above a daisy. Then two more blinked near Sparkle Smash’s sparkling hood.",
+      "speechText": "One shy firefly blinked above a daisy. Then two more blinked near Sparkle Smash’s sparkling hood.",
+      "illustrationScene": "Close warm scene with one firefly above a white daisy and two near Sparkle Smash’s pink hood; Twinkle watches from beside a shaded star lantern.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Shows the first response to the gentler environment."
+    },
+    {
+      "number": 8,
+      "text": "A breeze tangled the ribbon arch across the parade path. Sparkle Smash stopped before touching it.",
+      "speechText": "A breeze tangled the ribbon arch across the parade path. Sparkle Smash stopped before touching it.",
+      "illustrationScene": "At the parade entrance, pastel ribbons twist tightly across the arch and block the path; Sparkle Smash stops a safe distance away while Twinkle inspects the knot.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Introduces a final practical obstacle before the parade can begin."
+    },
+    {
+      "number": 9,
+      "text": "Twinkle loosened the ribbons while Sparkle Smash held the arch steady. A clear, softly lit opening appeared.",
+      "speechText": "Twinkle loosened the ribbons while Sparkle Smash held the arch steady. A clear, softly lit opening appeared.",
+      "illustrationScene": "Sparkle Smash braces the base of the pastel ribbon arch with one front tire while Twinkle uses her small tow handle to loosen ribbons; warm star lanterns frame the newly open center.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "End at the cleared arch with both characters fixed for the Page 10 entrance."
+    },
+    {
+      "number": 10,
+      "text": "The first fireflies floated through the opening. Their tiny lights joined the star lanterns one by one.",
+      "speechText": "The first fireflies floated through the opening. Their tiny lights joined the star lanterns one by one.",
+      "illustrationScene": "Same arch and character positions as Page 9: a small stream of yellow-green fireflies floats through the clear opening past Sparkle Smash and Twinkle, mixing with warm shaded lanterns.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Direct continuation of Page 9; the reopened arch immediately welcomes fireflies."
+    },
+    {
+      "number": 11,
+      "text": "Sparkle Smash led the parade at a slow, smooth roll. No horns blared and no wheels rushed.",
+      "speechText": "Sparkle Smash led the parade at a slow, smooth roll. No horns blared and no wheels rushed.",
+      "illustrationScene": "Sparkle Smash leads Twinkle and several softly lit floats along a flower-lined path; fireflies hover overhead and all vehicles maintain wide calm spacing.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Begins the successful parade with explicit gentle movement."
+    },
+    {
+      "number": 12,
+      "text": "Soon the whole meadow shimmered with pink, gold, and green lights. The fireflies danced safely above the flowers.",
+      "speechText": "Soon the whole meadow shimmered with pink, gold, and green lights. The fireflies danced safely above the flowers.",
+      "illustrationScene": "Wide celebratory meadow view with Sparkle Smash, Twinkle, shaded gold lanterns, subtle pink sparkles, and many tiny green-yellow fireflies above untouched flowers.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies",
+        "Town helpers"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Visual payoff while preserving small scale and safety of the fireflies."
+    },
+    {
+      "number": 13,
+      "text": "The townsfolk thanked Sparkle Smash for making the celebration soft enough for everyone.",
+      "speechText": "The townsfolk thanked Sparkle Smash for making the celebration soft enough for everyone.",
+      "illustrationScene": "Town helpers present Sparkle Smash with a small cream star garland near the pond; Twinkle and fireflies glow nearby.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies",
+        "Town helpers"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Gratitude beat tied to the story’s inclusive solution."
+    },
+    {
+      "number": 14,
+      "text": "The parade ended beside a quiet pond. The lanterns went dark, but the fireflies kept glowing.",
+      "speechText": "The parade ended beside a quiet pond. The lanterns went dark, but the fireflies kept glowing.",
+      "illustrationScene": "Parade floats are parked beside the still pond with lanterns switched off; Sparkle Smash and Twinkle watch fireflies reflected in the water under the moon.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Twinkle",
+        "Fireflies"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Transitions from celebration to natural quiet light."
+    },
+    {
+      "number": 15,
+      "text": "Sparkle Smash rested beneath the ribbon arch. Her last sparkle winked like a bedtime star.",
+      "speechText": "Sparkle Smash rested beneath the ribbon arch. Her last sparkle winked like a bedtime star.",
+      "illustrationScene": "Sparkle Smash parks beneath the now-neat pastel ribbon arch, headlights low, star garland visible, with one tiny sparkle above her hood and fireflies resting among flowers.",
+      "requiredCharacters": [
+        "Sparkle Smash",
+        "Fireflies"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Peaceful bedtime ending that returns to the arch."
+    }
+  ]
+}

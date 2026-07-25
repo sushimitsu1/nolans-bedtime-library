@@ -657,6 +657,166 @@ narration: [
   "The new sign stood straight beside the cozy books. “Slow, low, and steady worked,” Cora said with a proud smile.",
   "That night, Cora folded her boom beneath the quiet moon. She closed her sleepy hazel eyes and dreamed of steady, gentle lifts."
 ]
+},
+{
+id: "blue-thunder-rainy-lantern-trail", title: "Blue Thunder and the Rainy Lantern Trail", category: "Monster Trucks",
+description: "After a summer shower washes away the markers for a lakeside lantern parade, Blue Thunder and a little lantern cart rebuild a safe, shining trail.",
+keywords: ["blue thunder", "monster truck", "rain", "lantern trail", "silver lake", "storm", "teamwork"],
+cover: "assets/books/blue-thunder-rainy-lantern-trail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/blue-thunder-rainy-lantern-trail/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Blue Thunder loved rolling beside Silver Lake when the evening clouds turned blue.",
+  "Tonight, the town prepared for the Moonlight Lantern Parade. Tiny silver stars marked the safe path.",
+  "A quick summer shower splashed across the track. When it ended, the star markers had washed into puddles.",
+  "Blue Thunder checked the first puddle carefully. “We can find every star,” he said.",
+  "Luma shone over the wet ground. Three silver stars sparkled near the reeds.",
+  "Blue Thunder nudged them onto dry stones, one by one. His big tires moved as softly as pillows.",
+  "At the hill, a muddy stream covered the next part of the path. A family of ducks waited nearby.",
+  "Blue Thunder and Luma placed flat stepping stones across the stream. The ducks waddled over, and another star appeared beneath a leaf.",
+  "At the old wooden arch, they found the final box of markers tipped on its side. The parade would begin soon.",
+  "Blue Thunder braced the box while Luma lifted the lid. Together, they counted every glowing star.",
+  "They placed the stars along the dry, winding path. Each one reflected Blue Thunder’s gentle blue light.",
+  "The lantern parade rolled slowly beside the lake. No one slipped, and no duck was disturbed.",
+  "Mayor Maple thanked Blue Thunder and Luma. “You turned a rainy track into a shining trail.”",
+  "Blue Thunder watched the lanterns fade into the quiet town. The clouds opened to reveal the moon.",
+  "He parked beneath a willow tree, listening to soft drops fall. Blue Thunder closed his headlights and rested."
+],
+speechText: [
+  "Blue Thunder loved rolling beside Silver Lake when the evening clouds turned blue.",
+  "Tonight, the town prepared for the Moonlight Lantern Parade. Tiny silver stars marked the safe path.",
+  "A quick summer shower splashed across the track. When it ended, the star markers had washed into puddles.",
+  "Blue Thunder checked the first puddle carefully. “We can find every star,” he said.",
+  "Luma shone over the wet ground. Three silver stars sparkled near the reeds.",
+  "Blue Thunder nudged them onto dry stones, one by one. His big tires moved as softly as pillows.",
+  "At the hill, a muddy stream covered the next part of the path. A family of ducks waited nearby.",
+  "Blue Thunder and Luma placed flat stepping stones across the stream. The ducks waddled over, and another star appeared beneath a leaf.",
+  "At the old wooden arch, they found the final box of markers tipped on its side. The parade would begin soon.",
+  "Blue Thunder braced the box while Luma lifted the lid. Together, they counted every glowing star.",
+  "They placed the stars along the dry, winding path. Each one reflected Blue Thunder’s gentle blue light.",
+  "The lantern parade rolled slowly beside the lake. No one slipped, and no duck was disturbed.",
+  "Mayor Maple thanked Blue Thunder and Luma. “You turned a rainy track into a shining trail.”",
+  "Blue Thunder watched the lanterns fade into the quiet town. The clouds opened to reveal the moon.",
+  "He parked beneath a willow tree, listening to soft drops fall. Blue Thunder closed his headlights and rested."
+]
+},
+{
+id: "pirates-curse-foggy-lighthouse", title: "Pirate’s Curse and the Foggy Lighthouse", category: "Monster Trucks",
+description: "When a lighthouse lens cart becomes stuck in wet sand and fog hides the hill path, Pirate’s Curse uses patience, clues, and teamwork to bring the golden light home.",
+keywords: ["pirate's curse", "pirates curse", "monster truck", "fog", "lighthouse", "coral cove", "boats"],
+cover: "assets/books/pirates-curse-foggy-lighthouse/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/pirates-curse-foggy-lighthouse/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Pirate’s Curse rolled along Coral Cove, where waves whispered beside a tall lighthouse.",
+  "Keeper Marina was preparing the lighthouse for the evening boats. A new golden lens waited in a wooden cart.",
+  "A thick fog drifted over the beach. The cart’s small wheels sank deep into the wet sand.",
+  "Pirate’s Curse lowered his golden anchor hook. “A pirate never leaves treasure stuck,” he said.",
+  "He pulled gently, but the cart wobbled toward a tide pool. Tiny crabs raised their claws.",
+  "Marina placed wide boards under the wheels. Pirate’s Curse tried again, slow and straight.",
+  "The cart rolled free, but the fog hid the path up the lighthouse hill. Even the bell sounded far away.",
+  "Pip the seal splashed beside a line of bright shells. The shells curved toward the stone steps.",
+  "They followed the shell trail until a fallen driftwood branch blocked the last turn.",
+  "Pirate’s Curse rolled the branch safely aside. The golden lens cart climbed the clear path behind him.",
+  "At the lighthouse, Marina fitted the lens into the lamp. Warm light swept across the fog.",
+  "The evening boats saw the golden beam and followed it home. Their little horns tooted thanks.",
+  "Marina gave Pirate’s Curse a shiny shell badge. It glimmered like buried treasure.",
+  "The fog thinned, and the sea became smooth and silver. Pirate’s Curse watched the boats settle at the dock.",
+  "He parked beside the lighthouse and listened to the slow waves. His engine hummed a quiet pirate lullaby."
+],
+speechText: [
+  "Pirate’s Curse rolled along Coral Cove, where waves whispered beside a tall lighthouse.",
+  "Keeper Marina was preparing the lighthouse for the evening boats. A new golden lens waited in a wooden cart.",
+  "A thick fog drifted over the beach. The cart’s small wheels sank deep into the wet sand.",
+  "Pirate’s Curse lowered his golden anchor hook. “A pirate never leaves treasure stuck,” he said.",
+  "He pulled gently, but the cart wobbled toward a tide pool. Tiny crabs raised their claws.",
+  "Marina placed wide boards under the wheels. Pirate’s Curse tried again, slow and straight.",
+  "The cart rolled free, but the fog hid the path up the lighthouse hill. Even the bell sounded far away.",
+  "Pip the seal splashed beside a line of bright shells. The shells curved toward the stone steps.",
+  "They followed the shell trail until a fallen driftwood branch blocked the last turn.",
+  "Pirate’s Curse rolled the branch safely aside. The golden lens cart climbed the clear path behind him.",
+  "At the lighthouse, Marina fitted the lens into the lamp. Warm light swept across the fog.",
+  "The evening boats saw the golden beam and followed it home. Their little horns sounded a gentle thank-you.",
+  "Marina gave Pirate’s Curse a shiny shell badge. It glimmered like buried treasure.",
+  "The fog thinned, and the sea became smooth and silver. Pirate’s Curse watched the boats settle at the dock.",
+  "He parked beside the lighthouse and listened to the slow waves. His engine hummed a quiet pirate lullaby."
+]
+},
+{
+id: "thunderroarus-lost-fossil-trail", title: "ThunderROARus and the Lost Fossil Trail", category: "Monster Trucks",
+description: "A warm canyon wind scatters the signs for a children’s fossil walk, so ThunderROARus uses real tracks, careful observation, and sturdy stone bases to rebuild the trail.",
+keywords: ["thunderroarus", "monster truck", "dinosaur", "fossil trail", "sunset fossil park", "map", "teamwork"],
+cover: "assets/books/thunderroarus-lost-fossil-trail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/thunderroarus-lost-fossil-trail/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "ThunderROARus loved Sunset Fossil Park, where red rocks looked like sleeping dinosaurs.",
+  "Tonight, Ranger Tessa planned a gentle fossil walk for the young campers. Wooden footprint signs marked the trail.",
+  "A warm wind whooshed through the canyon. It spun the signs around and scattered the little trail map.",
+  "ThunderROARus studied the sandy ground. “Real tracks can help us rebuild the trail,” he said.",
+  "Near the first rock, he found a tiny three-toed fossil print. Ranger Tessa matched it to the first sign.",
+  "Farther on, a long curved mark led beneath a stone arch. A sleepy lizard watched from the shade.",
+  "One footprint sign had landed on a low ledge. ThunderROARus climbed the gentle slope and nudged it down.",
+  "At the canyon fork, two trails looked alike. Round pebble marks led toward the fossil shelter.",
+  "Inside the shelter, the missing map was pinned beneath a flat red stone. One corner still fluttered in the wind.",
+  "ThunderROARus held the stone steady while Tessa unfolded the map. The correct path curled around the canyon, not through the deep sand.",
+  "They reset every sign in a heavy stone base. Now each footprint pointed the right way.",
+  "The campers followed the trail and found a huge fossil rib glowing in the sunset. Everyone whispered, “Wow.”",
+  "Ranger Tessa thanked ThunderROARus for using careful eyes, not just a mighty roar.",
+  "The campers returned to their tents as the first stars appeared. The red rocks turned purple and calm.",
+  "ThunderROARus rested beside the fossil shelter. His engine gave one tiny rumble, then grew still."
+],
+speechText: [
+  "ThunderROARus loved Sunset Fossil Park, where red rocks looked like sleeping dinosaurs.",
+  "Tonight, Ranger Tessa planned a gentle fossil walk for the young campers. Wooden footprint signs marked the trail.",
+  "A warm wind rushed through the canyon. It spun the signs around and scattered the little trail map.",
+  "ThunderROARus studied the sandy ground. “Real tracks can help us rebuild the trail,” he said.",
+  "Near the first rock, he found a tiny three-toed fossil print. Ranger Tessa matched it to the first sign.",
+  "Farther on, a long curved mark led beneath a stone arch. A sleepy lizard watched from the shade.",
+  "One footprint sign had landed on a low ledge. ThunderROARus climbed the gentle slope and nudged it down.",
+  "At the canyon fork, two trails looked alike. Round pebble marks led toward the fossil shelter.",
+  "Inside the shelter, the missing map was pinned beneath a flat red stone. One corner still fluttered in the wind.",
+  "ThunderROARus held the stone steady while Tessa unfolded the map. The correct path curled around the canyon, not through the deep sand.",
+  "They reset every sign in a heavy stone base. Now each footprint pointed the right way.",
+  "The campers followed the trail and found a huge fossil rib glowing in the sunset. Everyone whispered, “Wow.”",
+  "Ranger Tessa thanked ThunderROARus for using careful eyes, not just a mighty roar.",
+  "The campers returned to their tents as the first stars appeared. The red rocks turned purple and calm.",
+  "ThunderROARus rested beside the fossil shelter. His engine made one tiny sound, then grew still."
+]
+},
+{
+id: "sparkle-smash-firefly-parade", title: "Sparkle Smash and the Firefly Parade", category: "Monster Trucks",
+description: "When bright lanterns and a noisy parade scare the meadow fireflies into hiding, Sparkle Smash helps create a softer celebration where every little light can shine.",
+keywords: ["sparkle smash", "monster truck", "firefly parade", "starflower meadow", "sparkles", "teamwork"],
+cover: "assets/books/sparkle-smash-firefly-parade/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/sparkle-smash-firefly-parade/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Sparkle Smash arrived at Starflower Meadow with pink wheels and a trail of tiny sparkles.",
+  "The town was building a twilight parade for the meadow fireflies. Crystal lanterns hung from every little float.",
+  "When all the lanterns switched on, the meadow became bright as noon. The fireflies hid beneath the flowers.",
+  "Sparkle Smash dimmed her headlights. “Maybe the smallest lights need a gentler welcome.”",
+  "She and Twinkle covered the crystal lanterns with soft paper stars. The glare became a warm glow.",
+  "They moved the loud drum float to the far end of the field. A quiet bell cart took its place.",
+  "One shy firefly blinked above a daisy. Then two more blinked near Sparkle Smash’s sparkling hood.",
+  "A breeze tangled the ribbon arch across the parade path. Sparkle Smash stopped before touching it.",
+  "Twinkle loosened the ribbons while Sparkle Smash held the arch steady. A clear, softly lit opening appeared.",
+  "The first fireflies floated through the opening. Their tiny lights joined the star lanterns one by one.",
+  "Sparkle Smash led the parade at a slow, smooth roll. No horns blared and no wheels rushed.",
+  "Soon the whole meadow shimmered with pink, gold, and green lights. The fireflies danced safely above the flowers.",
+  "The townsfolk thanked Sparkle Smash for making the celebration soft enough for everyone.",
+  "The parade ended beside a quiet pond. The lanterns went dark, but the fireflies kept glowing.",
+  "Sparkle Smash rested beneath the ribbon arch. Her last sparkle winked like a bedtime star."
+],
+speechText: [
+  "Sparkle Smash arrived at Starflower Meadow with pink wheels and a trail of tiny sparkles.",
+  "The town was building a twilight parade for the meadow fireflies. Crystal lanterns hung from every little float.",
+  "When all the lanterns switched on, the meadow became bright as noon. The fireflies hid beneath the flowers.",
+  "Sparkle Smash dimmed her headlights. “Maybe the smallest lights need a gentler welcome.”",
+  "She and Twinkle covered the crystal lanterns with soft paper stars. The glare became a warm glow.",
+  "They moved the loud drum float to the far end of the field. A quiet bell cart took its place.",
+  "One shy firefly blinked above a daisy. Then two more blinked near Sparkle Smash’s sparkling hood.",
+  "A breeze tangled the ribbon arch across the parade path. Sparkle Smash stopped before touching it.",
+  "Twinkle loosened the ribbons while Sparkle Smash held the arch steady. A clear, softly lit opening appeared.",
+  "The first fireflies floated through the opening. Their tiny lights joined the star lanterns one by one.",
+  "Sparkle Smash led the parade at a slow, smooth roll. No horns blared and no wheels rushed.",
+  "Soon the whole meadow shimmered with pink, gold, and green lights. The fireflies danced safely above the flowers.",
+  "The townsfolk thanked Sparkle Smash for making the celebration soft enough for everyone.",
+  "The parade ended beside a quiet pond. The lanterns went dark, but the fireflies kept glowing.",
+  "Sparkle Smash rested beneath the ribbon arch. Her last sparkle winked like a bedtime star."
+]
 }
 ];
 
@@ -1001,7 +1161,8 @@ async function readCurrentPage({enableReadAlong=true}={}){
   ) return;
   narrationVoiceLocked=true;
   narrationPreparing=false;
-  const utterance=new SpeechSynthesisUtterance(prepareSpeechText(text));
+  const packageSpeechText=Array.isArray(activeStory?.speechText) ? activeStory.speechText[page] : text;
+  const utterance=new SpeechSynthesisUtterance(prepareSpeechText(packageSpeechText || text));
   utterance.lang=voice.lang || 'en-US';
   utterance.rate=narrationSettings.rate;
   utterance.pitch=narrationSettings.pitch;

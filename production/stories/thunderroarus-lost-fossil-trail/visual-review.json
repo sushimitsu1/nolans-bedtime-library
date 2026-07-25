@@ -1,0 +1,524 @@
+{
+  "storySlug": "thunderroarus-lost-fossil-trail",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Young campers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Young campers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Lizard",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Young campers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Young campers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Lizard",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Ranger Tessa",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Young campers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "ThunderROARus",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Lizard",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    }
+  ]
+}

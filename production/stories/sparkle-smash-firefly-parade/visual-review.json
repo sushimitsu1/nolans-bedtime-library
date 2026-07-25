@@ -1,0 +1,560 @@
+{
+  "storySlug": "sparkle-smash-firefly-parade",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Town helpers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Town helpers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Town helpers",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Sparkle Smash",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Fireflies",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    }
+  ]
+}

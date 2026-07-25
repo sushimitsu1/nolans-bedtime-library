@@ -1,0 +1,213 @@
+{
+  "title": "ThunderROARus and the Lost Fossil Trail",
+  "slug": "thunderroarus-lost-fossil-trail",
+  "category": "Monster Trucks",
+  "description": "A warm canyon wind scatters the signs for a children’s fossil walk, so ThunderROARus uses real tracks, careful observation, and sturdy stone bases to rebuild the trail.",
+  "characterBible": {
+    "mainCharacter": "ThunderROARus is a friendly dinosaur-themed Monster Jam monster truck with a bright golden-orange body, green scale markings, a horned dinosaur brow, small decorative front claws, a short spiky tail body piece, warm green windshield eyes, and four huge black tires. His toothy grille looks cheerful, never fierce.",
+    "supportingCharacters": [
+      "Ranger Tessa has brown skin, a dark braid, a khaki ranger shirt, green vest, tan hat, and sturdy brown boots.",
+      "The young campers are four preschool-age children in bright red, blue, yellow, and purple jackets, always accompanied by Ranger Tessa.",
+      "A small sandy-brown lizard appears quietly on rocks and never changes color."
+    ]
+  },
+  "settingBible": {
+    "description": "Sunset Fossil Park, a warm red-rock canyon with sandy paths, a low stone arch, an open fossil shelter, and a camp area. Lighting progresses from late golden sunlight to orange sunset, purple twilight, and a clear starry night. Fossils are large, friendly natural shapes, not frightening skeleton displays."
+  },
+  "continuityRules": [
+    "ThunderROARus keeps the same golden-orange body, green markings, horned brow, decorative claws, tail piece, face, and tire proportions.",
+    "Ranger Tessa always wears the same khaki shirt, green vest, tan hat, braid, and brown boots.",
+    "Trail signs are wooden rectangles with a single dark dinosaur footprint symbol and are later placed in heavy round stone bases.",
+    "The paper map is cream colored with a green trail line and one folded corner.",
+    "Page 9 ends inside the fossil shelter with the map pinned by a flat red stone; Page 10 begins in the same shelter before they leave.",
+    "The story uses observation and teamwork rather than roaring, smashing, or racing."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "ThunderROARus loved Sunset Fossil Park, where red rocks looked like sleeping dinosaurs.",
+      "speechText": "ThunderROARus loved Sunset Fossil Park, where red rocks looked like sleeping dinosaurs.",
+      "illustrationScene": "Wide red-rock canyon at late afternoon; ThunderROARus rolls slowly past rounded formations shaped like resting dinosaurs, with a clear sandy trail ahead.",
+      "requiredCharacters": [
+        "ThunderROARus"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Establishes the dinosaur-themed truck and fossil park setting."
+    },
+    {
+      "number": 2,
+      "text": "Tonight, Ranger Tessa planned a gentle fossil walk for the young campers. Wooden footprint signs marked the trail.",
+      "speechText": "Tonight, Ranger Tessa planned a gentle fossil walk for the young campers. Wooden footprint signs marked the trail.",
+      "illustrationScene": "Ranger Tessa shows four children a neat row of wooden footprint signs along the canyon path while ThunderROARus watches nearby.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Young campers"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Introduces the planned walk, campers, and original sign system."
+    },
+    {
+      "number": 3,
+      "text": "A warm wind whooshed through the canyon. It spun the signs around and scattered the little trail map.",
+      "speechText": "A warm wind rushed through the canyon. It spun the signs around and scattered the little trail map.",
+      "illustrationScene": "A safe swirl of dust turns several lightweight wooden signs and lifts the cream map from Tessa’s hands; ThunderROARus shields the children behind his large tires.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Young campers"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Creates the problem; the children remain safe and calm."
+    },
+    {
+      "number": 4,
+      "text": "ThunderROARus studied the sandy ground. “Real tracks can help us rebuild the trail,” he said.",
+      "speechText": "ThunderROARus studied the sandy ground. “Real tracks can help us rebuild the trail,” he said.",
+      "illustrationScene": "ThunderROARus lowers his friendly grille toward several visible fossil impressions in the sand while Ranger Tessa kneels beside him with one recovered sign.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Begins a clue-based solution after campers wait safely at the nearby camp area."
+    },
+    {
+      "number": 5,
+      "text": "Near the first rock, he found a tiny three-toed fossil print. Ranger Tessa matched it to the first sign.",
+      "speechText": "Near the first rock, he found a tiny three-toed fossil print. Ranger Tessa matched it to the first sign.",
+      "illustrationScene": "Close view of a clear three-toed fossil print beside a red boulder; Tessa holds the matching wooden sign while ThunderROARus points with a front tire.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Restores the first sign using a specific fossil clue."
+    },
+    {
+      "number": 6,
+      "text": "Farther on, a long curved mark led beneath a stone arch. A sleepy lizard watched from the shade.",
+      "speechText": "Farther on, a long curved mark led beneath a stone arch. A sleepy lizard watched from the shade.",
+      "illustrationScene": "ThunderROARus and Tessa follow a curved fossil trace under a low natural stone arch; the small sandy-brown lizard rests safely on a shaded ledge.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Lizard"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Moves the search deeper into the canyon with a new visual clue."
+    },
+    {
+      "number": 7,
+      "text": "One footprint sign had landed on a low ledge. ThunderROARus climbed the gentle slope and nudged it down.",
+      "speechText": "One footprint sign had landed on a low ledge. ThunderROARus climbed the gentle slope and nudged it down.",
+      "illustrationScene": "ThunderROARus carefully climbs a broad shallow slope beside the ledge and uses one front tire to slide a wooden sign down toward Tessa.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Recovers another sign without using decorative body parts as tools."
+    },
+    {
+      "number": 8,
+      "text": "At the canyon fork, two trails looked alike. Round pebble marks led toward the fossil shelter.",
+      "speechText": "At the canyon fork, two trails looked alike. Round pebble marks led toward the fossil shelter.",
+      "illustrationScene": "At a clear Y-shaped fork, ThunderROARus notices a line of round pebble impressions curving toward an open-sided stone fossil shelter; Tessa compares them to the map legend on a sign.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Uses another clue to choose the correct branch."
+    },
+    {
+      "number": 9,
+      "text": "Inside the shelter, the missing map was pinned beneath a flat red stone. One corner still fluttered in the wind.",
+      "speechText": "Inside the shelter, the missing map was pinned beneath a flat red stone. One corner still fluttered in the wind.",
+      "illustrationScene": "Inside the fossil shelter, ThunderROARus and Tessa find the cream map on the floor beneath a flat red stone; its green trail line is visible and one folded corner lifts in the breeze.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "End in the shelter focused on the pinned map; same stone and map continue on Page 10."
+    },
+    {
+      "number": 10,
+      "text": "ThunderROARus held the stone steady while Tessa unfolded the map. The correct path curled around the canyon, not through the deep sand.",
+      "speechText": "ThunderROARus held the stone steady while Tessa unfolded the map. The correct path curled around the canyon, not through the deep sand.",
+      "illustrationScene": "Same shelter and angle as Page 9: ThunderROARus braces beside the flat red stone while Tessa opens the cream map fully, revealing the green route around the canyon.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Direct continuation of Page 9 and confirms the safe route."
+    },
+    {
+      "number": 11,
+      "text": "They reset every sign in a heavy stone base. Now each footprint pointed the right way.",
+      "speechText": "They reset every sign in a heavy stone base. Now each footprint pointed the right way.",
+      "illustrationScene": "Along the correct canyon path, ThunderROARus and Tessa place wooden footprint signs into sturdy round stone bases; several completed signs are visible behind them.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Shows a durable solution that prevents another wind problem."
+    },
+    {
+      "number": 12,
+      "text": "The campers followed the trail and found a huge fossil rib glowing in the sunset. Everyone whispered, “Wow.”",
+      "speechText": "The campers followed the trail and found a huge fossil rib glowing in the sunset. Everyone whispered, “Wow.”",
+      "illustrationScene": "Ranger Tessa leads the four campers along the restored signs to a large curved fossil rib embedded in a red wall; ThunderROARus stands proudly nearby in orange sunset light.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Young campers"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Confirms the fossil walk succeeds and delivers a quiet wonder moment."
+    },
+    {
+      "number": 13,
+      "text": "Ranger Tessa thanked ThunderROARus for using careful eyes, not just a mighty roar.",
+      "speechText": "Ranger Tessa thanked ThunderROARus for using careful eyes, not just a mighty roar.",
+      "illustrationScene": "Near the fossil display, Tessa gives ThunderROARus a small green ranger pennant while the campers smile and the lizard rests on a nearby rock.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Young campers",
+        "Lizard"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Gratitude beat emphasizes observation without lecturing."
+    },
+    {
+      "number": 14,
+      "text": "The campers returned to their tents as the first stars appeared. The red rocks turned purple and calm.",
+      "speechText": "The campers returned to their tents as the first stars appeared. The red rocks turned purple and calm.",
+      "illustrationScene": "The group follows the secure sign trail back toward colorful tents; ThunderROARus rolls at the rear as red canyon walls shift to soft purple twilight.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Ranger Tessa",
+        "Young campers"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Moves from discovery to a calm bedtime transition."
+    },
+    {
+      "number": 15,
+      "text": "ThunderROARus rested beside the fossil shelter. His engine gave one tiny rumble, then grew still.",
+      "speechText": "ThunderROARus rested beside the fossil shelter. His engine made one tiny sound, then grew still.",
+      "illustrationScene": "ThunderROARus curls visually beside the open fossil shelter, headlights low, green ranger pennant attached, with stars above and the small lizard sleeping on a warm stone.",
+      "requiredCharacters": [
+        "ThunderROARus",
+        "Lizard"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Peaceful final rest at the key story location."
+    }
+  ]
+}

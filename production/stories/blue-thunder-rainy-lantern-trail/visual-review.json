@@ -1,0 +1,506 @@
+{
+  "storySlug": "blue-thunder-rainy-lantern-trail",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Mayor Maple",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Duck family",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Duck family",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Mayor Maple",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Duck family",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Mayor Maple",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Luma",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Blue Thunder",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    }
+  ]
+}

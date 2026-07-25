@@ -1,0 +1,211 @@
+{
+  "title": "Blue Thunder and the Rainy Lantern Trail",
+  "slug": "blue-thunder-rainy-lantern-trail",
+  "category": "Monster Trucks",
+  "description": "After a summer shower washes away the markers for a lakeside lantern parade, Blue Thunder and a little lantern cart rebuild a safe, shining trail.",
+  "characterBible": {
+    "mainCharacter": "Blue Thunder is a friendly deep-blue Monster Jam monster truck with crisp white lightning graphics, a silver grille, bright blue windshield eyes, four enormous clean black tires, and a soft blue headlight glow. His body shape, graphics, wheel size, face, and colors never change.",
+    "supportingCharacters": [
+      "Luma is a small golden-yellow four-wheeled lantern cart with a round warm-white lamp, a short tow handle, tiny blue fenders, and cheerful amber eyes.",
+      "Mayor Maple is a kind older woman in a lavender raincoat and yellow boots; she appears only near the parade and thank-you scenes.",
+      "A family of three mallard ducks has one green-headed parent and two small yellow-brown ducklings."
+    ]
+  },
+  "settingBible": {
+    "description": "Silver Lake Park at early evening after a warm summer shower. The route moves from a wet lakeside track to reeds, a shallow muddy stream, an old wooden arch, and finally a willow tree. Lighting progresses from blue-gray post-rain daylight to warm lantern glow and clear moonlight."
+  },
+  "continuityRules": [
+    "Blue Thunder keeps the same deep-blue body, white lightning graphics, silver grille, face, and tire proportions on every page.",
+    "Luma remains a small golden lantern cart with blue fenders and warm-white lamp.",
+    "Rain has stopped by Page 4; puddles and wet reflections remain through Page 12.",
+    "The star route markers are small silver-blue reflective stars, never yellow or red.",
+    "Page 9 ends at the tipped marker box beneath the wooden arch; Page 10 begins at the same arch with the same box and character positions.",
+    "The parade is calm and slow, with no racing, crashes, or frightening weather."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Blue Thunder loved rolling beside Silver Lake when the evening clouds turned blue.",
+      "speechText": "Blue Thunder loved rolling beside Silver Lake when the evening clouds turned blue.",
+      "illustrationScene": "Wide establishing view of Silver Lake Park after rain: Blue Thunder rolls slowly on the damp lakeside path, lake and willow trees behind him, blue-gray clouds reflecting in puddles; no other main characters yet.",
+      "requiredCharacters": [
+        "Blue Thunder"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Establish Blue Thunder, the lake, wet ground, and calm post-rain mood."
+    },
+    {
+      "number": 2,
+      "text": "Tonight, the town prepared for the Moonlight Lantern Parade. Tiny silver stars marked the safe path.",
+      "speechText": "Tonight, the town prepared for the Moonlight Lantern Parade. Tiny silver stars marked the safe path.",
+      "illustrationScene": "Blue Thunder watches townspeople hang lanterns while Luma waits beside a neat line of small silver-blue star markers along the track; Mayor Maple is visible in the background.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma",
+        "Mayor Maple"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Introduces Luma and the silver star route markers before they are displaced."
+    },
+    {
+      "number": 3,
+      "text": "A quick summer shower splashed across the track. When it ended, the star markers had washed into puddles.",
+      "speechText": "A quick summer shower splashed across the track. When it ended, the star markers had washed into puddles.",
+      "illustrationScene": "Gentle rain has just stopped; Blue Thunder and Luma look at empty marker spots and several silver stars scattered in shallow puddles, with harmless drips from lantern strings.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Creates the problem; weather is already clearing by the end of the scene."
+    },
+    {
+      "number": 4,
+      "text": "Blue Thunder checked the first puddle carefully. “We can find every star,” he said.",
+      "speechText": "Blue Thunder checked the first puddle carefully. “We can find every star,” he said.",
+      "illustrationScene": "Close three-quarter view of Blue Thunder beside the first puddle, leaning his friendly grille toward one partly submerged silver star while Luma shines a warm beam onto it.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Begins the careful search at the first puddle; rain is finished."
+    },
+    {
+      "number": 5,
+      "text": "Luma shone over the wet ground. Three silver stars sparkled near the reeds.",
+      "speechText": "Luma shone over the wet ground. Three silver stars sparkled near the reeds.",
+      "illustrationScene": "Luma lights a patch of wet reeds where exactly three silver-blue star markers glint; Blue Thunder waits on firm ground, keeping away from the plants.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Finds the first group of markers and moves the search toward the shoreline reeds."
+    },
+    {
+      "number": 6,
+      "text": "Blue Thunder nudged them onto dry stones, one by one. His big tires moved as softly as pillows.",
+      "speechText": "Blue Thunder nudged them onto dry stones, one by one. His big tires moved as softly as pillows.",
+      "illustrationScene": "Blue Thunder uses the edge of one front tire to gently move the three stars onto flat dry stones; Luma watches, warm lantern reflected in puddles.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "All three stars from Page 5 are recovered and placed safely together."
+    },
+    {
+      "number": 7,
+      "text": "At the hill, a muddy stream covered the next part of the path. A family of ducks waited nearby.",
+      "speechText": "At the hill, a muddy stream covered the next part of the path. A family of ducks waited nearby.",
+      "illustrationScene": "The route reaches a small shallow runoff stream at the base of a grassy hill; Blue Thunder and Luma stop, while one adult mallard and two ducklings wait on the near bank.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma",
+        "Duck family"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Introduces a new obstacle and keeps the ducks safely out of the water crossing."
+    },
+    {
+      "number": 8,
+      "text": "Blue Thunder and Luma placed flat stepping stones across the stream. The ducks waddled over, and another star appeared beneath a leaf.",
+      "speechText": "Blue Thunder and Luma placed flat stepping stones across the stream. The ducks waddled over, and another star appeared beneath a leaf.",
+      "illustrationScene": "A completed row of flat stones crosses the shallow stream; ducks waddle safely across while Luma illuminates a silver star under a wet green leaf and Blue Thunder smiles.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma",
+        "Duck family"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Resolves the stream obstacle and reveals another missing marker."
+    },
+    {
+      "number": 9,
+      "text": "At the old wooden arch, they found the final box of markers tipped on its side. The parade would begin soon.",
+      "speechText": "At the old wooden arch, they found the final box of markers tipped on its side. The parade would begin soon.",
+      "illustrationScene": "Blue Thunder and Luma arrive beneath an old wooden arch; a wooden box lies tipped sideways with its lid partly open and silver stars visible inside, puddles around it, lanterns glowing farther down the route.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "End with both characters facing the tipped box under the arch; this exact setup continues on Page 10."
+    },
+    {
+      "number": 10,
+      "text": "Blue Thunder braced the box while Luma lifted the lid. Together, they counted every glowing star.",
+      "speechText": "Blue Thunder braced the box while Luma lifted the lid. Together, they counted every glowing star.",
+      "illustrationScene": "Same wooden arch and camera direction as Page 9: Blue Thunder steadies the tipped box with one front tire while Luma raises the lid with her tow handle; neat rows of silver stars are visible.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Direct continuation of Page 9; the box, arch, puddles, and positions remain consistent."
+    },
+    {
+      "number": 11,
+      "text": "They placed the stars along the dry, winding path. Each one reflected Blue Thunder’s gentle blue light.",
+      "speechText": "They placed the stars along the dry, winding path. Each one reflected Blue Thunder’s gentle blue light.",
+      "illustrationScene": "Blue Thunder and Luma move along the now-clear route, placing evenly spaced silver-blue star markers; their reflections form a winding line in the wet track.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Shows clear progress from recovered box to a fully marked route."
+    },
+    {
+      "number": 12,
+      "text": "The lantern parade rolled slowly beside the lake. No one slipped, and no duck was disturbed.",
+      "speechText": "The lantern parade rolled slowly beside the lake. No one slipped, and no duck was disturbed.",
+      "illustrationScene": "Wide lakeside parade scene: Blue Thunder leads at a walking pace with Luma, small decorated carts follow the silver star trail, and the duck family rests safely near reeds.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma",
+        "Mayor Maple",
+        "Duck family"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Confirms the route works and the parade remains gentle and safe."
+    },
+    {
+      "number": 13,
+      "text": "Mayor Maple thanked Blue Thunder and Luma. “You turned a rainy track into a shining trail.”",
+      "speechText": "Mayor Maple thanked Blue Thunder and Luma. “You turned a rainy track into a shining trail.”",
+      "illustrationScene": "At the parade finish, Mayor Maple in lavender raincoat thanks Blue Thunder and Luma beneath warm lanterns; silver stars continue behind them.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma",
+        "Mayor Maple"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Gratitude beat after the successful parade."
+    },
+    {
+      "number": 14,
+      "text": "Blue Thunder watched the lanterns fade into the quiet town. The clouds opened to reveal the moon.",
+      "speechText": "Blue Thunder watched the lanterns fade into the quiet town. The clouds opened to reveal the moon.",
+      "illustrationScene": "Blue Thunder and Luma stand at the lakeshore as the last lantern carts roll toward town; clouds part over a bright moon reflected on calm water.",
+      "requiredCharacters": [
+        "Blue Thunder",
+        "Luma"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Transitions from celebration to calm bedtime atmosphere."
+    },
+    {
+      "number": 15,
+      "text": "He parked beneath a willow tree, listening to soft drops fall. Blue Thunder closed his headlights and rested.",
+      "speechText": "He parked beneath a willow tree, listening to soft drops fall. Blue Thunder closed his headlights and rested.",
+      "illustrationScene": "Blue Thunder rests beneath the same willow from Page 1, headlights gently dimmed, with a few drops falling from leaves into quiet puddles and the moon over Silver Lake.",
+      "requiredCharacters": [
+        "Blue Thunder"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Peaceful final rest; mirrors the opening lake setting."
+    }
+  ]
+}

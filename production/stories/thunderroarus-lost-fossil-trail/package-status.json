@@ -1,0 +1,17 @@
+{
+  "storySlug": "thunderroarus-lost-fossil-trail",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "sourceArtwork": "passed",
+    "conversion": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed"
+  },
+  "qa": {
+    "contactSheetPresent": false,
+    "page9To10Continuity": "passed",
+    "manualVisualReview": "passed"
+  }
+}

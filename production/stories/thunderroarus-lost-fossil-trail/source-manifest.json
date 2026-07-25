@@ -1,0 +1,113 @@
+{
+  "title": "ThunderROARus and the Lost Fossil Trail",
+  "slug": "thunderroarus-lost-fossil-trail",
+  "category": "Monster Trucks",
+  "pageCount": 15,
+  "coverCount": 1,
+  "imageSize": [
+    1448,
+    1086
+  ],
+  "assets": [
+    {
+      "file": "cover.png",
+      "sha256": "83384b84537c7916d471c805f2cb357473638d562dca752d80241e5595de579f",
+      "bytes": 2788804
+    },
+    {
+      "file": "page-01.png",
+      "sha256": "bca0acb52413a3e0836579140b40b5a311e38d263f9e01e6afa617d5c4602289",
+      "bytes": 2531410
+    },
+    {
+      "file": "page-02.png",
+      "sha256": "ec76ad8842b854592616a66c8b70531cd57baf6a88a99f5fe86b98f99adcf29a",
+      "bytes": 2652975
+    },
+    {
+      "file": "page-03.png",
+      "sha256": "ecc86426337dcad4d17ba54b985ade3e6435adf58396115da24f4132d4a541ce",
+      "bytes": 2551022
+    },
+    {
+      "file": "page-04.png",
+      "sha256": "df6550fb8ad2a1fd6bf77c453e8a5704146f0a545a5854eec0a548e65fd11ea8",
+      "bytes": 2547374
+    },
+    {
+      "file": "page-05.png",
+      "sha256": "e2269d0155d9ca40b0be30e8d4a808149c79ddc460601ef5efe67b0a28181dbe",
+      "bytes": 2599144
+    },
+    {
+      "file": "page-06.png",
+      "sha256": "f79a9e59ed423ab392990eaa49365c680d6ffa936ff382a892f450b917bbbb81",
+      "bytes": 2730856
+    },
+    {
+      "file": "page-07.png",
+      "sha256": "e49c1c375712651e7de133c8b54d51b09535972ca715164457f50e9336b83cd5",
+      "bytes": 2548033
+    },
+    {
+      "file": "page-08.png",
+      "sha256": "71b04e8029ce7a55a5a167dce6d8f38c02971a511ed2d10b53560b857f15c41b",
+      "bytes": 2622059
+    },
+    {
+      "file": "page-09.png",
+      "sha256": "df1ecc98a3bb1cfecb88545d390717710c463785b276f2e2279dd984ee224099",
+      "bytes": 2401110
+    },
+    {
+      "file": "page-10.png",
+      "sha256": "12ec18198f6ea857e3186a8398577580ea3b03ba1fcf19cb8fe0254c81015489",
+      "bytes": 2589768
+    },
+    {
+      "file": "page-11.png",
+      "sha256": "4cc14f6e3912725db2f23aca90dea807da781a33f866c43ccd4696e27a3ef19b",
+      "bytes": 2533504
+    },
+    {
+      "file": "page-12.png",
+      "sha256": "9db53761e9e3a7b99b0c017c72f2e2dcd93b0ce06a3ed08a8b29a3181f76f98f",
+      "bytes": 2731100
+    },
+    {
+      "file": "page-13.png",
+      "sha256": "f6336c3bbe7469210426c9e70c05d2485e4e606520e08d0b6a8fb8cc0f8746da",
+      "bytes": 2514670
+    },
+    {
+      "file": "page-14.png",
+      "sha256": "c89e1c7990c28980a3eb23055868d20884742c2e0bd582dc3e1725cd2d62da59",
+      "bytes": 2471041
+    },
+    {
+      "file": "page-15.png",
+      "sha256": "3c6308714d81a2ba737926662bbab25fd80e85e21632f059667848aff433e95b",
+      "bytes": 2367203
+    }
+  ],
+  "narrationEntries": 15,
+  "narrationSource": "story.json pages[].text",
+  "speechTextOverrides": [
+    {
+      "page": 3,
+      "speechText": "A warm wind rushed through the canyon. It spun the signs around and scattered the little trail map."
+    },
+    {
+      "page": 15,
+      "speechText": "ThunderROARus rested beside the fossil shelter. His engine made one tiny sound, then grew still."
+    }
+  ],
+  "manualReview": {
+    "correctStoryAndPageAssignment": "passed",
+    "exactVisibleText": "passed",
+    "characterContinuity": "passed",
+    "page9To10Continuity": "passed",
+    "collagesOrContactSheets": "none"
+  },
+  "status": "ready_to_publish"
+}

@@ -1,0 +1,910 @@
+{
+  "storySlug": "pirates-curse-foggy-lighthouse",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-01.png",
+      "text": "Pirate’s Curse rolled along Coral Cove, where waves whispered beside a tall lighthouse.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-02.png",
+      "text": "Keeper Marina was preparing the lighthouse for the evening boats. A new golden lens waited in a wooden cart.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-03.png",
+      "text": "A thick fog drifted over the beach. The cart’s small wheels sank deep into the wet sand.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-04.png",
+      "text": "Pirate’s Curse lowered his golden anchor hook. “A pirate never leaves treasure stuck,” he said.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-05.png",
+      "text": "He pulled gently, but the cart wobbled toward a tide pool. Tiny crabs raised their claws.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-06.png",
+      "text": "Marina placed wide boards under the wheels. Pirate’s Curse tried again, slow and straight.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-07.png",
+      "text": "The cart rolled free, but the fog hid the path up the lighthouse hill. Even the bell sounded far away.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-08.png",
+      "text": "Pip the seal splashed beside a line of bright shells. The shells curved toward the stone steps.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Pip",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-09.png",
+      "text": "They followed the shell trail until a fallen driftwood branch blocked the last turn.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-10.png",
+      "text": "Pirate’s Curse rolled the branch safely aside. The golden lens cart climbed the clear path behind him.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-11.png",
+      "text": "At the lighthouse, Marina fitted the lens into the lamp. Warm light swept across the fog.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-12.png",
+      "text": "The evening boats saw the golden beam and followed it home. Their little horns tooted thanks.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Evening boats",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-13.png",
+      "text": "Marina gave Pirate’s Curse a shiny shell badge. It glimmered like buried treasure.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Keeper Marina",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Pip",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-14.png",
+      "text": "The fog thinned, and the sea became smooth and silver. Pirate’s Curse watched the boats settle at the dock.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Evening boats",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/pirates-curse-foggy-lighthouse/staging/pirates-curse-foggy-lighthouse/illustrations/page-15.png",
+      "text": "He parked beside the lighthouse and listened to the slow waves. His engine hummed a quiet pirate lullaby.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pirate’s Curse",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        },
+        {
+          "label": "Pip",
+          "box": [
+            0,
+            0,
+            1448,
+            760
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true
+    }
+  ]
+}
