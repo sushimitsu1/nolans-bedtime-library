@@ -121,4 +121,3 @@ Assessment:
 - The story visible `text` currently matches narration.json, composition manifest.
 - The `speechText` override is the divergent narration-intent field. This report makes no judgment that it is approved.
 - File timestamps and matching values are evidence, not approval; a human must choose the final wording.
-

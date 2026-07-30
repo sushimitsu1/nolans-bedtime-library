@@ -179,7 +179,7 @@ def main() -> int:
                 ]
             )
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    output.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(output)
     return 0
 
