@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-07-29",
+  "audio_files_found": [],
+  "summary": {
+    "narration_json_files": 8,
+    "generated_audio_files": 0,
+    "verified_approved_voice_assets": 0,
+    "source_text_mismatch_files": 3,
+    "status": "needs_review"
+  },
+  "reason": "Legacy narration JSON contains exact text only. It has no provider, voice ID, audio checksum, or listening-review provenance.",
+  "files": [
+    {
+      "path": "production/stories/amy-ambulance-sleepy-kitten/narration.json",
+      "bytes": 1661,
+      "sha256": "3c4e8f70d2042199814b8127c5e6be5b1033c2bcf0d4ec5a7e5c0a82f599ea73",
+      "status": "needs_review"
+    },
+    {
+      "path": "production/stories/blue-thunder-rainy-lantern-trail/narration.json",
+      "bytes": 1586,
+      "sha256": "b6431004ea330921dc7955d7147e5dec5ec89d9669eeba264f6111796697e79f",
+      "status": "needs_review"
+    },
+    {
+      "path": "production/stories/cora-crane-truck-wobbly-sign/narration.json",
+      "bytes": 1728,
+      "sha256": "1fd1da5e5d289cc898f4492abcafc52773002245fd213c891e4c28155131fafe",
+      "status": "needs_review",
+      "source_alignment": {
+        "expected_field": "story.json pages[].speechText",
+        "status": "mismatch",
+        "mismatched_pages": [
+          4,
+          6,
+          14
+        ]
+      }
+    },
+    {
+      "path": "production/stories/grave-digger/narration.json",
+      "bytes": 1554,
+      "sha256": "b522167438d8d6cda7942343e48eb85bbc6e57ec3b72dbbef948067b0e6ffa8e",
+      "status": "needs_review"
+    },
+    {
+      "path": "production/stories/heli-rescue-helicopter-mountain-picnic/narration.json",
+      "bytes": 1770,
+      "sha256": "234f652cbf266130d8275b7eb769f1240e4b631ff5013c79c5102ab070409062",
+      "status": "needs_review"
+    },
+    {
+      "path": "production/stories/pirates-curse-foggy-lighthouse/narration.json",
+      "bytes": 1544,
+      "sha256": "7a57aeb18ba26130921823caff0dbf5fe1d3252a39ff55bb8233ebf35480d231",
+      "status": "needs_review",
+      "source_alignment": {
+        "expected_field": "story.json pages[].speechText",
+        "status": "mismatch",
+        "mismatched_pages": [
+          12
+        ]
+      }
+    },
+    {
+      "path": "production/stories/sparkle-smash-firefly-parade/narration.json",
+      "bytes": 1582,
+      "sha256": "01f6b1cc769e47012052a2be3fb7d90b10ff4f0ad180baf5c6a5c441cbd7f909",
+      "status": "needs_review"
+    },
+    {
+      "path": "production/stories/thunderroarus-lost-fossil-trail/narration.json",
+      "bytes": 1633,
+      "sha256": "a06faf8a158bc3ee2a238f51daba50631f0cbc013c94f205916477e75ff5d4a1",
+      "status": "needs_review",
+      "source_alignment": {
+        "expected_field": "story.json pages[].speechText",
+        "status": "mismatch",
+        "mismatched_pages": [
+          3,
+          15
+        ]
+      }
+    }
+  ]
+}

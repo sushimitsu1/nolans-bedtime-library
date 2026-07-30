@@ -20,7 +20,7 @@ requireMatch(/function renderPage\(\{autoRead=false\}=\{\}\)[\s\S]*stopNarration
 requireMatch(/const finishRender=\(\)=>\{[\s\S]*if\(autoRead\) setTimeout\([\s\S]*readCurrentPage\(\{enableReadAlong:false\}\)/, 'the rendered page must reuse the existing page reader');
 requireMatch(/pageImage['"]\)\.onload=finishRender;/, 'automatic reading must wait for the page image to finish rendering');
 requireMatch(/narrationGeneration===generation && narrationUtterance===utterance/, 'speech callbacks must reject stale narration');
-requireMatch(/await initializeNarrationVoice\(\)[\s\S]*new SpeechSynthesisUtterance\(prepareSpeechText\(text\)\)/, 'speech must wait for a selected voice and prepare playback-only text');
+requireMatch(/await initializeNarrationVoice\(\)[\s\S]*new SpeechSynthesisUtterance\(prepareSpeechText\(packageSpeechText \|\| text\)\)/, 'speech must wait for a selected voice and prepare exact package playback text');
 requireMatch(/utterance\.voice=voice;/, 'every utterance must explicitly use the locked session voice');
 requireMatch(/showView\(view\)[\s\S]*view!==['"]reader['"]\) stopNarration\(\{disableReadAlong:true\}\)/, 'leaving the reader must stop speech and reset read-along');
 requireMatch(/function openStory\(id\)[\s\S]*stopNarration\(\{disableReadAlong:true\}\)/, 'opening a story must reset the previous story read-along state');

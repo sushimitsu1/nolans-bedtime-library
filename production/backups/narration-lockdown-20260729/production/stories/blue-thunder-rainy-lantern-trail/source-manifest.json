@@ -1,0 +1,104 @@
+{
+  "title": "Blue Thunder and the Rainy Lantern Trail",
+  "slug": "blue-thunder-rainy-lantern-trail",
+  "category": "Monster Trucks",
+  "pageCount": 15,
+  "coverCount": 1,
+  "imageSize": [
+    1448,
+    1086
+  ],
+  "assets": [
+    {
+      "file": "cover.png",
+      "sha256": "5d2aecbce9d153280212134fe8db9f34ae9e0c3af56598a5a5f9bcd4ce0d078c",
+      "bytes": 2539032
+    },
+    {
+      "file": "page-01.png",
+      "sha256": "ca37475d33049d22ed5dadf36d99503a272984c66b9205d997c1be68800c317b",
+      "bytes": 2148105
+    },
+    {
+      "file": "page-02.png",
+      "sha256": "539de35bd3810cc593c09fe34f4e2000534d6708221e04af06d90de98b205b18",
+      "bytes": 2412898
+    },
+    {
+      "file": "page-03.png",
+      "sha256": "af81b87847216067bb049bf99ee66378ab3f3be8080d0bd66eb8c5009382d12c",
+      "bytes": 2415740
+    },
+    {
+      "file": "page-04.png",
+      "sha256": "7cc1afe14b5690447c049238588746cab01f5cad8452590ab7885c3bc991c6bc",
+      "bytes": 2256482
+    },
+    {
+      "file": "page-05.png",
+      "sha256": "5da331eaac8622f3cbf8b4b5ab7bad2dba2b69b190c322646b0731a414caf31a",
+      "bytes": 2264423
+    },
+    {
+      "file": "page-06.png",
+      "sha256": "5485dbc1b9a8270316c7522bac2bdaffae7fc95e09028bbc38c85fa20e827f96",
+      "bytes": 2323806
+    },
+    {
+      "file": "page-07.png",
+      "sha256": "199cfc6128723589a5c03980a61b1715f5008f2091798f646b5efbd36d81c4bb",
+      "bytes": 2267073
+    },
+    {
+      "file": "page-08.png",
+      "sha256": "a6c2795d74abe1f423343b0666aff0eb397ef38a49f7df190de34b866efde537",
+      "bytes": 2325599
+    },
+    {
+      "file": "page-09.png",
+      "sha256": "9ff42930dc6c5dcc41a1eb0a7c52789b1c259e15615b158d39d15c1c7c3a5efc",
+      "bytes": 2365887
+    },
+    {
+      "file": "page-10.png",
+      "sha256": "56964bf832f548f9519b367b8615feded83cdcd854b4ce7004b37d20a5613601",
+      "bytes": 2391459
+    },
+    {
+      "file": "page-11.png",
+      "sha256": "de9dc502f4f15bc2d17e1aeef0f8c8c6b4ba717f88eec1be0838332a64c0bec1",
+      "bytes": 2450293
+    },
+    {
+      "file": "page-12.png",
+      "sha256": "ccb18b0bb6e1e09825e5fa982ba6d73b4ba5abcb64c6f38dbd33998bc6fb5131",
+      "bytes": 2452455
+    },
+    {
+      "file": "page-13.png",
+      "sha256": "a7ae3914101e72bb2c61b50155d8c930ddbdaa2031ab0f5bb288c5f477b867bd",
+      "bytes": 2380581
+    },
+    {
+      "file": "page-14.png",
+      "sha256": "39c867ee88d75fa62819f5ced0f2d00465bd6a61ca263d301fb2577f15571cec",
+      "bytes": 2276479
+    },
+    {
+      "file": "page-15.png",
+      "sha256": "bcb3d1f8fba03024b1b27acbe9bbfc1e2537a89800ba63d301082c54c63c19b1",
+      "bytes": 2275529
+    }
+  ],
+  "narrationEntries": 15,
+  "narrationSource": "story.json pages[].text",
+  "speechTextOverrides": [],
+  "manualReview": {
+    "correctStoryAndPageAssignment": "passed",
+    "exactVisibleText": "passed",
+    "characterContinuity": "passed",
+    "page9To10Continuity": "passed",
+    "collagesOrContactSheets": "none"
+  },
+  "status": "ready_to_publish"
+}

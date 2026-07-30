@@ -1327,11 +1327,11 @@ let readAlongEnabled = false;
 let readAlongStoryId = null;
 let narrationGeneration = 0;
 let selectedNarrationVoice = null;
+let narrationVoicePromise = null;
+let resolveNarrationVoice = null;
 let availableNarrationVoices = [];
+let narrationVoicesLogged = false;
 let narrationVoiceLocked = false;
-let narrationVoiceConfig = null;
-let narrationVoiceConfigLoaded = false;
-let narrationVoiceConfigPromise = null;
 let pageRenderGeneration = 0;
 const storage = {
   favorites: 'nolan:favorites',
@@ -1339,10 +1339,35 @@ const storage = {
   highContrast: 'nolan:high-contrast',
   timerMinutes: 'nolan:timer-minutes',
   timerEndsAt: 'nolan:timer-ends-at',
+  narratorVoiceURI: 'nolan:narratorVoiceURI',
+  narratorVoiceWasUserSelected: 'nolan:narratorVoiceWasUserSelected',
+  legacyNarrationVoiceURI: 'nolan:narration-voice-uri',
   narrationRate: 'nolan:narration-rate',
   narrationPitch: 'nolan:narration-pitch',
   narrationVolume: 'nolan:narration-volume'
 };
+
+function readNarratorPreference(){
+  let voiceURI=localStorage.getItem(storage.narratorVoiceURI) || '';
+  const storedUserSelection=localStorage.getItem(storage.narratorVoiceWasUserSelected);
+  let wasUserSelected=storedUserSelection==='true';
+  const legacyVoiceURI=localStorage.getItem(storage.legacyNarrationVoiceURI) || '';
+  if(!voiceURI && legacyVoiceURI){
+    voiceURI=legacyVoiceURI;
+    wasUserSelected=false;
+    localStorage.setItem(storage.narratorVoiceURI,voiceURI);
+    localStorage.setItem(storage.narratorVoiceWasUserSelected,'false');
+  }
+  if(voiceURI && storedUserSelection===null) localStorage.setItem(storage.narratorVoiceWasUserSelected,'false');
+  if(!voiceURI){
+    wasUserSelected=false;
+    localStorage.removeItem(storage.narratorVoiceWasUserSelected);
+  }
+  if(legacyVoiceURI) localStorage.removeItem(storage.legacyNarrationVoiceURI);
+  return {voiceURI,wasUserSelected};
+}
+
+let narratorPreference=readNarratorPreference();
 
 const SPEECH_SOUND_PRONUNCIATIONS = Object.freeze([
   {pattern:/\bvro{2,}m+\b/gi, replacement:'vroom'},
@@ -1355,6 +1380,7 @@ const SPEECH_SOUND_PRONUNCIATIONS = Object.freeze([
   {pattern:/\bcru{3,}nch\b/gi, replacement:'crunch'},
   {pattern:/\bratatata\b/gi, replacement:'rat-a-tat-a'}
 ]);
+const VOICE_QUALITY_INDICATORS = Object.freeze(['natural','neural','premium','online','enhanced']);
 
 function readFavorites(){
   try {
@@ -1422,92 +1448,142 @@ function prepareSpeechText(displayText){
   );
 }
 
-function lockedBrowserVoiceId(config){
-  const primary=config?.primary;
-  const allowed=config?.allowed_voice_ids;
-  if(
-    config?.selection_mode!=='locked'
-    || config?.provider!=='browser-speech-synthesis'
-    || config?.allow_provider_default!==false
-    || config?.allow_random_selection!==false
-    || config?.allow_unlisted_voice!==false
-    || primary?.status!=='approved'
-    || typeof primary?.voice_id!=='string'
-    || !Array.isArray(allowed)
-    || !allowed.includes(primary.voice_id)
-  ) return '';
-  return primary.voice_id;
+function isEnglishVoice(voice){
+  return /^en(?:[-_]|$)/i.test(voice?.lang || '');
 }
 
-function chooseNarrationVoice(voices,config=narrationVoiceConfig){
-  const exactVoiceId=lockedBrowserVoiceId(config);
-  if(!exactVoiceId) return null;
-  return Array.from(voices || []).find(voice=>voice?.voiceURI===exactVoiceId) || null;
+function isUsEnglishVoice(voice){
+  return /^en[-_]us$/i.test(voice?.lang || '');
 }
 
-async function loadNarrationVoiceConfig(){
-  if(narrationVoiceConfigLoaded) return narrationVoiceConfig;
-  if(!narrationVoiceConfigPromise){
-    narrationVoiceConfigPromise=fetch('config/narration-voices.json',{cache:'no-store'})
-      .then(response=>{
-        if(!response.ok) throw new Error(`Narration configuration HTTP ${response.status}`);
-        return response.json();
-      })
-      .then(config=>{
-        narrationVoiceConfig=config;
-        narrationVoiceConfigLoaded=true;
-        return config;
-      })
-      .catch(error=>{
-        console.error('Locked narration configuration unavailable',error);
-        narrationVoiceConfig=null;
-        narrationVoiceConfigLoaded=true;
-        return null;
-      });
-  }
-  return narrationVoiceConfigPromise;
+function voiceIdentity(voice){
+  return `${voice?.name || ''} ${voice?.voiceURI || ''}`.toLowerCase();
+}
+
+function isMockVoice(voice){
+  return /(?:^|\s)mock:/i.test(`${voice?.name || ''} ${voice?.voiceURI || ''}`);
+}
+
+function filterBrowserVoices(voices){
+  return Array.from(voices || []).filter(voice=>voice && !isMockVoice(voice));
+}
+
+function findAriaVoice(voices){
+  return voices.find(voice=>isEnglishVoice(voice) && voiceIdentity(voice).includes('aria')) || null;
+}
+
+function chooseNarrationVoice(voices,{voiceURI='',wasUserSelected=false}={}){
+  const browserVoices=filterBrowserVoices(voices);
+  const savedVoice=browserVoices.find(voice=>voice.voiceURI===voiceURI);
+  if(wasUserSelected && savedVoice) return savedVoice;
+  const englishVoices=browserVoices.filter(isEnglishVoice);
+  return findAriaVoice(englishVoices)
+    || englishVoices.find(voice=>isUsEnglishVoice(voice) && VOICE_QUALITY_INDICATORS.some(indicator=>voiceIdentity(voice).includes(indicator)))
+    || englishVoices.find(isUsEnglishVoice)
+    || englishVoices[0]
+    || browserVoices.find(voice=>voice.default)
+    || browserVoices[0]
+    || null;
+}
+
+function clearNarratorPreference(){
+  localStorage.removeItem(storage.narratorVoiceURI);
+  localStorage.removeItem(storage.narratorVoiceWasUserSelected);
+  localStorage.removeItem(storage.legacyNarrationVoiceURI);
+  narratorPreference={voiceURI:'',wasUserSelected:false};
+}
+
+function saveNarratorPreference(voice,wasUserSelected){
+  narratorPreference={voiceURI:voice.voiceURI,wasUserSelected:Boolean(wasUserSelected)};
+  localStorage.setItem(storage.narratorVoiceURI,voice.voiceURI);
+  localStorage.setItem(storage.narratorVoiceWasUserSelected,String(Boolean(wasUserSelected)));
+}
+
+function logNarrationVoicesOnce(voices){
+  if(narrationVoicesLogged || !voices.length) return;
+  narrationVoicesLogged=true;
+  console.info('Available speech synthesis voices',voices.map(voice=>({
+    name:voice.name,
+    voiceURI:voice.voiceURI,
+    language:voice.lang,
+    localService:Boolean(voice.localService),
+    default:Boolean(voice.default)
+  })));
 }
 
 function refreshNarratorSelector(){
+  const englishVoices=availableNarrationVoices.filter(isEnglishVoice);
+  const ariaVoice=findAriaVoice(englishVoices);
   const control=$('narratorControl');
-  control.hidden=true;
-  const exactVoiceId=lockedBrowserVoiceId(narrationVoiceConfig);
-  $('narratorDiagnosticText').textContent=selectedNarrationVoice
-    ? `Locked voice: ${selectedNarrationVoice.voiceURI}`
-    : exactVoiceId
-      ? `Locked voice is unavailable in this browser: ${exactVoiceId}`
-      : 'Browser narration is disabled until an exact browser-speech-synthesis primary voice is approved.';
+  const select=$('narratorSelect');
+  control.hidden=!speechSupported || !availableNarrationVoices.length;
+  select.disabled=!englishVoices.length;
+  const options=englishVoices.map(voice=>{
+    const option=document.createElement('option');
+    option.value=voice.voiceURI;
+    const isActive=selectedNarrationVoice?.voiceURI===voice.voiceURI;
+    option.textContent=`${voice.name} — ${voice.lang}${isActive?' — Active':''}`;
+    return option;
+  });
+  if(!options.length){
+    const option=document.createElement('option');
+    option.textContent='No English voices available';
+    options.push(option);
+  }
+  select.replaceChildren(...options);
+  if(selectedNarrationVoice && englishVoices.some(voice=>voice.voiceURI===selectedNarrationVoice.voiceURI)){
+    select.value=selectedNarrationVoice.voiceURI;
+  }
+  $('ariaAvailability').textContent=ariaVoice ? `Aria detected: ${ariaVoice.name}` : 'Aria not available in this browser';
+  const voice=selectedNarrationVoice;
+  $('narratorDiagnosticText').textContent=voice
+    ? `Selected: ${voice.name} | voiceURI: ${voice.voiceURI} | Language: ${voice.lang || 'unknown'} | localService: ${Boolean(voice.localService)} | Selection: ${narratorPreference.wasUserSelected?'user-selected':'automatic'} | English voices: ${englishVoices.length} | Aria detected: ${ariaVoice?'yes':'no'}`
+    : `Selected: none | English voices: ${englishVoices.length} | Aria detected: ${ariaVoice?'yes':'no'}`;
 }
 
-function setSelectedNarrationVoice(voice){
+function setSelectedNarrationVoice(voice,{wasUserSelected=false,persist=true}={}){
   if(!voice) return null;
   selectedNarrationVoice=voice;
+  if(persist) saveNarratorPreference(voice,wasUserSelected);
+  if(resolveNarrationVoice){
+    resolveNarrationVoice(voice);
+    resolveNarrationVoice=null;
+  }
   refreshNarratorSelector();
   return voice;
 }
 
 function selectNarrationVoiceFromAvailable(){
   if(!speechSupported) return null;
-  availableNarrationVoices=Array.from(window.speechSynthesis.getVoices() || []);
+  availableNarrationVoices=filterBrowserVoices(window.speechSynthesis.getVoices());
+  logNarrationVoicesOnce(availableNarrationVoices);
   if(selectedNarrationVoice && narrationVoiceLocked){
     refreshNarratorSelector();
     return selectedNarrationVoice;
   }
-  const voice=chooseNarrationVoice(availableNarrationVoices,narrationVoiceConfig);
+  if(availableNarrationVoices.length && narratorPreference.voiceURI && !availableNarrationVoices.some(voice=>voice.voiceURI===narratorPreference.voiceURI)){
+    clearNarratorPreference();
+  }
+  const voice=chooseNarrationVoice(
+    availableNarrationVoices,
+    narratorPreference
+  );
   if(!voice){
     selectedNarrationVoice=null;
     refreshNarratorSelector();
     return null;
   }
-  return setSelectedNarrationVoice(voice);
+  return setSelectedNarrationVoice(voice,{wasUserSelected:narratorPreference.wasUserSelected});
 }
 
-async function initializeNarrationVoice(){
+function initializeNarrationVoice(){
   if(!speechSupported) return Promise.resolve(null);
-  await loadNarrationVoiceConfig();
   const availableVoice=selectNarrationVoiceFromAvailable();
   if(availableVoice) return Promise.resolve(availableVoice);
-  return null;
+  if(!narrationVoicePromise){
+    narrationVoicePromise=new Promise(resolve=>{ resolveNarrationVoice=resolve; });
+  }
+  return narrationVoicePromise;
 }
 
 if(speechSupported){
@@ -1517,14 +1593,20 @@ if(speechSupported){
 }
 
 function chooseNarratorFromSelector(event){
-  event.preventDefault();
-  setNarrationState('Narrator selection is locked');
+  const voice=availableNarrationVoices.find(candidate=>isEnglishVoice(candidate) && candidate.voiceURI===event.target.value);
+  if(!voice) return;
+  stopNarration({disableReadAlong:true});
+  narrationVoiceLocked=false;
+  setSelectedNarrationVoice(voice,{wasUserSelected:true});
 }
 
 function resetNarrator(){
   stopNarration({disableReadAlong:true});
   narrationVoiceLocked=false;
   selectedNarrationVoice=null;
+  narrationVoicePromise=null;
+  resolveNarrationVoice=null;
+  clearNarratorPreference();
   selectNarrationVoiceFromAvailable();
 }
 
@@ -1559,14 +1641,9 @@ async function readCurrentPage({enableReadAlong=true}={}){
   setNarrationState('Preparing voice…');
   updateNarrationControls();
   const voice=await initializeNarrationVoice();
-  if(!voice){
-    narrationPreparing=false;
-    setNarrationState('Locked narrator unavailable');
-    updateNarrationControls();
-    return;
-  }
   if(
-    narrationGeneration!==generation
+    !voice
+    || narrationGeneration!==generation
     || activeStory?.id!==storyId
     || currentPage!==page
   ) return;
@@ -1872,5 +1949,5 @@ applyPreferences();
 renderLibrary();
 restoreTimer();
 updateNarrationControls();
-if(speechSupported) loadNarrationVoiceConfig().then(selectNarrationVoiceFromAvailable);
+if(speechSupported) selectNarrationVoiceFromAvailable();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "provider": null,
+  "primary": {
+    "voice_id": null,
+    "display_name": null,
+    "status": "not_selected"
+  },
+  "backup": {
+    "voice_id": null,
+    "display_name": null,
+    "status": "not_selected"
+  },
+  "allowed_voice_ids": [],
+  "selection_mode": "locked",
+  "allow_provider_default": false,
+  "allow_random_selection": false,
+  "allow_unlisted_voice": false,
+  "synthesis": {
+    "adapter": null,
+    "command": [],
+    "model": null,
+    "settings": {},
+    "output_format": "mp3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "provider": "REPLACE_WITH_PROVIDER_ID",
+  "candidates": [
+    {
+      "voice_id": "REPLACE_WITH_EXACT_PROVIDER_VOICE_ID_1",
+      "display_name": "Candidate 1"
+    },
+    {
+      "voice_id": "REPLACE_WITH_EXACT_PROVIDER_VOICE_ID_2",
+      "display_name": "Candidate 2"
+    }
+  ]
+}

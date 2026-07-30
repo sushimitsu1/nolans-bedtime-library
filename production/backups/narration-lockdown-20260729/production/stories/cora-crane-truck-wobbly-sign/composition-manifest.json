@@ -1,0 +1,1249 @@
+{
+  "storySlug": "cora-crane-truck-wobbly-sign",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\cover.webp",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-01.webp",
+      "text": "One sunny afternoon, Cora the Crane Truck polished her silver hook at Lantern Yard. She was ready for a careful delivery.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            490,
+            180,
+            1020,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-02.webp",
+      "text": "Pippa arrived with a new wooden sign for the Pinecone Reading Nook. An open-book picture gleamed on its front.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            405,
+            145,
+            745,
+            560
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            770,
+            290,
+            1130,
+            570
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            1010,
+            285,
+            1140,
+            450
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-03.webp",
+      "text": "A playful hilltop breeze fluttered the marigolds. When Cora tested the lift, the wide sign grew wobbly.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            280,
+            90,
+            745,
+            660
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            835,
+            370,
+            1290,
+            680
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            710,
+            215,
+            990,
+            470
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-04.webp",
+      "text": "Cora lowered the sign at once. “A safe load should feel calm and steady,” she said.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            270,
+            190,
+            770,
+            710
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            850,
+            400,
+            1335,
+            735
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            1160,
+            450,
+            1295,
+            570
+          ]
+        },
+        {
+          "label": "windsock",
+          "box": [
+            1015,
+            110,
+            1230,
+            345
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-05.webp",
+      "text": "Cora shortened her boom and turned her truck toward the breeze. The next tiny lift wobbled much less.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            290,
+            160,
+            740,
+            720
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            900,
+            430,
+            1335,
+            752
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            710,
+            335,
+            920,
+            560
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-06.webp",
+      "text": "Tuck rolled over with two soft guide ropes on his hitch. “These can help the sign stay straight,” he said.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            470,
+            220,
+            1000,
+            680
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            940,
+            420,
+            1380,
+            740
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            180,
+            405,
+            520,
+            725
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            60,
+            500,
+            235,
+            650
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            1240,
+            475,
+            1350,
+            570
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-07.webp",
+      "text": "Pippa clipped one guide rope to each lower corner. Tuck held both ropes gently with his sturdy hitch.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            630,
+            105,
+            920,
+            560
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1015,
+            390,
+            1325,
+            610
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            90,
+            385,
+            335,
+            600
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            450,
+            275,
+            665,
+            505
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            280,
+            445,
+            665,
+            530
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-08.webp",
+      "text": "Cora lifted again, slow and smooth. The sign stayed straight while Tuck rolled one small step beside it.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            630,
+            105,
+            920,
+            560
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1015,
+            390,
+            1325,
+            610
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            90,
+            385,
+            335,
+            600
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            450,
+            275,
+            665,
+            505
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            280,
+            445,
+            665,
+            530
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production\\staging\\cora-crane-truck-wobbly-sign\\illustrations\\page-09.webp",
+      "text": "Together they left Lantern Yard along the smooth pine path. Cora carried the steady sign low and close.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cora",
+          "box": [
+            700,
+            160,
+            1000,
+            570
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1065,
+            385,
+            1335,
+            600
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            260,
+            385,
+            475,
+            585
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            550,
+            320,
+            730,
+            535
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            450,
+            450,
+            575,
+            520
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-10.webp",
+      "text": "At the first bend, the same breeze slipped between the pine trees. Cora stopped before the sign could sway.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tuck",
+          "box": [
+            260,
+            380,
+            490,
+            590
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            520,
+            330,
+            750,
+            540
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            655,
+            180,
+            975,
+            585
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1050,
+            410,
+            1340,
+            600
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            430,
+            450,
+            1080,
+            565
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-11.webp",
+      "text": "A thick hedge made a quiet windbreak beside the path. The friends waited there until the pine needles grew still.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tuck",
+          "box": [
+            155,
+            380,
+            475,
+            635
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            395,
+            315,
+            650,
+            580
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            575,
+            140,
+            955,
+            620
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1005,
+            390,
+            1370,
+            660
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            405,
+            475,
+            1110,
+            600
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-12.webp",
+      "text": "Soon the lanterns of the reading nook twinkled ahead. Cora carried the sign through the last quiet turn.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "reading nook",
+          "box": [
+            5,
+            70,
+            465,
+            575
+          ]
+        },
+        {
+          "label": "prepared base",
+          "box": [
+            60,
+            490,
+            335,
+            670
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            295,
+            340,
+            530,
+            610
+          ]
+        },
+        {
+          "label": "sign",
+          "box": [
+            515,
+            250,
+            760,
+            510
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            685,
+            80,
+            1085,
+            620
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1075,
+            375,
+            1380,
+            620
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            425,
+            455,
+            1110,
+            610
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-13.webp",
+      "text": "Cora lowered the sign into its prepared base. Tuck kept the guide ropes steady until it stood safely on its own.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "reading nook",
+          "box": [
+            5,
+            70,
+            475,
+            575
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            205,
+            355,
+            470,
+            635
+          ]
+        },
+        {
+          "label": "sign and base",
+          "box": [
+            435,
+            330,
+            705,
+            650
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            675,
+            135,
+            1055,
+            630
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1060,
+            390,
+            1390,
+            640
+          ]
+        },
+        {
+          "label": "guide ropes",
+          "box": [
+            420,
+            470,
+            1120,
+            610
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-14.webp",
+      "text": "The new sign stood straight beside the cozy books. “Slow, low, and steady worked,” Cora said with a proud smile.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "reading nook",
+          "box": [
+            5,
+            70,
+            475,
+            570
+          ]
+        },
+        {
+          "label": "Tuck",
+          "box": [
+            190,
+            375,
+            450,
+            650
+          ]
+        },
+        {
+          "label": "installed sign",
+          "box": [
+            445,
+            350,
+            660,
+            640
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            700,
+            260,
+            1085,
+            645
+          ]
+        },
+        {
+          "label": "empty hook",
+          "box": [
+            590,
+            135,
+            710,
+            335
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            1080,
+            385,
+            1400,
+            640
+          ]
+        },
+        {
+          "label": "coiled ropes",
+          "box": [
+            155,
+            465,
+            255,
+            555
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production\\stories\\cora-crane-truck-wobbly-sign\\illustrations\\page-15.webp",
+      "text": "That night, Cora folded her boom beneath the quiet moon. She closed her sleepy hazel eyes and dreamed of steady, gentle lifts.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Lantern Yard shed",
+          "box": [
+            0,
+            35,
+            475,
+            610
+          ]
+        },
+        {
+          "label": "Cora",
+          "box": [
+            505,
+            285,
+            1030,
+            665
+          ]
+        },
+        {
+          "label": "folded boom and hook",
+          "box": [
+            510,
+            300,
+            1030,
+            505
+          ]
+        },
+        {
+          "label": "crescent moon",
+          "box": [
+            1250,
+            45,
+            1335,
+            140
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
