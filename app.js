@@ -11,7 +11,7 @@ narration: [
   "Ra was a little yellow excavator who worked at the Sunny Hill Construction Yard. Everyone called him Ra the Ratata.",
   "Ra did not have a digging bucket today. He had a long, strong breaker that went: “Ra-ta-ta-ta! Ra-ta-ta-ta!”",
   "One morning, Mo the Motor Grader rolled into the yard. “The road to the new playground is covered with big rocks!” said Mo.",
-  "Ra lifted his breaker. “l can help!” he said. Ra and Mo drove toward the rocky road.",
+  "Ra lifted his breaker. “I can help!” he said. Ra and Mo drove toward the rocky road.",
   "Soon they found a giant gray rock sitting right in the middle of the road. “No one can get past,” said Mo.",
   "Ra moved slowly toward the rock. He planted his tracks firmly on the ground.",
   "Ra lowered his breaker. Then he began: “Ra-ta-ta-ta! Ra-ta-ta-ta!”",
