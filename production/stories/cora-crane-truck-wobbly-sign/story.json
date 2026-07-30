@@ -68,7 +68,7 @@
     {
       "number": 4,
       "text": "Cora lowered the sign at once. “A safe load should feel calm and steady,” she said.",
-      "speechText": "Cora lowered the sign at once. A safe load should feel calm and steady, she said.",
+      "speechText": "Cora lowered the sign at once. “A safe load should feel calm and steady,” she said.",
       "illustrationScene": "The sign rests safely back in Pippa's bed while Cora studies the windsock and keeps her boom low.",
       "requiredCharacters": ["Cora", "Pippa"],
       "timeOfDay": "late afternoon",
@@ -86,7 +86,7 @@
     {
       "number": 6,
       "text": "Tuck rolled over with two soft guide ropes on his hitch. “These can help the sign stay straight,” he said.",
-      "speechText": "Tuck rolled over with two soft guide ropes on his hitch. These can help the sign stay straight, he said.",
+      "speechText": "Tuck rolled over with two soft guide ropes on his hitch. “These can help the sign stay straight,” he said.",
       "illustrationScene": "Tuck joins Cora and Pippa in the yard, carrying two neatly coiled pale ropes on his rear hitch beside the lowered sign.",
       "requiredCharacters": ["Cora", "Pippa", "Tuck"],
       "timeOfDay": "early evening",
@@ -158,7 +158,7 @@
     {
       "number": 14,
       "text": "The new sign stood straight beside the cozy books. “Slow, low, and steady worked,” Cora said with a proud smile.",
-      "speechText": "The new sign stood straight beside the cozy books. Slow, low, and steady worked, Cora said with a proud smile.",
+      "speechText": "The new sign stood straight beside the cozy books. “Slow, low, and steady worked,” Cora said with a proud smile.",
       "illustrationScene": "Cora, Pippa, and Tuck admire the installed acorn sign beside the glowing book shelter as the last sunset colors fill the clearing.",
       "requiredCharacters": ["Cora", "Pippa", "Tuck"],
       "timeOfDay": "twilight",

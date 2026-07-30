@@ -50,7 +50,7 @@
     {
       "number": 3,
       "text": "A warm wind whooshed through the canyon. It spun the signs around and scattered the little trail map.",
-      "speechText": "A warm wind rushed through the canyon. It spun the signs around and scattered the little trail map.",
+      "speechText": "A warm wind whooshed through the canyon. It spun the signs around and scattered the little trail map.",
       "illustrationScene": "A safe swirl of dust turns several lightweight wooden signs and lifts the cream map from Tessa’s hands; ThunderROARus shields the children behind his large tires.",
       "requiredCharacters": [
         "ThunderROARus",
@@ -200,7 +200,7 @@
     {
       "number": 15,
       "text": "ThunderROARus rested beside the fossil shelter. His engine gave one tiny rumble, then grew still.",
-      "speechText": "ThunderROARus rested beside the fossil shelter. His engine made one tiny sound, then grew still.",
+      "speechText": "ThunderROARus rested beside the fossil shelter. His engine gave one tiny rumble, then grew still.",
       "illustrationScene": "ThunderROARus curls visually beside the open fossil shelter, headlights low, green ranger pennant attached, with stars above and the small lizard sleeping on a warm stone.",
       "requiredCharacters": [
         "ThunderROARus",
