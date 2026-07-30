@@ -23,6 +23,12 @@ narration: [
   "The little vehicles drove down the finished road. They delivered swings, slides, and a bright red seesaw.",
   "“Thank you, Ra!” everyone cheered. Ra smiled. “We built it together.”",
   "That evening, Ra returned to the quiet construction yard. He rested his breaker, closed his sleepy eyes, and whispered: “Goodnight. Ra-ta-ta.”"
+],
+speechText: [
+  null,
+  null,
+  null,
+  "Ra lifted his breaker. “Eye can help!” he said. Ra and Mo drove toward the rocky road."
 ]
 },
 {
