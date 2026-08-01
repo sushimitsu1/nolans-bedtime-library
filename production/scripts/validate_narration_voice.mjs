@@ -26,15 +26,15 @@ function sourceSlice(startMarker,endMarker){
 }
 
 const constants=sourceSlice('const SPEECH_SOUND_PRONUNCIATIONS','function readFavorites');
-const pureFunctions=sourceSlice('function prepareSpeechText','async function loadNarrationVoiceConfig');
-const context={narrationVoiceConfig:null};
+const pureFunctions=sourceSlice('function prepareSpeechText','function clearNarratorPreference');
+const context={};
 try{
   vm.runInNewContext(
-    `${constants}\n${pureFunctions}\nthis.testApi={prepareSpeechText,lockedBrowserVoiceId,chooseNarrationVoice};`,
+    `${constants}\n${pureFunctions}\nthis.testApi={prepareSpeechText,filterBrowserVoices,chooseNarrationVoice};`,
     context
   );
 }catch(error){
-  errors.push(`locked speech helper extraction failed: ${error.message}`);
+  errors.push(`speech helper extraction failed: ${error.message}`);
 }
 
 const api=context.testApi;
@@ -52,64 +52,37 @@ if(api){
   for(const [visible,spoken] of cases){
     if(api.prepareSpeechText(visible)!==spoken) errors.push(`pronunciation mismatch for ${visible}`);
   }
-  const ordinary='The green balloon rolled past the coffee shop and bookkeeper.';
-  if(api.prepareSpeechText(ordinary)!==ordinary) errors.push('ordinary repeated-letter words were changed');
-
-  const locked={
-    selection_mode:'locked',
-    provider:'browser-speech-synthesis',
-    primary:{voice_id:'provider:exact-primary',status:'approved'},
-    backup:{voice_id:'provider:exact-backup',status:'approved'},
-    allowed_voice_ids:['provider:exact-primary','provider:exact-backup'],
-    allow_provider_default:false,
-    allow_random_selection:false,
-    allow_unlisted_voice:false
-  };
   const voices=[
-    {name:'Default Voice',voiceURI:'provider:default',lang:'en-US',default:true},
-    {name:'Approved Primary',voiceURI:'provider:exact-primary',lang:'en-US'},
-    {name:'Approved Backup',voiceURI:'provider:exact-backup',lang:'en-US'}
+    {name:'System Default',voiceURI:'system-default',lang:'en-GB',default:true},
+    {name:'Microsoft Aria Online',voiceURI:'microsoft-aria',lang:'en-US'},
+    {name:'Natural US Voice',voiceURI:'natural-us',lang:'en-US'},
+    {name:'Saved Voice',voiceURI:'saved-voice',lang:'en-CA'},
+    {name:'French Voice',voiceURI:'french-voice',lang:'fr-FR'},
+    {name:'Mock Voice',voiceURI:'mock:test',lang:'en-US'}
   ];
-  if(api.lockedBrowserVoiceId(locked)!=='provider:exact-primary'){
-    errors.push('approved exact primary ID was not accepted');
-  }
-  if(api.chooseNarrationVoice(voices,locked)?.voiceURI!=='provider:exact-primary'){
-    errors.push('the exact approved primary browser voice was not selected');
-  }
-  if(api.chooseNarrationVoice(voices.filter(voice=>voice.voiceURI!=='provider:exact-primary'),locked)!==null){
-    errors.push('a missing primary voice triggered a substitution');
-  }
-  for(const mutation of [
-    {...locked,provider:'another-provider'},
-    {...locked,allow_provider_default:true},
-    {...locked,allow_random_selection:true},
-    {...locked,allow_unlisted_voice:true},
-    {...locked,allowed_voice_ids:['provider:exact-backup']}
-  ]){
-    if(api.chooseNarrationVoice(voices,mutation)!==null){
-      errors.push('an invalid lock configuration selected a browser voice');
-    }
-  }
+  if(api.filterBrowserVoices(voices).some(voice=>voice.voiceURI==='mock:test')) errors.push('mock voice was not filtered');
+  if(api.chooseNarrationVoice(voices)?.voiceURI!=='microsoft-aria') errors.push('automatic voice selection did not prefer Aria');
+  if(api.chooseNarrationVoice(voices,{voiceURI:'saved-voice',wasUserSelected:true})?.voiceURI!=='saved-voice') errors.push('saved user voice was not preserved');
+  if(api.chooseNarrationVoice([{name:'Default',voiceURI:'default',lang:'fr-FR',default:true}])?.voiceURI!=='default') errors.push('browser default fallback failed');
 }
 
-requireSource(/fetch\(['"]config\/narration-voices\.json['"],\{cache:['"]no-store['"]\}\)/,'runtime must load the locked machine-readable voice config');
 requireSource(/speechSynthesis\.getVoices\(\)/,'browser availability lookup must use getVoices()');
-requireSource(/voice\?\.voiceURI===exactVoiceId/,'browser voice lookup must compare the exact provider voice ID');
 requireSource(/addEventListener\(['"]voiceschanged['"]/,'voiceschanged listener is required for late browser voice availability');
-requireSource(/selectedNarrationVoice && narrationVoiceLocked/,'voiceschanged must not replace the active story voice');
-requireSource(/setNarrationState\(['"]Preparing voice…['"]\)[\s\S]*await initializeNarrationVoice\(\)/,'page playback must wait for locked voice initialization');
-requireSource(/setNarrationState\(['"]Locked narrator unavailable['"]\)/,'a missing locked voice must fail visibly');
-requireSource(/utterance\.voice=voice/,'every browser utterance must receive the exact selected voice');
-requireSource(/function chooseNarratorFromSelector[\s\S]*Narrator selection is locked/,'manual browser narrator substitution must be disabled');
-requireSource(/new SpeechSynthesisUtterance\(prepareSpeechText\(packageSpeechText \|\| text\)\)/,'only exact package playback text may be pronunciation-normalized');
-requireSource(/loadNarrationVoiceConfig\(\)\.then\(selectNarrationVoiceFromAvailable\)/,'locked narration config must load during startup');
+requireSource(/narratorVoiceURI: ['"]nolan:narratorVoiceURI['"]/,'selected narrator storage key is required');
+requireSource(/narratorVoiceWasUserSelected/,'user-selected narrator persistence is required');
+requireSource(/select\.replaceChildren\(\.\.\.options\)/,'narrator dropdown must be populated from available voices');
+requireSource(/function chooseNarratorFromSelector[\s\S]*setSelectedNarrationVoice\(voice,\{wasUserSelected:true\}\)/,'manual narrator selection must persist');
+requireSource(/function resetNarrator\(\)[\s\S]*clearNarratorPreference\(\)[\s\S]*selectNarrationVoiceFromAvailable\(\)/,'Reset narrator must restore automatic selection');
+requireSource(/Promise\.race\([\s\S]*setTimeout\(\(\)=>resolve\(null\),3000\)/,'late or missing voices must resolve gracefully');
+requireSource(/setNarrationState\(['"]No narrator voices available['"]\)/,'missing voices must produce a visible status');
+requireSource(/new SpeechSynthesisUtterance\(prepareSpeechText\(packageSpeechText \|\| text\)\)/,'exact page narration must be used for speech');
+requireSource(/utterance\.voice=voice/,'every utterance must receive the selected voice');
+requireSource(/if\(speechSupported\) selectNarrationVoiceFromAvailable\(\)/,'voice discovery must run on fresh page load');
 
-rejectSource(/VOICE_QUALITY_INDICATORS/,'display-name quality inference is prohibited');
-rejectSource(/findAriaVoice/,'display-name Aria selection is prohibited');
-rejectSource(/voice\.default/,'browser default voice fallback is prohibited');
-rejectSource(/narratorVoiceWasUserSelected/,'saved manual narrator substitutions are prohibited');
-rejectSource(/narratorPreference/,'dynamic saved narrator preferences are prohibited');
-rejectSource(/Math\.random[\s\S]{0,120}(?:voice|narrat)/i,'random narration voice selection is prohibited');
+rejectSource(/lockedBrowserVoiceId/,'obsolete approval-only browser voice lock remains');
+rejectSource(/loadNarrationVoiceConfig/,'runtime still depends on the obsolete locked voice config');
+rejectSource(/Narrator selection is locked/,'narrator dropdown is still locked');
+rejectSource(/Locked narrator unavailable/,'read-aloud still fails through the obsolete lock status');
 
 if(errors.length){
   console.error('NARRATION VOICE VALIDATION FAILED');
