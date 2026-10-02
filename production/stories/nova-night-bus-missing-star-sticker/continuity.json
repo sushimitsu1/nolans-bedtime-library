@@ -1,0 +1,20 @@
+{
+  "storySlug": "nova-night-bus-missing-star-sticker",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Nova",
+    "vehicleColor": "Long blueberry-blue body with silver trim, creamy white roof stripe, and soft gold headlight glow",
+    "bodyShape": "Long rounded night bus with gentle curves, large side windows, six matching wheels, and no arms or hands",
+    "eyesAndFace": "Large kind lavender windshield eyes and a warm friendly smile across the front panel",
+    "wheels": "Six dark charcoal tires with silver hubcaps and tiny blueberry center dots",
+    "accessories": "Silver side mirrors, a soft roof night lantern row, and a cream destination board shape with no readable text",
+    "forbidden": "human-like arms or hands, wrong wheel count, readable text, logos, collages"
+  },
+  "supportingCharacters": {
+    "Twinkle": "Small pearly white body with lavender doors, teal windshield eyes, four charcoal tires with lavender hubcaps, and a gold star outline on the hood",
+    "Star Sticker": "A soft gold five-point star sticker with a tiny sparkle shine; no words"
+  },
+  "setting": "Lantern Route: gentle evening bus route with rounded cottages, street lanterns, a park path, a quiet depot, and a starry sky",
+  "propContinuity": "The gold star sticker is missing on Pages 4-9, found on Page 10, and back on Twinkle from Page 11 onward. The calm last-stop depot appears on Pages 13-15. Sky progresses from golden evening to moonlit night.",
+  "safeZone": "Faces and required action above y=760; bottom 25-30% is low-detail road, grass, or depot ground for the cream panel."
+}

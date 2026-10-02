@@ -2181,6 +2181,29 @@ narration: [
   "That night, Pip rested and dreamed of smooth shelves. Goodnight, Pip. Sleep well, sleepy warehouse.",
 ]
 },
+{
+id: "nova-night-bus-missing-star-sticker", title: "Nova the Night Bus and the Missing Star Sticker", category: "Race Cars",
+description: "Nova helps a little car find a fallen star sticker along the evening route, then glides everyone home on her calm last stop.",
+keywords: ["nova", "night bus", "missing star sticker", "twinkle", "lantern route", "star sticker", "race car", "bedtime"],
+cover: "assets/books/nova-night-bus-missing-star-sticker/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/nova-night-bus-missing-star-sticker/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One calm evening, Nova the Night Bus rolled onto Lantern Route. Her blueberry sides glowed soft and bright.",
+  "She began her gentle evening ride. Little cars waited for the calm last stop home.",
+  "Tiny Twinkle rolled up with a hopeful smile. A gold star outline shone on her hood.",
+  "But Twinkle’s special star sticker was missing! Only the empty outline remained.",
+  "“I need my star for the ride home,” Twinkle said. Nova listened with care.",
+  "“We can look together,” said Nova. She rolled slow so Twinkle could search.",
+  "They checked near the flower boxes. Soft petals danced, but no star waited there.",
+  "They checked the park path. Lantern light made tiny sparkles on the grass.",
+  "Then Twinkle spotted a soft gold shine by a curb stone. “Could it be?”",
+  "They found the missing star sticker! Twinkle beeped with joy.",
+  "The star sticker settled back on Twinkle’s hood. It looked bright and safe again.",
+  "Nova opened her doors for the calm last stop. Everyone rolled aboard gently.",
+  "Nova glided through the quiet streets. The depot lights glowed soft and ready.",
+  "At the depot, Twinkle yawned a tiny yawn. The star sticker shimmered goodnight.",
+  "That night, Nova rested under the quiet moon. Goodnight, Nova. Goodnight, Twinkle.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

@@ -1,0 +1,489 @@
+{
+  "storySlug": "nova-night-bus-missing-star-sticker",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            130,
+            980,
+            728
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            140,
+            980,
+            736
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            724
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            732
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            700
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            708
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            716
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            724
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            732
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            700
+          ]
+        },
+        {
+          "label": "Star Sticker",
+          "box": [
+            640,
+            480,
+            820,
+            680
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            708
+          ]
+        },
+        {
+          "label": "Star Sticker",
+          "box": [
+            640,
+            480,
+            820,
+            680
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            716
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            724
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            732
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            700
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

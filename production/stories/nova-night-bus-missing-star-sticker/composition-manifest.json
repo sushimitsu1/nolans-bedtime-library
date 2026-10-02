@@ -1,0 +1,907 @@
+{
+  "storySlug": "nova-night-bus-missing-star-sticker",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-01.png",
+      "text": "One calm evening, Nova the Night Bus rolled onto Lantern Route. Her blueberry sides glowed soft and bright.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            130,
+            980,
+            728
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-02.png",
+      "text": "She began her gentle evening ride. Little cars waited for the calm last stop home.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            140,
+            980,
+            736
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-03.png",
+      "text": "Tiny Twinkle rolled up with a hopeful smile. A gold star outline shone on her hood.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-04.png",
+      "text": "But Twinkle’s special star sticker was missing! Only the empty outline remained.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            732
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-05.png",
+      "text": "“I need my star for the ride home,” Twinkle said. Nova listened with care.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            700
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-06.png",
+      "text": "“We can look together,” said Nova. She rolled slow so Twinkle could search.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            708
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-07.png",
+      "text": "They checked near the flower boxes. Soft petals danced, but no star waited there.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            716
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-08.png",
+      "text": "They checked the park path. Lantern light made tiny sparkles on the grass.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-09.png",
+      "text": "Then Twinkle spotted a soft gold shine by a curb stone. “Could it be?”",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            732
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-10.png",
+      "text": "They found the missing star sticker! Twinkle beeped with joy.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            700
+          ]
+        },
+        {
+          "label": "Star Sticker",
+          "box": [
+            640,
+            480,
+            820,
+            680
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-11.png",
+      "text": "The star sticker settled back on Twinkle’s hood. It looked bright and safe again.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            708
+          ]
+        },
+        {
+          "label": "Star Sticker",
+          "box": [
+            640,
+            480,
+            820,
+            680
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-12.png",
+      "text": "Nova opened her doors for the calm last stop. Everyone rolled aboard gently.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            120,
+            980,
+            720
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            716
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-13.png",
+      "text": "Nova glided through the quiet streets. The depot lights glowed soft and ready.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            100,
+            130,
+            980,
+            728
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            315,
+            1280,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-14.png",
+      "text": "At the depot, Twinkle yawned a tiny yawn. The star sticker shimmered goodnight.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            120,
+            140,
+            980,
+            736
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            330,
+            1280,
+            732
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/page-15.png",
+      "text": "That night, Nova rested under the quiet moon. Goodnight, Nova. Goodnight, Twinkle.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Nova",
+          "box": [
+            80,
+            150,
+            980,
+            744
+          ]
+        },
+        {
+          "label": "Twinkle",
+          "box": [
+            860,
+            300,
+            1280,
+            700
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
