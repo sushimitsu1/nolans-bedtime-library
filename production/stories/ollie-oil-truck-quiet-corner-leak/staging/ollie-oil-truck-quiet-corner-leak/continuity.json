@@ -1,0 +1,38 @@
+{
+  "storySlug": "ollie-oil-truck-quiet-corner-leak",
+  "locked": true,
+  "mainCharacter": {
+    "name": "Ollie",
+    "role": "Main character; a careful, kind neighborhood oil truck",
+    "color": "Round sunny-yellow tank body with navy blue trim and cream bumper accents",
+    "bodyShape": "Short rounded oil tanker with a soft oval tank, short hood, curved fenders, and no arms or hands",
+    "face": "Large soft hazel windshield eyes and a gentle smile in the front grille",
+    "wheels": "Four dark charcoal tires with navy hubcaps and tiny cream center dots",
+    "accessories": "Small navy side mirrors, a pale silver fill cap on the tank top, and a folded soft absorbent cloth roll tucked beside the rear bumper"
+  },
+  "supportingCharacters": {
+    "Pippa": {
+      "color": "Soft mint-green body with cream brushes and navy wheel hubs",
+      "bodyShape": "Very small rounded sweep cart with two soft brushes and no arms or hands",
+      "face": "Round blue windshield eyes and a tiny friendly smile",
+      "wheels": "Four small charcoal tires with cream hubcaps",
+      "accessories": null,
+      "role": "Supporting character; a tiny tidy sweep cart friend"
+    }
+  },
+  "setting": {
+    "Quiet Corner Lane": "A calm vehicle neighborhood with brick workshops, flower boxes, a gentle bend in the road, warm street lanterns, and a low stone curb",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle evening colors, and no readable text"
+  },
+  "style": "Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.",
+  "continuityRules": [
+    "Ollie keeps the same sunny-yellow tank, navy trim, cream bumper accents, soft hazel windshield eyes, and four matching wheels on every page.",
+    "Ollie and every vehicle have no human-like arms or hands.",
+    "Pippa remains a tiny mint-green sweep cart with cream brushes and blue windshield eyes.",
+    "The tiny oil puddle appears on Page 4 and shrinks through the soft cleanup until it is gone by Page 12.",
+    "The absorbent cloth roll appears with Ollie from Page 1 and is used during cleanup on Pages 8-11.",
+    "The sky progresses from golden evening to lavender dusk, soft twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "referenceImage": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/cover.png"
+}
