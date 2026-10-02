@@ -1,0 +1,23 @@
+{
+  "storySlug": "pip-pickle-forklift-sleepy-warehouse-shelf",
+  "attempts": {
+    "page-01": 1,
+    "page-02": 1,
+    "page-03": 1,
+    "page-04": 1,
+    "page-05": 1,
+    "page-06": 1,
+    "page-07": 1,
+    "page-08": 1,
+    "page-09": 1,
+    "page-10": 1,
+    "page-11": 1,
+    "page-12": 1,
+    "page-13": 1,
+    "page-14": 1,
+    "page-15": 1
+  },
+  "regeneratedPages": [],
+  "retryLimit": 1,
+  "source": "approved ChatGPT package"
+}

@@ -1,0 +1,462 @@
+{
+  "storySlug": "pip-pickle-forklift-sleepy-warehouse-shelf",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            260,
+            140,
+            1120,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            180,
+            150,
+            980,
+            735
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            160,
+            150,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            860,
+            360,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            140,
+            160,
+            700,
+            735
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            760,
+            280,
+            1300,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            180,
+            140,
+            900,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            920,
+            340,
+            1340,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            150,
+            150,
+            860,
+            735
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            780,
+            300,
+            1320,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            170,
+            140,
+            880,
+            730
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            800,
+            260,
+            1320,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            200,
+            150,
+            900,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            820,
+            280,
+            1300,
+            730
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            160,
+            150,
+            860,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            840,
+            300,
+            1320,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            140,
+            160,
+            780,
+            735
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            760,
+            280,
+            1280,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            180,
+            160,
+            900,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            920,
+            220,
+            1360,
+            620
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            200,
+            180,
+            860,
+            730
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            900,
+            200,
+            1360,
+            600
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            160,
+            180,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            860,
+            180,
+            1340,
+            580
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            280,
+            160,
+            1100,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pip",
+          "box": [
+            240,
+            170,
+            980,
+            735
+          ]
+        },
+        {
+          "label": "Blanket Crate",
+          "box": [
+            1000,
+            180,
+            1380,
+            560
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

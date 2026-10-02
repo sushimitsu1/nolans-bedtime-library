@@ -1,0 +1,19 @@
+{
+  "storySlug": "pip-pickle-forklift-sleepy-warehouse-shelf",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Pip",
+    "vehicleColor": "Mint-green body with cream forks, pale yellow mast, and soft navy accents",
+    "bodyShape": "Small compact forklift with a rounded cabin, short mast, two cream lifting forks, and no arms or hands",
+    "eyesAndFace": "Round friendly blue windshield eyes and a tiny smile on the front panel",
+    "wheels": "Four solid dark charcoal tires with cream hubcaps",
+    "accessories": "Small navy side mirrors, a pale yellow safety stripe on the mast, and a soft night lantern clipped near the cabin roof",
+    "forbidden": "human-like arms or hands, wrong wheel count, readable text, logos, collages"
+  },
+  "supportingCharacters": {
+    "Blanket Crate": "Light pine crate with rounded corners, folded lavender, cream, and sky-blue blankets, and a small purple tag"
+  },
+  "setting": "Sleepy Shelf Warehouse: calm evening warehouse, low wooden shelves, soft floor lights, stacked blanket crates, wide aisles, round night clock",
+  "propContinuity": "Crate is wobbly on Pages 4-9 and sits steady on the low shelf from Page 11 onward. Light progresses from golden evening to quiet night.",
+  "safeZone": "Faces and required action above y=760; bottom 25-30% is low-detail warehouse floor for the cream panel."
+}

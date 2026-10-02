@@ -2157,7 +2157,30 @@ narration: [
   "Ruby parked by the clover. The porch lantern glowed like a tiny moon.",
   "That night, Ruby rested under the quiet moon. Goodnight, Ruby. Goodnight, Lulu."
 ]
-}
+},
+{
+id: "pip-pickle-forklift-sleepy-warehouse-shelf", title: "Pip the Pickle Forklift and the Sleepy Warehouse Shelf", category: "Construction Vehicles",
+description: "Pip carefully lifts a wobbly blanket crate onto a low shelf, learns slow-and-steady, then parks for the night.",
+keywords: ["pip", "pickle forklift", "sleepy warehouse", "shelf", "blanket crate", "forks", "construction vehicle", "bedtime"],
+cover: "assets/books/pip-pickle-forklift-sleepy-warehouse-shelf/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/pip-pickle-forklift-sleepy-warehouse-shelf/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One quiet evening, Pip the Pickle Forklift woke in the Sleepy Shelf Warehouse. His mint-green body shone softly.",
+  "He rolled down the aisle past neat blanket crates. The warehouse smelled like clean cotton.",
+  "Near the sleepy shelf, Pip paused. One crate needed a careful lift.",
+  "But the blanket crate looked wobbly. Its soft blankets leaned to one side.",
+  "Pip took a slow breath. “I need to lift it careful and kind,” he said.",
+  "He slid his cream forks under the crate. It wobbled once, then rested.",
+  "“Slow and steady,” Pip whispered. He lifted just a little bit.",
+  "Pip rolled toward the low shelf. The crate stayed balanced and safe.",
+  "At the shelf, Pip lined up the forks. He waited until everything felt smooth.",
+  "Gently, Pip set the crate down. The blankets settled soft and even.",
+  "The sleepy shelf held the crate safe. Pip backed away with a proud little smile.",
+  "Soft floor lights glowed on the neat aisle. Everything looked ready for night.",
+  "Pip checked one last time. The purple tag hung still and quiet.",
+  "Pip parked in his cozy night spot. The warehouse grew hush and warm.",
+  "That night, Pip rested and dreamed of smooth shelves. Goodnight, Pip. Sleep well, sleepy warehouse.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
