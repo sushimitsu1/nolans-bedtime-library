@@ -1,0 +1,19 @@
+{
+  "storySlug": "ollie-oil-truck-quiet-corner-leak",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Ollie",
+    "vehicleColor": "Round sunny-yellow tank body with navy blue trim and cream bumper accents",
+    "bodyShape": "Short rounded oil tanker with a soft oval tank, short hood, curved fenders, and no arms or hands",
+    "eyesAndFace": "Large soft hazel windshield eyes and a gentle smile in the front grille",
+    "wheels": "Four dark charcoal tires with navy hubcaps and tiny cream center dots",
+    "accessories": "Small navy side mirrors, a pale silver fill cap on the tank top, and a folded soft absorbent cloth roll tucked beside the rear bumper",
+    "forbidden": "human-like arms or hands, wrong wheel count, readable text, logos, collages"
+  },
+  "supportingCharacters": {
+    "Pippa": "Soft mint-green body with cream brushes and navy wheel hubs; Very small rounded sweep cart with two soft brushes and no arms or hands; Round blue windshield eyes and a tiny friendly smile"
+  },
+  "setting": "Quiet Corner Lane evening village with brick workshops, flower boxes, lanterns, stone curb",
+  "propContinuity": "Tiny oil puddle Pages 4-10; absorbent cloth roll used Pages 8-11; puddle gone by Page 12.",
+  "safeZone": "Faces and required action above y=760; bottom 25-30% is low-detail road/cobblestone for cream panel."
+}

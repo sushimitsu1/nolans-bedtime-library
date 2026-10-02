@@ -2111,6 +2111,29 @@ speechText: [
     "Sunny smiled as the stars twinkled overhead. Helping a friend made his heart feel warm.",
     "“Goodnight, little camper,” whispered Sunny. Then Cozy Mountain Trail grew quiet under the stars."
   ]
+},
+{
+id: "ollie-oil-truck-quiet-corner-leak", title: "Ollie the Oil Truck and the Quiet Corner Leak", category: "Construction Vehicles",
+description: "Ollie spots a tiny puddle on the night road, helps with a soft cleanup, and rests under the moon.",
+keywords: ["ollie", "oil truck", "quiet corner", "leak", "puddle", "pippa", "sweep cart", "cleanup", "construction vehicle", "bedtime"],
+cover: "assets/books/ollie-oil-truck-quiet-corner-leak/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/ollie-oil-truck-quiet-corner-leak/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One calm evening, Ollie the Oil Truck rolled along Quiet Corner Lane. His sunny-yellow tank shone softly.",
+  "He hummed a quiet song for the sleepy workshops. Tiny moths danced around the lanterns.",
+  "Around the quiet bend, Ollie slowed. Something shiny waited by the curb.",
+  "Oh! A tiny oil puddle sat on the night road. It was small, but it made the corner slippery.",
+  "Ollie blinked carefully. “I need to keep this corner safe for my friends.”",
+  "Just then, Pippa the tiny sweep cart rolled up. “I can help too,” she chirped.",
+  "Together they planned a gentle cleanup. Ollie would soak. Pippa would sweep soft and slow.",
+  "Ollie nudged his soft cloth roll onto the puddle. The cloth drank the shiny drops.",
+  "Pippa swept the dry edge with her cream brushes. “Almost gone,” she said.",
+  "Ollie checked again and found one last shiny spot. He pressed the cloth once more.",
+  "The corner looked smooth and safe. No more slippery shine waited on the road.",
+  "Ollie rolled the cloth back to his bumper pocket. Pippa gave a tiny happy beep.",
+  "Friends rolled past with soft thank-yous. The quiet corner felt ready for night.",
+  "Ollie and Pippa parked side by side beneath the lanterns. The lane grew still and calm.",
+  "That night, Ollie rested under the quiet moon. Goodnight, Ollie. Goodnight, Pippa."
+]
 }
 ];
 

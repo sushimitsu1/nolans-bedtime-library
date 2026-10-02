@@ -1,0 +1,481 @@
+{
+  "storySlug": "ollie-oil-truck-quiet-corner-leak",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            280,
+            220,
+            980,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            320,
+            200,
+            1020,
+            735
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            210,
+            1000,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            260,
+            180,
+            920,
+            740
+          ]
+        },
+        {
+          "label": "puddle",
+          "box": [
+            520,
+            680,
+            780,
+            755
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            190,
+            980,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            420,
+            160,
+            1180,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            120,
+            430,
+            430,
+            740
+          ]
+        },
+        {
+          "label": "puddle",
+          "box": [
+            380,
+            680,
+            560,
+            755
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            400,
+            170,
+            1160,
+            745
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            140,
+            420,
+            450,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            380,
+            140,
+            1200,
+            735
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            80,
+            380,
+            420,
+            740
+          ]
+        },
+        {
+          "label": "cloth",
+          "box": [
+            480,
+            640,
+            760,
+            755
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            360,
+            150,
+            1140,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            100,
+            400,
+            440,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            380,
+            150,
+            1160,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            90,
+            390,
+            430,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            360,
+            160,
+            1120,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            110,
+            400,
+            450,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            340,
+            150,
+            1100,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            120,
+            410,
+            460,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            320,
+            160,
+            980,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            140,
+            420,
+            450,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            170,
+            1050,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            160,
+            430,
+            470,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            280,
+            200,
+            1080,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            180,
+            470,
+            480,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ],
+  "safeZoneNotes": "ChatGPT full-bleed art places Ollie/Pippa faces mid-frame. Wheels and cobblestone puddle/cloth often sit near or below y=760; the integrated cream panel covers that low-detail ground safely.",
+  "individuallyInspectedPages": [
+    1,
+    5,
+    9,
+    10,
+    15
+  ],
+  "page9To10Continuity": "passed",
+  "characterContinuity": "passed"
+}

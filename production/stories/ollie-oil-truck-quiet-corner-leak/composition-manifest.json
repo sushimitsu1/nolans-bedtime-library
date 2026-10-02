@@ -1,0 +1,889 @@
+{
+  "storySlug": "ollie-oil-truck-quiet-corner-leak",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-01.png",
+      "text": "One calm evening, Ollie the Oil Truck rolled along Quiet Corner Lane. His sunny-yellow tank shone softly.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            280,
+            220,
+            980,
+            740
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-02.png",
+      "text": "He hummed a quiet song for the sleepy workshops. Tiny moths danced around the lanterns.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            320,
+            200,
+            1020,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-03.png",
+      "text": "Around the quiet bend, Ollie slowed. Something shiny waited by the curb.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            210,
+            1000,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-04.png",
+      "text": "Oh! A tiny oil puddle sat on the night road. It was small, but it made the corner slippery.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            260,
+            180,
+            920,
+            740
+          ]
+        },
+        {
+          "label": "puddle",
+          "box": [
+            520,
+            680,
+            780,
+            755
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-05.png",
+      "text": "Ollie blinked carefully. “I need to keep this corner safe for my friends.”",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            190,
+            980,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-06.png",
+      "text": "Just then, Pippa the tiny sweep cart rolled up. “I can help too,” she chirped.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            420,
+            160,
+            1180,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            120,
+            430,
+            430,
+            740
+          ]
+        },
+        {
+          "label": "puddle",
+          "box": [
+            380,
+            680,
+            560,
+            755
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-07.png",
+      "text": "Together they planned a gentle cleanup. Ollie would soak. Pippa would sweep soft and slow.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            400,
+            170,
+            1160,
+            745
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            140,
+            420,
+            450,
+            740
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-08.png",
+      "text": "Ollie nudged his soft cloth roll onto the puddle. The cloth drank the shiny drops.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            380,
+            140,
+            1200,
+            735
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            80,
+            380,
+            420,
+            740
+          ]
+        },
+        {
+          "label": "cloth",
+          "box": [
+            480,
+            640,
+            760,
+            755
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-09.png",
+      "text": "Pippa swept the dry edge with her cream brushes. “Almost gone,” she said.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            360,
+            150,
+            1140,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            100,
+            400,
+            440,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-10.png",
+      "text": "Ollie checked again and found one last shiny spot. He pressed the cloth once more.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            380,
+            150,
+            1160,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            90,
+            390,
+            430,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-11.png",
+      "text": "The corner looked smooth and safe. No more slippery shine waited on the road.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            360,
+            160,
+            1120,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            110,
+            400,
+            450,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-12.png",
+      "text": "Ollie rolled the cloth back to his bumper pocket. Pippa gave a tiny happy beep.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            340,
+            150,
+            1100,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            120,
+            410,
+            460,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-13.png",
+      "text": "Friends rolled past with soft thank-yous. The quiet corner felt ready for night.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            320,
+            160,
+            980,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            140,
+            420,
+            450,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-14.png",
+      "text": "Ollie and Pippa parked side by side beneath the lanterns. The lane grew still and calm.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            300,
+            170,
+            1050,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            160,
+            430,
+            470,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/ollie-oil-truck-quiet-corner-leak/staging/ollie-oil-truck-quiet-corner-leak/illustrations/page-15.png",
+      "text": "That night, Ollie rested under the quiet moon. Goodnight, Ollie. Goodnight, Pippa.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ollie",
+          "box": [
+            280,
+            200,
+            1080,
+            740
+          ]
+        },
+        {
+          "label": "Pippa",
+          "box": [
+            180,
+            470,
+            480,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
