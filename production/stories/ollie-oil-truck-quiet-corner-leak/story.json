@@ -1,0 +1,198 @@
+{
+  "title": "Ollie the Oil Truck and the Quiet Corner Leak",
+  "slug": "ollie-oil-truck-quiet-corner-leak",
+  "category": "Construction Vehicles",
+  "description": "Ollie spots a tiny puddle on the night road, helps with a soft cleanup, and rests under the moon.",
+  "characterBible": {
+    "Ollie": {
+      "role": "Main character; a careful, kind neighborhood oil truck",
+      "color": "Round sunny-yellow tank body with navy blue trim and cream bumper accents",
+      "bodyShape": "Short rounded oil tanker with a soft oval tank, short hood, curved fenders, and no arms or hands",
+      "face": "Large soft hazel windshield eyes and a gentle smile in the front grille",
+      "wheels": "Four dark charcoal tires with navy hubcaps and tiny cream center dots",
+      "accessories": "Small navy side mirrors, a pale silver fill cap on the tank top, and a folded soft absorbent cloth roll tucked beside the rear bumper"
+    },
+    "Pippa": {
+      "role": "Supporting character; a tiny tidy sweep cart friend",
+      "color": "Soft mint-green body with cream brushes and navy wheel hubs",
+      "bodyShape": "Very small rounded sweep cart with two soft brushes and no arms or hands",
+      "face": "Round blue windshield eyes and a tiny friendly smile",
+      "wheels": "Four small charcoal tires with cream hubcaps"
+    }
+  },
+  "settingBible": {
+    "Quiet Corner Lane": "A calm vehicle neighborhood with brick workshops, flower boxes, a gentle bend in the road, warm street lanterns, and a low stone curb",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle evening colors, and no readable text"
+  },
+  "continuityRules": [
+    "Ollie keeps the same sunny-yellow tank, navy trim, cream bumper accents, soft hazel windshield eyes, and four matching wheels on every page.",
+    "Ollie and every vehicle have no human-like arms or hands.",
+    "Pippa remains a tiny mint-green sweep cart with cream brushes and blue windshield eyes.",
+    "The tiny oil puddle appears on Page 4 and shrinks through the soft cleanup until it is gone by Page 12.",
+    "The absorbent cloth roll appears with Ollie from Page 1 and is used during cleanup on Pages 8-11.",
+    "The sky progresses from golden evening to lavender dusk, soft twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One calm evening, Ollie the Oil Truck rolled along Quiet Corner Lane. His sunny-yellow tank shone softly.",
+      "illustrationScene": "Ollie rolls along a brick-lined workshop street at golden evening with flower boxes and warm lanterns behind him.",
+      "requiredCharacters": [
+        "Ollie"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Establish Ollie's sunny-yellow tank, navy trim, cream bumper, soft hazel windshield eyes, four matching wheels, navy mirrors, silver fill cap, and cloth roll."
+    },
+    {
+      "number": 2,
+      "text": "He hummed a quiet song for the sleepy workshops. Tiny moths danced around the lanterns.",
+      "illustrationScene": "Ollie pauses near glowing workshop windows while moths circle warm lanterns above the quiet lane.",
+      "requiredCharacters": [
+        "Ollie"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep Ollie's exact colors and features. Setting shows Quiet Corner Lane workshops and lanterns."
+    },
+    {
+      "number": 3,
+      "text": "Around the quiet bend, Ollie slowed. Something shiny waited by the curb.",
+      "illustrationScene": "Ollie approaches a gentle road bend with a low stone curb while a faint shine appears near the pavement edge.",
+      "requiredCharacters": [
+        "Ollie"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Introduce the bend and curb geography used later. Ollie remains consistent; puddle not fully shown yet."
+    },
+    {
+      "number": 4,
+      "text": "Oh! A tiny oil puddle sat on the night road. It was small, but it made the corner slippery.",
+      "illustrationScene": "Ollie stops safely before a small dark shiny puddle on the pavement near the stone curb under lavender dusk light.",
+      "requiredCharacters": [
+        "Ollie"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Introduce the tiny puddle clearly. Keep it small and non-scary. Ollie has no arms."
+    },
+    {
+      "number": 5,
+      "text": "Ollie blinked carefully. “I need to keep this corner safe for my friends.”",
+      "illustrationScene": "Ollie looks toward the tiny puddle with a caring expression while the empty quiet lane curves ahead.",
+      "requiredCharacters": [
+        "Ollie"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Problem continues. Cloth roll still tucked beside the rear bumper and unused."
+    },
+    {
+      "number": 6,
+      "text": "Just then, Pippa the tiny sweep cart rolled up. “I can help too,” she chirped.",
+      "illustrationScene": "Little mint-green Pippa rolls beside Ollie's front wheel near the puddle, looking ready and kind.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "soft dusk",
+      "continuityNotes": "Introduce Pippa's mint-green body, cream brushes, blue eyes, and four small wheels. Scale: Pippa is much smaller than Ollie."
+    },
+    {
+      "number": 7,
+      "text": "Together they planned a gentle cleanup. Ollie would soak. Pippa would sweep soft and slow.",
+      "illustrationScene": "Ollie and Pippa face the tiny puddle side by side on the quiet corner, lantern light reflecting on the shine.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "soft dusk",
+      "continuityNotes": "Teamwork begins. Puddle still present and small. No arms on either vehicle."
+    },
+    {
+      "number": 8,
+      "text": "Ollie nudged his soft cloth roll onto the puddle. The cloth drank the shiny drops.",
+      "illustrationScene": "Ollie carefully presses his absorbent cloth roll against the tiny puddle using his bumper only, with Pippa watching nearby.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Show cloth-roll contact via bumper/body only—no arms or hands. Puddle begins to shrink."
+    },
+    {
+      "number": 9,
+      "text": "Pippa swept the dry edge with her cream brushes. “Almost gone,” she said.",
+      "illustrationScene": "Pippa gently brushes the dry pavement edge around the shrinking puddle while Ollie holds the cloth roll in place with his bumper.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Puddle smaller than Page 8. Keep both character designs locked."
+    },
+    {
+      "number": 10,
+      "text": "Ollie checked again and found one last shiny spot. He pressed the cloth once more.",
+      "illustrationScene": "Ollie presses the cloth on a final tiny shiny spot near the curb while Pippa waits with brushes lifted.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "violet twilight",
+      "continuityNotes": "Nearly resolved. Cloth roll visibly damp; corner mostly clean."
+    },
+    {
+      "number": 11,
+      "text": "The corner looked smooth and safe. No more slippery shine waited on the road.",
+      "illustrationScene": "Ollie and Pippa admire the clean dry pavement at Quiet Corner Lane under clearing twilight lanterns.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "clearing twilight",
+      "continuityNotes": "Puddle is gone. Road is dry and safe. Same bend and curb geography."
+    },
+    {
+      "number": 12,
+      "text": "Ollie rolled the cloth back to his bumper pocket. Pippa gave a tiny happy beep.",
+      "illustrationScene": "Ollie tucks the used cloth roll beside his rear bumper while Pippa beeps happily on the clean corner.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "blue evening",
+      "continuityNotes": "Cleanup tools put away. No puddle remains. Characters unchanged."
+    },
+    {
+      "number": 13,
+      "text": "Friends rolled past with soft thank-yous. The quiet corner felt ready for night.",
+      "illustrationScene": "Two small friendly cars roll carefully past Ollie and Pippa on the clean corner, offering grateful glances.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Supporting cars are simple rounded shapes with no arms. Moon begins to rise."
+    },
+    {
+      "number": 14,
+      "text": "Ollie and Pippa parked side by side beneath the lanterns. The lane grew still and calm.",
+      "illustrationScene": "Ollie and Pippa rest together near the workshop lanterns as the street grows quiet under early moonlight.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Transition to bedtime. Same locked designs. Clean corner visible behind them."
+    },
+    {
+      "number": 15,
+      "text": "That night, Ollie rested under the quiet moon. Goodnight, Ollie. Goodnight, Pippa.",
+      "illustrationScene": "Ollie rests on Quiet Corner Lane beneath a crescent moon while Pippa sleeps nearby and the clean curb gleams softly.",
+      "requiredCharacters": [
+        "Ollie",
+        "Pippa"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Calm bedtime ending. Ollie keeps all locked features. No puddle. Peaceful night scene."
+    }
+  ]
+}

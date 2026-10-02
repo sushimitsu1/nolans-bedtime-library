@@ -1,0 +1,212 @@
+{
+  "title": "Harbor Hank the Pilot Boat and the Loose Float Line",
+  "slug": "harbor-hank-pilot-boat-loose-float-line",
+  "category": "Emergency Vehicles",
+  "description": "Hank steadies a drifting dock float with gentle teamwork, then rests in the moonlit harbor.",
+  "characterBible": {
+    "Hank": {
+      "role": "Main character; a stout, kind harbor pilot boat",
+      "color": "Navy blue hull with a creamy white cabin, pale yellow cabin light, and soft red bumper trim",
+      "bodyShape": "Short stout pilot boat with a rounded bow, snug cabin, soft rubber bumpers, and no arms or hands",
+      "face": "Large calm blue windshield eyes and a gentle smile on the bow",
+      "wheels": "No wheels; floats on water with a small cream wake",
+      "accessories": "Pale yellow cabin roof light, silver railings, a coiled soft rope on the deck, and tiny navy life rings on each side"
+    },
+    "Dot": {
+      "role": "Supporting character; a small sunny dinghy friend",
+      "color": "Sunny yellow hull with white seats and sky-blue trim",
+      "bodyShape": "Tiny rounded dinghy with no arms or hands",
+      "face": "Round green eyes on the bow and a cheerful little smile",
+      "accessories": "A small cream paddle rest and a pale blue bow fender"
+    },
+    "Dock Float": {
+      "role": "Supporting prop; a soft harbor float that drifted loose",
+      "appearance": "Round red-and-white buoy float with a loose cream line trailing gently; friendly and non-scary"
+    }
+  },
+  "settingBible": {
+    "Moonlit Harbor": "A calm vehicle harbor with wooden docks, soft pilings, warm pier lanterns, gentle waves, and a quiet boat shed",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle harbor evening colors, and no readable text"
+  },
+  "continuityRules": [
+    "Hank keeps the same navy-and-white colors, pale yellow cabin light, blue windshield eyes, soft red bumpers, silver railings, coiled rope, and life rings on every page.",
+    "Hank and every boat/vehicle have no human-like arms or hands; help is done with gentle hull bumps and the soft rope.",
+    "Dot remains a tiny sunny yellow dinghy with green bow eyes and sky-blue trim.",
+    "The dock float is red-and-white; its cream line is loose on Pages 4-9 and secured by Page 11.",
+    "The wooden dock and pier lanterns match across pages; water stays calm and bedtime-safe.",
+    "The sky progresses from golden evening to lavender dusk, blue twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One calm evening, Harbor Hank the Pilot Boat floated in Moonlit Harbor. His pale yellow cabin light glowed soft.",
+      "illustrationScene": "Hank floats beside wooden docks at golden evening with pier lanterns and a quiet boat shed behind him.",
+      "requiredCharacters": [
+        "Hank"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Establish Hank's navy hull, cream cabin, pale yellow cabin light, blue eyes, red bumpers, silver railings, coiled rope, and life rings."
+    },
+    {
+      "number": 2,
+      "text": "He began a gentle check of the quiet docks. Little waves tapped the pilings.",
+      "illustrationScene": "Hank drifts slowly along the dock line while soft waves tap wooden pilings under early evening light.",
+      "requiredCharacters": [
+        "Hank"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep Hank locked. Introduce dock and piling geography."
+    },
+    {
+      "number": 3,
+      "text": "Tiny Dot the dinghy bobbed nearby. “Evening, Hank,” she chirped.",
+      "illustrationScene": "Sunny yellow Dot floats beside Hank's bow near the dock, looking cheerful under soft evening lanterns.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Introduce Dot's sunny yellow hull, white seats, sky-blue trim, green eyes, and blue bow fender. Scale: Dot much smaller than Hank."
+    },
+    {
+      "number": 4,
+      "text": "Then Hank spotted a problem. A dock float had come loose and drifted a little.",
+      "illustrationScene": "Hank and Dot look toward a red-and-white buoy float drifting gently away from the dock with a loose cream line trailing.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Problem: loose float. Keep water calm and non-scary. Float design locked."
+    },
+    {
+      "number": 5,
+      "text": "The cream line trailed in the water. “We need to bring it home,” said Hank.",
+      "illustrationScene": "Close view of the loose cream line trailing from the red-and-white float while Hank watches carefully nearby.",
+      "requiredCharacters": [
+        "Hank",
+        "Dock Float"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Problem continues. Line is loose but gentle. Hank has no arms."
+    },
+    {
+      "number": 6,
+      "text": "Dot nodded. “I can help too,” she said, slow and soft.",
+      "illustrationScene": "Dot floats beside Hank facing the drifting float under lavender dusk pier lanterns.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Teamwork offer. Float still slightly adrift. Designs locked."
+    },
+    {
+      "number": 7,
+      "text": "Together they eased closer. Hank used his soft red bumper for a gentle nudge.",
+      "illustrationScene": "Hank carefully nudges the float with his soft red bow bumper while Dot stays nearby on calm water.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "soft dusk",
+      "continuityNotes": "Help via bumper only—no arms. Float moves gently toward dock."
+    },
+    {
+      "number": 8,
+      "text": "Dot guided the trailing line with her little bow fender. The float turned toward home.",
+      "illustrationScene": "Dot lightly guides the cream line with her pale blue bow fender as the float turns toward the wooden dock.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Continue solution. No arms. Water remains calm."
+    },
+    {
+      "number": 9,
+      "text": "Hank uncoiled his soft rope. He looped it ready for a safe hold.",
+      "illustrationScene": "Hank's coiled soft rope extends from his deck toward the float near the dock pilings under blue twilight.",
+      "requiredCharacters": [
+        "Hank",
+        "Dock Float"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Rope used as boat equipment only—no hands. Float nearly at dock."
+    },
+    {
+      "number": 10,
+      "text": "They held the float steady beside the piling. The cream line was almost fixed.",
+      "illustrationScene": "Hank and Dot hold the red-and-white float steady beside a wooden piling with the cream line nearly in place.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "violet twilight",
+      "continuityNotes": "Nearly resolved. Keep all designs locked. Calm water."
+    },
+    {
+      "number": 11,
+      "text": "The float sat safe and smooth against the dock. The loose line was fixed at last.",
+      "illustrationScene": "The red-and-white float rests secured against the wooden dock with the cream line neatly held while Hank and Dot smile.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "clearing twilight",
+      "continuityNotes": "Problem resolved. Line secured. Same dock geography."
+    },
+    {
+      "number": 12,
+      "text": "Pier lanterns shone on the quiet water. The harbor felt ready for night.",
+      "illustrationScene": "Wide calm harbor view with the secured float at the dock, Hank and Dot nearby, and warm pier lanterns reflecting on water.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot",
+        "Dock Float"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Show tidy result. Float remains secured. Designs unchanged."
+    },
+    {
+      "number": 13,
+      "text": "Hank coiled his rope again. Dot gave a tiny happy splash.",
+      "illustrationScene": "Hank's soft rope returns neatly coiled on deck while Dot makes a tiny gentle splash of joy nearby.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Tools put away. Splashes are tiny and calm, not chaotic."
+    },
+    {
+      "number": 14,
+      "text": "They rested by the boat shed. The moon rose over the still harbor.",
+      "illustrationScene": "Hank and Dot rest beside the quiet boat shed as a crescent moon rises and pier lanterns glow softly.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Bedtime transition. Secured float visible in background. Calm mood."
+    },
+    {
+      "number": 15,
+      "text": "That night, Hank rested under the quiet moon. Goodnight, Hank. Goodnight, Dot.",
+      "illustrationScene": "Hank rests in the moonlit harbor with pale yellow cabin light glowing softly while Dot sleeps nearby and the secured float gleams by the dock.",
+      "requiredCharacters": [
+        "Hank",
+        "Dot"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Calm bedtime ending. Hank keeps all locked features. Peaceful harbor night."
+    }
+  ]
+}

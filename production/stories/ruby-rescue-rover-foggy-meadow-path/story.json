@@ -1,0 +1,204 @@
+{
+  "title": "Ruby the Rescue Rover and the Foggy Meadow Path",
+  "slug": "ruby-rescue-rover-foggy-meadow-path",
+  "category": "Emergency Vehicles",
+  "description": "Ruby finds a lost lamb in gentle fog and uses warm roof lights to guide the way home.",
+  "characterBible": {
+    "Ruby": {
+      "role": "Main character; a gentle meadow rescue rover",
+      "color": "Compact coral-pink lower body with a creamy white upper cabin and soft gold accents",
+      "bodyShape": "Short sturdy rescue rover with rounded fenders, a snug cabin, four strong wheels, and no arms or hands",
+      "face": "Large warm brown windshield eyes with soft lashes and a kind smile in the front grille",
+      "wheels": "Four dark charcoal tires with cream hubcaps and tiny coral center dots",
+      "accessories": "Amber roof light bar, silver side mirrors, and a small cream first-aid kit emblem on each door"
+    },
+    "Lulu": {
+      "role": "Supporting character; a small lost lamb",
+      "appearance": "Fluffy white lamb with soft gray ear tips, gentle black eyes, a pale pink nose, and a sky-blue ribbon collar"
+    },
+    "Mama Sheep": {
+      "role": "Supporting character; Lulu's mother waiting at the meadow shed",
+      "appearance": "Larger soft white sheep with gray ear tips, kind black eyes, and a woven cream scarf; no collar"
+    }
+  },
+  "settingBible": {
+    "Meadow Hollow": "A gentle foggy meadow with soft grass hills, a wooden shed with a yellow porch lantern, clover patches, and a winding dirt path",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle evening fog colors, and no readable text"
+  },
+  "continuityRules": [
+    "Ruby keeps the same coral-and-cream color blocking, amber roof lights, brown windshield eyes, four matching wheels, and cream first-aid emblems on every page.",
+    "Ruby and every vehicle have no human-like arms or hands.",
+    "Lulu remains a fluffy white lamb with gray ear tips, black eyes, pink nose, and sky-blue ribbon collar.",
+    "Mama Sheep stays a larger white sheep with gray ear tips and a cream scarf, never wearing Lulu's collar.",
+    "Gentle fog appears on Pages 3-10 and clears by Page 12; never scary or pitch-dark.",
+    "The wooden meadow shed with yellow porch lantern is the home destination and matches on Pages 4 and 12-15.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One soft evening, Ruby the Rescue Rover rolled into Meadow Hollow. Her amber roof lights glowed warm.",
+      "illustrationScene": "Ruby rolls onto a grassy meadow path at golden evening with clover patches and a distant wooden shed behind her.",
+      "requiredCharacters": [
+        "Ruby"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Establish Ruby's coral-and-cream body, amber roof lights, brown windshield eyes, four wheels, silver mirrors, and first-aid emblems."
+    },
+    {
+      "number": 2,
+      "text": "She began her gentle check of the quiet hills. Birds settled in the tall grass.",
+      "illustrationScene": "Ruby rolls along a soft dirt path between grass hills while birds nestle into the meadow under early evening light.",
+      "requiredCharacters": [
+        "Ruby"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep Ruby's locked design. Introduce meadow geography used later."
+    },
+    {
+      "number": 3,
+      "text": "A gentle fog drifted over the path. Ruby slowed and listened carefully.",
+      "illustrationScene": "Soft white fog drifts across the meadow path as Ruby slows, amber lights glowing softly through the mist.",
+      "requiredCharacters": [
+        "Ruby"
+      ],
+      "timeOfDay": "foggy evening",
+      "continuityNotes": "Introduce gentle fog—not scary. Ruby remains fully visible and calm."
+    },
+    {
+      "number": 4,
+      "text": "Then Ruby heard a tiny “baa.” A little lamb was lost beside the clover.",
+      "illustrationScene": "Ruby finds fluffy white Lulu standing alone in clover near the foggy path, looking small and unsure.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "foggy dusk",
+      "continuityNotes": "Introduce Lulu's white fleece, gray ear tips, black eyes, pink nose, and blue ribbon collar. Problem: lost lamb."
+    },
+    {
+      "number": 5,
+      "text": "“I’m Lulu,” the lamb whispered. “I can’t see Mama’s shed in this fog.”",
+      "illustrationScene": "Lulu stands close to Ruby's front wheel and looks toward a faint distant glow where the shed might be.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "foggy dusk",
+      "continuityNotes": "Shed is only faintly suggested through fog. Keep Lulu and Ruby scale consistent."
+    },
+    {
+      "number": 6,
+      "text": "Ruby smiled kindly. “I can help with my warm lights,” she said.",
+      "illustrationScene": "Ruby faces Lulu with amber roof lights glowing softly through the fog while the clover path stretches ahead.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "foggy dusk",
+      "continuityNotes": "Ruby has no arms. Roof lights are warm and soft, never harsh emergency flash."
+    },
+    {
+      "number": 7,
+      "text": "Lulu walked close beside Ruby. Together they followed the soft dirt path.",
+      "illustrationScene": "Ruby rolls slowly along the foggy meadow path with Lulu walking safely beside her front wheel.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "foggy twilight",
+      "continuityNotes": "Teamwork begins. Fog still present. Keep both appearances locked."
+    },
+    {
+      "number": 8,
+      "text": "Ruby’s amber lights made a warm golden path through the mist. Lulu felt braver.",
+      "illustrationScene": "Ruby's amber roof lights cast a gentle golden path on the dirt trail ahead while Lulu stays close and calm.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "foggy twilight",
+      "continuityNotes": "Lights guide safely. Scene remains gentle and clear despite fog."
+    },
+    {
+      "number": 9,
+      "text": "They passed a crooked fence post. Beyond it, a yellow porch lantern blinked.",
+      "illustrationScene": "Ruby and Lulu pass a single crooked wooden fence post as a soft yellow lantern glow appears ahead through thinning fog.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "thinning fog twilight",
+      "continuityNotes": "Fence post is a landmark, not danger. Lantern hints at the shed from Page 1."
+    },
+    {
+      "number": 10,
+      "text": "“I found the path home!” Lulu said. Ruby rolled steady and safe.",
+      "illustrationScene": "Lulu looks happily ahead toward the lantern glow while Ruby continues slowly on the clearer meadow path.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "clearing twilight",
+      "continuityNotes": "Fog begins to thin. Solution progressing. Designs unchanged."
+    },
+    {
+      "number": 11,
+      "text": "Soon the wooden meadow shed appeared. Mama Sheep waited on the porch.",
+      "illustrationScene": "Ruby and Lulu approach the wooden shed with yellow porch lantern as Mama Sheep stands waiting on the porch.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu",
+        "Mama Sheep"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Introduce Mama Sheep larger than Lulu, cream scarf, no collar. Shed matches destination."
+    },
+    {
+      "number": 12,
+      "text": "Mama nuzzled Lulu gently. “Thank you for bringing my lamb home safe.”",
+      "illustrationScene": "Mama Sheep nuzzles Lulu on the shed porch while Ruby rests nearby with soft amber lights and clearing fog.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu",
+        "Mama Sheep"
+      ],
+      "timeOfDay": "clearing evening",
+      "continuityNotes": "Fog mostly gone. Reunion is calm and warm. Ruby stays outside."
+    },
+    {
+      "number": 13,
+      "text": "Lulu’s blue ribbon shone in the lantern light. The meadow felt peaceful again.",
+      "illustrationScene": "Lulu stands with Mama on the porch as Ruby smiles from the path and the meadow grows still under soft twilight.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu",
+        "Mama Sheep"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Problem resolved. Keep all locked features. Fog cleared."
+    },
+    {
+      "number": 14,
+      "text": "Ruby parked by the clover. The porch lantern glowed like a tiny moon.",
+      "illustrationScene": "Ruby rests beside clover near the shed while the yellow porch lantern glows and Lulu yawns in the doorway.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Bedtime transition. Ruby's amber lights dim and soft. Calm composition."
+    },
+    {
+      "number": 15,
+      "text": "That night, Ruby rested under the quiet moon. Goodnight, Ruby. Goodnight, Lulu.",
+      "illustrationScene": "Ruby rests on the meadow path beneath a crescent moon while the shed glows softly and sleeping Lulu is visible inside.",
+      "requiredCharacters": [
+        "Ruby",
+        "Lulu"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Calm bedtime ending. Ruby keeps all locked features. Peaceful moonlit meadow."
+    }
+  ]
+}

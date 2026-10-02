@@ -1,0 +1,207 @@
+{
+  "title": "Nova the Night Bus and the Missing Star Sticker",
+  "slug": "nova-night-bus-missing-star-sticker",
+  "category": "Race Cars",
+  "description": "Nova helps a little car find a fallen star sticker along the evening route, then glides everyone home on her calm last stop.",
+  "characterBible": {
+    "Nova": {
+      "role": "Main character; a calm blueberry night bus",
+      "color": "Long blueberry-blue body with silver trim, creamy white roof stripe, and soft gold headlight glow",
+      "bodyShape": "Long rounded night bus with gentle curves, large side windows, six matching wheels, and no arms or hands",
+      "face": "Large kind lavender windshield eyes and a warm friendly smile across the front panel",
+      "wheels": "Six dark charcoal tires with silver hubcaps and tiny blueberry center dots",
+      "accessories": "Silver side mirrors, a soft roof night lantern row, and a cream destination board shape with no readable text"
+    },
+    "Twinkle": {
+      "role": "Supporting character; a little star-loving city car",
+      "color": "Small pearly white body with lavender doors and a gold star outline on the hood",
+      "bodyShape": "Tiny rounded city car with four wheels and no arms or hands",
+      "face": "Round teal windshield eyes and a hopeful little smile",
+      "wheels": "Four small charcoal tires with lavender hubcaps"
+    },
+    "Star Sticker": {
+      "role": "Supporting prop; Twinkle's special star sticker",
+      "appearance": "A soft gold five-point star sticker with a tiny sparkle shine; no words"
+    }
+  },
+  "settingBible": {
+    "Lantern Route": "A gentle evening bus route with rounded cottages, street lanterns, a park path, a quiet depot, and a starry sky overhead",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle night-route colors, and no readable text"
+  },
+  "continuityRules": [
+    "Nova keeps the same blueberry body, silver trim, cream roof stripe, lavender windshield eyes, six matching wheels, and soft roof lanterns on every page.",
+    "Nova and every vehicle have no human-like arms or hands.",
+    "Twinkle remains a tiny pearly white and lavender car with teal eyes and a gold star outline on the hood.",
+    "The gold star sticker is missing on Pages 4-9, found on Page 10, and back on Twinkle from Page 11 onward.",
+    "The calm last-stop depot appears on Pages 13-15 with warm porch lights.",
+    "The sky progresses from golden evening to lavender dusk, starry twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One calm evening, Nova the Night Bus rolled onto Lantern Route. Her blueberry sides glowed soft and bright.",
+      "illustrationScene": "Nova rolls along a lantern-lined street at golden evening with rounded cottages and a soft sky behind her.",
+      "requiredCharacters": [
+        "Nova"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Establish Nova's blueberry body, silver trim, cream roof stripe, lavender eyes, six wheels, silver mirrors, and roof lanterns."
+    },
+    {
+      "number": 2,
+      "text": "She began her gentle evening ride. Little cars waited for the calm last stop home.",
+      "illustrationScene": "Nova approaches a small group of friendly rounded cars waiting by a lantern post under early evening light.",
+      "requiredCharacters": [
+        "Nova"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep Nova locked. Supporting cars are simple with no arms."
+    },
+    {
+      "number": 3,
+      "text": "Tiny Twinkle rolled up with a hopeful smile. A gold star outline shone on her hood.",
+      "illustrationScene": "Small pearly white Twinkle rolls beside Nova's front wheel, gold star outline visible on her hood.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Introduce Twinkle's pearly white and lavender colors, teal eyes, four wheels, and gold star outline. Sticker still on Twinkle."
+    },
+    {
+      "number": 4,
+      "text": "But Twinkle’s special star sticker was missing! Only the empty outline remained.",
+      "illustrationScene": "Close view of Twinkle's hood showing the empty gold star outline while Twinkle looks worried and Nova watches kindly.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Problem: missing star sticker. Outline remains; sticker not present."
+    },
+    {
+      "number": 5,
+      "text": "“I need my star for the ride home,” Twinkle said. Nova listened with care.",
+      "illustrationScene": "Twinkle looks up at Nova beside the lantern post while the evening route stretches quietly ahead.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Problem continues. Nova has no arms. Twinkle's empty outline visible."
+    },
+    {
+      "number": 6,
+      "text": "“We can look together,” said Nova. She rolled slow so Twinkle could search.",
+      "illustrationScene": "Nova and Twinkle begin rolling slowly along the lantern path, scanning the roadside under dusk light.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Search begins. Sticker still missing. Designs locked."
+    },
+    {
+      "number": 7,
+      "text": "They checked near the flower boxes. Soft petals danced, but no star waited there.",
+      "illustrationScene": "Nova and Twinkle pause beside cottage flower boxes while petals drift; no sticker is visible.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "soft dusk",
+      "continuityNotes": "Search beat. Help in progress. Empty outline still on Twinkle."
+    },
+    {
+      "number": 8,
+      "text": "They checked the park path. Lantern light made tiny sparkles on the grass.",
+      "illustrationScene": "Nova and Twinkle look along a grassy park path edged with lanterns under blue twilight.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Continue search. Sparkles are light on grass, not the sticker yet."
+    },
+    {
+      "number": 9,
+      "text": "Then Twinkle spotted a soft gold shine by a curb stone. “Could it be?”",
+      "illustrationScene": "Twinkle looks toward a small gold gleam near a curb stone while Nova waits patiently behind her.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "starry twilight",
+      "continuityNotes": "Almost found. Show gleam clearly as the gold star sticker on the ground."
+    },
+    {
+      "number": 10,
+      "text": "They found the missing star sticker! Twinkle beeped with joy.",
+      "illustrationScene": "The gold five-point star sticker lies on the curb while Twinkle smiles and Nova's roof lanterns glow warmly.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle",
+        "Star Sticker"
+      ],
+      "timeOfDay": "starry twilight",
+      "continuityNotes": "Solution: sticker found. Sticker matches locked prop design. No arms—Twinkle receives it by gentle bumper tap or it rests ready to place."
+    },
+    {
+      "number": 11,
+      "text": "The star sticker settled back on Twinkle’s hood. It looked bright and safe again.",
+      "illustrationScene": "Twinkle's hood shows the gold star sticker restored inside the outline as Nova smiles beside her.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle",
+        "Star Sticker"
+      ],
+      "timeOfDay": "violet twilight",
+      "continuityNotes": "Sticker returned. Twinkle design complete again. Calm positive mood."
+    },
+    {
+      "number": 12,
+      "text": "Nova opened her doors for the calm last stop. Everyone rolled aboard gently.",
+      "illustrationScene": "Nova's side doors open as Twinkle and small friendly cars roll carefully aboard under twilight lanterns.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "blue evening",
+      "continuityNotes": "Doors open via bus mechanism only—no arms. Twinkle's sticker remains visible."
+    },
+    {
+      "number": 13,
+      "text": "Nova glided through the quiet streets. The depot lights glowed soft and ready.",
+      "illustrationScene": "Nova rolls toward a warm-lit night depot with Twinkle visible through a side window and stars above.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Journey home. Depot destination introduced. Designs locked."
+    },
+    {
+      "number": 14,
+      "text": "At the depot, Twinkle yawned a tiny yawn. The star sticker shimmered goodnight.",
+      "illustrationScene": "Nova parks at the quiet depot as Twinkle yawns near the open door with her star sticker shining softly.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Bedtime transition. Calm depot porch lights. Sticker still on Twinkle."
+    },
+    {
+      "number": 15,
+      "text": "That night, Nova rested under the quiet moon. Goodnight, Nova. Goodnight, Twinkle.",
+      "illustrationScene": "Nova rests at the depot beneath a crescent moon while Twinkle sleeps nearby with the gold star sticker glowing gently.",
+      "requiredCharacters": [
+        "Nova",
+        "Twinkle"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Calm bedtime ending. Nova keeps all locked features. Peaceful night scene."
+    }
+  ]
+}

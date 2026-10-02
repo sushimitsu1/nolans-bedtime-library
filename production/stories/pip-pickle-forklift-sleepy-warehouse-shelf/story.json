@@ -1,0 +1,197 @@
+{
+  "title": "Pip the Pickle Forklift and the Sleepy Warehouse Shelf",
+  "slug": "pip-pickle-forklift-sleepy-warehouse-shelf",
+  "category": "Construction Vehicles",
+  "description": "Pip carefully lifts a wobbly blanket crate onto a low shelf, learns slow-and-steady, then parks for the night.",
+  "characterBible": {
+    "Pip": {
+      "role": "Main character; a careful little warehouse forklift",
+      "color": "Mint-green body with cream forks, pale yellow mast, and soft navy accents",
+      "bodyShape": "Small compact forklift with a rounded cabin, short mast, two cream lifting forks, and no arms or hands",
+      "face": "Round friendly blue windshield eyes and a tiny smile on the front panel",
+      "wheels": "Four solid dark charcoal tires with cream hubcaps",
+      "accessories": "Small navy side mirrors, a pale yellow safety stripe on the mast, and a soft night lantern clipped near the cabin roof"
+    },
+    "Blanket Crate": {
+      "role": "Supporting prop; a wooden crate of soft bedtime blankets",
+      "appearance": "Light pine crate with rounded corners, filled with folded lavender, cream, and sky-blue blankets; a small purple tag hangs from one side"
+    }
+  },
+  "settingBible": {
+    "Sleepy Shelf Warehouse": "A calm evening warehouse with low wooden shelves, soft floor lights, stacked blanket crates, wide aisles, and a round night clock on the wall",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle warehouse evening glow, and no readable text"
+  },
+  "continuityRules": [
+    "Pip keeps the same mint-green body, cream forks, pale yellow mast, blue windshield eyes, four matching wheels, and night lantern on every page.",
+    "Pip and every vehicle have no human-like arms or hands; lifting is done only with the cream forks.",
+    "The blanket crate stays light pine with lavender, cream, and sky-blue blankets and a purple tag.",
+    "The low wooden shelf destination is introduced early and matches on Pages 4 and 11-15.",
+    "The crate is wobbly on Pages 4-9 and sits steady on the shelf from Page 11 onward.",
+    "The sky/warehouse light progresses from golden evening through soft dusk to quiet night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One quiet evening, Pip the Pickle Forklift woke in the Sleepy Shelf Warehouse. His mint-green body shone softly.",
+      "illustrationScene": "Pip sits ready in a wide warehouse aisle at golden evening with low wooden shelves and soft floor lights around him.",
+      "requiredCharacters": [
+        "Pip"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Establish Pip's mint-green body, cream forks, pale yellow mast, blue eyes, four wheels, navy mirrors, and night lantern."
+    },
+    {
+      "number": 2,
+      "text": "He rolled down the aisle past neat blanket crates. The warehouse smelled like clean cotton.",
+      "illustrationScene": "Pip rolls slowly past stacked blanket crates on low shelves under warm warehouse evening lights.",
+      "requiredCharacters": [
+        "Pip"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Keep Pip locked. Introduce aisle and shelf geography."
+    },
+    {
+      "number": 3,
+      "text": "Near the sleepy shelf, Pip paused. One crate needed a careful lift.",
+      "illustrationScene": "Pip stops before a low wooden shelf with an empty space while a pine blanket crate waits on the floor nearby.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Introduce the low shelf destination and the pine blanket crate with purple tag."
+    },
+    {
+      "number": 4,
+      "text": "But the blanket crate looked wobbly. Its soft blankets leaned to one side.",
+      "illustrationScene": "Close view of the light pine blanket crate tilting slightly with lavender, cream, and sky-blue blankets leaning while Pip watches carefully.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Problem: wobbly crate. Crate markings locked. Pip has no arms."
+    },
+    {
+      "number": 5,
+      "text": "Pip took a slow breath. “I need to lift it careful and kind,” he said.",
+      "illustrationScene": "Pip faces the wobbly crate with cream forks lowered low and level, night lantern glowing softly.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Forks are low and empty. Emphasize careful approach."
+    },
+    {
+      "number": 6,
+      "text": "He slid his cream forks under the crate. It wobbled once, then rested.",
+      "illustrationScene": "Pip's cream forks slide under the pine crate as it wobbles once then settles on the forks in the aisle.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Lifting via forks only—no arms. Crate still slightly wobbly on the forks."
+    },
+    {
+      "number": 7,
+      "text": "“Slow and steady,” Pip whispered. He lifted just a little bit.",
+      "illustrationScene": "Pip raises the cream forks a short distance so the crate floats a little above the floor under soft dusk light.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "soft dusk",
+      "continuityNotes": "Small lift only. Keep crate contents and purple tag visible."
+    },
+    {
+      "number": 8,
+      "text": "Pip rolled toward the low shelf. The crate stayed balanced and safe.",
+      "illustrationScene": "Pip rolls carefully down the aisle toward the empty low shelf space with the crate steady on his cream forks.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Solution in progress. Shelf destination matches Page 3. Crate less wobbly."
+    },
+    {
+      "number": 9,
+      "text": "At the shelf, Pip lined up the forks. He waited until everything felt smooth.",
+      "illustrationScene": "Pip aligns the crate with the empty low shelf slot, forks level, blankets tidy under warehouse twilight glow.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "blue twilight",
+      "continuityNotes": "Pause before placement. No rushing. Designs locked."
+    },
+    {
+      "number": 10,
+      "text": "Gently, Pip set the crate down. The blankets settled soft and even.",
+      "illustrationScene": "Pip lowers the pine blanket crate onto the low wooden shelf so it sits flat and steady.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "violet twilight",
+      "continuityNotes": "Placement moment. Forks still under crate briefly. No arms."
+    },
+    {
+      "number": 11,
+      "text": "The sleepy shelf held the crate safe. Pip backed away with a proud little smile.",
+      "illustrationScene": "The blanket crate sits steady on the low shelf as Pip backs up with cream forks empty and lowered.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "clearing twilight",
+      "continuityNotes": "Problem resolved. Crate no longer wobbly. Empty forks lowered."
+    },
+    {
+      "number": 12,
+      "text": "Soft floor lights glowed on the neat aisle. Everything looked ready for night.",
+      "illustrationScene": "Wide view of the tidy warehouse aisle with the blanket crate secure on the low shelf and Pip resting nearby.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "soft evening",
+      "continuityNotes": "Show tidy result. Same shelf and crate design."
+    },
+    {
+      "number": 13,
+      "text": "Pip checked one last time. The purple tag hung still and quiet.",
+      "illustrationScene": "Pip looks up at the settled crate on the shelf where the purple tag hangs motionless under gentle night lantern light.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Final check. Calm mood. Designs unchanged."
+    },
+    {
+      "number": 14,
+      "text": "Pip parked in his cozy night spot. The warehouse grew hush and warm.",
+      "illustrationScene": "Pip parks beside a soft floor light in a cozy corner while the low shelf with the blanket crate glows quietly behind him.",
+      "requiredCharacters": [
+        "Pip"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Bedtime transition. Night lantern soft. Warehouse peaceful."
+    },
+    {
+      "number": 15,
+      "text": "That night, Pip rested and dreamed of smooth shelves. Goodnight, Pip. Sleep well, sleepy warehouse.",
+      "illustrationScene": "Pip rests with eyes softly closed in the quiet warehouse under dim night lights while the blanket crate sits safe on the shelf.",
+      "requiredCharacters": [
+        "Pip",
+        "Blanket Crate"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Calm bedtime ending. Pip keeps all locked features. Peaceful warehouse night."
+    }
+  ]
+}
