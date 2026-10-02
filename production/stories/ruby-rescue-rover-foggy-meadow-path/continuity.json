@@ -1,0 +1,20 @@
+{
+  "storySlug": "ruby-rescue-rover-foggy-meadow-path",
+  "referenceLocked": true,
+  "mainCharacter": {
+    "name": "Ruby",
+    "vehicleColor": "Compact coral-pink lower body with a creamy white upper cabin and soft gold accents",
+    "bodyShape": "Short sturdy rescue rover with rounded fenders, a snug cabin, four strong wheels, and no arms or hands",
+    "eyesAndFace": "Large warm brown windshield eyes with soft lashes and a kind smile in the front grille",
+    "wheels": "Four dark charcoal tires with cream hubcaps and tiny coral center dots",
+    "accessories": "Amber roof light bar, silver side mirrors, and a small cream first-aid kit emblem on each door",
+    "forbidden": "human-like arms or hands, wrong wheel count, readable text, logos, collages"
+  },
+  "supportingCharacters": {
+    "Lulu": "Fluffy white lamb with soft gray ear tips, gentle black eyes, a pale pink nose, and a sky-blue ribbon collar",
+    "Mama Sheep": "Larger soft white sheep with gray ear tips, kind black eyes, and a woven cream scarf; no collar"
+  },
+  "setting": "Meadow Hollow: gentle foggy meadow, wooden shed with yellow porch lantern, clover, winding dirt path",
+  "propContinuity": "Gentle fog Pages 3-10 and clears by Page 12. Wooden shed with yellow porch lantern is the home destination.",
+  "safeZone": "Faces and required action above y=760; bottom 25-30% is low-detail grass/path for cream panel."
+}

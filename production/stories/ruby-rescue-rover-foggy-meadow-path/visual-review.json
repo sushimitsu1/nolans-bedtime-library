@@ -1,0 +1,489 @@
+{
+  "storySlug": "ruby-rescue-rover-foggy-meadow-path",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            220,
+            150,
+            1120,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            240,
+            140,
+            1100,
+            730
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            260,
+            160,
+            1080,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            160,
+            150,
+            860,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            900,
+            400,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            140,
+            900,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            940,
+            430,
+            1300,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            200,
+            150,
+            920,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            960,
+            420,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            140,
+            160,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            860,
+            440,
+            1220,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            140,
+            900,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            940,
+            420,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            160,
+            150,
+            800,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            840,
+            430,
+            1180,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            150,
+            860,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            900,
+            410,
+            1240,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            80,
+            160,
+            620,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            660,
+            450,
+            960,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1000,
+            250,
+            1380,
+            735
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            60,
+            180,
+            540,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            680,
+            440,
+            980,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1000,
+            240,
+            1380,
+            730
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            80,
+            160,
+            580,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            720,
+            430,
+            1020,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1040,
+            250,
+            1380,
+            735
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            140,
+            150,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            980,
+            380,
+            1320,
+            745
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            160,
+            920,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            1040,
+            340,
+            1360,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

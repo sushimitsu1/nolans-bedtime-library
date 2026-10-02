@@ -1,0 +1,907 @@
+{
+  "storySlug": "ruby-rescue-rover-foggy-meadow-path",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-01.png",
+      "text": "One soft evening, Ruby the Rescue Rover rolled into Meadow Hollow. Her amber roof lights glowed warm.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            220,
+            150,
+            1120,
+            740
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-02.png",
+      "text": "She began her gentle check of the quiet hills. Birds settled in the tall grass.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            240,
+            140,
+            1100,
+            730
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-03.png",
+      "text": "A gentle fog drifted over the path. Ruby slowed and listened carefully.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            260,
+            160,
+            1080,
+            740
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-04.png",
+      "text": "Then Ruby heard a tiny “baa.” A little lamb was lost beside the clover.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            160,
+            150,
+            860,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            900,
+            400,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-05.png",
+      "text": "“I’m Lulu,” the lamb whispered. “I can’t see Mama’s shed in this fog.”",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            140,
+            900,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            940,
+            430,
+            1300,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-06.png",
+      "text": "Ruby smiled kindly. “I can help with my warm lights,” she said.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            200,
+            150,
+            920,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            960,
+            420,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-07.png",
+      "text": "Lulu walked close beside Ruby. Together they followed the soft dirt path.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            140,
+            160,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            860,
+            440,
+            1220,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-08.png",
+      "text": "Ruby’s amber lights made a warm golden path through the mist. Lulu felt braver.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            140,
+            900,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            940,
+            420,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-09.png",
+      "text": "They passed a crooked fence post. Beyond it, a yellow porch lantern blinked.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            160,
+            150,
+            800,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            840,
+            430,
+            1180,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-10.png",
+      "text": "“I found the path home!” Lulu said. Ruby rolled steady and safe.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            150,
+            860,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            900,
+            410,
+            1240,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-11.png",
+      "text": "Soon the wooden meadow shed appeared. Mama Sheep waited on the porch.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            80,
+            160,
+            620,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            660,
+            450,
+            960,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1000,
+            250,
+            1380,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-12.png",
+      "text": "Mama nuzzled Lulu gently. “Thank you for bringing my lamb home safe.”",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            60,
+            180,
+            540,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            680,
+            440,
+            980,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1000,
+            240,
+            1380,
+            730
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-13.png",
+      "text": "Lulu’s blue ribbon shone in the lantern light. The meadow felt peaceful again.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            80,
+            160,
+            580,
+            735
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            720,
+            430,
+            1020,
+            750
+          ]
+        },
+        {
+          "label": "Mama Sheep",
+          "box": [
+            1040,
+            250,
+            1380,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-14.png",
+      "text": "Ruby parked by the clover. The porch lantern glowed like a tiny moon.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            140,
+            150,
+            820,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            980,
+            380,
+            1320,
+            745
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/ruby-rescue-rover-foggy-meadow-path/staging/ruby-rescue-rover-foggy-meadow-path/illustrations/page-15.png",
+      "text": "That night, Ruby rested under the quiet moon. Goodnight, Ruby. Goodnight, Lulu.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Ruby",
+          "box": [
+            180,
+            160,
+            920,
+            740
+          ]
+        },
+        {
+          "label": "Lulu",
+          "box": [
+            1040,
+            340,
+            1360,
+            720
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
