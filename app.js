@@ -174,8 +174,8 @@ narration: [
   "Vroom! He raced up the Big Red Jump. Then he sailed through the air!",
   "Thump! El Toro Loco landed softly. ‘The track is perfect!’ everyone cheered.",
   "Soon the line moved again. One by one, the monster trucks took their turns.",
-  "Now it was El Toro Loco’s turn. He rolled to the start line with a happy grin.",
-  "Zoom! Up the big red ramp he raced. Then El Toro Loco flew high into the night sky.",
+  "Now it was El Toro Loco’s turn. He waited at the start line with a happy grin.",
+  "Then El Toro Loco flew high over the Big Air ramp. Dirt sparkled as he soared under the moon.",
   "The crowd clapped and cheered. “Hooray for El Toro Loco!” shouted his friends.",
   "El Toro Loco smiled at his helpers. “We fixed the track together!” he said.",
   "That night, El Toro Loco rested quietly. “Goodnight, big red jump,” he whispered."
