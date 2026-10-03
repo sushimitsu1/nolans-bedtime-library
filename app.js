@@ -2227,6 +2227,29 @@ narration: [
   "That night, Hank rested under the quiet moon. Goodnight, Hank. Goodnight, Dot.",
 ]
 },
+{
+id: "cedar-the-night-train-and-the-sleepy-valley", title: "Cedar the Night Train and the Sleepy Valley", category: "Rail Vehicles",
+description: "A pine-green night train carries sleepy passengers through a moonlit valley and hums them all the way to the home station.",
+keywords: ["cedar", "night train", "sleepy valley", "hattie", "rail vehicles", "bedtime", "roundhouse"],
+cover: "assets/books/cedar-the-night-train-and-the-sleepy-valley/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/cedar-the-night-train-and-the-sleepy-valley/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Evening sky turned lavender while Cedar the night train waited at the little station.",
+  "Sleepy passengers climbed on with soft blankets, but no one hurried.",
+  "Hattie the station owl lifted her lantern once, and Cedar rolled out slowly.",
+  "The wheels sang a quiet click-clack through the pines.",
+  "They passed a farm with one gold window still awake.",
+  "A child in the last car saw the moon keeping up with the train.",
+  "Cedar glided over a high bridge above a silver, still river.",
+  "He dimmed his headlamp so the night animals could stay easy and safe.",
+  "The cars swayed, and someone hummed along with the wheels.",
+  "A tiny platform appeared, with one bench and one waving paw.",
+  "Cedar stopped for a goodnight wave, then rolled on.",
+  "The valley grew quiet until only the moon and the track remained.",
+  "The home station lights glowed like a row of candles.",
+  "Passengers stepped off yawning, and Cedar's engine sank to a whisper.",
+  "In the roundhouse, Cedar rested with a soft goodnight, little train.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

@@ -246,7 +246,7 @@
       "notes": "Published from validated four-story handoff package with complete WebP assets and exact narration."
     },
     {
-      "title": "Pirate’s Curse and the Foggy Lighthouse",
+      "title": "Pirate\u2019s Curse and the Foggy Lighthouse",
       "slug": "pirates-curse-foggy-lighthouse",
       "category": "Monster Trucks",
       "status": "published",
@@ -568,6 +568,51 @@
       "published": true,
       "dateAdded": "2026-08-04",
       "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Cedar the Night Train and the Sleepy Valley",
+      "slug": "cedar-the-night-train-and-the-sleepy-valley",
+      "category": "Rail Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-10-02",
+      "notes": "Published in app.js with complete assets."
+    },
+    {
+      "title": "Willa the Little Plane and the Quiet Sky",
+      "slug": "willa-the-little-plane-and-the-quiet-sky",
+      "category": "Airplanes",
+      "status": "not_started",
+      "published": false,
+      "dateAdded": null,
+      "notes": "Plan batch locked in story.json; artwork not started; not published."
+    },
+    {
+      "title": "Mira the Sea Turtle and the Glowing Garden",
+      "slug": "mira-the-sea-turtle-and-the-glowing-garden",
+      "category": "Ocean Animals",
+      "status": "not_started",
+      "published": false,
+      "dateAdded": null,
+      "notes": "Plan batch locked in story.json; artwork not started; not published."
+    },
+    {
+      "title": "Moss the Stegosaurus and the Fern Hollow",
+      "slug": "moss-the-stegosaurus-and-the-fern-hollow",
+      "category": "Dinosaurs",
+      "status": "not_started",
+      "published": false,
+      "dateAdded": null,
+      "notes": "Plan batch locked in story.json; artwork not started; not published."
+    },
+    {
+      "title": "Posy the Baker Bear and the Moon Rolls",
+      "slug": "posy-the-baker-bear-and-the-moon-rolls",
+      "category": "Bakery",
+      "status": "not_started",
+      "published": false,
+      "dateAdded": null,
+      "notes": "Plan batch locked in story.json; artwork not started; not published."
     }
   ]
 }

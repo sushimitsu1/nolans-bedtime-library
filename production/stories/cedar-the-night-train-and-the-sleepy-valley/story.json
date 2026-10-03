@@ -1,0 +1,189 @@
+{
+  "title": "Cedar the Night Train and the Sleepy Valley",
+  "slug": "cedar-the-night-train-and-the-sleepy-valley",
+  "category": "Rail Vehicles",
+  "description": "A pine-green night train carries sleepy passengers through a moonlit valley and hums them all the way to the home station.",
+  "characterBible": {
+    "Cedar": {
+      "role": "Main character; a small kind night-train engine",
+      "color": "Deep pine green body with a short row of three cream passenger cars and pine-green trim",
+      "bodyShape": "Small rounded engine with three cream cars, no human-like arms or hands",
+      "face": "One round moon-yellow headlamp as a friendly eye-light and a gentle smile on the front",
+      "wheels": "Dark round train wheels that stay the same on every page",
+      "accessories": "One moon-yellow headlamp, cream window glow in the cars, and no extra lights or logos"
+    },
+    "Hattie": {
+      "role": "Supporting character; the station owl who signals departure once",
+      "color": "Soft gray feathers with a warm amber face",
+      "bodyShape": "Small round owl with wings, not human arms or hands",
+      "face": "Round amber eyes and a calm little beak",
+      "accessories": "One small lantern she lifts once at the station"
+    }
+  },
+  "settingBible": {
+    "Sleepy Valley": "A quiet pine valley with one little station, a high bridge over a silver river, one tiny platform, and a candle-lit home station with a roundhouse",
+    "passengers": "Sleepy passengers in soft cream and blue blankets; one small child in the last car; they stay small, calm, and unnamed",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, one scene per page, gentle evening-to-night colors, and no readable text"
+  },
+  "continuityRules": [
+    "Cedar stays deep pine green with the same moon-yellow headlamp, gentle smile, dark wheels, and exactly three cream passenger cars.",
+    "Cedar has no human-like arms or hands.",
+    "Hattie is the same soft gray owl with amber eyes and one lantern, and she appears only at the little station.",
+    "The ride is a calm night journey with no breakdown, rescue, or repair.",
+    "The sky moves from lavender evening to moonlit night, and the valley stays quiet.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening sky turned lavender while Cedar the night train waited at the little station.",
+      "illustrationScene": "Cedar waits at a small valley station as the sky turns lavender, with three cream cars behind his pine-green engine.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "lavender evening",
+      "continuityNotes": "Lock Cedar's pine-green engine, moon-yellow headlamp, smile, dark wheels, and three cream cars."
+    },
+    {
+      "number": 2,
+      "text": "Sleepy passengers climbed on with soft blankets, but no one hurried.",
+      "illustrationScene": "Sleepy passengers in cream and blue blankets climb calmly aboard Cedar's cream cars at the little station.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "lavender evening",
+      "continuityNotes": "Passengers stay small and unnamed. No rushing. Cedar's design stays locked."
+    },
+    {
+      "number": 3,
+      "text": "Hattie the station owl lifted her lantern once, and Cedar rolled out slowly.",
+      "illustrationScene": "Hattie the gray owl lifts one lantern on the station perch while Cedar rolls slowly away from the platform.",
+      "requiredCharacters": [
+        "Cedar",
+        "Hattie"
+      ],
+      "timeOfDay": "lavender evening",
+      "continuityNotes": "Introduce Hattie's gray feathers, amber eyes, and one lantern. Cedar leaves slowly."
+    },
+    {
+      "number": 4,
+      "text": "The wheels sang a quiet click-clack through the pines.",
+      "illustrationScene": "Cedar rolls through tall dark pines with a soft wheel rhythm and warm cream windows glowing.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Same three cars and headlamp. Forest is calm, not scary."
+    },
+    {
+      "number": 5,
+      "text": "They passed a farm with one gold window still awake.",
+      "illustrationScene": "Cedar passes a quiet farmhouse with exactly one gold window lit, seen from the valley track.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "One gold window only. Cedar unchanged."
+    },
+    {
+      "number": 6,
+      "text": "A child in the last car saw the moon keeping up with the train.",
+      "illustrationScene": "A small child with a cream blanket looks from the last cream car as the moon travels beside Cedar.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Child is small, unnamed, and stays in the last car. Moon is the same crescent later."
+    },
+    {
+      "number": 7,
+      "text": "Cedar glided over a high bridge above a silver, still river.",
+      "illustrationScene": "Cedar crosses a high gentle bridge above a silver still river in the moonlit valley.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Bridge and river are calm. All cars stay on the track."
+    },
+    {
+      "number": 8,
+      "text": "He dimmed his headlamp so the night animals could stay easy and safe.",
+      "illustrationScene": "Cedar's moon-yellow headlamp glows softer while small night animals rest undisturbed beside the pines.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Headlamp is dimmer but still the same lamp. Animals are calm background, not a rescue."
+    },
+    {
+      "number": 9,
+      "text": "The cars swayed, and someone hummed along with the wheels.",
+      "illustrationScene": "Cedar's three cream cars sway gently through the valley while a passenger hums in the warm window light.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Sway is gentle. Same cars and passengers."
+    },
+    {
+      "number": 10,
+      "text": "A tiny platform appeared, with one bench and one waving paw.",
+      "illustrationScene": "A tiny platform with one bench appears, and one small paw waves as Cedar approaches.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "One bench and one waving paw only. No stop yet."
+    },
+    {
+      "number": 11,
+      "text": "Cedar stopped for a goodnight wave, then rolled on.",
+      "illustrationScene": "Cedar pauses at the tiny platform for a goodnight wave, then begins to roll onward.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Brief calm stop only. Not a breakdown. Then he continues."
+    },
+    {
+      "number": 12,
+      "text": "The valley grew quiet until only the moon and the track remained.",
+      "illustrationScene": "Cedar follows the moonlit track through a wide quiet valley with no other lights nearby.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "deep moonlit night",
+      "continuityNotes": "Valley empties to moon and track. Design locked."
+    },
+    {
+      "number": 13,
+      "text": "The home station lights glowed like a row of candles.",
+      "illustrationScene": "The home station comes into view with a row of candle-like lights as Cedar approaches.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "deep moonlit night",
+      "continuityNotes": "Home station is distinct from the first little station and the tiny platform."
+    },
+    {
+      "number": 14,
+      "text": "Passengers stepped off yawning, and Cedar's engine sank to a whisper.",
+      "illustrationScene": "Yawning passengers step off at the home station while Cedar's engine settles quieter.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "Calm arrival. No repair. Engine sound only softens."
+    },
+    {
+      "number": 15,
+      "text": "In the roundhouse, Cedar rested with a soft goodnight, little train.",
+      "illustrationScene": "Cedar rests inside the roundhouse with his headlamp a small moon-yellow glow and his three cars still.",
+      "requiredCharacters": [
+        "Cedar"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Goodnight ending. Cedar keeps every locked feature and rests."
+    }
+  ]
+}
