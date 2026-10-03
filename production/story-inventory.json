@@ -600,10 +600,10 @@
       "title": "Moss the Stegosaurus and the Fern Hollow",
       "slug": "moss-the-stegosaurus-and-the-fern-hollow",
       "category": "Dinosaurs",
-      "status": "not_started",
-      "published": false,
-      "dateAdded": null,
-      "notes": "Plan batch locked in story.json; artwork not started; not published."
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-10-03",
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Posy the Baker Bear and the Moon Rolls",

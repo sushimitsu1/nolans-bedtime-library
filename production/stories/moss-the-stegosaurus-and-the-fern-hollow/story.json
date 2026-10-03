@@ -1,0 +1,200 @@
+{
+  "title": "Moss the Stegosaurus and the Fern Hollow",
+  "slug": "moss-the-stegosaurus-and-the-fern-hollow",
+  "category": "Dinosaurs",
+  "description": "A moss-green stegosaurus walks his herd to a warm fern hollow, and a smaller friend settles under his leaf-gold plate for the night.",
+  "characterBible": {
+    "Moss": {
+      "role": "Main character; a young stegosaurus",
+      "color": "Moss-green body with one leaf-gold plate on his back and the other plates a deeper moss green",
+      "bodyShape": "Young stegosaurus, low and gentle, with a tail and plates, and no human arms or hands",
+      "face": "Round gentle eyes and a small calm smile",
+      "accessories": "No clothes or tools; the single leaf-gold plate is his mark"
+    },
+    "Poppy": {
+      "role": "Supporting character; a smaller stegosaurus friend",
+      "color": "Softer sage green all over, with smaller sage plates and no gold plate",
+      "bodyShape": "Smaller and shorter than Moss, with no human arms or hands",
+      "face": "Round gentle eyes, a little younger than Moss",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Fern Hollow": "A gold evening dinosaur valley, a quiet stream, untouched nests, and a warm fern hollow under the stars",
+    "herd": "A few larger moss-green stegosauruses walking wide and careful; they have no gold plates",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded dinosaurs, one scene per page, gold evening into starry night, and no readable text"
+  },
+  "continuityRules": [
+    "Moss stays moss-green with exactly one leaf-gold plate, round gentle eyes, and no human hands.",
+    "Poppy stays smaller, sage green, with sage plates and no gold plate.",
+    "The herd is larger, moss-green, and has no gold plates, so Moss and Poppy stay recognizable.",
+    "They walk to sleep together; there is no search, rescue, or repair.",
+    "Light moves from gold evening to starry night in the same valley.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Once the valley turned gold, the day grew quiet and warm.",
+      "illustrationScene": "Moss stands in a dinosaur valley turned gold at the end of the day, quiet and warm.",
+      "requiredCharacters": [
+        "Moss"
+      ],
+      "timeOfDay": "gold evening",
+      "continuityNotes": "Lock Moss's moss-green body, one leaf-gold plate, and round gentle eyes."
+    },
+    {
+      "number": 2,
+      "text": "Moss walked at the back so no one was left behind, but he stayed calm.",
+      "illustrationScene": "Moss walks calmly at the back of a small stegosaurus herd on the gold valley path.",
+      "requiredCharacters": [
+        "Moss"
+      ],
+      "timeOfDay": "gold evening",
+      "continuityNotes": "He is last on purpose, not because anyone is lost. Herd has no gold plates."
+    },
+    {
+      "number": 3,
+      "text": "Poppy, a smaller stegosaurus, matched him step for step.",
+      "illustrationScene": "Small sage-green Poppy walks beside Moss, matching his slow steps at the back of the herd.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "gold evening",
+      "continuityNotes": "Introduce Poppy as smaller, sage, with no gold plate."
+    },
+    {
+      "number": 4,
+      "text": "They passed a quiet stream and took one slow sip.",
+      "illustrationScene": "Moss and Poppy take one slow sip from a quiet stream while the herd waits gently.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "late gold evening",
+      "continuityNotes": "One sip. Stream stays quiet."
+    },
+    {
+      "number": 5,
+      "text": "The herd chose the path that did not shake the nests.",
+      "illustrationScene": "The herd, with Moss and Poppy at the back, follows a soft path away from small still nests.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Nests stay still and untouched. No one disturbs them."
+    },
+    {
+      "number": 6,
+      "text": "Stars came out, one, then three, then many.",
+      "illustrationScene": "Stars appear over the valley, first one, then three, then many, above Moss and Poppy.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "starry dusk",
+      "continuityNotes": "Star count grows. Same valley."
+    },
+    {
+      "number": 7,
+      "text": "Moss found a hollow of ferns still warm from the sun.",
+      "illustrationScene": "Moss looks into a fern hollow that still looks warm from the sun, with Poppy beside him.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Fern hollow is the bedtime place. Nothing is broken."
+    },
+    {
+      "number": 8,
+      "text": "The herd turned in, wide and careful.",
+      "illustrationScene": "The larger herd settles wide and careful around the fern hollow while Moss and Poppy wait.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Herd settles without crowding the small pair."
+    },
+    {
+      "number": 9,
+      "text": "Poppy was not sure where to lie, so Moss lowered his leaf-gold plate like a tent.",
+      "illustrationScene": "Moss lowers his one leaf-gold plate like a small tent while Poppy stands close, deciding.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "starry night",
+      "continuityNotes": "Only the leaf-gold plate makes the tent. Poppy is unsure, not hurt."
+    },
+    {
+      "number": 10,
+      "text": "Poppy tucked underneath.",
+      "illustrationScene": "Poppy tucks under Moss's leaf-gold plate in the fern hollow.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "starry night",
+      "continuityNotes": "Poppy fits underneath because she is smaller. Plate color unchanged."
+    },
+    {
+      "number": 11,
+      "text": "A night bird called once, and the herd stayed still.",
+      "illustrationScene": "The settled herd stays still in the ferns as one night bird calls, with Poppy under Moss's plate.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "starry night",
+      "continuityNotes": "One call. Everyone stays still and calm."
+    },
+    {
+      "number": 12,
+      "text": "Moss watched the stars between the fern tips.",
+      "illustrationScene": "Moss looks up at stars showing between fern tips while Poppy rests under his plate.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "starry night",
+      "continuityNotes": "Same stars and ferns. Poppy remains tucked."
+    },
+    {
+      "number": 13,
+      "text": "The valley wind was only a sigh.",
+      "illustrationScene": "A very soft wind moves the fern tips like a sigh around the resting herd, Moss, and Poppy.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Wind is only a sigh, not a storm."
+    },
+    {
+      "number": 14,
+      "text": "Poppy's eyes closed, and Moss stayed until her breaths were even.",
+      "illustrationScene": "Poppy sleeps with closed eyes under the leaf-gold plate while Moss stays awake and still.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Moss stays by choice until Poppy's breathing is even."
+    },
+    {
+      "number": 15,
+      "text": "Moss rested his chin on the ferns, so goodnight, valley, and goodnight, herd.",
+      "illustrationScene": "Moss rests his chin on the ferns beside sleeping Poppy, with the herd quiet under the stars.",
+      "requiredCharacters": [
+        "Moss",
+        "Poppy"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Goodnight ending. Moss still has one leaf-gold plate. Poppy stays sage and smaller."
+    }
+  ]
+}

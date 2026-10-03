@@ -2296,6 +2296,29 @@ narration: [
   "Mira rested on the warm sand, so goodnight, glowing garden.",
 ]
 },
+{
+id: "moss-the-stegosaurus-and-the-fern-hollow", title: "Moss the Stegosaurus and the Fern Hollow", category: "Dinosaurs",
+description: "A moss-green stegosaurus walks his herd to a warm fern hollow, and a smaller friend settles under his leaf-gold plate for the night.",
+keywords: ["moss", "stegosaurus", "fern hollow", "poppy", "dinosaurs", "bedtime", "herd"],
+cover: "assets/books/moss-the-stegosaurus-and-the-fern-hollow/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/moss-the-stegosaurus-and-the-fern-hollow/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Once the valley turned gold, the day grew quiet and warm.",
+  "Moss walked at the back so no one was left behind, but he stayed calm.",
+  "Poppy, a smaller stegosaurus, matched him step for step.",
+  "They passed a quiet stream and took one slow sip.",
+  "The herd chose the path that did not shake the nests.",
+  "Stars came out, one, then three, then many.",
+  "Moss found a hollow of ferns still warm from the sun.",
+  "The herd turned in, wide and careful.",
+  "Poppy was not sure where to lie, so Moss lowered his leaf-gold plate like a tent.",
+  "Poppy tucked underneath.",
+  "A night bird called once, and the herd stayed still.",
+  "Moss watched the stars between the fern tips.",
+  "The valley wind was only a sigh.",
+  "Poppy's eyes closed, and Moss stayed until her breaths were even.",
+  "Moss rested his chin on the ferns, so goodnight, valley, and goodnight, herd.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
