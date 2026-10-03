@@ -2250,6 +2250,29 @@ narration: [
   "In the roundhouse, Cedar rested with a soft goodnight, little train.",
 ]
 },
+{
+id: "willa-the-little-plane-and-the-quiet-sky", title: "Willa the Little Plane and the Quiet Sky", category: "Airplanes",
+description: "A small sky-blue plane flies one calm evening loop over town, watches the lights come on, and glides home when the moon is up.",
+keywords: ["willa", "little plane", "quiet sky", "airplanes", "bedtime", "hangar"],
+cover: "assets/books/willa-the-little-plane-and-the-quiet-sky/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/willa-the-little-plane-and-the-quiet-sky/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Evening was quiet, and Willa's cream wings rested on the grass.",
+  "One gold runway light said the sky was clear, but the evening stayed hushed.",
+  "Willa rolled forward, soft and straight.",
+  "She lifted, and the town became rooftops and trees.",
+  "She followed the river, a silver ribbon below.",
+  "Windows blinked on, one street at a time.",
+  "She dipped a wing hello to the hill where the moon was rising.",
+  "A line of birds flew home underneath her, unhurried and safe.",
+  "She circled the park once, high and quiet.",
+  "Pink clouds sat low, and Willa flew beside them.",
+  "Far below, a string of lights moved through the valley, and she let it go.",
+  "The runway light blinked again, gentle as a bedtime lamp.",
+  "Willa turned for home with her engine a little softer.",
+  "Her wheels touched, and the grass whispered.",
+  "In the hangar, the yellow star on her tail was the last small glow, so goodnight, Willa.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

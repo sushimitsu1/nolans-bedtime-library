@@ -1,0 +1,179 @@
+{
+  "title": "Willa the Little Plane and the Quiet Sky",
+  "slug": "willa-the-little-plane-and-the-quiet-sky",
+  "category": "Airplanes",
+  "description": "A small sky-blue plane flies one calm evening loop over town, watches the lights come on, and glides home when the moon is up.",
+  "characterBible": {
+    "Willa": {
+      "role": "Main character; a little propeller plane",
+      "color": "Sky-blue body with cream wings and one small yellow star on the tail",
+      "bodyShape": "Small single-engine plane with a front propeller, cream wings, and no human-like arms or hands",
+      "face": "Two bright friendly eyes on the nose and a gentle smile under the propeller",
+      "wheels": "Two small cream landing wheels that stay the same",
+      "accessories": "One yellow tail star and a soft engine glow, with no numbers, letters, or logos"
+    }
+  },
+  "settingBible": {
+    "Quiet Sky": "A grass airfield with one gold runway light, a river, a town of rooftops, a park, a moonlit hill, pink evening clouds, and a small hangar",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, one scene per page, calm evening flight colors, and no readable text"
+  },
+  "continuityRules": [
+    "Willa stays sky-blue with cream wings, one yellow tail star, the same propeller, eyes, smile, and two cream wheels.",
+    "Willa has no human-like arms or hands; a wing dip is the plane herself tilting.",
+    "This is one calm evening loop with no breakdown, rescue, or repair.",
+    "The sky moves from quiet evening to moonrise and a gentle landing.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening was quiet, and Willa's cream wings rested on the grass.",
+      "illustrationScene": "Willa rests on the grass airfield at evening with her cream wings still and her sky-blue body showing.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Lock sky-blue body, cream wings, yellow tail star, propeller, eyes, smile, and two cream wheels."
+    },
+    {
+      "number": 2,
+      "text": "One gold runway light said the sky was clear, but the evening stayed hushed.",
+      "illustrationScene": "One gold runway light glows ahead of Willa on the quiet grass field under a clear hushed sky.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Exactly one gold runway light. No storm and no rush."
+    },
+    {
+      "number": 3,
+      "text": "Willa rolled forward, soft and straight.",
+      "illustrationScene": "Willa rolls softly and straight along the grass toward the gold runway light.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "early evening",
+      "continuityNotes": "Wheels down. Same design. Motion is gentle."
+    },
+    {
+      "number": 4,
+      "text": "She lifted, and the town became rooftops and trees.",
+      "illustrationScene": "Willa lifts into the evening sky as rooftops and trees shrink gently below her.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "early evening flight",
+      "continuityNotes": "Takeoff is smooth. Wheels still visible but tucked in look stays simple and consistent."
+    },
+    {
+      "number": 5,
+      "text": "She followed the river, a silver ribbon below.",
+      "illustrationScene": "Willa flies above a silver river that winds like a ribbon through the land.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "evening flight",
+      "continuityNotes": "Same plane. River is calm and silver."
+    },
+    {
+      "number": 6,
+      "text": "Windows blinked on, one street at a time.",
+      "illustrationScene": "Willa looks down as town windows blink on one street at a time in the softening light.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Lights come on gradually. No emergency lights."
+    },
+    {
+      "number": 7,
+      "text": "She dipped a wing hello to the hill where the moon was rising.",
+      "illustrationScene": "Willa tilts one cream wing toward a hill where the moon is just rising.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Wing dip is a tilt, not an arm. Same yellow star stays visible."
+    },
+    {
+      "number": 8,
+      "text": "A line of birds flew home underneath her, unhurried and safe.",
+      "illustrationScene": "A small line of birds flies home below Willa, calm and unhurried, in the open sky.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Birds are a simple background line. No chase."
+    },
+    {
+      "number": 9,
+      "text": "She circled the park once, high and quiet.",
+      "illustrationScene": "Willa makes one high quiet circle above a sleepy park.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "One circle only. Park is small and peaceful below."
+    },
+    {
+      "number": 10,
+      "text": "Pink clouds sat low, and Willa flew beside them.",
+      "illustrationScene": "Willa flies beside a low bank of pink clouds in the night-leaning sky.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Pink clouds stay low. Willa's colors unchanged."
+    },
+    {
+      "number": 11,
+      "text": "Far below, a string of lights moved through the valley, and she let it go.",
+      "illustrationScene": "Willa watches a distant string of valley lights pass far below and continues her own calm loop.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "night flight",
+      "continuityNotes": "Distant lights only. She does not turn it into an errand."
+    },
+    {
+      "number": 12,
+      "text": "The runway light blinked again, gentle as a bedtime lamp.",
+      "illustrationScene": "The same gold runway light blinks softly below as Willa turns her nose toward the field.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "night flight",
+      "continuityNotes": "Same single gold light as page 2, now a gentle blink."
+    },
+    {
+      "number": 13,
+      "text": "Willa turned for home with her engine a little softer.",
+      "illustrationScene": "Willa banks gently toward the grass field with a softer engine and the moon behind her.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "late evening night",
+      "continuityNotes": "Home turn is smooth. No trouble."
+    },
+    {
+      "number": 14,
+      "text": "Her wheels touched, and the grass whispered.",
+      "illustrationScene": "Willa's two cream wheels touch the grass in a soft landing.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "Landing is gentle. Same two wheels."
+    },
+    {
+      "number": 15,
+      "text": "In the hangar, the yellow star on her tail was the last small glow, so goodnight, Willa.",
+      "illustrationScene": "Willa rests in the small hangar with the yellow star on her tail glowing softly as the last light.",
+      "requiredCharacters": [
+        "Willa"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Goodnight ending. All locked colors remain. She is at rest."
+    }
+  ]
+}

@@ -26,6 +26,7 @@
     "category": {
       "enum": [
         "Airport Vehicles",
+        "Airplanes",
         "Animal Friends",
         "Boats",
         "City Service Vehicles",
