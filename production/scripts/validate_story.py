@@ -13,7 +13,7 @@ PROBLEM_WORDS = {"but", "problem", "missing", "lost", "stuck", "cracked", "muddy
 SOLUTION_WORDS = {"help", "together", "fixed", "safe", "solved", "found", "ready", "smooth", "shared"}
 ENDING_WORDS = {"goodnight", "night", "sleep", "sleepy", "rested", "dream", "yawn", "moon", "bedtime"}
 BEGINNING_WORDS = {"morning", "once", "woke", "rolled", "began", "sunny", "early", "evening", "lived"}
-CATEGORIES = {"Emergency Vehicles", "Construction Vehicles", "Monster Trucks", "Race Cars"}
+CATEGORIES = {"Emergency Vehicles", "Construction Vehicles", "Monster Trucks", "Race Cars", "City Service Vehicles"}
 
 
 def tokens(value: str) -> set[str]:

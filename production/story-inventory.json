@@ -312,46 +312,262 @@
       "title": "Ollie the Oil Truck and the Quiet Corner Leak",
       "slug": "ollie-oil-truck-quiet-corner-leak",
       "category": "Construction Vehicles",
-      "status": "writing",
-      "published": false,
+      "status": "published",
+      "published": true,
       "dateAdded": "2026-10-02",
-      "notes": "Plan-phase story.json complete; awaiting artwork production."
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Ruby the Rescue Rover and the Foggy Meadow Path",
       "slug": "ruby-rescue-rover-foggy-meadow-path",
       "category": "Emergency Vehicles",
-      "status": "writing",
-      "published": false,
+      "status": "published",
+      "published": true,
       "dateAdded": "2026-10-02",
-      "notes": "Plan-phase story.json complete; awaiting artwork production."
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Pip the Pickle Forklift and the Sleepy Warehouse Shelf",
       "slug": "pip-pickle-forklift-sleepy-warehouse-shelf",
       "category": "Construction Vehicles",
-      "status": "writing",
-      "published": false,
+      "status": "published",
+      "published": true,
       "dateAdded": "2026-10-02",
-      "notes": "Plan-phase story.json complete; awaiting artwork production."
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Nova the Night Bus and the Missing Star Sticker",
       "slug": "nova-night-bus-missing-star-sticker",
-      "category": "Race Cars",
-      "status": "writing",
-      "published": false,
+      "category": "City Service Vehicles",
+      "status": "published",
+      "published": true,
       "dateAdded": "2026-10-02",
-      "notes": "Plan-phase story.json complete; awaiting artwork production."
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Harbor Hank the Pilot Boat and the Loose Float Line",
       "slug": "harbor-hank-pilot-boat-loose-float-line",
       "category": "Emergency Vehicles",
-      "status": "writing",
-      "published": false,
+      "status": "published",
+      "published": true,
       "dateAdded": "2026-10-02",
-      "notes": "Plan-phase story.json complete; awaiting artwork production."
+      "notes": "Published in app.js with complete assets."
+    },
+    {
+      "title": "Wally the Street Sweeper and the Windy Leaf Parade",
+      "slug": "wally-street-sweeper-windy-leaf-parade",
+      "category": "City Service Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Ra the Ratata and the Cracked Playground Path",
+      "slug": "ra-ratata-cracked-playground-path",
+      "category": "Construction Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Ra the Ratata and the Moonlight Tunnel",
+      "slug": "ra-ratata-moonlight-tunnel",
+      "category": "Construction Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Ra the Ratata and the Wobbly Fountain Base",
+      "slug": "ra-ratata-wobbly-fountain-base",
+      "category": "Construction Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Ra the Ratata and the Sleepy Quarry Echo",
+      "slug": "ra-ratata-sleepy-quarry-echo",
+      "category": "Construction Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Tilly the Tractor and the Moonlit Pumpkin Patch",
+      "slug": "tilly-tractor-moonlit-pumpkin-patch",
+      "category": "Farm Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Niko the Snowplow and the Sleepy Mountain Road",
+      "slug": "niko-snowplow-sleepy-mountain-road",
+      "category": "Service Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Benny the Harbor Tug and the Drifting Star Buoy",
+      "slug": "benny-harbor-tug-drifting-star-buoy",
+      "category": "Boats",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Hazel the Harvester and the Windy Wheat Field",
+      "slug": "hazel-the-harvester-and-the-windy-wheat-field",
+      "category": "Farm Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Bailey the Bucket Truck and the Flickering Streetlamp",
+      "slug": "bailey-the-bucket-truck-and-the-flickering-streetlamp",
+      "category": "City Service Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Luna the Lunar Rover and the Quiet Crater Camp",
+      "slug": "luna-the-lunar-rover-and-the-quiet-crater-camp",
+      "category": "Space Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Marley the Mail Truck and the Moonlight Mix-Up",
+      "slug": "marley-the-mail-truck-and-the-moonlight-mix-up",
+      "category": "Delivery Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Piper the Airport Tug and the Sleepy Little Jet",
+      "slug": "piper-the-airport-tug-and-the-sleepy-little-jet",
+      "category": "Airport Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Buzz the HoneyBee and the Moonlight Meadow",
+      "slug": "buzz-the-honeybee-and-the-moonlight-meadow",
+      "category": "Animal Friends",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Ella the Elephant and the Whispering Waterhole",
+      "slug": "ella-the-elephant-and-the-whispering-waterhole",
+      "category": "Animal Friends",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Harper the Harbor Ferry and the Sleepy Lighthouse",
+      "slug": "harper-the-harbor-ferry-and-the-sleepy-lighthouse",
+      "category": "Boats",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Lizze the Lizard and the Lost Little Leaf",
+      "slug": "lizze-the-lizard-and-the-lost-little-leaf",
+      "category": "Animal Friends",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Sami the Semi Truck and the Sleepy Orchard Delivery",
+      "slug": "sami-the-semi-truck-and-the-sleepy-orchard-delivery",
+      "category": "Delivery Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Theo the Train Engine and the Quiet Crossing",
+      "slug": "theo-the-train-engine-and-the-quiet-crossing",
+      "category": "Rail Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Tom the T-Rex and the Tiny Thunder",
+      "slug": "tom-trex-tiny-thunder",
+      "category": "Dinosaurs",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Rockey the Rocket Ship and the Sleepy Little Star",
+      "slug": "rockey-rocket-sleepy-star",
+      "category": "Space",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Stefan the Shark and the Shimmering Shell",
+      "slug": "stefan-shark-shimmering-shell",
+      "category": "Ocean Animals",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Gavin the Garbage Truck and the Moonlit Cleanup",
+      "slug": "gavin-garbage-truck-moonlit-cleanup",
+      "category": "Service Vehicles",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
+    },
+    {
+      "title": "Sunny the 6x6 Pick-Up Truck and the Cozy Mountain Rescue",
+      "slug": "sunny-6x6-cozy-mountain-rescue",
+      "category": "Pick-Up Trucks",
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-08-04",
+      "notes": "Present in app.js with complete assets."
     }
   ]
 }

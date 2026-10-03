@@ -2182,7 +2182,7 @@ narration: [
 ]
 },
 {
-id: "nova-night-bus-missing-star-sticker", title: "Nova the Night Bus and the Missing Star Sticker", category: "Race Cars",
+id: "nova-night-bus-missing-star-sticker", title: "Nova the Night Bus and the Missing Star Sticker", category: "City Service Vehicles",
 description: "Nova helps a little car find a fallen star sticker along the evening route, then glides everyone home on her calm last stop.",
 keywords: ["nova", "night bus", "missing star sticker", "twinkle", "lantern route", "star sticker", "race car", "bedtime"],
 cover: "assets/books/nova-night-bus-missing-star-sticker/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/nova-night-bus-missing-star-sticker/page-${String(i+1).padStart(2,'0')}.webp`),
