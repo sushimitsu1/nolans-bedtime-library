@@ -2273,6 +2273,29 @@ narration: [
   "In the hangar, the yellow star on her tail was the last small glow, so goodnight, Willa.",
 ]
 },
+{
+id: "mira-the-sea-turtle-and-the-glowing-garden", title: "Mira the Sea Turtle and the Glowing Garden", category: "Ocean Animals",
+description: "A teal sea turtle takes a shy little fish on a slow moonlit swim to a glowing coral garden, then brings her home to sleep.",
+keywords: ["mira", "sea turtle", "glowing garden", "nori", "ocean animals", "bedtime", "reef"],
+cover: "assets/books/mira-the-sea-turtle-and-the-glowing-garden/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/mira-the-sea-turtle-and-the-glowing-garden/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "The reef was blue and quiet as Mira woke from a sandy nap.",
+  "Moonlight turned the coral silver, but the water stayed still.",
+  "Nori, a little yellow fish, peeked from a soft anemone.",
+  "Nori had never seen the far garden, so Mira offered a slow swim.",
+  "They passed a sleeping ray, flat as a blanket on the sand.",
+  "Mira kept her flippers gentle so the sand stayed still.",
+  "Seahorses nodded from a ribbon of kelp.",
+  "The water brightened, and tiny lights winked in the coral.",
+  "They found the glowing garden, and Nori stayed close and safe.",
+  "Nori swam one small happy circle.",
+  "They floated and watched the lights pulse like easy breathing.",
+  "A far-off whale song rolled by, and they only listened.",
+  "Mira turned toward the home rocks, with Nori close to her shell.",
+  "Nori slipped back into the anemone, safe and sleepy.",
+  "Mira rested on the warm sand, so goodnight, glowing garden.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

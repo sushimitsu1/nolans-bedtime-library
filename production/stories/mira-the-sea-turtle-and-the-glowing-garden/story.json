@@ -1,0 +1,198 @@
+{
+  "title": "Mira the Sea Turtle and the Glowing Garden",
+  "slug": "mira-the-sea-turtle-and-the-glowing-garden",
+  "category": "Ocean Animals",
+  "description": "A teal sea turtle takes a shy little fish on a slow moonlit swim to a glowing coral garden, then brings her home to sleep.",
+  "characterBible": {
+    "Mira": {
+      "role": "Main character; a gentle sea turtle",
+      "color": "Deep teal shell with one pale moon-spot on the side and a softer teal body",
+      "bodyShape": "Smooth sea turtle with four flippers, not human arms or hands",
+      "face": "Kind dark eyes and a small calm smile",
+      "accessories": "No clothes, tools, or logos; the pale moon-spot is her only mark"
+    },
+    "Nori": {
+      "role": "Supporting character; a shy little fish",
+      "color": "Little yellow body with soft cream fins",
+      "bodyShape": "Tiny round fish, much smaller than Mira, with fins not arms",
+      "face": "Large shy dark eyes and a tiny smile",
+      "accessories": "No accessories"
+    }
+  },
+  "settingBible": {
+    "Moonlit Reef": "A quiet blue reef, a soft anemone home, sandy naps, kelp ribbons, and a far coral garden that glows with tiny lights",
+    "visualStyle": "Warm polished 3D children's illustration, soft underwater moonlight, one scene per page, calm blues and teals, and no readable text"
+  },
+  "continuityRules": [
+    "Mira keeps the same deep teal shell, one pale moon-spot, kind dark eyes, and four flippers.",
+    "Nori stays a tiny yellow fish with cream fins and shy dark eyes, always smaller than Mira.",
+    "Neither has human-like arms or hands.",
+    "The swim is a slow visit, not a rescue or a repair.",
+    "Water stays clear and calm, from blue reef night to the glowing garden and back.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or watermark."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "The reef was blue and quiet as Mira woke from a sandy nap.",
+      "illustrationScene": "Mira wakes on pale sand in a blue quiet reef, her teal shell and moon-spot easy to see.",
+      "requiredCharacters": [
+        "Mira"
+      ],
+      "timeOfDay": "moonlit blue night",
+      "continuityNotes": "Lock Mira's teal shell, one pale moon-spot, dark eyes, and flippers."
+    },
+    {
+      "number": 2,
+      "text": "Moonlight turned the coral silver, but the water stayed still.",
+      "illustrationScene": "Moonlight silvers the nearby coral while Mira floats in still blue water.",
+      "requiredCharacters": [
+        "Mira"
+      ],
+      "timeOfDay": "moonlit blue night",
+      "continuityNotes": "Still water. Silver coral. Mira unchanged."
+    },
+    {
+      "number": 3,
+      "text": "Nori, a little yellow fish, peeked from a soft anemone.",
+      "illustrationScene": "Tiny yellow Nori peeks from a soft anemone while Mira waits nearby in the quiet reef.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "moonlit blue night",
+      "continuityNotes": "Introduce Nori's yellow body, cream fins, and shy eyes. She is much smaller than Mira."
+    },
+    {
+      "number": 4,
+      "text": "Nori had never seen the far garden, so Mira offered a slow swim.",
+      "illustrationScene": "Mira turns gently toward the open water and Nori comes out to follow for a slow swim.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Offer is calm. No rush. Both designs locked."
+    },
+    {
+      "number": 5,
+      "text": "They passed a sleeping ray, flat as a blanket on the sand.",
+      "illustrationScene": "Mira and Nori pass a sleeping ray lying flat like a blanket on the sand.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Ray stays asleep. Sand is undisturbed."
+    },
+    {
+      "number": 6,
+      "text": "Mira kept her flippers gentle so the sand stayed still.",
+      "illustrationScene": "Mira moves her flippers slowly and the sand below stays smooth as Nori swims beside her shell.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Flippers only, no hands. Sand stays still."
+    },
+    {
+      "number": 7,
+      "text": "Seahorses nodded from a ribbon of kelp.",
+      "illustrationScene": "A few small seahorses nod from one kelp ribbon as Mira and Nori pass slowly.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Seahorses are calm background. Kelp is one ribbon."
+    },
+    {
+      "number": 8,
+      "text": "The water brightened, and tiny lights winked in the coral.",
+      "illustrationScene": "The water ahead brightens as tiny lights begin winking in distant coral, with Mira and Nori swimming toward them.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "brightening night water",
+      "continuityNotes": "Lights are tiny and friendly, not a glare."
+    },
+    {
+      "number": 9,
+      "text": "They found the glowing garden, and Nori stayed close and safe.",
+      "illustrationScene": "Mira and Nori arrive in a coral garden full of soft glowing lights, with Nori close to Mira's shell.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "glowing garden night",
+      "continuityNotes": "Garden is the destination, not a fix. Nori stays close."
+    },
+    {
+      "number": 10,
+      "text": "Nori swam one small happy circle.",
+      "illustrationScene": "Nori swims one small happy circle among the glowing coral while Mira watches.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "glowing garden night",
+      "continuityNotes": "One small circle only. Mira waits."
+    },
+    {
+      "number": 11,
+      "text": "They floated and watched the lights pulse like easy breathing.",
+      "illustrationScene": "Mira and Nori float still while the garden lights pulse slowly like easy breathing.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "glowing garden night",
+      "continuityNotes": "Pulse is slow and calm."
+    },
+    {
+      "number": 12,
+      "text": "A far-off whale song rolled by, and they only listened.",
+      "illustrationScene": "Mira and Nori listen in the glowing garden as a far-off whale song moves through the water.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "glowing garden night",
+      "continuityNotes": "They listen only. No whale needs help. Whale may stay unseen."
+    },
+    {
+      "number": 13,
+      "text": "Mira turned toward the home rocks, with Nori close to her shell.",
+      "illustrationScene": "Mira turns back toward the home rocks and Nori swims close beside the moon-spot on her shell.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "return night",
+      "continuityNotes": "Moon-spot stays on the same side. Homeward is unhurried."
+    },
+    {
+      "number": 14,
+      "text": "Nori slipped back into the anemone, safe and sleepy.",
+      "illustrationScene": "Nori slips into the same soft anemone, sleepy, while Mira floats beside the home rocks.",
+      "requiredCharacters": [
+        "Mira",
+        "Nori"
+      ],
+      "timeOfDay": "home reef night",
+      "continuityNotes": "Same anemone as page 3. Nori is safe and sleepy."
+    },
+    {
+      "number": 15,
+      "text": "Mira rested on the warm sand, so goodnight, glowing garden.",
+      "illustrationScene": "Mira rests on the warm sand by the home reef, eyes soft, with a far hint of the glowing garden.",
+      "requiredCharacters": [
+        "Mira"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Goodnight ending. Mira's shell, moon-spot, and flippers unchanged."
+    }
+  ]
+}

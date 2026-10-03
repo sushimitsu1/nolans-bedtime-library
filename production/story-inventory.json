@@ -591,10 +591,10 @@
       "title": "Mira the Sea Turtle and the Glowing Garden",
       "slug": "mira-the-sea-turtle-and-the-glowing-garden",
       "category": "Ocean Animals",
-      "status": "not_started",
-      "published": false,
-      "dateAdded": null,
-      "notes": "Plan batch locked in story.json; artwork not started; not published."
+      "status": "published",
+      "published": true,
+      "dateAdded": "2026-10-02",
+      "notes": "Published in app.js with complete assets."
     },
     {
       "title": "Moss the Stegosaurus and the Fern Hollow",
