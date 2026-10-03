@@ -1,0 +1,952 @@
+{
+  "storySlug": "harbor-hank-pilot-boat-loose-float-line",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-01.png",
+      "text": "One calm evening, Harbor Hank the Pilot Boat floated in Moonlit Harbor. His pale yellow cabin light glowed soft.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            90,
+            120,
+            980,
+            740
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-02.png",
+      "text": "He began a gentle check of the quiet docks. Little waves tapped the pilings.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            110,
+            130,
+            1000,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-03.png",
+      "text": "Tiny Dot the dinghy bobbed nearby. “Evening, Hank,” she chirped.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            80,
+            128,
+            970,
+            748
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            970,
+            308,
+            1350,
+            728
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-04.png",
+      "text": "Then Hank spotted a problem. A dock float had come loose and drifted a little.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            100,
+            112,
+            990,
+            732
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            990,
+            292,
+            1370,
+            712
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            430,
+            172,
+            890,
+            692
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-05.png",
+      "text": "The cream line trailed in the water. “We need to bring it home,” said Hank.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            106,
+            132,
+            996,
+            752
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            436,
+            192,
+            896,
+            712
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-06.png",
+      "text": "Dot nodded. “I can help too,” she said, slow and soft.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            82,
+            126,
+            972,
+            746
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            972,
+            306,
+            1352,
+            726
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            412,
+            186,
+            872,
+            706
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-07.png",
+      "text": "Together they eased closer. Hank used his soft red bumper for a gentle nudge.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            102,
+            124,
+            992,
+            744
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            992,
+            304,
+            1372,
+            724
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            432,
+            184,
+            892,
+            704
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-08.png",
+      "text": "Dot guided the trailing line with her little bow fender. The float turned toward home.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            94,
+            114,
+            984,
+            734
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            984,
+            294,
+            1364,
+            714
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            424,
+            174,
+            884,
+            694
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-09.png",
+      "text": "Hank uncoiled his soft rope. He looped it ready for a safe hold.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            108,
+            134,
+            998,
+            754
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            438,
+            194,
+            898,
+            714
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-10.png",
+      "text": "They held the float steady beside the piling. The cream line was almost fixed.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            78,
+            128,
+            968,
+            748
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            968,
+            308,
+            1348,
+            728
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            408,
+            188,
+            868,
+            708
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-11.png",
+      "text": "The float sat safe and smooth against the dock. The loose line was fixed at last.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            98,
+            122,
+            988,
+            742
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            988,
+            302,
+            1368,
+            722
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            428,
+            182,
+            888,
+            702
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-12.png",
+      "text": "Pier lanterns shone on the quiet water. The harbor felt ready for night.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            96,
+            130,
+            986,
+            750
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            986,
+            310,
+            1366,
+            730
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            426,
+            190,
+            886,
+            710
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-13.png",
+      "text": "Hank coiled his rope again. Dot gave a tiny happy splash.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            84,
+            124,
+            974,
+            744
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            974,
+            304,
+            1354,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-14.png",
+      "text": "They rested by the boat shed. The moon rose over the still harbor.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            104,
+            116,
+            994,
+            736
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            994,
+            296,
+            1374,
+            716
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/page-15.png",
+      "text": "That night, Hank rested under the quiet moon. Goodnight, Hank. Goodnight, Dot.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            92,
+            126,
+            982,
+            746
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            982,
+            306,
+            1362,
+            726
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

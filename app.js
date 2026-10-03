@@ -2204,6 +2204,29 @@ narration: [
   "That night, Nova rested under the quiet moon. Goodnight, Nova. Goodnight, Twinkle.",
 ]
 },
+{
+id: "harbor-hank-pilot-boat-loose-float-line", title: "Harbor Hank the Pilot Boat and the Loose Float Line", category: "Emergency Vehicles",
+description: "Hank steadies a drifting dock float with gentle teamwork, then rests in the moonlit harbor.",
+keywords: ["harbor hank", "pilot boat", "loose float line", "dot", "moonlit harbor", "dock float", "emergency vehicle", "bedtime"],
+cover: "assets/books/harbor-hank-pilot-boat-loose-float-line/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/harbor-hank-pilot-boat-loose-float-line/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One calm evening, Harbor Hank the Pilot Boat floated in Moonlit Harbor. His pale yellow cabin light glowed soft.",
+  "He began a gentle check of the quiet docks. Little waves tapped the pilings.",
+  "Tiny Dot the dinghy bobbed nearby. “Evening, Hank,” she chirped.",
+  "Then Hank spotted a problem. A dock float had come loose and drifted a little.",
+  "The cream line trailed in the water. “We need to bring it home,” said Hank.",
+  "Dot nodded. “I can help too,” she said, slow and soft.",
+  "Together they eased closer. Hank used his soft red bumper for a gentle nudge.",
+  "Dot guided the trailing line with her little bow fender. The float turned toward home.",
+  "Hank uncoiled his soft rope. He looped it ready for a safe hold.",
+  "They held the float steady beside the piling. The cream line was almost fixed.",
+  "The float sat safe and smooth against the dock. The loose line was fixed at last.",
+  "Pier lanterns shone on the quiet water. The harbor felt ready for night.",
+  "Hank coiled his rope again. Dot gave a tiny happy splash.",
+  "They rested by the boat shed. The moon rose over the still harbor.",
+  "That night, Hank rested under the quiet moon. Goodnight, Hank. Goodnight, Dot.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

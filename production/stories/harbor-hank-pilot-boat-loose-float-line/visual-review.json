@@ -1,0 +1,534 @@
+{
+  "storySlug": "harbor-hank-pilot-boat-loose-float-line",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            90,
+            120,
+            980,
+            740
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            110,
+            130,
+            1000,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            80,
+            128,
+            970,
+            748
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            970,
+            308,
+            1350,
+            728
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            100,
+            112,
+            990,
+            732
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            990,
+            292,
+            1370,
+            712
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            430,
+            172,
+            890,
+            692
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            106,
+            132,
+            996,
+            752
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            436,
+            192,
+            896,
+            712
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            82,
+            126,
+            972,
+            746
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            972,
+            306,
+            1352,
+            726
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            412,
+            186,
+            872,
+            706
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            102,
+            124,
+            992,
+            744
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            992,
+            304,
+            1372,
+            724
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            432,
+            184,
+            892,
+            704
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            94,
+            114,
+            984,
+            734
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            984,
+            294,
+            1364,
+            714
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            424,
+            174,
+            884,
+            694
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            108,
+            134,
+            998,
+            754
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            438,
+            194,
+            898,
+            714
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            78,
+            128,
+            968,
+            748
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            968,
+            308,
+            1348,
+            728
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            408,
+            188,
+            868,
+            708
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            98,
+            122,
+            988,
+            742
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            988,
+            302,
+            1368,
+            722
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            428,
+            182,
+            888,
+            702
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            96,
+            130,
+            986,
+            750
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            986,
+            310,
+            1366,
+            730
+          ]
+        },
+        {
+          "label": "Dock Float",
+          "box": [
+            426,
+            190,
+            886,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            84,
+            124,
+            974,
+            744
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            974,
+            304,
+            1354,
+            724
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            104,
+            116,
+            994,
+            736
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            994,
+            296,
+            1374,
+            716
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hank",
+          "box": [
+            92,
+            126,
+            982,
+            746
+          ]
+        },
+        {
+          "label": "Dot",
+          "box": [
+            982,
+            306,
+            1362,
+            726
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

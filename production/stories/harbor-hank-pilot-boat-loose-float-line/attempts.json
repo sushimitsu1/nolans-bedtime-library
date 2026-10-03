@@ -1,0 +1,30 @@
+{
+  "storySlug": "harbor-hank-pilot-boat-loose-float-line",
+  "attempts": {
+    "page-01": 1,
+    "page-02": 2,
+    "page-03": 1,
+    "page-04": 1,
+    "page-05": 1,
+    "page-06": 1,
+    "page-07": 1,
+    "page-08": 1,
+    "page-09": 2,
+    "page-10": 1,
+    "page-11": 1,
+    "page-12": 2,
+    "page-13": 2,
+    "page-14": 2,
+    "page-15": 2
+  },
+  "regeneratedPages": [
+    "page-02",
+    "page-09",
+    "page-12",
+    "page-13",
+    "page-14",
+    "page-15"
+  ],
+  "retryLimit": 1,
+  "source": "approved ChatGPT package"
+}
