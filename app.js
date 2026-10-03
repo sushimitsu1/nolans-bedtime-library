@@ -396,7 +396,7 @@ cover: 'assets/books/max-d-twisty-training-track/cover.webp', pages: Array.from(
 narration: [
   "One quiet evening, Max-D rolled to the twisty training track. He was ready to practice slow and careful turns.",
   "The track curved left, then right, then round again. Little cones and flags showed Max-D where to go.",
-  "‘l can do this one step at a time,’ said Max-D. He took the first bend with a steady smile.",
+  "‘I can do this one step at a time,’ said Max-D. He took the first bend with a steady smile.",
   "Max-D rumbled gently between the bright orange cones. He made each turn a little smoother than the last.",
   "At the next corner, a small practice flag tipped sideways in the breeze. Max-D stopped so the track would stay neat and safe.",
   "With a careful nudge, Max-D helped the flag stand tall again. Then he rolled on down the track.",
@@ -1206,7 +1206,7 @@ speechText: [
     "Soon only one big pumpkin was left in the patch. It sat by the gate, glowing round and gold in the moonlight.",
     "Tilly rolled to the gate with a soft little hum. The last pumpkin glowed like a moonlit lantern.",
     "Farmer June gave the pumpkin a careful pat. It was the roundest pumpkin in the whole patch.",
-    "Tilly backed his cart close to the gate. With a gentle nudge, the moon pumpkin rolled aboard.",
+    "Tilly backed her cart close to the gate. With a gentle nudge, the moon pumpkin rolled aboard.",
     "Tilly carried the moon pumpkin down the lantern path. Fireflies twinkled softly all around.",
     "At the barn, the pumpkins rested in a cozy row. The whole patch looked tidy, quiet, and ready for sleep.",
     "Tilly parked by the barn and watched the moon glow high. Goodnight, Tilly. Goodnight, moonlit pumpkin patch."
@@ -1359,7 +1359,7 @@ speechText: [
     "Toby kept Wren steady while Hazel gathered the final rows. Together they worked with Hazel's golden header, neat and smooth.",
     "As the final grain tumbled into Wren, the gentle rain began to patter across the empty field.",
     "They hurried just enough to reach the barn, then parked beneath its wide, dry roof. \"Perfect timing,\" laughed Toby.",
-    "Hazel listened to the rain tapping on the roof above. By slowing down and helping one another, the friends finished every golden row."
+    "Hazel listened to the rain on the roof. “Goodnight, friends,” she said, and the barn grew sleepy."
   ]
 },
 {
@@ -1409,7 +1409,7 @@ speechText: [
     "Neighbors peeked out and gave a happy cheer. “Hooray for Bailey! The lamp is shining clear!”",
     "Bailey lowered his bucket with a gentle grin. No more flicker blinked from the lamp above him.",
     "“Thank you, Bailey!” said the bunny and the cat. “Now Clover Lane feels bright and cozy again.”",
-    "Bailey rolled home as the warm light filled the lane. On Clover Lane, the evening glowed bright again."
+    "Bailey smiled as the warm light filled the lane. “Goodnight, Clover Lane,” he said, and the street grew sleepy."
   ]
 },
 {
