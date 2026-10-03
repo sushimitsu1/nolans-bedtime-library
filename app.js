@@ -124,8 +124,8 @@ narration: [
   "The path was starting to look better! ‘Thank you, Bella!’ said the animals.",
   "Dan the Dump Truck arrived with gravel. “Let’s make the path strong!”",
   "A road roller pressed the gravel flat. ‘Rumble, rumble, rumble!’",
-  "The animals tried the path, It was perfect!",
-  "The sun went down, and everyone felt happy. Bella loved helping her friends.",
+  "The animals tried the path. It felt better, but it was not finished yet.",
+  "The sun went down, and Bella smiled at her friends. Tomorrow they would keep working.",
   "The animals stepped carefully onto the new path. It felt firm beneath their feet.",
   "Bella pushed the last muddy pile away. Now the little path looked much cleaner.",
   "Dan the Dump Truck brought little stones. They helped make the path strong.",
@@ -1138,11 +1138,11 @@ speechText: [
     "Soon the path grew smooth and safe. The quarry sounded calm again.",
     "The moon rose over the quiet quarry. Only one small pile was left to tidy.",
     "Ra looked around and saw sleepy friends in the trees and on the rocks. He didn’t want to be too noisy.",
-    "“Let’s try a softer way,” said Ra. “Little taps, slow and steady.” Team Quiet nodded.",
-    "Ra used little taps—tap, tap, tap. The rocks broke gently. The echo stayed very small.",
-    "Dottie sprayed a little water so the dust could sleep. Dumpy rolled slow and steady.",
-    "They finished just as the night wrapped the quarry in quiet. “Good work, Team Quiet!” smiled Ra.",
-    "The quarry was calm. The animals slept. Ra smiled. “Night, sleepy friends. Night, Team Quiet.”"
+    "Ra and Didi smiled with their helpers. Everyone stayed very still and quiet.",
+    "Ra finished the last little pile with tiny taps. Tap, tap, tap. The echo stayed small.",
+    "A helper sprayed a little water so the dust could sleep. Another friend rolled by, slow and steady.",
+    "They finished just as the night wrapped the quarry in quiet. “Good work, Didi,” smiled Ra.",
+    "The quarry was calm. The animals slept. Ra smiled. “Night, sleepy friends. Night, Didi.”"
   ],
   "speechText": [
     "Ra and Didi rolled into Sleepy Quarry at sunset. A stone path needed one last tidy fix.",
@@ -1155,11 +1155,11 @@ speechText: [
     "Soon the path grew smooth and safe. The quarry sounded calm again.",
     "The moon rose over the quiet quarry. Only one small pile was left to tidy.",
     "Ra looked around and saw sleepy friends in the trees and on the rocks. He didn’t want to be too noisy.",
-    "“Let’s try a softer way,” said Ra. “Little taps, slow and steady.” Team Quiet nodded.",
-    "Ra used little taps—tap, tap, tap. The rocks broke gently. The echo stayed very small.",
-    "Dottie sprayed a little water so the dust could sleep. Dumpy rolled slow and steady.",
-    "They finished just as the night wrapped the quarry in quiet. “Good work, Team Quiet!” smiled Ra.",
-    "The quarry was calm. The animals slept. Ra smiled. “Night, sleepy friends. Night, Team Quiet.”"
+    "Ra and Didi smiled with their helpers. Everyone stayed very still and quiet.",
+    "Ra finished the last little pile with tiny taps. Tap, tap, tap. The echo stayed small.",
+    "A helper sprayed a little water so the dust could sleep. Another friend rolled by, slow and steady.",
+    "They finished just as the night wrapped the quarry in quiet. “Good work, Didi,” smiled Ra.",
+    "The quarry was calm. The animals slept. Ra smiled. “Night, sleepy friends. Night, Didi.”"
   ]
 },
 {
