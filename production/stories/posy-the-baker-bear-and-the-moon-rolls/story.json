@@ -1,0 +1,204 @@
+{
+  "title": "Posy the Baker Bear and the Moon Rolls",
+  "slug": "posy-the-baker-bear-and-the-moon-rolls",
+  "category": "Bakery",
+  "description": "In a cozy, honey-warm bakery beneath the moon, Posy and her little friend Tilda bake soft crescent Moon Rolls, share warm treats, and settle into peaceful bedtime sleep.",
+  "characterBible": {
+    "Posy": {
+      "role": "Main character; a baker bear",
+      "color": "Cinnamon-brown fur with a sky-blue apron that has one white star",
+      "bodyShape": "Small, round, cuddly cinnamon bear with rounded animal paws only; no human arms, hands, or fingers",
+      "face": "Round gentle dark eyes, small dark-brown nose with a persistent dusting of white flour, sweet smile",
+      "accessories": "Sky-blue apron with exactly ONE white star; no hats, jewelry, shoes, or outfit changes"
+    },
+    "Tilda": {
+      "role": "Quiet, curious little friend; appears only on pages 4–15",
+      "color": "Warm apricot fur with a cream chest",
+      "bodyShape": "Apricot fox visibly smaller than Posy; two pointed ears with cream interiors and fluffy cream-tipped tail; animal paws only",
+      "face": "Bright dark eyes and a soft smile",
+      "accessories": "Cream chest; no clothes, apron, shoes, or jewelry"
+    }
+  },
+  "settingBible": {
+    "Moonlight Bakery": "Small honey-warm bakery at night: cream and pale honey-yellow walls, honey-brown wooden floor, rounded light wooden counter, traditional amber-glowing oven, golden pendant lights, one large arched window overlooking quiet rooftops, deep blue sky, cream moon and tiny stars. Cushioned resting nook by the window, wooden mixing bowl, rolling pin, baking tray, flour bowl, one soft blanket.",
+    "Moon Rolls": "Uniform small soft rounded crescent bread rolls, golden-brown and buttery after baking; no faces, limbs, decorations, or magic.",
+    "visualStyle": "Warm polished 3D children's illustration for ages 3–5; plush fur, rounded forms, gentle lighting, one full-bleed landscape scene.",
+    "lightingProgression": "Pages 1–5 honey-gold nightfall; pages 6–11 amber baking glow and silver-blue moonlight; pages 12–15 lights gradually dim toward peaceful sleep."
+  },
+  "continuityRules": [
+    "Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout.",
+    "Tilda is an apricot fox with cream chest, cream ear interiors and cream tail tip, visibly smaller than Posy, with no clothing.",
+    "Tilda is completely absent on pages 1–3, including backgrounds and windows; she arrives on page 4 and remains through page 15.",
+    "No human-like arms, hands, fingers, shoes, extra outfits, or additional animal characters.",
+    "Bakery architecture and major furnishings stay consistent; all scenes remain at the bakery at night.",
+    "Crescent dough is unbaked on pages 6–7, rolls bake on pages 8–10, and finished rolls are golden on pages 11–13; two rolls share one plate on pages 12–13.",
+    "Tilda rests on the window cushion, is tucked under the blanket on page 14, and both friends sleep peacefully inside the dim bakery on page 15.",
+    "No rescue, danger, damage, emergency, repair, frightening shadows, or cliffhanger.",
+    "Single continuous scene per image; no collage, grid, panels, badges, logos, or words on story-page artwork. Keep required subjects and actions above y=760."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In the evening, the little bakery glowed like honey beneath the sleepy moon.",
+      "illustrationScene": "Posy alone in the small bakery glowing like honey beneath the sleepy moon.",
+      "requiredCharacters": [
+        "Posy"
+      ],
+      "timeOfDay": "warm nightfall",
+      "continuityNotes": "Tilda absent; Posy alone. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy alone in the small bakery glowing like honey beneath the sleepy moon."
+    },
+    {
+      "number": 2,
+      "text": "Posy the Baker Bear tied her blue apron and gave a happy little hum.",
+      "illustrationScene": "Posy ties her sky-blue one-star apron with rounded paws and hums happily.",
+      "requiredCharacters": [
+        "Posy"
+      ],
+      "timeOfDay": "warm nightfall",
+      "continuityNotes": "Tilda absent; Posy alone. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy ties her sky-blue one-star apron with rounded paws and hums happily."
+    },
+    {
+      "number": 3,
+      "text": "Tonight, Posy would bake soft Moon Rolls, curved like tiny moons.",
+      "illustrationScene": "Posy prepares ingredients for soft crescent Moon Rolls at the wooden counter.",
+      "requiredCharacters": [
+        "Posy"
+      ],
+      "timeOfDay": "warm nightfall",
+      "continuityNotes": "Tilda absent; Posy alone. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy prepares ingredients for soft crescent Moon Rolls at the wooden counter."
+    },
+    {
+      "number": 4,
+      "text": "A gentle tap came at the door. It was Tilda the little fox.",
+      "illustrationScene": "Tilda first arrives, tapping gently at the bakery door as Posy welcomes her.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "warm nightfall",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Tilda first arrives, tapping gently at the bakery door as Posy welcomes her."
+    },
+    {
+      "number": 5,
+      "text": "“Come in, Tilda,” smiled Posy. “The bakery is warm tonight.”",
+      "illustrationScene": "Posy smiles and invites smaller Tilda into the warm bakery.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "warm nightfall",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy smiles and invites smaller Tilda into the warm bakery."
+    },
+    {
+      "number": 6,
+      "text": "Posy stirred the soft dough while Tilda watched with bright, curious eyes.",
+      "illustrationScene": "Posy stirs soft dough in the wooden bowl as curious Tilda watches.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy stirs soft dough in the wooden bowl as curious Tilda watches."
+    },
+    {
+      "number": 7,
+      "text": "Together, they shaped little crescent rolls and laid them in neat rows.",
+      "illustrationScene": "Posy and Tilda shape soft crescent dough with animal paws and arrange neat rows on a tray.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy and Tilda shape soft crescent dough with animal paws and arrange neat rows on a tray."
+    },
+    {
+      "number": 8,
+      "text": "Posy slid the tray into the oven, where a golden glow danced softly.",
+      "illustrationScene": "Posy slides the tray of unbaked crescents into the softly glowing oven while Tilda watches.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy slides the tray of unbaked crescents into the softly glowing oven while Tilda watches."
+    },
+    {
+      "number": 9,
+      "text": "The rolls were still baking, but Tilda curled up on a cushion beside the window.",
+      "illustrationScene": "Tilda curls on the cushion beside the arched window while Posy waits for the baking rolls.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Tilda curls on the cushion beside the arched window while Posy waits for the baking rolls."
+    },
+    {
+      "number": 10,
+      "text": "A sweet, buttery smell floated through the bakery like a cozy hug.",
+      "illustrationScene": "The warm buttery aroma fills the bakery while Posy and Tilda peacefully wait.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. The warm buttery aroma fills the bakery while Posy and Tilda peacefully wait."
+    },
+    {
+      "number": 11,
+      "text": "The Moon Rolls came out golden, puffy, and warm as little pillows.",
+      "illustrationScene": "Posy brings golden puffy crescent Moon Rolls out of the oven as Tilda watches.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "moonlit baking night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy brings golden puffy crescent Moon Rolls out of the oven as Tilda watches."
+    },
+    {
+      "number": 12,
+      "text": "Posy placed two rolls on a small plate, one for each sleepy friend.",
+      "illustrationScene": "Posy places exactly two golden rolls on one small plate for herself and Tilda.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "sleepy bedtime night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy places exactly two golden rolls on one small plate for herself and Tilda."
+    },
+    {
+      "number": 13,
+      "text": "They nibbled their Moon Rolls and watched the stars twinkle outside.",
+      "illustrationScene": "Both friends nibble their Moon Rolls beside the window and watch the stars.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "sleepy bedtime night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Both friends nibble their Moon Rolls beside the window and watch the stars."
+    },
+    {
+      "number": 14,
+      "text": "Tilda gave a tiny yawn as Posy tucked a soft blanket around her.",
+      "illustrationScene": "Yawning Tilda rests on the cushion as Posy tucks a soft blanket around her.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "sleepy bedtime night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Yawning Tilda rests on the cushion as Posy tucks a soft blanket around her."
+    },
+    {
+      "number": 15,
+      "text": "The bakery lights grew dim, and beneath the moon, Posy and Tilda slept peacefully.",
+      "illustrationScene": "Posy and Tilda both sleep peacefully inside the dim bakery beneath the moon.",
+      "requiredCharacters": [
+        "Posy",
+        "Tilda"
+      ],
+      "timeOfDay": "sleepy bedtime night",
+      "continuityNotes": "Tilda smaller, apricot with cream chest, no clothes. Posy keeps cinnamon fur, sky-blue apron with exactly ONE white star, white flour on her nose, and rounded animal paws throughout. Posy and Tilda both sleep peacefully inside the dim bakery beneath the moon."
+    }
+  ],
+  "keywords": "Posy Tilda bear fox Bakery cozy baking moon rolls crescent friendship peaceful bedtime"
+}

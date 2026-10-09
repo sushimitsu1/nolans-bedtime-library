@@ -2319,6 +2319,29 @@ narration: [
   "Moss rested his chin on the ferns, so goodnight, valley, and goodnight, herd.",
 ]
 },
+{
+id: "posy-the-baker-bear-and-the-moon-rolls", title: "Posy the Baker Bear and the Moon Rolls", category: "Bakery",
+description: "In a cozy, honey-warm bakery beneath the moon, Posy and her little friend Tilda bake soft crescent Moon Rolls, share warm treats, and settle into peaceful bedtime sleep.",
+keywords: ["posy", "baker bear", "moon rolls", "tilda", "bakery", "bedtime"],
+cover: "assets/books/posy-the-baker-bear-and-the-moon-rolls/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/posy-the-baker-bear-and-the-moon-rolls/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In the evening, the little bakery glowed like honey beneath the sleepy moon.",
+  "Posy the Baker Bear tied her blue apron and gave a happy little hum.",
+  "Tonight, Posy would bake soft Moon Rolls, curved like tiny moons.",
+  "A gentle tap came at the door. It was Tilda the little fox.",
+  "“Come in, Tilda,” smiled Posy. “The bakery is warm tonight.”",
+  "Posy stirred the soft dough while Tilda watched with bright, curious eyes.",
+  "Together, they shaped little crescent rolls and laid them in neat rows.",
+  "Posy slid the tray into the oven, where a golden glow danced softly.",
+  "The rolls were still baking, but Tilda curled up on a cushion beside the window.",
+  "A sweet, buttery smell floated through the bakery like a cozy hug.",
+  "The Moon Rolls came out golden, puffy, and warm as little pillows.",
+  "Posy placed two rolls on a small plate, one for each sleepy friend.",
+  "They nibbled their Moon Rolls and watched the stars twinkle outside.",
+  "Tilda gave a tiny yawn as Posy tucked a soft blanket around her.",
+  "The bakery lights grew dim, and beneath the moon, Posy and Tilda slept peacefully.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
