@@ -1,0 +1,198 @@
+{
+  "title": "Milo the Little Race Car and the Starlight Parade",
+  "slug": "milo-the-little-race-car-and-the-starlight-parade",
+  "category": "Race Cars",
+  "description": "A bright red race car and his lavender friend trade fast laps for a slow Starlight Parade under lanterns and moonlight, then park side by side to sleep.",
+  "characterBible": {
+    "Milo": {
+      "role": "Main character; a little race car",
+      "color": "Bright cherry red with one cream-white racing stripe from hood to roof and a matching red rear spoiler",
+      "bodyShape": "Small low rounded race car on four dark charcoal tires with silver centers; no arms, hands, numbers, or logos",
+      "face": "Two large expressive brown eyes in the headlights and a small friendly smile on the front bumper",
+      "accessories": "None beyond the cream-white center stripe and red spoiler"
+    },
+    "Skye": {
+      "role": "Supporting character; Milo's race-car friend",
+      "color": "Soft pastel lavender with two thin parallel white racing stripes and a lavender rear spoiler",
+      "bodyShape": "Same compact rounded race-car scale as Milo, with a slightly rounder hood; no arms, hands, numbers, or logos",
+      "face": "Two large expressive teal-green eyes in the headlights and a gentle smiling mouth on the front bumper",
+      "accessories": "None beyond the two white stripes and lavender spoiler"
+    }
+  },
+  "settingBible": {
+    "Starlight Speedway": "A small countryside racetrack with smooth dark asphalt, white edge lines, low wooden fences, colorful flags, golden lanterns, a little pond, rolling hills, and a cozy open wooden shelter",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded race cars with headlight eyes, golden evening fading to moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Milo stays cherry red with one cream-white center stripe, brown eyes in the headlights, a bumper smile, and a red spoiler.",
+    "Skye stays pastel lavender with two thin white stripes, teal-green eyes in the headlights, a bumper smile, and first appears on page 4.",
+    "Neither car has racing numbers, sponsor logos, arms, or hands.",
+    "Background race cars appear only on pages 10–11 and stay visually secondary.",
+    "The Starlight Parade is slow and peaceful, with no crashes, danger, or high-speed action.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "At a cozy little racetrack, a bright red race car named Milo loved zooming around the smooth, winding turns.",
+      "illustrationScene": "Bright cherry-red race car Milo rolls around smooth winding turns at a cozy little racetrack.",
+      "requiredCharacters": [
+        "Milo"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Lock Milo: cherry red, one cream-white center stripe, brown eyes in the headlights, bumper smile, red spoiler. Skye absent."
+    },
+    {
+      "number": 2,
+      "text": "One peaceful evening, Milo watched the golden sunset sparkle across the quiet racing track.",
+      "illustrationScene": "Milo watches a golden sunset sparkle across the quiet racing track on a peaceful evening.",
+      "requiredCharacters": [
+        "Milo"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Milo alone watching sunset; headlight eyes stay brown."
+    },
+    {
+      "number": 3,
+      "text": "The day's races were finished, but tonight the little cars had something special planned.",
+      "illustrationScene": "The track is quiet after the day's races while twilight settles and something special awaits tonight.",
+      "requiredCharacters": [
+        "Milo"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Milo alone in twilight; races finished, parade still ahead."
+    },
+    {
+      "number": 4,
+      "text": "“It’s time for our Starlight Parade!” announced Milo’s best friend, Skye, a cheerful lavender race car.",
+      "illustrationScene": "Lavender race car Skye joins Milo and announces it is time for their Starlight Parade.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Introduce Skye: pastel lavender, two thin white stripes, teal-green eyes in the headlights, bumper smile."
+    },
+    {
+      "number": 5,
+      "text": "Milo and Skye rolled toward the starting line, where tiny golden lanterns glowed along the track.",
+      "illustrationScene": "Milo and Skye roll toward the starting line where tiny golden lanterns glow along the track.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Both at starting line with golden lanterns; no racing numbers or logos."
+    },
+    {
+      "number": 6,
+      "text": "“Tonight we don’t need to go fast,” whispered Skye. “We can enjoy the beautiful evening together.”",
+      "illustrationScene": "Skye whispers that tonight they need not go fast and can enjoy the beautiful evening together.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Slow evening together; no speed contest."
+    },
+    {
+      "number": 7,
+      "text": "Milo smiled, and the two friends began their slow parade lap beneath the deep blue sky.",
+      "illustrationScene": "Milo and Skye begin a slow parade lap beneath a deep blue evening sky.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Slow parade lap under deep blue sky."
+    },
+    {
+      "number": 8,
+      "text": "They passed colorful racing flags fluttering softly in the warm evening breeze.",
+      "illustrationScene": "They pass colorful racing flags fluttering softly in the warm evening breeze.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Colorful flags flutter; calm pace."
+    },
+    {
+      "number": 9,
+      "text": "As the first stars appeared, Milo and Skye watched their reflections shimmer in a little pond beside the track.",
+      "illustrationScene": "Milo and Skye watch their reflections shimmer in a little pond beside the track as stars appear.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "starry evening",
+      "continuityNotes": "Pond reflections; first stars."
+    },
+    {
+      "number": 10,
+      "text": "Soon, other friendly race cars joined the parade, their gentle headlights twinkling like tiny stars.",
+      "illustrationScene": "Other friendly pastel race cars join the parade with gentle headlights twinkling like tiny stars.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Background pastel cars secondary; headlights twinkle gently."
+    },
+    {
+      "number": 11,
+      "text": "Together, the cars rolled slowly around the final bend while the moon rose above the sleeping hills.",
+      "illustrationScene": "Together the cars roll slowly around the final bend as the moon rises above sleeping hills.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Moonrise over hills; slow final bend together."
+    },
+    {
+      "number": 12,
+      "text": "“That was my favorite lap ever,” yawned Milo. “Sometimes going slowly makes everything more beautiful.”",
+      "illustrationScene": "Milo yawns after his favorite slow lap while Skye stays close beside him.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Milo yawns; favorite slow lap."
+    },
+    {
+      "number": 13,
+      "text": "Skye smiled sleepily as they parked side by side beneath the racetrack’s cozy wooden shelter.",
+      "illustrationScene": "Milo and Skye park side by side beneath the racetrack's cozy wooden shelter.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Park side by side under wooden shelter."
+    },
+    {
+      "number": 14,
+      "text": "The lanterns grew dim, the racing flags became still, and Milo closed his tired little eyes.",
+      "illustrationScene": "Lanterns grow dim and racing flags become still as Milo closes his tired little eyes.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Lanterns dim; Milo closes eyes."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the soft silver moonlight, Milo and Skye drifted peacefully to sleep, dreaming of stars, friendship, and gentle parade laps.",
+      "illustrationScene": "Milo and Skye sleep peacefully under soft silver moonlight beside the wooden shelter.",
+      "requiredCharacters": [
+        "Milo",
+        "Skye"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both asleep under moonlight; peaceful ending."
+    }
+  ]
+}

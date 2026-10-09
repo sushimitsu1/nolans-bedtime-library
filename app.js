@@ -2411,6 +2411,29 @@ narration: [
   "And as the moon shone over the sleeping farm, Hazel and Clover dreamed of golden fields and gentle harvest nights.",
 ]
 },
+{
+id: "milo-the-little-race-car-and-the-starlight-parade", title: "Milo the Little Race Car and the Starlight Parade", category: "Race Cars",
+description: "A bright red race car and his lavender friend trade fast laps for a slow Starlight Parade under lanterns and moonlight, then park side by side to sleep.",
+keywords: ["milo", "race car", "skye", "starlight parade", "race cars", "bedtime", "lanterns"],
+cover: "assets/books/milo-the-little-race-car-and-the-starlight-parade/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/milo-the-little-race-car-and-the-starlight-parade/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "At a cozy little racetrack, a bright red race car named Milo loved zooming around the smooth, winding turns.",
+  "One peaceful evening, Milo watched the golden sunset sparkle across the quiet racing track.",
+  "The day's races were finished, but tonight the little cars had something special planned.",
+  "“It’s time for our Starlight Parade!” announced Milo’s best friend, Skye, a cheerful lavender race car.",
+  "Milo and Skye rolled toward the starting line, where tiny golden lanterns glowed along the track.",
+  "“Tonight we don’t need to go fast,” whispered Skye. “We can enjoy the beautiful evening together.”",
+  "Milo smiled, and the two friends began their slow parade lap beneath the deep blue sky.",
+  "They passed colorful racing flags fluttering softly in the warm evening breeze.",
+  "As the first stars appeared, Milo and Skye watched their reflections shimmer in a little pond beside the track.",
+  "Soon, other friendly race cars joined the parade, their gentle headlights twinkling like tiny stars.",
+  "Together, the cars rolled slowly around the final bend while the moon rose above the sleeping hills.",
+  "“That was my favorite lap ever,” yawned Milo. “Sometimes going slowly makes everything more beautiful.”",
+  "Skye smiled sleepily as they parked side by side beneath the racetrack’s cozy wooden shelter.",
+  "The lanterns grew dim, the racing flags became still, and Milo closed his tired little eyes.",
+  "Beneath the soft silver moonlight, Milo and Skye drifted peacefully to sleep, dreaming of stars, friendship, and gentle parade laps.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
