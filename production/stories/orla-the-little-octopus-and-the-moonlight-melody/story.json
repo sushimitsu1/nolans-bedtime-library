@@ -1,0 +1,197 @@
+{
+  "title": "Orla the Little Octopus and the Moonlight Melody",
+  "slug": "orla-the-little-octopus-and-the-moonlight-melody",
+  "category": "Ocean Animals",
+  "description": "A little lavender octopus and a teal dolphin share a soft seashell-and-humming lullaby in a moonlit coral garden until the silver fish yawn and everyone drifts to sleep.",
+  "characterBible": {
+    "Orla": {
+      "role": "Main character; a little octopus",
+      "color": "Lavender-purple with soft lilac underside, rosy-pink cheeks, and three tiny pale-pink spots above her left eye",
+      "bodyShape": "Rounded young octopus with exactly eight short soft curling tentacles; no clothing or human hands",
+      "face": "Two large glossy dark-brown eyes, tiny curved smile, rosy cheeks",
+      "accessories": "None; she taps small seashells with her tentacles"
+    },
+    "Finn": {
+      "role": "Supporting character; a little dolphin",
+      "color": "Teal-blue with a pale cream belly and one tiny pale-blue crescent behind his left eye",
+      "bodyShape": "Small rounded dolphin with two side flippers, one dorsal fin, and one horizontal tail fluke; larger than Orla; no arms or clothing",
+      "face": "Large warm dark-brown eyes, short rounded snout, gentle smiling mouth",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Moonlit Coral Garden": "A sheltered nighttime reef with lavender and blush-pink coral, a pearl-colored rock, green sea grass, cream seashells on golden sand, and soft moonbeams from the calm surface above",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded animals, gentle cinematic underwater moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Orla stays lavender-purple with eight tentacles and three pale-pink spots above her left eye.",
+    "Finn stays teal-blue with a cream belly and a pale-blue crescent behind his left eye, and first appears on page 5.",
+    "Orla remains visibly smaller than Finn.",
+    "Tiny silver fish appear only on pages 9–12 and stay much smaller than Orla and Finn.",
+    "No rescue, repair, danger, chase, or frightening scenes.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Deep beneath the gentle ocean waves, a little octopus named Orla lived in a cozy coral garden.",
+      "illustrationScene": "Little lavender octopus Orla rests in her cozy coral garden deep beneath gentle ocean waves.",
+      "requiredCharacters": [
+        "Orla"
+      ],
+      "timeOfDay": "quiet ocean evening",
+      "continuityNotes": "Lock Orla: lavender-purple, eight tentacles, three pale-pink spots above left eye, rosy cheeks. Finn absent."
+    },
+    {
+      "number": 2,
+      "text": "Orla loved making soft music by tapping seashells with her eight little arms.",
+      "illustrationScene": "Orla taps small seashells with her eight soft tentacles, making soft music in the coral garden.",
+      "requiredCharacters": [
+        "Orla"
+      ],
+      "timeOfDay": "quiet ocean evening",
+      "continuityNotes": "Orla alone with seashells; eight tentacles, no clothing or human hands."
+    },
+    {
+      "number": 3,
+      "text": "One quiet evening, Orla heard a lovely humming sound drifting through the water.",
+      "illustrationScene": "In the quiet evening water, Orla listens to a lovely humming sound drifting nearby.",
+      "requiredCharacters": [
+        "Orla"
+      ],
+      "timeOfDay": "quiet ocean evening",
+      "continuityNotes": "Orla alone listening; evening water."
+    },
+    {
+      "number": 4,
+      "text": "She followed the melody past swaying sea grass and glowing blue coral.",
+      "illustrationScene": "Orla follows the melody past swaying sea grass and glowing blue coral.",
+      "requiredCharacters": [
+        "Orla"
+      ],
+      "timeOfDay": "moonlit ocean evening",
+      "continuityNotes": "Orla alone following melody through sea grass and glowing coral."
+    },
+    {
+      "number": 5,
+      "text": "Beside a smooth pearl-colored rock, she found Finn, a little teal dolphin, humming to the moonlight.",
+      "illustrationScene": "Beside a smooth pearl-colored rock, Orla finds teal dolphin Finn humming to the moonlight.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "moonlit ocean evening",
+      "continuityNotes": "Introduce Finn: teal-blue, cream belly, pale-blue crescent behind left eye; larger than Orla."
+    },
+    {
+      "number": 6,
+      "text": "“Your song is beautiful,” whispered Orla. “May I make music with you?”",
+      "illustrationScene": "Orla whispers to Finn and asks if she may make music with him.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "music night",
+      "continuityNotes": "Orla and Finn near pearl rock; gentle invitation to make music."
+    },
+    {
+      "number": 7,
+      "text": "Finn smiled warmly, and Orla gently tapped two tiny seashells together.",
+      "illustrationScene": "Finn smiles warmly while Orla gently taps two tiny seashells together.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "music night",
+      "continuityNotes": "Seashell tapping with tentacles; Finn smiles."
+    },
+    {
+      "number": 8,
+      "text": "Tap, tap, hummm went their music, floating softly through the peaceful sea.",
+      "illustrationScene": "Orla and Finn make soft tap-and-hum music that floats through the peaceful sea.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "music night",
+      "continuityNotes": "Shared music; peaceful sea; no danger."
+    },
+    {
+      "number": 9,
+      "text": "Little silver fish gathered nearby, but they only swished their tails to the gentle melody.",
+      "illustrationScene": "Tiny silver fish gather nearby and swish their tails to the gentle melody.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "lullaby night",
+      "continuityNotes": "Tiny silver fish appear (3–5), much smaller than Orla and Finn."
+    },
+    {
+      "number": 10,
+      "text": "Orla tapped a slow seashell rhythm while Finn sang a sweet, sleepy tune.",
+      "illustrationScene": "Orla taps a slow seashell rhythm while Finn sings a sweet sleepy tune.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "lullaby night",
+      "continuityNotes": "Slow rhythm and sleepy tune; fish may remain nearby."
+    },
+    {
+      "number": 11,
+      "text": "Together, they made the quietest ocean lullaby, and the little fish began to yawn.",
+      "illustrationScene": "Together Orla and Finn make a quiet ocean lullaby as the little fish begin to yawn.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "lullaby night",
+      "continuityNotes": "Together lullaby; fish yawn."
+    },
+    {
+      "number": 12,
+      "text": "The silver fish settled into the sea grass as the last soft notes faded away.",
+      "illustrationScene": "The silver fish settle into the sea grass as the last soft notes fade away.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "lullaby night",
+      "continuityNotes": "Fish settle into sea grass; notes fade."
+    },
+    {
+      "number": 13,
+      "text": "\"Music feels warmer with a friend,\" whispered Finn, resting beside Orla's coral garden.",
+      "illustrationScene": "Finn rests beside Orla's coral garden and whispers that music feels warmer with a friend.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "sleepy night",
+      "continuityNotes": "Return toward Orla's coral garden; soft warm lighting."
+    },
+    {
+      "number": 14,
+      "text": "Orla tucked her seashells beside a soft pink coral pillow, and Finn closed his sleepy eyes.",
+      "illustrationScene": "Orla tucks seashells beside a soft pink coral pillow while Finn closes his sleepy eyes.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Seashells by pink coral pillow; Finn closes eyes."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the shimmering moonlight, Orla and Finn drifted peacefully to sleep with dreams of gentle ocean songs.",
+      "illustrationScene": "Orla and Finn sleep peacefully beneath shimmering moonlight beside the coral garden.",
+      "requiredCharacters": [
+        "Orla",
+        "Finn"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both asleep beside coral home under moonlight; peaceful ending."
+    }
+  ]
+}

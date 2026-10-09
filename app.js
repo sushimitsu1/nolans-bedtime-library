@@ -2365,6 +2365,29 @@ narration: [
   "And beneath a blanket of twinkling stars, Luna and Nib drifted peacefully to sleep.",
 ]
 },
+{
+id: "orla-the-little-octopus-and-the-moonlight-melody", title: "Orla the Little Octopus and the Moonlight Melody", category: "Ocean Animals",
+description: "A little lavender octopus and a teal dolphin share a soft seashell-and-humming lullaby in a moonlit coral garden until the silver fish yawn and everyone drifts to sleep.",
+keywords: ["orla", "octopus", "finn", "dolphin", "moonlight melody", "ocean animals", "bedtime", "coral"],
+cover: "assets/books/orla-the-little-octopus-and-the-moonlight-melody/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/orla-the-little-octopus-and-the-moonlight-melody/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Deep beneath the gentle ocean waves, a little octopus named Orla lived in a cozy coral garden.",
+  "Orla loved making soft music by tapping seashells with her eight little arms.",
+  "One quiet evening, Orla heard a lovely humming sound drifting through the water.",
+  "She followed the melody past swaying sea grass and glowing blue coral.",
+  "Beside a smooth pearl-colored rock, she found Finn, a little teal dolphin, humming to the moonlight.",
+  "“Your song is beautiful,” whispered Orla. “May I make music with you?”",
+  "Finn smiled warmly, and Orla gently tapped two tiny seashells together.",
+  "Tap, tap, hummm went their music, floating softly through the peaceful sea.",
+  "Little silver fish gathered nearby, but they only swished their tails to the gentle melody.",
+  "Orla tapped a slow seashell rhythm while Finn sang a sweet, sleepy tune.",
+  "Together, they made the quietest ocean lullaby, and the little fish began to yawn.",
+  "The silver fish settled into the sea grass as the last soft notes faded away.",
+  "\"Music feels warmer with a friend,\" whispered Finn, resting beside Orla's coral garden.",
+  "Orla tucked her seashells beside a soft pink coral pillow, and Finn closed his sleepy eyes.",
+  "Beneath the shimmering moonlight, Orla and Finn drifted peacefully to sleep with dreams of gentle ocean songs.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
