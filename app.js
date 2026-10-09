@@ -2388,6 +2388,29 @@ narration: [
   "Beneath the shimmering moonlight, Orla and Finn drifted peacefully to sleep with dreams of gentle ocean songs.",
 ]
 },
+{
+id: "hazel-the-little-tractor-and-the-moonlight-harvest", title: "Hazel the Little Tractor and the Moonlight Harvest", category: "Farm",
+description: "A meadow-green tractor and a fluffy cream sheep gather pumpkins for a quiet Moonlight Harvest, share warm treats under the stars, and settle to sleep in the barn.",
+keywords: ["hazel", "tractor", "clover", "sheep", "moonlight harvest", "farm", "bedtime", "pumpkins"],
+cover: "assets/books/hazel-the-little-tractor-and-the-moonlight-harvest/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/hazel-the-little-tractor-and-the-moonlight-harvest/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "On a peaceful little farm, a friendly green tractor named Hazel rested beside a cozy red barn.",
+  "As the sun slipped behind the hills, the farm glowed with warm golden evening light.",
+  "Tonight was the Moonlight Harvest, a gentle celebration beneath the twinkling stars.",
+  "Hazel rolled slowly toward the pumpkin patch, where round orange pumpkins rested among leafy vines.",
+  "Her friend Clover, a fluffy cream-colored sheep, waited beside a little wooden wagon.",
+  "“Let’s bring some pumpkins to the barn,” whispered Clover with a happy smile.",
+  "Hazel carefully pulled the wagon while Clover walked beside her through the quiet fields.",
+  "Fireflies sparkled above the grass, lighting their path like tiny floating lanterns.",
+  "At the barn, Hazel and Clover found a long wooden table, but it was only decorated with pumpkins and glowing lanterns.",
+  "The farm animals gathered beneath the stars and shared sweet apple slices and warm pumpkin treats.",
+  "A gentle breeze rustled the leaves as everyone listened to the soft chirping of crickets.",
+  "Clover gave a sleepy yawn, and Hazel's little headlights glowed softly in the moonlight.",
+  "“What a lovely harvest night,” whispered Clover, resting beside a golden pile of hay.",
+  "Hazel parked beneath the barn's wooden roof while Clover curled up in the warm, soft straw.",
+  "And as the moon shone over the sleeping farm, Hazel and Clover dreamed of golden fields and gentle harvest nights.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

@@ -1,0 +1,27 @@
+{
+  "storySlug": "hazel-the-little-tractor-and-the-moonlight-harvest",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": true,
+    "individuallyInspectedPages": [
+      1,
+      5,
+      9,
+      10,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Published from approved ChatGPT full-bleed package; painted-title cover with no compositor text; pages composed with integrated cream panel + badge from story.json text."
+}

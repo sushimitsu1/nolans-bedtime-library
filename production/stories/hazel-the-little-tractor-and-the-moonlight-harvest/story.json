@@ -1,0 +1,197 @@
+{
+  "title": "Hazel the Little Tractor and the Moonlight Harvest",
+  "slug": "hazel-the-little-tractor-and-the-moonlight-harvest",
+  "category": "Farm",
+  "description": "A meadow-green tractor and a fluffy cream sheep gather pumpkins for a quiet Moonlight Harvest, share warm treats under the stars, and settle to sleep in the barn.",
+  "characterBible": {
+    "Hazel": {
+      "role": "Main character; a little farm tractor",
+      "color": "Meadow-green body with a pale cream grille, cream canopy, cream wheel rims, and warm-yellow headlights",
+      "bodyShape": "Small rounded tractor on four chunky black tires with larger rear wheels; no arms, hands, legs, clothing, or construction attachments",
+      "face": "Two large expressive brown eyes on the windshield and a small gentle smile on the grille",
+      "accessories": "Small cream canopy on thin green posts; no logos, stickers, numbers, or text"
+    },
+    "Clover": {
+      "role": "Supporting character; a fluffy farm sheep",
+      "color": "Soft cream wool with a warm beige face and a tiny rosy-brown nose",
+      "bodyShape": "Round compact sheep on four short beige legs with dark-brown hooves; about as tall as Hazel's front hood; no clothing",
+      "face": "Large dark-brown eyes, tiny rosy-brown nose, and a soft smile",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Moonlight Meadow Farm": "A peaceful farm with a cozy red barn, pumpkin patch, dirt path, wooden wagon, harvest table with lanterns, and soft rolling hills under moonlight",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded vehicles and animals, golden evening fading to moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Hazel stays meadow-green with a cream canopy, brown windshield eyes, cream wheel rims, and soft warm headlights.",
+    "Clover stays a smaller cream sheep with a beige face and first appears on page 5.",
+    "The wooden pumpkin wagon appears from page 5, carries pumpkins through page 8, then parks near the barn.",
+    "No rescue, repair, breakdown, danger, or frightening scenes.",
+    "Background farm animals stay simple and subordinate on the harvest pages.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "On a peaceful little farm, a friendly green tractor named Hazel rested beside a cozy red barn.",
+      "illustrationScene": "Meadow-green tractor Hazel rests beside a cozy red barn on a peaceful little farm.",
+      "requiredCharacters": [
+        "Hazel"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Lock Hazel: meadow green, cream canopy, brown windshield eyes, cream wheel rims, larger rear tires. Clover absent."
+    },
+    {
+      "number": 2,
+      "text": "As the sun slipped behind the hills, the farm glowed with warm golden evening light.",
+      "illustrationScene": "Warm golden evening light glows across the farm as the sun slips behind the hills.",
+      "requiredCharacters": [
+        "Hazel"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Hazel alone in warm golden evening light near the farm."
+    },
+    {
+      "number": 3,
+      "text": "Tonight was the Moonlight Harvest, a gentle celebration beneath the twinkling stars.",
+      "illustrationScene": "Twilight settles over the farm as the Moonlight Harvest begins beneath the first stars.",
+      "requiredCharacters": [
+        "Hazel"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Moonlight Harvest begins; Hazel alone under early stars."
+    },
+    {
+      "number": 4,
+      "text": "Hazel rolled slowly toward the pumpkin patch, where round orange pumpkins rested among leafy vines.",
+      "illustrationScene": "Hazel rolls slowly toward a pumpkin patch of round orange pumpkins among leafy vines.",
+      "requiredCharacters": [
+        "Hazel"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Hazel alone rolling toward pumpkin patch; no wagon yet."
+    },
+    {
+      "number": 5,
+      "text": "Her friend Clover, a fluffy cream-colored sheep, waited beside a little wooden wagon.",
+      "illustrationScene": "Cream sheep Clover waits beside a little wooden wagon near Hazel at the pumpkin patch.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Introduce Clover: cream wool, beige face, smaller than Hazel; wooden wagon appears."
+    },
+    {
+      "number": 6,
+      "text": "“Let’s bring some pumpkins to the barn,” whispered Clover with a happy smile.",
+      "illustrationScene": "Clover smiles happily and invites Hazel to bring some pumpkins to the barn.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Clover invites Hazel to bring pumpkins; gentle, no urgency."
+    },
+    {
+      "number": 7,
+      "text": "Hazel carefully pulled the wagon while Clover walked beside her through the quiet fields.",
+      "illustrationScene": "Hazel carefully pulls the wagon of pumpkins while Clover walks beside her through quiet fields.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Hazel pulls wagon; Clover walks beside; quiet fields."
+    },
+    {
+      "number": 8,
+      "text": "Fireflies sparkled above the grass, lighting their path like tiny floating lanterns.",
+      "illustrationScene": "Fireflies sparkle above the grass, lighting Hazel and Clover's path like tiny lanterns.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Fireflies light the path; headlights may glow softly."
+    },
+    {
+      "number": 9,
+      "text": "At the barn, Hazel and Clover found a long wooden table, but it was only decorated with pumpkins and glowing lanterns.",
+      "illustrationScene": "At the red barn, Hazel and Clover arrive at a long wooden table with pumpkins and glowing lanterns.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "harvest night",
+      "continuityNotes": "Arrive at barn table with pumpkins and lanterns; wagon parked nearby."
+    },
+    {
+      "number": 10,
+      "text": "The farm animals gathered beneath the stars and shared sweet apple slices and warm pumpkin treats.",
+      "illustrationScene": "Friendly farm animals gather under the stars to share apple slices and warm pumpkin treats.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "harvest night",
+      "continuityNotes": "Background animals may appear subordinate; share treats calmly."
+    },
+    {
+      "number": 11,
+      "text": "A gentle breeze rustled the leaves as everyone listened to the soft chirping of crickets.",
+      "illustrationScene": "A gentle breeze rustles leaves while everyone listens to soft cricket chirps.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "harvest night",
+      "continuityNotes": "Soft cricket night; peaceful gathering."
+    },
+    {
+      "number": 12,
+      "text": "Clover gave a sleepy yawn, and Hazel's little headlights glowed softly in the moonlight.",
+      "illustrationScene": "Clover yawns sleepily as Hazel's warm headlights glow softly in the moonlight.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "late evening",
+      "continuityNotes": "Clover yawns; Hazel's headlights soft in moonlight."
+    },
+    {
+      "number": 13,
+      "text": "“What a lovely harvest night,” whispered Clover, resting beside a golden pile of hay.",
+      "illustrationScene": "Clover rests beside a golden pile of hay and whispers about the lovely harvest night.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "late evening",
+      "continuityNotes": "Clover rests by hay; lovely harvest night."
+    },
+    {
+      "number": 14,
+      "text": "Hazel parked beneath the barn's wooden roof while Clover curled up in the warm, soft straw.",
+      "illustrationScene": "Hazel parks under the barn roof while Clover curls up in warm soft straw.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Hazel parked under barn roof; Clover in straw."
+    },
+    {
+      "number": 15,
+      "text": "And as the moon shone over the sleeping farm, Hazel and Clover dreamed of golden fields and gentle harvest nights.",
+      "illustrationScene": "Hazel and Clover sleep peacefully as the moon shines over the quiet farm.",
+      "requiredCharacters": [
+        "Hazel",
+        "Clover"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both asleep; moon over sleeping farm; peaceful ending."
+    }
+  ]
+}

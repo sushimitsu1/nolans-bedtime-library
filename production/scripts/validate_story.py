@@ -14,7 +14,7 @@ SOLUTION_WORDS = {"help", "together", "fixed", "safe", "solved", "found", "ready
 ENDING_WORDS = {"goodnight", "night", "sleep", "sleepy", "rested", "dream", "yawn", "moon", "bedtime"}
 BEGINNING_WORDS = {"morning", "once", "woke", "rolled", "began", "sunny", "early", "evening", "lived"}
 CATEGORIES = {
-    "Bakery", "Airport Vehicles", "Airplanes", "Animal Friends", "Boats", "City Service Vehicles", "Construction Vehicles", "Delivery Vehicles", "Dinosaurs", "Emergency Vehicles", "Farm Vehicles", "Monster Trucks", "Ocean Animals", "Pick-Up Trucks", "Race Cars", "Rail Vehicles", "Service Vehicles", "Space", "Space Vehicles"
+    "Bakery", "Airport Vehicles", "Airplanes", "Animal Friends", "Boats", "City Service Vehicles", "Construction Vehicles", "Delivery Vehicles", "Dinosaurs", "Emergency Vehicles", "Farm", "Farm Vehicles", "Monster Trucks", "Ocean Animals", "Pick-Up Trucks", "Race Cars", "Rail Vehicles", "Service Vehicles", "Space", "Space Vehicles"
 }
 
 
