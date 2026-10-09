@@ -2342,6 +2342,29 @@ narration: [
   "The bakery lights grew dim, and beneath the moon, Posy and Tilda slept peacefully.",
 ]
 },
+{
+id: "luna-little-spaceship-sleepy-star-garden", title: "Luna the Little Spaceship and the Sleepy Star Garden", category: "Space",
+description: "A little pearly-white spaceship and a tiny golden star visit a glowing Star Garden, watch the flowers fold for bedtime, and drift to sleep on a soft silver cloud.",
+keywords: ["luna", "little spaceship", "sleepy star garden", "nib", "space", "bedtime", "stars"],
+cover: "assets/books/luna-little-spaceship-sleepy-star-garden/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/luna-little-spaceship-sleepy-star-garden/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In the quiet evening, far above the sleeping Earth, a little spaceship named Luna floated among the stars.",
+  "Luna's soft blue lights twinkled as she watched the quiet universe.",
+  "Tonight, Luna wanted to visit the beautiful Star Garden beyond the moon.",
+  "She glided past the silver moon, where sleepy craters rested in the moonlight.",
+  "A tiny golden star named Nib floated nearby and gave Luna a cheerful wink.",
+  "\"Come see the Star Garden,\" whispered Nib, drifting gently ahead.",
+  "Together, they followed a sparkling trail of stardust through the peaceful sky.",
+  "Soon, they reached a little floating garden filled with glowing star-shaped flowers.",
+  "The flowers swayed softly, but they still shone pink, blue, and warm golden yellow.",
+  "Luna hovered beside a fluffy cloud of stardust while Nib floated among the flowers.",
+  "One by one, the star flowers folded their glowing petals for bedtime.",
+  "Nib gave a tiny sleepy yawn, and Luna dimmed her gentle blue lights.",
+  "They watched the distant Earth sparkle like a little blue marble.",
+  "Luna settled onto a soft silver cloud, with Nib resting close beside her.",
+  "And beneath a blanket of twinkling stars, Luna and Nib drifted peacefully to sleep.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

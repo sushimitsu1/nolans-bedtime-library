@@ -1,0 +1,197 @@
+{
+  "title": "Luna the Little Spaceship and the Sleepy Star Garden",
+  "slug": "luna-little-spaceship-sleepy-star-garden",
+  "category": "Space",
+  "description": "A little pearly-white spaceship and a tiny golden star visit a glowing Star Garden, watch the flowers fold for bedtime, and drift to sleep on a soft silver cloud.",
+  "characterBible": {
+    "Luna": {
+      "role": "Main character; a little spaceship",
+      "color": "Pearly-white body with soft sky-blue accents, top light, and pale-blue thruster glow",
+      "bodyShape": "Small rounded spaceship with two short side fins, one curved windshield, two side windows, and a small rear thruster; no arms, hands, legs, or wheels",
+      "face": "Exactly two friendly eyes in the windshield and a small gentle smile below",
+      "accessories": "One small round sky-blue light on top; no writing, numbers, badges, or logos"
+    },
+    "Nib": {
+      "role": "Supporting character; a tiny golden star friend",
+      "color": "Warm buttery-yellow with a gentle golden glow",
+      "bodyShape": "Tiny five-pointed star with softly rounded tips, about one-quarter of Luna height; no arms, hands, legs, or clothing",
+      "face": "Exactly two small dark brown eyes and one tiny curved smile",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Sleepy Star Garden": "A floating silver-blue stardust island with pastel star-shaped flowers in pink, pale blue, and warm yellow, set in peaceful midnight-blue space with soft nebula clouds",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded shapes, dreamy cinematic lighting, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Luna stays pearly-white with sky-blue accents, two windshield eyes, a small smile, two fins, and one top light.",
+    "Nib stays a smaller five-pointed golden star with two eyes and a smile, and first appears on page 5.",
+    "No rescue, repair, danger, chase, or frightening scenes.",
+    "Star flowers and background stars have no faces.",
+    "Brightness softens toward bedtime on the later pages.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In the quiet evening, far above the sleeping Earth, a little spaceship named Luna floated among the stars.",
+      "illustrationScene": "Luna the little pearly-white spaceship floats far above sleeping Earth among soft stars.",
+      "requiredCharacters": [
+        "Luna"
+      ],
+      "timeOfDay": "quiet space evening",
+      "continuityNotes": "Lock Luna: pearly white, sky-blue accents, two windshield eyes, small smile, two fins, top light. Nib absent."
+    },
+    {
+      "number": 2,
+      "text": "Luna's soft blue lights twinkled as she watched the quiet universe.",
+      "illustrationScene": "Luna's soft blue lights twinkle as she watches the quiet midnight-blue universe.",
+      "requiredCharacters": [
+        "Luna"
+      ],
+      "timeOfDay": "quiet space evening",
+      "continuityNotes": "Luna alone; soft blue lights twinkle. No Nib."
+    },
+    {
+      "number": 3,
+      "text": "Tonight, Luna wanted to visit the beautiful Star Garden beyond the moon.",
+      "illustrationScene": "Luna turns toward the path beyond the moon, ready to visit the Star Garden.",
+      "requiredCharacters": [
+        "Luna"
+      ],
+      "timeOfDay": "quiet space evening",
+      "continuityNotes": "Luna alone looking toward the garden path beyond the moon."
+    },
+    {
+      "number": 4,
+      "text": "She glided past the silver moon, where sleepy craters rested in the moonlight.",
+      "illustrationScene": "Luna glides past a silver moon with soft rounded craters in gentle moonlight.",
+      "requiredCharacters": [
+        "Luna"
+      ],
+      "timeOfDay": "moonlit space evening",
+      "continuityNotes": "Luna alone past silver moon. Nib still absent."
+    },
+    {
+      "number": 5,
+      "text": "A tiny golden star named Nib floated nearby and gave Luna a cheerful wink.",
+      "illustrationScene": "Tiny golden five-pointed star Nib floats near Luna and gives a cheerful wink.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "moonlit space evening",
+      "continuityNotes": "Introduce Nib: tiny golden five-pointed star, two eyes, smile, about one-quarter Luna's height."
+    },
+    {
+      "number": 6,
+      "text": "\"Come see the Star Garden,\" whispered Nib, drifting gently ahead.",
+      "illustrationScene": "Nib drifts gently ahead while Luna follows, invited to see the Star Garden.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "stardust trail night",
+      "continuityNotes": "Nib leads gently; Luna follows. No danger."
+    },
+    {
+      "number": 7,
+      "text": "Together, they followed a sparkling trail of stardust through the peaceful sky.",
+      "illustrationScene": "Luna and Nib follow a sparkling stardust trail through the peaceful sky together.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "stardust trail night",
+      "continuityNotes": "Both on stardust trail. Together."
+    },
+    {
+      "number": 8,
+      "text": "Soon, they reached a little floating garden filled with glowing star-shaped flowers.",
+      "illustrationScene": "They arrive at a floating garden island filled with glowing star-shaped flowers.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "star garden night",
+      "continuityNotes": "Arrive at floating Star Garden with glowing star flowers."
+    },
+    {
+      "number": 9,
+      "text": "The flowers swayed softly, but they still shone pink, blue, and warm golden yellow.",
+      "illustrationScene": "Pink, blue, and warm golden star flowers sway softly in the floating garden.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "star garden night",
+      "continuityNotes": "Pastel pink, blue, and warm yellow flowers sway. No faces on flowers."
+    },
+    {
+      "number": 10,
+      "text": "Luna hovered beside a fluffy cloud of stardust while Nib floated among the flowers.",
+      "illustrationScene": "Luna hovers by a fluffy stardust cloud while Nib floats among the flowers.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "star garden night",
+      "continuityNotes": "Luna by stardust cloud; Nib among flowers."
+    },
+    {
+      "number": 11,
+      "text": "One by one, the star flowers folded their glowing petals for bedtime.",
+      "illustrationScene": "One by one the star flowers fold their glowing petals for bedtime.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "sleepy garden night",
+      "continuityNotes": "Flowers fold petals for bedtime. Lights begin to soften."
+    },
+    {
+      "number": 12,
+      "text": "Nib gave a tiny sleepy yawn, and Luna dimmed her gentle blue lights.",
+      "illustrationScene": "Nib yawns sleepily as Luna dims her gentle blue lights in the garden.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "sleepy garden night",
+      "continuityNotes": "Nib yawns; Luna dims blue lights."
+    },
+    {
+      "number": 13,
+      "text": "They watched the distant Earth sparkle like a little blue marble.",
+      "illustrationScene": "From the garden overlook, Luna and Nib watch distant Earth sparkle like a blue marble.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "late garden night",
+      "continuityNotes": "Distant Earth as small blue-and-white sphere."
+    },
+    {
+      "number": 14,
+      "text": "Luna settled onto a soft silver cloud, with Nib resting close beside her.",
+      "illustrationScene": "Luna settles on a soft silver cloud with Nib resting close beside her.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both rest on soft silver cloud."
+    },
+    {
+      "number": 15,
+      "text": "And beneath a blanket of twinkling stars, Luna and Nib drifted peacefully to sleep.",
+      "illustrationScene": "Luna and Nib sleep peacefully on the silver cloud under a blanket of twinkling stars.",
+      "requiredCharacters": [
+        "Luna",
+        "Nib"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both asleep; dim garden glow; peaceful goodnight ending."
+    }
+  ]
+}
