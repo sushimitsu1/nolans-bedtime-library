@@ -1,0 +1,27 @@
+{
+  "storySlug": "bramble-the-little-book-train-and-the-sleepy-story-town",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": true,
+    "individuallyInspectedPages": [
+      1,
+      5,
+      9,
+      10,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Published from approved ChatGPT full-bleed package; painted-title cover; pages 13\u201315 narration kept general for village station and still-coupled wagon."
+}

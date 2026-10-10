@@ -2457,6 +2457,29 @@ narration: [
   "Beneath the silver moon and twinkling stars, Tavi and Dottie slept peacefully beside the boathouse, dreaming of glowing lanterns and gentle rivers.",
 ]
 },
+{
+id: "bramble-the-little-book-train-and-the-sleepy-story-town", title: "Bramble the Little Book Train and the Sleepy Story Town", category: "Rail Vehicles",
+description: "A plum-purple book train and a honey-yellow railcar deliver bedtime stories to Willowbrook Village, then rest on the tracks with the book wagon still coupled under the stars.",
+keywords: ["bramble", "book train", "maple", "sleepy story town", "rail vehicles", "bedtime", "willowbrook"],
+cover: "assets/books/bramble-the-little-book-train-and-the-sleepy-story-town/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/bramble-the-little-book-train-and-the-sleepy-story-town/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a peaceful valley surrounded by gentle green hills, a little plum-purple train named Bramble loved carrying storybooks to the nearby towns.",
+  "Every evening, Bramble waited at the cozy railway station while the golden sunset warmed the tracks and painted the clouds pink.",
+  "Tonight was special because Bramble had a little wagon filled with bedtime books for the children of Willowbrook Village.",
+  "His friend Maple, a small honey-yellow railcar, arrived carrying a soft blue lantern and a basket of colorful bookmarks.",
+  "“Shall we bring everyone their bedtime stories?” asked Maple, for the village would soon be ready for sleep.",
+  "Bramble gave a happy little whistle, and the two friends began their gentle journey beneath the fading evening sky.",
+  "Together, they rolled slowly past fields of lavender, where sleepy butterflies rested on flowers and the first stars appeared overhead.",
+  "Along the winding railway, they passed a quiet pond where the moon shimmered softly between the lily pads.",
+  "Soon, the warm little windows of Willowbrook Village appeared beyond the trees, but they glowed like soft golden squares in the twilight.",
+  "At the village station, Bramble and Maple delivered the storybooks while sleepy families gathered beneath the soft station lanterns.",
+  "The children hugged their new books, and the villagers waved goodnight as Bramble and Maple prepared for their journey home.",
+  "“Every story is a little journey,” Bramble whispered as they traveled beneath the silver moon. “Even when we stay cozy in bed.”",
+  "“And tonight we helped so many dreams begin,” Maple replied sleepily at the quiet village station.",
+  "With the book wagon still coupled behind them, Bramble and Maple settled on the resting tracks while the last lantern glowed softly.",
+  "Beneath the quiet stars, the two little railway friends closed their tired eyes and drifted peacefully to sleep, dreaming of storybooks and moonlit tracks.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

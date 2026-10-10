@@ -1,0 +1,199 @@
+{
+  "title": "Bramble the Little Book Train and the Sleepy Story Town",
+  "slug": "bramble-the-little-book-train-and-the-sleepy-story-town",
+  "category": "Rail Vehicles",
+  "description": "A plum-purple book train and a honey-yellow railcar deliver bedtime stories to Willowbrook Village, then rest on the tracks with the book wagon still coupled under the stars.",
+  "characterBible": {
+    "Bramble": {
+      "role": "Main character; a little book train",
+      "color": "Rich plum-purple with a cream roof, a thin warm-copper side stripe, and a small circular amber headlamp",
+      "bodyShape": "Small rounded electric locomotive with a short hood, large side-cab windows, and four dark-charcoal railway wheels; pulls one matching plum-purple book wagon with a cream roof",
+      "face": "Two expressive warm dark-brown eyes inside the front cab windshield, with a gentle smile suggested by curved lower windshield trim",
+      "accessories": "A small cream open-book emblem on each side panel; no letters, numbers, or logos"
+    },
+    "Maple": {
+      "role": "Supporting character; a little lantern railcar",
+      "color": "Warm honey-yellow with a pale ivory roof and muted cinnamon-brown lower trim",
+      "bodyShape": "Smaller self-propelled railcar about 75% of Bramble height, with a rounded rectangular body, two small side windows, and four charcoal train wheels",
+      "face": "Two gentle dark-hazel eyes through the front windshield, with a small friendly smile suggested by curved windshield trim",
+      "accessories": "A soft blue lantern on a side bracket near the front and a small woven bookmark basket on the rear platform"
+    }
+  },
+  "settingBible": {
+    "Willowbrook Valley Railway": "A miniature countryside railway through green hills, lavender fields, a lily pond, a cozy home station, Willowbrook Village station, and soft lantern-lit tracks",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded trains, golden evening fading to moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Bramble stays plum-purple with a cream roof, copper stripe, windshield eyes, amber headlamp, and a matching book wagon.",
+    "Maple stays honey-yellow with an ivory roof, blue lantern, and first appears on page 4.",
+    "Maple remains visibly smaller than Bramble.",
+    "The book wagon stays coupled to Bramble through pages 14–15.",
+    "Page 13 reads as the village station; keep late-page locations general enough to match the art.",
+    "No rescue, repair, danger, chase, or frightening scenes.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a peaceful valley surrounded by gentle green hills, a little plum-purple train named Bramble loved carrying storybooks to the nearby towns.",
+      "illustrationScene": "Plum-purple book train Bramble waits in a peaceful green valley ready to carry storybooks to nearby towns.",
+      "requiredCharacters": [
+        "Bramble"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Lock Bramble: plum-purple, cream roof, copper stripe, windshield eyes, amber headlamp, matching book wagon. Maple absent."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Bramble waited at the cozy railway station while the golden sunset warmed the tracks and painted the clouds pink.",
+      "illustrationScene": "Every evening Bramble waits at a cozy railway station under a golden sunset warming the tracks.",
+      "requiredCharacters": [
+        "Bramble"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Bramble alone at cozy home station in golden sunset."
+    },
+    {
+      "number": 3,
+      "text": "Tonight was special because Bramble had a little wagon filled with bedtime books for the children of Willowbrook Village.",
+      "illustrationScene": "Bramble's matching plum-purple book wagon is filled with bedtime books for Willowbrook Village.",
+      "requiredCharacters": [
+        "Bramble"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Book wagon filled with colorful bedtime books; Maple still absent."
+    },
+    {
+      "number": 4,
+      "text": "His friend Maple, a small honey-yellow railcar, arrived carrying a soft blue lantern and a basket of colorful bookmarks.",
+      "illustrationScene": "Honey-yellow railcar Maple arrives with a soft blue lantern and a basket of colorful bookmarks.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Introduce Maple: honey-yellow, ivory roof, blue lantern, ~75% Bramble height."
+    },
+    {
+      "number": 5,
+      "text": "“Shall we bring everyone their bedtime stories?” asked Maple, for the village would soon be ready for sleep.",
+      "illustrationScene": "Maple asks if they shall bring everyone their bedtime stories before the village is ready for sleep.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "Gentle invitation to deliver bedtime stories; no urgency."
+    },
+    {
+      "number": 6,
+      "text": "Bramble gave a happy little whistle, and the two friends began their gentle journey beneath the fading evening sky.",
+      "illustrationScene": "Bramble gives a happy little whistle as the friends begin their gentle journey under the fading evening sky.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "early twilight",
+      "continuityNotes": "Journey begins; wagon coupled behind Bramble."
+    },
+    {
+      "number": 7,
+      "text": "Together, they rolled slowly past fields of lavender, where sleepy butterflies rested on flowers and the first stars appeared overhead.",
+      "illustrationScene": "Together they roll slowly past lavender fields where sleepy butterflies rest and the first stars appear.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "early twilight",
+      "continuityNotes": "Together through lavender fields; wagon stays coupled."
+    },
+    {
+      "number": 8,
+      "text": "Along the winding railway, they passed a quiet pond where the moon shimmered softly between the lily pads.",
+      "illustrationScene": "Along the winding railway they pass a quiet pond where the moon shimmers between lily pads.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "deep twilight",
+      "continuityNotes": "Moonlit lily pond near tracks."
+    },
+    {
+      "number": 9,
+      "text": "Soon, the warm little windows of Willowbrook Village appeared beyond the trees, but they glowed like soft golden squares in the twilight.",
+      "illustrationScene": "Warm little windows of Willowbrook Village glow beyond the trees like golden squares in the twilight.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "deep twilight",
+      "continuityNotes": "Willowbrook Village windows glow; approach village."
+    },
+    {
+      "number": 10,
+      "text": "At the village station, Bramble and Maple delivered the storybooks while sleepy families gathered beneath the soft station lanterns.",
+      "illustrationScene": "At the village station Bramble and Maple deliver storybooks while sleepy families gather under soft lanterns.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Village station delivery; soft lanterns; small peaceful crowd."
+    },
+    {
+      "number": 11,
+      "text": "The children hugged their new books, and the villagers waved goodnight as Bramble and Maple prepared for their journey home.",
+      "illustrationScene": "Children hug their new books and villagers wave goodnight as the friends prepare for the journey home.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Books delivered; wagon emptier or nearly empty; wave goodnight."
+    },
+    {
+      "number": 12,
+      "text": "“Every story is a little journey,” Bramble whispered as they traveled beneath the silver moon. “Even when we stay cozy in bed.”",
+      "illustrationScene": "Bramble whispers that every story is a little journey as they travel beneath the silver moon.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Travel under silver moon; increasingly sleepy."
+    },
+    {
+      "number": 13,
+      "text": "“And tonight we helped so many dreams begin,” Maple replied sleepily at the quiet village station.",
+      "illustrationScene": "Maple replies sleepily at the quiet village station, with Bramble and the book wagon still together.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Looks like the village station; keep narration general; wagon still part of the train."
+    },
+    {
+      "number": 14,
+      "text": "With the book wagon still coupled behind them, Bramble and Maple settled on the resting tracks while the last lantern glowed softly.",
+      "illustrationScene": "With the book wagon still coupled, Bramble and Maple settle on resting tracks under a soft last lantern glow.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "peaceful nighttime",
+      "continuityNotes": "Wagon still coupled; settle on resting tracks; do not require an interior shed uncoupling."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the quiet stars, the two little railway friends closed their tired eyes and drifted peacefully to sleep, dreaming of storybooks and moonlit tracks.",
+      "illustrationScene": "Bramble and Maple sleep peacefully with the book wagon still coupled beneath the quiet stars.",
+      "requiredCharacters": [
+        "Bramble",
+        "Maple"
+      ],
+      "timeOfDay": "peaceful nighttime",
+      "continuityNotes": "Both asleep with wagon still coupled; peaceful ending under stars."
+    }
+  ]
+}
