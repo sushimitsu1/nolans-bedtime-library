@@ -1,0 +1,198 @@
+{
+  "title": "Mica the Moon Rover and the Sleepy Star Trail",
+  "slug": "mica-the-moon-rover-and-the-sleepy-star-trail",
+  "category": "Space",
+  "description": "A little yellow moon rover and a smaller coral friend follow a sparkling crystal trail to a quiet overlook, then roll home to sleep under a stone arch.",
+  "characterBible": {
+    "Mica": {
+      "role": "Main character; a little moon rover",
+      "color": "Soft buttery yellow body with a cream front face panel, pale teal windshield face, and a five-point white star on the left side panel only",
+      "bodyShape": "Tiny rounded rectangular four-wheeled rover with identical charcoal wheels and silver-gray hubs; no arms, hands, legs, or headlights used as eyes",
+      "face": "Two large dark charcoal oval eyes with tiny white highlights and a small curved charcoal smile on the pale teal windshield face",
+      "accessories": "One short fixed cream antenna tipped with a single golden-yellow ball"
+    },
+    "Tillo": {
+      "role": "Supporting character; a smaller moon rover",
+      "color": "Muted coral-orange pebble-shaped body with a warm ivory front panel, pale mint windshield face, and a mint crescent on the right side panel only",
+      "bodyShape": "About 70% of Mica height and width, with four charcoal wheels and warm-gray hubs; no arms, hands, or legs",
+      "face": "Two small dark charcoal oval eyes with tiny white highlights and a tiny curved charcoal smile",
+      "accessories": "One short fixed coral antenna tipped with a mint round ball"
+    }
+  },
+  "settingBible": {
+    "Sleepy Star Trail": "A peaceful storybook Moon with silver-lavender dust, rounded craters, pale-aqua crystals, three pillow hills, a ridge overlook with distant Earth, and a curved stone-arch resting nook with two soft pads",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded toy-like rovers, cool lunar night lighting, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Mica stays buttery yellow with a white star on the left side and a cream antenna with a golden tip.",
+    "Tillo stays smaller coral-orange with a mint crescent on the right side and first appears on page 4.",
+    "No spaceships, people, buildings, vegetation, rescues, or repairs.",
+    "Pages 9–11 share the same ridge overlook; pages 13–15 share the same stone-arch nook with Mica left and Tillo right.",
+    "Crystals stay embedded in the ground and are never picked up.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "On the quiet silver moon, a little rover named Mica woke beneath a sky sprinkled with stars.",
+      "illustrationScene": "Little buttery-yellow moon rover Mica wakes on the quiet silver moon under a starry sky.",
+      "requiredCharacters": [
+        "Mica"
+      ],
+      "timeOfDay": "soft silvery lunar night",
+      "continuityNotes": "Lock Mica: buttery yellow, cream front, teal windshield face, charcoal eyes/smile, four wheels, cream antenna with golden ball, white star on LEFT side only. Tillo absent."
+    },
+    {
+      "number": 2,
+      "text": "Mica rolled past a row of round craters, making tiny, tidy tracks in the powdery dust.",
+      "illustrationScene": "Mica rolls past a row of round craters, leaving tiny tidy tracks in the powdery dust.",
+      "requiredCharacters": [
+        "Mica"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Mica alone past three round craters; tidy tracks."
+    },
+    {
+      "number": 3,
+      "text": "Beside a smooth blue-gray stone, Mica noticed a trail of sparkling moon crystals.",
+      "illustrationScene": "Beside a smooth blue-gray stone, Mica notices a trail of sparkling pale-aqua moon crystals.",
+      "requiredCharacters": [
+        "Mica"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Mica alone at blue-gray stone and crystal trail; Tillo still absent."
+    },
+    {
+      "number": 4,
+      "text": "A smaller rover named Tillo rolled over to look, and the two friends shared a delighted smile.",
+      "illustrationScene": "Smaller coral-orange rover Tillo rolls over to look, and the two friends share a delighted smile.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "richer indigo lunar night",
+      "continuityNotes": "Introduce Tillo: muted coral-orange, ~70% size, mint windshield face, mint crescent on RIGHT side only."
+    },
+    {
+      "number": 5,
+      "text": "Together they followed the crystal trail between three gentle hills that looked like sleeping pillows.",
+      "illustrationScene": "Together they follow the crystal trail between three gentle hills that look like sleeping pillows.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Together on crystal trail between three pillow hills."
+    },
+    {
+      "number": 6,
+      "text": "Mica paused beside a shallow crater where starlight shimmered on the pale, glassy ground.",
+      "illustrationScene": "Mica pauses beside a shallow crater where starlight shimmers on the pale glassy ground.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Shallow glassy crater; starlight shimmer."
+    },
+    {
+      "number": 7,
+      "text": "Tillo spotted a little cluster of crystals shaped like a flower, but they only admired it without touching.",
+      "illustrationScene": "Tillo spots a flower-shaped crystal cluster, and they admire it without touching.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Flower-shaped crystal cluster; admire without touching."
+    },
+    {
+      "number": 8,
+      "text": "The friends climbed a low, rounded ridge, their wheel tracks curling neatly behind them.",
+      "illustrationScene": "The friends climb a low rounded ridge, their wheel tracks curling neatly behind them.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "cool-silver ridge night",
+      "continuityNotes": "Climb low rounded ridge; tracks curl behind."
+    },
+    {
+      "number": 9,
+      "text": "At the top, they found a wide, quiet overlook with Earth glowing like a blue marble far away.",
+      "illustrationScene": "At the ridge top, they find a quiet overlook with Earth glowing like a blue marble far away.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Same overlook as pages 10–11; Earth as blue marble."
+    },
+    {
+      "number": 10,
+      "text": "From that same overlook, Mica and Tillo watched Earth shine while the stars twinkled softly above.",
+      "illustrationScene": "From the same overlook, Mica and Tillo watch Earth shine while stars twinkle softly above.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Continue at exact same overlook; Earth and stars."
+    },
+    {
+      "number": 11,
+      "text": "A peaceful hush settled over the ridge, and Tillo gave a small, sleepy yawn.",
+      "illustrationScene": "A peaceful hush settles over the ridge as Tillo gives a small sleepy yawn.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "quiet ridge night",
+      "continuityNotes": "Same ridge overlook; Tillo yawns sleepily."
+    },
+    {
+      "number": 12,
+      "text": "The friends turned toward their cozy moon nook, following their own familiar tracks home.",
+      "illustrationScene": "The friends turn toward their cozy moon nook, following their own familiar tracks home.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Return along familiar tracks toward stone-arch nook."
+    },
+    {
+      "number": 13,
+      "text": "Back beneath the curved stone arch, Mica parked beside Tillo on their two soft resting pads.",
+      "illustrationScene": "Back beneath the curved stone arch, Mica parks beside Tillo on their two soft resting pads.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "sheltered arch night",
+      "continuityNotes": "Stone arch; Mica left yellow pad, Tillo right coral pad."
+    },
+    {
+      "number": 14,
+      "text": "With the crystal trail glimmering beyond the arch, the little rovers let their eyelids grow heavy.",
+      "illustrationScene": "With the crystal trail glimmering beyond the arch, the little rovers let their eyelids grow heavy.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "lunar night",
+      "continuityNotes": "Same arch nook; eyelids heavy; crystal trail beyond."
+    },
+    {
+      "number": 15,
+      "text": "Under the still, starry sky, Mica and Tillo closed their eyes and drifted peacefully to sleep side by side.",
+      "illustrationScene": "Under the still starry sky, Mica and Tillo sleep peacefully side by side with eyes closed.",
+      "requiredCharacters": [
+        "Mica",
+        "Tillo"
+      ],
+      "timeOfDay": "deep restful lunar night",
+      "continuityNotes": "Same pads; both fully asleep; peaceful ending."
+    }
+  ]
+}

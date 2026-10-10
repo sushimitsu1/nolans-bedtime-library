@@ -2549,6 +2549,29 @@ narration: [
   "Under the kind silver moon, Juniper and Thistle closed their eyes and slept soundly, dreaming of quiet books and whispering trees.",
 ]
 },
+{
+id: "mica-the-moon-rover-and-the-sleepy-star-trail", title: "Mica the Moon Rover and the Sleepy Star Trail", category: "Space",
+description: "A little yellow moon rover and a smaller coral friend follow a sparkling crystal trail to a quiet overlook, then roll home to sleep under a stone arch.",
+keywords: ["mica", "moon rover", "tillo", "sleepy star trail", "space", "bedtime", "crystals"],
+cover: "assets/books/mica-the-moon-rover-and-the-sleepy-star-trail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/mica-the-moon-rover-and-the-sleepy-star-trail/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "On the quiet silver moon, a little rover named Mica woke beneath a sky sprinkled with stars.",
+  "Mica rolled past a row of round craters, making tiny, tidy tracks in the powdery dust.",
+  "Beside a smooth blue-gray stone, Mica noticed a trail of sparkling moon crystals.",
+  "A smaller rover named Tillo rolled over to look, and the two friends shared a delighted smile.",
+  "Together they followed the crystal trail between three gentle hills that looked like sleeping pillows.",
+  "Mica paused beside a shallow crater where starlight shimmered on the pale, glassy ground.",
+  "Tillo spotted a little cluster of crystals shaped like a flower, but they only admired it without touching.",
+  "The friends climbed a low, rounded ridge, their wheel tracks curling neatly behind them.",
+  "At the top, they found a wide, quiet overlook with Earth glowing like a blue marble far away.",
+  "From that same overlook, Mica and Tillo watched Earth shine while the stars twinkled softly above.",
+  "A peaceful hush settled over the ridge, and Tillo gave a small, sleepy yawn.",
+  "The friends turned toward their cozy moon nook, following their own familiar tracks home.",
+  "Back beneath the curved stone arch, Mica parked beside Tillo on their two soft resting pads.",
+  "With the crystal trail glimmering beyond the arch, the little rovers let their eyelids grow heavy.",
+  "Under the still, starry sky, Mica and Tillo closed their eyes and drifted peacefully to sleep side by side.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
