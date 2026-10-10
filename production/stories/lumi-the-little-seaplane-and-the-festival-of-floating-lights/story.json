@@ -1,0 +1,198 @@
+{
+  "title": "Lumi the Little Seaplane and the Festival of Floating Lights",
+  "slug": "lumi-the-little-seaplane-and-the-festival-of-floating-lights",
+  "category": "Airplanes",
+  "description": "A little lavender seaplane and her mint-green friend glide above a lakeside Festival of Floating Lights, then rest side by side in their cozy boathouse under the moon.",
+  "characterBible": {
+    "Lumi": {
+      "role": "Main character; a little seaplane",
+      "color": "Soft lavender fuselage and wings with a warm creamy-white belly, nose, and twin pontoons",
+      "bodyShape": "Small rounded high-wing seaplane with exactly two creamy-white floats, one front two-blade propeller, and chubby childlike proportions; no wheels, arms, or hands",
+      "face": "Two large expressive dark-brown eyes on the forward windshield and a small sweet smile on the creamy-white front nose",
+      "accessories": "Exactly one small golden-yellow five-point star on each visible side of the lavender tail fin"
+    },
+    "Fable": {
+      "role": "Supporting character; a tiny mint-green seaplane",
+      "color": "Pale mint-green fuselage and wings with a light buttercream belly, nose, and petite twin pontoons",
+      "bodyShape": "Visibly smaller high-wing seaplane about 75% of Lumi size, with exactly two buttercream floats and one front two-blade propeller; no wheels, arms, or hands",
+      "face": "Two large expressive deep-hazel eyes on the forward windshield and a small cheerful curved smile below",
+      "accessories": "Exactly one small solid coral-pink circular marking on each visible side of the mint-green tail fin"
+    }
+  },
+  "settingBible": {
+    "Lantern Lake Valley": "A peaceful mountain lake with a honey-brown wooden dock, sage-green boathouse, pastel village, willow trees, floating golden lanterns, and rounded blue-violet mountains",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded seaplanes, golden evening fading to moonlit festival lights, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Lumi stays lavender with creamy-white pontoons, windshield eyes, and one golden tail star per visible side.",
+    "Fable stays mint green with buttercream pontoons, a coral-pink tail circle, and first appears on page 4.",
+    "Fable remains about 75% of Lumi size.",
+    "Floating lanterns appear on the water from page 6 onward; the festival stays gentle with no fireworks or danger.",
+    "Pages 14–15 show both seaplanes resting and asleep side by side in the boathouse.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Beside a sparkling blue lake, a little lavender seaplane named Lumi loved gliding across the water.",
+      "illustrationScene": "Lavender seaplane Lumi glides across a sparkling blue lake watching fluffy clouds drift overhead.",
+      "requiredCharacters": [
+        "Lumi"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Lock Lumi: soft lavender, creamy-white nose/pontoons, golden tail star, dark-brown windshield eyes, two floats. Fable absent."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Lumi rested near a cozy wooden dock while the distant mountains turned golden in the setting sun.",
+      "illustrationScene": "Every evening Lumi rests near a cozy wooden dock as distant mountains turn golden in the setting sun.",
+      "requiredCharacters": [
+        "Lumi"
+      ],
+      "timeOfDay": "golden-hour sunset",
+      "continuityNotes": "Lumi alone near dock and sage-green boathouse; golden sunset."
+    },
+    {
+      "number": 3,
+      "text": "One special evening, the lakeside village began preparing for its Festival of Floating Lights with glowing lanterns.",
+      "illustrationScene": "The lakeside village prepares for the Festival of Floating Lights, hanging glowing lanterns along docks and paths.",
+      "requiredCharacters": [
+        "Lumi"
+      ],
+      "timeOfDay": "early sunset",
+      "continuityNotes": "Lumi alone watching festival preparations; hanging lanterns begin glowing."
+    },
+    {
+      "number": 4,
+      "text": "Lumi's friend, a tiny mint-green seaplane named Fable, floated over and whispered that tonight the whole lake would sparkle.",
+      "illustrationScene": "Tiny mint-green seaplane Fable floats over with a happy smile and joins Lumi on the water.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "warm pink twilight",
+      "continuityNotes": "Introduce Fable: pale mint green, buttercream floats, coral-pink tail circle, ~75% Lumi size."
+    },
+    {
+      "number": 5,
+      "text": "As the sun slipped behind the mountains, Lumi and Fable gently lifted into the evening sky.",
+      "illustrationScene": "Lumi and Fable gently lift into the evening sky as the sun slips behind the mountains.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "late sunset",
+      "continuityNotes": "Both take off gently; no danger or racing."
+    },
+    {
+      "number": 6,
+      "text": "Below them, families placed beautiful floating lanterns onto the quiet lake until its surface shimmered with soft light.",
+      "illustrationScene": "From above, families place floating lanterns on the quiet lake until the surface shimmers with soft light.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "early dusk",
+      "continuityNotes": "Airborne above floating lanterns starting on the lake."
+    },
+    {
+      "number": 7,
+      "text": "“Look, Fable,” Lumi whispered, for the lanterns looked like sleepy stars floating on the water.",
+      "illustrationScene": "Lumi whispers that the lanterns look like sleepy stars floating on the water.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Lanterns like sleepy stars; calm wonder."
+    },
+    {
+      "number": 8,
+      "text": "The two little seaplanes flew slowly above the festival, watching colorful lights glow between rooftops and willow trees.",
+      "illustrationScene": "The two little seaplanes fly slowly above the festival near village rooftops and tall willow trees.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "blue-hour twilight",
+      "continuityNotes": "Slow flight near rooftops and willows, above hanging lights."
+    },
+    {
+      "number": 9,
+      "text": "A gentle evening breeze carried soft music from the village square, but the tiny bells only chimed as lanterns swayed.",
+      "illustrationScene": "A gentle breeze carries soft village-square music as lanterns sway beneath a deepening purple sky.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Village square lanterns and tiny bells; soft music mood."
+    },
+    {
+      "number": 10,
+      "text": "Lumi and Fable circled above the moonlit lake, admiring golden ribbons of lantern light across the still, dark water.",
+      "illustrationScene": "Lumi and Fable circle above the moonlit lake where floating lanterns make golden ribbons of light.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Moonlit lake circle; golden lantern ribbons."
+    },
+    {
+      "number": 11,
+      "text": "“I wish we could keep this beautiful evening forever,” Lumi murmured, as the first bright stars twinkled above.",
+      "illustrationScene": "Lumi murmurs wishing to keep the beautiful evening as bright stars twinkle above quiet mountains.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Night over far lake; stars; Lumi quiet wonder."
+    },
+    {
+      "number": 12,
+      "text": "“We can remember it in our dreams,” Fable replied sleepily, and together they glided toward their familiar wooden dock.",
+      "illustrationScene": "Fable replies sleepily and together they glide toward their familiar wooden dock.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Turn toward familiar dock; Fable sleepy; together."
+    },
+    {
+      "number": 13,
+      "text": "With two tiny splashes, the friends settled onto the calm lake and drifted slowly home.",
+      "illustrationScene": "With two tiny splashes the friends settle onto the calm lake and drift slowly home.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Land with tiny splashes near dock; drowsy."
+    },
+    {
+      "number": 14,
+      "text": "Beneath their cozy lakeside boathouse, Lumi and Fable rested side by side as the last lanterns glimmered across the water.",
+      "illustrationScene": "Inside their cozy lakeside boathouse, Lumi and Fable rest side by side as last lanterns glimmer outside.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "Side by side in open-front boathouse berths; distant lanterns."
+    },
+    {
+      "number": 15,
+      "text": "Under the silver moon and quiet stars, Lumi and Fable closed their sleepy eyes and drifted peacefully to sleep.",
+      "illustrationScene": "Under the silver moon, Lumi and Fable sleep peacefully side by side in the boathouse with eyes closed.",
+      "requiredCharacters": [
+        "Lumi",
+        "Fable"
+      ],
+      "timeOfDay": "deep peaceful night",
+      "continuityNotes": "Both fully asleep in same boathouse positions; peaceful ending."
+    }
+  ]
+}

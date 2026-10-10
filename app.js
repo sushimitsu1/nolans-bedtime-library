@@ -2503,6 +2503,29 @@ narration: [
   "As the moon shone over the peaceful dinosaur valley, the two little friends drifted into a deep, happy sleep.",
 ]
 },
+{
+id: "lumi-the-little-seaplane-and-the-festival-of-floating-lights", title: "Lumi the Little Seaplane and the Festival of Floating Lights", category: "Airplanes",
+description: "A little lavender seaplane and her mint-green friend glide above a lakeside Festival of Floating Lights, then rest side by side in their cozy boathouse under the moon.",
+keywords: ["lumi", "seaplane", "fable", "floating lights", "airplanes", "bedtime", "lanterns"],
+cover: "assets/books/lumi-the-little-seaplane-and-the-festival-of-floating-lights/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/lumi-the-little-seaplane-and-the-festival-of-floating-lights/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Beside a sparkling blue lake, a little lavender seaplane named Lumi loved gliding across the water.",
+  "Every evening, Lumi rested near a cozy wooden dock while the distant mountains turned golden in the setting sun.",
+  "One special evening, the lakeside village began preparing for its Festival of Floating Lights with glowing lanterns.",
+  "Lumi's friend, a tiny mint-green seaplane named Fable, floated over and whispered that tonight the whole lake would sparkle.",
+  "As the sun slipped behind the mountains, Lumi and Fable gently lifted into the evening sky.",
+  "Below them, families placed beautiful floating lanterns onto the quiet lake until its surface shimmered with soft light.",
+  "“Look, Fable,” Lumi whispered, for the lanterns looked like sleepy stars floating on the water.",
+  "The two little seaplanes flew slowly above the festival, watching colorful lights glow between rooftops and willow trees.",
+  "A gentle evening breeze carried soft music from the village square, but the tiny bells only chimed as lanterns swayed.",
+  "Lumi and Fable circled above the moonlit lake, admiring golden ribbons of lantern light across the still, dark water.",
+  "“I wish we could keep this beautiful evening forever,” Lumi murmured, as the first bright stars twinkled above.",
+  "“We can remember it in our dreams,” Fable replied sleepily, and together they glided toward their familiar wooden dock.",
+  "With two tiny splashes, the friends settled onto the calm lake and drifted slowly home.",
+  "Beneath their cozy lakeside boathouse, Lumi and Fable rested side by side as the last lanterns glimmered across the water.",
+  "Under the silver moon and quiet stars, Lumi and Fable closed their sleepy eyes and drifted peacefully to sleep.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
