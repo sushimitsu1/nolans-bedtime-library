@@ -1,0 +1,880 @@
+{
+  "storySlug": "corin-the-little-seahorse-and-the-evening-reef-song",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-01.png",
+      "text": "As the evening ocean turned golden, Corin the little seahorse swayed beside his favorite coral garden.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-02.png",
+      "text": "He listened to the bubbles rising through the sea grass, making a soft plip-plip-plip.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-03.png",
+      "text": "A gentle current brushed the coral branches, and Corin heard a whispery shhh.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-04.png",
+      "text": "His friend Ebi, a tiny silver fish, swam over and asked what made Corin smile.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-05.png",
+      "text": "“The reef is singing,” Corin said, and together they listened to the bubbly, swishy tune.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-06.png",
+      "text": "They floated past three round sea anemones whose waving tips moved to the music.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-07.png",
+      "text": "Near a smooth shell-shaped stone, little pebbles clicked softly as the water rolled by.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-08.png",
+      "text": "Ebi flicked her tail in time, but Corin only twirled once in a slow, happy circle.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-09.png",
+      "text": "Above the reef, the last warm sunlight faded into a calm lavender-blue glow.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-10.png",
+      "text": "From a quiet sandy clearing, they listened as the bubbles, coral, and pebbles made one sleepy song.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-11.png",
+      "text": "Ebi gave a tiny yawn, and Corin felt his own eyes growing wonderfully heavy.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-12.png",
+      "text": "Side by side, they followed the familiar sea-grass path back to Corin's coral nook.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-13.png",
+      "text": "Beside the nook, Ebi nestled into her small fan-shaped sea-grass bed while Corin curled his tail around a soft coral stem.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-14.png",
+      "text": "In the deep-blue hush, the reef kept humming its gentle lullaby as both friends closed their eyes.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/corin-the-little-seahorse-and-the-evening-reef-song/staging/corin-the-little-seahorse-and-the-evening-reef-song/illustrations/page-15.png",
+      "text": "Beneath the quiet moonlit water, Corin and Ebi drifted peacefully to sleep, tucked close together in their cozy reef home.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Corin",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Ebi",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

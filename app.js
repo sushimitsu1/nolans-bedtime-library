@@ -2572,6 +2572,29 @@ narration: [
   "Under the still, starry sky, Mica and Tillo closed their eyes and drifted peacefully to sleep side by side.",
 ]
 },
+{
+id: "corin-the-little-seahorse-and-the-evening-reef-song", title: "Corin the Little Seahorse and the Evening Reef Song", category: "Ocean Animals",
+description: "A little apricot seahorse and a tiny silver fish listen to the gentle evening song of their coral reef, then settle to sleep in their cozy reef nook.",
+keywords: ["corin", "seahorse", "ebi", "evening reef song", "ocean animals", "bedtime", "coral"],
+cover: "assets/books/corin-the-little-seahorse-and-the-evening-reef-song/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/corin-the-little-seahorse-and-the-evening-reef-song/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "As the evening ocean turned golden, Corin the little seahorse swayed beside his favorite coral garden.",
+  "He listened to the bubbles rising through the sea grass, making a soft plip-plip-plip.",
+  "A gentle current brushed the coral branches, and Corin heard a whispery shhh.",
+  "His friend Ebi, a tiny silver fish, swam over and asked what made Corin smile.",
+  "“The reef is singing,” Corin said, and together they listened to the bubbly, swishy tune.",
+  "They floated past three round sea anemones whose waving tips moved to the music.",
+  "Near a smooth shell-shaped stone, little pebbles clicked softly as the water rolled by.",
+  "Ebi flicked her tail in time, but Corin only twirled once in a slow, happy circle.",
+  "Above the reef, the last warm sunlight faded into a calm lavender-blue glow.",
+  "From a quiet sandy clearing, they listened as the bubbles, coral, and pebbles made one sleepy song.",
+  "Ebi gave a tiny yawn, and Corin felt his own eyes growing wonderfully heavy.",
+  "Side by side, they followed the familiar sea-grass path back to Corin's coral nook.",
+  "Beside the nook, Ebi nestled into her small fan-shaped sea-grass bed while Corin curled his tail around a soft coral stem.",
+  "In the deep-blue hush, the reef kept humming its gentle lullaby as both friends closed their eyes.",
+  "Beneath the quiet moonlit water, Corin and Ebi drifted peacefully to sleep, tucked close together in their cozy reef home.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

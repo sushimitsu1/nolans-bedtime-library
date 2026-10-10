@@ -1,0 +1,198 @@
+{
+  "title": "Corin the Little Seahorse and the Evening Reef Song",
+  "slug": "corin-the-little-seahorse-and-the-evening-reef-song",
+  "category": "Ocean Animals",
+  "description": "A little apricot seahorse and a tiny silver fish listen to the gentle evening song of their coral reef, then settle to sleep in their cozy reef nook.",
+  "characterBible": {
+    "Corin": {
+      "role": "Main character; a baby seahorse",
+      "color": "Warm apricot-orange with a pale buttery-peach belly and muzzle, a cream five-point star on his left cheek, and three pale coral-pink spots on the outer back of his neck",
+      "bodyShape": "Baby seahorse about twice Ebi height, with a rounded forehead, short tubular snout, plump curved belly, tiny translucent dorsal fin, two small side fins, and a neatly curled prehensile tail; no arms, hands, or clothing",
+      "face": "Large dark espresso-brown eyes with tiny white catchlights and a gentle smile",
+      "accessories": "None"
+    },
+    "Ebi": {
+      "role": "Supporting character; a tiny silver fish",
+      "color": "Pearl-silver body with a powder-blue back, clean white belly, and a single muted lavender teardrop patch behind her right eye",
+      "bodyShape": "Tiny oval fish about half Corin height, with a rounded nose, one small dorsal fin, two side fins, and a softly forked tail; no arms, hands, or clothing",
+      "face": "Wide dark charcoal eyes with minimal white catchlights and a small smiling mouth",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Evening Coral Reef": "A sheltered tropical reef with a C-shaped peach-pink coral arch, jade sea-grass bed, bubble column, three mauve anemones, a cream shell-shaped stone, a sandy clearing, and a winding sage sea-grass path",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded ocean animals, golden evening fading to moonlit blue, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Corin stays apricot-orange with a cream left-cheek star and three neck spots.",
+    "Ebi stays smaller pearl-silver with a lavender teardrop behind her right eye and first appears on page 4.",
+    "Ebi is absent from pages 1–3.",
+    "Pages 13–15 keep Corin on the left coral stem and Ebi in the right sea-grass bed.",
+    "No rescue, danger, instruments, or written music symbols.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "As the evening ocean turned golden, Corin the little seahorse swayed beside his favorite coral garden.",
+      "illustrationScene": "Little apricot seahorse Corin sways beside his favorite coral garden as the evening ocean turns golden.",
+      "requiredCharacters": [
+        "Corin"
+      ],
+      "timeOfDay": "late-afternoon golden",
+      "continuityNotes": "Lock Corin: apricot-orange, peach belly, cream star on LEFT cheek, three pale spots on neck back. Ebi absent."
+    },
+    {
+      "number": 2,
+      "text": "He listened to the bubbles rising through the sea grass, making a soft plip-plip-plip.",
+      "illustrationScene": "Corin listens alone to bubbles rising through the sea grass with a soft plip-plip-plip.",
+      "requiredCharacters": [
+        "Corin"
+      ],
+      "timeOfDay": "late-afternoon golden",
+      "continuityNotes": "Corin alone by bubble column and sea grass."
+    },
+    {
+      "number": 3,
+      "text": "A gentle current brushed the coral branches, and Corin heard a whispery shhh.",
+      "illustrationScene": "A gentle current brushes coral branches while Corin alone hears a whispery shhh.",
+      "requiredCharacters": [
+        "Corin"
+      ],
+      "timeOfDay": "late-afternoon golden",
+      "continuityNotes": "Corin alone listening beside coral branches."
+    },
+    {
+      "number": 4,
+      "text": "His friend Ebi, a tiny silver fish, swam over and asked what made Corin smile.",
+      "illustrationScene": "Tiny silver fish Ebi swims over from the right and asks what made Corin smile.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "warm late afternoon",
+      "continuityNotes": "Introduce Ebi: pearl-silver fish, powder-blue back, lavender teardrop behind RIGHT eye; half Corin height."
+    },
+    {
+      "number": 5,
+      "text": "“The reef is singing,” Corin said, and together they listened to the bubbly, swishy tune.",
+      "illustrationScene": "Corin says the reef is singing, and together they listen to the bubbly swishy tune.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "golden hour",
+      "continuityNotes": "Together listening at bubble-column area."
+    },
+    {
+      "number": 6,
+      "text": "They floated past three round sea anemones whose waving tips moved to the music.",
+      "illustrationScene": "They float past three round mauve sea anemones whose waving tips move to the music.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "softening sunset",
+      "continuityNotes": "Exactly three mauve anemones on flat beige rock."
+    },
+    {
+      "number": 7,
+      "text": "Near a smooth shell-shaped stone, little pebbles clicked softly as the water rolled by.",
+      "illustrationScene": "Near a smooth cream shell-shaped stone, little pebbles click softly as water rolls by.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "pale apricot sunset",
+      "continuityNotes": "Cream shell-shaped stone and pebbles."
+    },
+    {
+      "number": 8,
+      "text": "Ebi flicked her tail in time, but Corin only twirled once in a slow, happy circle.",
+      "illustrationScene": "Ebi flicks her tail in time while Corin twirls once in a slow happy circle.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "sunset peach and lavender",
+      "continuityNotes": "Still at shell-stone area; one modest twirl."
+    },
+    {
+      "number": 9,
+      "text": "Above the reef, the last warm sunlight faded into a calm lavender-blue glow.",
+      "illustrationScene": "Above the reef, the last warm sunlight fades into a calm lavender-blue glow.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "early twilight",
+      "continuityNotes": "Near edge of sandy clearing; light dims."
+    },
+    {
+      "number": 10,
+      "text": "From a quiet sandy clearing, they listened as the bubbles, coral, and pebbles made one sleepy song.",
+      "illustrationScene": "From a quiet sandy clearing, they listen as bubbles, coral, and pebbles make one sleepy song.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "twilight indigo-lavender",
+      "continuityNotes": "Same sandy clearing; listening to reef song."
+    },
+    {
+      "number": 11,
+      "text": "Ebi gave a tiny yawn, and Corin felt his own eyes growing wonderfully heavy.",
+      "illustrationScene": "Ebi yawns and Corin feels his eyes growing wonderfully heavy in the same clearing.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "deeper evening blue",
+      "continuityNotes": "Same clearing; sleepy but still present."
+    },
+    {
+      "number": 12,
+      "text": "Side by side, they followed the familiar sea-grass path back to Corin's coral nook.",
+      "illustrationScene": "Side by side they follow the familiar sea-grass path back toward Corin's coral nook.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "soft dusk-blue",
+      "continuityNotes": "Homeward on sea-grass path; peach-pink arch ahead."
+    },
+    {
+      "number": 13,
+      "text": "Beside the nook, Ebi nestled into her small fan-shaped sea-grass bed while Corin curled his tail around a soft coral stem.",
+      "illustrationScene": "At home, Ebi nestles in her right sea-grass bed while Corin curls his tail around a left coral stem.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "night-blue",
+      "continuityNotes": "Home nook: Corin LEFT on coral stem, Ebi RIGHT in sea-grass bed; awake/drowsy."
+    },
+    {
+      "number": 14,
+      "text": "In the deep-blue hush, the reef kept humming its gentle lullaby as both friends closed their eyes.",
+      "illustrationScene": "In the deep-blue hush, both friends close their eyes as the reef hums a gentle lullaby.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "deep ocean blue moonlight",
+      "continuityNotes": "Exact same LEFT/RIGHT arrangement; eyes closed."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the quiet moonlit water, Corin and Ebi drifted peacefully to sleep, tucked close together in their cozy reef home.",
+      "illustrationScene": "Beneath quiet moonlit water, Corin and Ebi sleep peacefully tucked close in their cozy reef home.",
+      "requiredCharacters": [
+        "Corin",
+        "Ebi"
+      ],
+      "timeOfDay": "soft moonlit midnight-blue",
+      "continuityNotes": "Exact same nook; both fully asleep; peaceful ending."
+    }
+  ]
+}
