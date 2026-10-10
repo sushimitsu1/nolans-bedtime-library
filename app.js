@@ -2641,6 +2641,29 @@ narration: [
   "Beneath the quiet stars, Theo and Maren drifted peacefully to sleep while soft snow tucked their mountain home into silence.",
 ]
 },
+{
+id: "nori-the-little-helicopter-and-the-moonlight-mail", title: "Nori the Little Helicopter and the Moonlight Mail", category: "Airplanes",
+description: "A little turquoise helicopter and her lavender glider friend deliver moonlight postcards across a peaceful valley, then settle to sleep at their hilltop post office under the moon.",
+keywords: ["nori", "helicopter", "sora", "glider", "moonlight mail", "postcards", "airplanes", "bedtime", "valley"],
+cover: "assets/books/nori-the-little-helicopter-and-the-moonlight-mail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/nori-the-little-helicopter-and-the-moonlight-mail/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a peaceful valley surrounded by gentle green hills, a little turquoise helicopter named Nori loved flying through the soft evening sky.",
+  "Every evening, Nori rested on a small hilltop helipad beside a cheerful little post office with a bright orange roof.",
+  "One golden evening, Nori wore her cream mail pouch and noticed a little basket of moonlight postcards waiting beside the post office door.",
+  "Her friend Sora, a tiny lavender delivery glider, said the postcards were for friends across the valley.",
+  "Together they carefully tucked the little postcards into Nori's snug delivery pouch.",
+  "The two friends lifted into the evening sky, floating past sleepy clouds that glowed pink and gold.",
+  "Their first stop was a little farmhouse, where a warm window glimmered among rows of lavender flowers.",
+  "Nori gently placed one moonlight postcard into the farmhouse mailbox, but Sora still circled slowly through the quiet air.",
+  "Farther along the valley, a soft evening breeze carried the friends above a silver stream where tiny fireflies twinkled.",
+  "At a cozy cottage beside the stream, Sora guided Nori toward another little mailbox glowing beneath a golden porch lantern.",
+  "With the last postcard delivered, Nori looked up and saw the first bright stars sparkling above the peaceful valley.",
+  "The whole valley was getting ready for sleep as they began their gentle journey home together beneath the rising moon.",
+  "A cool nighttime breeze brushed Nori's rotor, and Sora gave a sleepy little yawn as the familiar orange roof came into view.",
+  "Back at the hilltop, Nori settled onto the cozy helipad while Sora rested in a little sheltered glider nook beside the post office.",
+  "Beneath the silver moon and a sky full of gentle stars, Nori and Sora closed their sleepy eyes and drifted peacefully to sleep.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

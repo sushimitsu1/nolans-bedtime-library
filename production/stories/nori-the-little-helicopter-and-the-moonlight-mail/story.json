@@ -1,0 +1,200 @@
+{
+  "title": "Nori the Little Helicopter and the Moonlight Mail",
+  "slug": "nori-the-little-helicopter-and-the-moonlight-mail",
+  "category": "Airplanes",
+  "description": "A little turquoise helicopter and her lavender glider friend deliver moonlight postcards across a peaceful valley, then settle to sleep at their hilltop post office under the moon.",
+  "characterBible": {
+    "Nori": {
+      "role": "Main character; a small friendly civilian helicopter",
+      "color": "Soft ocean turquoise with ivory landing skids, charcoal-gray rotors, and one golden-yellow stripe on the tail fin",
+      "bodyShape": "Compact rounded egg-shaped fuselage with a short tail boom, exactly two main rotor blades, a small two-blade tail rotor, and two short ivory skids; no arms, hands, legs, numbers, or lettering",
+      "face": "Two large dark-brown eyes inside the upper front windshield and a small curved smile on the nose below the windshield",
+      "accessories": "Small cream fabric mail pouch on the right side with a tiny embroidered golden crescent moon; already worn from page 3 onward"
+    },
+    "Sora": {
+      "role": "Supporting character; a tiny lavender delivery glider who first appears on page 4",
+      "color": "Soft pastel lavender with cream wingtip stripes and a pale-yellow star near the base of the vertical tail",
+      "bodyShape": "Small rounded unpowered glider about half Nori's body length, with two long curved wings, one vertical fin, two horizontal stabilizers, one tiny cream wheel, and one small rear skid; no engine, rotor, propeller, arms, or hands",
+      "face": "Two large warm hazel-brown eyes inside a single rounded canopy and a soft smile on the nose",
+      "accessories": "None beyond the fixed yellow tail star and cream wingtip stripes"
+    }
+  },
+  "settingBible": {
+    "Moonlight Valley": "A peaceful countryside valley with a hilltop post office, a lavender farmhouse, a winding silver stream, and a cozy stone cottage under a soft evening-to-moonlight sky",
+    "Hilltop Post Office": "A small honey-wood post office with a burnt-orange roof, pale-blue door, amber porch lantern, circular stone helipad, wicker postcard basket, and an open-front wooden glider nook with a powder-blue cushion",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded aircraft, golden evening fading to moonlit blue, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Nori keeps turquoise body, ivory skids, two-blade rotors, yellow tail stripe, and cream mail pouch already worn from page 3.",
+    "Sora stays a smaller lavender glider with cream wingtip stripes and a yellow tail star, and first appears on page 4.",
+    "Sora is absent from pages 1–3.",
+    "Postcards fill the pouch on page 5, are delivered on pages 8 and 10, and the pouch is empty from page 11 onward.",
+    "Pages 14–15 keep Nori on the helipad and Sora in the glider nook at the same hilltop post office.",
+    "No rescue, danger, storm, lettering, logos, or extra named characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a peaceful valley surrounded by gentle green hills, a little turquoise helicopter named Nori loved flying through the soft evening sky.",
+      "illustrationScene": "Turquoise helicopter Nori hovers happily above a cozy hillside village in warm late-afternoon sunlight.",
+      "requiredCharacters": [
+        "Nori"
+      ],
+      "timeOfDay": "warm late afternoon",
+      "continuityNotes": "Nori alone; Sora absent."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Nori rested on a small hilltop helipad beside a cheerful little post office with a bright orange roof.",
+      "illustrationScene": "Nori rests alone on the circular hilltop helipad beside the wooden post office with a bright orange roof.",
+      "requiredCharacters": [
+        "Nori"
+      ],
+      "timeOfDay": "warm late afternoon at helipad",
+      "continuityNotes": "Nori alone; Sora absent."
+    },
+    {
+      "number": 3,
+      "text": "One golden evening, Nori wore her cream mail pouch and noticed a little basket of moonlight postcards waiting beside the post office door.",
+      "illustrationScene": "Nori already wearing her cream mail pouch looks curiously at a wicker basket of moonlight postcards by the post office door.",
+      "requiredCharacters": [
+        "Nori"
+      ],
+      "timeOfDay": "early sunset peach and lavender",
+      "continuityNotes": "Nori alone; Sora absent. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 4,
+      "text": "Her friend Sora, a tiny lavender delivery glider, said the postcards were for friends across the valley.",
+      "illustrationScene": "Lavender glider Sora first appears beside Nori near the postcard basket as the sky turns peach and lavender.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "early sunset on the hilltop",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 5,
+      "text": "Together they carefully tucked the little postcards into Nori's snug delivery pouch.",
+      "illustrationScene": "Nori and Sora tuck the postcards into Nori's already-worn cream side pouch beside the post office.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "early sunset amber light",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 6,
+      "text": "The two friends lifted into the evening sky, floating past sleepy clouds that glowed pink and gold.",
+      "illustrationScene": "Nori hovers steadily with Sora gliding alongside above the valley under soft pink and gold clouds.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "late sunset pink and gold clouds",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 7,
+      "text": "Their first stop was a little farmhouse, where a warm window glimmered among rows of lavender flowers.",
+      "illustrationScene": "Nori and Sora approach a cream farmhouse with a blue roof, glowing window, lavender rows, and a wooden mailbox.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "late sunset into blue hour",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 8,
+      "text": "Nori gently placed one moonlight postcard into the farmhouse mailbox, but Sora still circled slowly through the quiet air.",
+      "illustrationScene": "Nori hovers low to place one postcard in the farmhouse mailbox while Sora glides in a gentle arc overhead.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "blue hour farmhouse delivery",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 9,
+      "text": "Farther along the valley, a soft evening breeze carried the friends above a silver stream where tiny fireflies twinkled.",
+      "illustrationScene": "Nori and Sora fly over a winding silver stream with fireflies among the reeds under deepening twilight.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "deepening twilight over the stream",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 10,
+      "text": "At a cozy cottage beside the stream, Sora guided Nori toward another little mailbox glowing beneath a golden porch lantern.",
+      "illustrationScene": "Sora guides Nori toward a stone cottage mailbox glowing beneath a golden porch lantern by the stream.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "twilight cottage lantern glow",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch."
+    },
+    {
+      "number": 11,
+      "text": "With the last postcard delivered, Nori looked up and saw the first bright stars sparkling above the peaceful valley.",
+      "illustrationScene": "Nori hovers beside the cottage mailbox with an empty delivery pouch as first stars sparkle above the valley.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "early night with first stars",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch. Pouch empty after last delivery."
+    },
+    {
+      "number": 12,
+      "text": "The whole valley was getting ready for sleep as they began their gentle journey home together beneath the rising moon.",
+      "illustrationScene": "Nori and Sora fly home toward the distant hilltop under a large soft-glowing crescent moon.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "calm moonlit night homebound",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch. Pouch empty after last delivery."
+    },
+    {
+      "number": 13,
+      "text": "A cool nighttime breeze brushed Nori's rotor, and Sora gave a sleepy little yawn as the familiar orange roof came into view.",
+      "illustrationScene": "Nori flies slowly beside sleepy Sora as the familiar orange post-office roof and amber helipad lights come into view.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "moonlit approach to the post office",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch. Pouch empty after last delivery."
+    },
+    {
+      "number": 14,
+      "text": "Back at the hilltop, Nori settled onto the cozy helipad while Sora rested in a little sheltered glider nook beside the post office.",
+      "illustrationScene": "Nori settles on the circular helipad with rotor slowing while Sora rests in the open-front glider nook with a blue cushion.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "peaceful late night at the hilltop",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch. Pouch empty after last delivery. Final rest: Nori on helipad, Sora in glider nook; eyes closed on page 15."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the silver moon and a sky full of gentle stars, Nori and Sora closed their sleepy eyes and drifted peacefully to sleep.",
+      "illustrationScene": "Nori sleeps on the helipad and Sora sleeps in the nearby glider nook, both with eyes fully closed under moonlight.",
+      "requiredCharacters": [
+        "Nori",
+        "Sora"
+      ],
+      "timeOfDay": "quiet moonlit bedtime",
+      "continuityNotes": "Nori and Sora; cream pouch continuity. Nori already wears the cream mail pouch. Pouch empty after last delivery. Final rest: Nori on helipad, Sora in glider nook; eyes closed on page 15."
+    }
+  ]
+}
