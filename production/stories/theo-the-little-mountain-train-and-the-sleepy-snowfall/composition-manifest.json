@@ -1,0 +1,889 @@
+{
+  "storySlug": "theo-the-little-mountain-train-and-the-sleepy-snowfall",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-01.png",
+      "text": "Theo the little mountain train puffed happily through the pine-covered valley as the afternoon sun gilded the tracks.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-02.png",
+      "text": "Tonight, Theo would carry a tiny music box to the hilltop chalet for its cozy evening gathering.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-03.png",
+      "text": "His friend Maren, a small mountain goat, waited by the station with the music box tucked in a soft blue cloth.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-04.png",
+      "text": "Theo stopped beside Maren, and together they settled the little music box safely into his open wagon.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-05.png",
+      "text": "With a cheerful toot, Theo rolled past snowy fir trees while Maren rode snugly in the wagon beside the box.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-06.png",
+      "text": "Little flakes drifted down as the mountain path curved gently between glowing cabin windows.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-07.png",
+      "text": "Maren listened to the hush of the snow, and Theo slowed his wheels to enjoy the peaceful evening.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-08.png",
+      "text": "At the hilltop chalet, warm golden lanterns shone, but Maren still carried the music box onto the sheltered porch.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-09.png",
+      "text": "The music box played a soft tinkling tune, and Theo listened from the track while the first stars appeared.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-10.png",
+      "text": "When the tune ended, Maren wrapped the music box again, and together the friends watched the snow settle over the rooftops.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-11.png",
+      "text": "Theo and Maren traveled slowly home beneath the lavender sky, with the music box snug in the wagon.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-12.png",
+      "text": "At the little valley station, Theo parked beside the wooden shed while Maren lifted the music box onto a dry shelf.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-13.png",
+      "text": "Maren curled into her straw-lined nook inside the shed, and Theo rested on his familiar siding just outside.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-14.png",
+      "text": "Moonlight silvered the snow as Maren closed her eyes and Theo's little headlamp dimmed to a gentle glow.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/theo-the-little-mountain-train-and-the-sleepy-snowfall/staging/theo-the-little-mountain-train-and-the-sleepy-snowfall/illustrations/page-15.png",
+      "text": "Beneath the quiet stars, Theo and Maren drifted peacefully to sleep while soft snow tucked their mountain home into silence.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Theo",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Maren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

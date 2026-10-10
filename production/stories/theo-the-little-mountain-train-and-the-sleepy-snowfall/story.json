@@ -1,0 +1,201 @@
+{
+  "title": "Theo the Little Mountain Train and the Sleepy Snowfall",
+  "slug": "theo-the-little-mountain-train-and-the-sleepy-snowfall",
+  "category": "Rail Vehicles",
+  "description": "A little teal mountain train and his mountain-goat friend carry a tiny music box up to a snowy hilltop chalet, then settle into a quiet valley sleep beneath soft snowfall.",
+  "characterBible": {
+    "Theo": {
+      "role": "Main character; a toy-like mountain steam locomotive",
+      "color": "Deep teal-blue boiler and cab with a warm cream cab roof, dark charcoal smokestack and undercarriage, brass-gold headlamp surround, and a cream front face plate",
+      "bodyShape": "Compact short rounded engine with four small dark steel wheels, a tiny brass bell behind the smokestack, and one permanently coupled low honey-brown open wagon; no arms, hands, legs, numbers, or lettering",
+      "face": "Only on the flat circular cream smokebox plate: two large dark-brown oval eyes, small curved eyebrows, rosy cheek dots, and a gentle curved smile; the headlamp is equipment, never an eye",
+      "accessories": "Single round warm-white front headlamp and a tiny brass bell"
+    },
+    "Maren": {
+      "role": "Supporting character; a small mountain goat who first appears on page 3",
+      "color": "Pale oatmeal fur with a creamy muzzle and belly, tiny curved cocoa-brown horns, dusty-rose inner ears, and cocoa-colored hooves",
+      "bodyShape": "Small young mountain goat shorter than Theo's cab doorway, with short rounded ears, a short tail, and four small hooves; no hands or upright human posture",
+      "face": "Dark-brown oval eyes, little charcoal-brown nose, and a gentle smile when awake",
+      "accessories": "Single muted cranberry-red knitted scarf wrapped once around her neck with two short ends"
+    }
+  },
+  "settingBible": {
+    "Alpine Mountain Railway": "A miniature alpine railway from a sheltered pine valley to one hilltop chalet, with narrow-gauge rails, snow-laden fir trees, warm cabin windows, and soft nonthreatening snowfall",
+    "Hilltop Chalet and Valley Shed": "A red-brown timber chalet with three hanging golden lanterns and a sheltered porch, plus a sage-green valley station with a wooden shed, dry shelf, and adjacent siding",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded train and goat, golden afternoon fading to moonlit blue snow, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Theo keeps his teal-blue body, cream face plate, brass headlamp, tiny bell, and exactly one honey-brown open wagon.",
+    "Maren stays smaller than Theo with oatmeal fur, tiny horns, and a cranberry-red scarf, and first appears on page 3.",
+    "Maren is absent from pages 1–2.",
+    "The music box travels wrapped in blue cloth, plays open on the chalet porch on page 9, and rests on the shed shelf from page 12 onward.",
+    "Pages 13–15 keep Maren in the right shed nook and Theo on the left siding in the same geography.",
+    "No rescue, danger, storm peril, music notes, lettering, or extra named characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Theo the little mountain train puffed happily through the pine-covered valley as the afternoon sun gilded the tracks.",
+      "illustrationScene": "Teal mountain train Theo puffs alone through a pine-covered valley as afternoon sun gilds the tracks.",
+      "requiredCharacters": [
+        "Theo"
+      ],
+      "timeOfDay": "late golden afternoon",
+      "continuityNotes": "Theo alone; Maren absent."
+    },
+    {
+      "number": 2,
+      "text": "Tonight, Theo would carry a tiny music box to the hilltop chalet for its cozy evening gathering.",
+      "illustrationScene": "Theo rolls alone on a valley curve with the distant hilltop chalet visible uphill in late afternoon light.",
+      "requiredCharacters": [
+        "Theo"
+      ],
+      "timeOfDay": "warmer late afternoon",
+      "continuityNotes": "Theo alone; Maren absent."
+    },
+    {
+      "number": 3,
+      "text": "His friend Maren, a small mountain goat, waited by the station with the music box tucked in a soft blue cloth.",
+      "illustrationScene": "Mountain goat Maren waits at the valley station with a music box wrapped in soft blue cloth as Theo arrives.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "golden afternoon at station",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 4,
+      "text": "Theo stopped beside Maren, and together they settled the little music box safely into his open wagon.",
+      "illustrationScene": "Theo and Maren settle the wrapped music box safely into Theo's open honey-brown wagon at the station.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "late afternoon at station",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 5,
+      "text": "With a cheerful toot, Theo rolled past snowy fir trees while Maren rode snugly in the wagon beside the box.",
+      "illustrationScene": "Theo climbs past snowy fir trees while Maren rides snugly in the wagon beside the wrapped music box.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "soft golden-hour climb",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 6,
+      "text": "Little flakes drifted down as the mountain path curved gently between glowing cabin windows.",
+      "illustrationScene": "Sparse snowflakes drift as Theo and Maren pass glowing cabin windows on the mountain path at early dusk.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "peach-to-lilac early dusk",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 7,
+      "text": "Maren listened to the hush of the snow, and Theo slowed his wheels to enjoy the peaceful evening.",
+      "illustrationScene": "Theo and Maren enjoy a quiet curved mountain track in lilac dusk with delicate snowfall.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "lilac dusk snowfall",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 8,
+      "text": "At the hilltop chalet, warm golden lanterns shone, but Maren still carried the music box onto the sheltered porch.",
+      "illustrationScene": "At the hilltop chalet, Maren carries the wrapped music box onto the sheltered porch while Theo waits on the track.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "purple-pink dusk lantern glow",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 9,
+      "text": "The music box played a soft tinkling tune, and Theo listened from the track while the first stars appeared.",
+      "illustrationScene": "On the chalet porch the open music box plays as Maren listens and Theo waits on the nearby track under first stars.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "blue-violet twilight with stars",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 10,
+      "text": "When the tune ended, Maren wrapped the music box again, and together the friends watched the snow settle over the rooftops.",
+      "illustrationScene": "Maren rewraps the closed music box while Theo and Maren watch gentle snow settle over the chalet rooftops.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "deeper blue twilight snowfall",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 11,
+      "text": "Theo and Maren traveled slowly home beneath the lavender sky, with the music box snug in the wagon.",
+      "illustrationScene": "Theo rolls slowly home on the descending track with Maren and the wrapped music box snug in the wagon.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "lavender-blue twilight into night",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity."
+    },
+    {
+      "number": 12,
+      "text": "At the little valley station, Theo parked beside the wooden shed while Maren lifted the music box onto a dry shelf.",
+      "illustrationScene": "At the valley station Maren places the music box on a dry shed shelf while Theo parks on the adjacent siding.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "early night shed lamplight",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity. Final geography: Maren RIGHT in shed nook, Theo LEFT on siding."
+    },
+    {
+      "number": 13,
+      "text": "Maren curled into her straw-lined nook inside the shed, and Theo rested on his familiar siding just outside.",
+      "illustrationScene": "Maren curls in her right straw-lined shed nook while Theo rests on the left siding just outside.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "quiet night shed and siding",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity. Final geography: Maren RIGHT in shed nook, Theo LEFT on siding."
+    },
+    {
+      "number": 14,
+      "text": "Moonlight silvered the snow as Maren closed her eyes and Theo's little headlamp dimmed to a gentle glow.",
+      "illustrationScene": "Same shed-and-siding view: Maren's eyes closed, Theo's headlamp dim, moonlight silvering the snow.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "deeper moonlit blue",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity. Final geography: Maren RIGHT in shed nook, Theo LEFT on siding. Eyes closed / asleep; no smoke."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the quiet stars, Theo and Maren drifted peacefully to sleep while soft snow tucked their mountain home into silence.",
+      "illustrationScene": "Same sleeping positions under quiet stars: Theo and Maren fully asleep as soft snow hushes their mountain home.",
+      "requiredCharacters": [
+        "Theo",
+        "Maren"
+      ],
+      "timeOfDay": "peaceful blue moonlit night",
+      "continuityNotes": "Theo and Maren; one wagon; music-box continuity. Final geography: Maren RIGHT in shed nook, Theo LEFT on siding. Eyes closed / asleep; no smoke."
+    }
+  ]
+}
