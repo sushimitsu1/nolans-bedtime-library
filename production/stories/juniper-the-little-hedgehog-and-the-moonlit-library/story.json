@@ -1,0 +1,199 @@
+{
+  "title": "Juniper the Little Hedgehog and the Moonlit Library",
+  "slug": "juniper-the-little-hedgehog-and-the-moonlit-library",
+  "category": "Animal Friends",
+  "description": "A little hedgehog and a tiny tawny owl share one last picture book in an oak-tree library, then walk home to sleep under the moon by a hollow beech.",
+  "characterBible": {
+    "Juniper": {
+      "role": "Main character; a little hedgehog",
+      "color": "Warm caramel-brown face and belly with short cocoa-brown spines tipped pale cream",
+      "bodyShape": "Small round-bodied juvenile hedgehog with four short paws, tiny rounded ears, and natural animal limbs only; no clothing",
+      "face": "Glossy dark-brown eyes, a little dark chocolate triangular nose, and a tiny cream crescent patch above the left eyebrow",
+      "accessories": "None"
+    },
+    "Thistle": {
+      "role": "Supporting character; a little tawny owlet",
+      "color": "Plush cinnamon-tan feathers with a pale oatmeal heart-shaped facial disk and three small cream feather dots on the upper chest",
+      "bodyShape": "Very small round owlet, visibly smaller than Juniper, with short soft head tufts, small rounded wings, and tiny golden feet; walks or perches and never flies",
+      "face": "Big dark-amber eyes and a tiny muted-gold beak",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Moonlit Woodland Library": "A snug oak-tree library with a round amber window, curved shelves, leaf-green cushion, and a nearby hollow beech with Thistle's nest and Juniper's moss nook along a mossy bluebell path",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded woodland animals, golden evening fading to moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Juniper stays caramel-brown with cream-tipped spines and a cream crescent above the left eyebrow.",
+    "Thistle stays a smaller cinnamon-tan owlet with three cream chest dots and first appears on page 4.",
+    "Thistle never flies in this story.",
+    "The picture book is opened on page 7, closed on page 10, and is not carried outside.",
+    "Pages 13–15 stay at the same sheltered beech-tree resting spot.",
+    "No rescue, danger, or frightening scenes.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a quiet woodland, a little hedgehog named Juniper loved the tiny library tucked inside an old oak tree.",
+      "illustrationScene": "Little hedgehog Juniper stands near a tiny library tucked inside an old oak tree in a quiet woodland.",
+      "requiredCharacters": [
+        "Juniper"
+      ],
+      "timeOfDay": "late golden-hour evening",
+      "continuityNotes": "Lock Juniper: caramel-brown face/belly, cocoa spines tipped cream, cream crescent above left eyebrow. Thistle absent."
+    },
+    {
+      "number": 2,
+      "text": "Each evening, Juniper followed the mossy path past bluebells and mushrooms to its round, golden window.",
+      "illustrationScene": "Each evening Juniper follows a mossy path past bluebells and mushrooms toward the library's round golden window.",
+      "requiredCharacters": [
+        "Juniper"
+      ],
+      "timeOfDay": "late golden-hour evening",
+      "continuityNotes": "Juniper alone on mossy path to oak library; golden window."
+    },
+    {
+      "number": 3,
+      "text": "Inside, cozy shelves curved around the tree, holding picture books about raindrops, butterflies, and stars.",
+      "illustrationScene": "Inside the oak library, cozy curved shelves hold picture books about raindrops, butterflies, and stars.",
+      "requiredCharacters": [
+        "Juniper"
+      ],
+      "timeOfDay": "late golden-hour evening",
+      "continuityNotes": "Juniper alone inside library; curved shelves; no readable book text."
+    },
+    {
+      "number": 4,
+      "text": "One dusky evening, Juniper found a little tawny owl named Thistle blinking sleepily beside the book basket.",
+      "illustrationScene": "Juniper finds little tawny owl Thistle blinking sleepily beside the woven book basket.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "dusky sunset",
+      "continuityNotes": "Introduce Thistle: cinnamon-tan owlet, oatmeal facial disk, three cream chest dots, smaller than Juniper; no flight."
+    },
+    {
+      "number": 5,
+      "text": "“Would you like to hear one last story?” Juniper asked, and Thistle nodded with a soft, happy hoot.",
+      "illustrationScene": "Juniper asks if Thistle would like one last story, and Thistle nods with a soft happy hoot.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "dusky sunset",
+      "continuityNotes": "Offer one last story; gentle, no urgency."
+    },
+    {
+      "number": 6,
+      "text": "They settled onto a round leaf-green cushion while fireflies began to sparkle outside the window.",
+      "illustrationScene": "They settle on a round leaf-green cushion while fireflies sparkle outside the window.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "early blue-hour twilight",
+      "continuityNotes": "Leaf-green cushion; fireflies outside."
+    },
+    {
+      "number": 7,
+      "text": "Juniper opened a picture book about a gentle river that carried fallen leaves beneath the silver moon.",
+      "illustrationScene": "Juniper opens a picture book about a gentle river carrying fallen leaves beneath the silver moon.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "early blue-hour twilight",
+      "continuityNotes": "Picture book opened; moon river story."
+    },
+    {
+      "number": 8,
+      "text": "As Juniper read, the oak leaves rustled overhead, but they only sounded like the whispering river in the story.",
+      "illustrationScene": "As Juniper reads, oak leaves rustle overhead like the whispering river in the story.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "early blue-hour twilight",
+      "continuityNotes": "Reading continues; rustling leaves."
+    },
+    {
+      "number": 9,
+      "text": "Thistle gave a tiny yawn and tucked one feathery wing close as the sky outside turned deep violet.",
+      "illustrationScene": "Thistle yawns and tucks one feathery wing close as the sky outside turns deep violet.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "deep violet twilight",
+      "continuityNotes": "Thistle yawns; violet sky outside."
+    },
+    {
+      "number": 10,
+      "text": "When the story ended, Juniper closed the book quietly and placed it back on its little wooden shelf.",
+      "illustrationScene": "Juniper closes the book quietly and places it back on its little wooden shelf.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "deep violet twilight",
+      "continuityNotes": "Book closed and returned to shelf; not carried outside."
+    },
+    {
+      "number": 11,
+      "text": "“The stars are waking up,” Juniper whispered, as the friends stepped onto the moonlit mossy path.",
+      "illustrationScene": "Juniper whispers that the stars are waking up as the friends step onto the moonlit mossy path.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "moonrise night",
+      "continuityNotes": "Step onto moonlit mossy path toward beech."
+    },
+    {
+      "number": 12,
+      "text": "Together they walked slowly to the neighboring hollow beech tree, where Thistle's snug nest waited beneath a leafy canopy.",
+      "illustrationScene": "Together they walk slowly to the neighboring hollow beech tree where Thistle's snug nest waits.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "moonrise night",
+      "continuityNotes": "Together walk to hollow beech nest."
+    },
+    {
+      "number": 13,
+      "text": "“Good night, little library,” Thistle murmured, while Juniper tucked a soft fallen leaf beside the nest.",
+      "illustrationScene": "Thistle murmurs good night to the little library while Juniper tucks a soft fallen leaf beside the nest.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "settled moonlit night",
+      "continuityNotes": "At beech resting spot; leaf by nest; still awake."
+    },
+    {
+      "number": 14,
+      "text": "Juniper curled into a moss-lined nook at the foot of the same beech tree, close enough to hear Thistle's peaceful breathing.",
+      "illustrationScene": "Juniper curls into a moss-lined nook at the foot of the beech tree near Thistle's nest.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "settled moonlit night",
+      "continuityNotes": "Juniper in moss nook below; Thistle in nest; drowsy."
+    },
+    {
+      "number": 15,
+      "text": "Under the kind silver moon, Juniper and Thistle closed their eyes and slept soundly, dreaming of quiet books and whispering trees.",
+      "illustrationScene": "Under the kind silver moon, Juniper and Thistle sleep soundly with eyes closed by the beech tree.",
+      "requiredCharacters": [
+        "Juniper",
+        "Thistle"
+      ],
+      "timeOfDay": "peaceful deep night",
+      "continuityNotes": "Both fully asleep under silver moon; peaceful ending."
+    }
+  ]
+}

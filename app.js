@@ -2526,6 +2526,29 @@ narration: [
   "Under the silver moon and quiet stars, Lumi and Fable closed their sleepy eyes and drifted peacefully to sleep.",
 ]
 },
+{
+id: "juniper-the-little-hedgehog-and-the-moonlit-library", title: "Juniper the Little Hedgehog and the Moonlit Library", category: "Animal Friends",
+description: "A little hedgehog and a tiny tawny owl share one last picture book in an oak-tree library, then walk home to sleep under the moon by a hollow beech.",
+keywords: ["juniper", "hedgehog", "thistle", "owl", "moonlit library", "animal friends", "bedtime"],
+cover: "assets/books/juniper-the-little-hedgehog-and-the-moonlit-library/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/juniper-the-little-hedgehog-and-the-moonlit-library/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a quiet woodland, a little hedgehog named Juniper loved the tiny library tucked inside an old oak tree.",
+  "Each evening, Juniper followed the mossy path past bluebells and mushrooms to its round, golden window.",
+  "Inside, cozy shelves curved around the tree, holding picture books about raindrops, butterflies, and stars.",
+  "One dusky evening, Juniper found a little tawny owl named Thistle blinking sleepily beside the book basket.",
+  "“Would you like to hear one last story?” Juniper asked, and Thistle nodded with a soft, happy hoot.",
+  "They settled onto a round leaf-green cushion while fireflies began to sparkle outside the window.",
+  "Juniper opened a picture book about a gentle river that carried fallen leaves beneath the silver moon.",
+  "As Juniper read, the oak leaves rustled overhead, but they only sounded like the whispering river in the story.",
+  "Thistle gave a tiny yawn and tucked one feathery wing close as the sky outside turned deep violet.",
+  "When the story ended, Juniper closed the book quietly and placed it back on its little wooden shelf.",
+  "“The stars are waking up,” Juniper whispered, as the friends stepped onto the moonlit mossy path.",
+  "Together they walked slowly to the neighboring hollow beech tree, where Thistle's snug nest waited beneath a leafy canopy.",
+  "“Good night, little library,” Thistle murmured, while Juniper tucked a soft fallen leaf beside the nest.",
+  "Juniper curled into a moss-lined nook at the foot of the same beech tree, close enough to hear Thistle's peaceful breathing.",
+  "Under the kind silver moon, Juniper and Thistle closed their eyes and slept soundly, dreaming of quiet books and whispering trees.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
