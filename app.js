@@ -2434,6 +2434,29 @@ narration: [
   "Beneath the soft silver moonlight, Milo and Skye drifted peacefully to sleep, dreaming of stars, friendship, and gentle parade laps.",
 ]
 },
+{
+id: "tavi-the-little-lantern-boat-and-the-moonlit-river", title: "Tavi the Little Lantern Boat and the Moonlit River", category: "Boats",
+description: "A teal lantern boat and his lavender friend float a quiet Moonlight Lantern Festival down a sleepy river, then rest beside their cozy boathouse under the moon.",
+keywords: ["tavi", "lantern boat", "dottie", "moonlit river", "boats", "bedtime", "lanterns"],
+cover: "assets/books/tavi-the-little-lantern-boat-and-the-moonlit-river/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/tavi-the-little-lantern-boat-and-the-moonlit-river/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Along a peaceful little river, a cheerful teal-blue boat named Tavi loved floating past the quiet gardens and willow trees.",
+  "One golden evening, Tavi watched the sunset turn the gentle river into a ribbon of sparkling light.",
+  "Tonight was the Moonlight Lantern Festival, when little boats carried glowing lanterns along the sleepy river.",
+  "Tavi's best friend, a small lavender boat named Dottie, arrived with a warm smile and a tiny golden lantern.",
+  "“Shall we carry the lanterns together?” asked Dottie, for the river looked especially beautiful tonight.",
+  "Tavi happily agreed, and the two friends set their little lanterns glowing beneath the soft evening sky.",
+  "Side by side, Tavi and Dottie drifted slowly downstream together, leaving gentle ripples behind them.",
+  "They passed sleepy ducks resting among the reeds while fireflies twinkled above the water.",
+  "Beneath an old wooden bridge, the lanterns painted beautiful golden reflections, but the river stayed quiet and calm.",
+  "Soon, other little boats joined the festival, each carrying a lantern that glowed like a tiny floating star.",
+  "Tavi and Dottie watched the lantern lights shimmer beneath the rising moon as the whole river grew peaceful and still.",
+  "“The river looks like a sky full of stars,” whispered Tavi. “I wish this lovely evening could last forever.”",
+  "“We can remember it in our dreams,” Dottie replied sleepily as they floated toward their cozy little boathouse.",
+  "The two friends settled beside the boathouse, and their golden lanterns dimmed to a soft, sleepy glow.",
+  "Beneath the silver moon and twinkling stars, Tavi and Dottie slept peacefully beside the boathouse, dreaming of glowing lanterns and gentle rivers.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

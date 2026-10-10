@@ -1,0 +1,199 @@
+{
+  "title": "Tavi the Little Lantern Boat and the Moonlit River",
+  "slug": "tavi-the-little-lantern-boat-and-the-moonlit-river",
+  "category": "Boats",
+  "description": "A teal lantern boat and his lavender friend float a quiet Moonlight Lantern Festival down a sleepy river, then rest beside their cozy boathouse under the moon.",
+  "characterBible": {
+    "Tavi": {
+      "role": "Main character; a little lantern boat",
+      "color": "Soft teal-blue hull with a cream upper rim, pale aqua deck, and one small cream curved canopy",
+      "bodyShape": "Small rounded wooden riverboat with a broad bow and compact body; no arms, hands, legs, or clothing",
+      "face": "Two large warm dark-brown eyes on the front upper bow above a tiny curved smile",
+      "accessories": "Exactly one small golden lantern on a short post near the rear deck"
+    },
+    "Dottie": {
+      "role": "Supporting character; a little lavender riverboat",
+      "color": "Soft pastel lavender hull with a warm ivory upper rim, light lilac deck, and a small rounded ivory cabin",
+      "bodyShape": "Slightly shorter and narrower than Tavi; smooth oval hull with a rounded bow; no arms, hands, legs, or clothing",
+      "face": "Two friendly dark-brown eyes on the front upper bow and a small warm smile",
+      "accessories": "Exactly one small golden lantern on a short post beside the rear cabin"
+    }
+  },
+  "settingBible": {
+    "Moonlit River": "A peaceful storybook river with willow trees, reeds, an old wooden footbridge, golden lantern reflections, distant cottage lights, and a cozy wooden boathouse",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded toy-like boats, golden evening fading to moonlight, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Tavi stays teal-blue with a cream canopy, bow eyes, and exactly one rear golden lantern.",
+    "Dottie stays lavender with an ivory cabin, bow eyes, and first appears on page 4.",
+    "Dottie remains visibly smaller than Tavi.",
+    "Background festival boats stay secondary and may appear only on early festival and mid-parade pages.",
+    "Pages 14–15 show Tavi and Dottie resting and sleeping beside the boathouse, not inside it.",
+    "No rescue, repair, danger, or frightening scenes.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Along a peaceful little river, a cheerful teal-blue boat named Tavi loved floating past the quiet gardens and willow trees.",
+      "illustrationScene": "Teal-blue lantern boat Tavi floats along a peaceful river past quiet gardens and willow trees.",
+      "requiredCharacters": [
+        "Tavi"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Lock Tavi: soft teal-blue hull, cream canopy, pale aqua deck, dark-brown bow eyes, one rear golden lantern. Dottie absent."
+    },
+    {
+      "number": 2,
+      "text": "One golden evening, Tavi watched the sunset turn the gentle river into a ribbon of sparkling light.",
+      "illustrationScene": "Tavi watches a golden sunset turn the gentle river into a ribbon of sparkling light.",
+      "requiredCharacters": [
+        "Tavi"
+      ],
+      "timeOfDay": "golden evening",
+      "continuityNotes": "Tavi alone at sunset on the river."
+    },
+    {
+      "number": 3,
+      "text": "Tonight was the Moonlight Lantern Festival, when little boats carried glowing lanterns along the sleepy river.",
+      "illustrationScene": "Twilight settles for the Moonlight Lantern Festival as glowing lanterns begin to appear on the sleepy river.",
+      "requiredCharacters": [
+        "Tavi"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Festival twilight; Tavi alone; background boats may appear muted and secondary."
+    },
+    {
+      "number": 4,
+      "text": "Tavi's best friend, a small lavender boat named Dottie, arrived with a warm smile and a tiny golden lantern.",
+      "illustrationScene": "Lavender boat Dottie arrives with a warm smile and a tiny golden lantern beside Tavi.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Introduce Dottie: pastel lavender, ivory cabin, shorter than Tavi, bow eyes, one golden lantern."
+    },
+    {
+      "number": 5,
+      "text": "“Shall we carry the lanterns together?” asked Dottie, for the river looked especially beautiful tonight.",
+      "illustrationScene": "Dottie asks Tavi if they shall carry the lanterns together on the beautiful evening river.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "twilight",
+      "continuityNotes": "Both friends invite a shared lantern float; gentle, no urgency."
+    },
+    {
+      "number": 6,
+      "text": "Tavi happily agreed, and the two friends set their little lanterns glowing beneath the soft evening sky.",
+      "illustrationScene": "Tavi and Dottie set their little lanterns glowing beneath the soft evening sky.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Lanterns glowing; soft evening sky."
+    },
+    {
+      "number": 7,
+      "text": "Side by side, Tavi and Dottie drifted slowly downstream together, leaving gentle ripples behind them.",
+      "illustrationScene": "Side by side, Tavi and Dottie drift slowly downstream together, leaving gentle ripples.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Side-by-side slow drift together."
+    },
+    {
+      "number": 8,
+      "text": "They passed sleepy ducks resting among the reeds while fireflies twinkled above the water.",
+      "illustrationScene": "They pass sleepy ducks among the reeds while fireflies twinkle above the water.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "Sleepy ducks and fireflies; calm water."
+    },
+    {
+      "number": 9,
+      "text": "Beneath an old wooden bridge, the lanterns painted beautiful golden reflections, but the river stayed quiet and calm.",
+      "illustrationScene": "Under an old wooden bridge, golden lantern reflections shimmer across the quiet river.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Wooden bridge reflections; quiet river."
+    },
+    {
+      "number": 10,
+      "text": "Soon, other little boats joined the festival, each carrying a lantern that glowed like a tiny floating star.",
+      "illustrationScene": "Other little boats join the festival, each carrying a lantern like a tiny floating star.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Background boats secondary with tiny lanterns."
+    },
+    {
+      "number": 11,
+      "text": "Tavi and Dottie watched the lantern lights shimmer beneath the rising moon as the whole river grew peaceful and still.",
+      "illustrationScene": "Tavi and Dottie watch lantern lights shimmer under the rising moon as the river grows still.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "moonrise",
+      "continuityNotes": "Moonrise; river peaceful and still."
+    },
+    {
+      "number": 12,
+      "text": "“The river looks like a sky full of stars,” whispered Tavi. “I wish this lovely evening could last forever.”",
+      "illustrationScene": "Tavi whispers that the river looks like a sky full of stars on this lovely evening.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Tavi whispers; increasingly sleepy."
+    },
+    {
+      "number": 13,
+      "text": "“We can remember it in our dreams,” Dottie replied sleepily as they floated toward their cozy little boathouse.",
+      "illustrationScene": "Dottie replies sleepily as they float toward their cozy little boathouse.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "quiet night",
+      "continuityNotes": "Float toward cozy boathouse; Dottie sleepy."
+    },
+    {
+      "number": 14,
+      "text": "The two friends settled beside the boathouse, and their golden lanterns dimmed to a soft, sleepy glow.",
+      "illustrationScene": "Tavi and Dottie settle beside the boathouse while their golden lanterns dim to a soft sleepy glow.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Settle BESIDE the boathouse, not inside; lanterns dim."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the silver moon and twinkling stars, Tavi and Dottie slept peacefully beside the boathouse, dreaming of glowing lanterns and gentle rivers.",
+      "illustrationScene": "Tavi and Dottie sleep peacefully beside the boathouse under the silver moon and twinkling stars.",
+      "requiredCharacters": [
+        "Tavi",
+        "Dottie"
+      ],
+      "timeOfDay": "bedtime night",
+      "continuityNotes": "Both asleep BESIDE the boathouse under moonlight; peaceful ending."
+    }
+  ]
+}
