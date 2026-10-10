@@ -1,0 +1,200 @@
+{
+  "title": "Aster the Little Fox and the Whispering Weather Festival",
+  "slug": "aster-the-little-fox-and-the-whispering-weather-festival",
+  "category": "Animal Friends",
+  "description": "A little russet fox and a cream bunny share the Whispering Weather Festival under an old willow tree, add a tiny silver bell to the soft misty evening music, and curl up to sleep in a cozy hollow.",
+  "characterBible": {
+    "Aster": {
+      "role": "Main character; a little fox",
+      "color": "Warm russet-orange fur with a creamy ivory muzzle, chest, and belly, peach-pink inner ears, and an ivory-white tail tip",
+      "bodyShape": "Small round-bodied fox with large triangular ears, short rounded paws, and a large fluffy tail; natural quadruped body with no clothing, shoes, or accessories",
+      "face": "Oversized dark chocolate-brown eyes and a tiny charcoal-black nose with a gentle curious expression",
+      "accessories": "None on the body; carries a separate small silver bell on a pale-blue ribbon"
+    },
+    "Wren": {
+      "role": "Supporting character; a little bunny who first appears on page 4",
+      "color": "Warm cream fur with dusty-rose inner ears and a tiny pink nose",
+      "bodyShape": "Small fluffy rabbit slightly shorter than Aster, with long upright ears, small paws, and a short cotton-ball tail; no clothing or accessories",
+      "face": "Large hazel-brown eyes, rounded cheeks, and a calm gentle expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Whispering Weather Willow": "A secluded woodland meadow centered on one ancient willow with lanterns, pale-blue and soft-gold ribbons, wooden wind chimes, a shallow curving stream, lavender flowers, and a cozy root hollow",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded woodland animals, golden sunset fading to moonlit blue, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Aster keeps russet-orange fur, ivory muzzle and chest, and an ivory-tipped fluffy tail.",
+    "Wren stays a smaller cream bunny with dusty-rose inner ears and first appears on page 4.",
+    "Wren is absent from pages 1–3.",
+    "The silver bell with a pale-blue ribbon is carried by Aster on pages 3–9, nearby on pages 10–12, and hung on the willow from page 13 onward.",
+    "Pages 8–9 show only soft misty weather, never a storm or heavy rain.",
+    "Pages 14–15 keep both friends in the same willow-root hollow; both are fully asleep on page 15.",
+    "No rescue, danger, lettering, logos, or extra named foreground characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a peaceful woodland valley, a little fox named Aster loved listening to the gentle sounds of the evening.",
+      "illustrationScene": "Russet fox Aster stands alone in a lavender meadow under a warm sunset in a woodland valley.",
+      "requiredCharacters": [
+        "Aster"
+      ],
+      "timeOfDay": "warm golden sunset",
+      "continuityNotes": "Aster alone; Wren absent."
+    },
+    {
+      "number": 2,
+      "text": "Every autumn, the woodland animals gathered beneath the old willow tree for the Whispering Weather Festival.",
+      "illustrationScene": "Aster approaches the decorated willow tree with glowing lanterns, ribbons, and wooden wind chimes.",
+      "requiredCharacters": [
+        "Aster"
+      ],
+      "timeOfDay": "warm golden sunset at the willow",
+      "continuityNotes": "Aster alone; Wren absent."
+    },
+    {
+      "number": 3,
+      "text": "This evening, Aster carried a tiny silver bell, hoping to add its sweet sound to the festival's sleepy music.",
+      "illustrationScene": "Aster alone carries a tiny silver bell on a pale-blue ribbon along a winding meadow path.",
+      "requiredCharacters": [
+        "Aster"
+      ],
+      "timeOfDay": "warm golden sunset on the path",
+      "continuityNotes": "Aster alone; Wren absent."
+    },
+    {
+      "number": 4,
+      "text": "Beside the willow tree, Aster met a little cream-colored bunny named Wren, who was arranging smooth pebbles beside a shallow stream.",
+      "illustrationScene": "Cream bunny Wren arranges smooth pebbles by the stream as Aster arrives with the silver bell.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "peach-lavender dusk by the stream",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 5,
+      "text": "Listen to the water, Wren whispered, saying it sounded like someone humming a very quiet song.",
+      "illustrationScene": "Aster and Wren sit beside the stream listening to quiet ripples in golden evening light.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "peach-lavender dusk",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 6,
+      "text": "A soft breeze drifted through the willow branches, making the wooden chimes sing a gentle, tinkling melody.",
+      "illustrationScene": "Aster and Wren look up at swaying willow leaves and wooden chimes as lanterns begin to glow.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "dusk into blue hour",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 7,
+      "text": "Aster lifted the silver bell and gave it one tiny shake, adding a bright little note to the evening music.",
+      "illustrationScene": "Aster lifts the silver bell for one tiny shake while Wren smiles beneath the decorated willow.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "deeper blue twilight",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 8,
+      "text": "Soon, the first misty drops arrived, but they only tapped softly on broad leaves and made tiny circles in the stream.",
+      "illustrationScene": "Aster and Wren sit beneath the willow as faint misty drops sparkle on leaves and the stream.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "twilight with soft mist",
+      "continuityNotes": "Aster and Wren; silver bell continuity. Soft misty weather only; no heavy rain."
+    },
+    {
+      "number": 9,
+      "text": "The misty air has joined our festival, Aster said. Wren smiled as the wind, water, and bell made music together.",
+      "illustrationScene": "Aster and Wren sit under the willow canopy among glowing lanterns in soft misty air and swaying chimes.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "twilight misty festival glow",
+      "continuityNotes": "Aster and Wren; silver bell continuity. Soft misty weather only; no heavy rain."
+    },
+    {
+      "number": 10,
+      "text": "As the mist faded away, the clouds slowly opened, revealing a beautiful silver moon above the peaceful valley.",
+      "illustrationScene": "Aster and Wren gaze as clouds open to reveal a large silver moon over the wet shimmering valley.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "clear moonlit evening",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 11,
+      "text": "Tiny fireflies floated above the meadow, blinking like little golden lanterns dancing to the last notes of the festival.",
+      "illustrationScene": "Fireflies glow among lavender flowers while Aster and Wren watch from beside the willow under moonlight.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "moonlit evening with fireflies",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 12,
+      "text": "I think the weather is getting sleepy, Wren whispered, watching the last willow leaves settle into stillness.",
+      "illustrationScene": "Sleepy Wren yawns beside Aster near the still willow leaves and quiet hanging chimes.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "quiet deep-blue night",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 13,
+      "text": "Aster gently hung the silver bell on a low willow branch, where it could rest until the next Whispering Weather Festival.",
+      "illustrationScene": "Aster hangs the silver bell by its pale-blue ribbon on a low willow branch as Wren watches.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "quiet deep-blue night at the willow",
+      "continuityNotes": "Aster and Wren; silver bell continuity."
+    },
+    {
+      "number": 14,
+      "text": "The two little friends curled together in a cozy hollow beneath the willow roots, wrapped in the warmth of fallen autumn leaves.",
+      "illustrationScene": "Aster and Wren curl side by side in a leaf-lined hollow beneath the willow roots with faint lantern glow.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "peaceful moonlit bedtime",
+      "continuityNotes": "Aster and Wren; silver bell continuity. Final hollow: both friends nestled; eyes closed on page 15."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the moon and the quiet stars, Aster and Wren drifted into happy dreams, while the whole woodland rested in peaceful silence.",
+      "illustrationScene": "Aster and Wren sleep with eyes closed in the cozy willow hollow under moon, stars, and fading fireflies.",
+      "requiredCharacters": [
+        "Aster",
+        "Wren"
+      ],
+      "timeOfDay": "peaceful moonlit sleep",
+      "continuityNotes": "Aster and Wren; silver bell continuity. Final hollow: both friends nestled; eyes closed on page 15."
+    }
+  ]
+}

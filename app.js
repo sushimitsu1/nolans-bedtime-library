@@ -2664,6 +2664,29 @@ narration: [
   "Beneath the silver moon and a sky full of gentle stars, Nori and Sora closed their sleepy eyes and drifted peacefully to sleep.",
 ]
 },
+{
+id: "aster-the-little-fox-and-the-whispering-weather-festival", title: "Aster the Little Fox and the Whispering Weather Festival", category: "Animal Friends",
+description: "A little russet fox and a cream bunny share the Whispering Weather Festival under an old willow tree, add a tiny silver bell to the soft misty evening music, and curl up to sleep in a cozy hollow.",
+keywords: ["aster", "fox", "wren", "bunny", "whispering weather festival", "willow", "animal friends", "bedtime", "misty"],
+cover: "assets/books/aster-the-little-fox-and-the-whispering-weather-festival/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/aster-the-little-fox-and-the-whispering-weather-festival/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a peaceful woodland valley, a little fox named Aster loved listening to the gentle sounds of the evening.",
+  "Every autumn, the woodland animals gathered beneath the old willow tree for the Whispering Weather Festival.",
+  "This evening, Aster carried a tiny silver bell, hoping to add its sweet sound to the festival's sleepy music.",
+  "Beside the willow tree, Aster met a little cream-colored bunny named Wren, who was arranging smooth pebbles beside a shallow stream.",
+  "Listen to the water, Wren whispered, saying it sounded like someone humming a very quiet song.",
+  "A soft breeze drifted through the willow branches, making the wooden chimes sing a gentle, tinkling melody.",
+  "Aster lifted the silver bell and gave it one tiny shake, adding a bright little note to the evening music.",
+  "Soon, the first misty drops arrived, but they only tapped softly on broad leaves and made tiny circles in the stream.",
+  "The misty air has joined our festival, Aster said. Wren smiled as the wind, water, and bell made music together.",
+  "As the mist faded away, the clouds slowly opened, revealing a beautiful silver moon above the peaceful valley.",
+  "Tiny fireflies floated above the meadow, blinking like little golden lanterns dancing to the last notes of the festival.",
+  "I think the weather is getting sleepy, Wren whispered, watching the last willow leaves settle into stillness.",
+  "Aster gently hung the silver bell on a low willow branch, where it could rest until the next Whispering Weather Festival.",
+  "The two little friends curled together in a cozy hollow beneath the willow roots, wrapped in the warmth of fallen autumn leaves.",
+  "Beneath the moon and the quiet stars, Aster and Wren drifted into happy dreams, while the whole woodland rested in peaceful silence.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

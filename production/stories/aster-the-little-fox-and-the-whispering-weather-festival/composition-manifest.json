@@ -1,0 +1,880 @@
+{
+  "storySlug": "aster-the-little-fox-and-the-whispering-weather-festival",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-01.png",
+      "text": "In a peaceful woodland valley, a little fox named Aster loved listening to the gentle sounds of the evening.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-02.png",
+      "text": "Every autumn, the woodland animals gathered beneath the old willow tree for the Whispering Weather Festival.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-03.png",
+      "text": "This evening, Aster carried a tiny silver bell, hoping to add its sweet sound to the festival's sleepy music.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-04.png",
+      "text": "Beside the willow tree, Aster met a little cream-colored bunny named Wren, who was arranging smooth pebbles beside a shallow stream.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 38
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-05.png",
+      "text": "Listen to the water, Wren whispered, saying it sounded like someone humming a very quiet song.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-06.png",
+      "text": "A soft breeze drifted through the willow branches, making the wooden chimes sing a gentle, tinkling melody.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-07.png",
+      "text": "Aster lifted the silver bell and gave it one tiny shake, adding a bright little note to the evening music.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-08.png",
+      "text": "Soon, the first misty drops arrived, but they only tapped softly on broad leaves and made tiny circles in the stream.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-09.png",
+      "text": "The misty air has joined our festival, Aster said. Wren smiled as the wind, water, and bell made music together.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-10.png",
+      "text": "As the mist faded away, the clouds slowly opened, revealing a beautiful silver moon above the peaceful valley.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-11.png",
+      "text": "Tiny fireflies floated above the meadow, blinking like little golden lanterns dancing to the last notes of the festival.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-12.png",
+      "text": "I think the weather is getting sleepy, Wren whispered, watching the last willow leaves settle into stillness.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-13.png",
+      "text": "Aster gently hung the silver bell on a low willow branch, where it could rest until the next Whispering Weather Festival.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-14.png",
+      "text": "The two little friends curled together in a cozy hollow beneath the willow roots, wrapped in the warmth of fallen autumn leaves.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 44
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/aster-the-little-fox-and-the-whispering-weather-festival/staging/aster-the-little-fox-and-the-whispering-weather-festival/illustrations/page-15.png",
+      "text": "Beneath the moon and the quiet stars, Aster and Wren drifted into happy dreams, while the whole woodland rested in peaceful silence.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Aster",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Wren",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 42
+    }
+  ]
+}
