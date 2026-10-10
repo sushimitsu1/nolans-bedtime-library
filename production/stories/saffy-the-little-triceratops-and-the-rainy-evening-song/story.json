@@ -1,0 +1,198 @@
+{
+  "title": "Saffy the Little Triceratops and the Rainy Evening Song",
+  "slug": "saffy-the-little-triceratops-and-the-rainy-evening-song",
+  "category": "Dinosaurs",
+  "description": "A peach baby triceratops and a sky-blue baby stegosaurus listen to a gentle rainy evening song in their fern valley, then fall asleep under their favorite tree.",
+  "characterBible": {
+    "Saffy": {
+      "role": "Main character; a baby triceratops",
+      "color": "Warm pastel peach with a creamy-apricot underside and one cream crescent patch on her right cheek",
+      "bodyShape": "Small rounded chubby baby triceratops on four short sturdy legs with a short tapered tail; no clothing or accessories",
+      "face": "Large warm amber-brown eyes, soft muzzle, gentle smile, and a softly scalloped peach frill with five upper scallops",
+      "accessories": "Exactly three short smooth ivory horns: two brow horns and one shorter nose horn"
+    },
+    "Dewey": {
+      "role": "Supporting character; a baby stegosaurus",
+      "color": "Soft pastel sky-blue with a powder-blue belly and three pale-blue oval spots on his left hip",
+      "bodyShape": "Small plump baby stegosaurus slightly smaller than Saffy, with four short legs and a gently tapering tail; no clothing",
+      "face": "Large deep teal-blue eyes, soft muzzle, and a gentle smile",
+      "accessories": "Exactly seven rounded periwinkle leaf-shaped back plates in one row, and exactly two tiny rounded pale-blue tail spikes"
+    }
+  },
+  "settingBible": {
+    "Rainy Dinosaur Valley": "A peaceful prehistoric valley with a great sheltering tree, mossy resting hollow, shallow pond, oversized ferns, pale blue flowers, and gentle rain under a moonlit sky",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded baby dinosaurs, golden evening fading to moonlight rain, one scene per page, and no readable text"
+  },
+  "continuityRules": [
+    "Saffy stays peach with three ivory horns, a scalloped frill, amber eyes, and a cream crescent on her right cheek.",
+    "Dewey stays sky-blue with seven periwinkle plates, two tiny rounded tail spikes, teal eyes, and first appears on page 4.",
+    "Dewey remains slightly smaller than Saffy.",
+    "Rain stays gentle; no storms, lightning, or frightening weather.",
+    "Both end fully asleep under the same great tree.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a quiet valley filled with soft green ferns, a little peach-colored triceratops named Saffy loved listening to the sounds of nature.",
+      "illustrationScene": "Little peach triceratops Saffy listens to nature in a quiet valley filled with soft green ferns.",
+      "requiredCharacters": [
+        "Saffy"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "Lock Saffy: pastel peach, three ivory horns, scalloped frill, amber-brown eyes, cream crescent on right cheek. Dewey absent."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Saffy rested beside a cozy hollow beneath a great old tree, watching the golden sunlight fade behind the distant hills.",
+      "illustrationScene": "Every evening Saffy rests beside a cozy hollow under a great old tree as golden sunlight fades.",
+      "requiredCharacters": [
+        "Saffy"
+      ],
+      "timeOfDay": "golden-hour sunset",
+      "continuityNotes": "Saffy alone at great tree hollow; golden sunset."
+    },
+    {
+      "number": 3,
+      "text": "One evening, tiny gray clouds floated across the pink sky, and a gentle breeze whispered through the tall prehistoric grasses.",
+      "illustrationScene": "Tiny gray clouds float across a pink sky while a gentle breeze whispers through prehistoric grasses.",
+      "requiredCharacters": [
+        "Saffy"
+      ],
+      "timeOfDay": "early dusk",
+      "continuityNotes": "Saffy alone; pink sky, small gray clouds, soft breeze."
+    },
+    {
+      "number": 4,
+      "text": "Saffy's best friend, a little sky-blue stegosaurus named Dewey, wandered over and noticed the first sparkling raindrops falling onto the leaves.",
+      "illustrationScene": "Sky-blue baby stegosaurus Dewey wanders over as the first sparkling raindrops fall onto the leaves.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "early dusk",
+      "continuityNotes": "Introduce Dewey: sky-blue, seven periwinkle plates, two tiny tail spikes, teal eyes, three hip spots; smaller than Saffy."
+    },
+    {
+      "number": 5,
+      "text": "“Listen, Dewey,” Saffy whispered. “The rain is making a beautiful little song just for us.”",
+      "illustrationScene": "Saffy whispers to Dewey that the rain is making a beautiful little song just for them.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Both listening to rain song; gentle, no fear."
+    },
+    {
+      "number": 6,
+      "text": "Soft raindrops tapped against the broad fern leaves, making tiny sounds like gentle fingers playing a wooden drum.",
+      "illustrationScene": "Soft raindrops tap broad fern leaves like gentle fingers playing a wooden drum.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "Rain on fern leaves; both may be present."
+    },
+    {
+      "number": 7,
+      "text": "Nearby, little drops fell into a shallow pond, creating round ripples that danced beneath the fading evening light.",
+      "illustrationScene": "Little drops fall into a shallow pond, making round ripples under the fading evening light.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "deepening dusk",
+      "continuityNotes": "Pond ripples; calm weather only."
+    },
+    {
+      "number": 8,
+      "text": "Dewey tilted his head and listened as the breeze rustled the treetops, adding a long, sleepy whoosh to the rainy music.",
+      "illustrationScene": "Dewey tilts his head and listens as the breeze rustles the treetops with a sleepy whoosh.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "blue hour",
+      "continuityNotes": "Breezy treetops; Dewey listens."
+    },
+    {
+      "number": 9,
+      "text": "“The whole valley is singing,” Dewey said softly, but the first little stars only peeked between the drifting clouds.",
+      "illustrationScene": "Dewey says the whole valley is singing as the first little stars peek between drifting clouds.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "early night",
+      "continuityNotes": "First stars; valley singing mood."
+    },
+    {
+      "number": 10,
+      "text": "Together, Saffy and Dewey settled beneath the sheltering branches of their favorite tree, watching silvery raindrops sparkle in the moonlight.",
+      "illustrationScene": "Together Saffy and Dewey settle under their favorite tree watching silvery raindrops sparkle in moonlight.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Together under sheltering tree; silvery rain in moonlight."
+    },
+    {
+      "number": 11,
+      "text": "The gentle rain grew softer, and the crickets began their quiet evening chirps among the glowing blue flowers.",
+      "illustrationScene": "The gentle rain grows softer while crickets chirp among glowing blue flowers.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "moonlit night",
+      "continuityNotes": "Rain softens; crickets among blue flowers."
+    },
+    {
+      "number": 12,
+      "text": "“I think the clouds are singing a lullaby,” Saffy murmured, resting her little head on a soft bed of moss.",
+      "illustrationScene": "Saffy murmurs that the clouds are singing a lullaby, resting her head on soft moss.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "late evening",
+      "continuityNotes": "Saffy on moss; growing sleepy."
+    },
+    {
+      "number": 13,
+      "text": "“Then we should listen with our eyes closed,” Dewey replied sleepily, curling his tail beside his friend.",
+      "illustrationScene": "Dewey replies sleepily and curls his tail beside Saffy with eyes growing heavy.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "late evening",
+      "continuityNotes": "Dewey curls tail beside friend; eyes closing."
+    },
+    {
+      "number": 14,
+      "text": "Beneath the warm shelter of the great tree, Saffy and Dewey snuggled into their leafy resting places while the last raindrops whispered outside.",
+      "illustrationScene": "Beneath the great tree, Saffy and Dewey snuggle into leafy resting places as last raindrops whisper outside.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "Both in moss-and-leaf beds under tree; last raindrops."
+    },
+    {
+      "number": 15,
+      "text": "As the moon shone over the peaceful dinosaur valley, the two little friends drifted into a deep, happy sleep.",
+      "illustrationScene": "Under the moon over the peaceful dinosaur valley, Saffy and Dewey sleep side by side with eyes closed.",
+      "requiredCharacters": [
+        "Saffy",
+        "Dewey"
+      ],
+      "timeOfDay": "deep peaceful night",
+      "continuityNotes": "Both fully asleep; rain finished; moon and stars; peaceful ending."
+    }
+  ]
+}

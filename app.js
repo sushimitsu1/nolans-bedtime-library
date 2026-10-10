@@ -2480,6 +2480,29 @@ narration: [
   "Beneath the quiet stars, the two little railway friends closed their tired eyes and drifted peacefully to sleep, dreaming of storybooks and moonlit tracks.",
 ]
 },
+{
+id: "saffy-the-little-triceratops-and-the-rainy-evening-song", title: "Saffy the Little Triceratops and the Rainy Evening Song", category: "Dinosaurs",
+description: "A peach baby triceratops and a sky-blue baby stegosaurus listen to a gentle rainy evening song in their fern valley, then fall asleep under their favorite tree.",
+keywords: ["saffy", "triceratops", "dewey", "stegosaurus", "rainy evening song", "dinosaurs", "bedtime"],
+cover: "assets/books/saffy-the-little-triceratops-and-the-rainy-evening-song/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/saffy-the-little-triceratops-and-the-rainy-evening-song/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a quiet valley filled with soft green ferns, a little peach-colored triceratops named Saffy loved listening to the sounds of nature.",
+  "Every evening, Saffy rested beside a cozy hollow beneath a great old tree, watching the golden sunlight fade behind the distant hills.",
+  "One evening, tiny gray clouds floated across the pink sky, and a gentle breeze whispered through the tall prehistoric grasses.",
+  "Saffy's best friend, a little sky-blue stegosaurus named Dewey, wandered over and noticed the first sparkling raindrops falling onto the leaves.",
+  "“Listen, Dewey,” Saffy whispered. “The rain is making a beautiful little song just for us.”",
+  "Soft raindrops tapped against the broad fern leaves, making tiny sounds like gentle fingers playing a wooden drum.",
+  "Nearby, little drops fell into a shallow pond, creating round ripples that danced beneath the fading evening light.",
+  "Dewey tilted his head and listened as the breeze rustled the treetops, adding a long, sleepy whoosh to the rainy music.",
+  "“The whole valley is singing,” Dewey said softly, but the first little stars only peeked between the drifting clouds.",
+  "Together, Saffy and Dewey settled beneath the sheltering branches of their favorite tree, watching silvery raindrops sparkle in the moonlight.",
+  "The gentle rain grew softer, and the crickets began their quiet evening chirps among the glowing blue flowers.",
+  "“I think the clouds are singing a lullaby,” Saffy murmured, resting her little head on a soft bed of moss.",
+  "“Then we should listen with our eyes closed,” Dewey replied sleepily, curling his tail beside his friend.",
+  "Beneath the warm shelter of the great tree, Saffy and Dewey snuggled into their leafy resting places while the last raindrops whispered outside.",
+  "As the moon shone over the peaceful dinosaur valley, the two little friends drifted into a deep, happy sleep.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
