@@ -2595,6 +2595,29 @@ narration: [
   "Beneath the quiet moonlit water, Corin and Ebi drifted peacefully to sleep, tucked close together in their cozy reef home.",
 ]
 },
+{
+id: "penny-the-little-lamb-and-the-sleepy-harvest-lights", title: "Penny the Little Lamb and the Sleepy Harvest Lights", category: "Farm",
+description: "A little ivory lamb and her piglet friend tidy a tiny harvest festival by the red barn, watch the sleepy lanterns glow, and settle into cozy straw nests for the night.",
+keywords: ["penny", "lamb", "gus", "piglet", "harvest lights", "farm", "bedtime", "barn", "lanterns"],
+cover: "assets/books/penny-the-little-lamb-and-the-sleepy-harvest-lights/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/penny-the-little-lamb-and-the-sleepy-harvest-lights/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "As the evening sun warmed the farm, Penny the little lamb peeked at the tiny harvest festival beside the red barn.",
+  "She admired the round pumpkins, neat hay bales, and paper lanterns waiting beneath the barn's wide roof.",
+  "Penny gently straightened a crooked gingham blanket, making a cozy place where friends could sit.",
+  "Her friend Gus the piglet trotted over with a small basket of shiny red apples.",
+  "Together, they set the apples beside the pumpkins and stepped back to admire their cheerful little festival.",
+  "When the first lanterns glowed, Penny and Gus shared an apple slice on the soft gingham blanket.",
+  "A light evening breeze swayed the lanterns, and the two friends watched their warm colors dance across the hay.",
+  "Gus gave a happy little wiggle, but Penny showed him the biggest pumpkin, round as a sleepy moon.",
+  "Above the barn, the sky turned lavender, and the last visitors wandered home along the garden path.",
+  "Penny and Gus carried the little apple basket inside while the lanterns shone softly by the barn door.",
+  "Gus yawned a wide piglet yawn, and Penny smiled because her own eyes were growing heavy.",
+  "Side by side, they padded into the barn's snug sleeping corner, where fresh straw waited beneath a small window.",
+  "Penny curled into her cream-colored straw nest, and Gus nestled into his smaller straw nest right beside her.",
+  "Moonlight slipped through the window as the friends tucked in close together and closed their eyes.",
+  "With the festival lights twinkling faintly outside, Penny and Gus drifted peacefully to sleep in their warm, quiet barn.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

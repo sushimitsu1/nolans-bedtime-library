@@ -1,0 +1,200 @@
+{
+  "title": "Penny the Little Lamb and the Sleepy Harvest Lights",
+  "slug": "penny-the-little-lamb-and-the-sleepy-harvest-lights",
+  "category": "Farm",
+  "description": "A little ivory lamb and her piglet friend tidy a tiny harvest festival by the red barn, watch the sleepy lanterns glow, and settle into cozy straw nests for the night.",
+  "characterBible": {
+    "Penny": {
+      "role": "Main character; a baby lamb",
+      "color": "Warm-ivory wool with a creamy peach face, cocoa-brown nose, dark-chocolate eyes, and one cinnamon-brown oval patch on her left ear",
+      "bodyShape": "Small round-bodied baby lamb with soft curled wool, four short legs, and a short fluffy tail; no horns, shoes, hands, or clothing beyond her ribbon",
+      "face": "Large dark-chocolate eyes with a soft catchlight when open and a gentle curved smile",
+      "accessories": "Narrow muted-coral ribbon tied in a simple bow at the base of her neck"
+    },
+    "Gus": {
+      "role": "Supporting character; a tiny piglet who first appears on page 4",
+      "color": "Warm-peach skin with darker rosy hooves, dusty-rose ear interiors, and one caramel-brown spot on his right cheek",
+      "bodyShape": "Small plump piglet shorter than Penny, with a rounded head and belly, short sturdy legs, little triangular ears, a broad oval snout with two nostrils, and a small curled tail; no hands, shoes, or clothing beyond his neckerchief",
+      "face": "Dark-brown round eyes with a single catchlight when open and a happy little snout",
+      "accessories": "Simple dusty-teal neckerchief tied behind his neck without long dangling ends"
+    }
+  },
+  "settingBible": {
+    "Harvest Farm Barn": "One peaceful family farm with a large weathered red barn, white trim, a pitched roof, and a harvest-festival corner with three orange pumpkins, two golden hay bales, a red-and-cream gingham blanket, a low wooden crate, a small wicker apple basket, and five warm amber paper lanterns",
+    "Sleeping Corner": "Inside the same red barn: a cozy straw area with a small square window on the left rear wall, Penny's larger cream-tinted nest on the left, and Gus's slightly smaller golden nest on the right",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded farm animals, golden afternoon fading to moonlit blue, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Penny keeps warm-ivory wool, a cinnamon left-ear patch, and a muted-coral neck ribbon.",
+    "Gus stays smaller than Penny with a right-cheek caramel spot and a dusty-teal neckerchief, and first appears on page 4.",
+    "Gus is absent from pages 1–3.",
+    "Pages 12–15 keep Penny in the left nest and Gus in the right nest inside the same barn.",
+    "Exactly five lanterns, three pumpkins, and two hay bales stay with the outdoor festival; the gingham blanket remains outside.",
+    "No rescue, danger, fire, or extra named characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "As the evening sun warmed the farm, Penny the little lamb peeked at the tiny harvest festival beside the red barn.",
+      "illustrationScene": "Little ivory lamb Penny peeks at the tiny harvest festival beside the red barn in warm evening sun.",
+      "requiredCharacters": [
+        "Penny"
+      ],
+      "timeOfDay": "late-afternoon golden",
+      "continuityNotes": "Penny alone; Gus absent."
+    },
+    {
+      "number": 2,
+      "text": "She admired the round pumpkins, neat hay bales, and paper lanterns waiting beneath the barn's wide roof.",
+      "illustrationScene": "Penny admires round pumpkins, neat hay bales, and paper lanterns waiting under the barn roof.",
+      "requiredCharacters": [
+        "Penny"
+      ],
+      "timeOfDay": "warm late afternoon",
+      "continuityNotes": "Penny alone; Gus absent."
+    },
+    {
+      "number": 3,
+      "text": "Penny gently straightened a crooked gingham blanket, making a cozy place where friends could sit.",
+      "illustrationScene": "Penny gently straightens a crooked gingham blanket into a cozy sitting place.",
+      "requiredCharacters": [
+        "Penny"
+      ],
+      "timeOfDay": "late-afternoon light",
+      "continuityNotes": "Penny alone; Gus absent."
+    },
+    {
+      "number": 4,
+      "text": "Her friend Gus the piglet trotted over with a small basket of shiny red apples.",
+      "illustrationScene": "Piglet Gus trots over with a small wicker basket of shiny red apples as Penny greets him.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "late-afternoon gold",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 5,
+      "text": "Together, they set the apples beside the pumpkins and stepped back to admire their cheerful little festival.",
+      "illustrationScene": "Penny and Gus set the apples beside the pumpkins and admire their cheerful little festival.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "sun lowering",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 6,
+      "text": "When the first lanterns glowed, Penny and Gus shared an apple slice on the soft gingham blanket.",
+      "illustrationScene": "Penny and Gus share an apple slice on the soft gingham blanket as the first lanterns glow.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "early sunset lantern glow",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 7,
+      "text": "A light evening breeze swayed the lanterns, and the two friends watched their warm colors dance across the hay.",
+      "illustrationScene": "Penny and Gus watch warm lantern colors dance across the hay in a light evening breeze.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "warm sunset into pink twilight",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 8,
+      "text": "Gus gave a happy little wiggle, but Penny showed him the biggest pumpkin, round as a sleepy moon.",
+      "illustrationScene": "Penny shows Gus the biggest pumpkin beside the hay bales in early twilight.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "early twilight",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 9,
+      "text": "Above the barn, the sky turned lavender, and the last visitors wandered home along the garden path.",
+      "illustrationScene": "Penny and Gus watch the last distant visitors wander home along the garden path at lavender dusk.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "lavender dusk",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 10,
+      "text": "Penny and Gus carried the little apple basket inside while the lanterns shone softly by the barn door.",
+      "illustrationScene": "Penny and Gus carry the little apple basket through the barn doorway as lanterns shine softly outside.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "deepening lavender-blue dusk",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 11,
+      "text": "Gus yawned a wide piglet yawn, and Penny smiled because her own eyes were growing heavy.",
+      "illustrationScene": "Gus yawns a wide piglet yawn at the barn threshold while Penny's eyes grow heavy.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "blue-hour evening",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT."
+    },
+    {
+      "number": 12,
+      "text": "Side by side, they padded into the barn's snug sleeping corner, where fresh straw waited beneath a small window.",
+      "illustrationScene": "Penny and Gus pad into the barn's snug sleeping corner where fresh straw waits beneath a small window.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "early night barn interior",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT. Nest layout fixed: Penny LEFT, Gus RIGHT."
+    },
+    {
+      "number": 13,
+      "text": "Penny curled into her cream-colored straw nest, and Gus nestled into his smaller straw nest right beside her.",
+      "illustrationScene": "Penny curls into her larger cream straw nest on the left while Gus nestles into his smaller nest on the right.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "deeper blue night",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT. Nest layout fixed: Penny LEFT, Gus RIGHT."
+    },
+    {
+      "number": 14,
+      "text": "Moonlight slipped through the window as the friends tucked in close together and closed their eyes.",
+      "illustrationScene": "Moonlight slips through the left window as Penny and Gus tuck in close with eyes fully closed.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "calm moonlit night",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT. Nest layout fixed: Penny LEFT, Gus RIGHT. Both eyes fully closed."
+    },
+    {
+      "number": 15,
+      "text": "With the festival lights twinkling faintly outside, Penny and Gus drifted peacefully to sleep in their warm, quiet barn.",
+      "illustrationScene": "Penny and Gus sleep peacefully in their warm quiet barn while festival lights twinkle faintly outside.",
+      "requiredCharacters": [
+        "Penny",
+        "Gus"
+      ],
+      "timeOfDay": "quiet deep-blue night",
+      "continuityNotes": "Penny and Gus; ear patch LEFT, Gus cheek spot RIGHT. Nest layout fixed: Penny LEFT, Gus RIGHT. Both eyes fully closed."
+    }
+  ]
+}
