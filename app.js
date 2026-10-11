@@ -2825,6 +2825,29 @@ narration: [
   "Back in their cozy bay, Berri closed her eyes and drifted to sleep as the northern sky danced in her dreams.",
 ]
 },
+{
+id: "puddle-the-little-balloon-and-the-sleepy-kite", title: "Puddle the Little Balloon and the Sleepy Kite", category: "Airplanes",
+description: "A little butter-yellow hot-air balloon helps a sleepy peach kite float home to a cozy willow tree, then settles on the meadow grass under the stars.",
+keywords: ["puddle", "balloon", "zuzu", "kite", "willow", "meadow", "airplanes", "bedtime", "float"],
+cover: "assets/books/puddle-the-little-balloon-and-the-sleepy-kite/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/puddle-the-little-balloon-and-the-sleepy-kite/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a meadow where the hills rolled softly, Puddle the little hot-air balloon loved floating on the warm breeze.",
+  "One afternoon, Puddle spotted a little kite dancing all alone above the tall grass.",
+  "Hello, called Puddle. I'm Zuzu, whispered the kite, and I've had a lovely fly, but now I'm getting sleepy.",
+  "Would you like to float home with me, asked Puddle. Zuzu gave a happy little flutter.",
+  "Up they went, past the swaying grass and the fluffy tops of the meadow trees.",
+  "A soft breeze nudged them toward a hill where the wildflowers nodded good evening.",
+  "The wind feels like a soft blanket, murmured Zuzu, and Puddle agreed.",
+  "They floated past a cloud shaped like a sleepy sheep, all round and fluffy.",
+  "As the sun slipped behind the hills, Zuzu pointed her ribbon tail toward a little willow tree.",
+  "That's my resting tree, whispered Zuzu. Its branches make the coziest place to dream.",
+  "Puddle floated very close, and Zuzu slipped gently into the willow's welcoming branches.",
+  "Thank you for the lovely ride, sighed Zuzu, and together they whispered sweet dreams.",
+  "Puddle drifted back across the meadow while the flowers folded their petals for the night.",
+  "With one last little whoosh, Puddle settled onto the grass and let the evening breeze grow still.",
+  "Under the twinkling stars, Puddle closed sleepy eyes, and across the meadow, Zuzu dreamed of one more gentle ride. Goodnight, little balloon.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

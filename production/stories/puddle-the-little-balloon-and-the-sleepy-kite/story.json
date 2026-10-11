@@ -1,0 +1,199 @@
+{
+  "title": "Puddle the Little Balloon and the Sleepy Kite",
+  "slug": "puddle-the-little-balloon-and-the-sleepy-kite",
+  "category": "Airplanes",
+  "description": "A little butter-yellow hot-air balloon helps a sleepy peach kite float home to a cozy willow tree, then settles on the meadow grass under the stars.",
+  "characterBible": {
+    "Puddle": {
+      "role": "Main character; a little hot-air balloon",
+      "color": "Muted butter-yellow envelope with exactly four broad vertical panels alternating dusty turquoise and butter-yellow, plus a small coral-orange top cap",
+      "bodyShape": "Small toy-like hot-air balloon with a rounded pear-shaped envelope, short dark-brown ropes, and a rounded honey-colored woven basket with a thick cream rim; no arms, hands, feet, wings, or propellers",
+      "face": "Two large warm-brown eyes, tiny curved eyebrows, rosy cheek circles, and a small friendly smile on the lower front of the envelope; basket has no face",
+      "accessories": "Small dark burner opening beneath the envelope, never showing strong flames"
+    },
+    "Zuzu": {
+      "role": "Supporting character; a tiny peach kite who first appears on page 2",
+      "color": "Peach-pink diamond kite with a dusty-rose ribbon tail",
+      "bodyShape": "Tiny soft-rounded diamond kite noticeably smaller than Puddle's basket opening; no arms, hands, legs, or feet",
+      "face": "Two small dark-brown eyes, delicate curved eyebrows, and a tiny smiling mouth",
+      "accessories": "One thin cream string and one flowing dusty-rose ribbon tail with exactly three small bow-shaped ties"
+    }
+  },
+  "settingBible": {
+    "Meadow Valley and Willow": "A peaceful enclosed meadow valley with three smooth rounded hills, soft grass, tiny cream-and-lavender wildflowers, a narrow winding stream, round-canopy trees, one distinctive willow beside the stream, and Puddle's grassy landing circle across the meadow",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded balloon and kite, warm evening fading to moonlit night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Puddle keeps butter-yellow and dusty-turquoise panels, coral top cap, and envelope-face only.",
+    "Zuzu stays a smaller peach kite with a dusty-rose ribbon tail and three bow ties, and first appears on page 2.",
+    "Zuzu rides in the basket on pages 4–10, moves to the willow on page 11, and stays there through page 15.",
+    "Pages 1 and 9–10 may look warmly lit, so narration keeps light words general rather than naming blue dusk.",
+    "Pages 13–15 keep Puddle returning to and resting on the landing circle; both are asleep on page 15.",
+    "No rescue, danger, windstorm, lettering, logos, or extra balloons or kites.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a meadow where the hills rolled softly, Puddle the little hot-air balloon loved floating on the warm breeze.",
+      "illustrationScene": "Butter-yellow balloon Puddle floats alone just above a grassy meadow under warm soft light.",
+      "requiredCharacters": [
+        "Puddle"
+      ],
+      "timeOfDay": "warm soft evening light",
+      "continuityNotes": "Puddle alone. Keep light wording general; art may look warm rather than blue dusk."
+    },
+    {
+      "number": 2,
+      "text": "One afternoon, Puddle spotted a little kite dancing all alone above the tall grass.",
+      "illustrationScene": "Puddle hovers near a small peach diamond kite Zuzu whose ribbon tail flutters above the meadow.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "warm afternoon meadow light",
+      "continuityNotes": "Puddle and Zuzu."
+    },
+    {
+      "number": 3,
+      "text": "Hello, called Puddle. I'm Zuzu, whispered the kite, and I've had a lovely fly, but now I'm getting sleepy.",
+      "illustrationScene": "Puddle smiles kindly at sleepy Zuzu floating nearby above gentle grass.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "warm afternoon light",
+      "continuityNotes": "Puddle and Zuzu."
+    },
+    {
+      "number": 4,
+      "text": "Would you like to float home with me, asked Puddle. Zuzu gave a happy little flutter.",
+      "illustrationScene": "Zuzu rests securely in Puddle's open basket as Puddle rises slowly above the meadow.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "warm late-afternoon light",
+      "continuityNotes": "Puddle and Zuzu. Zuzu rides in the basket."
+    },
+    {
+      "number": 5,
+      "text": "Up they went, past the swaying grass and the fluffy tops of the meadow trees.",
+      "illustrationScene": "Puddle carries Zuzu above rounded treetops with the meadow and winding stream visible below.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "soft late-afternoon light",
+      "continuityNotes": "Puddle and Zuzu. Zuzu rides in the basket."
+    },
+    {
+      "number": 6,
+      "text": "A soft breeze nudged them toward a hill where the wildflowers nodded good evening.",
+      "illustrationScene": "Puddle drifts over a low wildflower-covered hill with Zuzu nestled in the basket.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "early sunset colors",
+      "continuityNotes": "Puddle and Zuzu. Zuzu rides in the basket."
+    },
+    {
+      "number": 7,
+      "text": "The wind feels like a soft blanket, murmured Zuzu, and Puddle agreed.",
+      "illustrationScene": "Close cozy view of Puddle floating steadily with Zuzu resting peacefully inside the basket.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "peach-lavender sunset",
+      "continuityNotes": "Puddle and Zuzu. Zuzu rides in the basket."
+    },
+    {
+      "number": 8,
+      "text": "They floated past a cloud shaped like a sleepy sheep, all round and fluffy.",
+      "illustrationScene": "A soft sheep-shaped cloud drifts near Puddle and Zuzu above gently glowing hills.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "gentle pink sunset light",
+      "continuityNotes": "Puddle and Zuzu. Zuzu rides in the basket."
+    },
+    {
+      "number": 9,
+      "text": "As the sun slipped behind the hills, Zuzu pointed her ribbon tail toward a little willow tree.",
+      "illustrationScene": "Puddle approaches a familiar willow beside the winding stream as Zuzu looks toward the tree.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "soft warm evening light",
+      "continuityNotes": "Puddle and Zuzu. Keep light wording general; art may look warm rather than blue dusk. Zuzu rides in the basket."
+    },
+    {
+      "number": 10,
+      "text": "That's my resting tree, whispered Zuzu. Its branches make the coziest place to dream.",
+      "illustrationScene": "Puddle hovers beside the willow with Zuzu still in the basket near a sheltered branch fork.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "soft quiet evening light",
+      "continuityNotes": "Puddle and Zuzu. Keep light wording general; art may look warm rather than blue dusk. Zuzu rides in the basket."
+    },
+    {
+      "number": 11,
+      "text": "Puddle floated very close, and Zuzu slipped gently into the willow's welcoming branches.",
+      "illustrationScene": "Zuzu settles into a broad low fork of the willow while Puddle remains beside the tree.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "early evening with first stars",
+      "continuityNotes": "Puddle and Zuzu. Zuzu in willow fork; basket empty after transfer."
+    },
+    {
+      "number": 12,
+      "text": "Thank you for the lovely ride, sighed Zuzu, and together they whispered sweet dreams.",
+      "illustrationScene": "Puddle smiles toward Zuzu resting peacefully in the willow branches under soft twilight stars.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "soft twilight with tiny stars",
+      "continuityNotes": "Puddle and Zuzu. Zuzu in willow fork; basket empty after transfer."
+    },
+    {
+      "number": 13,
+      "text": "Puddle drifted back across the meadow while the flowers folded their petals for the night.",
+      "illustrationScene": "Puddle floats alone toward a grassy landing circle beneath a deep indigo sky and crescent moon.",
+      "requiredCharacters": [
+        "Puddle"
+      ],
+      "timeOfDay": "deep indigo night",
+      "continuityNotes": "Puddle and Zuzu. Zuzu in willow fork; basket empty after transfer."
+    },
+    {
+      "number": 14,
+      "text": "With one last little whoosh, Puddle settled onto the grass and let the evening breeze grow still.",
+      "illustrationScene": "Puddle rests safely on the grassy landing circle with the basket touching the ground under moonlight.",
+      "requiredCharacters": [
+        "Puddle"
+      ],
+      "timeOfDay": "moonlit night on the grass",
+      "continuityNotes": "Puddle and Zuzu. Zuzu in willow fork; basket empty after transfer. Final sleep ending."
+    },
+    {
+      "number": 15,
+      "text": "Under the twinkling stars, Puddle closed sleepy eyes, and across the meadow, Zuzu dreamed of one more gentle ride. Goodnight, little balloon.",
+      "illustrationScene": "Wide night view of sleeping Puddle in the foreground and Zuzu nestled far away in the willow.",
+      "requiredCharacters": [
+        "Puddle",
+        "Zuzu"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Puddle and Zuzu. Zuzu in willow fork; basket empty after transfer. Final sleep ending."
+    }
+  ]
+}
