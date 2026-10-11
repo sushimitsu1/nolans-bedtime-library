@@ -1,0 +1,213 @@
+{
+  "title": "Tiko the Tiny Satellite and the Sleepy Planet Song",
+  "slug": "tiko-the-tiny-satellite-and-the-sleepy-planet-song",
+  "category": "Space",
+  "description": "A tiny pearl-white satellite hums a gentle bedtime song for peach planet Boba and mint-green planet Momo, then settles to sleep beside a quiet lavender world.",
+  "characterBible": {
+    "Tiko": {
+      "role": "Main character; a tiny toy-like satellite",
+      "color": "Pearl-white rounded body with a pale sky-blue front panel, powder-blue solar wings, and a short golden antenna with a tiny glowing bead",
+      "bodyShape": "Small rounded-square satellite with soft beveled edges and two short rectangular solar wings; no arms, hands, legs, wheels, or clothing",
+      "face": "Two small black oval eyes and a tiny curved smile on the central front panel, with soft peach cheek dots; never faces on the solar wings",
+      "accessories": "One short golden antenna topped with a tiny round glowing bead"
+    },
+    "Boba": {
+      "role": "Supporting character; a peach planet who first appears on page 5",
+      "color": "Round peach planet with a subtle coral blush gradient and rosy cheeks",
+      "bodyShape": "Small perfectly round planet with no limbs, accessories, rings, or surface markings",
+      "face": "Two small dark-brown oval eyes and a tiny gentle smile that grow sleepy and close on page 11",
+      "accessories": "None"
+    },
+    "Momo": {
+      "role": "Supporting character; a mint-green planet who first appears on page 8",
+      "color": "Round mint-green planet with faint pink cheeks and a delicate pale-yellow ring",
+      "bodyShape": "Small perfectly round planet with one thin pale-yellow ring tilted diagonally around her middle; no limbs or extra rings",
+      "face": "Small dark eyes and a tiny curved smile that close on page 11",
+      "accessories": "One pale-yellow ring that stays attached and diagonally oriented"
+    }
+  },
+  "settingBible": {
+    "Miniature Solar System": "A peaceful imaginary miniature solar system anchored by a large faceless lavender planet, with a faintly luminous curved orbital path, soft blue-violet cosmic haze, and gentle golden stars",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded space toys, periwinkle evening fading to velvet navy night, one scene per page, and no readable text or musical symbols on story pages"
+  },
+  "continuityRules": [
+    "Tiko keeps pearl-white body, powder-blue solar wings, golden antenna, and front-panel face only.",
+    "Boba stays a ringless peach planet and first appears on page 5.",
+    "Momo stays a mint-green planet with one pale-yellow diagonal ring and first appears on page 8.",
+    "Boba and Momo are absent before their introduction pages.",
+    "Pages 11–15 keep Boba and Momo asleep; Tiko is fully asleep on page 15.",
+    "No rescue, danger, rockets, Earth landscapes, lettering, logos, or musical note symbols.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Far above the clouds, a tiny satellite named Tiko floated through the quiet, sparkling evening sky.",
+      "illustrationScene": "Tiny pearl-white satellite Tiko floats alone beside a gentle lavender planet among soft stars.",
+      "requiredCharacters": [
+        "Tiko"
+      ],
+      "timeOfDay": "soft periwinkle evening",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo absent."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Tiko watched the planets settle down as the stars began to twinkle.",
+      "illustrationScene": "Tiko hovers peacefully near the lavender planet with distant pastel planets along a curved orbital path.",
+      "requiredCharacters": [
+        "Tiko"
+      ],
+      "timeOfDay": "soft periwinkle evening",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo absent."
+    },
+    {
+      "number": 3,
+      "text": "Tonight, Tiko had a special idea. He would make a bedtime song for the whole little sky.",
+      "illustrationScene": "Tiko looks delighted with his small golden antenna glowing softly against the starry sky.",
+      "requiredCharacters": [
+        "Tiko"
+      ],
+      "timeOfDay": "soft periwinkle evening with golden stars",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo absent."
+    },
+    {
+      "number": 4,
+      "text": "He hummed his first gentle note for the little stars to glow slow.",
+      "illustrationScene": "Tiko floats beside a cluster of tiny golden stars beginning to shimmer gently.",
+      "requiredCharacters": [
+        "Tiko"
+      ],
+      "timeOfDay": "richer blue-violet twilight",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo absent."
+    },
+    {
+      "number": 5,
+      "text": "A round peach-colored planet named Boba heard the song and gave a happy, sleepy smile.",
+      "illustrationScene": "Peach planet Boba first appears beside Tiko with rosy cheeks and a happy sleepy smile.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba"
+      ],
+      "timeOfDay": "blue-violet twilight",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba present; Momo absent."
+    },
+    {
+      "number": 6,
+      "text": "That sounds lovely, whispered Boba, but could you sing a little more.",
+      "illustrationScene": "Tiko faces Boba with tiny glowing musical swirls between them and no written notes.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba"
+      ],
+      "timeOfDay": "blue-violet twilight song",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba present; Momo absent."
+    },
+    {
+      "number": 7,
+      "text": "Tiko hummed a softer tune as the planets glided round with cozy stars on every side.",
+      "illustrationScene": "Tiko drifts along a glowing orbital curve as Boba watches with the lavender planet behind them.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba"
+      ],
+      "timeOfDay": "blue-violet twilight orbit",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba present; Momo absent."
+    },
+    {
+      "number": 8,
+      "text": "Soon, a little mint-green planet named Momo rolled gently into view.",
+      "illustrationScene": "Mint-green planet Momo first rolls into view with a thin pale-yellow ring and a drowsy expression.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "deeper indigo with gentle gold",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present."
+    },
+    {
+      "number": 9,
+      "text": "Your song feels like a warm blanket, Momo whispered, slowly blinking.",
+      "illustrationScene": "Momo floats peacefully near Tiko and Boba among delicate misty starlight.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "deeper indigo starlight",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present."
+    },
+    {
+      "number": 10,
+      "text": "Tiko made his smallest, sweetest hum so the little planets could drift together toward sleep.",
+      "illustrationScene": "Tiko centers between Boba and Momo with a faintly glowing antenna and soft golden sound ripples.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "deep indigo sleepy song",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present."
+    },
+    {
+      "number": 11,
+      "text": "Boba closed both eyes, and Momo tucked into the quiet curve of her glowing ring.",
+      "illustrationScene": "Boba sleeps on the left and Momo sleeps on the right with closed eyes while Tiko hovers nearby.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "darker quieter nightfall",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present. Planets asleep with closed eyes."
+    },
+    {
+      "number": 12,
+      "text": "Even the smallest stars seemed to twinkle more slowly, listening to Tiko's sleepy song.",
+      "illustrationScene": "Wide celestial scene with tiny Tiko in the foreground and sleeping Boba and Momo farther back.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "quiet deep night sky",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present. Planets asleep with closed eyes."
+    },
+    {
+      "number": 13,
+      "text": "Goodnight, Boba, Momo, and every little star, Tiko whispered.",
+      "illustrationScene": "Tiko drifts gently away from the sleeping planets along the orbital path with a faint antenna glow.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "quiet deep night goodbye",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present. Planets asleep with closed eyes."
+    },
+    {
+      "number": 14,
+      "text": "Tiko found his favorite quiet spot beside the lavender planet and folded his little solar wings close.",
+      "illustrationScene": "Tiko settles in peaceful orbit beside the lavender planet with solar wings folded slightly inward.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "deep velvet-navy nighttime",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present. Planets asleep with closed eyes. Tiko settling; eyes closed on page 15."
+    },
+    {
+      "number": 15,
+      "text": "And as the whole little sky rested, Tiko hummed one last tiny note, then drifted to sleep among the stars.",
+      "illustrationScene": "Tiko sleeps with closed eyes beside the lavender planet while Boba and Momo sleep far in the background.",
+      "requiredCharacters": [
+        "Tiko",
+        "Boba",
+        "Momo"
+      ],
+      "timeOfDay": "deep velvet-navy bedtime",
+      "continuityNotes": "Tiko present; pearl-white body, powder-blue solar wings, golden antenna. Boba and Momo present. Planets asleep with closed eyes. Tiko settling; eyes closed on page 15."
+    }
+  ]
+}

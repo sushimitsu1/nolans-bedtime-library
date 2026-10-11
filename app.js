@@ -2733,6 +2733,29 @@ narration: [
   "Goodnight, Junie, whispered Remy. Goodnight, Remy, she replied. And the little cars dreamed of golden leaves and peaceful roads.",
 ]
 },
+{
+id: "tiko-the-tiny-satellite-and-the-sleepy-planet-song", title: "Tiko the Tiny Satellite and the Sleepy Planet Song", category: "Space",
+description: "A tiny pearl-white satellite hums a gentle bedtime song for peach planet Boba and mint-green planet Momo, then settles to sleep beside a quiet lavender world.",
+keywords: ["tiko", "satellite", "boba", "momo", "planet song", "space", "bedtime", "stars", "orbit"],
+cover: "assets/books/tiko-the-tiny-satellite-and-the-sleepy-planet-song/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/tiko-the-tiny-satellite-and-the-sleepy-planet-song/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Far above the clouds, a tiny satellite named Tiko floated through the quiet, sparkling evening sky.",
+  "Every evening, Tiko watched the planets settle down as the stars began to twinkle.",
+  "Tonight, Tiko had a special idea. He would make a bedtime song for the whole little sky.",
+  "He hummed his first gentle note for the little stars to glow slow.",
+  "A round peach-colored planet named Boba heard the song and gave a happy, sleepy smile.",
+  "That sounds lovely, whispered Boba, but could you sing a little more.",
+  "Tiko hummed a softer tune as the planets glided round with cozy stars on every side.",
+  "Soon, a little mint-green planet named Momo rolled gently into view.",
+  "Your song feels like a warm blanket, Momo whispered, slowly blinking.",
+  "Tiko made his smallest, sweetest hum so the little planets could drift together toward sleep.",
+  "Boba closed both eyes, and Momo tucked into the quiet curve of her glowing ring.",
+  "Even the smallest stars seemed to twinkle more slowly, listening to Tiko's sleepy song.",
+  "Goodnight, Boba, Momo, and every little star, Tiko whispered.",
+  "Tiko found his favorite quiet spot beside the lavender planet and folded his little solar wings close.",
+  "And as the whole little sky rested, Tiko hummed one last tiny note, then drifted to sleep among the stars.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

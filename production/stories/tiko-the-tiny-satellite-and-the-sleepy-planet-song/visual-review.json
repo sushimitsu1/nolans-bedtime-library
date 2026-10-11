@@ -1,0 +1,525 @@
+{
+  "storySlug": "tiko-the-tiny-satellite-and-the-sleepy-planet-song",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tiko",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Boba",
+          "box": [
+            80,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Momo",
+          "box": [
+            100,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower glow, haze, or distant stars may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}
