@@ -2687,6 +2687,29 @@ narration: [
   "Beneath the moon and the quiet stars, Aster and Wren drifted into happy dreams, while the whole woodland rested in peaceful silence.",
 ]
 },
+{
+id: "toby-the-little-tugboat-and-the-sunset-island-lullaby", title: "Toby the Little Tugboat and the Sunset Island Lullaby", category: "Boats",
+description: "A little teal tugboat and a peach-sailed friend carry muffins and a tiny music-box lullaby to Sunset Island, then settle into a quiet cove to sleep under the moon.",
+keywords: ["toby", "tugboat", "shelly", "sailboat", "sunset island", "lullaby", "boats", "bedtime", "music box"],
+cover: "assets/books/toby-the-little-tugboat-and-the-sunset-island-lullaby/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/toby-the-little-tugboat-and-the-sunset-island-lullaby/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a peaceful seaside harbor lived Toby, a little tugboat who loved the gentle sounds of the ocean.",
+  "Every evening, Toby listened to the waves swish, the seabirds hum, and the harbor bells softly chime.",
+  "One lovely afternoon, Toby filled his little deck with sweet berry muffins and a tiny wooden music box.",
+  "Tonight, I'll bring a bedtime song to Sunset Island, Toby said with a cheerful little toot.",
+  "Along the way, Toby met Shelly, a little sailboat with a beautiful peach-colored sail.",
+  "May I come too, Shelly asked, saying she knew a song as gentle as the evening breeze.",
+  "Together they sailed past sleepy seabirds resting on smooth rocks, listening to the waves whisper good evening.",
+  "As the sky turned pink and lavender, Toby's music box shared a delicate melody that floated over the water.",
+  "Shelly hummed along, but even the little waves seemed to sway softly with their song.",
+  "At last, Sunset Island appeared, with cozy cottages nestled between flowering bushes and swaying palm trees.",
+  "Toby shared the berry muffins with the island's little animals while Shelly sang her sweetest evening tune.",
+  "The island grew quiet as the music box played its final tinkling notes beneath the first sparkling stars.",
+  "The loveliest songs are the ones we share, Toby whispered, and Shelly gave a happy, sleepy smile.",
+  "Toby and Shelly settled into the sheltered island cove, where the water was as smooth as a soft blue blanket.",
+  "Beneath the silver moon, the two little boats closed their eyes and drifted into sweet dreams of music, muffins, and gentle seas.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

@@ -1,0 +1,198 @@
+{
+  "title": "Toby the Little Tugboat and the Sunset Island Lullaby",
+  "slug": "toby-the-little-tugboat-and-the-sunset-island-lullaby",
+  "category": "Boats",
+  "description": "A little teal tugboat and a peach-sailed friend carry muffins and a tiny music-box lullaby to Sunset Island, then settle into a quiet cove to sleep under the moon.",
+  "characterBible": {
+    "Toby": {
+      "role": "Main character; a little tugboat",
+      "color": "Deep teal-blue hull with a cream upper cabin, warm coral-red roof and smokestack band, and pale-yellow side windows",
+      "bodyShape": "Small rounded tugboat with a short coral-red smokestack, black rubber bow bumper, compact rear cargo deck, and no arms, hands, legs, or clothing",
+      "face": "Large expressive brown eyes on the front cabin windshield and a small friendly smile on the cream front panel below",
+      "accessories": "A single small brass bell above the cabin, plus a light wicker muffin basket and a honey-brown wooden music box on the rear deck"
+    },
+    "Shelly": {
+      "role": "Supporting character; a little sailboat who first appears on page 5",
+      "color": "Glossy ivory-white hull with a narrow dusty-rose stripe and one softly curved peach triangular sail",
+      "bodyShape": "Petite rounded sailboat slightly smaller than Toby, with a short natural-wood mast and simple hull; no cabin, arms, hands, legs, or clothing",
+      "face": "Large expressive hazel eyes on the front-facing bow with a small sweet smile beneath them",
+      "accessories": "None beyond the fixed peach sail and dusty-rose stripe"
+    }
+  },
+  "settingBible": {
+    "Harbor and Sunset Island": "A peaceful coastal harbor with a honey-brown dock and pastel cottages, connected by calm turquoise water to Sunset Island with its short dock, pastel cottages, palm trees, flowering bushes, and sheltered crescent cove",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded boats, golden afternoon fading to moonlit blue, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Toby keeps his teal hull, cream cabin, coral-red roof and smokestack, brass bell, and rear-deck muffin basket and music box.",
+    "Shelly stays a smaller ivory sailboat with a peach sail and dusty-rose stripe, and first appears on page 5.",
+    "Shelly is absent from pages 1–4.",
+    "Narration never states exactly when the music box opens or closes, because art may differ on pages 4, 6, and 14.",
+    "Pages 14–15 keep both boats resting in the same sheltered island cove; both are fully asleep on page 15.",
+    "No rescue, danger, stormy seas, lettering, logos, or extra named boat characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a peaceful seaside harbor lived Toby, a little tugboat who loved the gentle sounds of the ocean.",
+      "illustrationScene": "Teal tugboat Toby floats alone beside a wooden harbor dock under a golden afternoon sky.",
+      "requiredCharacters": [
+        "Toby"
+      ],
+      "timeOfDay": "warm golden afternoon",
+      "continuityNotes": "Toby alone; Shelly absent. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Toby listened to the waves swish, the seabirds hum, and the harbor bells softly chime.",
+      "illustrationScene": "Toby smiles beside the dock as two white seabirds glide overhead over calm shimmering water.",
+      "requiredCharacters": [
+        "Toby"
+      ],
+      "timeOfDay": "warm golden afternoon at harbor",
+      "continuityNotes": "Toby alone; Shelly absent. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 3,
+      "text": "One lovely afternoon, Toby filled his little deck with sweet berry muffins and a tiny wooden music box.",
+      "illustrationScene": "Toby at the dock with a wicker muffin basket and a tiny wooden music box on his rear cargo deck.",
+      "requiredCharacters": [
+        "Toby"
+      ],
+      "timeOfDay": "warm golden afternoon at dock",
+      "continuityNotes": "Toby alone; Shelly absent. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 4,
+      "text": "Tonight, I'll bring a bedtime song to Sunset Island, Toby said with a cheerful little toot.",
+      "illustrationScene": "Toby departs the harbor with muffins and music box on deck, leaving a soft curved wake at sunset.",
+      "requiredCharacters": [
+        "Toby"
+      ],
+      "timeOfDay": "late-afternoon departure",
+      "continuityNotes": "Toby alone; Shelly absent. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 5,
+      "text": "Along the way, Toby met Shelly, a little sailboat with a beautiful peach-colored sail.",
+      "illustrationScene": "Peach-sailed sailboat Shelly first glides alongside Toby on calm open water toward distant island hills.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "late-afternoon into sunset",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 6,
+      "text": "May I come too, Shelly asked, saying she knew a song as gentle as the evening breeze.",
+      "illustrationScene": "Shelly sails close beside welcoming Toby under a glowing sunset sky on calm water.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "glowing sunset on open water",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 7,
+      "text": "Together they sailed past sleepy seabirds resting on smooth rocks, listening to the waves whisper good evening.",
+      "illustrationScene": "Toby and Shelly pass rounded shoreline rocks where two small white seabirds rest peacefully.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "golden sunset near shoreline rocks",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 8,
+      "text": "As the sky turned pink and lavender, Toby's music box shared a delicate melody that floated over the water.",
+      "illustrationScene": "Toby and Shelly travel under a pink-lavender sky while a delicate melody floats over the water.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "peach-pink sunset melody",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 9,
+      "text": "Shelly hummed along, but even the little waves seemed to sway softly with their song.",
+      "illustrationScene": "Toby and Shelly travel side by side through gentle ripples with sunset glowing behind island hills.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "pink-lavender sunset travel",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 10,
+      "text": "At last, Sunset Island appeared, with cozy cottages nestled between flowering bushes and swaying palm trees.",
+      "illustrationScene": "Toby and Shelly approach Sunset Island's short dock with pastel cottages, palms, and flowering bushes.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "fading sunset at Sunset Island",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 11,
+      "text": "Toby shared the berry muffins with the island's little animals while Shelly sang her sweetest evening tune.",
+      "illustrationScene": "Toby rests at the dock with muffins beside tiny island animals while Shelly floats nearby singing.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "soft violet blue hour at the dock",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 12,
+      "text": "The island grew quiet as the music box played its final tinkling notes beneath the first sparkling stars.",
+      "illustrationScene": "Toby and Shelly float by the island dock under a violet sky as first stars appear and the island grows quiet.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "violet blue hour with first stars",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 13,
+      "text": "The loveliest songs are the ones we share, Toby whispered, and Shelly gave a happy, sleepy smile.",
+      "illustrationScene": "Close peaceful view of Toby and Shelly side by side at the island dock under warm windows and early stars.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "gentle moonlit early night",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state."
+    },
+    {
+      "number": 14,
+      "text": "Toby and Shelly settled into the sheltered island cove, where the water was as smooth as a soft blue blanket.",
+      "illustrationScene": "Toby and Shelly rest in the sheltered crescent cove near the island dock beneath a crescent moon.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "calm indigo moonlit cove",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state. Final cove rest; both asleep on page 15."
+    },
+    {
+      "number": 15,
+      "text": "Beneath the silver moon, the two little boats closed their eyes and drifted into sweet dreams of music, muffins, and gentle seas.",
+      "illustrationScene": "Toby and Shelly sleep side by side in the protected cove with eyes fully closed under silver moonlight.",
+      "requiredCharacters": [
+        "Toby",
+        "Shelly"
+      ],
+      "timeOfDay": "peaceful deep-blue bedtime",
+      "continuityNotes": "Toby and Shelly together. Do not narrate exact music-box open/closed state. Final cove rest; both asleep on page 15."
+    }
+  ]
+}
