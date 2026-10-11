@@ -1,0 +1,202 @@
+{
+  "title": "Kumo the Little Panda and the Whispering Bamboo",
+  "slug": "kumo-the-little-panda-and-the-whispering-bamboo",
+  "category": "Animal Friends",
+  "description": "A little panda and his tiny red panda friend listen to the whispering bamboo, a soft stream, and sleepy forest sounds, then curl up in their cozy hollow for the night.",
+  "characterBible": {
+    "Kumo": {
+      "role": "Main character; a little giant panda",
+      "color": "Creamy ivory fur with soft charcoal-gray ears, arms, legs, and oval eye patches, plus a tiny cocoa-brown triangular nose",
+      "bodyShape": "Small round plush-like baby panda with short stubby paws; natural panda posture only, no clothing or accessories",
+      "face": "Large warm amber-brown eyes, round cheeks, and a gentle curious sleepy expression",
+      "accessories": "None"
+    },
+    "Bix": {
+      "role": "Supporting character; a tiny red panda present from page 1",
+      "color": "Warm cinnamon-orange fur with a creamy muzzle, eyebrows, and inner ears, dark chocolate legs, and a fluffy cinnamon-and-cream ringed tail",
+      "bodyShape": "Tiny red panda about half Kumo's height, with small rounded ears and a short snout; no clothing or accessories",
+      "face": "Bright hazel eyes and a cheerful gentle expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Whispering Bamboo Forest": "A secluded bamboo forest valley with tall emerald stalks, an arching canopy, a shallow winding stream, rounded mossy stones, delicate ferns, and one cozy ground-level sleeping hollow with a soft bed of fallen bamboo leaves",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded animal friends, golden sunset fading to moonlit indigo night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Kumo keeps creamy ivory fur with charcoal eye patches and amber-brown eyes.",
+    "Bix stays a smaller cinnamon red panda with a ringed tail and is already present from page 1.",
+    "Page 1 narration may mention Bix because he is already visible in the art.",
+    "The hollow, stream, and bamboo geography stay consistent through the evening.",
+    "Pages 14–15 keep both friends in the same bamboo hollow; both are asleep on page 15.",
+    "No rescue, danger, lettering, logos, clothing, or famous-character resemblance.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Deep in a peaceful bamboo forest lived Kumo, a little panda who loved the soft sounds of evening, with his friend Bix nearby.",
+      "illustrationScene": "Little panda Kumo sits by a cozy bamboo hollow at golden sunset with tiny red panda Bix already nearby.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "warm peach-gold sunset",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Kumo's friend Bix, a tiny red panda, came to watch the forest settle down.",
+      "illustrationScene": "Bix sits beside Kumo on a smooth mossy stone near their hollow in warm golden light.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "warm peach-gold sunset",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 3,
+      "text": "The forest sounds different at bedtime, whispered Bix. Would you like to listen.",
+      "illustrationScene": "Kumo tilts his round head curiously while Bix points one little paw toward gently swaying bamboo.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "warm peach-gold sunset",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 4,
+      "text": "Whoooosh, whispered the bamboo leaves as the evening breeze slipped between their tall green stalks.",
+      "illustrationScene": "Kumo and Bix gaze upward beneath arching bamboo leaves as a gentle breeze bends the stalks.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "fading golden evening",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 5,
+      "text": "That sounds like the forest taking a big, sleepy breath, said Kumo.",
+      "illustrationScene": "Kumo closes his eyes peacefully while Bix smiles beside him among softly waving bamboo.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "fading golden evening",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 6,
+      "text": "Plip, plop, went tiny drops of water falling from a leaf into the little forest stream.",
+      "illustrationScene": "The friends sit beside a shallow winding stream watching droplets fall from a broad bamboo leaf.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "gentle peach-lavender dusk",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 7,
+      "text": "Plip, plop, Kumo repeated softly, but even the water had a bedtime song.",
+      "illustrationScene": "Kumo leans gently toward the stream while Bix watches small circular ripples in the fading light.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "gentle peach-lavender dusk",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 8,
+      "text": "As the sky turned lavender, a little tree frog began to sing a soft ribbit song.",
+      "illustrationScene": "A tiny jade-green frog sits on a smooth stone beside the stream while Kumo and Bix listen from the bank.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "lavender-violet twilight",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 9,
+      "text": "What a lovely little voice, whispered Bix. It makes the whole forest feel cozy.",
+      "illustrationScene": "Bix curls his fluffy ringed tail around his paws while Kumo smiles at the frog under a violet sky.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "lavender-violet twilight",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 10,
+      "text": "Then a gentle chirp-chirp floated down from a bamboo branch high above their heads.",
+      "illustrationScene": "A tiny round brown bird rests on a slender bamboo branch while the two friends gaze upward at twilight.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "deep blue-purple twilight",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 11,
+      "text": "So many sleepy sounds, yawned Kumo. I wonder what the quiet sounds like.",
+      "illustrationScene": "Kumo gives a wide yawn as Bix settles beside him on the moss with the first stars through the bamboo.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "early night with first stars",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 12,
+      "text": "The friends closed their eyes and listened very carefully to the peaceful spaces between each little sound.",
+      "illustrationScene": "Kumo and Bix sit quietly together near their cozy hollow with eyes closed in cool moonlit shadows.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "muted indigo early night",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 13,
+      "text": "I hear the breeze, the water, and your breathing, whispered Bix. They all belong together.",
+      "illustrationScene": "Bix nestles beside Kumo at the hollow entrance while silver moonlight touches bamboo leaves and mossy stones.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "dark peaceful moonlight",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1."
+    },
+    {
+      "number": 14,
+      "text": "Kumo curled into his soft bed of fallen bamboo leaves, feeling warm, safe, and wonderfully sleepy.",
+      "illustrationScene": "Inside the shallow bamboo hollow, Kumo curls on his leaf bed while Bix rests nearby in faint moonlight.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "dark peaceful moonlight in the hollow",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1. Final hollow sleep; both asleep on page 15."
+    },
+    {
+      "number": 15,
+      "text": "And as the whispering bamboo sang its gentle goodnight, Kumo and Bix drifted into the sweetest dreams.",
+      "illustrationScene": "Wide nighttime view of the bamboo hollow with Kumo and Bix sleeping together under moon and tiny stars.",
+      "requiredCharacters": [
+        "Kumo",
+        "Bix"
+      ],
+      "timeOfDay": "deep indigo bedtime night",
+      "continuityNotes": "Kumo and Bix both present from page 1; Bix already visible in art on page 1. Final hollow sleep; both asleep on page 15."
+    }
+  ]
+}

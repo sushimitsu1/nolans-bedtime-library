@@ -2848,6 +2848,29 @@ narration: [
   "Under the twinkling stars, Puddle closed sleepy eyes, and across the meadow, Zuzu dreamed of one more gentle ride. Goodnight, little balloon.",
 ]
 },
+{
+id: "kumo-the-little-panda-and-the-whispering-bamboo", title: "Kumo the Little Panda and the Whispering Bamboo", category: "Animal Friends",
+description: "A little panda and his tiny red panda friend listen to the whispering bamboo, a soft stream, and sleepy forest sounds, then curl up in their cozy hollow for the night.",
+keywords: ["kumo", "panda", "bix", "red panda", "bamboo", "animal friends", "bedtime", "forest", "hollow"],
+cover: "assets/books/kumo-the-little-panda-and-the-whispering-bamboo/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/kumo-the-little-panda-and-the-whispering-bamboo/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Deep in a peaceful bamboo forest lived Kumo, a little panda who loved the soft sounds of evening, with his friend Bix nearby.",
+  "Every evening, Kumo's friend Bix, a tiny red panda, came to watch the forest settle down.",
+  "The forest sounds different at bedtime, whispered Bix. Would you like to listen.",
+  "Whoooosh, whispered the bamboo leaves as the evening breeze slipped between their tall green stalks.",
+  "That sounds like the forest taking a big, sleepy breath, said Kumo.",
+  "Plip, plop, went tiny drops of water falling from a leaf into the little forest stream.",
+  "Plip, plop, Kumo repeated softly, but even the water had a bedtime song.",
+  "As the sky turned lavender, a little tree frog began to sing a soft ribbit song.",
+  "What a lovely little voice, whispered Bix. It makes the whole forest feel cozy.",
+  "Then a gentle chirp-chirp floated down from a bamboo branch high above their heads.",
+  "So many sleepy sounds, yawned Kumo. I wonder what the quiet sounds like.",
+  "The friends closed their eyes and listened very carefully to the peaceful spaces between each little sound.",
+  "I hear the breeze, the water, and your breathing, whispered Bix. They all belong together.",
+  "Kumo curled into his soft bed of fallen bamboo leaves, feeling warm, safe, and wonderfully sleepy.",
+  "And as the whispering bamboo sang its gentle goodnight, Kumo and Bix drifted into the sweetest dreams.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
