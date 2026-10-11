@@ -1,0 +1,651 @@
+{
+  "storySlug": "coby-the-little-trolley-and-the-city-of-sleepy-lights",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Marlo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            120,
+            90,
+            1260,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Cleo",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            100,
+            90,
+            1280,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        },
+        {
+          "label": "Otis",
+          "box": [
+            80,
+            90,
+            1300,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Coby",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, rails, or street may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

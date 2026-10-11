@@ -1,0 +1,233 @@
+{
+  "title": "Coby the Little Trolley and the City of Sleepy Lights",
+  "slug": "coby-the-little-trolley-and-the-city-of-sleepy-lights",
+  "category": "Rail Vehicles",
+  "description": "A little teal trolley carries rabbit Marlo, hedgehog Cleo, and raccoon Otis home through a city of sleepy lights, then rests in his shed under the moon.",
+  "characterBible": {
+    "Coby": {
+      "role": "Main character; a compact vintage electric streetcar",
+      "color": "Soft teal-blue lower body with a warm ivory upper cabin, thin butter-yellow stripe, rounded charcoal-gray roof, and a round amber headlamp",
+      "bodyShape": "Single-car toy-like trolley with four rounded rectangular side windows, two small dark wheels per side, and one slim charcoal trolley pole; no arms, hands, legs, smokestack, or freight cars",
+      "face": "Two expressive oval eyes and a small warm smile on the cream front fascia below the windshield",
+      "accessories": "Small golden bell above the front windshield and one central round amber headlamp"
+    },
+    "Marlo": {
+      "role": "Supporting passenger; a cinnamon-brown rabbit who exits on page 11",
+      "color": "Cinnamon-brown fur with peach inner ears and a tiny cream muzzle",
+      "bodyShape": "Small rounded rabbit with short floppy ears; no human limbs",
+      "face": "Dark button eyes and a gentle expression",
+      "accessories": "Sage-green knitted vest and one small moss-green blanket"
+    },
+    "Cleo": {
+      "role": "Supporting passenger; a cream hedgehog who exits on page 12",
+      "color": "Cream body with short soft caramel-brown quills and peach cheeks",
+      "bodyShape": "Small round hedgehog; no human limbs",
+      "face": "Black bead eyes and a tiny dark nose",
+      "accessories": "Dusty-rose scarf and one round butter-yellow pillow"
+    },
+    "Otis": {
+      "role": "Supporting passenger; a slate-blue raccoon who exits on page 13",
+      "color": "Slate-blue fur with a pale gray facial mask and a subtle dark-striped tail",
+      "bodyShape": "Small rounded raccoon with rounded ears; no human limbs",
+      "face": "Dark button eyes and a sleepy gentle expression",
+      "accessories": "Mustard-yellow neckerchief and one small closed powder-blue book with a blank cover"
+    }
+  },
+  "settingBible": {
+    "City of Sleepy Lights": "A compact storybook canal city with cobblestone streets, tram rails, overhead trolley wires, pastel townhouses, golden streetlamps, a short stone canal bridge, and a brick trolley station with an open-front shed",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded trolley and animal passengers, peach evening fading to velvet navy night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Coby keeps teal body, ivory cabin, yellow stripe, golden bell, amber headlamp, and one trolley pole.",
+    "Exactly three passengers: Marlo with green blanket, Cleo with yellow pillow, and Otis with blank blue book.",
+    "Marlo exits on page 11, Cleo on page 12, and Otis on page 13; Coby is empty on pages 14–15.",
+    "Their neighboring doors stay sage green, pale yellow, and powder blue.",
+    "No rescue, danger, crowds, lettering, logos, shop names, or writing on Otis's book.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "When the evening sky turned peach and purple, Coby the little trolley rolled out for his very last trip of the day.",
+      "illustrationScene": "Teal trolley Coby waits on curved tracks beside a brick trolley station under a peach-lavender sunset.",
+      "requiredCharacters": [
+        "Coby"
+      ],
+      "timeOfDay": "peach-lavender sunset",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Passengers may wait on the platform but are not required in narration yet."
+    },
+    {
+      "number": 2,
+      "text": "All aboard for the sleepy ride home, Coby chimed, ringing his little golden bell.",
+      "illustrationScene": "Rabbit Marlo, hedgehog Cleo, and raccoon Otis climb aboard smiling Coby under his glowing headlamp.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "warm early-evening boarding",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 3,
+      "text": "Marlo carried a tiny green blanket, Cleo hugged a round yellow pillow, and Otis held his favorite little blue book.",
+      "illustrationScene": "Inside Coby's cabin, Marlo, Cleo, and Otis sit together on warm wooden benches with blanket, pillow, and blue book.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "warm early-evening cabin",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 4,
+      "text": "Clickety-clack, clickety-clack, Coby followed the shining rails past the bakery with its golden windows.",
+      "illustrationScene": "Coby travels a cobblestone street past a bakery with golden windows while the three passengers ride inside.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "periwinkle dusk by the bakery",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 5,
+      "text": "The city lamps blinked on one by one, like little stars waking up along the sidewalks.",
+      "illustrationScene": "Wide view of Coby beneath glowing golden streetlamps as the three passengers gaze through the windows.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "periwinkle dusk with streetlamps",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 6,
+      "text": "Marlo gave a great big yawn, but he still whispered that the lights looked like sleepy fireflies.",
+      "illustrationScene": "Interior view of yawning Marlo with his green blanket, Cleo hugging her yellow pillow, and Otis holding his blue book.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "dusky street cabin interior",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 7,
+      "text": "At the little bridge, Coby slowed down so everyone could see the moon making silver ribbons on the water.",
+      "illustrationScene": "Coby crosses a short stone bridge over a narrow canal with silver moonlight on the water.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "indigo-blue twilight on the bridge",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 8,
+      "text": "Cleo watched the moonlit water and whispered that the river looked like it was wearing a bedtime blanket.",
+      "illustrationScene": "Through Coby's side window, Cleo hugs her pillow while watching the shimmering canal with Marlo and Otis nearby.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "indigo twilight moonlit canal",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 9,
+      "text": "Around the next corner, Otis spotted little windows glowing high above the quiet street.",
+      "illustrationScene": "Coby rounds a curve into a quiet neighborhood with warm upstairs windows as Otis looks out holding his blue book.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "indigo twilight residential street",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 10,
+      "text": "Those are our windows, Otis whispered, and together their homes are waiting for them.",
+      "illustrationScene": "Coby pauses by a shared courtyard as the three animals look toward sage-green, pale-yellow, and powder-blue doors.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "indigo twilight at the courtyard",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. All three passengers aboard with blanket, pillow, and blank blue book."
+    },
+    {
+      "number": 11,
+      "text": "First Marlo hopped down, wrapping his soft green blanket around his shoulders like a cozy little cape.",
+      "illustrationScene": "Marlo stands on the sidewalk outside his sage-green door in his green blanket while Coby waits with doors open.",
+      "requiredCharacters": [
+        "Coby",
+        "Marlo",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "dark navy night first drop-off",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Marlo exits; Cleo and Otis still aboard."
+    },
+    {
+      "number": 12,
+      "text": "Next Cleo tiptoed home, holding her yellow pillow close and giving Coby a tiny sleepy wave.",
+      "illustrationScene": "Cleo walks toward the pale-yellow doorway with her round pillow while Otis remains aboard Coby.",
+      "requiredCharacters": [
+        "Coby",
+        "Cleo",
+        "Otis"
+      ],
+      "timeOfDay": "dark navy night second drop-off",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Cleo exits; Otis still aboard."
+    },
+    {
+      "number": 13,
+      "text": "Last came Otis, who whispered good night and thank you for the prettiest ride through the lights.",
+      "illustrationScene": "Otis stands outside his powder-blue doorway looking back at Coby under a starry navy night.",
+      "requiredCharacters": [
+        "Coby",
+        "Otis"
+      ],
+      "timeOfDay": "starry navy night last drop-off",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Otis exits; Coby becoming empty."
+    },
+    {
+      "number": 14,
+      "text": "Coby rang his bell just once, very softly, and rolled back alone through the peaceful, sleeping city.",
+      "illustrationScene": "Coby travels alone along moonlit tracks toward the brick trolley station with empty passenger seats.",
+      "requiredCharacters": [
+        "Coby"
+      ],
+      "timeOfDay": "deep velvet-navy return ride",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Coby alone and empty."
+    },
+    {
+      "number": 15,
+      "text": "With his headlamp glowing low and the moon shining above, Coby closed his eyes and dreamed of tomorrow's lovely little ride.",
+      "illustrationScene": "Coby rests asleep in the open-front trolley shed with closed eyes and a dim amber headlamp under silver moonlight.",
+      "requiredCharacters": [
+        "Coby"
+      ],
+      "timeOfDay": "deep velvet-navy bedtime",
+      "continuityNotes": "Coby present; teal trolley with ivory cabin and golden bell. Coby alone and empty. Final shed sleep; eyes closed."
+    }
+  ]
+}
