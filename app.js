@@ -2871,6 +2871,29 @@ narration: [
   "And as the whispering bamboo sang its gentle goodnight, Kumo and Bix drifted into the sweetest dreams.",
 ]
 },
+{
+id: "dapple-the-little-ankylosaurus-and-the-firefly-counting-game", title: "Dapple the Little Ankylosaurus and the Firefly Counting Game", category: "Dinosaurs",
+description: "A little ankylosaurus tries to count glowing fireflies in a quiet valley, then sits and watches their soft dance before drifting to sleep under the stars.",
+keywords: ["dapple", "ankylosaurus", "fireflies", "counting", "dinosaurs", "bedtime", "valley", "stream"],
+cover: "assets/books/dapple-the-little-ankylosaurus-and-the-firefly-counting-game/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/dapple-the-little-ankylosaurus-and-the-firefly-counting-game/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a cozy valley of smooth stones and soft grass lived Dapple, a little dinosaur who loved the quiet glow of evening.",
+  "Every evening, Dapple watched tiny fireflies wake up among the flowers.",
+  "A few little lights blinked above the flowers, and Dapple whispered hello.",
+  "More little lights blinked beside the stream, and Dapple giggled at their gentle glow.",
+  "Soon more and more golden lights danced in a slow, sleepy circle.",
+  "Another soft light joined the gentle dance, and Dapple watched with a happy smile.",
+  "More and more little lights twinkled near Dapple's nose on the lovely glowing night.",
+  "Dapple tried to count again, but the fireflies kept floating and twirling.",
+  "Perhaps, Dapple whispered, little lights don't like standing still.",
+  "So Dapple stopped counting and listened to the soft evening sounds.",
+  "The stream went trickle-trickle. The grass went swish-swish. The fireflies blinked without a sound.",
+  "You can dance as much as you like, Dapple murmured. I'll sit and watch instead.",
+  "The little lights floated higher together, as if carrying sleepy wishes toward the stars.",
+  "Dapple gave one enormous yawn and tucked their tiny feet beneath their round tummy.",
+  "And beneath the twinkling stars, Dapple dreamed of little golden lights dancing softly through the night.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

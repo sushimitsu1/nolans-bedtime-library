@@ -1,0 +1,180 @@
+{
+  "title": "Dapple the Little Ankylosaurus and the Firefly Counting Game",
+  "slug": "dapple-the-little-ankylosaurus-and-the-firefly-counting-game",
+  "category": "Dinosaurs",
+  "description": "A little ankylosaurus tries to count glowing fireflies in a quiet valley, then sits and watches their soft dance before drifting to sleep under the stars.",
+  "characterBible": {
+    "Dapple": {
+      "role": "Main character; a little baby ankylosaurus",
+      "color": "Soft dusty-aqua body with a pale buttercream tummy and muzzle, plus apricot armor bumps and an apricot oval tail club",
+      "bodyShape": "Small compact low-slung rounded ankylosaurus with a short neck, four stubby legs, a broad rounded snout, and a short thick tail ending in a smooth oval club; never long-necked or upright",
+      "face": "Large glossy dark-brown eyes, tiny nostrils, rosy cheek spots, and a gentle smile",
+      "accessories": "Exactly five small rounded apricot armor bumps along the center of the back; no horns, spikes, claws, clothing, or hair"
+    }
+  },
+  "settingBible": {
+    "Firefly Valley": "A sheltered prehistoric meadow valley with a winding shallow pebble stream, rounded boulders, one low mossy resting stone, a patch of lavender bellflowers, soft blue-green grass, and distant gently rounded hills",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded dinosaur, golden sunset fading to moonlit indigo night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Dapple keeps dusty-aqua body, buttercream tummy, five apricot back bumps, and an apricot oval tail club.",
+    "Pages 2–7 narration avoids exact firefly counts because the art counts are loose.",
+    "Pages 12–13 show Dapple sitting rather than lying down.",
+    "No additional named animal characters.",
+    "Pages 14–15 keep Dapple resting by the same stream and stone; Dapple is fully asleep on page 15.",
+    "No rescue, danger, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a cozy valley of smooth stones and soft grass lived Dapple, a little dinosaur who loved the quiet glow of evening.",
+      "illustrationScene": "Little dusty-aqua ankylosaurus Dapple stands alone on a grassy hillock beside a winding pebble stream at peach-gold sunset.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "warm peach-gold sunset",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, Dapple watched tiny fireflies wake up among the flowers.",
+      "illustrationScene": "Dapple sits beside lavender bellflowers as the first golden fireflies appear in warm evening light.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "warm sunset into lavender",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 3,
+      "text": "A few little lights blinked above the flowers, and Dapple whispered hello.",
+      "illustrationScene": "Dapple looks upward with delight as a few golden fireflies glow above the lavender flowers.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "gentle peach-lavender dusk",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 4,
+      "text": "More little lights blinked beside the stream, and Dapple giggled at their gentle glow.",
+      "illustrationScene": "Dapple watches from the grassy bank as more fireflies glow near smooth stream pebbles.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "deepening lavender dusk",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 5,
+      "text": "Soon more and more golden lights danced in a slow, sleepy circle.",
+      "illustrationScene": "Dapple watches happily as more and more fireflies dance in a loose circle above the flowers.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "muted peach and lavender dusk",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 6,
+      "text": "Another soft light joined the gentle dance, and Dapple watched with a happy smile.",
+      "illustrationScene": "Dapple's small tail rests on the grass while soft firefly lights glow over the lavender bellflowers.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "violet-lavender twilight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 7,
+      "text": "More and more little lights twinkled near Dapple's nose on the lovely glowing night.",
+      "illustrationScene": "Dapple looks closely at glowing fireflies floating near the rounded snout in soft twilight.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "soft violet-blue twilight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Narration avoids exact firefly numbers."
+    },
+    {
+      "number": 8,
+      "text": "Dapple tried to count again, but the fireflies kept floating and twirling.",
+      "illustrationScene": "Dapple tilts their head, amused, as fireflies rearrange around the flower patch.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "deepening blue-lavender twilight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose."
+    },
+    {
+      "number": 9,
+      "text": "Perhaps, Dapple whispered, little lights don't like standing still.",
+      "illustrationScene": "Dapple watches peacefully from a smooth mossy stone as fireflies drift in a ribbon above the stream.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "violet-blue sky with first stars",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose."
+    },
+    {
+      "number": 10,
+      "text": "So Dapple stopped counting and listened to the soft evening sounds.",
+      "illustrationScene": "Dapple sits beside the stream with eyes closed, listening, while fireflies glow nearby under moonlight.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "darker indigo twilight moonlight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose."
+    },
+    {
+      "number": 11,
+      "text": "The stream went trickle-trickle. The grass went swish-swish. The fireflies blinked without a sound.",
+      "illustrationScene": "Dapple sits quietly beside the winding stream among bending grasses and scattered fireflies under stars.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "indigo night with crescent moon",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose."
+    },
+    {
+      "number": 12,
+      "text": "You can dance as much as you like, Dapple murmured. I'll sit and watch instead.",
+      "illustrationScene": "Dapple sits comfortably on the grass watching a loose gathering of golden fireflies above the flowers.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "deep indigo night moonlight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Dapple sits rather than lies down."
+    },
+    {
+      "number": 13,
+      "text": "The little lights floated higher together, as if carrying sleepy wishes toward the stars.",
+      "illustrationScene": "Dapple sits gazing upward with heavy eyelids as fireflies rise toward the starry sky.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "dark indigo night moonlight",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Dapple sits rather than lies down."
+    },
+    {
+      "number": 14,
+      "text": "Dapple gave one enormous yawn and tucked their tiny feet beneath their round tummy.",
+      "illustrationScene": "Dapple curls into a snug resting position beside the mossy stone with eyes nearly closed.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "deep midnight-indigo night",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Final sleep ending."
+    },
+    {
+      "number": 15,
+      "text": "And beneath the twinkling stars, Dapple dreamed of little golden lights dancing softly through the night.",
+      "illustrationScene": "Dapple sleeps peacefully beside the pebble stream with eyes fully closed under moon and stars.",
+      "requiredCharacters": [
+        "Dapple"
+      ],
+      "timeOfDay": "tranquil midnight bedtime",
+      "continuityNotes": "Dapple alone; firefly counts in art are loose. Final sleep ending."
+    }
+  ]
+}
