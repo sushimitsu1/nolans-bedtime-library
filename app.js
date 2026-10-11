@@ -2802,6 +2802,29 @@ narration: [
   "With his headlamp glowing low and the moon shining above, Coby closed his eyes and dreamed of tomorrow's lovely little ride.",
 ]
 },
+{
+id: "berri-the-little-whale-and-the-dancing-northern-sky", title: "Berri the Little Whale and the Dancing Northern Sky", category: "Ocean Animals",
+description: "A little blue whale and her baby harp seal friend Sable follow a gentle tide to watch the northern lights dance, then drift peacefully to sleep in their cozy bay.",
+keywords: ["berri", "whale", "sable", "seal", "northern lights", "aurora", "ocean animals", "bedtime", "arctic"],
+cover: "assets/books/berri-the-little-whale-and-the-dancing-northern-sky/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/berri-the-little-whale-and-the-dancing-northern-sky/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Far in the northern ocean lived Berri, a little blue whale who loved watching the evening sky.",
+  "One evening, Berri saw a soft green shimmer above the snowy hills and wondered what it was.",
+  "Those are the northern lights, said her friend Sable. They dance when the sky grows dark.",
+  "I would love to see them dance, whispered Berri, but Sable said to follow the gentle tide.",
+  "The tide carried them past a little island wearing a fluffy hat of snow.",
+  "They passed sleepy ice floes that drifted like pillows across the sea.",
+  "Berri made one tiny fountain with her blowhole, and the soft mist floated into the chilly air.",
+  "Look how the water holds the stars, said Sable. Berri peeked down and saw a thousand tiny sparkles.",
+  "The tide slowed beside a quiet, moonlit cove, and Sable said it was a lovely place to watch.",
+  "First, a ribbon of green stretched across the sky. Then another curled gently beside it.",
+  "Soon, soft pink and violet joined the green, sweeping slowly from one end of the sky to the other.",
+  "They're beautiful, whispered Berri, and Sable smiled that they did not need to hurry.",
+  "They watched until the colors grew softer and the stars seemed brighter than ever together.",
+  "The tide carried them gently beneath the quiet stars.",
+  "Back in their cozy bay, Berri closed her eyes and drifted to sleep as the northern sky danced in her dreams.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

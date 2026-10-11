@@ -1,0 +1,200 @@
+{
+  "title": "Berri the Little Whale and the Dancing Northern Sky",
+  "slug": "berri-the-little-whale-and-the-dancing-northern-sky",
+  "category": "Ocean Animals",
+  "description": "A little blue whale and her baby harp seal friend Sable follow a gentle tide to watch the northern lights dance, then drift peacefully to sleep in their cozy bay.",
+  "characterBible": {
+    "Berri": {
+      "role": "Main character; a little blue whale",
+      "color": "Smooth powder-blue upper body with a pale ivory-blue underside",
+      "bodyShape": "Young small rounded toy-like blue whale with two short rounded pectoral flippers, broad horizontal tail flukes, and one small blowhole on top of her head; no clothing, accessories, hands, or feet",
+      "face": "Large expressive dark-brown eyes and a tiny curved smile",
+      "accessories": "None"
+    },
+    "Sable": {
+      "role": "Supporting character; a tiny baby harp seal who first appears on page 3",
+      "color": "Rounded cream-white body with a soft charcoal-gray nose and a subtle pale-gray heart-shaped marking across the upper back",
+      "bodyShape": "Tiny baby harp seal about one-third Berri's body length, with short front flippers and small rear flippers; no clothing, accessories, arms, hands, or feet",
+      "face": "Wide dark-brown eyes, tiny whiskers, and a gentle expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Northern Ocean Bay and Cove": "A sheltered Arctic ocean bay connected by a gentle tidal passage to a quiet viewing cove, with snowy mountains, smooth coastal rocks, one small snow-topped island, scattered rounded ice floes, and calm seawater under dancing northern lights",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded ocean animals, lavender twilight fading to velvet navy night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Berri keeps powder-blue body, ivory-blue underside, and a top blowhole only.",
+    "The seal companion is named Sable and first appears on page 3.",
+    "Sable is absent from pages 1–2.",
+    "Page 14 art still shows the cove, so narration stays soft about the tide carrying them gently.",
+    "Pages 14–15 become sleepier; both are asleep on page 15.",
+    "No rescue, danger, rough seas, lettering, logos, or extra named characters.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Far in the northern ocean lived Berri, a little blue whale who loved watching the evening sky.",
+      "illustrationScene": "Little powder-blue whale Berri swims alone through a peaceful Arctic bay at lavender-blue dusk.",
+      "requiredCharacters": [
+        "Berri"
+      ],
+      "timeOfDay": "lavender-blue twilight",
+      "continuityNotes": "Berri alone; Sable absent."
+    },
+    {
+      "number": 2,
+      "text": "One evening, Berri saw a soft green shimmer above the snowy hills and wondered what it was.",
+      "illustrationScene": "Berri alone lifts her head above the water toward a faint pale-green ribbon beyond snowy hills.",
+      "requiredCharacters": [
+        "Berri"
+      ],
+      "timeOfDay": "lavender-blue twilight shimmer",
+      "continuityNotes": "Berri alone; Sable absent."
+    },
+    {
+      "number": 3,
+      "text": "Those are the northern lights, said her friend Sable. They dance when the sky grows dark.",
+      "illustrationScene": "Tiny cream baby harp seal Sable first floats beside Berri as both look toward the faint green glow.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "lavender-blue twilight with Sable",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 4,
+      "text": "I would love to see them dance, whispered Berri, but Sable said to follow the gentle tide.",
+      "illustrationScene": "Berri and Sable face a wide passage between snowy headlands with smooth ripples under an indigo sky.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "cooling blue dusk",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 5,
+      "text": "The tide carried them past a little island wearing a fluffy hat of snow.",
+      "illustrationScene": "Berri swims slowly beside Sable past a small rounded rocky island topped with thick snow.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "cooling blue dusk by the island",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 6,
+      "text": "They passed sleepy ice floes that drifted like pillows across the sea.",
+      "illustrationScene": "Berri glides among rounded ice floes while Sable rests on a nearby floe on mirror-smooth water.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "deepening indigo dusk among ice floes",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 7,
+      "text": "Berri made one tiny fountain with her blowhole, and the soft mist floated into the chilly air.",
+      "illustrationScene": "Berri releases a small delicate puff of white mist from her blowhole while Sable watches delightedly.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "dark blue evening mist",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 8,
+      "text": "Look how the water holds the stars, said Sable. Berri peeked down and saw a thousand tiny sparkles.",
+      "illustrationScene": "Berri and Sable gaze into calm dark-blue water reflecting many small stars.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "dark blue evening star reflections",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 9,
+      "text": "The tide slowed beside a quiet, moonlit cove, and Sable said it was a lovely place to watch.",
+      "illustrationScene": "Berri and Sable arrive in a sheltered cove framed by snowy cliffs under a crescent moon and faint aurora.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "moonlit cove evening",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 10,
+      "text": "First, a ribbon of green stretched across the sky. Then another curled gently beside it.",
+      "illustrationScene": "Berri and Sable float side by side watching two luminous green aurora curtains above the cove.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "full Arctic night aurora",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 11,
+      "text": "Soon, soft pink and violet joined the green, sweeping slowly from one end of the sky to the other.",
+      "illustrationScene": "Wide cove view beneath flowing green, pink, and violet northern lights with Berri and Sable in the foreground.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "full Arctic night colorful aurora",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 12,
+      "text": "They're beautiful, whispered Berri, and Sable smiled that they did not need to hurry.",
+      "illustrationScene": "Close peaceful view of Berri and Sable floating together beneath gently rippling aurora curtains.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "bright gentle aurora night",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 13,
+      "text": "They watched until the colors grew softer and the stars seemed brighter than ever together.",
+      "illustrationScene": "Berri and Sable rest close together in the still cove as the aurora fades to pale-green wisps.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "deep midnight navy fading aurora",
+      "continuityNotes": "Berri and Sable together."
+    },
+    {
+      "number": 14,
+      "text": "The tide carried them gently beneath the quiet stars.",
+      "illustrationScene": "Berri and Sable rest gently in the quiet cove under nearly faded aurora and peaceful starry sky.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "deep midnight navy quiet cove",
+      "continuityNotes": "Berri and Sable together. Art still shows the cove; keep narration soft about the tide carrying them gently."
+    },
+    {
+      "number": 15,
+      "text": "Back in their cozy bay, Berri closed her eyes and drifted to sleep as the northern sky danced in her dreams.",
+      "illustrationScene": "Berri sleeps near the calm surface of her home bay while Sable sleeps curled on a small safe ice floe nearby.",
+      "requiredCharacters": [
+        "Berri",
+        "Sable"
+      ],
+      "timeOfDay": "quietest velvet-navy bedtime",
+      "continuityNotes": "Berri and Sable together. Final bay sleep; both asleep."
+    }
+  ]
+}
