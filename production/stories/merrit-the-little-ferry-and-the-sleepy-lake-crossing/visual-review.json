@@ -1,0 +1,705 @@
+{
+  "storySlug": "merrit-the-little-ferry-and-the-sleepy-lake-crossing",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            80,
+            120,
+            1280,
+            750
+          ]
+        },
+        {
+          "label": "Rabbit",
+          "box": [
+            200,
+            180,
+            700,
+            720
+          ]
+        },
+        {
+          "label": "Hedgehog",
+          "box": [
+            480,
+            220,
+            900,
+            720
+          ]
+        },
+        {
+          "label": "Duckling",
+          "box": [
+            700,
+            200,
+            1100,
+            720
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Merrit",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, water, or dock edges may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+    }
+  ]
+}

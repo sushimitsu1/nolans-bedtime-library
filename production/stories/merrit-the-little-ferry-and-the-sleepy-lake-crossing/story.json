@@ -1,0 +1,239 @@
+{
+  "title": "Merrit the Little Ferry and the Sleepy Lake Crossing",
+  "slug": "merrit-the-little-ferry-and-the-sleepy-lake-crossing",
+  "category": "Boats",
+  "description": "A little ferry carries three sleepy friends across Silvermist Lake on a slow evening crossing, then rests beneath the silver moon.",
+  "characterBible": {
+    "Merrit": {
+      "role": "Main character; a little toy-like passenger ferry",
+      "color": "Muted seafoam-teal hull, warm cream cabin, dusty coral roof, and a small honey-yellow chimney",
+      "bodyShape": "Short rounded compact ferry hull with cream-framed twin front windows, wooden passenger bench, short cream railings, and a hinged boarding ramp at the bow; no wheels, sails, arms, or legs",
+      "face": "Friendly eyes only in the two front cabin windows, one eye per window, with a small curved smile on the cream panel beneath",
+      "accessories": "None; no lettering, logos, numbers, or anchor decorations"
+    },
+    "Rabbit": {
+      "role": "Passenger; tiny oatmeal-cream rabbit",
+      "color": "Oatmeal-cream fur with blush-pink inner ears and a powder-blue scarf",
+      "bodyShape": "Tiny plush-clay rabbit with long softly rounded ears; tallest of the three passengers",
+      "face": "Dark bead eyes, small pink nose, and a gentle sleepy expression",
+      "accessories": "Powder-blue scarf"
+    },
+    "Hedgehog": {
+      "role": "Passenger; tiny cocoa-brown hedgehog",
+      "color": "Cocoa-brown body with caramel quills, peach-beige face, and a moss-green scarf",
+      "bodyShape": "Tiny plush-clay hedgehog; smallest of the three passengers",
+      "face": "Dark bead eyes and a gentle sleepy expression",
+      "accessories": "Moss-green scarf"
+    },
+    "Duckling": {
+      "role": "Passenger; tiny butter-yellow duckling",
+      "color": "Butter-yellow feathers with a peach-orange rounded beak",
+      "bodyShape": "Tiny plush-clay duckling with short rounded wings; mid-sized among the three passengers",
+      "face": "Dark bead eyes and a gentle sleepy expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Silvermist Lake": "A small peaceful freshwater lake with rounded pine-covered hills, a western departure dock, and an eastern destination dock with soft amber lamps",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded ferry and animal friends, lavender evening fading to midnight indigo, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Merrit keeps seafoam-teal hull, cream cabin, dusty coral roof, honey-yellow chimney, and eyes only in the two front windows.",
+    "Passengers are exactly the rabbit, hedgehog, and duckling on pages 2\u201314 only; page 1 and page 15 show Merrit alone.",
+    "Narration never states exact dock lamp counts; use soft wording such as little lights.",
+    "Ferry travels west to east without reversing; both docks stay simple weathered wood.",
+    "No rescue, danger, rough waves, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "At the edge of Silvermist Lake lived Merrit, a little ferry who loved carrying friends home before bedtime.",
+      "illustrationScene": "Wide elevated view of seafoam-teal ferry Merrit waiting beside a wooden dock on still lavender Silvermist Lake.",
+      "requiredCharacters": [
+        "Merrit"
+      ],
+      "timeOfDay": "lavender evening at departure dock",
+      "continuityNotes": "Merrit alone; passengers absent. Soft lamp wording only later; no exact lamp counts."
+    },
+    {
+      "number": 2,
+      "text": "One evening, three sleepy friends arrived for Merrit's very last crossing.",
+      "illustrationScene": "Rabbit, hedgehog, and duckling approach Merrit's open boarding ramp at the departure dock.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "lavender evening boarding",
+      "continuityNotes": "Passengers board from page 2; present through page 14. No exact lamp counts."
+    },
+    {
+      "number": 3,
+      "text": "All aboard, whispered Merrit. Tonight, we'll take the slow and gentle way.",
+      "illustrationScene": "Low three-quarter view as the rabbit steps onto Merrit's boarding ramp with hedgehog and duckling following.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "lavender evening boarding",
+      "continuityNotes": "Boarding at departure dock. No exact lamp counts."
+    },
+    {
+      "number": 4,
+      "text": "The rabbit chose a cozy seat, the hedgehog curled beside her, and the duckling tucked in close.",
+      "illustrationScene": "Medium deck shot of rabbit, hedgehog, and duckling sitting together on Merrit's wooden bench.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "lavender evening on deck",
+      "continuityNotes": "Passengers seated on Merrit's bench. No exact lamp counts."
+    },
+    {
+      "number": 5,
+      "text": "Merrit gave a tiny happy hum, and the lake answered with a soft, sleepy ripple.",
+      "illustrationScene": "Close low waterline view of Merrit's smiling bow leaving the dock with soft rounded ripples.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "violet dusk departure",
+      "continuityNotes": "Leaving western dock toward eastern shore. No exact lamp counts."
+    },
+    {
+      "number": 6,
+      "text": "Across the lake, the evening mist floated like little blankets over the water.",
+      "illustrationScene": "High bird's-eye view of Merrit crossing open lake through thin mist ribbons toward distant pines.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "violet dusk mid-lake",
+      "continuityNotes": "West-to-east crossing; mist over water. No exact lamp counts."
+    },
+    {
+      "number": 7,
+      "text": "Look, whispered the duckling. The clouds are getting ready for bed together.",
+      "illustrationScene": "Over-the-shoulder from the duckling looking past Merrit's railing at long pink-violet clouds.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "violet dusk with pink clouds",
+      "continuityNotes": "Cloud watching from deck. No exact lamp counts."
+    },
+    {
+      "number": 8,
+      "text": "The rabbit yawned a great big yawn, and soon the hedgehog yawned one too.",
+      "illustrationScene": "Side-profile deck shot of rabbit and hedgehog yawning while the duckling watches sleepily.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "indigo twilight on deck",
+      "continuityNotes": "Passengers growing sleepy. No exact lamp counts."
+    },
+    {
+      "number": 9,
+      "text": "Merrit slowed his little engine, but it kept a quiet, steady purr.",
+      "illustrationScene": "Close three-quarter side view of Merrit's rounded face and cabin with gentle hull reflections.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "indigo twilight calm water",
+      "continuityNotes": "Engine slows; no splashing. No exact lamp counts."
+    },
+    {
+      "number": 10,
+      "text": "Above the sleepy lake, the first stars appeared, one by one.",
+      "illustrationScene": "Extreme wide low shoreline view of small Merrit under darkening indigo sky with emerging stars.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "indigo twilight first stars",
+      "continuityNotes": "First stars; crescent moon may appear later. No exact lamp counts."
+    },
+    {
+      "number": 11,
+      "text": "Almost home, murmured Merrit, as the little lights of the far dock came into view.",
+      "illustrationScene": "Over-the-shoulder toward the destination dock with soft amber lamps glowing through mist under a crescent moon.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "full night approaching eastern dock",
+      "continuityNotes": "Destination dock lamps visible; narrate soft lights only, never exact lamp counts."
+    },
+    {
+      "number": 12,
+      "text": "The duckling leaned against the rabbit, and the hedgehog made one last tiny yawn.",
+      "illustrationScene": "Intimate close-up of sleepy passengers on Merrit's bench with warm cabin light and cool night lake beyond.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "midnight-indigo night on deck",
+      "continuityNotes": "Passengers nearly asleep. No exact lamp counts."
+    },
+    {
+      "number": 13,
+      "text": "With the gentlest little bump, Merrit settled safely beside the quiet homeward dock.",
+      "illustrationScene": "High three-quarter view of Merrit arriving motionless at the eastern wooden dock in moonlit mist.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "dark midnight arrival at homeward dock",
+      "continuityNotes": "Arrival at eastern dock; soft dock lamps in art only, no exact lamp counts in narration."
+    },
+    {
+      "number": 14,
+      "text": "Goodnight, Merrit, whispered the friends. Thank you for our lovely, sleepy ride.",
+      "illustrationScene": "Dockside view of rabbit, hedgehog, and duckling waving to smiling Merrit from the homeward dock.",
+      "requiredCharacters": [
+        "Merrit",
+        "Rabbit",
+        "Hedgehog",
+        "Duckling"
+      ],
+      "timeOfDay": "deep midnight dock farewell",
+      "continuityNotes": "Passengers on dock waving goodbye. Final passenger page. No exact lamp counts."
+    },
+    {
+      "number": 15,
+      "text": "Merrit closed his sleepy eyes beneath the silver moon, and Silvermist Lake whispered goodnight to the little ferry.",
+      "illustrationScene": "Wide view of Merrit resting alone beside the empty dock with closed eyes under crescent moon and stars.",
+      "requiredCharacters": [
+        "Merrit"
+      ],
+      "timeOfDay": "peaceful midnight bedtime",
+      "continuityNotes": "Passengers gone; Merrit alone and asleep. Soft dock lamps only; no exact lamp counts."
+    }
+  ]
+}

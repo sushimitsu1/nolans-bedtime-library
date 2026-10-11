@@ -2894,6 +2894,29 @@ narration: [
   "And beneath the twinkling stars, Dapple dreamed of little golden lights dancing softly through the night.",
 ]
 },
+{
+id: "merrit-the-little-ferry-and-the-sleepy-lake-crossing", title: "Merrit the Little Ferry and the Sleepy Lake Crossing", category: "Boats",
+description: "A little ferry carries three sleepy friends across Silvermist Lake on a slow evening crossing, then rests beneath the silver moon.",
+keywords: ["merrit", "ferry", "lake", "boats", "sleepy", "crossing", "rabbit", "hedgehog", "duckling", "bedtime"],
+cover: "assets/books/merrit-the-little-ferry-and-the-sleepy-lake-crossing/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/merrit-the-little-ferry-and-the-sleepy-lake-crossing/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "At the edge of Silvermist Lake lived Merrit, a little ferry who loved carrying friends home before bedtime.",
+  "One evening, three sleepy friends arrived for Merrit's very last crossing.",
+  "All aboard, whispered Merrit. Tonight, we'll take the slow and gentle way.",
+  "The rabbit chose a cozy seat, the hedgehog curled beside her, and the duckling tucked in close.",
+  "Merrit gave a tiny happy hum, and the lake answered with a soft, sleepy ripple.",
+  "Across the lake, the evening mist floated like little blankets over the water.",
+  "Look, whispered the duckling. The clouds are getting ready for bed together.",
+  "The rabbit yawned a great big yawn, and soon the hedgehog yawned one too.",
+  "Merrit slowed his little engine, but it kept a quiet, steady purr.",
+  "Above the sleepy lake, the first stars appeared, one by one.",
+  "Almost home, murmured Merrit, as the little lights of the far dock came into view.",
+  "The duckling leaned against the rabbit, and the hedgehog made one last tiny yawn.",
+  "With the gentlest little bump, Merrit settled safely beside the quiet homeward dock.",
+  "Goodnight, Merrit, whispered the friends. Thank you for our lovely, sleepy ride.",
+  "Merrit closed his sleepy eyes beneath the silver moon, and Silvermist Lake whispered goodnight to the little ferry.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
