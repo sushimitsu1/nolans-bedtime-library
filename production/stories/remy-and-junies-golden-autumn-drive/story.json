@@ -1,0 +1,203 @@
+{
+  "title": "Remy and Junie's Golden Autumn Drive",
+  "slug": "remy-and-junies-golden-autumn-drive",
+  "category": "Race Cars",
+  "description": "Two little countryside rally cars take a gentle golden autumn drive past sheep, a stone bridge, and a honey-colored sunset, then roll home to dream in their cozy garage.",
+  "characterBible": {
+    "Remy": {
+      "role": "Main character; a little brick-red rally car",
+      "color": "Warm brick red with a cream roof, two narrow cream racing stripes, and tiny cream door circles with no numbers",
+      "bodyShape": "Small chunky toy-like rally car with rounded rectangular body, broad curved fenders, short wheelbase, and sturdy black tires with cream hubs; no arms, spoilers, or aggressive racing parts",
+      "face": "Two softly glowing circular headlights as the only eyes, with tiny dark pupils and a small curved dark grille smile; windshields stay featureless",
+      "accessories": "None fixed; a separate red maple leaf may rest on his roof on pages 5–8"
+    },
+    "Junie": {
+      "role": "Main character; a little butter-yellow rally car",
+      "color": "Muted butter yellow with a soft sage-green roof, one broad sage hood stripe, and plain sage oval door accents",
+      "bodyShape": "Small chunky toy-like rally car slightly shorter and rounder than Remy, with a gently domed roof and sturdy black tires with cream hubs; no arms, spoilers, or aggressive racing parts",
+      "face": "Two softly glowing circular headlight-eyes with tiny dark pupils and a small curved dark grille smile; windshields stay featureless",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Golden Autumn Valley": "A peaceful autumn countryside with a wooden two-car garage, cream farmhouse, winding lane, maple trees, rustic fences, a shallow stream, a rounded stone bridge, orchards, and a grassy hilltop overlook",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded toy cars, golden afternoon fading to lavender night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Remy keeps brick-red body, cream roof and stripes, and headlight-eyes only.",
+    "Junie keeps butter-yellow body, sage roof and accents, and headlight-eyes only.",
+    "Never place eyes or expressions on windshields.",
+    "Page 7 may show sheep, but narration gives no exact sheep count.",
+    "The red maple leaf rests on Remy's roof on pages 5–8, lifts on page 9, and drifts toward the stream on page 10.",
+    "Pages 14–15 keep both cars in the same wooden garage; page 15 is a peaceful sleep ending.",
+    "No rescue, racing competition, storm, lettering, logos, or franchise designs.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "In a quiet countryside valley, two little rally cars named Remy and Junie loved taking gentle evening drives together.",
+      "illustrationScene": "Brick-red Remy and butter-yellow Junie park side by side outside a cozy wooden countryside garage in late-afternoon sun.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "warm late-afternoon golden",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 2,
+      "text": "One lovely afternoon, the sky turned warm and golden, and Remy asked if they should follow the autumn road.",
+      "illustrationScene": "Remy and Junie smile toward a winding country lane with long afternoon shadows across the gravel driveway.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "warm late-afternoon golden",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 3,
+      "text": "Yes please, said Junie, but let's go slowly so we can see everything.",
+      "illustrationScene": "Both little cars roll gently onto a narrow countryside road among amber grass and orange maple trees.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "warm late-afternoon on the road",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 4,
+      "text": "Crunch, crunch, crunch went the fallen leaves beneath their little tires.",
+      "illustrationScene": "Remy and Junie travel slowly through scattered yellow and orange leaves with a few leaves tumbling behind their wheels.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "rich amber afternoon",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 5,
+      "text": "A tiny red leaf floated down and landed right on Remy's rounded roof.",
+      "illustrationScene": "Remy pauses with one bright red maple leaf on his cream roof while Junie smiles beside him.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "rich amber afternoon with leaf",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Red maple leaf on Remy's roof."
+    },
+    {
+      "number": 6,
+      "text": "You have an autumn hat, giggled Junie, and Remy gave a happy little beep.",
+      "illustrationScene": "Junie looks playfully toward Remy while the red leaf stays balanced on Remy's roof in warm orange light.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "warm orange afternoon light",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Red maple leaf on Remy's roof."
+    },
+    {
+      "number": 7,
+      "text": "They passed a wooden fence where sleepy sheep rested in the soft afternoon grass.",
+      "illustrationScene": "Remy and Junie pass a rustic wooden fence where sleepy sheep rest in soft afternoon grass near round hay bales.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "soft amber afternoon by the fence",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Sheep present without an exact count in narration. Red maple leaf on Remy's roof."
+    },
+    {
+      "number": 8,
+      "text": "Farther along, a little stream whispered shhh as it slipped beneath an old stone bridge.",
+      "illustrationScene": "Remy and Junie approach a small rounded stone bridge over a sparkling stream with amber leaves on the water.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "low golden sun near the bridge",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Red maple leaf on Remy's roof."
+    },
+    {
+      "number": 9,
+      "text": "The friends stopped on the bridge together and watched the golden leaves sail slowly downstream.",
+      "illustrationScene": "Both cars rest side by side on the wide stone bridge watching golden leaves float downstream as the red leaf lifts away.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "peach-pink sunset on the bridge",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Red leaf lifts away."
+    },
+    {
+      "number": 10,
+      "text": "Goodbye, little leaf, said Remy softly, as the breeze carried it toward the water.",
+      "illustrationScene": "The red leaf drifts above the stream while Remy and Junie watch quietly from the bridge under a peach-pink sky.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "peach-pink sunset over the stream",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Red leaf drifts toward the water."
+    },
+    {
+      "number": 11,
+      "text": "Beyond the bridge, they found a grassy hill where the whole valley shimmered beneath the setting sun.",
+      "illustrationScene": "Remy and Junie climb a gentle winding lane to a grassy overlook above orchards, a farmhouse, and the stone bridge.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "glowing golden-orange sunset overlook",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 12,
+      "text": "Everything looks like honey, whispered Junie, and Remy smiled at the glowing countryside.",
+      "illustrationScene": "Remy and Junie rest together at the hilltop overlook as a large golden-orange sun touches the distant hills.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "golden-orange sunset at the hilltop",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 13,
+      "text": "As the sky turned lavender, the two friends followed the familiar road toward home.",
+      "illustrationScene": "Both cars travel slowly downhill toward their cozy garage under a peach-to-lavender dusk sky.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "gentle lavender dusk homebound",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces."
+    },
+    {
+      "number": 14,
+      "text": "Their little tires rolled into the garage, where two cozy parking spots waited beneath a warm yellow lamp.",
+      "illustrationScene": "Remy and Junie enter the open wooden garage with two simple parking spaces under a warm yellow lamp.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "deep blue twilight in the garage",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Final garage parking; sleepy ending on page 15."
+    },
+    {
+      "number": 15,
+      "text": "Goodnight, Junie, whispered Remy. Goodnight, Remy, she replied. And the little cars dreamed of golden leaves and peaceful roads.",
+      "illustrationScene": "Remy and Junie park side by side inside the garage with dimmed headlight-eyes under quiet lavender-blue night outside.",
+      "requiredCharacters": [
+        "Remy",
+        "Junie"
+      ],
+      "timeOfDay": "calm lavender-blue nighttime",
+      "continuityNotes": "Remy and Junie together; headlight-eyes only, never windshield faces. Final garage parking; sleepy ending on page 15."
+    }
+  ]
+}

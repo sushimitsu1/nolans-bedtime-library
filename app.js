@@ -2710,6 +2710,29 @@ narration: [
   "Beneath the silver moon, the two little boats closed their eyes and drifted into sweet dreams of music, muffins, and gentle seas.",
 ]
 },
+{
+id: "remy-and-junies-golden-autumn-drive", title: "Remy and Junie's Golden Autumn Drive", category: "Race Cars",
+description: "Two little countryside rally cars take a gentle golden autumn drive past sheep, a stone bridge, and a honey-colored sunset, then roll home to dream in their cozy garage.",
+keywords: ["remy", "junie", "rally cars", "golden autumn", "countryside", "race cars", "bedtime", "bridge", "leaves"],
+cover: "assets/books/remy-and-junies-golden-autumn-drive/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/remy-and-junies-golden-autumn-drive/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "In a quiet countryside valley, two little rally cars named Remy and Junie loved taking gentle evening drives together.",
+  "One lovely afternoon, the sky turned warm and golden, and Remy asked if they should follow the autumn road.",
+  "Yes please, said Junie, but let's go slowly so we can see everything.",
+  "Crunch, crunch, crunch went the fallen leaves beneath their little tires.",
+  "A tiny red leaf floated down and landed right on Remy's rounded roof.",
+  "You have an autumn hat, giggled Junie, and Remy gave a happy little beep.",
+  "They passed a wooden fence where sleepy sheep rested in the soft afternoon grass.",
+  "Farther along, a little stream whispered shhh as it slipped beneath an old stone bridge.",
+  "The friends stopped on the bridge together and watched the golden leaves sail slowly downstream.",
+  "Goodbye, little leaf, said Remy softly, as the breeze carried it toward the water.",
+  "Beyond the bridge, they found a grassy hill where the whole valley shimmered beneath the setting sun.",
+  "Everything looks like honey, whispered Junie, and Remy smiled at the glowing countryside.",
+  "As the sky turned lavender, the two friends followed the familiar road toward home.",
+  "Their little tires rolled into the garage, where two cozy parking spots waited beneath a warm yellow lamp.",
+  "Goodnight, Junie, whispered Remy. Goodnight, Remy, she replied. And the little cars dreamed of golden leaves and peaceful roads.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
