@@ -168,7 +168,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels, track, or fence may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Eye-count QA 2026-10-12: Skye exactly 2 teal-green windshield eyes; Milo exactly 2 brown eyes. Subject boxes cover characters/story action above y=760. Lower wheels, track, or fence may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
     },
     {
       "number": 7,
