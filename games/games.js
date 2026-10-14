@@ -48,7 +48,7 @@
     state=active.start(prefs);state.done=false;state.hint=null;state.demonstration=true;render();repeat();
   }
   function render() {
-    root.innerHTML=`${tools()}<div class="game-board ${state.done?'resting':''}"><div class="game-scene"><img src="${active.art}" alt="${active.friend}"><div class="scene-overlay">${state.done?'🌙 💤':active.scene(state)}</div></div><div class="game-instruction" aria-live="polite">${state.done?'Goodnight, '+active.friend+'.':active.prompt(state)}</div>${state.done?`<div class="game-cue">🌙 💤</div>${button('🏠','Goodbye and return to games','home')}`:active.board(state,prefs)}</div>`;
+    root.innerHTML=`${tools()}<div class="game-board ${state.done?'resting':''}"><div class="game-scene"><img src="${state.done?active.art.replace('page-01','page-15'):active.art}" alt="${active.friend}"><div class="scene-overlay">${state.done?'🌙 💤':active.scene(state)}</div></div><div class="game-instruction" aria-live="polite">${state.done?'Goodnight, '+active.friend+'.':active.prompt(state)}</div>${state.done?`<div class="game-cue">🌙 💤</div>${button('🏠','Goodbye and return to games','home')}`:active.board(state,prefs)}</div>`;
     if(!state.done && (state.hint!==null || state.demonstration)) {
       const value=state.hint ?? active.answer(state); const target=[...root.querySelectorAll('[data-value]')].find(b=>b.dataset.value===String(value));
       if(target){target.classList.add('hint');if(state.demonstration)target.insertAdjacentHTML('beforeend','<span class="demo-hand" aria-hidden="true">👆</span>');}
@@ -62,7 +62,7 @@
     const result=active.choose(state,value,prefs);
     if(result.points)award(result.points);
     state.hint=result.hint??null;
-    if(result.done){award(2);finish();return;}
+    if(result.done){if(result.bonus!==false)award(2);finish();return;}
     render();say(result.message||active.prompt(state));if(result.advance&&active.listen)active.listen(state,sound);
   }
   function leave(){if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}

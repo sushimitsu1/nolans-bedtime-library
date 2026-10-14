@@ -24,9 +24,9 @@
     </div>
   </header>
 
-  <nav class="main-tabs" aria-label="Main navigation">
-    <button id="storiesTab" aria-selected="true">📚 Stories</button>
-    <button id="gamesTab" aria-selected="false">🌙 Games</button>
+  <nav class="main-tabs" role="tablist" aria-label="Main navigation">
+    <button id="storiesTab" role="tab" aria-controls="libraryView" aria-selected="true">📚 Stories</button>
+    <button id="gamesTab" role="tab" aria-controls="gamesView" aria-selected="false">🌙 Games</button>
   </nav>
   <main>
     <section id="gamesView" class="view" aria-label="Bedtime games"></section>
