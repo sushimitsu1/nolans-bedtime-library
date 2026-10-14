@@ -2986,6 +2986,29 @@ narration: [
   "Sedge smiled beneath the moon and whispered goodnight to the little garden. Drink slowly and grow.",
 ]
 },
+{
+id: "kestrel-and-the-quiet-moonshade-survey", title: "Kestrel and the Quiet Moonshade Survey", category: "Space Vehicles",
+description: "A little midnight-blue lunar survey buggy and his tiny marker-cart friend place glowing markers along cool moonshadows, then rest calmly beneath the stars.",
+keywords: ["kestrel", "ivo", "lunar", "moon", "survey", "markers", "space vehicles", "observatory", "bedtime"],
+cover: "assets/books/kestrel-and-the-quiet-moonshade-survey/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/kestrel-and-the-quiet-moonshade-survey/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Kestrel rolled out from the observatory as the lunar valley grew quiet.",
+  "Ivo followed with glowing markers tucked neatly in his little tray.",
+  "Their evening job was to find the coolest moonshadows along the observatory trail.",
+  "Kestrel paused beside a tall ridge where one long shadow stretched across the dust.",
+  "His tiny sensor blinked softly. Cool and calm, said Kestrel. This is a good spot.",
+  "Ivo placed the first glowing marker beside the shadow, where moonlight could still touch it.",
+  "They found another cool patch beside a round crater and another beneath a low stone arch.",
+  "Soon a few little glowing markers shimmered behind them like quiet silver breadcrumbs.",
+  "Farther ahead, the trail crossed a wide open plain, but almost no shadow waited there.",
+  "Kestrel climbed a gentle rise and spotted a small ridge casting a soft crescent shade.",
+  "Ivo set down more glowing markers while Earth glowed blue above the horizon.",
+  "The final cool shadow waited beside the observatory's old moon rock garden.",
+  "Together the glowing markers formed a peaceful path through the lunar valley.",
+  "Kestrel and Ivo followed the soft glows home as the observatory windows grew warm and golden.",
+  "They parked calmly beneath the stars, and Kestrel whispered goodnight to the quiet moonshadows.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

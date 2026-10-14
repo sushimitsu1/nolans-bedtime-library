@@ -1,0 +1,898 @@
+{
+  "storySlug": "kestrel-and-the-quiet-moonshade-survey",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-01.png",
+      "text": "Kestrel rolled out from the observatory as the lunar valley grew quiet.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-02.png",
+      "text": "Ivo followed with glowing markers tucked neatly in his little tray.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-03.png",
+      "text": "Their evening job was to find the coolest moonshadows along the observatory trail.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-04.png",
+      "text": "Kestrel paused beside a tall ridge where one long shadow stretched across the dust.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-05.png",
+      "text": "His tiny sensor blinked softly. Cool and calm, said Kestrel. This is a good spot.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-06.png",
+      "text": "Ivo placed the first glowing marker beside the shadow, where moonlight could still touch it.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-07.png",
+      "text": "They found another cool patch beside a round crater and another beneath a low stone arch.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-08.png",
+      "text": "Soon a few little glowing markers shimmered behind them like quiet silver breadcrumbs.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-09.png",
+      "text": "Farther ahead, the trail crossed a wide open plain, but almost no shadow waited there.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-10.png",
+      "text": "Kestrel climbed a gentle rise and spotted a small ridge casting a soft crescent shade.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-11.png",
+      "text": "Ivo set down more glowing markers while Earth glowed blue above the horizon.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-12.png",
+      "text": "The final cool shadow waited beside the observatory's old moon rock garden.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-13.png",
+      "text": "Together the glowing markers formed a peaceful path through the lunar valley.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-14.png",
+      "text": "Kestrel and Ivo followed the soft glows home as the observatory windows grew warm and golden.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/kestrel-and-the-quiet-moonshade-survey/staging/kestrel-and-the-quiet-moonshade-survey/illustrations/page-15.png",
+      "text": "They parked calmly beneath the stars, and Kestrel whispered goodnight to the quiet moonshadows.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kestrel",
+          "box": [
+            80,
+            120,
+            1000,
+            750
+          ]
+        },
+        {
+          "label": "Ivo",
+          "box": [
+            700,
+            280,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

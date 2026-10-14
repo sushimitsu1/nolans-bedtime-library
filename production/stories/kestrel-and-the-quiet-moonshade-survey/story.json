@@ -1,0 +1,201 @@
+{
+  "title": "Kestrel and the Quiet Moonshade Survey",
+  "slug": "kestrel-and-the-quiet-moonshade-survey",
+  "category": "Space Vehicles",
+  "description": "A little midnight-blue lunar survey buggy and his tiny marker-cart friend place glowing markers along cool moonshadows, then rest calmly beneath the stars.",
+  "characterBible": {
+    "Kestrel": {
+      "role": "Main character; a little lunar survey buggy",
+      "color": "Rounded midnight-blue body with a pearl-white roof canopy and pale-silver crescent emblems on each side",
+      "bodyShape": "Small lunar survey buggy with a short silver equipment deck at the rear, four wide dusty-gray moon tires, two slim antenna rods, and one small amber beacon on top; no arms or hands",
+      "face": "Exactly two calm amber eyes located in the two front headlights; no windshield eyes and nothing else resembling eyes; friendly narrow grille smile",
+      "accessories": "Tiny sensor on the equipment deck; no lettering, logos, or numbers"
+    },
+    "Ivo": {
+      "role": "Supporting character; a tiny lunar marker cart",
+      "color": "Compact apricot-orange body with a cream top",
+      "bodyShape": "Much smaller than Kestrel, with four small charcoal wheels and a shallow rear tray for glowing markers; no arms or hands",
+      "face": "Exactly two soft teal eyes located in the two front headlights; no windshield eyes and no other eye-like lights; small grille smile",
+      "accessories": "Shallow tray carrying glowing moon markers"
+    }
+  },
+  "settingBible": {
+    "Lunar Research Valley": "A peaceful lunar valley with powdery silver ground, rounded craters, low blue-gray ridges, a distant observatory dome with warm golden windows, small blue Earth on the horizon, and glowing markers along cool moonshadows",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded space vehicles, pale lunar evening fading to deep quiet night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Kestrel keeps midnight-blue body, pearl-white canopy, crescent emblems, and eyes only in the two headlights.",
+    "Ivo stays a much smaller apricot-orange marker cart with cream top and eyes only in the two headlights.",
+    "Narration calls the markers glowing markers rather than flat reflective ones.",
+    "Soft marker-count wording where exact counts may not match the art.",
+    "Page 15 keeps Kestrel and Ivo calm at bedtime.",
+    "No rescue, danger, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Kestrel rolled out from the observatory as the lunar valley grew quiet.",
+      "illustrationScene": "Midnight-blue lunar survey buggy Kestrel rolls slowly away from a warmly lit observatory into a peaceful silver valley beneath stars.",
+      "requiredCharacters": [
+        "Kestrel"
+      ],
+      "timeOfDay": "pale lunar evening",
+      "continuityNotes": "Kestrel alone on page 1; Ivo absent. Headlight eyes only."
+    },
+    {
+      "number": 2,
+      "text": "Ivo followed with glowing markers tucked neatly in his little tray.",
+      "illustrationScene": "Tiny apricot marker cart Ivo follows Kestrel along the moon trail with glowing markers neat in his shallow rear tray.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "pale lunar evening",
+      "continuityNotes": "Call markers glowing markers, not flat reflective ones. Soft count wording."
+    },
+    {
+      "number": 3,
+      "text": "Their evening job was to find the coolest moonshadows along the observatory trail.",
+      "illustrationScene": "Kestrel and Ivo pause at the beginning of the survey trail, looking toward long soft shadows cast by distant ridges.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "lunar evening survey start",
+      "continuityNotes": "Survey begins along observatory trail."
+    },
+    {
+      "number": 4,
+      "text": "Kestrel paused beside a tall ridge where one long shadow stretched across the dust.",
+      "illustrationScene": "Kestrel stops beside a tall blue-gray lunar ridge casting one long gentle shadow across the silver ground, with Ivo waiting behind.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "lunar evening ridge",
+      "continuityNotes": "First cool shadow found beside ridge."
+    },
+    {
+      "number": 5,
+      "text": "His tiny sensor blinked softly. Cool and calm, said Kestrel. This is a good spot.",
+      "illustrationScene": "Close-medium view of Kestrel calmly examining shaded ground with a tiny softly glowing sensor while Ivo watches nearby.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "quiet lunar evening",
+      "continuityNotes": "Calm sensor check; no dramatic machinery."
+    },
+    {
+      "number": 6,
+      "text": "Ivo placed the first glowing marker beside the shadow, where moonlight could still touch it.",
+      "illustrationScene": "Ivo places a glowing marker at the edge of the cool shadow where moonlight touches it; Kestrel watches approvingly.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "moonlit lunar evening",
+      "continuityNotes": "Glowing marker wording, not flat reflective."
+    },
+    {
+      "number": 7,
+      "text": "They found another cool patch beside a round crater and another beneath a low stone arch.",
+      "illustrationScene": "Wide lunar view of Kestrel and Ivo near a round crater and low stone arch with cool shadow spots and a few glowing markers behind them.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "deepening lunar night",
+      "continuityNotes": "More cool shadow spots; soft marker wording."
+    },
+    {
+      "number": 8,
+      "text": "Soon a few little glowing markers shimmered behind them like quiet silver breadcrumbs.",
+      "illustrationScene": "Kestrel and Ivo continue forward while a few glowing markers shimmer in a gentle curved line behind them.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "starry lunar night",
+      "continuityNotes": "Soft marker count; glowing markers not flat reflective."
+    },
+    {
+      "number": 9,
+      "text": "Farther ahead, the trail crossed a wide open plain, but almost no shadow waited there.",
+      "illustrationScene": "Kestrel and Ivo reach a wide open lunar plain with almost no shadows, pausing thoughtfully beneath a huge open star field.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "open starry lunar night",
+      "continuityNotes": "Small quiet problem: almost no shadow on the plain."
+    },
+    {
+      "number": 10,
+      "text": "Kestrel climbed a gentle rise and spotted a small ridge casting a soft crescent shade.",
+      "illustrationScene": "Kestrel climbs a gentle lunar rise and looks toward a small ridge casting a soft crescent-shaped shadow below, with Ivo following.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "starry lunar night",
+      "continuityNotes": "Soft crescent shade wording."
+    },
+    {
+      "number": 11,
+      "text": "Ivo set down more glowing markers while Earth glowed blue above the horizon.",
+      "illustrationScene": "Ivo sets down more glowing markers near cool shadows while Kestrel watches and small blue Earth glows on the horizon.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "deep lunar night with Earth glow",
+      "continuityNotes": "Glowing markers; soft count wording."
+    },
+    {
+      "number": 12,
+      "text": "The final cool shadow waited beside the observatory's old moon rock garden.",
+      "illustrationScene": "Kestrel and Ivo arrive beside an old moon rock garden of smooth rounded stones near the observatory, where one final soft shadow waits.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "deep lunar night near observatory",
+      "continuityNotes": "Final cool shadow near moon rock garden."
+    },
+    {
+      "number": 13,
+      "text": "Together the glowing markers formed a peaceful path through the lunar valley.",
+      "illustrationScene": "Wide peaceful view of glowing markers forming a soft path through the lunar valley, with Kestrel and Ivo admiring their work.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "quiet deep lunar night",
+      "continuityNotes": "Glowing markers path; soft count wording."
+    },
+    {
+      "number": 14,
+      "text": "Kestrel and Ivo followed the soft glows home as the observatory windows grew warm and golden.",
+      "illustrationScene": "Kestrel and Ivo travel home along the gently glowing marker path toward the observatory's warm golden windows under a deep night sky.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "deep night return to observatory",
+      "continuityNotes": "Soft glows home; glowing markers."
+    },
+    {
+      "number": 15,
+      "text": "They parked calmly beneath the stars, and Kestrel whispered goodnight to the quiet moonshadows.",
+      "illustrationScene": "Kestrel and Ivo rest calmly parked beneath the stars near the quiet lunar valley, eyes gentle and peaceful.",
+      "requiredCharacters": [
+        "Kestrel",
+        "Ivo"
+      ],
+      "timeOfDay": "peaceful midnight bedtime",
+      "continuityNotes": "Calm bedtime ending for Kestrel and Ivo."
+    }
+  ]
+}
