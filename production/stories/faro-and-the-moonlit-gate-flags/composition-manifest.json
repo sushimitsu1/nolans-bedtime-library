@@ -1,0 +1,898 @@
+{
+  "storySlug": "faro-and-the-moonlit-gate-flags",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-01.png",
+      "text": "Evening settled softly over Willowwing Airport as Faro began his last quiet round.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            60,
+            90,
+            1320,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-02.png",
+      "text": "Brio rolled beside him, carrying a neat bundle of colorful gate flags.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-03.png",
+      "text": "A playful breeze suddenly lifted the flags and sent them fluttering across the apron.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-04.png",
+      "text": "We can gather them slowly, said Faro. One gate at a time.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-05.png",
+      "text": "A coral flag rested beside a quiet luggage cart, and Faro found it first.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-06.png",
+      "text": "Brio spotted the yellow flag tucked safely beside a painted curb.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-07.png",
+      "text": "Farther along, a navy flag with a soft moon danced against the fence without blowing away.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-08.png",
+      "text": "Faro followed the glowing taxiway lights and found the lavender flag near a quiet gate.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-09.png",
+      "text": "A mint flag was still missing, so they listened to the soft evening breeze.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-10.png",
+      "text": "A tiny flutter came from beneath a bench, and there was the last mint flag.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-11.png",
+      "text": "Faro and Brio carried every flag back to the quiet gate lane.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-12.png",
+      "text": "Together they arranged the colors in a cheerful row beneath the warm terminal lights.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-13.png",
+      "text": "The final airplane rolled gently to its resting place while the little flags waved goodnight.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-14.png",
+      "text": "Brio parked his empty tug, and Faro rested nearby with his amber roof light still glowing.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/faro-and-the-moonlit-gate-flags/staging/faro-and-the-moonlit-gate-flags/illustrations/page-15.png",
+      "text": "Under the moonlit control tower, Faro grew calm and whispered goodnight to Willowwing Airport.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Faro",
+          "box": [
+            80,
+            140,
+            780,
+            750
+          ]
+        },
+        {
+          "label": "Brio",
+          "box": [
+            520,
+            180,
+            1280,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

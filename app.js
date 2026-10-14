@@ -2917,6 +2917,29 @@ narration: [
   "Merrit closed his sleepy eyes beneath the silver moon, and Silvermist Lake whispered goodnight to the little ferry.",
 ]
 },
+{
+id: "faro-and-the-moonlit-gate-flags", title: "Faro and the Moonlit Gate Flags", category: "Airport Vehicles",
+description: "A little marigold follow-me car and his seafoam baggage-tug friend gather colorful gate flags across a quiet evening airport, then rest beneath the moonlit control tower.",
+keywords: ["faro", "brio", "airport", "follow-me", "baggage tug", "gate flags", "willowwing", "bedtime"],
+cover: "assets/books/faro-and-the-moonlit-gate-flags/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/faro-and-the-moonlit-gate-flags/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Evening settled softly over Willowwing Airport as Faro began his last quiet round.",
+  "Brio rolled beside him, carrying a neat bundle of colorful gate flags.",
+  "A playful breeze suddenly lifted the flags and sent them fluttering across the apron.",
+  "We can gather them slowly, said Faro. One gate at a time.",
+  "A coral flag rested beside a quiet luggage cart, and Faro found it first.",
+  "Brio spotted the yellow flag tucked safely beside a painted curb.",
+  "Farther along, a navy flag with a soft moon danced against the fence without blowing away.",
+  "Faro followed the glowing taxiway lights and found the lavender flag near a quiet gate.",
+  "A mint flag was still missing, so they listened to the soft evening breeze.",
+  "A tiny flutter came from beneath a bench, and there was the last mint flag.",
+  "Faro and Brio carried every flag back to the quiet gate lane.",
+  "Together they arranged the colors in a cheerful row beneath the warm terminal lights.",
+  "The final airplane rolled gently to its resting place while the little flags waved goodnight.",
+  "Brio parked his empty tug, and Faro rested nearby with his amber roof light still glowing.",
+  "Under the moonlit control tower, Faro grew calm and whispered goodnight to Willowwing Airport.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

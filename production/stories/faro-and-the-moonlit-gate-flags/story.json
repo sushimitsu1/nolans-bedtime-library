@@ -1,0 +1,202 @@
+{
+  "title": "Faro and the Moonlit Gate Flags",
+  "slug": "faro-and-the-moonlit-gate-flags",
+  "category": "Airport Vehicles",
+  "description": "A little marigold follow-me car and his seafoam baggage-tug friend gather colorful gate flags across a quiet evening airport, then rest beneath the moonlit control tower.",
+  "characterBible": {
+    "Faro": {
+      "role": "Main character; a little airport follow-me car",
+      "color": "Warm marigold-yellow body with a cream roof, one navy-blue side stripe, and a tiny white crescent-moon emblem on each front door",
+      "bodyShape": "Small rounded compact follow-me car with four small charcoal tires, a short amber roof beacon bar, and a dark grille smile; no arms or hands",
+      "face": "Exactly two large friendly eyes located in the two front headlights; no windshield eyes and nothing else resembling eyes",
+      "accessories": "Short amber roof beacon; crescent-moon door emblems; no lettering, logos, or numbers"
+    },
+    "Brio": {
+      "role": "Supporting character; a little baggage tug",
+      "color": "Soft seafoam-green body with a cream bumper and one amber roof beacon",
+      "bodyShape": "Small baggage tug with a short square cab, tiny luggage platform behind, and four charcoal wheels; no arms or hands",
+      "face": "Exactly two friendly eyes located in the two front headlights; no windshield eyes and no other eye-like lights; gentle grille smile",
+      "accessories": "Amber roof beacon; luggage platform for carrying gate flags"
+    }
+  },
+  "settingBible": {
+    "Willowwing Airport": "A cozy regional airport with a smooth gray apron, low terminal with warm amber windows, blue taxiway edge lights, distant parked aircraft without faces, a moonlit control tower, and rolling purple hills beyond",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded airport vehicles, blue-hour evening fading to moonlit night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Faro keeps marigold-yellow body, cream roof, navy side stripe, crescent-moon door emblems, and eyes only in the two headlights.",
+    "Brio keeps seafoam-green body, cream bumper, luggage platform, and eyes only in the two headlights.",
+    "Page 7 narrates a navy moon flag at the fence to match the art.",
+    "Pages 9 and 12 avoid exact flag counts.",
+    "Page 14 keeps Faro's amber roof beacon lit.",
+    "Page 15 keeps Faro calm at bedtime.",
+    "No rescue, danger, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening settled softly over Willowwing Airport as Faro began his last quiet round.",
+      "illustrationScene": "Marigold follow-me car Faro rolls alone along the blue-hour airport apron with warm terminal lights behind him.",
+      "requiredCharacters": [
+        "Faro"
+      ],
+      "timeOfDay": "blue-hour evening at Willowwing Airport",
+      "continuityNotes": "Faro alone on page 1; Brio absent. Headlight eyes only."
+    },
+    {
+      "number": 2,
+      "text": "Brio rolled beside him, carrying a neat bundle of colorful gate flags.",
+      "illustrationScene": "Faro and seafoam baggage tug Brio roll side by side, Brio carrying a tidy stack of colorful gate flags.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "blue-hour evening on the apron",
+      "continuityNotes": "Brio present from page 2 with colorful flags. Soft flag wording when counts are loose."
+    },
+    {
+      "number": 3,
+      "text": "A playful breeze suddenly lifted the flags and sent them fluttering across the apron.",
+      "illustrationScene": "Colorful fabric flags lift from Brio's platform and flutter separately across the quiet apron as Faro and Brio watch calmly.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "evening apron breeze",
+      "continuityNotes": "Flags scatter; no danger or strong storm. Soft flag counts later."
+    },
+    {
+      "number": 4,
+      "text": "We can gather them slowly, said Faro. One gate at a time.",
+      "illustrationScene": "Faro and Brio pause together on the apron, looking thoughtfully toward a nearby gate under glowing taxiway lights.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "evening planning pause",
+      "continuityNotes": "Calm plan to gather flags gate by gate."
+    },
+    {
+      "number": 5,
+      "text": "A coral flag rested beside a quiet luggage cart, and Faro found it first.",
+      "illustrationScene": "Faro discovers a coral flag resting beside a parked luggage cart while Brio approaches behind him.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "warm evening apron",
+      "continuityNotes": "First recovered flag is coral beside a luggage cart."
+    },
+    {
+      "number": 6,
+      "text": "Brio spotted the yellow flag tucked safely beside a painted curb.",
+      "illustrationScene": "Brio finds a butter-yellow flag tucked beside a painted curb while Faro watches happily nearby.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "warm evening apron",
+      "continuityNotes": "Yellow flag recovered beside curb."
+    },
+    {
+      "number": 7,
+      "text": "Farther along, a navy flag with a soft moon danced against the fence without blowing away.",
+      "illustrationScene": "A navy fabric flag with a yellow crescent moon flutters against a low airport fence as Faro and Brio approach.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "purple-orange twilight apron",
+      "continuityNotes": "Art shows a navy moon flag at the fence, not a plain sky-blue flag."
+    },
+    {
+      "number": 8,
+      "text": "Faro followed the glowing taxiway lights and found the lavender flag near a quiet gate.",
+      "illustrationScene": "Faro follows curved blue taxiway lights toward a lavender flag near a quiet gate marker, with Brio behind him.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "deepening twilight taxiway",
+      "continuityNotes": "Lavender flag near a quiet gate; avoid exact gate numbers."
+    },
+    {
+      "number": 9,
+      "text": "A mint flag was still missing, so they listened to the soft evening breeze.",
+      "illustrationScene": "Faro and Brio pause near airport benches beneath twilight with recovered flags on Brio's platform, listening for the missing mint flag.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "deepening twilight near benches",
+      "continuityNotes": "Do not narrate exact recovered flag counts; mint flag still missing."
+    },
+    {
+      "number": 10,
+      "text": "A tiny flutter came from beneath a bench, and there was the last mint flag.",
+      "illustrationScene": "A mint fabric flag peeks from beneath an airport bench while Faro and Brio spot it happily.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "evening bench discovery",
+      "continuityNotes": "Final mint flag found beneath a bench."
+    },
+    {
+      "number": 11,
+      "text": "Faro and Brio carried every flag back to the quiet gate lane.",
+      "illustrationScene": "Faro leads Brio back toward the gate lane with recovered colorful flags neatly on Brio's platform under a starry blue sky.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "early night return to gate lane",
+      "continuityNotes": "Returning with gathered flags; soft count wording."
+    },
+    {
+      "number": 12,
+      "text": "Together they arranged the colors in a cheerful row beneath the warm terminal lights.",
+      "illustrationScene": "Colorful gate flags stand in a cheerful row beneath warm terminal lights while Faro and Brio admire them.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "night under terminal lights",
+      "continuityNotes": "Do not narrate an exact flag count in the arranged row."
+    },
+    {
+      "number": 13,
+      "text": "The final airplane rolled gently to its resting place while the little flags waved goodnight.",
+      "illustrationScene": "A distant un-faced airplane rolls toward its resting gate while flags wave softly and Faro and Brio watch beneath the moon.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "moonlit night on the apron",
+      "continuityNotes": "Airplane has no face; soft flag wording."
+    },
+    {
+      "number": 14,
+      "text": "Brio parked his empty tug, and Faro rested nearby with his amber roof light still glowing.",
+      "illustrationScene": "Brio rests with an empty platform while Faro parks nearby with his amber roof beacon still lit under stars.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "quiet night parking",
+      "continuityNotes": "Art keeps Faro's amber beacon lit; do not say it is dimmed."
+    },
+    {
+      "number": 15,
+      "text": "Under the moonlit control tower, Faro grew calm and whispered goodnight to Willowwing Airport.",
+      "illustrationScene": "Faro rests calmly beneath the moonlit control tower with Brio farther back, terminal windows softly glowing.",
+      "requiredCharacters": [
+        "Faro",
+        "Brio"
+      ],
+      "timeOfDay": "peaceful midnight bedtime",
+      "continuityNotes": "Faro is calm at bedtime; airport settled and quiet."
+    }
+  ]
+}
