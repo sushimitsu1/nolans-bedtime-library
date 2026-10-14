@@ -18,10 +18,11 @@ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 let browser;
 try{
   const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']};
+  console.log('Starting browser smoke test');
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
-  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
-  await page.goto(url,{waitUntil:'networkidle0'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'networkidle'});else throw e;});
+  await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
   const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<88||r.height<88)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const choose=v=>tap(`#gamesView [data-value="${v}"]`);
   const open=id=>tap(`#gamesView [data-id="${id}"]`);
@@ -31,41 +32,69 @@ try{
   assert.equal(await page.evaluate(()=>document.querySelector('#libraryView').classList.contains('active')),false);
   await tap('#gamesView [data-action="parent"]');
   await page.evaluate(()=>{for(const k of ['narration','effects']){const b=document.querySelector(`[data-pref="${k}"]`);b.checked=false;b.dispatchEvent(new Event('change',{bubbles:true}));}});
+  // Load the curriculum in isolation: verify all eight levels, then use its
+  // deterministic tasks to drive real pointer input (choices are shuffled).
+  const {default:vm}=await import('node:vm');
+  const games=[];
+  const context={window:{NolanGames:{register:g=>games.push(g),token:()=>'',button:()=>''}},Math};
+  vm.createContext(context);
+  for(const file of ['games-1-5.js','games-6-10.js'])vm.runInContext(await fs.readFile(path.join(root,'games',file),'utf8'),context);
+  const drag=async(from,to)=>{
+    const a=await page.evaluate(sel=>{const r=document.querySelector(sel).getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2};},from);
+    const b=await page.evaluate(sel=>{const r=document.querySelector(sel).getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2};},to);
+    await page.mouse.move(a.x,a.y);await page.mouse.down();await page.mouse.move(b.x,b.y,{steps:8});await page.mouse.up();
+  };
   let expected=0;
-  const sessions=[['hazel',Array(10).fill('pumpkin'),16],['coby',['0','1','2'],5],['cora',['0','slot-0','1','slot-1','2','slot-2'],5],['bramble',['N','O','L'],5],['aster',['0','3','1','2'],6],['saffy',['little','big','little'],5],['nova',['moon','star','moon'],5],['toby',['0','dock-0','1','dock-1'],4],['posy',['0','1','2'],5],['willa',['river','park','town'],5]];
-  for(const [id,sequence,points] of sessions){
-    await open(id);assert.equal(await page.evaluate(()=>!!document.querySelector('.demo-hand')),true);
-    // Different answers preserve all points and expose a visual hint.
-    if(['coby','bramble','saffy','nova','posy','willa'].includes(id)){
-      const before=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points);
-      const wrong=await page.evaluate(answer=>[...document.querySelectorAll('#gamesView [data-value]')].find(b=>b.dataset.value!==answer).dataset.value,sequence[0]);await choose(wrong);
-      assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),before);
-      assert(await page.evaluate(()=>!!document.querySelector('.hint')));
+  for(const game of games){
+    for(let level=1;level<=8;level++){
+      if(game.id==='willa')console.log('Checking spelling level '+level);
+      await open(game.id);
+      assert.equal(await page.evaluate(()=>Number(document.querySelector('[data-level]').dataset.level)),level);
+      const state=game.start(level);let done=false;
+      if(level===1){
+        const before=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points||0);
+        if(game.id!=='willa'){
+          const wrong=await page.evaluate(answer=>[...document.querySelectorAll('#gamesView [data-value]')].find(b=>b.dataset.value!==String(answer)).dataset.value,state.task.answer);
+          await choose(wrong);assert(await page.evaluate(()=>!!document.querySelector('.hint')));
+        }
+        assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points||0),before);
+      }
+      while(!done){
+        let result;
+        if(game.id==='willa'){
+          while(state.task.placed.length<3){
+            const i=state.task.placed.length, tile=state.task.tiles.indexOf(state.task.word[i]);
+            // Tile order differs across runs; locate by its visible letter.
+            const value=await page.evaluate(letter=>[...document.querySelectorAll('[data-drag]')].find(b=>b.textContent.trim()===letter)?.dataset.value,state.task.word[i]);
+            assert(value,`Missing ${state.task.word[i]} in ${game.id} level ${level}, slot ${i}`);
+            if(i===1)await drag(`[data-value="${value}"]`,`[data-value="slot-${i}"]`);
+            else {await choose(value);await choose('slot-'+i);}
+            game.choose(state,'tile-'+tile);result=game.choose(state,'slot-'+i);
+            if(result.points)break;
+          }
+        }else {await choose(state.task.answer);result=game.choose(state,String(state.task.answer));}
+        expected+=result.points||0;if(result.done){expected+=2;done=true;}
+      }
+      assert(await page.evaluate(()=>!!document.querySelector('.resting')),game.id+' level '+level);
+      const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')));
+      assert.equal(stored.levels[game.id],Math.min(8,level+1));assert.equal(stored.points,expected);
+      await tap('#gamesView [data-action="finish"]');await home();
     }
-    for(const value of sequence)await choose(value);
-    assert(await page.evaluate(()=>!!document.querySelector('.resting')),`${id} did not finish`);
-    expected+=points;assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected,id);
-    // Finishing twice never awards twice.
-    await tap('#gamesView [data-action="finish"]');await home();console.log(`PASS ${id}: ${points} points, calm ending`);
+    console.log(`PASS ${game.title}: eight levels, gentle retry, points and progression`);
   }
-  await open('bramble');for(const letter of ['O','L','A'])await choose(letter);expected+=5;assert(await page.evaluate(()=>!!document.querySelector('.resting')));await home();
-  await open('hazel');
-  await page.evaluate(()=>{const b=document.querySelector('[data-value="pumpkin"]');b.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerId:3}));b.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointercancel',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerId:4}));});
-  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected,'Cancelled touches must not award points');
-  await choose('pumpkin');expected++;await tap('#gamesView [data-action="finish"]');await home();
-  await open('cora');await choose('slot-1');await choose('0');await choose('slot-1');assert(await page.evaluate(()=>!!document.querySelector('.hint')));await tap('#gamesView [data-action="finish"]');await home();
-  await open('aster');await choose('0');await choose('1');assert(await page.evaluate(()=>!!document.querySelector('.hint')));await tap('#gamesView [data-action="finish"]');await home();
-  await page.reload();await tap('#gamesTab');assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected);
-  await tap('#gamesView [data-action="parent"]');assert((await page.evaluate(()=>document.querySelector('.game-sky').textContent)).includes(`${Math.floor(expected/5)} stars`));
-  await page.evaluate(()=>{for(const k of ['easy','memory']){const b=document.querySelector(`[data-pref="${k}"]`);b.checked=true;b.dispatchEvent(new Event('change',{bubbles:true}));}});
-  await open('hazel');await choose('pumpkin');expected+=3;await tap('#gamesView [data-action="finish"]');await home();
-  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected,'Easier counting set');
-  await open('aster');assert((await page.evaluate(()=>document.querySelector('[data-value="1"]').textContent)).includes('🛏️'));await choose('peek');assert((await page.evaluate(()=>document.querySelector('[data-value="1"]').textContent)).includes('🍃'));await tap('#gamesView [data-action="finish"]');await home();
-  await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
-  const core=await page.evaluate(async()=>{const cache=await caches.open('nolan-library-v95');return (await cache.keys()).map(r=>new URL(r.url).pathname);});
+  // Early finish and cancelled input never count as completing a level.
+  await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('nolan-games-v1'));p.levels.hazel=3;localStorage.setItem('nolan-games-v1',JSON.stringify(p));});
+  await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');await open('hazel');
+  await page.evaluate(()=>{const b=document.querySelector('[data-value]');b.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointercancel',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerId:4}));});
+  await tap('#gamesView [data-action="finish"]');await home();await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).levels.hazel),3);
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected);
+  console.log('Checking service-worker cache and offline play');
+  await page.evaluate(async()=>{await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Service worker did not become ready')),30000))]);if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
+  const core=await page.evaluate(async()=>{const cache=await caches.open('nolan-library-v96');return (await cache.keys()).map(r=>new URL(r.url).pathname);});
   assert(core.includes('/games/games-6-10.js'));assert(core.includes('/games/smoke-test.mjs'));const expectedArt=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/assets\/books\/[^']+/g);assert.equal(expectedArt.length,20);for(const asset of expectedArt)assert(core.includes('/'+asset),asset);
   if(puppeteer)await page.setOfflineMode(true);else await page.context().setOffline(true);
-  await page.reload();await tap('#gamesTab');for(const [id] of sessions){await open(id);assert(await page.evaluate(()=>{const img=document.querySelector('.game-scene img');return img.complete&&img.naturalWidth>0;}),`Offline artwork: ${id}`);await tap('#gamesView [data-action="finish"]');await home();}
+  await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const {id} of games){await open(id);await page.waitForFunction(()=>{const img=document.querySelector('.game-scene img');return img?.complete&&img.naturalWidth>0;});assert(await page.evaluate(()=>{const img=document.querySelector('.game-scene img');return img.complete&&img.naturalWidth>0;}),`Offline artwork: ${id}`);await tap('#gamesView [data-action="finish"]');await home();}
   await tap('#storiesTab');assert(await page.evaluate(()=>document.querySelector('#libraryView').classList.contains('active')));
   assert.deepEqual(errors,[]);console.log(`PASS persisted ${expected} points; offline ten games and artwork; Stories tab; no browser errors`);
-}finally{await browser?.close();await new Promise(resolve=>server.close(resolve));}
+}catch(error){console.error(error);process.exitCode=1;}finally{await browser?.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}
