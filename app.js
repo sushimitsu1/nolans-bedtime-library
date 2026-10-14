@@ -2963,6 +2963,29 @@ narration: [
   "Riven's headlights grew sleepy as he whispered goodnight to the starlight meadow and the nearby farmhouses.",
 ]
 },
+{
+id: "sedge-and-the-firefly-watering-round", title: "Sedge and the Firefly Watering Round", category: "Farm Vehicles",
+description: "A little sage-green watering truck softens his mist for thirsty herb rows, leaves a dry path for glowing fireflies, then rests beside the old red barn.",
+keywords: ["sedge", "lark", "watering", "fireflies", "farm", "herbs", "barn", "mist", "bedtime"],
+cover: "assets/books/sedge-and-the-firefly-watering-round/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/sedge-and-the-firefly-watering-round/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "Sedge rolled past the old red barn as the warm afternoon began to cool.",
+  "The young herb rows looked thirsty after a long sunny day.",
+  "Sedge opened his gentle misting bar, but his first spray was much too wide.",
+  "Soft and slow, chirped Lark from the fence. The tiny leaves only need a little.",
+  "Sedge turned the mist down until it floated as lightly as evening fog.",
+  "The lavender leaves sparkled with tiny drops instead of bending under the water.",
+  "Next he misted the other thirsty rows, moving slowly from plant to plant.",
+  "Sedge left a dry path between the rows for the nighttime visitors.",
+  "As twilight turned violet, a soft firefly blinked beside the lavender.",
+  "Soon more and more gentle lights twinkled along the dry path Sedge had left.",
+  "Lark swooped quietly overhead while Sedge watched the fireflies drift between the rows.",
+  "The watered leaves smelled fresh, and the little plants stood calm and bright together.",
+  "Sedge closed his misting bar and parked beside the old barn.",
+  "The fireflies made a tiny glowing trail past his wheels and into the meadow.",
+  "Sedge smiled beneath the moon and whispered goodnight to the little garden. Drink slowly and grow.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

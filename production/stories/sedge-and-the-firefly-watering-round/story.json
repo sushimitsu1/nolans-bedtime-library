@@ -1,0 +1,199 @@
+{
+  "title": "Sedge and the Firefly Watering Round",
+  "slug": "sedge-and-the-firefly-watering-round",
+  "category": "Farm Vehicles",
+  "description": "A little sage-green watering truck softens his mist for thirsty herb rows, leaves a dry path for glowing fireflies, then rests beside the old red barn.",
+  "characterBible": {
+    "Sedge": {
+      "role": "Main character; a little orchard watering truck",
+      "color": "Rounded sage-green cab and body with a buttercream water tank, narrow dark-green fenders, and one tiny cream droplet emblem on each door",
+      "bodyShape": "Small watering truck with four sturdy charcoal tires and a short silver misting bar mounted low behind the tank; no arms or hands",
+      "face": "Exactly two gentle dark-hazel eyes located in the two front headlights; no windshield eyes and nothing else resembling eyes; friendly grille smile",
+      "accessories": "Silver misting bar; small amber roof beacon that stays off during most scenes; no lettering, logos, or numbers"
+    },
+    "Lark": {
+      "role": "Supporting character; a small barn swallow",
+      "color": "Warm-brown feathers with a pale cream chest",
+      "bodyShape": "Small barn swallow with tiny wings; no clothes or accessories",
+      "face": "Dark bead eyes and a gentle expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Herb Farm": "A peaceful herb-and-flower farm bordered by an old red barn, with rows of lavender and other thirsty plants, a dry path between rows, and evening fireflies",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded farm vehicle and swallow, golden afternoon fading to moonlit night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Sedge keeps sage-green body, buttercream tank, dark-green fenders, cream droplet emblems, and eyes only in the two headlights.",
+    "Lark stays a small warm-brown barn swallow with cream chest and no clothing.",
+    "Keep plant watering and firefly wording general; avoid exact firefly counts such as dozens.",
+    "Pages 9\u201314 use soft firefly language that can fit loose art counts.",
+    "No rescue, danger, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Sedge rolled past the old red barn as the warm afternoon began to cool.",
+      "illustrationScene": "Sage-green watering truck Sedge rolls slowly past an old red barn in warm late-afternoon light with farm rows beyond.",
+      "requiredCharacters": [
+        "Sedge"
+      ],
+      "timeOfDay": "warm late afternoon",
+      "continuityNotes": "Sedge alone on page 1; Lark absent. Headlight eyes only."
+    },
+    {
+      "number": 2,
+      "text": "The young herb rows looked thirsty after a long sunny day.",
+      "illustrationScene": "Sedge looks toward slightly drooping young herb seedlings in neat rows after a warm day, with the red barn beyond.",
+      "requiredCharacters": [
+        "Sedge"
+      ],
+      "timeOfDay": "late sunny afternoon",
+      "continuityNotes": "Thirsty herb rows; no distress."
+    },
+    {
+      "number": 3,
+      "text": "Sedge opened his gentle misting bar, but his first spray was much too wide.",
+      "illustrationScene": "Sedge tests his low silver misting bar with a gentle but too-wide fan of water over the edge of a row while Lark watches from a fence.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "golden evening farm",
+      "continuityNotes": "First spray too wide; plants remain safe. Soft details only."
+    },
+    {
+      "number": 4,
+      "text": "Soft and slow, chirped Lark from the fence. The tiny leaves only need a little.",
+      "illustrationScene": "Lark perches on a wooden fence near Sedge as if offering calm advice while watering is paused.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "golden evening farm",
+      "continuityNotes": "Lark advises a softer mist."
+    },
+    {
+      "number": 5,
+      "text": "Sedge turned the mist down until it floated as lightly as evening fog.",
+      "illustrationScene": "Sedge produces a much finer mist like evening fog over a short row of small herbs while Lark watches.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "evening farm",
+      "continuityNotes": "Mist adjusted softer."
+    },
+    {
+      "number": 6,
+      "text": "The lavender leaves sparkled with tiny drops instead of bending under the water.",
+      "illustrationScene": "Close peaceful view of Sedge beside lavender plants sparkling with tiny droplets, stems upright, Lark nearby.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "evening farm",
+      "continuityNotes": "Gentle mist on lavender; soft wording."
+    },
+    {
+      "number": 7,
+      "text": "Next he misted the other thirsty rows, moving slowly from plant to plant.",
+      "illustrationScene": "Wider farm view of Sedge moving slowly past herb and berry rows with fine mist trailing gently behind.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "evening farm",
+      "continuityNotes": "Keep plant watering general rather than an exact crop-by-crop checklist."
+    },
+    {
+      "number": 8,
+      "text": "Sedge left a dry path between the rows for the nighttime visitors.",
+      "illustrationScene": "Sedge waters near the rows while leaving a clean dry path winding between the plants as sunset fades toward violet.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "violet-tinged sunset",
+      "continuityNotes": "Dry path left for nighttime visitors; avoid exact path counts."
+    },
+    {
+      "number": 9,
+      "text": "As twilight turned violet, a soft firefly blinked beside the lavender.",
+      "illustrationScene": "A soft glowing firefly appears beside lavender as Sedge and Lark notice it under violet twilight.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "violet twilight",
+      "continuityNotes": "Soft firefly wording; do not insist on exact firefly counts."
+    },
+    {
+      "number": 10,
+      "text": "Soon more and more gentle lights twinkled along the dry path Sedge had left.",
+      "illustrationScene": "Many soft golden fireflies drift along the dry path between watered herb rows while Sedge watches happily.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "sunset-violet evening with fireflies",
+      "continuityNotes": "Use more-and-more wording instead of exact firefly counts like dozens."
+    },
+    {
+      "number": 11,
+      "text": "Lark swooped quietly overhead while Sedge watched the fireflies drift between the rows.",
+      "illustrationScene": "Lark glides gently above Sedge as fireflies float through the upper farm rows and barn windows begin to glow.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "evening with fireflies",
+      "continuityNotes": "Soft firefly drift; no exact counts."
+    },
+    {
+      "number": 12,
+      "text": "The watered leaves smelled fresh, and the little plants stood calm and bright together.",
+      "illustrationScene": "Fresh upright leaves and flowers sparkle with tiny droplets beneath moonrise while Sedge looks over the peaceful garden.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "moonrise evening garden",
+      "continuityNotes": "Garden looks fresh and calm; soft general plant wording."
+    },
+    {
+      "number": 13,
+      "text": "Sedge closed his misting bar and parked beside the old barn.",
+      "illustrationScene": "Sedge rests parked beside the old red barn with misting quiet; Lark perched nearby under moonlit blue evening.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "moonlit blue evening",
+      "continuityNotes": "Watering done; parked by barn."
+    },
+    {
+      "number": 14,
+      "text": "The fireflies made a tiny glowing trail past his wheels and into the meadow.",
+      "illustrationScene": "A delicate trail of fireflies passes near Sedge's wheels and continues toward the meadow while he watches sleepily by the barn.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "moonlit night with fireflies",
+      "continuityNotes": "Soft glowing trail; no exact firefly counts."
+    },
+    {
+      "number": 15,
+      "text": "Sedge smiled beneath the moon and whispered goodnight to the little garden. Drink slowly and grow.",
+      "illustrationScene": "Sedge rests calmly beside the red barn under a bright moon while Lark perches nearby and soft firefly lights linger along the path.",
+      "requiredCharacters": [
+        "Sedge",
+        "Lark"
+      ],
+      "timeOfDay": "peaceful moonlit bedtime",
+      "continuityNotes": "Calm bedtime ending; soft garden goodnight."
+    }
+  ]
+}
