@@ -16,7 +16,7 @@
   function close() {
     if (overlay.hidden) return;
     media.pause(); media.removeAttribute('src'); media.load();
-    overlay.hidden = true; document.body.classList.remove('video-open');
+    overlay.hidden = true; document.body.classList.remove('video-open'); document.documentElement.classList.remove('video-open');
     opener?.focus();
   }
   function empty(unavailable = false) {
@@ -46,7 +46,7 @@
         card.append(image, title);
         activate(card, () => {
           opener = card; feedback.textContent = ''; overlay.hidden = false;
-          document.body.classList.add('video-open'); media.src = item.src; media.poster = item.thumbnail;
+          document.body.classList.add('video-open'); document.documentElement.classList.add('video-open'); media.src = item.src; media.poster = item.thumbnail;
           overlay.querySelector('[data-video-action="play"]').focus();
         });
         grid.append(card);
