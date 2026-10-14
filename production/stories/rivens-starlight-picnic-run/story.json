@@ -1,0 +1,205 @@
+{
+  "title": "Riven's Starlight Picnic Run",
+  "slug": "rivens-starlight-picnic-run",
+  "category": "Pick-Up Trucks",
+  "description": "A little dusty-turquoise pick-up and his tiny field-mouse friend settle a breezy hilltop picnic, watch soft shooting stars, then rest above nearby farmhouse lights.",
+  "characterBible": {
+    "Riven": {
+      "role": "Main character; a compact family pick-up truck",
+      "color": "Dusty turquoise body with an ivory roof, warm tan bumper, and a small cream shooting-star emblem on each door",
+      "bodyShape": "Compact short-bed pick-up with four chunky dark tires; no arms or hands",
+      "face": "Exactly two warm brown eyes located in his two round headlights; no windshield eyes and no other eye-like lights; friendly dark grille smile",
+      "accessories": "Picnic gear may appear in his bed; no lettering, logos, or numbers"
+    },
+    "Tansy": {
+      "role": "Supporting character; a tiny field mouse",
+      "color": "Cinnamon-brown fur with a cream belly",
+      "bodyShape": "Tiny field mouse with rounded ears and little paws only; always much smaller than Riven; no clothing",
+      "face": "Dark brown eyes and a gentle expression",
+      "accessories": "None"
+    }
+  },
+  "settingBible": {
+    "Starlight Meadow": "A rolling grassy hilltop stargazing meadow with smooth stones, low wildflowers, a small telescope, picnic blanket, thermos, purple hills, valley water, and nearby farmhouse lights",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded pick-up and mouse, golden evening fading to starry night, one scene per page, and no readable text on story pages"
+  },
+  "continuityRules": [
+    "Riven keeps dusty turquoise body, ivory roof, tan bumper, shooting-star door emblems, and eyes only in the two headlights.",
+    "Tansy stays a much smaller cinnamon field mouse with cream belly and no clothing.",
+    "Page 2 shows Riven already parked with the blanket already spread.",
+    "Page 7 keeps the thermos in the truck bed.",
+    "Pages 8 and 11 may include an extra shooting star.",
+    "Page 9 does not have Riven looking up and does not call the star diamond-shaped.",
+    "Page 12 avoids cups and does not say the telescope points at the moon.",
+    "Page 13 uses sunset-gold light and does not require the blanket in the truck bed.",
+    "Page 15 mentions nearby farmhouses rather than tiny distant ones.",
+    "No rescue, danger, lettering, logos, or numerals in artwork.",
+    "Every illustration is one continuous scene with no panels, collage, grid, text, badge, logo, or readable words on story-page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One evening, Riven climbed the gentle hill with a picnic blanket tucked safely in his truck bed.",
+      "illustrationScene": "Dusty-turquoise pick-up Riven climbs a gentle grassy hill at golden evening with a folded picnic blanket and brass thermos in his bed.",
+      "requiredCharacters": [
+        "Riven"
+      ],
+      "timeOfDay": "golden evening hillside",
+      "continuityNotes": "Riven alone on page 1; Tansy absent. Headlight eyes only."
+    },
+    {
+      "number": 2,
+      "text": "At the hilltop, Riven had already parked, and Tansy waved from the blanket spread beside a tiny telescope.",
+      "illustrationScene": "Parked Riven sits on the hilltop while Tansy waves from a checkered picnic blanket already spread beside a tiny telescope.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "golden-blue evening hilltop",
+      "continuityNotes": "Art shows Riven already parked and the blanket already spread on page 2."
+    },
+    {
+      "number": 3,
+      "text": "Just then, an evening breeze lifted one corner of the blanket high into the air.",
+      "illustrationScene": "A gentle breeze lifts one corner of the picnic blanket while Riven and Tansy watch calmly.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "evening hilltop breeze",
+      "continuityNotes": "Playful breeze, not stormy."
+    },
+    {
+      "number": 4,
+      "text": "Riven tried another spot, but the playful breeze followed them across the meadow.",
+      "illustrationScene": "The picnic is moved to another nearby meadow spot while a blanket corner flutters again; Riven and Tansy stay amused.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "evening meadow",
+      "continuityNotes": "Small breeze problem continues across the meadow."
+    },
+    {
+      "number": 5,
+      "text": "Tansy noticed four smooth stones resting beside the wildflowers.",
+      "illustrationScene": "Tiny cinnamon mouse Tansy notices four smooth stones resting beside low wildflowers on the hilltop.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "evening meadow",
+      "continuityNotes": "Four stones available to hold the blanket."
+    },
+    {
+      "number": 6,
+      "text": "They placed one smooth stone on each corner, and the blanket finally stayed still.",
+      "illustrationScene": "Riven and Tansy settle the picnic blanket with one smooth stone on each corner so it stays still.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "evening meadow",
+      "continuityNotes": "Blanket secured with stones."
+    },
+    {
+      "number": 7,
+      "text": "The warm thermos stayed cozy in Riven's truck bed while Tansy turned toward the first star.",
+      "illustrationScene": "Brass thermos remains in Riven's truck bed while Tansy sits by the telescope looking toward early stars.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "twilight hilltop",
+      "continuityNotes": "Art keeps the thermos in the truck bed on page 7."
+    },
+    {
+      "number": 8,
+      "text": "One by one, more stars appeared above the purple hills, and a soft shooting star slipped by.",
+      "illustrationScene": "More stars fill the purple twilight sky above the hills while a soft shooting star streaks past Riven and Tansy.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "starry twilight",
+      "continuityNotes": "Allow an extra shooting star in the sky on page 8."
+    },
+    {
+      "number": 9,
+      "text": "Tansy pointed to a bright star sparkling high above the meadow.",
+      "illustrationScene": "Tansy points toward a bright sparkling star while Riven faces forward on the hilltop, not looking up.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "starry twilight",
+      "continuityNotes": "Riven is not looking up; do not call the star diamond-shaped."
+    },
+    {
+      "number": 10,
+      "text": "Then a slow silver shooting star slipped quietly over the meadow.",
+      "illustrationScene": "A slow silver shooting star slips quietly across the sky above the hilltop meadow.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "starry night meadow",
+      "continuityNotes": "Another gentle shooting star passes overhead."
+    },
+    {
+      "number": 11,
+      "text": "Riven and Tansy made one gentle wish as another soft shooting star drifted overhead.",
+      "illustrationScene": "Riven and Tansy rest by the picnic while another soft shooting star drifts across the sunset-gold sky.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "sunset-gold starry evening",
+      "continuityNotes": "Allow an extra shooting star on page 11."
+    },
+    {
+      "number": 12,
+      "text": "The warm picnic grew quiet and still beneath the glowing moon.",
+      "illustrationScene": "Riven and Tansy rest quietly by the picnic blanket and telescope under a glowing crescent moon; telescope aims toward the horizon.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "moonlit twilight",
+      "continuityNotes": "Do not mention cups or the telescope pointing at the moon."
+    },
+    {
+      "number": 13,
+      "text": "Together they returned the smooth stones beside the flowers in the warm sunset-gold light.",
+      "illustrationScene": "In warm sunset-gold light, Tansy returns smooth stones beside wildflowers while Riven waits nearby; blanket need not be in the truck bed.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "sunset-gold evening",
+      "continuityNotes": "Sunset-gold lighting; do not require the blanket to be back in the truck bed."
+    },
+    {
+      "number": 14,
+      "text": "Tansy curled into a cozy grass nest while Riven parked nearby beneath the stars.",
+      "illustrationScene": "Tansy curls into a cozy grass nest near Riven as he rests parked beneath the stars.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "starry night rest",
+      "continuityNotes": "Bedtime settling on the hilltop."
+    },
+    {
+      "number": 15,
+      "text": "Riven's headlights grew sleepy as he whispered goodnight to the starlight meadow and the nearby farmhouses.",
+      "illustrationScene": "Sleepy Riven rests on the hilltop with Tansy asleep nearby, crescent moon above, and nearby farmhouse lights glowing in the valley.",
+      "requiredCharacters": [
+        "Riven",
+        "Tansy"
+      ],
+      "timeOfDay": "peaceful night bedtime",
+      "continuityNotes": "Farmhouses are nearby rather than tiny and distant; both rest calmly."
+    }
+  ]
+}

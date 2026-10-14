@@ -1,0 +1,27 @@
+{
+  "storySlug": "rivens-starlight-picnic-run",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": true,
+    "individuallyInspectedPages": [
+      1,
+      5,
+      9,
+      10,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Published from approved ChatGPT full-bleed package; Pick-Up Trucks; full_page_cover; art-fit soft narration for parked blanket p2, thermos in bed p7, extra shooting stars p8/p11, no diamond star p9, no cups/moon-aimed telescope p12, sunset-gold p13, nearby farmhouses p15."
+}

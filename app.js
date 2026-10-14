@@ -2940,6 +2940,29 @@ narration: [
   "Under the moonlit control tower, Faro grew calm and whispered goodnight to Willowwing Airport.",
 ]
 },
+{
+id: "rivens-starlight-picnic-run", title: "Riven's Starlight Picnic Run", category: "Pick-Up Trucks",
+description: "A little dusty-turquoise pick-up and his tiny field-mouse friend settle a breezy hilltop picnic, watch soft shooting stars, then rest above nearby farmhouse lights.",
+keywords: ["riven", "tansy", "pickup", "pick-up", "picnic", "starlight", "meadow", "shooting star", "bedtime"],
+cover: "assets/books/rivens-starlight-picnic-run/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/rivens-starlight-picnic-run/page-${String(i+1).padStart(2,'0')}.webp`),
+narration: [
+  "One evening, Riven climbed the gentle hill with a picnic blanket tucked safely in his truck bed.",
+  "At the hilltop, Riven had already parked, and Tansy waved from the blanket spread beside a tiny telescope.",
+  "Just then, an evening breeze lifted one corner of the blanket high into the air.",
+  "Riven tried another spot, but the playful breeze followed them across the meadow.",
+  "Tansy noticed four smooth stones resting beside the wildflowers.",
+  "They placed one smooth stone on each corner, and the blanket finally stayed still.",
+  "The warm thermos stayed cozy in Riven's truck bed while Tansy turned toward the first star.",
+  "One by one, more stars appeared above the purple hills, and a soft shooting star slipped by.",
+  "Tansy pointed to a bright star sparkling high above the meadow.",
+  "Then a slow silver shooting star slipped quietly over the meadow.",
+  "Riven and Tansy made one gentle wish as another soft shooting star drifted overhead.",
+  "The warm picnic grew quiet and still beneath the glowing moon.",
+  "Together they returned the smooth stones beside the flowers in the warm sunset-gold light.",
+  "Tansy curled into a cozy grass nest while Riven parked nearby beneath the stars.",
+  "Riven's headlights grew sleepy as he whispered goodnight to the starlight meadow and the nearby farmhouses.",
+]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
