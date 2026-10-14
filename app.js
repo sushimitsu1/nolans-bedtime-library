@@ -3113,9 +3113,11 @@ const narrationSettings = {
 function showView(view){
   if(view!=='reader') stopNarration({disableReadAlong:true});
   if (window.NolanGames) window.NolanGames.leave();
-  document.getElementById('storiesTab').setAttribute('aria-selected', String(view!=='games'));
+  if (window.NolanVideos) window.NolanVideos.close();
+  document.getElementById('storiesTab').setAttribute('aria-selected', String(!['games','videos'].includes(view)));
+  document.getElementById('videosTab').setAttribute('aria-selected', String(view==='videos'));
   document.getElementById('gamesTab').setAttribute('aria-selected', String(view==='games'));
-  ['library','reader','finished','games'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
+  ['library','reader','finished','games','videos'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
 }
 

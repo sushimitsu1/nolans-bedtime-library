@@ -91,7 +91,7 @@ try{
   assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected);
   console.log('Checking service-worker cache and offline play');
   await page.evaluate(async()=>{await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Service worker did not become ready')),30000))]);if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
-  const core=await page.evaluate(async()=>{const cache=await caches.open('nolan-library-v96');return (await cache.keys()).map(r=>new URL(r.url).pathname);});
+  const core=await page.evaluate(async()=>{const cache=await caches.open('nolan-library-v97');return (await cache.keys()).map(r=>new URL(r.url).pathname);});
   assert(core.includes('/games/games-6-10.js'));assert(core.includes('/games/smoke-test.mjs'));const expectedArt=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/assets\/books\/[^']+/g);assert.equal(expectedArt.length,20);for(const asset of expectedArt)assert(core.includes('/'+asset),asset);
   if(puppeteer)await page.setOfflineMode(true);else await page.context().setOffline(true);
   await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const {id} of games){await open(id);await page.waitForFunction(()=>{const img=document.querySelector('.game-scene img');return img?.complete&&img.naturalWidth>0;});assert(await page.evaluate(()=>{const img=document.querySelector('.game-scene img');return img.complete&&img.naturalWidth>0;}),`Offline artwork: ${id}`);await tap('#gamesView [data-action="finish"]');await home();}
