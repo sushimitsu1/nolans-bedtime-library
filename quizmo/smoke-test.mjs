@@ -1,0 +1,98 @@
+// Run: node quizmo/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import http from 'node:http';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+let puppeteer,playwright;
+for(const name of ['puppeteer','puppeteer-core','/tmp/shot/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js']){
+  try{puppeteer=(await import(name)).default;break;}catch{}
+}
+if(!puppeteer){for(const name of ['playwright','/usr/local/lib/pnpm/5/node_modules/playwright-core/index.mjs'])try{playwright=await import(name);break;}catch{}}
+assert(puppeteer||playwright,'Install puppeteer or playwright to run the browser smoke test.');
+const server=http.createServer(async(req,res)=>{
+  try{const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);const file=path.resolve(root,'.'+(name==='/'?'/index.html':name));if(!file.startsWith(root+path.sep))throw Error();const data=await fs.readFile(file);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.webp':'image/webp','.json':'application/json'})[path.extname(file)]||'application/octet-stream');res.end(data);}catch{res.writeHead(404);res.end();}
+});
+await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+let browser;
+try{
+  const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']};
+  console.log('Starting browser smoke test');
+  browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
+  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const url=`http://127.0.0.1:${server.address().port}`;
+  await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
+  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<88||r.height<88)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
+  const sentinel='{"points":137,"levels":{"willa":4}}';
+  await page.evaluate(value=>localStorage.setItem('nolan-games-v1',value),sentinel);
+  await tap('#quizmoTab');
+  assert.equal(await page.$eval('#quizmoTab',e=>e.textContent),"Jasper's Quizmo");
+  assert.equal(await page.$eval('#storiesTab',e=>e.getAttribute('aria-selected')),'false');
+  assert.equal(await page.$$eval('.quizmo-card',els=>els.length),10);
+  const ids=await page.$$eval('[data-game]',els=>els.map(e=>e.dataset.game));
+  function solve(prompt) {
+    const n=prompt.match(/\d+/g).map(Number);
+    if(prompt.includes('quotient'))return [Math.floor(n[0]/n[1]),n[0]%n[1]];
+    if(prompt.includes('lanterns'))return [n[2]/n[1]];
+    if(prompt.includes('bags'))return [n[0]*n[1]-(prompt.includes('gives away')?n[2]:0)];
+    if(prompt.includes('minutes until'))return [60-n[1]];
+    if(prompt.includes('snack'))return [n[0]-n[1]];
+    if(prompt.includes('metres'))return [n[0]*100+n[1]];
+    if(prompt.includes('value of'))return [n[0]*(prompt.includes('tens')?10:100)];
+    if(prompt.includes(' = ')&&prompt.includes(' + ? + '))return [n[0]-n[1]-n[2]];
+    if(prompt.startsWith('? +'))return [n[1]-n[0]];
+    if(prompt.includes('× ?'))return [n[1]/n[0]];
+    if(prompt.includes(' + '))return [n[0]+n[1]];
+    if(prompt.includes(' − '))return [n[0]-n[1]];
+    if(prompt.includes(' × '))return [n[0]*n[1]];
+    throw Error('Unknown question '+prompt);
+  }
+  for(const id of ids) {
+    for(let level=1;level<=8;level++) {
+      await tap(`[data-game="${id}"]`);
+      assert.equal(await page.$eval('#quizmoView [data-level]',e=>Number(e.dataset.level)),level);
+      if(level===1) {
+        await tap('[data-q-action="check"]');
+        assert.match(await page.$eval('.quizmo-feedback',e=>e.textContent),/Try again/);
+        assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')||'{"score":0}').score),(ids.indexOf(id)*240));
+      }
+      for(let q=0;q<3;q++) {
+        const prompt=await page.$eval('#quizmoView h2',e=>e.textContent);
+        const answers=solve(prompt);
+        for(let i=0;i<answers.length;i++) {
+          await tap(`[data-field="${i}"]`);
+          for(const digit of String(answers[i]))await tap(`[data-key="${digit}"]`);
+        }
+        await tap('[data-q-action="check"]');
+      }
+      assert.match(await page.$eval('#quizmoView h1',e=>e.textContent),/Level complete/);
+      const progress=await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')));
+      assert.equal(progress.levels[id],Math.min(8,level+1));
+      assert.equal(progress.stars[id],level);
+      await tap('[data-q-action="home"]');
+    }
+  }
+  // A real mouse tap also opens a game; a cancelled touch does not enter digits.
+  await page.click('[data-game="addition"]');
+  await page.evaluate(()=>{const b=document.querySelector('[data-key="9"]');for(const type of ['pointerdown','pointercancel','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0}));});
+  assert.equal(await page.$eval('[data-input="0"]',e=>e.textContent),'?');
+  await tap('[data-key="1"]');await tap('[data-key="erase"]');
+  assert.equal(await page.$eval('[data-input="0"]',e=>e.textContent),'?');
+  await tap('[data-q-action="home"]');
+  await tap('[data-game="speed"]');
+  await page.evaluate(()=>{const now=Date.now();Date.now=()=>now+180000;});
+  await page.waitForFunction(()=>document.querySelector('#quizmoView h1').textContent.includes('Lovely practice'));
+  await tap('#storiesTab');
+  assert.equal(await page.$eval('#quizmoTab',e=>e.getAttribute('aria-selected')),'false');
+  await tap('#quizmoTab');
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')).score),2400);
+  assert.equal(await page.evaluate(()=>localStorage.getItem('nolan-games-v1')),sentinel);
+  await page.reload({waitUntil:'domcontentloaded'});
+  await tap('#quizmoTab');
+  await tap('[data-game="addition"]');
+  assert.equal(await page.$eval('[data-level]',e=>Number(e.dataset.level)),8);
+  assert.equal(await page.evaluate(()=>localStorage.getItem('nolan-games-v1')),sentinel);
+  assert.deepEqual(errors,[]);
+  console.log('PASS Quizmo: 10 games × 8 levels, 240 pointer-pad answers, hints, progression, timer, mouse, cancellation and isolated storage');
+}catch(error){console.error(error);process.exitCode=1;}finally{await browser?.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}
