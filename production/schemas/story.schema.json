@@ -42,7 +42,9 @@
         "Rail Vehicles",
         "Service Vehicles",
         "Space",
-        "Space Vehicles"
+        "Space Vehicles",
+        "Snow Vehicles",
+        "Sky Rides"
       ]
     },
     "description": {

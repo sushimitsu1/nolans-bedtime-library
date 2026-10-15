@@ -1,0 +1,489 @@
+{
+  "storySlug": "tundra-the-snowcat-grooms-the-starry-slope",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            90,
+            175,
+            920,
+            710
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            925,
+            290,
+            1180,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            80,
+            140,
+            900,
+            680
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            860,
+            255,
+            1170,
+            660
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            35,
+            90,
+            900,
+            610
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            825,
+            235,
+            1150,
+            610
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            420,
+            150,
+            1300,
+            665
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            100,
+            240,
+            275,
+            500
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            350,
+            145,
+            1280,
+            680
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            40,
+            225,
+            280,
+            575
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            75,
+            130,
+            865,
+            620
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            875,
+            255,
+            1110,
+            600
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            230,
+            140,
+            950,
+            635
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            40,
+            200,
+            250,
+            520
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            500,
+            150,
+            1290,
+            690
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            130,
+            160,
+            335,
+            490
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            110,
+            130,
+            1100,
+            740
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            1150,
+            265,
+            1335,
+            610
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            50,
+            105,
+            865,
+            620
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            835,
+            235,
+            1070,
+            615
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            20,
+            145,
+            940,
+            715
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            920,
+            270,
+            1175,
+            700
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            185,
+            125,
+            1025,
+            675
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            1020,
+            280,
+            1270,
+            630
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            10,
+            350,
+            775,
+            680
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            605,
+            350,
+            855,
+            650
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            100,
+            240,
+            765,
+            640
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            1190,
+            440,
+            1410,
+            695
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Tundra",
+          "box": [
+            90,
+            265,
+            655,
+            615
+          ]
+        },
+        {
+          "label": "Larkin",
+          "box": [
+            1215,
+            430,
+            1420,
+            650
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually reviewed supplied single-scene art. Characters, blade, comb and story action clear above panel; low-detail foreground only under caption."
+    }
+  ]
+}

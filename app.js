@@ -3009,6 +3009,57 @@ narration: [
   "They parked calmly beneath the stars, and Kestrel whispered goodnight to the quiet moonshadows.",
 ]
 },
+{
+  "id": "tundra-the-snowcat-grooms-the-starry-slope",
+  "title": "Tundra the Snowcat Grooms the Starry Slope",
+  "category": "Snow Vehicles",
+  "description": "Tundra and Larkin share a gentle evening. Goodnight, starry slope, whispered Tundra, as the mountain settled into sleep.",
+  "keywords": [
+    "tundra",
+    "snowcat",
+    "snow",
+    "groomer",
+    "larkin",
+    "hare",
+    "snow vehicles",
+    "bedtime"
+  ],
+  "cover": "assets/books/tundra-the-snowcat-grooms-the-starry-slope/cover.webp",
+  "pages": [
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-01.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-02.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-03.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-04.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-05.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-06.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-07.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-08.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-09.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-10.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-11.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-12.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-13.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-14.webp",
+    "assets/books/tundra-the-snowcat-grooms-the-starry-slope/page-15.webp"
+  ],
+  "narration": [
+    "Evening settled over the mountain as Tundra rolled out of the warm shed.",
+    "Larkin hopped beside the slope, listening to the soft hum of Tundra's tracks.",
+    "The sledders had gone home, leaving ripples in the snow.",
+    "Tundra began a slow, gentle journey along the snowy slope.",
+    "The groomed snow lay soft and even, like a freshly tucked blanket.",
+    "But beside the fir trees, a lumpy patch still needed care.",
+    "Larkin waited on the snowy verge while Tundra looked for a gentle way around.",
+    "Tundra made a wide turn and eased the blade toward the little bumps.",
+    "The blade nudged the snow, leaving a smooth ribbon behind.",
+    "Now the path beside the trees was ready for tomorrow.",
+    "Larkin's ears twitched as a quiet breeze brushed the branches.",
+    "Tundra followed the slope downhill, humming softly beneath the stars.",
+    "From below, the smooth snow shimmered in the moonlight.",
+    "Larkin nestled near the burrow, and Tundra parked inside the cozy shed.",
+    "Goodnight, starry slope, whispered Tundra, as the mountain settled into sleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
@@ -3621,6 +3672,11 @@ function resetPreferences(){
 }
 
 $('searchInput').addEventListener('input',renderLibrary);
+const snowCategoryTab = document.createElement('button');
+snowCategoryTab.className = 'category-tab';
+snowCategoryTab.dataset.category = 'Snow Vehicles';
+snowCategoryTab.textContent = 'Snow Vehicles';
+document.querySelector('.category-tabs').insertBefore(snowCategoryTab, document.querySelector('[data-category="favorites"]'));
 document.querySelectorAll('.category-tab').forEach(tab=>tab.addEventListener('click',()=>{
   selectedCategory=tab.dataset.category;
   document.querySelectorAll('.category-tab').forEach(item=>item.classList.toggle('selected',item===tab));

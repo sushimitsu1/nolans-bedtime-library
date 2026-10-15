@@ -1,0 +1,39 @@
+{
+  "storySlug": "tundra-the-snowcat-grooms-the-starry-slope",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw pages inspected individually; no contact sheet created, following user instructions. Final pages 1, 5, 9, 10, 15 individually inspected.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Supplied Tundra art preserved in staging; cover title painted in with no added text; standard Kestrel integrated low caption panel; exact narration derived from story.json; three documented narration softenings; v102."
+}

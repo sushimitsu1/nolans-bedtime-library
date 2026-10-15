@@ -1,0 +1,36 @@
+{
+  "storySlug": "tundra-the-snowcat-grooms-the-starry-slope",
+  "storyValidator": "passed",
+  "textValidator": "passed",
+  "assetsValidator": "passed",
+  "appValidator": {
+    "status": "passed",
+    "baseline": "app-baseline-before.json",
+    "expectedIncrease": 1,
+    "beforeCount": 95,
+    "afterCount": 96,
+    "unrelatedRecordsUnchanged": true
+  },
+  "readAlongValidator": "passed",
+  "smokeTests": {
+    "games": "passed",
+    "videos": "passed",
+    "quizmo": "passed",
+    "story": "Cover, pages 1, 5, 9, 10, 15; category filter and previous/next navigation passed; no browser errors"
+  },
+  "finalDimensions": [
+    1448,
+    1086
+  ],
+  "captionPanelBox": [
+    62,
+    790,
+    1386,
+    1034
+  ],
+  "cover": {
+    "layout": "full_page_cover",
+    "text": null
+  },
+  "narrationSoftenings": "narration-softenings.json"
+}

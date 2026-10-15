@@ -1,0 +1,203 @@
+{
+  "title": "Tundra the Snowcat Grooms the Starry Slope",
+  "slug": "tundra-the-snowcat-grooms-the-starry-slope",
+  "category": "Snow Vehicles",
+  "description": "Tundra and Larkin share a gentle evening. Goodnight, starry slope, whispered Tundra, as the mountain settled into sleep.",
+  "characterBible": {
+    "Tundra": {
+      "role": "Main character",
+      "color": "Rounded plum-purple tracked snow groomer with cream cab roof, broad charcoal rubber tracks, low silver front blade and rear grooming comb",
+      "bodyShape": "Rounded plum-purple tracked snow groomer with cream cab roof, broad charcoal rubber tracks, low silver front blade and rear grooming comb; exactly two amber eyes side by side on the front windshield, no headlight eyes, small curved grille smile; no arms or hands; unlettered amber roof beacon.",
+      "face": "Rounded plum-purple tracked snow groomer with cream cab roof, broad charcoal rubber tracks, low silver front blade and rear grooming comb; exactly two amber eyes side by side on the front windshield, no headlight eyes, small curved grille smile; no arms or hands; unlettered amber roof beacon.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Larkin": {
+      "role": "Supporting character",
+      "color": "Small white snowshoe hare with gray ear tips, long upright ears, fluffy tail and broad furry hind feet",
+      "bodyShape": "Small white snowshoe hare with gray ear tips, long upright ears, fluffy tail and broad furry hind feet; exactly two dark brown eyes, one on each side of the face; natural paws, no human-like arms or hands.",
+      "face": "Small white snowshoe hare with gray ear tips, long upright ears, fluffy tail and broad furry hind feet; exactly two dark brown eyes, one on each side of the face; natural paws, no human-like arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A quiet snowy mountain slope, rounded fir trees, a warm grooming shed and a sheltered hare burrow beneath stars.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, warm polished 3D children's illustration for ages 3-5, soft rounded forms, reassuring expressions and gentle evening light. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels."
+  },
+  "continuityRules": [
+    "Rounded plum-purple tracked snow groomer with cream cab roof, broad charcoal rubber tracks, low silver front blade and rear grooming comb; exactly two amber eyes side by side on the front windshield, no headlight eyes, small curved grille smile; no arms or hands; unlettered amber roof beacon.",
+    "Small white snowshoe hare with gray ear tips, long upright ears, fluffy tail and broad furry hind feet; exactly two dark brown eyes, one on each side of the face; natural paws, no human-like arms or hands.",
+    "No additional named characters; background characters have no human-like arms or hands.",
+    "Use soft quantity wording in narration; no required exact prop or background counts.",
+    "Story pages and character reference are entirely text-free; only the cover contains the exact title as painted lettering.",
+    "Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel.",
+    "Keep the same design and proportions from character reference through cover and every page.",
+    "Page 15 is a calm bedtime ending."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening settled over the mountain as Tundra rolled out of the warm shed.",
+      "illustrationScene": "Tundra emerges from the warm grooming shed; Larkin waits beside the snowy path.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Larkin hopped beside the slope, listening to the soft hum of Tundra's tracks.",
+      "illustrationScene": "Larkin hops along the level verge beside Tundra.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "The sledders had gone home, leaving ripples in the snow.",
+      "illustrationScene": "They inspect shallow sled grooves on the empty gentle slope.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Tundra began a slow, gentle journey along the snowy slope.",
+      "illustrationScene": "Tundra climbs a gentle slope with rear comb touching snow; Larkin watches from the verge.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "The groomed snow lay soft and even, like a freshly tucked blanket.",
+      "illustrationScene": "A smooth groomed strip trails behind Tundra; Larkin admires it from the verge.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "But beside the fir trees, a lumpy patch still needed care.",
+      "illustrationScene": "They pause beside a shallow lumpy patch near rounded fir trees.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Larkin waited on the snowy verge while Tundra looked for a gentle way around.",
+      "illustrationScene": "Larkin stands clear on the verge as Tundra studies a broad curved approach.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Tundra made a wide turn and eased the blade toward the little bumps.",
+      "illustrationScene": "Tundra makes a broad slow turn toward shallow bumps; Larkin stays on the verge.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "The blade nudged the snow, leaving a smooth ribbon behind.",
+      "illustrationScene": "The low blade levels shallow bumps and the rear comb smooths the snow; Larkin watches safely aside.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Now the path beside the trees was ready for tomorrow.",
+      "illustrationScene": "They admire the even snow beside the fir trees.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Larkin's ears twitched as a quiet breeze brushed the branches.",
+      "illustrationScene": "Larkin listens to gently stirred fir branches while Tundra pauses.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Tundra followed the slope downhill, humming softly beneath the stars.",
+      "illustrationScene": "Tundra descends a gentle groomed curve; Larkin follows along the verge.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "From below, the smooth snow shimmered in the moonlight.",
+      "illustrationScene": "They look uphill at the softly shimmering finished slope.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Larkin nestled near the burrow, and Tundra parked inside the cozy shed.",
+      "illustrationScene": "Tundra parks in the open warm shed; Larkin nestles at a sheltered nearby burrow.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Goodnight, starry slope, whispered Tundra, as the mountain settled into sleep.",
+      "illustrationScene": "Wide peaceful view of Tundra resting in the shed and Larkin tucked at the burrow under stars.",
+      "requiredCharacters": [
+        "Tundra",
+        "Larkin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Tundra and Larkin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}
