@@ -1,0 +1,39 @@
+{
+  "storySlug": "up-and-over-with-calla-the-cable-car",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "All WIP art freshly copied and all pages recomposed. All 15 raw and composed pages individually inspected; no character overlaps. Cover painted title preserved, text null. Four narration softenings documented. Browser smoke tests skipped: sandbox listen EPERM. Cache v105."
+}

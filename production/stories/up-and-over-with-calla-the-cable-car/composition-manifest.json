@@ -1,0 +1,907 @@
+{
+  "storySlug": "up-and-over-with-calla-the-cable-car",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-01.png",
+      "text": "Calla waited at the lower station as evening warmed the mountain peaks.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            156,
+            0,
+            688,
+            600
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            696,
+            316,
+            908,
+            672
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-02.png",
+      "text": "Rowan stepped inside for the last gentle ride of the day.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            430,
+            0,
+            1060,
+            732
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            326,
+            396,
+            610,
+            722
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-03.png",
+      "text": "The door closed snugly, and Calla glided above the quiet fir trees.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            125,
+            0,
+            782,
+            760
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            266,
+            384,
+            446,
+            565
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-04.png",
+      "text": "Below them, the valley roofs glowed softly in the fading light.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            126,
+            0,
+            770,
+            714
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            258,
+            330,
+            448,
+            524
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-05.png",
+      "text": "Rowan nestled by the window, hoping to see the stars.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            144,
+            0,
+            820,
+            708
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            284,
+            336,
+            430,
+            512
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-06.png",
+      "text": "But a soft cloud drifted past the next ridge.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            144,
+            0,
+            726,
+            650
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            550,
+            320,
+            696,
+            496
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-07.png",
+      "text": "We can wait, Calla murmured, keeping her steady, unhurried pace.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            150,
+            0,
+            776,
+            696
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            260,
+            328,
+            448,
+            506
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-08.png",
+      "text": "Rowan watched the mist curl past like a floating blanket.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            122,
+            0,
+            724,
+            656
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            240,
+            316,
+            400,
+            480
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-09.png",
+      "text": "Beyond the cloud, they found a clear patch of evening sky.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            88,
+            0,
+            766,
+            754
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            234,
+            358,
+            452,
+            554
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-10.png",
+      "text": "Tiny stars shimmered above the peaks, and Rowan gave a happy sigh.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            188,
+            0,
+            820,
+            692
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            324,
+            320,
+            528,
+            500
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-11.png",
+      "text": "Calla carried the quiet ride onward to the warm summit station.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            194,
+            0,
+            676,
+            558
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            294,
+            260,
+            404,
+            406
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-12.png",
+      "text": "At the platform, Rowan stepped out beside the sheltered station.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            316,
+            0,
+            888,
+            644
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            760,
+            348,
+            1032,
+            660
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-13.png",
+      "text": "Together they watched the evening glow settle over the sleeping valley.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            200,
+            0,
+            832,
+            726
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            944,
+            294,
+            1276,
+            736
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-14.png",
+      "text": "Rowan curled up in the station nook while Calla rested beside the platform.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            296,
+            0,
+            890,
+            700
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            44,
+            394,
+            330,
+            646
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/up-and-over-with-calla-the-cable-car/staging/up-and-over-with-calla-the-cable-car/illustrations/page-15.png",
+      "text": "Goodnight, mountains, whispered Calla. The peaks kept their quiet watch.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            304,
+            0,
+            852,
+            664
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            948,
+            418,
+            1314,
+            614
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

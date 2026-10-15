@@ -1,0 +1,546 @@
+{
+  "storySlug": "up-and-over-with-calla-the-cable-car",
+  "measurementMethod": "Individual visual inspection; conservative pixel bounds scaled from 724x543 previews to 1448x1086. Measurements are approximate, not segmentation.",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            156,
+            0,
+            688,
+            600
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            696,
+            316,
+            908,
+            672
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 61.88,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            430,
+            0,
+            1060,
+            732
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            326,
+            396,
+            610,
+            722
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.4,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            125,
+            0,
+            782,
+            760
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            266,
+            384,
+            446,
+            565
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.98,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            126,
+            0,
+            770,
+            714
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            258,
+            330,
+            448,
+            524
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.75,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            144,
+            0,
+            820,
+            708
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            284,
+            336,
+            430,
+            512
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.19,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            144,
+            0,
+            726,
+            650
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            550,
+            320,
+            696,
+            496
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 59.85,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            150,
+            0,
+            776,
+            696
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            260,
+            328,
+            448,
+            506
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.09,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            122,
+            0,
+            724,
+            656
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            240,
+            316,
+            400,
+            480
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 60.41,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            88,
+            0,
+            766,
+            754
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            234,
+            358,
+            452,
+            554
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.43,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            188,
+            0,
+            820,
+            692
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            324,
+            320,
+            528,
+            500
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.72,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            194,
+            0,
+            676,
+            558
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            294,
+            260,
+            404,
+            406
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 51.38,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            316,
+            0,
+            888,
+            644
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            760,
+            348,
+            1032,
+            660
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 60.77,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            200,
+            0,
+            832,
+            726
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            944,
+            294,
+            1276,
+            736
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.77,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            296,
+            0,
+            890,
+            700
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            44,
+            394,
+            330,
+            646
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.46,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Calla",
+          "box": [
+            304,
+            0,
+            852,
+            664
+          ]
+        },
+        {
+          "label": "Rowan",
+          "box": [
+            948,
+            418,
+            1314,
+            614
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 61.14,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; fresh composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    }
+  ]
+}

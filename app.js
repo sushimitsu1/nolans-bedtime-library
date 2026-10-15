@@ -3160,6 +3160,56 @@ narration: [
     "Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars."
   ]
 },
+{
+  "id": "up-and-over-with-calla-the-cable-car",
+  "title": "Up and Over with Calla the Cable Car",
+  "category": "Sky Rides",
+  "description": "Calla and Rowan share a gentle evening. Goodnight, mountains, whispered Calla. The stars kept their quiet watch.",
+  "keywords": [
+    "calla",
+    "cable car",
+    "rowan",
+    "goat",
+    "mountains",
+    "sky",
+    "goodnight"
+  ],
+  "cover": "assets/books/up-and-over-with-calla-the-cable-car/cover.webp",
+  "pages": [
+    "assets/books/up-and-over-with-calla-the-cable-car/page-01.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-02.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-03.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-04.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-05.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-06.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-07.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-08.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-09.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-10.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-11.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-12.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-13.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-14.webp",
+    "assets/books/up-and-over-with-calla-the-cable-car/page-15.webp"
+  ],
+  "narration": [
+    "Calla waited at the lower station as evening warmed the mountain peaks.",
+    "Rowan stepped inside for the last gentle ride of the day.",
+    "The door closed snugly, and Calla glided above the quiet fir trees.",
+    "Below them, the valley roofs glowed softly in the fading light.",
+    "Rowan nestled by the window, hoping to see the stars.",
+    "But a soft cloud drifted past the next ridge.",
+    "We can wait, Calla murmured, keeping her steady, unhurried pace.",
+    "Rowan watched the mist curl past like a floating blanket.",
+    "Beyond the cloud, they found a clear patch of evening sky.",
+    "Tiny stars shimmered above the peaks, and Rowan gave a happy sigh.",
+    "Calla carried the quiet ride onward to the warm summit station.",
+    "At the platform, Rowan stepped out beside the sheltered station.",
+    "Together they watched the evening glow settle over the sleeping valley.",
+    "Rowan curled up in the station nook while Calla rested beside the platform.",
+    "Goodnight, mountains, whispered Calla. The peaks kept their quiet watch."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

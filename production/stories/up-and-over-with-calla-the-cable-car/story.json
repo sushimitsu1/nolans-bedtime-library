@@ -1,0 +1,203 @@
+{
+  "title": "Up and Over with Calla the Cable Car",
+  "slug": "up-and-over-with-calla-the-cable-car",
+  "category": "Sky Rides",
+  "description": "Calla and Rowan share a gentle evening. Goodnight, mountains, whispered Calla. The stars kept their quiet watch.",
+  "characterBible": {
+    "Calla": {
+      "role": "Main character",
+      "color": "Rounded coral-red aerial gondola cabin with cream roof, dark underbody, wide clear side windows, closed boarding door and silver hanger attached to a continuous overhead cable",
+      "bodyShape": "Rounded coral-red aerial gondola cabin with cream roof, dark underbody, wide clear side windows, closed boarding door and silver hanger attached to a continuous overhead cable; exactly two blue eyes side by side on the front windshield, no eyes in other windows, small curved smile below windshield; no arms or hands.",
+      "face": "Rounded coral-red aerial gondola cabin with cream roof, dark underbody, wide clear side windows, closed boarding door and silver hanger attached to a continuous overhead cable; exactly two blue eyes side by side on the front windshield, no eyes in other windows, small curved smile below windshield; no arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Rowan": {
+      "role": "Supporting character",
+      "color": "Young mountain goat with soft oatmeal fur, cream muzzle, short curved gray horns, small dark hooves and a tiny beard",
+      "bodyShape": "Young mountain goat with soft oatmeal fur, cream muzzle, short curved gray horns, small dark hooves and a tiny beard; exactly two brown eyes, one on each side of the face; natural legs only, no human-like arms or hands.",
+      "face": "Young mountain goat with soft oatmeal fur, cream muzzle, short curved gray horns, small dark hooves and a tiny beard; exactly two brown eyes, one on each side of the face; natural legs only, no human-like arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A peaceful mountain cable route between a warm lower station and a sheltered summit station, with fir valleys and rounded peaks.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, warm polished 3D children's illustration for ages 3-5, soft rounded forms, reassuring expressions and gentle evening light. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels."
+  },
+  "continuityRules": [
+    "Rounded coral-red aerial gondola cabin with cream roof, dark underbody, wide clear side windows, closed boarding door and silver hanger attached to a continuous overhead cable; exactly two blue eyes side by side on the front windshield, no eyes in other windows, small curved smile below windshield; no arms or hands.",
+    "Young mountain goat with soft oatmeal fur, cream muzzle, short curved gray horns, small dark hooves and a tiny beard; exactly two brown eyes, one on each side of the face; natural legs only, no human-like arms or hands.",
+    "No additional named characters; background characters have no human-like arms or hands.",
+    "Use soft quantity wording in narration; no required exact prop or background counts.",
+    "Story pages and character reference are entirely text-free; only the cover contains the exact title as painted lettering.",
+    "Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel.",
+    "Keep the same design and proportions from character reference through cover and every page.",
+    "Page 15 is a calm bedtime ending."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Calla waited at the lower station as evening warmed the mountain peaks.",
+      "illustrationScene": "Calla waits attached to the cable at the lower boarding platform; Rowan stands nearby.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Rowan stepped inside for the last gentle ride of the day.",
+      "illustrationScene": "Rowan boards Calla from a level platform through the open side door; cable hanger stays attached.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "The door closed snugly, and Calla glided above the quiet fir trees.",
+      "illustrationScene": "Calla travels on the overhead cable above fir trees, door closed, Rowan visible inside.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Below them, the valley roofs glowed softly in the fading light.",
+      "illustrationScene": "Calla carries Rowan above the valley with warm roofs far below.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Rowan nestled by the window, hoping to see the stars.",
+      "illustrationScene": "Rowan rests inside Calla by a side window as they travel past gentle peaks.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "But a soft cloud drifted past the next ridge.",
+      "illustrationScene": "Calla and Rowan approach a thin cloud on the cable route.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "We can wait, Calla murmured, keeping her steady, unhurried pace.",
+      "illustrationScene": "Calla moves steadily along the cable at the edge of the soft cloud; Rowan rests inside.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Rowan watched the mist curl past like a floating blanket.",
+      "illustrationScene": "Wisps pass outside Calla while Rowan watches through the closed side window.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Beyond the cloud, they found a clear patch of evening sky.",
+      "illustrationScene": "Calla emerges along the cable into clear sky with Rowan visible inside.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Tiny stars shimmered above the peaks, and Rowan gave a happy sigh.",
+      "illustrationScene": "Calla travels beneath newly visible stars; Rowan smiles at the window.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Calla carried the quiet ride onward to the warm summit station.",
+      "illustrationScene": "Calla approaches the lit summit platform on the overhead cable, Rowan inside.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "At the platform, Rowan stepped out beside the sheltered station.",
+      "illustrationScene": "Calla stops level at summit platform with door open; Rowan steps onto platform beneath roof.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Together they watched the evening glow settle over the sleeping valley.",
+      "illustrationScene": "Calla stays docked at summit platform; Rowan stands safely behind the platform railing beside her.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Rowan curled up in the station nook while Calla rested beside the platform.",
+      "illustrationScene": "Rowan curls in a sheltered station nook beside docked Calla; door closed.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Goodnight, mountains, whispered Calla. The peaks kept their quiet watch.",
+      "illustrationScene": "Calla rests attached to cable at summit platform; Rowan sleeps in the warm station nook.",
+      "requiredCharacters": [
+        "Calla",
+        "Rowan"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Calla and Rowan retain the exact characterBible design and eye placement. Calla remains attached to the overhead cable; boarding only when docked. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

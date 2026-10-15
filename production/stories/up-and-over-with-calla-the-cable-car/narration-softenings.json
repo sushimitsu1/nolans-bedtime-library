@@ -1,0 +1,26 @@
+[
+  {
+    "page": 6,
+    "before": "But a soft cloud hid the sky beyond the next ridge.",
+    "after": "But a soft cloud drifted past the next ridge.",
+    "reason": "Visible sky remains bright with sunset clouds; stars or obscured sky are not shown."
+  },
+  {
+    "page": 13,
+    "before": "Together they watched the starlight settle over the sleeping valley.",
+    "after": "Together they watched the evening glow settle over the sleeping valley.",
+    "reason": "Visible sky remains bright with sunset clouds; stars or obscured sky are not shown."
+  },
+  {
+    "page": 15,
+    "before": "Goodnight, mountains, whispered Calla. The stars kept their quiet watch.",
+    "after": "Goodnight, mountains, whispered Calla. The peaks kept their quiet watch.",
+    "reason": "Visible sky remains bright with sunset clouds; stars or obscured sky are not shown."
+  },
+  {
+    "page": 12,
+    "before": "At the platform, Rowan stepped out beneath the sheltered roof.",
+    "after": "At the platform, Rowan stepped out beside the sheltered station.",
+    "reason": "Rowan is outside beside the station roof, rather than beneath it."
+  }
+]
