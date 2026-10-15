@@ -3112,12 +3112,14 @@ const narrationSettings = {
 
 function showView(view){
   if(view!=='reader') stopNarration({disableReadAlong:true});
+  if (window.JasperQuizmo) window.JasperQuizmo.leave();
   if (window.NolanGames) window.NolanGames.leave();
   if (window.NolanVideos) window.NolanVideos.close();
-  document.getElementById('storiesTab').setAttribute('aria-selected', String(!['games','videos'].includes(view)));
+  document.getElementById('storiesTab').setAttribute('aria-selected', String(!['games','videos','quizmo'].includes(view)));
   document.getElementById('videosTab').setAttribute('aria-selected', String(view==='videos'));
   document.getElementById('gamesTab').setAttribute('aria-selected', String(view==='games'));
-  ['library','reader','finished','games','videos'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
+  document.getElementById('quizmoTab').setAttribute('aria-selected', String(view==='quizmo'));
+  ['library','reader','finished','games','videos','quizmo'].forEach(name=>$(`${name}View`).classList.toggle('active', view===name));
   window.scrollTo(0,0);
 }
 
