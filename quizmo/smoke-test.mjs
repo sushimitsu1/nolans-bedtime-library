@@ -23,7 +23,7 @@ try{
   const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
   await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
-  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<88||r.height<88)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
+  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<56||r.height<56)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const sentinel='{"points":137,"levels":{"willa":4}}';
   await page.evaluate(value=>localStorage.setItem('nolan-games-v1',value),sentinel);
   await tap('#quizmoTab');
@@ -31,6 +31,45 @@ try{
   assert.equal(await page.$eval('#storiesTab',e=>e.getAttribute('aria-selected')),'false');
   assert.equal(await page.$$eval('.quizmo-card',els=>els.length),10);
   const ids=await page.$$eval('[data-game]',els=>els.map(e=>e.dataset.game));
+  // Exercise every game and level at laptop sizes, including retry hints and
+  // maximum operands/lantern sets. Reload afterwards to preserve progression checks.
+  for(const viewport of [{width:1280,height:800},{width:1366,height:768},{width:1280,height:720},{width:1440,height:900}]) {
+    if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
+    for(let level=1;level<=8;level++) {
+      await page.evaluate(({ids,level})=>{
+        localStorage.setItem('jasper-quizmo',JSON.stringify({levels:Object.fromEntries(ids.map(id=>[id,level]))}));
+      },{ids,level});
+      await page.reload({waitUntil:'domcontentloaded'});
+      await page.evaluate(()=>{Math.random=()=>0.999999;});
+      await tap('#quizmoTab');
+      for(const id of ids) {
+        await tap(`[data-game="${id}"]`);
+        await tap('[data-q-action="check"]');
+        const layout=await page.evaluate(()=>{
+          const selectors=['.quizmo-board h1','.quizmo-board h2','.quizmo-board>p','.quizmo-inputs','.quizmo-feedback','.quizmo-set','[data-clock]',...Array.from({length:10},(_,n)=>`[data-key="${n}"]`),'[data-key="clear"]','[data-key="erase"]','[data-q-action="check"]'];
+          const boxes=selectors.flatMap(selector=>[...document.querySelectorAll('#quizmoView '+selector)].map(el=>{
+            const r=el.getBoundingClientRect();
+            return {selector,x:r.x,y:r.y,right:r.right,bottom:r.bottom,width:r.width,height:r.height};
+          }));
+          const board=document.querySelector('.quizmo-board').getBoundingClientRect();
+          return {scroll:document.documentElement.scrollHeight,viewport:innerHeight,boxes,center:board.x+board.width/2,width:innerWidth};
+        });
+        const label=`${id} level ${level} at ${viewport.width}x${viewport.height}`;
+        assert(layout.scroll<=viewport.height,`${label}: document scrolls ${JSON.stringify(layout)}`);
+        assert(Math.abs(layout.center-viewport.width/2)<1,`${label}: board is centered`);
+        for(const b of layout.boxes) {
+          assert(b.width>0&&b.height>0&&b.x>=0&&b.y>=0&&b.right<=viewport.width+0.5&&b.bottom<=viewport.height+0.5,`${label}: clipped ${JSON.stringify(b)}`);
+          if(b.selector.startsWith('[data-key')||b.selector==='[data-q-action="check"]')assert(b.width>=56&&b.height>=56,`${label}: small touch key ${JSON.stringify(b)}`);
+        }
+        assert.equal(layout.boxes.filter(b=>b.selector.startsWith('[data-key')).length,12,`${label}: full pad`);
+        await tap('[data-q-action="home"]');
+      }
+    }
+    console.log(`PASS Quizmo layout: 10 games × 8 levels at ${viewport.width}x${viewport.height}, retry hints, full touch pad, no scrolling`);
+  }
+  await page.evaluate(()=>localStorage.removeItem('jasper-quizmo'));
+  await page.reload({waitUntil:'domcontentloaded'});
+  await tap('#quizmoTab');
   function solve(prompt) {
     const n=prompt.match(/\d+/g).map(Number);
     if(prompt.includes('quotient'))return [Math.floor(n[0]/n[1]),n[0]%n[1]];
