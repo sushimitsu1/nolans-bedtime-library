@@ -1,0 +1,39 @@
+{
+  "storySlug": "zephyrs-goodnight-sky-letters",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Painted cover title preserved; full_page_cover with text null. Caption top 72.74%; maximum conservative character bottom 69.06%; no overlap on any page. Four narration softenings documented. Browser smoke tests skipped: sandbox listen EPERM. Cache v104."
+}

@@ -1,0 +1,16 @@
+{
+  "storySlug": "zephyrs-goodnight-sky-letters",
+  "validators": {
+    "validate_story.py": "passed",
+    "validate_text.py": "passed",
+    "validate_assets.py": "passed",
+    "validate_app.mjs": "passed: expected increase 1, 97 -> 98; unrelated records unchanged"
+  },
+  "smokeTests": {
+    "games": "skipped: sandbox listen EPERM",
+    "videos": "skipped: sandbox listen EPERM",
+    "quizmo": "skipped: sandbox listen EPERM",
+    "page1Page15": "static asset, composition and narration checks passed; local-server browser test skipped: sandbox listen EPERM"
+  },
+  "captionReview": "All 15 composed pages visually inspected; no character overlap."
+}

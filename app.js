@@ -3110,6 +3110,56 @@ narration: [
     "At the landing, they rested beneath the moon. Goodnight, whispered the marsh."
   ]
 },
+{
+  "id": "zephyrs-goodnight-sky-letters",
+  "title": "Zephyr's Goodnight Sky Letters",
+  "category": "Sky Rides",
+  "description": "Zephyr and Tamsin share a gentle evening. Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars.",
+  "keywords": [
+    "zephyr",
+    "airship",
+    "tamsin",
+    "sky",
+    "ribbon",
+    "lighthouse",
+    "goodnight"
+  ],
+  "cover": "assets/books/zephyrs-goodnight-sky-letters/cover.webp",
+  "pages": [
+    "assets/books/zephyrs-goodnight-sky-letters/page-01.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-02.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-03.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-04.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-05.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-06.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-07.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-08.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-09.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-10.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-11.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-12.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-13.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-14.webp",
+    "assets/books/zephyrs-goodnight-sky-letters/page-15.webp"
+  ],
+  "narration": [
+    "Evening softened the harbor as Zephyr floated beside the lighthouse terrace.",
+    "Tamsin had helped make goodnight sky letters, little wishes carried in a glowing ribbon.",
+    "Sleep well, little town, she whispered as the ribbon shimmered.",
+    "Zephyr rose gently, letting the soft light trail behind.",
+    "The ribbon curled above the harbor like a warm, golden lullaby.",
+    "But a little breeze curled the ribbon behind Zephyr.",
+    "Zephyr slowed and turned toward the sheltered side of the lighthouse.",
+    "They found calmer air beside the lighthouse, and the ribbon opened into a soft, shining curve.",
+    "Now the goodnight wishes could drift gently above the town.",
+    "Warm rooftops nestled below, and the harbor boats rocked in their sleep.",
+    "Zephyr made a quiet circle, carrying the glow toward the little houses.",
+    "Beside the glowing windows, the town grew still.",
+    "The ribbon gave a cozy shimmer as Zephyr turned for home.",
+    "Tamsin waited at the terrace, her cape tucked warmly around her.",
+    "Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
@@ -3727,6 +3777,11 @@ snowCategoryTab.className = 'category-tab';
 snowCategoryTab.dataset.category = 'Snow Vehicles';
 snowCategoryTab.textContent = 'Snow Vehicles';
 document.querySelector('.category-tabs').insertBefore(snowCategoryTab, document.querySelector('[data-category="favorites"]'));
+const skyCategoryTab = document.createElement('button');
+skyCategoryTab.className = 'category-tab';
+skyCategoryTab.dataset.category = 'Sky Rides';
+skyCategoryTab.textContent = 'Sky Rides';
+document.querySelector('.category-tabs').insertBefore(skyCategoryTab, document.querySelector('[data-category="favorites"]'));
 document.querySelectorAll('.category-tab').forEach(tab=>tab.addEventListener('click',()=>{
   selectedCategory=tab.dataset.category;
   document.querySelectorAll('.category-tab').forEach(item=>item.classList.toggle('selected',item===tab));

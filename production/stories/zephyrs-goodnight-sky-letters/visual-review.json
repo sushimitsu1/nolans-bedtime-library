@@ -1,0 +1,654 @@
+{
+  "storySlug": "zephyrs-goodnight-sky-letters",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            125,
+            10,
+            810,
+            470
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            870,
+            250,
+            1120,
+            695
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.0,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            150,
+            20,
+            870,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            880,
+            335,
+            1180,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.46,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            95,
+            20,
+            885,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            805,
+            275,
+            1155,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.46,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            495,
+            20,
+            1225,
+            555
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            195,
+            365,
+            420,
+            690
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.54,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            200,
+            20,
+            805,
+            445
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            975,
+            310,
+            1180,
+            630
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.01,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            540,
+            10,
+            1255,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            205,
+            365,
+            465,
+            750
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.06,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            335,
+            15,
+            1045,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1015,
+            380,
+            1220,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.46,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            335,
+            20,
+            955,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            965,
+            265,
+            1260,
+            645
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 59.39,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            330,
+            40,
+            970,
+            490
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1030,
+            345,
+            1260,
+            620
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.09,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            250,
+            20,
+            905,
+            475
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1090,
+            350,
+            1230,
+            560
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 51.57,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            675,
+            40,
+            1290,
+            480
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            175,
+            330,
+            375,
+            635
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.47,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            280,
+            10,
+            805,
+            475
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1000,
+            325,
+            1195,
+            610
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 56.17,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            240,
+            35,
+            940,
+            525
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1010,
+            350,
+            1235,
+            680
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 62.62,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            230,
+            25,
+            910,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            865,
+            275,
+            1135,
+            710
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.38,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            215,
+            85,
+            1015,
+            615
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            860,
+            280,
+            1245,
+            740
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.14,
+      "notes": "Raw and composed page inspected individually; caption clears both characters and glowing ribbon. Friendly consistent characters, concealed arms, single scene."
+    }
+  ],
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  }
+}

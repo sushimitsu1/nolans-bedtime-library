@@ -1,0 +1,203 @@
+{
+  "title": "Zephyr's Goodnight Sky Letters",
+  "slug": "zephyrs-goodnight-sky-letters",
+  "category": "Sky Rides",
+  "description": "Zephyr and Tamsin share a gentle evening. Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars.",
+  "characterBible": {
+    "Zephyr": {
+      "role": "Main character",
+      "color": "Little lavender airship with rounded elongated envelope, cream lower gondola, plum tail fins, small enclosed rear propeller and an unlettered glowing ribbon secured behind the gondola",
+      "bodyShape": "Little lavender airship with rounded elongated envelope, cream lower gondola, plum tail fins, small enclosed rear propeller and an unlettered glowing ribbon secured behind the gondola; exactly two teal eyes side by side on the front gondola windshield, no eyes on envelope or other windows, small curved smile below windshield; no arms or hands.",
+      "face": "Little lavender airship with rounded elongated envelope, cream lower gondola, plum tail fins, small enclosed rear propeller and an unlettered glowing ribbon secured behind the gondola; exactly two teal eyes side by side on the front gondola windshield, no eyes on envelope or other windows, small curved smile below windshield; no arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Tamsin": {
+      "role": "Supporting character",
+      "color": "Young lighthouse keeper girl with warm brown skin, chestnut bobbed hair, mustard rain cape over teal pajamas and brown boots",
+      "bodyShape": "Young lighthouse keeper girl with warm brown skin, chestnut bobbed hair, mustard rain cape over teal pajamas and brown boots; exactly two dark brown eyes side by side on the face; cape drapes fully over arms, no visible arms or hands; never give vehicles human limbs.",
+      "face": "Young lighthouse keeper girl with warm brown skin, chestnut bobbed hair, mustard rain cape over teal pajamas and brown boots; exactly two dark brown eyes side by side on the face; cape drapes fully over arms, no visible arms or hands; never give vehicles human limbs.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A sheltered seaside town, low warm windows, quiet harbor, and a cozy lighthouse terrace under a calm night sky. Sky letters are wordless ribbons of light, never readable writing.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, warm polished 3D children's illustration for ages 3-5, soft rounded forms, reassuring expressions and gentle evening light. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels."
+  },
+  "continuityRules": [
+    "Little lavender airship with rounded elongated envelope, cream lower gondola, plum tail fins, small enclosed rear propeller and an unlettered glowing ribbon secured behind the gondola; exactly two teal eyes side by side on the front gondola windshield, no eyes on envelope or other windows, small curved smile below windshield; no arms or hands.",
+    "Young lighthouse keeper girl with warm brown skin, chestnut bobbed hair, mustard rain cape over teal pajamas and brown boots; exactly two dark brown eyes side by side on the face; cape drapes fully over arms, no visible arms or hands; never give vehicles human limbs.",
+    "No additional named characters; background characters have no human-like arms or hands.",
+    "Use soft quantity wording in narration; no required exact prop or background counts.",
+    "Story pages and character reference are entirely text-free; only the cover contains the exact title as painted lettering.",
+    "Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel.",
+    "Keep the same design and proportions from character reference through cover and every page.",
+    "Page 15 is a calm bedtime ending."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening softened the harbor as Zephyr floated beside the lighthouse terrace.",
+      "illustrationScene": "Zephyr floats beside the protected terrace; Tamsin stands safely behind its railing.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Tamsin had helped make goodnight sky letters, little wishes carried in a glowing ribbon.",
+      "illustrationScene": "Tamsin admires the unlettered glowing ribbon already secured to Zephyr, arms concealed by cape.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "Sleep well, little town, she whispered as the ribbon shimmered.",
+      "illustrationScene": "Tamsin speaks softly from behind the railing beside Zephyr and the secured wordless ribbon.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Zephyr rose gently, letting the soft light trail behind.",
+      "illustrationScene": "Zephyr rises just above terrace level while Tamsin watches safely behind the railing.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "The ribbon curled above the harbor like a warm, golden lullaby.",
+      "illustrationScene": "Zephyr floats over harbor with secured golden ribbon; Tamsin remains visible on distant terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "But a little breeze curled the ribbon behind Zephyr.",
+      "illustrationScene": "Zephyr pauses near lighthouse with ribbon curled loosely near tail, clear of propeller; Tamsin watches from terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Zephyr slowed and turned toward the sheltered side of the lighthouse.",
+      "illustrationScene": "Zephyr makes a slow turn into lighthouse shelter, ribbon well clear of enclosed propeller; Tamsin watches.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "They found calmer air beside the lighthouse, and the ribbon opened into a soft, shining curve.",
+      "illustrationScene": "Zephyr floats in lighthouse lee with ribbon freely curving behind; Tamsin stands on terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Now the goodnight wishes could drift gently above the town.",
+      "illustrationScene": "Zephyr floats past nearby town windows trailing wordless light; Tamsin remains at visible lighthouse terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Warm rooftops nestled below, and the harbor boats rocked in their sleep.",
+      "illustrationScene": "Zephyr passes above warm roofs and faceless harbor boats; Tamsin small but visible on terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Zephyr made a quiet circle, carrying the glow toward the little houses.",
+      "illustrationScene": "Zephyr circles over nearby houses with trailing wordless ribbon; Tamsin watches from terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Beside the glowing windows, the town grew still.",
+      "illustrationScene": "Zephyr pauses above softly curtained windows near lighthouse; Tamsin waits on terrace.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "The ribbon gave a cozy shimmer as Zephyr turned for home.",
+      "illustrationScene": "Zephyr turns toward terrace, ribbon glowing dimly; Tamsin stands behind railing.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Tamsin waited at the terrace, her cape tucked warmly around her.",
+      "illustrationScene": "Zephyr settles beside terrace with ribbon still attached; Tamsin stands with arms fully covered by cape.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars.",
+      "illustrationScene": "Zephyr rests beside terrace and Tamsin sits in sheltered terrace nook, arms covered, beneath stars.",
+      "requiredCharacters": [
+        "Zephyr",
+        "Tamsin"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Zephyr and Tamsin retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

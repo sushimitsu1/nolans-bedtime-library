@@ -1,0 +1,1042 @@
+{
+  "storySlug": "zephyrs-goodnight-sky-letters",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-01.png",
+      "text": "Evening softened the harbor as Zephyr floated beside the lighthouse terrace.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            125,
+            10,
+            810,
+            470
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            870,
+            250,
+            1120,
+            695
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-02.png",
+      "text": "Tamsin had helped make goodnight sky letters, little wishes carried in a glowing ribbon.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            150,
+            20,
+            870,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            880,
+            335,
+            1180,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-03.png",
+      "text": "Sleep well, little town, she whispered as the ribbon shimmered.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            95,
+            20,
+            885,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            805,
+            275,
+            1155,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-04.png",
+      "text": "Zephyr rose gently, letting the soft light trail behind.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            495,
+            20,
+            1225,
+            555
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            195,
+            365,
+            420,
+            690
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-05.png",
+      "text": "The ribbon curled above the harbor like a warm, golden lullaby.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            200,
+            20,
+            805,
+            445
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            975,
+            310,
+            1180,
+            630
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-06.png",
+      "text": "But a little breeze curled the ribbon behind Zephyr.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            540,
+            10,
+            1255,
+            540
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            205,
+            365,
+            465,
+            750
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-07.png",
+      "text": "Zephyr slowed and turned toward the sheltered side of the lighthouse.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            335,
+            15,
+            1045,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1015,
+            380,
+            1220,
+            700
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-08.png",
+      "text": "They found calmer air beside the lighthouse, and the ribbon opened into a soft, shining curve.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            335,
+            20,
+            955,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            965,
+            265,
+            1260,
+            645
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-09.png",
+      "text": "Now the goodnight wishes could drift gently above the town.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            330,
+            40,
+            970,
+            490
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1030,
+            345,
+            1260,
+            620
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-10.png",
+      "text": "Warm rooftops nestled below, and the harbor boats rocked in their sleep.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            250,
+            20,
+            905,
+            475
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1090,
+            350,
+            1230,
+            560
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-11.png",
+      "text": "Zephyr made a quiet circle, carrying the glow toward the little houses.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            675,
+            40,
+            1290,
+            480
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            175,
+            330,
+            375,
+            635
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-12.png",
+      "text": "Beside the glowing windows, the town grew still.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            280,
+            10,
+            805,
+            475
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1000,
+            325,
+            1195,
+            610
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-13.png",
+      "text": "The ribbon gave a cozy shimmer as Zephyr turned for home.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            240,
+            35,
+            940,
+            525
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            1010,
+            350,
+            1235,
+            680
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-14.png",
+      "text": "Tamsin waited at the terrace, her cape tucked warmly around her.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            230,
+            25,
+            910,
+            530
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            865,
+            275,
+            1135,
+            710
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/zephyrs-goodnight-sky-letters/staging/zephyrs-goodnight-sky-letters/illustrations/page-15.png",
+      "text": "Goodnight, Zephyr, she whispered. The lighthouse and the town rested beneath the stars.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Zephyr",
+          "box": [
+            215,
+            85,
+            1015,
+            615
+          ]
+        },
+        {
+          "label": "Tamsin",
+          "box": [
+            860,
+            280,
+            1245,
+            740
+          ]
+        },
+        {
+          "label": "glowing ribbon",
+          "box": [
+            0,
+            130,
+            1448,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
