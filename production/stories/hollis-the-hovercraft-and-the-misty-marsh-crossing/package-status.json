@@ -1,0 +1,39 @@
+{
+  "storySlug": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw pages inspected individually. Final pages 1, 3, 5, 9, 10, 15 individually inspected. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Supplied Hollis artwork preserved in same-story staging; painted cover title with no added text; standard integrated low caption panel; exact narration from story.json; one documented narration correction; v103."
+}

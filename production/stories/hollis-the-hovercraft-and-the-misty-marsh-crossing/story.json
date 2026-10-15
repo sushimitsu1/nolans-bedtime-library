@@ -1,0 +1,203 @@
+{
+  "title": "Hollis the Hovercraft and the Misty Marsh Crossing",
+  "slug": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "category": "Boats",
+  "description": "Hollis and Sorrel share a gentle evening. At the landing, they rested beneath the moon. Goodnight, whispered the marsh.",
+  "characterBible": {
+    "Hollis": {
+      "role": "Main character",
+      "color": "Rounded seafoam-green hovercraft with cream cabin, continuous dark gray flexible hover skirt, enclosed rear fan with protective shroud and a low central lantern cradle",
+      "bodyShape": "Rounded seafoam-green hovercraft with cream cabin, continuous dark gray flexible hover skirt, enclosed rear fan with protective shroud and a low central lantern cradle; exactly two hazel eyes side by side on the front windshield, no headlight eyes, small curved bow smile; no arms or hands.",
+      "face": "Rounded seafoam-green hovercraft with cream cabin, continuous dark gray flexible hover skirt, enclosed rear fan with protective shroud and a low central lantern cradle; exactly two hazel eyes side by side on the front windshield, no headlight eyes, small curved bow smile; no arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Sorrel": {
+      "role": "Supporting character",
+      "color": "Little gray heron with pale gray feathered body, darker folded wings, cream throat, slender yellow beak and long dark legs",
+      "bodyShape": "Little gray heron with pale gray feathered body, darker folded wings, cream throat, slender yellow beak and long dark legs; exactly two dark brown eyes, one on each side of the head; natural wings only, no human-like arms or hands.",
+      "face": "Little gray heron with pale gray feathered body, darker folded wings, cream throat, slender yellow beak and long dark legs; exactly two dark brown eyes, one on each side of the head; natural wings only, no human-like arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A sheltered misty marsh with shallow water, smooth mud banks, reeds, a low landing and a grassy concert hummock.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, warm polished 3D children's illustration for ages 3-5, soft rounded forms, reassuring expressions and gentle evening light. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels."
+  },
+  "continuityRules": [
+    "Rounded seafoam-green hovercraft with cream cabin, continuous dark gray flexible hover skirt, enclosed rear fan with protective shroud and a low central lantern cradle; exactly two hazel eyes side by side on the front windshield, no headlight eyes, small curved bow smile; no arms or hands.",
+    "Little gray heron with pale gray feathered body, darker folded wings, cream throat, slender yellow beak and long dark legs; exactly two dark brown eyes, one on each side of the head; natural wings only, no human-like arms or hands.",
+    "No additional named characters; background characters have no human-like arms or hands.",
+    "Use soft quantity wording in narration; no required exact prop or background counts.",
+    "Story pages and character reference are entirely text-free; only the cover contains the exact title as painted lettering.",
+    "Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel.",
+    "Keep the same design and proportions from character reference through cover and every page.",
+    "Page 15 is a calm bedtime ending."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Hollis waited at the marsh landing as evening mist drifted over the reeds.",
+      "illustrationScene": "Hollis waits at a low marsh landing beside Sorrel.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Sorrel stood beside a warm lantern, ready for the frogs' quiet concert.",
+      "illustrationScene": "Sorrel stands beside an unlettered warm lantern on the landing; Hollis waits nearby.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "The lantern rested snugly on Hollis's roof, with Sorrel perched safely beside it.",
+      "illustrationScene": "Lantern secured in central cradle; Sorrel perched on a stable cabin-side platform.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "With a gentle hum, Hollis floated away from the bank.",
+      "illustrationScene": "Hollis glides from the bank with lantern secured and Sorrel perched safely aboard.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "The hover skirt carried them softly over water and smooth mud.",
+      "illustrationScene": "Hollis glides across a shallow water and mud transition with Sorrel and secured lantern aboard.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "But the mist made the familiar reed path hard to see.",
+      "illustrationScene": "They pause in thin mist near indistinct reed openings, lantern secure.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Hollis slowed to a hush, and Sorrel listened carefully.",
+      "illustrationScene": "Hollis hovers nearly still while Sorrel tilts her head to listen.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Across the marsh came a gentle croak, followed by a sleepy chorus.",
+      "illustrationScene": "Sorrel listens toward a grassy hummock faintly visible beyond reeds; Hollis waits.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Together they followed the song through a wide opening in the reeds.",
+      "illustrationScene": "Hollis follows a wide reed opening toward the hummock, Sorrel safely perched aboard.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Soon they found the grassy bank where the frogs were waiting.",
+      "illustrationScene": "Hollis reaches a low grassy bank with small green frogs; Sorrel remains aboard.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Hollis settled beside the bank, and the lantern warmed the little gathering.",
+      "illustrationScene": "Hollis rests beside the bank with lantern still in cradle; Sorrel and frogs gather near its glow.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Sorrel folded her wings while the frogs sang their soft marsh song.",
+      "illustrationScene": "Sorrel perches with folded wings beside Hollis while frogs sing on the bank.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "The last notes faded into the rustling reeds.",
+      "illustrationScene": "Hollis and Sorrel listen as frogs settle quietly among reeds.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Hollis carried Sorrel home, with the lantern glowing gently all the way.",
+      "illustrationScene": "Hollis glides toward the familiar landing with Sorrel aboard and lantern secure.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "At the landing, they rested beneath the moon. Goodnight, whispered the marsh.",
+      "illustrationScene": "Hollis rests at the landing, Sorrel perched beside the secured lantern beneath moonlight.",
+      "requiredCharacters": [
+        "Hollis",
+        "Sorrel"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Hollis and Sorrel retain the exact characterBible design and eye placement. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

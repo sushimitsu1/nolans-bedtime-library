@@ -1,0 +1,18 @@
+{
+  "storySlug": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "story": "passed",
+  "text": "passed",
+  "assets": "passed",
+  "app": "passed",
+  "appExpectedIncrease": 1,
+  "libraryStoryCount": 97,
+  "cacheVersion": "nolan-library-v103",
+  "narrationEquality": "passed",
+  "page1And15StaticSmoke": "passed",
+  "visualReview": "passed",
+  "smokeTests": {
+    "games": "passed",
+    "videos": "passed",
+    "quizmo": "passed"
+  }
+}

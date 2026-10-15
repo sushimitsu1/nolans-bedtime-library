@@ -1,0 +1,525 @@
+{
+  "storySlug": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "batches": {
+    "pages1to9": "final_composition_passed",
+    "pages10to15": "final_composition_passed"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            100,
+            110,
+            830,
+            640
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            210,
+            1000,
+            640
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            40,
+            110,
+            770,
+            650
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            880,
+            170,
+            1200,
+            640
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            100,
+            1190,
+            760
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            330,
+            130,
+            600,
+            530
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            190,
+            150,
+            1170,
+            730
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            370,
+            130,
+            640,
+            520
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            70,
+            1040,
+            660
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            310,
+            70,
+            550,
+            430
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            40,
+            130,
+            930,
+            710
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            690,
+            160,
+            900,
+            500
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            30,
+            80,
+            1010,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            140,
+            1050,
+            540
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            0,
+            160,
+            680,
+            680
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            590,
+            250,
+            850,
+            660
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            210,
+            900,
+            730
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            280,
+            160,
+            520,
+            510
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            70,
+            130,
+            900,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            220,
+            180,
+            470,
+            490
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            30,
+            140,
+            920,
+            720
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            810,
+            190,
+            1120,
+            640
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            0,
+            110,
+            820,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            730,
+            170,
+            1010,
+            650
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            60,
+            90,
+            820,
+            650
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            730,
+            150,
+            990,
+            570
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            70,
+            180,
+            950,
+            740
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            270,
+            200,
+            490,
+            550
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            50,
+            90,
+            860,
+            620
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            240,
+            980,
+            620
+          ]
+        }
+      ],
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Individually inspected single-scene artwork; characters and action above low caption panel. Lantern remains roof-mounted; natural wings, no human hands. Final panel geometry clears all required subjects."
+    }
+  ]
+}

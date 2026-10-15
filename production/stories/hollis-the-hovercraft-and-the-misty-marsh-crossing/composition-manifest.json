@@ -1,0 +1,943 @@
+{
+  "storySlug": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-01.png",
+      "text": "Hollis waited at the marsh landing as evening mist drifted over the reeds.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            100,
+            110,
+            830,
+            640
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            210,
+            1000,
+            640
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-02.png",
+      "text": "Sorrel stood beside a warm lantern, ready for the frogs' quiet concert.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            40,
+            110,
+            770,
+            650
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            880,
+            170,
+            1200,
+            640
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-03.png",
+      "text": "The lantern rested snugly on Hollis's roof, with Sorrel perched safely beside it.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            100,
+            1190,
+            760
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            330,
+            130,
+            600,
+            530
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-04.png",
+      "text": "With a gentle hum, Hollis floated away from the bank.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            190,
+            150,
+            1170,
+            730
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            370,
+            130,
+            640,
+            520
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-05.png",
+      "text": "The hover skirt carried them softly over water and smooth mud.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            70,
+            1040,
+            660
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            310,
+            70,
+            550,
+            430
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-06.png",
+      "text": "But the mist made the familiar reed path hard to see.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            40,
+            130,
+            930,
+            710
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            690,
+            160,
+            900,
+            500
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-07.png",
+      "text": "Hollis slowed to a hush, and Sorrel listened carefully.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            30,
+            80,
+            1010,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            140,
+            1050,
+            540
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-08.png",
+      "text": "Across the marsh came a gentle croak, followed by a sleepy chorus.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            0,
+            160,
+            680,
+            680
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            590,
+            250,
+            850,
+            660
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-09.png",
+      "text": "Together they followed the song through a wide opening in the reeds.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            120,
+            210,
+            900,
+            730
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            280,
+            160,
+            520,
+            510
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-10.png",
+      "text": "Soon they found the grassy bank where the frogs were waiting.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            70,
+            130,
+            900,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            220,
+            180,
+            470,
+            490
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-11.png",
+      "text": "Hollis settled beside the bank, and the lantern warmed the little gathering.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            30,
+            140,
+            920,
+            720
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            810,
+            190,
+            1120,
+            640
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-12.png",
+      "text": "Sorrel folded her wings while the frogs sang their soft marsh song.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            0,
+            110,
+            820,
+            700
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            730,
+            170,
+            1010,
+            650
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-13.png",
+      "text": "The last notes faded into the rustling reeds.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            60,
+            90,
+            820,
+            650
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            730,
+            150,
+            990,
+            570
+          ]
+        },
+        {
+          "label": "Frogs on grassy bank",
+          "box": [
+            880,
+            380,
+            1430,
+            710
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-14.png",
+      "text": "Hollis carried Sorrel home, with the lantern glowing gently all the way.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            70,
+            180,
+            950,
+            740
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            270,
+            200,
+            490,
+            550
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/hollis-the-hovercraft-and-the-misty-marsh-crossing/staging/hollis-the-hovercraft-and-the-misty-marsh-crossing/illustrations/page-15.png",
+      "text": "At the landing, they rested beneath the moon. Goodnight, whispered the marsh.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Hollis",
+          "box": [
+            50,
+            90,
+            860,
+            620
+          ]
+        },
+        {
+          "label": "Sorrel",
+          "box": [
+            750,
+            240,
+            980,
+            620
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

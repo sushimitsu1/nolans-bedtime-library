@@ -3060,6 +3060,56 @@ narration: [
     "Goodnight, starry slope, whispered Tundra, as the mountain settled into sleep."
   ]
 },
+{
+  "id": "hollis-the-hovercraft-and-the-misty-marsh-crossing",
+  "title": "Hollis the Hovercraft and the Misty Marsh Crossing",
+  "category": "Boats",
+  "description": "Hollis and Sorrel share a gentle evening. At the landing, they rested beneath the moon. Goodnight, whispered the marsh.",
+  "keywords": [
+    "hollis",
+    "hovercraft",
+    "sorrel",
+    "heron",
+    "marsh",
+    "boats",
+    "bedtime"
+  ],
+  "cover": "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/cover.webp",
+  "pages": [
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-01.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-02.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-03.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-04.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-05.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-06.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-07.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-08.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-09.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-10.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-11.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-12.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-13.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-14.webp",
+    "assets/books/hollis-the-hovercraft-and-the-misty-marsh-crossing/page-15.webp"
+  ],
+  "narration": [
+    "Hollis waited at the marsh landing as evening mist drifted over the reeds.",
+    "Sorrel stood beside a warm lantern, ready for the frogs' quiet concert.",
+    "The lantern rested snugly on Hollis's roof, with Sorrel perched safely beside it.",
+    "With a gentle hum, Hollis floated away from the bank.",
+    "The hover skirt carried them softly over water and smooth mud.",
+    "But the mist made the familiar reed path hard to see.",
+    "Hollis slowed to a hush, and Sorrel listened carefully.",
+    "Across the marsh came a gentle croak, followed by a sleepy chorus.",
+    "Together they followed the song through a wide opening in the reeds.",
+    "Soon they found the grassy bank where the frogs were waiting.",
+    "Hollis settled beside the bank, and the lantern warmed the little gathering.",
+    "Sorrel folded her wings while the frogs sang their soft marsh song.",
+    "The last notes faded into the rustling reeds.",
+    "Hollis carried Sorrel home, with the lantern glowing gently all the way.",
+    "At the landing, they rested beneath the moon. Goodnight, whispered the marsh."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
