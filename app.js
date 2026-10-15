@@ -3210,6 +3210,55 @@ narration: [
     "Goodnight, mountains, whispered Calla. The peaks kept their quiet watch."
   ]
 },
+{
+  "id": "fennel-and-the-moon-smooth-ice-rink",
+  "title": "Fennel and the Moon-Smooth Ice Rink",
+  "category": "City Service Vehicles",
+  "description": "Fennel and Clove share a gentle evening. Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning.",
+  "keywords": [
+    "fennel",
+    "ice resurfacer",
+    "clove",
+    "penguin",
+    "rink",
+    "goodnight"
+  ],
+  "cover": "assets/books/fennel-and-the-moon-smooth-ice-rink/cover.webp",
+  "pages": [
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-01.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-02.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-03.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-04.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-05.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-06.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-07.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-08.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-09.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-10.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-11.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-12.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-13.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-14.webp",
+    "assets/books/fennel-and-the-moon-smooth-ice-rink/page-15.webp"
+  ],
+  "narration": [
+    "Evening grew quiet at the rink as Fennel waited beside the gate.",
+    "Clove stepped off the ice and settled on the bench in a cozy scarf.",
+    "The skaters had gone home, leaving scratchy trails across the rink.",
+    "Fennel rolled onto the empty ice to make it smooth for morning.",
+    "The conditioner brushed the ice, leaving a shiny path behind.",
+    "But on the ice, a rough patch caught the lamplight.",
+    "Fennel slowed beside the patch and lined up a gentle turn.",
+    "A thin layer of water settled softly over the ice.",
+    "Soon the rough patch was smooth and ready to rest.",
+    "Clove watched the bright path curve around the quiet rink.",
+    "Fennel followed the curve, humming a low and sleepy tune.",
+    "Under the lamps, the finished ice shone like a peaceful moonlit pond.",
+    "Tomorrow's skaters would find a lovely place to glide.",
+    "Fennel parked in the warm bay while Clove rested with a scarf beneath a sleepy chin.",
+    "Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
@@ -3832,6 +3881,11 @@ skyCategoryTab.className = 'category-tab';
 skyCategoryTab.dataset.category = 'Sky Rides';
 skyCategoryTab.textContent = 'Sky Rides';
 document.querySelector('.category-tabs').insertBefore(skyCategoryTab, document.querySelector('[data-category="favorites"]'));
+const cityServiceCategoryTab = document.createElement('button');
+cityServiceCategoryTab.className = 'category-tab';
+cityServiceCategoryTab.dataset.category = 'City Service Vehicles';
+cityServiceCategoryTab.textContent = 'City Service Vehicles';
+document.querySelector('.category-tabs').insertBefore(cityServiceCategoryTab, document.querySelector('[data-category="favorites"]'));
 document.querySelectorAll('.category-tab').forEach(tab=>tab.addEventListener('click',()=>{
   selectedCategory=tab.dataset.category;
   document.querySelectorAll('.category-tab').forEach(item=>item.classList.toggle('selected',item===tab));

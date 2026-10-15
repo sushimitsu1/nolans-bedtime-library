@@ -1,0 +1,203 @@
+{
+  "title": "Fennel and the Moon-Smooth Ice Rink",
+  "slug": "fennel-and-the-moon-smooth-ice-rink",
+  "category": "City Service Vehicles",
+  "description": "Fennel and Clove share a gentle evening. Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning.",
+  "characterBible": {
+    "Fennel": {
+      "role": "Main character",
+      "color": "Rounded mint-green ice resurfacer with cream upper body, charcoal rubber tires, rear silver conditioning assembly and small recessed water outlet beneath it",
+      "bodyShape": "Rounded mint-green ice resurfacer with cream upper body, charcoal rubber tires, rear silver conditioning assembly and small recessed water outlet beneath it; exactly two warm brown eyes side by side on front windshield, no headlight eyes, small curved grille smile; no arms or hands; no lettering or logos.",
+      "face": "Rounded mint-green ice resurfacer with cream upper body, charcoal rubber tires, rear silver conditioning assembly and small recessed water outlet beneath it; exactly two warm brown eyes side by side on front windshield, no headlight eyes, small curved grille smile; no arms or hands; no lettering or logos.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Clove": {
+      "role": "Supporting character",
+      "color": "Little penguin skater with charcoal back and flippers, cream belly and face patches, orange beak and feet, lilac scarf and simple silver-bladed skates",
+      "bodyShape": "Little penguin skater with charcoal back and flippers, cream belly and face patches, orange beak and feet, lilac scarf and simple silver-bladed skates; exactly two dark brown eyes, one in each cream face patch; natural flippers only, no human-like arms or hands.",
+      "face": "Little penguin skater with charcoal back and flippers, cream belly and face patches, orange beak and feet, lilac scarf and simple silver-bladed skates; exactly two dark brown eyes, one in each cream face patch; natural flippers only, no human-like arms or hands.",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A cozy enclosed neighborhood ice rink with rounded boards, a closed resurfacer gate, warm lamps, skate bench and a sheltered machine bay. Clove stays off the ice whenever Fennel works.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, warm polished 3D children's illustration for ages 3-5, soft rounded forms, reassuring expressions and gentle evening light. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels."
+  },
+  "continuityRules": [
+    "Rounded mint-green ice resurfacer with cream upper body, charcoal rubber tires, rear silver conditioning assembly and small recessed water outlet beneath it; exactly two warm brown eyes side by side on front windshield, no headlight eyes, small curved grille smile; no arms or hands; no lettering or logos.",
+    "Little penguin skater with charcoal back and flippers, cream belly and face patches, orange beak and feet, lilac scarf and simple silver-bladed skates; exactly two dark brown eyes, one in each cream face patch; natural flippers only, no human-like arms or hands.",
+    "No additional named characters; background characters have no human-like arms or hands.",
+    "Use soft quantity wording in narration; no required exact prop or background counts.",
+    "Story pages and character reference are entirely text-free; only the cover contains the exact title as painted lettering.",
+    "Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel.",
+    "Keep the same design and proportions from character reference through cover and every page.",
+    "Page 15 is a calm bedtime ending."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Evening grew quiet at the rink as Fennel waited beside the gate.",
+      "illustrationScene": "Fennel waits outside rink gate; Clove stands on rubber mat beside skate bench.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Clove stepped off the ice and settled on the bench in a cozy scarf.",
+      "illustrationScene": "Clove sits on rink-side bench with skates clear of ice; Fennel waits beside gate.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "The skaters had gone home, leaving scratchy trails across the rink.",
+      "illustrationScene": "Fennel and bench-seated Clove look toward the empty scratched rink.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Fennel rolled onto the empty ice to make it smooth for morning.",
+      "illustrationScene": "Fennel enters empty rink through machine gate; Clove stays on bench behind boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "The conditioner brushed the ice, leaving a shiny path behind.",
+      "illustrationScene": "Fennel conditions a shiny ice strip; Clove watches from bench behind boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "But on the ice, a rough patch caught the lamplight.",
+      "illustrationScene": "Fennel pauses near shallow rough ice by boards; Clove watches from off-ice bench.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "quiet evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Fennel slowed beside the patch and lined up a gentle turn.",
+      "illustrationScene": "Fennel aligns conditioning assembly with rough patch; Clove remains behind boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "A thin layer of water settled softly over the ice.",
+      "illustrationScene": "Recessed outlet under rear conditioner lays thin water film; Clove watches from bench behind boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Soon the rough patch was smooth and ready to rest.",
+      "illustrationScene": "Fennel passes the newly even patch; Clove stays on off-ice bench.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Clove watched the bright path curve around the quiet rink.",
+      "illustrationScene": "Clove seated on bench admires Fennel making a wide curve on empty ice.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Fennel followed the curve, humming a low and sleepy tune.",
+      "illustrationScene": "Fennel makes a gentle conditioning curve; Clove listens behind boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "deepening evening",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Under the lamps, the finished ice shone like a peaceful moonlit pond.",
+      "illustrationScene": "Fennel pauses beside finished ice; Clove sits on bench beyond boards.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Tomorrow's skaters would find a lovely place to glide.",
+      "illustrationScene": "Fennel exits finished rink through machine gate; Clove admires the ice from off-ice bench.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Fennel parked in the warm bay while Clove rested with a scarf beneath a sleepy chin.",
+      "illustrationScene": "Fennel parked in machine bay; Clove rests on nearby off-ice bench with scarf beneath chin.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning.",
+      "illustrationScene": "Fennel rests in warm machine bay and Clove dozes on off-ice bench; quiet finished rink beyond.",
+      "requiredCharacters": [
+        "Fennel",
+        "Clove"
+      ],
+      "timeOfDay": "peaceful starry bedtime",
+      "continuityNotes": "Fennel and Clove retain the exact characterBible design and eye placement. Clove stays behind boards or off ice while Fennel works. Keep every character, face, vehicle, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, water or sky as appropriate, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

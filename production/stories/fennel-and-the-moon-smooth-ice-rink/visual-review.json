@@ -1,0 +1,546 @@
+{
+  "storySlug": "fennel-and-the-moon-smooth-ice-rink",
+  "measurementMethod": "Individual visual inspection of every raw and composed page; conservative approximate bounds from 724x543 previews scaled to 1448x1086, not segmentation.",
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            76,
+            136,
+            756,
+            608
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1036,
+            340,
+            1284,
+            624
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.46,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            520,
+            108,
+            1198,
+            614
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            140,
+            282,
+            372,
+            574
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 56.54,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            306,
+            104,
+            982,
+            570
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            80,
+            224,
+            310,
+            504
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 52.49,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            602,
+            150,
+            1228,
+            628
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            128,
+            258,
+            322,
+            456
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.83,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            498,
+            98,
+            1244,
+            630
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            154,
+            196,
+            336,
+            420
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.01,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            414,
+            136,
+            1080,
+            638
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            132,
+            200,
+            336,
+            448
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.75,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            228,
+            54,
+            986,
+            568
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1076,
+            188,
+            1302,
+            368
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 52.3,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            542,
+            114,
+            1266,
+            604
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            106,
+            188,
+            350,
+            380
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 55.62,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            476,
+            110,
+            1208,
+            594
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            112,
+            160,
+            308,
+            400
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 54.7,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            576,
+            118,
+            1218,
+            592
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            84,
+            198,
+            260,
+            420
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 54.51,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            498,
+            86,
+            1260,
+            636
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            170,
+            194,
+            394,
+            362
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.56,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            92,
+            102,
+            844,
+            618
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1150,
+            248,
+            1346,
+            480
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 56.91,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            696,
+            134,
+            1310,
+            644
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            94,
+            256,
+            278,
+            474
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 59.3,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            622,
+            128,
+            1298,
+            612
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            90,
+            312,
+            316,
+            602
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 56.35,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            682,
+            134,
+            1340,
+            620
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            296,
+            298,
+            538,
+            580
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.09,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      }
+    }
+  ]
+}

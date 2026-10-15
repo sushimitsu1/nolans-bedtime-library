@@ -1,0 +1,39 @@
+{
+  "storySlug": "fennel-and-the-moon-smooth-ice-rink",
+  "status": "ready_to_publish",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw and composed pages inspected individually. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "page9To10Continuity": "passed",
+    "characterContinuity": "passed"
+  },
+  "notes": "Painted cover preserved with full_page_cover and null text. Seven PNGs normalized with Lanczos; two narration softenings recorded. No character overlaps. Games/videos/quizmo and local reader browser smoke skipped: sandbox listen EPERM. App count 100; cache v106."
+}

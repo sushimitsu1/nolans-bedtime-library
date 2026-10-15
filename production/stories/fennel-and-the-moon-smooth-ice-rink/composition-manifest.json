@@ -1,0 +1,907 @@
+{
+  "storySlug": "fennel-and-the-moon-smooth-ice-rink",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-01.png",
+      "text": "Evening grew quiet at the rink as Fennel waited beside the gate.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            76,
+            136,
+            756,
+            608
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1036,
+            340,
+            1284,
+            624
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-02.png",
+      "text": "Clove stepped off the ice and settled on the bench in a cozy scarf.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            520,
+            108,
+            1198,
+            614
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            140,
+            282,
+            372,
+            574
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-03.png",
+      "text": "The skaters had gone home, leaving scratchy trails across the rink.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            306,
+            104,
+            982,
+            570
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            80,
+            224,
+            310,
+            504
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-04.png",
+      "text": "Fennel rolled onto the empty ice to make it smooth for morning.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            602,
+            150,
+            1228,
+            628
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            128,
+            258,
+            322,
+            456
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-05.png",
+      "text": "The conditioner brushed the ice, leaving a shiny path behind.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            498,
+            98,
+            1244,
+            630
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            154,
+            196,
+            336,
+            420
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-06.png",
+      "text": "But on the ice, a rough patch caught the lamplight.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            414,
+            136,
+            1080,
+            638
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            132,
+            200,
+            336,
+            448
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-07.png",
+      "text": "Fennel slowed beside the patch and lined up a gentle turn.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            228,
+            54,
+            986,
+            568
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1076,
+            188,
+            1302,
+            368
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-08.png",
+      "text": "A thin layer of water settled softly over the ice.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            542,
+            114,
+            1266,
+            604
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            106,
+            188,
+            350,
+            380
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-09.png",
+      "text": "Soon the rough patch was smooth and ready to rest.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            476,
+            110,
+            1208,
+            594
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            112,
+            160,
+            308,
+            400
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-10.png",
+      "text": "Clove watched the bright path curve around the quiet rink.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            576,
+            118,
+            1218,
+            592
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            84,
+            198,
+            260,
+            420
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-11.png",
+      "text": "Fennel followed the curve, humming a low and sleepy tune.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            498,
+            86,
+            1260,
+            636
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            170,
+            194,
+            394,
+            362
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-12.png",
+      "text": "Under the lamps, the finished ice shone like a peaceful moonlit pond.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            92,
+            102,
+            844,
+            618
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            1150,
+            248,
+            1346,
+            480
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-13.png",
+      "text": "Tomorrow's skaters would find a lovely place to glide.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            696,
+            134,
+            1310,
+            644
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            94,
+            256,
+            278,
+            474
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-14.png",
+      "text": "Fennel parked in the warm bay while Clove rested with a scarf beneath a sleepy chin.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            622,
+            128,
+            1298,
+            612
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            90,
+            312,
+            316,
+            602
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/fennel-and-the-moon-smooth-ice-rink/staging/fennel-and-the-moon-smooth-ice-rink/illustrations/page-15.png",
+      "text": "Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Fennel",
+          "box": [
+            682,
+            134,
+            1340,
+            620
+          ]
+        },
+        {
+          "label": "Clove",
+          "box": [
+            296,
+            298,
+            538,
+            580
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

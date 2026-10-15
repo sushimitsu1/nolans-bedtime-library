@@ -1,0 +1,14 @@
+[
+  {
+    "page": 6,
+    "before": "But near the boards, a rough patch caught the lamplight.",
+    "after": "But on the ice, a rough patch caught the lamplight.",
+    "reason": "Match visible location of rough ice."
+  },
+  {
+    "page": 14,
+    "before": "Fennel parked in the warm bay while Clove tucked the scarf beneath a sleepy chin.",
+    "after": "Fennel parked in the warm bay while Clove rested with a scarf beneath a sleepy chin.",
+    "reason": "Clove is resting; no scarf-tucking action is shown."
+  }
+]
