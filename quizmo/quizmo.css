@@ -1,37 +1,30 @@
 .main-tabs{flex-wrap:wrap}#quizmoView{padding:24px clamp(16px,4vw,52px) 48px}#quizmoView button{min-width:88px;min-height:88px;border:2px solid #bad7e7;border-radius:24px;background:#fff9ed;color:#264a61;font:inherit;font-weight:800;touch-action:manipulation;cursor:pointer;padding:16px}#quizmoView button:focus-visible{outline:4px solid #327ab0;outline-offset:3px}.quizmo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.quizmo-card{display:flex;flex-direction:column;gap:12px;text-align:left}.quizmo-card strong{font-size:24px}.quizmo-card span{font-weight:400}.quizmo-board{max-width:760px;margin:20px auto;text-align:center;padding:24px;border-radius:28px;background:#edf6fa}.quizmo-board h2{font-size:clamp(24px,4vw,36px);line-height:1.4}.quizmo-inputs{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}#quizmoView [aria-pressed=true]{border:4px solid #327ab0;background:#d6effb}.quizmo-feedback{min-height:56px;font-size:20px}.quizmo-pad{display:grid;grid-template-columns:repeat(3,minmax(88px,1fr));gap:12px;max-width:430px;margin:20px auto}#quizmoView .quizmo-pad button{font-size:26px}#quizmoView .quizmo-check{background:#d6effb;width:min(100%,430px)}.quizmo-set{max-width:500px;margin:auto;color:#296e8d;line-height:1.7;font-size:26px;overflow-wrap:anywhere}.quizmo-board>button{margin:8px}@media(max-width:400px){.quizmo-board{padding:12px}.quizmo-pad{gap:6px}#quizmoView{padding:16px 8px}}
 
-/* Reserve the real header/nav height; only the active Quizmo view uses this shell. */
+/* Flex reserves the actual header and wrapping navigation height. */
 body:has(#quizmoView.active){height:100dvh;min-height:0;display:flex;flex-direction:column}
-body:has(#quizmoView.active) .app-header{flex-shrink:0}
-body:has(#quizmoView.active) .main-tabs{flex-shrink:0}
-body:has(#quizmoView.active) main{width:100%;flex:1;min-height:0;margin:0 auto}
-#quizmoView.active:has([data-level]){height:100%;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;padding:clamp(6px,1dvh,12px) clamp(12px,3vw,40px)}
-#quizmoView:has([data-level]) .quizmo-tools{position:absolute;left:clamp(12px,3vw,40px);top:8px}
-#quizmoView:has([data-level]) button{min-width:56px;min-height:56px;padding:clamp(4px,.8dvh,10px);border-radius:16px}
-#quizmoView .quizmo-board[data-level]{display:flex;flex-direction:column;align-items:center;gap:clamp(4px,.8dvh,8px);width:min(100%,760px);height:100%;min-height:0;margin:0;padding:clamp(8px,1.4dvh,16px)}
-#quizmoView .quizmo-board[data-level]>:not(.quizmo-pad){flex-shrink:0;margin:0}
-#quizmoView .quizmo-board[data-level] h1{font-size:clamp(24px,3.5dvh,36px);line-height:1.1}
-#quizmoView .quizmo-board[data-level] h2{font-size:clamp(18px,2.8dvh,28px);line-height:1.15;max-width:680px}
-#quizmoView .quizmo-board[data-level] p{font-size:clamp(14px,1.9dvh,18px);line-height:1.2}
-#quizmoView .quizmo-feedback{min-height:2.4em;display:flex;align-items:center;justify-content:center;width:100%}
-#quizmoView .quizmo-inputs{gap:8px}
-#quizmoView .quizmo-pad{display:grid;grid-template-columns:repeat(4,minmax(56px,1fr));grid-template-rows:repeat(3,minmax(56px,1fr));gap:clamp(4px,.8dvh,8px);width:min(100%,430px);max-height:300px;min-height:176px;flex:1;margin:0 auto}
-#quizmoView .quizmo-pad button{font-size:clamp(20px,3dvh,28px)}
-#quizmoView .quizmo-set{font-size:clamp(13px,1.8dvh,20px);line-height:1.15;max-width:600px}
-@media(max-height:820px){
-  body:has(#quizmoView.active) .main-tabs button{min-height:56px}
-  #quizmoView .quizmo-board[data-level]{gap:4px;padding:8px}
-  #quizmoView .quizmo-board[data-level] h1{font-size:26px}
-}
-@media(max-height:720px){
-  #quizmoView .quizmo-board[data-level]{gap:3px;padding:6px}
-  #quizmoView .quizmo-board[data-level] h1{font-size:24px}
-  #quizmoView .quizmo-board[data-level] h2{font-size:18px}
-  #quizmoView .quizmo-board[data-level] p{font-size:14px}
-  #quizmoView .quizmo-pad{gap:4px}
-}
-@media(max-width:1000px){
-  #quizmoView:has([data-level]) .quizmo-tools{position:static;align-self:flex-start;margin-bottom:4px}
-}
-/* Reader/finished defaults otherwise override .view's inactive display rule. */
+body:has(#quizmoView.active) .app-header,body:has(#quizmoView.active) .main-tabs{flex-shrink:0}
+body:has(#quizmoView.active) main{width:100%;max-width:none;flex:1;min-height:0;margin:0 auto}
 body:has(#quizmoView.active) main>.view:not(.active){display:none}
+#quizmoView.active:has([data-level]){height:100%;min-height:0;display:flex;flex-direction:column;gap:6px;padding:8px clamp(12px,2vw,28px)}
+#quizmoView:has([data-level]) .quizmo-tools{flex-shrink:0}
+#quizmoView:has([data-level]) button{min-width:56px;min-height:56px;padding:6px;border-radius:16px}
+#quizmoView .quizmo-board[data-level]{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,1fr);gap:clamp(12px,3vw,40px);width:100%;max-width:none;flex:1;min-height:0;margin:0 auto;padding:clamp(8px,1.5vh,16px)}
+.quizmo-question{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:clamp(6px,1.5vh,16px);min-width:0;min-height:0}
+#quizmoView .quizmo-question h1{margin:0;font-size:clamp(23px,4vmin,36px);line-height:1.1}
+#quizmoView .quizmo-question h2{margin:0;font-size:clamp(20px,3.8vmin,34px);line-height:1.15;overflow-wrap:anywhere}
+#quizmoView .quizmo-question p{margin:0;font-size:clamp(14px,2.3vmin,20px);line-height:1.2}
+#quizmoView .quizmo-feedback{min-height:2.4em;display:flex;align-items:center;justify-content:center;width:100%}
+#quizmoView .quizmo-inputs{gap:8px;flex-wrap:nowrap}
+#quizmoView .quizmo-inputs button{font-size:clamp(18px,3vmin,28px)}
+.quizmo-controls{display:grid;grid-template-rows:minmax(0,1fr) auto;gap:8px;min-height:0;min-width:0}
+#quizmoView .quizmo-pad{display:grid;grid-template-columns:repeat(3,minmax(56px,1fr));grid-template-rows:repeat(4,minmax(56px,1fr));gap:6px;width:100%;max-width:none;margin:0;min-height:242px}
+#quizmoView .quizmo-pad button{font-size:clamp(22px,4vmin,34px)}
+#quizmoView .quizmo-check{width:100%;font-size:clamp(20px,3vmin,28px);margin:0}
+#quizmoView .quizmo-set{font-size:clamp(12px,2.1vmin,20px);line-height:1.15;max-width:100%}
+@media(max-height:820px){body:has(#quizmoView.active) .main-tabs button{min-height:56px}}
+@media(max-height:560px){.quizmo-question{gap:6px}#quizmoView .quizmo-question h2{font-size:20px}}
+@media(max-width:699px){
+  #quizmoView.active:has([data-level]){height:auto;min-height:100%}
+  #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1fr);flex:none;gap:16px}
+  .quizmo-controls{grid-template-rows:260px auto}
+}

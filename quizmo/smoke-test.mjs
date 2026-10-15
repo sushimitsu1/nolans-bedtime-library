@@ -33,7 +33,7 @@ try{
   const ids=await page.$$eval('[data-game]',els=>els.map(e=>e.dataset.game));
   // Exercise every game and level at laptop sizes, including retry hints and
   // maximum operands/lantern sets. Reload afterwards to preserve progression checks.
-  for(const viewport of [{width:1280,height:800},{width:1366,height:768},{width:1280,height:720},{width:1440,height:900}]) {
+  for(const viewport of [{width:1280,height:800},{width:1366,height:768},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500}]) {
     if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
     for(let level=1;level<=8;level++) {
       await page.evaluate(({ids,level})=>{
@@ -46,15 +46,18 @@ try{
         await tap(`[data-game="${id}"]`);
         await tap('[data-q-action="check"]');
         const layout=await page.evaluate(()=>{
-          const selectors=['.quizmo-board h1','.quizmo-board h2','.quizmo-board>p','.quizmo-inputs','.quizmo-feedback','.quizmo-set','[data-clock]',...Array.from({length:10},(_,n)=>`[data-key="${n}"]`),'[data-key="clear"]','[data-key="erase"]','[data-q-action="check"]'];
+          const selectors=['.quizmo-board h1','.quizmo-board h2','.quizmo-question>p','.quizmo-inputs','.quizmo-feedback','.quizmo-set','[data-clock]',...Array.from({length:10},(_,n)=>`[data-key="${n}"]`),'[data-key="clear"]','[data-key="erase"]','[data-q-action="check"]'];
           const boxes=selectors.flatMap(selector=>[...document.querySelectorAll('#quizmoView '+selector)].map(el=>{
             const r=el.getBoundingClientRect();
             return {selector,x:r.x,y:r.y,right:r.right,bottom:r.bottom,width:r.width,height:r.height};
           }));
           const board=document.querySelector('.quizmo-board').getBoundingClientRect();
-          return {scroll:document.documentElement.scrollHeight,viewport:innerHeight,boxes,center:board.x+board.width/2,width:innerWidth};
+          const question=document.querySelector('.quizmo-question').getBoundingClientRect();
+          const pad=document.querySelector('.quizmo-pad').getBoundingClientRect();
+          return {sideBySide:question.right<=pad.left && pad.top<question.bottom && pad.bottom>question.top,scroll:document.documentElement.scrollHeight,viewport:innerHeight,boxes,center:board.x+board.width/2,width:innerWidth};
         });
         const label=`${id} level ${level} at ${viewport.width}x${viewport.height}`;
+        assert(layout.sideBySide,`${label}: pad must be beside the question`);
         assert(layout.scroll<=viewport.height,`${label}: document scrolls ${JSON.stringify(layout)}`);
         assert(Math.abs(layout.center-viewport.width/2)<1,`${label}: board is centered`);
         for(const b of layout.boxes) {
