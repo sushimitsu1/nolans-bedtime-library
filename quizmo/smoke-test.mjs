@@ -25,7 +25,7 @@ try{
   const url=`http://127.0.0.1:${server.address().port}`;
   await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
   await checkNavigation(page);
-  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<56||r.height<56)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
+  const tap=async selector=>{await page.evaluate(selector=>{document.querySelector('#quizmoReward [data-dismiss]')?.click();const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<56||r.height<56)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const sentinel='{"points":137,"levels":{"willa":4}}';
   await page.evaluate(value=>localStorage.setItem('nolan-games-v1',value),sentinel);
   await tap('#quizmoTab');
@@ -118,6 +118,7 @@ try{
     }
   }
   // A real mouse tap also opens a game; a cancelled touch does not enter digits.
+  await page.evaluate(()=>document.querySelector('#quizmoReward [data-dismiss]')?.click());
   await page.click('[data-game="addition"]');
   await page.evaluate(()=>{const b=document.querySelector('[data-key="9"]');for(const type of ['pointerdown','pointercancel','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0}));});
   assert.equal(await page.$eval('[data-input="0"]',e=>e.textContent),'?');

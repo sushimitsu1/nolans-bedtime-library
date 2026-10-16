@@ -45,7 +45,7 @@ try {
   const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const viewport=async size=>puppeteer?page.setViewport(size):page.setViewportSize(size);
   const tap=async selector=>page.evaluate(selector=>{
-    const b=document.querySelector(selector);if(!b)throw Error('Missing '+selector);
+    document.querySelector('#quizmoReward [data-dismiss]')?.click();const b=document.querySelector(selector);if(!b)throw Error('Missing '+selector);
     b.scrollIntoView({block:'nearest'});const r=b.getBoundingClientRect();
     if(r.width<52||r.height<52)throw Error('Small tap target '+selector);
     const x=r.x+r.width/2,y=r.y+r.height/2;
