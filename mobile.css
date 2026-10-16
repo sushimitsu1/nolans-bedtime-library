@@ -1,6 +1,6 @@
 .mobile-tabs,.mobile-search-toggle{display:none}
-/* Phone landscape is deliberately bounded below the 900x500 laptop layout. */
-@media(max-width:700px),(max-width:900px) and (max-height:450px){
+/* Compact navigation and activity layouts apply only to phone portrait. */
+@media (max-width:700px) and (orientation:portrait){
  :root{--mobile-bar:calc(64px + env(safe-area-inset-bottom,0px))}
  .side-menu{display:none!important}
  body{min-width:0}
@@ -78,19 +78,4 @@
  .setting-row{gap:8px}.settings-heading h2{font-size:22px}
  .video-player{gap:6px;padding:8px max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom))}
  .video-player video{max-height:calc(100dvh - 156px);width:min(100%,calc((100dvh - 156px)*16/9))}
-}
-@media(max-width:900px) and (max-height:450px){
- :root{--mobile-bar:calc(56px + env(safe-area-inset-bottom,0px))}
- .mobile-tabs{padding-top:2px;padding-bottom:calc(2px + env(safe-area-inset-bottom,0px))}
- .view.reader-view.active{display:grid;grid-template-columns:minmax(0,1fr) 230px;grid-template-rows:52px minmax(0,1fr) 48px}
- .reader-topbar{grid-column:1/-1}.book-stage{grid-column:1;grid-row:2/4;height:100%}.reader-controls{grid-column:2;grid-row:3;grid-template-columns:1fr 1fr}.reader-controls .progress-track{display:none}.narration-panel{grid-column:2;grid-row:2;align-self:center}.narration-feedback{display:none}
- #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);grid-template-rows:minmax(0,1fr)}
- .quizmo-tools{display:flex}.round-stars{margin-left:auto}.quizmo-game-heading{margin-right:auto}
- #quizmoView .quizmo-pad{grid-template-rows:repeat(4,48px);gap:3px}
- #quizmoView .quizmo-pad button{min-height:48px;font-size:22px}
- #quizmoView .quizmo-check{min-height:52px}
- .quizmo-controls{gap:3px}.quizmo-question{padding:6px}
- #quizmoView.active:has(.quizmo-tools){gap:4px;padding:6px}
- #gamesView:has([data-level]) .game-board{display:grid;grid-template-columns:180px 1fr;column-gap:12px;align-items:center}
- .game-scene{grid-column:1;grid-row:1/4;width:100%}.game-scene img{max-height:150px}.game-instruction,.game-cue,.game-choices,.game-slots{grid-column:2}
 }

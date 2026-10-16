@@ -35,6 +35,19 @@ try{
   const mobileShot=async name=>{await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:`/workspace/ui-audit/mobile-${name}-${suffix}.png`});};
   const noOverflow=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow ${suffix}`);
   const visible=async selector=>assert(await page.$eval(selector,e=>{const r=e.getBoundingClientRect();const bar=document.querySelector('.mobile-tabs').getBoundingClientRect();return r.width>0&&r.height>0&&r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=bar.top+1;}),`Clipped ${selector} ${suffix}`);
+  if(size.width>size.height){
+   assert(await page.$eval('.side-menu',e=>getComputedStyle(e).display!=='none'));
+   assert(await page.$eval('.mobile-tabs',e=>getComputedStyle(e).display==='none'));
+   assert(await page.$eval('.main-tabs',e=>e.parentElement.matches('.side-menu')));
+   assert.equal(await page.$eval('.story-grid',e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),4);
+   // Disabling the portrait stylesheet must leave the original laptop rules unchanged.
+   const geometry=()=>[...document.querySelectorAll('.side-menu,main,.hero,.story-grid,.story-card,.quizmo-tools,.quizmo-board,.quizmo-pad')].map(e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return [r.x,r.y,r.width,r.height,s.display,s.gridTemplateColumns];});
+   const unchanged=async()=>{const before=await page.evaluate(geometry);await page.$eval('link[href="mobile.css"]',e=>e.disabled=true);assert.deepEqual(await page.evaluate(geometry),before,`Landscape differs from laptop rules: ${suffix}`);await page.$eval('link[href="mobile.css"]',e=>e.disabled=false);};
+   await noOverflow();await unchanged();await mobileShot('stories');
+   await page.click('#quizmoTab');await page.click('[data-game="addition"]');
+   await noOverflow();await unchanged();await mobileShot('quizmo-game');
+   continue;
+  }
   assert(await page.$eval('.side-menu',e=>getComputedStyle(e).display==='none'));
   assert(await page.$eval('.mobile-tabs',e=>getComputedStyle(e).display!=='none'));
   if(size.width<=700)assert.equal(await page.$eval('.story-grid',e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),2);
@@ -54,5 +67,5 @@ try{
   await page.click('[data-q-action="math"]');await page.click('[data-game="addition"]');
  }
  assert.deepEqual(errors,[]);
- console.log('PASS UI: three landscape sizes, grouped navigation, 100 real stories, Keep reading, cover/Page 1/Page 15, focus mode, mobile portrait/landscape math + CogAT, mobile screenshots');
+ console.log('PASS UI: three landscape sizes, grouped navigation, 100 real stories, Keep reading, cover/Page 1/Page 15, focus mode, portrait math + CogAT, restored 844x390 laptop layout, mobile screenshots');
 }finally{await browser?.close();server.closeAllConnections();await new Promise(r=>server.close(r));}

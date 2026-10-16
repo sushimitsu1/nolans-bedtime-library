@@ -1,6 +1,6 @@
 // Move the original controls so tab IDs, selected states and listeners stay shared.
 (() => {
-  const media = matchMedia('(max-width: 700px), (max-width: 900px) and (max-height: 450px)');
+  const media = matchMedia('(max-width: 700px) and (orientation: portrait)');
   const sidebar = document.querySelector('.side-menu');
   const tabs = document.querySelector('.main-tabs');
   const settings = document.getElementById('settingsButton');
