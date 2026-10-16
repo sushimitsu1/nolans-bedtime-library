@@ -3680,6 +3680,12 @@ function renderCategoryCounts(){
 }
 
 function renderLibrary(){
+  const last = stories.find(s=>s.id===localStorage.getItem('nolan:lastStory')) || [...stories].reverse().find(s=>localStorage.getItem(`progress:${s.id}`)!==null);
+  const strip=$('keepReading'); strip.hidden=!last;
+  if(last){const page=Math.max(0,Number(localStorage.getItem(`progress:${last.id}`))||0);strip.innerHTML=`<img src="${last.cover}" alt=""><div><small>KEEP READING</small><strong>${last.title}</strong><span>Page ${page+1} of 15</span></div><button type="button">▶ Continue</button>`;strip.querySelector('button').onclick=()=>openStory(last.id);}
+  const chips=document.querySelector('.category-tabs');chips.insertBefore(chips.querySelector('[data-category="favorites"]'),chips.children[1]);
+  chips.querySelectorAll('button').forEach(b=>{const c=b.dataset.category;const n=stories.filter(s=>c==='all'||(c==='favorites'?isFavorite(s):s.category===c)).length;b.dataset.label ||= b.textContent;b.innerHTML=`${b.dataset.label} <small>${n}</small>`;});
+
   const q = $('searchInput').value.trim().toLowerCase();
   visibleStories = stories.filter(story => {
     const categoryMatch = selectedCategory==='all' || (selectedCategory==='favorites' ? isFavorite(story) : story.category===selectedCategory);
@@ -3717,6 +3723,7 @@ function openStory(id){
   if(!story) return;
   if($('libraryView').classList.contains('active')) libraryScrollY=window.scrollY;
   activeStory = story;
+  localStorage.setItem("nolan:lastStory",id);
   const saved = Number(localStorage.getItem(`progress:${id}`));
   currentPage = Number.isFinite(saved) && saved>=0 && saved<activeStory.pages.length ? saved : -1;
   $('readerTitle').textContent = activeStory.title;

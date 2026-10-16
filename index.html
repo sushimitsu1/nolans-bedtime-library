@@ -11,43 +11,40 @@
   <link rel="stylesheet" href="games/games.css">
   <link rel="stylesheet" href="videos/videos.css">
   <link rel="stylesheet" href="quizmo/quizmo.css">
+  <link rel="stylesheet" href="redesign.css">
   <title>Nolan's Bedtime Library</title>
 </head>
 <body>
-  <header class="app-header">
-    <button class="brand" id="homeButton" aria-label="Go to library home">
-      <img src="assets/icons/icon-192.png" alt="" class="brand-icon">
-      <span><strong>Nolan's</strong><small>Big Vehicle Bedtime Library</small></span>
-    </button>
-    <div class="header-actions">
-      <button id="timerStatus" class="timer-status" type="button" hidden aria-label="Open parent settings"></button>
-      <button id="settingsButton" class="icon-button" type="button" aria-label="Open parent settings" title="Parent settings">⚙</button>
-      <button id="fullscreenButton" class="icon-button" type="button" aria-label="Enter full screen" title="Full screen">⛶</button>
-    </div>
-  </header>
-
-  <nav class="main-tabs" role="tablist" aria-label="Main navigation">
-    <button id="storiesTab" role="tab" aria-controls="libraryView" aria-selected="true">📚 Stories</button>
-    <button id="gamesTab" role="tab" aria-controls="gamesView" aria-selected="false">🌙 Games</button>
-    <button id="videosTab" role="tab" aria-controls="videosView" aria-selected="false">🎬 Videos</button>
-    <button id="quizmoTab" role="tab" aria-controls="quizmoView" aria-selected="false">Jasper's Quizmo</button>
-  </nav>
+  <aside class="side-menu">
+    <button class="brand" id="homeButton" aria-label="Go to library home"><img src="assets/icons/icon-192.png" alt="" class="brand-icon"><span><strong>Bedtime</strong><small>Library</small></span></button>
+    <nav class="main-tabs" role="tablist" aria-label="Main navigation">
+      <p class="kid-label">● Nolan · age 4</p>
+      <button id="storiesTab" role="tab" aria-controls="libraryView" aria-selected="true">📚 Stories</button>
+      <button id="gamesTab" role="tab" aria-controls="gamesView" aria-selected="false">🌙 Games</button>
+      <button id="videosTab" role="tab" aria-controls="videosView" aria-selected="false">🎬 Videos</button>
+      <p class="kid-label jasper">● Jasper · age 7</p>
+      <button id="quizmoTab" role="tab" aria-controls="quizmoView" aria-selected="false">🧮 Quizmo</button>
+    </nav>
+    <button id="timerStatus" class="timer-status" type="button" hidden aria-label="Open parent settings"></button>
+    <button id="settingsButton" type="button">⚙ Grown-ups</button>
+  </aside>
   <main>
     <section id="quizmoView" class="view" aria-label="Jasper's Quizmo"></section>
     <section id="videosView" class="view" aria-label="Bedtime videos"></section>
     <section id="gamesView" class="view" aria-label="Bedtime games"></section>
     <section id="libraryView" class="view active" aria-labelledby="libraryTitle">
       <div class="hero">
-        <p class="eyebrow">Tonight's story is ready</p>
-        <h1 id="libraryTitle">Pick a bedtime adventure</h1>
-        <p>Search by vehicle, sound, or story title.</p>
+        <div class="page-heading">
+        <h1 id="libraryTitle">Tonight's stories</h1>
+        <p>100 vehicle bedtime stories</p></div>
         <label class="search-box">
           <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" placeholder="Try “excavator” or “Ratata”" autocomplete="off">
+          <input id="searchInput" type="search" placeholder="Search stories…" autocomplete="off">
         </label>
-        <button id="surpriseButton" class="surprise-button" type="button">Surprise Me Tonight</button>
+        <button id="surpriseButton" class="surprise-button" type="button">✨ Surprise me</button>
       </div>
 
+      <div id="keepReading" hidden></div>
       <nav class="category-tabs" aria-label="Story categories">
         <button class="category-tab selected" data-category="all">All stories</button>
         <button class="category-tab" data-category="Emergency Vehicles">Emergency</button>
@@ -163,6 +160,7 @@
         <label for="timerSelect"><strong>Gentle bedtime timer</strong><small>It will never turn pages automatically.</small></label>
         <div class="timer-controls"><select id="timerSelect"><option value="0">Off</option><option value="5">5 minutes</option><option value="10">10 minutes</option><option value="15">15 minutes</option></select><button id="startTimerButton" class="reader-button secondary" type="button">Start timer</button></div>
       </div>
+      <button id="fullscreenButton" class="text-button" type="button" aria-label="Enter full screen">⛶ Fullscreen</button><div id="grownupGameSettings"></div><div id="grownupNarrator"></div>
       <div class="settings-actions">
         <button id="resetProgressButton" class="text-button danger-button" type="button">Reset reading progress</button>
         <button id="resetPreferencesButton" class="text-button danger-button" type="button">Reset favorites and settings</button>

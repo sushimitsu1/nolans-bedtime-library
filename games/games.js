@@ -38,10 +38,10 @@
   function tools() {return `<div class="game-tools">${button('🏠','Games home','home')}${button('🔊','Repeat instruction or sound','repeat')}${button(prefs.narration||prefs.effects?'🔈':'🔇','Toggle sound','sound')}${button('🌙','Finish peacefully','finish')}</div>`;}
   function home() {
     leave(); active=null; state=null;
-    root.innerHTML=`<div class="game-tools">${button('⚙️','Game parent controls','parent')}</div><div id="gameParent" class="game-parent" hidden></div><h1>Learn with a sleepy friend</h1><div class="game-grid">${games.map(g=>`<button type="button" class="game-card" data-action="open" data-id="${g.id}" aria-label="${g.title}"><img src="${g.art}" alt="${g.friend}"><span>${g.icon} ${g.title}</span><small>⭐ Level ${level(g.id)} / 8</small></button>`).join('')}</div>`;
+    root.innerHTML=`<div class="hub-heading"><div><h1>Games</h1><p>Learn with a sleepy friend · ages 3–5</p></div><span>⭐ ${Math.floor(prefs.points/5)} stars</span></div><div class="game-grid">${games.map(g=>`<button type="button" class="game-card" data-action="open" data-id="${g.id}" aria-label="${g.title}"><img src="${g.art}" alt="${g.friend}"><span>${g.icon} ${g.title}</span><small>⭐ Level ${level(g.id)} / 8</small></button>`).join('')}</div>`;
   }
   function parent() {
-    const panel=root.querySelector('#gameParent'); if(!panel) return; panel.hidden=!panel.hidden;
+    const panel=document.getElementById('grownupGameSettings'); if(!panel) return; panel.hidden=false;
     panel.innerHTML=`<h2>Game settings</h2>${['narration','effects','rewards'].map(k=>`<label><input type="checkbox" data-pref="${k}" ${prefs[k]?'checked':''}>${({narration:'Spoken prompts',effects:'Soft sounds',rewards:'Show bedtime stars here',easy:'Easier activity set',memory:'Sleepy Pairs: pictures face down'})[k]}</label>`).join('')}<div class="game-sky" ${prefs.rewards?'':'hidden'}>${'⭐'.repeat(Math.min(40,Math.floor(prefs.points/5))) || '🌌'}<p>${prefs.points} points · ${Math.floor(prefs.points/5)} stars</p></div>`;
   }
   function level(id) { return Math.min(8, Math.max(1, Number.isInteger(prefs.levels[id]) ? prefs.levels[id] : 1)); }
@@ -74,6 +74,8 @@
   root.addEventListener('pointermove',e=>{if(down?.id===e.pointerId&&down.b.dataset.drag){down.b.style.transform=`translate(${e.clientX-down.x}px,${e.clientY-down.y}px)`;}});
   root.addEventListener('pointerup',e=>{const tap=down;down=null;if(!tap||tap.id!==e.pointerId)return;tap.b.style.transform='';tap.b.classList.remove('dragging');const moved=Math.hypot(e.clientX-tap.x,e.clientY-tap.y);if(tap.b.dataset.drag&&moved>=24){const slot=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-slot]');if(slot){choose(tap.b.dataset.value);choose(slot.dataset.value);}return;}if(moved<24&&tap.b===e.target.closest('button'))dispatch(tap.b);});
   root.addEventListener('pointercancel',()=>{if(down){down.b.style.transform='';down.b.classList.remove('dragging');}down=null;});
+  document.getElementById('grownupGameSettings').addEventListener('change',e=>{const k=e.target.dataset.pref;if(k&&Object.hasOwn(defaults,k)){prefs[k]=e.target.checked;save();}});
+  parent();
   root.addEventListener('change',e=>{const k=e.target.dataset.pref;if(k&&Object.hasOwn(defaults,k)){prefs[k]=e.target.checked;save();parent();parent();}});
   document.getElementById('gamesTab').addEventListener('pointerup',()=>{showView('games');home();});
   document.getElementById('storiesTab').addEventListener('pointerup',()=>{showView('library');renderLibrary();});
