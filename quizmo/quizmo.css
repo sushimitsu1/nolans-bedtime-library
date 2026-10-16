@@ -28,3 +28,12 @@ body:has(#quizmoView.active) main>.view:not(.active){display:none}
   #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1fr);flex:none;gap:16px}
   .quizmo-controls{grid-template-rows:260px auto}
 }
+
+.cogat-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(56px,1fr);gap:12px;min-height:0}
+#quizmoView .cogat-choices button{font-size:clamp(22px,4vmin,34px);overflow:hidden}
+.cogat-choices svg{width:100%;height:100%;max-height:110px;display:block}
+.cogat-matrix{display:grid;grid-template-columns:minmax(0,1fr) 24px minmax(0,1fr);align-items:center;width:min(100%,350px);min-height:0}
+.cogat-matrix svg{width:100%;max-height:64px}.cogat-fold{display:flex;align-items:center;gap:12px;font-size:16px}.cogat-fold svg{height:95px;width:95px;flex-shrink:0}
+#quizmoView .cogat-words{font-size:clamp(22px,3.8vmin,32px);font-weight:bold}
+#quizmoView .cogat-board .quizmo-question{gap:6px}
+#quizmoView .cogat-board .quizmo-feedback{font-size:clamp(14px,2.5vmin,18px)}

@@ -13,6 +13,9 @@
     ['measure','Clockwork Corner','Work with time, money and metric units.'],
     ['speed','Starlight Sprint','Try a gentle timed mix of maths.']
   ];
+  const mathGames = games.slice();
+  games.push(...window.QuizmoCogat.games);
+  const isCogat = id => window.QuizmoCogat.games.some(g=>g[0]===id);
   const root = document.getElementById('quizmoView');
   let saved;
   try { saved = JSON.parse(localStorage.getItem('jasper-quizmo') || '{}'); } catch {}
@@ -46,15 +49,19 @@
   function leave() { clearInterval(timer); timer=null; down=null; }
   function home() {
     leave(); active=null;
-    root.innerHTML=`<h1>Jasper's Quizmo</h1><p>Big ideas, little steps. Choose a maths adventure.</p><p>⭐ ${Object.values(progress.stars).reduce((a,b)=>a+b,0)} stars · ${progress.score} points</p><div class="quizmo-grid">${games.map(([id,name,skill])=>button(`<strong>${name}</strong><span>${skill}</span><small>Level ${progress.levels[id]} / 8 · ⭐ ${progress.stars[id]}</small>`,'open',`class="quizmo-card" data-game="${id}"`)).join('')}</div>`;
+    root.innerHTML=`<h1>Jasper's Quizmo</h1><p>Big ideas, little steps. Choose a practice adventure.</p><p>⭐ ${Object.values(progress.stars).reduce((a,b)=>a+b,0)} stars · ${progress.score} points</p>${[ ['Math Adventures',mathGames], ['CogAT Practice',window.QuizmoCogat.games] ].map(([title,list])=>`<section aria-label="${title}"><h2>${title}</h2>${title==='CogAT Practice'?'<p>Original reasoning games · 8 levels each</p>':''}<div class="quizmo-grid">${list.map(([id,name,skill])=>button(`<strong>${name}</strong><span>${skill}</span><small>Level ${progress.levels[id]} / 8 · ⭐ ${progress.stars[id]}</small>`,'open',`class="quizmo-card" data-game="${id}"`)).join('')}</div></section>`).join('')}`;
   }
   function open(id) {
     leave(); active=games.find(g=>g[0]===id); count=0; done=false;
     if(id==='speed') { deadline=Date.now()+60000+progress.levels[id]*5000; timer=setInterval(()=>{ const clock=root.querySelector('[data-clock]'); if(clock)clock.textContent=`${Math.max(0,Math.ceil((deadline-Date.now())/1000))} seconds · take your time`; if(Date.now()>=deadline)finish(false); },250); }
     next();
   }
-  function next() { task=question(active[0],progress.levels[active[0]]); inputs=task.answers.map(()=>'');field=0;render(); }
+  function next() { task=isCogat(active[0])?window.QuizmoCogat.question(active[0],progress.levels[active[0]],count):question(active[0],progress.levels[active[0]]); inputs=(task.answers||[]).map(()=>'');field=0;render(); }
   function render() {
+    if(isCogat(active[0])) {
+      root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}</div><div class="quizmo-board cogat-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p><h2>${task.prompt}</h2>${task.visual||''}<p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
+      return;
+    }
     root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}</div><div class="quizmo-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p>${active[0]==='speed'?'<p data-clock role="timer">Gentle timed round</p>':''}<h2>${task.prompt}</h2>${task.visual||''}<div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
   }
   function finish(completed) {
@@ -68,6 +75,10 @@
     if(action==='home')return home();
     if(action==='again')return open(active[0]);
     if(done||!active)return;
+    if(action==='choice') {
+      if(Number(b.dataset.choice)!==task.correct){root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;return;}
+      progress.score+=10;save();count++;if(count>=3)finish(true);else next();return;
+    }
     if(action==='field'){field=Number(b.dataset.field);root.querySelectorAll('[data-field]').forEach(x=>x.setAttribute('aria-pressed',String(Number(x.dataset.field)===field)));}
     if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);root.querySelector(`[data-input="${field}"]`).textContent=inputs[field]||'?'; }
     if(action==='check') {
