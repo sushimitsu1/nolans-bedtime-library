@@ -1,3 +1,4 @@
+import {checkNavigation} from '../ui-smoke-helpers.mjs';
 // Run: node quizmo/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -20,14 +21,15 @@ try{
   const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']};
   console.log('Starting browser smoke test');
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
-  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
   await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
+  await checkNavigation(page);
   const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<56||r.height<56)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const sentinel='{"points":137,"levels":{"willa":4}}';
   await page.evaluate(value=>localStorage.setItem('nolan-games-v1',value),sentinel);
   await tap('#quizmoTab');
-  assert.equal(await page.$eval('#quizmoTab',e=>e.textContent),"Jasper's Quizmo");
+  assert.equal(await page.$eval('#quizmoTab',e=>e.textContent),"🧮 Quizmo");
   assert.equal(await page.$eval('#storiesTab',e=>e.getAttribute('aria-selected')),'false');
   assert.equal(await page.$$eval('section[aria-label="Math Adventures"] .quizmo-card',els=>els.length),10);
   const ids=await page.$$eval('section[aria-label="Math Adventures"] [data-game]',els=>els.map(e=>e.dataset.game));
@@ -46,7 +48,7 @@ try{
         await tap(`[data-game="${id}"]`);
         await tap('[data-q-action="check"]');
         const layout=await page.evaluate(()=>{
-          const selectors=['.quizmo-board h1','.quizmo-board h2','.quizmo-question>p','.quizmo-inputs','.quizmo-feedback','.quizmo-set','[data-clock]',...Array.from({length:10},(_,n)=>`[data-key="${n}"]`),'[data-key="clear"]','[data-key="erase"]','[data-q-action="check"]'];
+          const selectors=['.quizmo-game-heading h1','[data-q-action="restart"]','.quizmo-board h2','.quizmo-question>p','.quizmo-inputs','.quizmo-feedback','.quizmo-set','[data-clock]',...Array.from({length:10},(_,n)=>`[data-key="${n}"]`),'[data-key="clear"]','[data-key="erase"]','[data-q-action="check"]'];
           const boxes=selectors.flatMap(selector=>[...document.querySelectorAll('#quizmoView '+selector)].map(el=>{
             const r=el.getBoundingClientRect();
             return {selector,x:r.x,y:r.y,right:r.right,bottom:r.bottom,width:r.width,height:r.height};
@@ -135,6 +137,17 @@ try{
   await tap('[data-game="addition"]');
   assert.equal(await page.$eval('[data-level]',e=>Number(e.dataset.level)),8);
   assert.equal(await page.evaluate(()=>localStorage.getItem('nolan-games-v1')),sentinel);
+  // Restart after answering Q1: retain the active level, stars and earned points.
+  const prompt=await page.$eval('#quizmoView h2',e=>e.textContent);
+  for(const digit of String(solve(prompt)[0]))await tap(`[data-key="${digit}"]`);
+  await tap('[data-q-action="check"]');
+  assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Question 2/);
+  const beforeRestart=await page.evaluate(()=>localStorage.getItem('jasper-quizmo'));
+  await tap('[data-q-action="restart"]');
+  assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Level 8.*Question 1/);
+  assert.equal(await page.$eval('[data-input="0"]',e=>e.textContent),'?');
+  assert.equal(await page.evaluate(()=>localStorage.getItem('jasper-quizmo')),beforeRestart);
+  console.log('PASS math Restart level: Q2 → Q1, input cleared, stars/levels/points preserved');
   assert.deepEqual(errors,[]);
   console.log('PASS Quizmo: 10 games × 8 levels, 240 pointer-pad answers, hints, progression, timer, mouse, cancellation and isolated storage');
 }catch(error){console.error(error);process.exitCode=1;}finally{await browser?.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}

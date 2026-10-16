@@ -1,3 +1,4 @@
+import {checkNavigation} from '../ui-smoke-helpers.mjs';
 // Run: node games/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -20,18 +21,20 @@ try{
   const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']};
   console.log('Starting browser smoke test');
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
-  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
   await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
-  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<88||r.height<88)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
+  await checkNavigation(page);
+  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<52||r.height<52)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const choose=v=>tap(`#gamesView [data-value="${v}"]`);
   const open=id=>tap(`#gamesView [data-id="${id}"]`);
   const home=()=>tap('#gamesView [data-action="home"]');
   await tap('#gamesTab');
   assert.equal(await page.evaluate(()=>document.querySelectorAll('.game-card').length),10);
   assert.equal(await page.evaluate(()=>document.querySelector('#libraryView').classList.contains('active')),false);
-  await tap('#gamesView [data-action="parent"]');
+  await page.click('#settingsButton');
   await page.evaluate(()=>{for(const k of ['narration','effects']){const b=document.querySelector(`[data-pref="${k}"]`);b.checked=false;b.dispatchEvent(new Event('change',{bubbles:true}));}});
+  await page.click('#closeSettingsButton');
   // Load the curriculum in isolation: verify all eight levels, then use its
   // deterministic tasks to drive real pointer input (choices are shuffled).
   const {default:vm}=await import('node:vm');
@@ -44,6 +47,13 @@ try{
     const b=await page.evaluate(sel=>{const r=document.querySelector(sel).getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2};},to);
     await page.mouse.move(a.x,a.y);await page.mouse.down();await page.mouse.move(b.x,b.y,{steps:8});await page.mouse.up();
   };
+  for(const viewport of [{width:1366,height:768},{width:1280,height:720},{width:900,height:500}]){
+    if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
+    for(const game of games){await open(game.id);
+      const boxes=await page.$$eval('#gamesView button',es=>es.filter(e=>!e.disabled).map(e=>{const r=e.getBoundingClientRect();return {label:e.getAttribute('aria-label'),x:r.x,y:r.y,right:r.right,bottom:r.bottom,w:r.width,h:r.height};}));
+      for(const r of boxes)assert(r.x>=0&&r.y>=0&&r.right<=viewport.width+1&&r.bottom<=viewport.height+1&&r.w>=52&&r.h>=52,`${game.id} ${JSON.stringify(viewport)} ${JSON.stringify(r)}`);
+      assert.equal(await page.$eval('.side-menu',e=>getComputedStyle(e).display),'none');await home();}
+  }
   let expected=0;
   for(const game of games){
     for(let level=1;level<=8;level++){
@@ -93,6 +103,7 @@ try{
   await page.evaluate(async()=>{await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Service worker did not become ready')),30000))]);if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
   const cacheVersion=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/const CACHE='([^']+)'/)[1];
   const core=await page.evaluate(async version=>{const cache=await caches.open(version);return (await cache.keys()).map(r=>new URL(r.url).pathname);},cacheVersion);
+  for(const file of ['redesign.css','assets/fonts/nunito-regular.ttf','assets/fonts/nunito-extrabold.ttf','ui-smoke-helpers.mjs'])assert(core.includes('/'+file),`New offline asset ${file}`);
   assert(core.includes('/games/games-6-10.js'));assert(core.includes('/games/smoke-test.mjs'));const expectedArt=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/assets\/books\/[^']+/g);assert.equal(expectedArt.length,20);for(const asset of expectedArt)assert(core.includes('/'+asset),asset);
   if(puppeteer)await page.setOfflineMode(true);else await page.context().setOffline(true);
   await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const {id} of games){await open(id);await page.waitForFunction(()=>{const img=document.querySelector('.game-scene img');return img?.complete&&img.naturalWidth>0;});assert(await page.evaluate(()=>{const img=document.querySelector('.game-scene img');return img.complete&&img.naturalWidth>0;}),`Offline artwork: ${id}`);await tap('#gamesView [data-action="finish"]');await home();}

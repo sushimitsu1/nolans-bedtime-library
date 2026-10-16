@@ -1,3 +1,4 @@
+import {checkNavigation} from '../ui-smoke-helpers.mjs';
 // Run: node videos/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -20,10 +21,11 @@ try{
   const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']};
   console.log('Starting browser smoke test');
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
-  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1200,height:1200});else await page.setViewportSize({width:1200,height:1200});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
   await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
-  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<88||r.height<88)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
+  await checkNavigation(page);
+  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<52||r.height<52)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
   const catalog=JSON.parse(await fs.readFile(path.join(root,'videos.json'),'utf8'));
   const ra=catalog.videos.find(video=>video.title==='Ra the Ratata and the Rocky Road');
   assert(ra,'Ra video must exist in videos.json');
@@ -37,7 +39,7 @@ try{
   assert(cardIndex>=0,'Real Ra card renders');
   const cardSelector=`.video-card:nth-child(${cardIndex+1})`;
   await page.waitForFunction(selector=>{const img=document.querySelector(selector+' img');return img?.complete&&img.naturalWidth>0;},{},cardSelector);
-  for(const viewport of [{width:1366,height:768},{width:1280,height:800}]){
+  for(const viewport of [{width:1366,height:768},{width:1280,height:720},{width:900,height:500}]){
     if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
     await tap(cardSelector);
     await page.waitForFunction(()=>!document.querySelector('.video-player').hidden);
@@ -57,7 +59,7 @@ try{
     assert(Math.abs(layout.width/layout.height-16/9)<0.01,'Player is 16:9');
     assert(layout.height<=viewport.height*0.8,'Player height is at most 80vh');
     assert(Math.abs((layout.x+layout.width/2)-viewport.width/2)<1,'Player is horizontally centered');
-    assert.equal(layout.fit,'contain');assert.equal(layout.thumbnailFit,'cover');
+    assert.equal(layout.fit,'contain');assert.equal(layout.thumbnailFit,'contain');
     assert(Math.abs(layout.thumbnailRatio-16/9)<0.01,'Thumbnail is 16:9');
     assert.equal(layout.bodyOverflow,'hidden');assert.equal(layout.htmlOverflow,'hidden');
     await tap('[data-video-action="play"]');

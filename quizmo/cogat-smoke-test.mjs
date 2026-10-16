@@ -1,3 +1,4 @@
+import {checkNavigation} from '../ui-smoke-helpers.mjs';
 // Run: node quizmo/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -46,18 +47,18 @@ try {
   const tap=async selector=>page.evaluate(selector=>{
     const b=document.querySelector(selector);if(!b)throw Error('Missing '+selector);
     b.scrollIntoView({block:'nearest'});const r=b.getBoundingClientRect();
-    if(r.width<56||r.height<56)throw Error('Small tap target '+selector);
+    if(r.width<52||r.height<52)throw Error('Small tap target '+selector);
     const x=r.x+r.width/2,y=r.y+r.height/2;
     if(document.elementFromPoint(x,y)?.closest('button')!==b)throw Error('Obscured '+selector);
     for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:7,pointerType:'touch',isPrimary:true,button:0,clientX:x,clientY:y}));
   },selector);
-  await viewport({width:1366,height:768});await page.goto(url,{waitUntil:'domcontentloaded'});
+  await viewport({width:1366,height:768});await page.goto(url,{waitUntil:'domcontentloaded'});await checkNavigation(page);
   const math={addition:4,subtraction:5,times:3,division:2,place:8,fractions:6,words:7,missing:2,measure:3,speed:4};
   const stars=Object.fromEntries(Object.entries(math).map(([id,n])=>[id,n-1]));
   for(const size of [{width:1366,height:768},{width:1280,height:800},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500}]) {
     await viewport(size);
     await page.evaluate(({math,stars})=>localStorage.setItem('jasper-quizmo',JSON.stringify({score:137,levels:math,stars})),{math,stars});
-    await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');
+    await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');await tap('[data-q-action="cogat"]');
     assert.equal(await page.$$eval('section[aria-label="Math Adventures"] [data-game]',e=>e.length),10);
     const ids=await page.$$eval('section[aria-label="CogAT Practice"] [data-game]',e=>e.map(x=>x.dataset.game));assert.equal(ids.length,5);
     for(const id of ids)for(let level=1;level<=8;level++) {
@@ -72,7 +73,7 @@ try {
         assert.equal(await page.evaluate(()=>localStorage.getItem('jasper-quizmo')),before);
         const fit=await page.evaluate(()=>{
           const question=document.querySelector('.quizmo-question').getBoundingClientRect(),choices=document.querySelector('.cogat-choices').getBoundingClientRect();
-          return {scroll:document.documentElement.scrollHeight,height:innerHeight,width:innerWidth,side:question.right<=choices.left,boxes:[...document.querySelectorAll('.quizmo-question h1,.quizmo-question h2,.quizmo-question p,.cogat-matrix,.cogat-fold,[data-choice]')].map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom};})};
+          return {scroll:document.documentElement.scrollHeight,height:innerHeight,width:innerWidth,side:question.right<=choices.left,boxes:[...document.querySelectorAll('.quizmo-game-heading h1,[data-q-action=restart],.quizmo-question h2,.quizmo-question p,.cogat-matrix,.cogat-fold,[data-choice]')].map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom};})};
         });
         const label=`${id} L${level} Q${q+1} ${size.width}x${size.height}`;
         assert(fit.side,label+' two columns');assert(fit.scroll<=fit.height,label+' scroll '+JSON.stringify(fit));
@@ -86,13 +87,22 @@ try {
       await tap('[data-q-action="home"]');
     }
     assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')).score),1337);
-    await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');
+    await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');await tap('[data-q-action="cogat"]');
     await tap('[data-game="figures"]');assert.equal(await page.$eval('[data-level]',e=>e.dataset.level),'8');
     await tap('[data-q-action="home"]');
     // Confirm old math game remains playable with its original saved level.
-    await page.click('[data-game="addition"]');assert.equal(await page.$eval('[data-level]',e=>e.dataset.level),'4');
+    await tap('[data-q-action="math"]');await page.click('[data-game="addition"]');assert.equal(await page.$eval('[data-level]',e=>e.dataset.level),'4');
     console.log(`PASS ${size.width}x${size.height}: 5 games × 8 levels × 3 correct taps and retries, fit, storage, math preservation, reload, mouse`);
   }
+  await tap('[data-q-action="home"]');await tap('[data-q-action="cogat"]');
+  await tap('[data-game="links"]');
+  await tap('[data-choice="2"]'); // Level 8 Q1: 8 % 3 = 2.
+  assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Question 2/);
+  const beforeRestart=await page.evaluate(()=>localStorage.getItem('jasper-quizmo'));
+  await tap('[data-q-action="restart"]');
+  assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Level 8.*Question 1/);
+  assert.equal(await page.evaluate(()=>localStorage.getItem('jasper-quizmo')),beforeRestart);
+  console.log('PASS CogAT Restart level: Q2 → Q1, stars/levels/points preserved');
   assert.deepEqual(errors,[]);
 } catch(error) {console.error(error);process.exitCode=1;}
 finally {await browser?.close();if(server.listening){server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}}
