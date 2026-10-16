@@ -3680,7 +3680,7 @@ function renderCategoryCounts(){
 }
 
 function renderLibrary(){
-  const last = stories.find(s=>s.id===localStorage.getItem('nolan:lastStory')) || [...stories].reverse().find(s=>localStorage.getItem(`progress:${s.id}`)!==null);
+  const last = stories.find(s=>s.id===localStorage.getItem('nolan:lastStory') && localStorage.getItem(`progress:${s.id}`)!==null) || Array.from({length:localStorage.length},(_,i)=>localStorage.key(i)).reverse().filter(k=>k.startsWith('progress:')).map(k=>stories.find(s=>`progress:${s.id}`===k)).find(Boolean);
   const strip=$('keepReading'); strip.hidden=!last;
   if(last){const page=Math.max(0,Number(localStorage.getItem(`progress:${last.id}`))||0);strip.innerHTML=`<img src="${last.cover}" alt=""><div><small>KEEP READING</small><strong>${last.title}</strong><span>Page ${page+1} of 15</span></div><button type="button">▶ Continue</button>`;strip.querySelector('button').onclick=()=>openStory(last.id);}
   const chips=document.querySelector('.category-tabs');chips.insertBefore(chips.querySelector('[data-category="favorites"]'),chips.children[1]);
@@ -3713,7 +3713,7 @@ function renderLibrary(){
 }
 
 function getProgressLabel(story){
-  const saved = Number(localStorage.getItem(`progress:${story.id}`));
+  const saved = Number(localStorage.getItem(`progress:${story.id}`) ?? NaN);
   return Number.isFinite(saved) && saved>=0 && saved<story.pages.length ? `Continue from page ${saved+1}` : 'Read tonight';
 }
 
@@ -3724,7 +3724,7 @@ function openStory(id){
   if($('libraryView').classList.contains('active')) libraryScrollY=window.scrollY;
   activeStory = story;
   localStorage.setItem("nolan:lastStory",id);
-  const saved = Number(localStorage.getItem(`progress:${id}`));
+  const saved = Number(localStorage.getItem(`progress:${id}`) ?? NaN);
   currentPage = Number.isFinite(saved) && saved>=0 && saved<activeStory.pages.length ? saved : -1;
   $('readerTitle').textContent = activeStory.title;
   showView('reader');
@@ -3944,3 +3944,5 @@ restoreTimer();
 updateNarrationControls();
 if(speechSupported) selectNarrationVoiceFromAvailable();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
+
+document.getElementById('grownupNarrator').append(document.getElementById('narratorControl'));

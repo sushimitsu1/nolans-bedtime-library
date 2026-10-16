@@ -36,9 +36,11 @@
   function button(icon, label, action, extra='') { return `<button type="button" aria-label="${label}" data-action="${action}" ${extra}>${icon}</button>`; }
   function token(value, icon, label=value, extra='') { return button(icon, label, 'choice', `class="game-token" data-value="${value}" ${extra}`); }
   function tools() {return `<div class="game-tools">${button('🏠','Games home','home')}${button('🔊','Repeat instruction or sound','repeat')}${button(prefs.narration||prefs.effects?'🔈':'🔇','Toggle sound','sound')}${button('🌙','Finish peacefully','finish')}</div>`;}
+  let filter="All";
+  const category=g=>["hazel","coby","cora","bramble","aster","saffy"].includes(g.id)?"Counting":g.id==="nova"?"Patterns":"Letters";
   function home() {
     leave(); active=null; state=null;
-    root.innerHTML=`<div class="hub-heading"><div><h1>Games</h1><p>Learn with a sleepy friend · ages 3–5</p></div><span>⭐ ${Math.floor(prefs.points/5)} stars</span></div><div class="game-grid">${games.map(g=>`<button type="button" class="game-card" data-action="open" data-id="${g.id}" aria-label="${g.title}"><img src="${g.art}" alt="${g.friend}"><span>${g.icon} ${g.title}</span><small>⭐ Level ${level(g.id)} / 8</small></button>`).join('')}</div>`;
+    root.innerHTML=`<div class="hub-heading"><div><h1>Games</h1><p>Learn with a sleepy friend · ages 3–5</p></div><span>⭐ ${Math.floor(prefs.points/5)} stars</span></div><div class="game-filters">${['All','Counting','Patterns','Letters'].map(c=>`<button type="button" data-action="filter" data-filter="${c}" aria-pressed="${filter===c}">${c} <small>${games.filter(g=>c==='All'||category(g)===c).length}</small></button>`).join('')}</div><div class="game-grid">${games.filter(g=>filter==='All'||category(g)===filter).map(g=>`<button type="button" class="game-card" data-action="open" data-id="${g.id}" aria-label="${g.title}"><img src="${g.art}" alt="${g.friend}"><span>${g.icon} ${g.title}</span><small>⭐ Level ${level(g.id)} / 8</small></button>`).join('')}</div>`;
   }
   function parent() {
     const panel=document.getElementById('grownupGameSettings'); if(!panel) return; panel.hidden=false;
@@ -68,7 +70,10 @@
     render();say(result.message||active.prompt(state));if(result.advance&&active.listen)active.listen(state,sound);
   }
   function leave(){if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}
-  function dispatch(b){switch(b.dataset.action){case 'next':open(active.id);break;case 'open':open(b.dataset.id);break;case 'choice':choose(b.dataset.value);break;case 'home':home();break;case 'repeat':repeat();break;case 'finish':finish();break;case 'sound':prefs.narration=!(prefs.narration||prefs.effects);prefs.effects=prefs.narration;save();leave();render();break;case 'parent':parent();break;}}
+  function dispatch(b){switch(b.dataset.action){case 'filter':filter=b.dataset.filter;home();break;case 'next':open(active.id);break;case 'open':open(b.dataset.id);break;case 'choice':choose(b.dataset.value);break;case 'home':home();break;case 'repeat':repeat();break;case 'finish':finish();break;case 'sound':prefs.narration=!(prefs.narration||prefs.effects);prefs.effects=prefs.narration;save();leave();render();break;case 'parent':parent();break;}}
+  root.addEventListener('click',e=>{if(e.detail===0){const b=e.target.closest('button');if(b)dispatch(b);}});
+  document.getElementById('gamesTab').addEventListener('click',e=>{if(e.detail===0){showView('games');home();}});
+  document.getElementById('storiesTab').addEventListener('click',e=>{if(e.detail===0){showView('library');renderLibrary();}});
   // A tap must end on the same button; scrolling and cancelled touches never choose.
   root.addEventListener('pointerdown',e=>{if(e.isPrimary===false||e.button>0)return;const b=e.target.closest('button');if(b&&!b.disabled){down={b,x:e.clientX,y:e.clientY,id:e.pointerId};if(b.dataset.drag){if(e.isTrusted)b.setPointerCapture(e.pointerId);b.classList.add('dragging');}}});
   root.addEventListener('pointermove',e=>{if(down?.id===e.pointerId&&down.b.dataset.drag){down.b.style.transform=`translate(${e.clientX-down.x}px,${e.clientY-down.y}px)`;}});

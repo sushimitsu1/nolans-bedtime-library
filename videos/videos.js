@@ -52,8 +52,11 @@
         grid.append(card);
       }
       if (!grid.children.length) { empty(); return; }
-      const heading = document.createElement('h1'); heading.textContent = 'Pick a cozy video';
-      root.replaceChildren(heading, grid);
+      const heading = document.createElement('h1'); heading.textContent = 'Videos';
+      const header=document.createElement('div');header.className='hub-heading';
+      const title=document.createElement('div');title.append(heading);const sub=document.createElement('p');sub.textContent='Cozy vehicle videos · grown-ups set the timer';title.append(sub);
+      const timer=document.createElement('button');timer.className='video-timer';timer.textContent='⏱ Set video timer';timer.onclick=()=>document.getElementById('settingsButton').click();header.append(title,timer);
+      root.replaceChildren(header, grid);
     } catch { loaded = false; empty(true); }
   }
   // Pointer taps support touch and mouse; scrolling/cancellation never activates.
