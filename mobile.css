@@ -1,0 +1,96 @@
+.mobile-tabs,.mobile-search-toggle{display:none}
+/* Phone landscape is deliberately bounded below the 900x500 laptop layout. */
+@media(max-width:700px),(max-width:900px) and (max-height:450px){
+ :root{--mobile-bar:calc(64px + env(safe-area-inset-bottom,0px))}
+ .side-menu{display:none!important}
+ body{min-width:0}
+ main,body:has(#quizmoView.active) main{margin:0;width:100%;padding-bottom:var(--mobile-bar);min-height:100dvh}
+ .mobile-tabs{position:fixed;inset:auto 0 0;z-index:30;display:flex;background:#17324D;padding:4px max(4px,env(safe-area-inset-right)) calc(4px + env(safe-area-inset-bottom,0px)) max(4px,env(safe-area-inset-left));height:var(--mobile-bar);gap:2px}
+ .mobile-tabs .main-tabs{display:contents}
+ .mobile-tabs .kid-label{display:none}
+ .mobile-tabs button,.mobile-tabs #settingsButton{flex:1;min-width:0;min-height:52px;margin:0;padding:4px 1px;border:0;border-radius:12px;color:white;background:transparent;text-align:center;font-size:11px;line-height:1.3}
+ .mobile-tabs button[aria-selected=true]{background:var(--cream);color:var(--ink)}
+ #libraryView,#gamesView,#videosView,#quizmoView{padding:12px}
+ .hero{min-height:52px;gap:6px;margin-bottom:12px;position:relative;flex-wrap:wrap}
+ .hero .page-heading{flex:1;min-width:0}
+ .hero h1{font-size:21px;white-space:nowrap;margin:0}
+ .hero p{display:none}
+ .mobile-search-toggle{display:block;width:48px;min-height:52px;padding:0;border:1px solid var(--line);background:white;border-radius:16px;font-size:28px}
+ .hero .surprise-button{width:48px;min-height:52px;padding:0;font-size:0}
+ .surprise-button:before{content:'✨';font-size:23px}
+ .hero .search-box{display:none;width:100%;min-height:52px;order:5}
+ .hero .search-box.expanded{display:flex}
+ .category-tabs{gap:8px;flex-wrap:nowrap}
+ .category-tab{min-height:48px}
+ .story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .story-card{padding:7px;border-radius:14px;min-width:0}
+ .story-info h3{font-size:14px;line-height:1.3;min-height:36px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:break-word}
+ .card-actions{gap:4px;flex-wrap:wrap}
+ .card-actions button{min-height:48px;min-width:48px;padding:4px;font-size:12px}
+ .favorite-button{flex:1}
+ #keepReading{padding:8px;gap:8px;margin-bottom:12px;border-radius:14px}
+ #keepReading img{width:64px;height:48px}
+ #keepReading div{min-width:0;font-size:12px}
+ #keepReading strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ #keepReading span{font-size:11px}
+ #keepReading button{padding:0 10px;min-height:52px;font-size:12px}
+ .hub-heading{gap:8px;min-height:60px;flex-wrap:wrap}
+ .hub-heading h1,#videosView h1{font-size:24px;margin:0}
+ .hub-heading>p,.hub-heading>span{padding:10px;font-size:13px}
+ .game-grid,.quizmo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .game-filters{white-space:nowrap}.game-filters button{flex-shrink:0}
+ #quizmoView .quizmo-card{min-height:190px;padding:12px}
+ .quizmo-segments{max-width:100%}
+ #quizmoView .quizmo-segments button{padding:0 16px}
+ .video-grid{width:100%}
+ .video-card{font-size:18px}
+ body:has(#readerView.active) main,body:has(#gamesView.active [data-level]) main,body:has(#quizmoView.active .quizmo-tools) main{height:100dvh;padding-bottom:var(--mobile-bar)}
+ .reader-view.active,#gamesView:has([data-level]),#quizmoView.active:has(.quizmo-tools){height:calc(100dvh - var(--mobile-bar));padding:8px;gap:6px}
+ .reader-topbar{gap:4px;min-height:52px}
+ .reader-topbar button{padding:4px 8px;font-size:13px;flex-shrink:0}
+ .reader-title-wrap{min-width:0}.reader-title-wrap strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+ .reader-controls{gap:8px;min-height:48px}
+ .reader-controls button,.narration-actions button{min-height:48px;padding:4px 8px;font-size:12px}
+ .narration-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+ .narration-feedback{font-size:10px}.page-overlay{width:48px;min-height:52px}
+ .quizmo-tools{display:grid;grid-template-columns:auto 1fr auto;gap:6px}
+ .quizmo-game-heading{grid-column:2;grid-row:1;min-width:0}
+ .quizmo-game-heading h1{font-size:16px}.quizmo-game-heading p{font-size:11px}
+ #quizmoView .quizmo-tools button{padding:4px 8px;font-size:13px;min-height:52px}
+ .quizmo-tools .restart-level{grid-column:3;grid-row:1}
+ .question-dots{display:none}.round-stars{grid-column:1/-1;justify-self:center;padding:2px 10px;font-size:12px}
+ #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(110px,1fr) auto;flex:1;gap:8px;min-height:0}
+ .quizmo-question{padding:10px;border-radius:16px;gap:6px}
+ #quizmoView .quizmo-question h2{font-size:25px}
+ #quizmoView .quizmo-feedback{min-height:24px;font-size:15px}
+ .quizmo-controls{grid-template-rows:auto auto;gap:6px}
+ #quizmoView .quizmo-pad{grid-template-rows:repeat(4,52px);min-height:0;gap:4px}
+ #quizmoView:has([data-level]) button{min-height:52px;min-width:48px}
+ .cogat-choices{grid-auto-rows:64px;gap:6px}.cogat-choices svg{max-height:52px}
+ .cogat-fold svg{width:64px;height:64px}
+ #gamesView .game-tools{gap:6px;flex-wrap:nowrap}
+ #gamesView .game-tools button{min-width:48px;min-height:52px;padding:4px;font-size:20px!important}
+ #gamesView .game-token{min-width:52px;min-height:52px;font-size:26px;padding:6px}
+ .game-choices,.game-slots{gap:6px;margin:6px 0}
+ .game-scene img{max-height:100px}.game-cue{font-size:24px;gap:6px;padding:6px;margin:6px 0}
+ .game-instruction{font-size:15px;margin-top:6px}
+ .settings-card{width:calc(100% - 16px);max-height:calc(100dvh - 24px);padding:16px}
+ .setting-row{gap:8px}.settings-heading h2{font-size:22px}
+ .video-player{gap:6px;padding:8px max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom))}
+ .video-player video{max-height:calc(100dvh - 156px);width:min(100%,calc((100dvh - 156px)*16/9))}
+}
+@media(max-width:900px) and (max-height:450px){
+ :root{--mobile-bar:calc(56px + env(safe-area-inset-bottom,0px))}
+ .mobile-tabs{padding-top:2px;padding-bottom:calc(2px + env(safe-area-inset-bottom,0px))}
+ .view.reader-view.active{display:grid;grid-template-columns:minmax(0,1fr) 230px;grid-template-rows:52px minmax(0,1fr) 48px}
+ .reader-topbar{grid-column:1/-1}.book-stage{grid-column:1;grid-row:2/4;height:100%}.reader-controls{grid-column:2;grid-row:3;grid-template-columns:1fr 1fr}.reader-controls .progress-track{display:none}.narration-panel{grid-column:2;grid-row:2;align-self:center}.narration-feedback{display:none}
+ #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);grid-template-rows:minmax(0,1fr)}
+ .quizmo-tools{display:flex}.round-stars{margin-left:auto}.quizmo-game-heading{margin-right:auto}
+ #quizmoView .quizmo-pad{grid-template-rows:repeat(4,48px);gap:3px}
+ #quizmoView .quizmo-pad button{min-height:48px;font-size:22px}
+ #quizmoView .quizmo-check{min-height:52px}
+ .quizmo-controls{gap:3px}.quizmo-question{padding:6px}
+ #quizmoView.active:has(.quizmo-tools){gap:4px;padding:6px}
+ #gamesView:has([data-level]) .game-board{display:grid;grid-template-columns:180px 1fr;column-gap:12px;align-items:center}
+ .game-scene{grid-column:1;grid-row:1/4;width:100%}.game-scene img{max-height:150px}.game-instruction,.game-cue,.game-choices,.game-slots{grid-column:2}
+}
