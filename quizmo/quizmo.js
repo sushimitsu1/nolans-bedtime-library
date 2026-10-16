@@ -47,9 +47,10 @@
   let active, task, inputs, field=0, count=0, done=false, timer, deadline, down;
   const button=(text,action,extra='')=>`<button type="button" data-q-action="${action}" ${extra}>${text}</button>`;
   function leave() { clearInterval(timer); timer=null; down=null; }
+  let section="Math Adventures";
   function home() {
     leave(); active=null;
-    root.innerHTML=`<h1>Jasper's Quizmo</h1><p>Big ideas, little steps. Choose a practice adventure.</p><p>⭐ ${Object.values(progress.stars).reduce((a,b)=>a+b,0)} stars · ${progress.score} points</p>${[ ['Math Adventures',mathGames], ['CogAT Practice',window.QuizmoCogat.games] ].map(([title,list])=>`<section aria-label="${title}"><h2>${title}</h2>${title==='CogAT Practice'?'<p>Original reasoning games · 8 levels each</p>':''}<div class="quizmo-grid">${list.map(([id,name,skill])=>button(`<strong>${name}</strong><span>${skill}</span><small>Level ${progress.levels[id]} / 8 · ⭐ ${progress.stars[id]}</small>`,'open',`class="quizmo-card" data-game="${id}"`)).join('')}</div></section>`).join('')}`;
+    root.innerHTML=`<div class="hub-heading"><div><h1>Jasper's Quizmo</h1><p>Math + CogAT practice · ages 7–9</p></div><p>⭐ ${Object.values(progress.stars).reduce((a,b)=>a+b,0)} stars · ${progress.score} points</p></div><div class="quizmo-segments">${["Math Adventures","CogAT Practice"].map(t=>button(t,t=== "Math Adventures"?"math":"cogat",`aria-pressed="${section===t}"`)).join('')}</div>${[ ['Math Adventures',mathGames], ['CogAT Practice',window.QuizmoCogat.games] ].map(([title,list])=>`<section aria-label="${title}" ${section===title?'':'hidden'}><h2>${title}</h2>${title==='CogAT Practice'?'<p>Original reasoning games · 8 levels each</p>':''}<div class="quizmo-grid">${list.map(([id,name,skill])=>button(`<strong>${name}</strong><span>${skill}</span><small>Level ${progress.levels[id]} / 8 · ⭐ ${progress.stars[id]}</small>`,'open',`class="quizmo-card" data-game="${id}"`)).join('')}</div></section>`).join('')}`;
   }
   function open(id) {
     leave(); active=games.find(g=>g[0]===id); count=0; done=false;
@@ -59,18 +60,20 @@
   function next() { task=isCogat(active[0])?window.QuizmoCogat.question(active[0],progress.levels[active[0]],count):question(active[0],progress.levels[active[0]]); inputs=(task.answers||[]).map(()=>'');field=0;render(); }
   function render() {
     if(isCogat(active[0])) {
-      root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}</div><div class="quizmo-board cogat-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p><h2>${task.prompt}</h2>${task.visual||''}<p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
+      root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}${button('Restart level','restart','class="restart-level"')}</div><div class="quizmo-board cogat-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p><h2>${task.prompt}</h2>${task.visual||''}<p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
       return;
     }
-    root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}</div><div class="quizmo-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p>${active[0]==='speed'?'<p data-clock role="timer">Gentle timed round</p>':''}<h2>${task.prompt}</h2>${task.visual||''}<div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
+    root.innerHTML=`<div class="quizmo-tools">${button('← Quizmo','home')}${button('Restart level','restart','class="restart-level"')}</div><div class="quizmo-board" data-level="${progress.levels[active[0]]}"><div class="quizmo-question"><h1>${active[1]}</h1><p>Level ${progress.levels[active[0]]} / 8 · Question ${count+1} / 3</p>${active[0]==='speed'?'<p data-clock role="timer">Gentle timed round</p>':''}<h2>${task.prompt}</h2>${task.visual||''}<div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
   }
   function finish(completed) {
     if(done)return; done=true; leave();
     if(completed) { const id=active[0], l=progress.levels[id];progress.stars[id]=Math.max(progress.stars[id],l);progress.levels[id]=Math.min(8,l+1);save(); }
-    root.innerHTML=`<div class="quizmo-board"><h1>${completed?'⭐ Level complete!':'✨ Lovely practice!'}</h1><p>${completed?'Your next challenge is ready.':'The timer is resting. Every answer was useful practice. Try again whenever you like.'}</p>${button('Play next round','again')}${button('← Quizmo','home')}</div>`;
+    root.innerHTML=`<div class="quizmo-board"><h1>${completed?'⭐ Level complete!':'✨ Lovely practice!'}</h1><p>${completed?'Your next challenge is ready.':'The timer is resting. Every answer was useful practice. Try again whenever you like.'}</p>${button('Play next round','again')}${button('← Quizmo','home')}${button('Restart level','restart','class="restart-level"')}</div>`;
   }
   function dispatch(b) {
     const action=b.dataset.qAction;
+    if(action==='math'||action==='cogat'){section=action==='math'?'Math Adventures':'CogAT Practice';return home();}
+    if(action==='restart')return open(active[0]);
     if(action==='open')return open(b.dataset.game);
     if(action==='home')return home();
     if(action==='again')return open(active[0]);
