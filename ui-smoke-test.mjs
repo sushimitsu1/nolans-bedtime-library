@@ -25,7 +25,34 @@ try{
   }
  }
  await page.setViewport({width:1366,height:768});await page.click('#backButton');await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})));});
+ await fs.mkdir('/workspace/ui-audit',{recursive:true});
  const shot=async n=>{await new Promise(r=>setTimeout(r,150));await page.screenshot({path:`/workspace/ui-audit/live-${n}.png`});};
- await shot('stories');await page.click('#keepReading button');await shot('reader');await page.click('#backButton');await page.click('#gamesTab');await shot('games');await page.click('.game-card');await shot('nolan-game');await page.click('[data-action="home"]');await page.click('#videosTab');await page.waitForSelector('.video-card');await shot('videos');await page.click('#quizmoTab');await shot('quizmo-math');await page.click('[data-q-action="cogat"]');await shot('quizmo-cogat');await page.click('[data-q-action="math"]');await page.click('[data-game="addition"]');await shot('quizmo-game');await page.setViewport({width:900,height:500});await shot('quizmo-game-900');assert.deepEqual(errors,[]);
- console.log('PASS UI: three landscape sizes, grouped navigation, 100 real stories, Keep reading, cover/Page 1/Page 15, focus mode, nine screenshots');
+ await shot('stories');await page.click('#keepReading button');await shot('reader');await page.click('#backButton');await page.click('#gamesTab');await shot('games');await page.click('.game-card');await shot('nolan-game');await page.click('[data-action="home"]');await page.click('#videosTab');await page.waitForSelector('.video-card');await shot('videos');await page.click('#quizmoTab');await shot('quizmo-math');await page.click('[data-q-action="cogat"]');await shot('quizmo-cogat');await page.click('[data-q-action="math"]');await page.click('[data-game="addition"]');await shot('quizmo-game');await page.setViewport({width:900,height:500});await shot('quizmo-game-900');
+ for(const size of [{width:390,height:844},{width:375,height:667},{width:844,height:390}]){
+  await page.setViewport(size);
+  await page.click('[data-q-action="home"]');await page.click('#storiesTab');
+  const suffix=`${size.width}x${size.height}`;
+  const mobileShot=async name=>{await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:`/workspace/ui-audit/mobile-${name}-${suffix}.png`});};
+  const noOverflow=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow ${suffix}`);
+  const visible=async selector=>assert(await page.$eval(selector,e=>{const r=e.getBoundingClientRect();const bar=document.querySelector('.mobile-tabs').getBoundingClientRect();return r.width>0&&r.height>0&&r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=bar.top+1;}),`Clipped ${selector} ${suffix}`);
+  assert(await page.$eval('.side-menu',e=>getComputedStyle(e).display==='none'));
+  assert(await page.$eval('.mobile-tabs',e=>getComputedStyle(e).display!=='none'));
+  if(size.width<=700)assert.equal(await page.$eval('.story-grid',e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),2);
+  await noOverflow();await mobileShot('stories');
+  await page.click('#settingsButton');assert(await page.$eval('#settingsPanel',e=>!e.hidden));await page.waitForSelector('#fullscreenButton');await page.click('#closeSettingsButton');
+  await page.click('.read-button');
+  for(const n of [0,14]){await page.evaluate(({id,n})=>{localStorage.setItem(`progress:${id}`,n);openStory(id);},{id,n});await page.waitForFunction(()=>{const i=document.getElementById('pageImage');return i.complete&&i.naturalWidth>0;});for(const sel of ['#pageImage','#backButton','#nextButton','#readPageButton'])await visible(sel);await noOverflow();}
+  await mobileShot('reader');await page.click('#storiesTab');await page.click('#gamesTab');await noOverflow();if(size.width===390)await mobileShot('games');
+  await page.click('.game-card');await noOverflow();await visible('.game-tools button');await page.click('[data-action="home"]');
+  await page.click('#videosTab');await page.waitForSelector('.video-card');await noOverflow();if(size.width===390)await mobileShot('videos');
+  await page.click('#quizmoTab');await noOverflow();if(size.width===390)await mobileShot('quizmo-hub');
+  await page.click('[data-game="addition"]');await noOverflow();await visible('.quizmo-pad');await visible('.quizmo-check');await visible('.restart-level');assert(await page.$eval('.restart-level',e=>e.getBoundingClientRect().height>=52));await mobileShot('quizmo-game');
+  await page.click('[data-q-action="home"]');
+  for(const game of await page.$$eval('section[aria-label="Math Adventures"] [data-game]',es=>es.map(e=>e.dataset.game))){await page.click(`[data-game="${game}"]`);await noOverflow();await visible('.quizmo-pad');await visible('.quizmo-check');await visible('.restart-level');await page.click('[data-q-action="home"]');}
+  await page.click('[data-q-action="cogat"]');
+  for(const game of await page.$$eval('section[aria-label="CogAT Practice"] [data-game]',es=>es.map(e=>e.dataset.game))){await page.click(`[data-game="${game}"]`);await noOverflow();await visible('.cogat-choices');await visible('.restart-level');await page.click('[data-q-action="home"]');}
+  await page.click('[data-q-action="math"]');await page.click('[data-game="addition"]');
+ }
+ assert.deepEqual(errors,[]);
+ console.log('PASS UI: three landscape sizes, grouped navigation, 100 real stories, Keep reading, cover/Page 1/Page 15, focus mode, mobile portrait/landscape math + CogAT, mobile screenshots');
 }finally{await browser?.close();server.closeAllConnections();await new Promise(r=>server.close(r));}
