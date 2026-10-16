@@ -29,8 +29,8 @@ try{
   await tap('#quizmoTab');
   assert.equal(await page.$eval('#quizmoTab',e=>e.textContent),"Jasper's Quizmo");
   assert.equal(await page.$eval('#storiesTab',e=>e.getAttribute('aria-selected')),'false');
-  assert.equal(await page.$$eval('.quizmo-card',els=>els.length),10);
-  const ids=await page.$$eval('[data-game]',els=>els.map(e=>e.dataset.game));
+  assert.equal(await page.$$eval('section[aria-label="Math Adventures"] .quizmo-card',els=>els.length),10);
+  const ids=await page.$$eval('section[aria-label="Math Adventures"] [data-game]',els=>els.map(e=>e.dataset.game));
   // Exercise every game and level at laptop sizes, including retry hints and
   // maximum operands/lantern sets. Reload afterwards to preserve progression checks.
   for(const viewport of [{width:1280,height:800},{width:1366,height:768},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500}]) {
