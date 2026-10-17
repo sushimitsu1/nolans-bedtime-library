@@ -1,4 +1,4 @@
-.main-tabs{flex-wrap:wrap}#quizmoView{padding:24px clamp(16px,4vw,52px) 48px}#quizmoView button{min-width:88px;min-height:88px;border:2px solid #bad7e7;border-radius:24px;background:#fff9ed;color:#264a61;font:inherit;font-weight:800;touch-action:manipulation;cursor:pointer;padding:16px}#quizmoView button:focus-visible{outline:4px solid #327ab0;outline-offset:3px}.quizmo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.quizmo-card{display:flex;flex-direction:column;gap:12px;text-align:left}.quizmo-card strong{font-size:24px}.quizmo-card span{font-weight:400}.quizmo-board{max-width:760px;margin:20px auto;text-align:center;padding:24px;border-radius:28px;background:#edf6fa}.quizmo-board h2{font-size:clamp(24px,4vw,36px);line-height:1.4}.quizmo-inputs{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}#quizmoView [aria-pressed=true]{border:4px solid #327ab0;background:#d6effb}.quizmo-feedback{min-height:56px;font-size:20px}.quizmo-pad{display:grid;grid-template-columns:repeat(3,minmax(88px,1fr));gap:12px;max-width:430px;margin:20px auto}#quizmoView .quizmo-pad button{font-size:26px}#quizmoView .quizmo-check{background:#d6effb;width:min(100%,430px)}.quizmo-set{max-width:500px;margin:auto;color:#296e8d;line-height:1.7;font-size:26px;overflow-wrap:anywhere}.quizmo-board>button{margin:8px}@media(max-width:400px){.quizmo-board{padding:12px}.quizmo-pad{gap:6px}#quizmoView{padding:16px 8px}}
+.main-tabs{flex-wrap:wrap}#quizmoView{padding:24px clamp(16px,4vw,52px) 48px}#quizmoView button{min-width:88px;min-height:88px;border:2px solid #bad7e7;border-radius:24px;background:#fff9ed;color:#264a61;font:inherit;font-weight:800;touch-action:manipulation;cursor:pointer;padding:16px}#quizmoView button:focus-visible{outline:4px solid #327ab0;outline-offset:3px}.quizmo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.quizmo-card{display:flex;flex-direction:column;gap:12px;text-align:left}.quizmo-card strong{font-size:24px}.quizmo-card span{font-weight:400}.quizmo-board{max-width:760px;margin:20px auto;text-align:center;padding:24px;border-radius:28px;background:#edf6fa}.quizmo-board h2{font-size:clamp(24px,4vw,36px);line-height:1.4}.quizmo-inputs{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}#quizmoView [aria-pressed=true]{border:4px solid #327ab0;background:#d6effb}.quizmo-feedback{min-height:56px;font-size:20px}.quizmo-pad{display:grid;grid-template-columns:repeat(3,minmax(88px,1fr));gap:12px;max-width:430px;margin:20px auto}#quizmoView .quizmo-pad button{font-size:26px}#quizmoView .quizmo-check{background:#d6effb;width:min(100%,430px)}.quizmo-board>button{margin:8px}@media(max-width:400px){.quizmo-board{padding:12px}.quizmo-pad{gap:6px}#quizmoView{padding:16px 8px}}
 
 /* Flex reserves the actual header and wrapping navigation height. */
 body:has(#quizmoView.active){height:100dvh;min-height:0;display:flex;flex-direction:column}
@@ -20,7 +20,6 @@ body:has(#quizmoView.active) main>.view:not(.active){display:none}
 #quizmoView .quizmo-pad{display:grid;grid-template-columns:repeat(3,minmax(56px,1fr));grid-template-rows:repeat(4,minmax(56px,1fr));gap:6px;width:100%;max-width:none;margin:0;min-height:242px}
 #quizmoView .quizmo-pad button{font-size:clamp(22px,4vmin,34px)}
 #quizmoView .quizmo-check{width:100%;font-size:clamp(20px,3vmin,28px);margin:0}
-#quizmoView .quizmo-set{font-size:clamp(12px,2.1vmin,20px);line-height:1.15;max-width:100%}
 @media(max-height:820px){body:has(#quizmoView.active) .main-tabs button{min-height:56px}}
 @media(max-height:560px){.quizmo-question{gap:6px}#quizmoView .quizmo-question h2{font-size:20px}}
 @media(max-width:699px){
@@ -40,3 +39,88 @@ body:has(#quizmoView.active) main>.view:not(.active){display:none}
 .quizmo-points{display:flex;flex-direction:column;gap:3px;min-width:130px;font-size:14px}.quizmo-points progress{width:100%;height:12px;accent-color:#d58a16}.quizmo-points small{font-size:11px}#quizmoView .quizmo-points button{min-height:52px;padding:4px;font-size:14px}.quizmo-tools .quizmo-points{width:140px;flex-shrink:0}.quizmo-reward{width:min(540px,94vw);max-height:94dvh;overflow:auto;border:2px solid #f2a93b;border-radius:24px;background:#fff8e8;color:#17324d;padding:24px}.quizmo-reward::backdrop{background:#17324daa}.quizmo-reward label{display:flex;flex-direction:column;gap:6px;margin:12px 0}.quizmo-reward input,.quizmo-reward textarea{width:100%;min-height:52px;font:inherit;padding:10px}.quizmo-reward button,#quizmoGrownups button{min-height:52px;padding:10px;margin:4px;border-radius:12px}.reward-chips{display:flex;flex-wrap:wrap}.reward-sparkles{text-align:center;font-size:28px;animation:reward-pop 700ms ease-in-out 3 alternate}@keyframes reward-pop{to{transform:translateY(-8px) scale(1.08)}}@media(prefers-reduced-motion:reduce){.reward-sparkles{animation:none}}#quizmoGrownups input{min-height:52px;max-width:100%}#quizmoGrownups input[type=checkbox]{width:52px;vertical-align:middle}#quizmoGrownups article{border-bottom:1px solid #bad7e7;overflow-wrap:anywhere}@media(max-width:600px){#quizmoView .hub-heading{flex-wrap:wrap}.hub-heading .quizmo-points{flex:1}.quizmo-tools{flex-wrap:wrap}.quizmo-tools .quizmo-points{flex:1;min-width:120px}.quizmo-tools .question-dots,.quizmo-tools .round-stars{display:none}.quizmo-reward{padding:14px}.quizmo-reward button{min-height:48px}}@media(min-width:601px){.quizmo-tools .question-dots,.quizmo-tools .round-stars{display:none}}
 .quizmo-reward{position:fixed;inset:50% auto auto 50%;transform:translate(-50%,-50%);margin:0;z-index:1000;box-shadow:0 12px 80px #17324d66}
 @media(min-width:1101px){.quizmo-tools .question-dots{display:flex}.quizmo-tools .round-stars{display:inline}}
+
+/* Illustrations occupy the available teaching space, and yield to the touch pad. */
+#quizmoView.active .quizmo-question{overflow:hidden;justify-content:flex-start;gap:8px}
+#quizmoView.active .quizmo-question h2{font-size:clamp(20px,3.3vmin,32px);flex-shrink:0;line-height:1.15}
+#quizmoView.active .quizmo-visual{display:grid;place-items:center;flex:1 1 auto;min-width:0;min-height:0;width:100%}
+#quizmoView.active .quizmo-visual>.quizmo-illustration{display:block;width:100%;height:100%;min-height:0;max-height:none;overflow:visible}
+#quizmoView.active .quizmo-answer-area{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;flex-shrink:0}
+#quizmoView.active .quizmo-inputs,#quizmoView.active .quizmo-feedback,#quizmoView.active [data-clock]{flex-shrink:0}
+#quizmoView.active .quizmo-feedback{font-size:clamp(13px,2.1vmin,18px);line-height:1.2;min-height:2.4em}
+#quizmoView.active .cogat-choices button{font-size:clamp(18px,3vmin,28px);overflow-wrap:anywhere;min-height:56px}
+#quizmoView.active .cogat-choices .quizmo-illustration{height:100%;max-height:180px}
+@media(min-width:700px) and (max-height:550px){
+ #quizmoView.active .quizmo-board[data-level]{gap:12px}
+ #quizmoView.active .quizmo-question{padding:10px;gap:5px}
+ #quizmoView.active .quizmo-question h2{font-size:20px}
+ #quizmoView.active .quizmo-feedback{font-size:13px}
+ #quizmoView.active .quizmo-inputs button{min-height:56px;font-size:18px}
+ #quizmoView.active .quizmo-tools{gap:6px}
+ #quizmoView.active .quizmo-tools button{padding:4px 9px;font-size:13px;min-height:56px}
+ #quizmoView.active .quizmo-tools .quizmo-points{min-width:104px;width:104px}
+ #quizmoView.active .quizmo-game-heading h1{font-size:17px}
+}
+@media(max-width:699px){
+ #quizmoView.active .quizmo-board[data-level]{min-height:0}
+ #quizmoView.active .quizmo-question{min-height:0}
+ #quizmoView.active .quizmo-visual{flex-basis:32dvh;max-height:32dvh;min-height:0}
+ #quizmoView.active .quizmo-question h2{font-size:22px}
+ #quizmoView.active .quizmo-pad{grid-template-rows:repeat(4,minmax(56px,1fr));min-height:236px}
+ #quizmoView.active .cogat-choices{grid-auto-rows:minmax(70px,1fr)}
+ #quizmoView.active .cogat-choices .quizmo-illustration{min-height:0;max-height:120px}
+}
+
+@media(min-width:700px) and (max-height:430px){
+ #quizmoView.active:has(.quizmo-tools){padding:5px 14px;gap:6px}
+ #quizmoView.active .quizmo-question{padding:8px;gap:4px}
+ #quizmoView.active .quizmo-question h2{font-size:18px}
+ #quizmoView.active .quizmo-feedback{font-size:12px;min-height:2.4em}
+ #quizmoView.active .quizmo-game-heading h1{font-size:16px}
+}
+/* A short portrait screen reserves pad space before sizing the illustration. */
+@media(max-width:699px){
+ #quizmoView.active .quizmo-question{min-height:0}
+ #quizmoView.active .quizmo-visual>.quizmo-illustration{min-height:0}
+}
+@media(max-width:699px) and (max-height:720px){
+ #quizmoView.active .quizmo-question{gap:2px;padding:4px}
+ #quizmoView.active .quizmo-question h2{font-size:17px}
+ #quizmoView.active .quizmo-feedback{font-size:11.5px;min-height:2.4em}
+ #quizmoView.active .quizmo-inputs button{min-height:48px;font-size:18px}
+ #quizmoView.active .quizmo-answer-area:has(.quizmo-inputs button:only-child){flex-direction:row;gap:6px}
+ #quizmoView.active .quizmo-answer-area:has(.quizmo-inputs button:only-child) .quizmo-feedback{flex:1;min-width:0}
+ #quizmoView.active .quizmo-answer-area{gap:2px}
+}
+@media(max-width:699px){
+ #quizmoView.active .quizmo-tools button,#quizmoView.active .quizmo-check{min-height:56px}
+}
+
+/* Portrait keeps the 1–9 block familiar and frees a row for the illustration. */
+.quizmo-portrait-art{display:none}
+@media(max-width:699px){
+ #quizmoView.active:not(.quizmo-scroll):has([data-level]){padding:4px;gap:4px}
+ #quizmoView.active .quizmo-board[data-level]{grid-template-rows:minmax(min-content,1fr) auto;gap:6px}
+ #quizmoView.active .quizmo-controls{grid-template-rows:176px auto;min-height:238px;gap:6px}
+ #quizmoView.active .quizmo-pad{grid-template-columns:repeat(4,minmax(56px,1fr));grid-template-rows:repeat(3,56px);min-height:176px;gap:4px}
+ #quizmoView.active [data-key="clear"]{grid-column:4;grid-row:1;font-size:18px}
+ #quizmoView.active [data-key="erase"]{grid-column:4;grid-row:2}
+ #quizmoView.active [data-key="0"]{grid-column:4;grid-row:3}
+ #quizmoView.active .quizmo-visual{flex-basis:0;max-height:40dvh;min-height:128px}
+ #quizmoView.active .quizmo-answer-area:has(.quizmo-inputs button:only-child){flex-direction:row;gap:6px}
+ #quizmoView.active .quizmo-answer-area:has(.quizmo-inputs button:only-child) .quizmo-feedback{flex:1;min-width:0}
+ #quizmoView.active .quizmo-answer-area .quizmo-feedback{min-height:1.2em}
+ #quizmoView.active .quizmo-wide-art{display:none}
+ #quizmoView.active .quizmo-portrait-art{display:inline}
+ #quizmoView.active .quizmo-tools{position:sticky;top:0;z-index:5;background:#f5fbff;gap:4px}
+ #quizmoView.active .cogat-choices{grid-template-rows:repeat(2,clamp(110px,17dvh,145px));grid-auto-rows:auto}
+ #quizmoView.active .cogat-choices .quizmo-illustration{max-height:none}
+ #quizmoView.active .quizmo-small-note{display:none}
+ #quizmoView.active .quizmo-compact-clock .quizmo-clock-number.minor{display:none}
+ #quizmoView.active.quizmo-scroll:has(.quizmo-tools){height:auto;min-height:calc(100dvh - var(--mobile-bar,64px));padding-bottom:calc(8px + var(--mobile-bar,64px))}
+ #quizmoView.active.quizmo-scroll .quizmo-board[data-level]{flex:none;grid-template-rows:auto auto}
+ #quizmoView.active.quizmo-scroll .quizmo-visual{height:40dvh;max-height:none;min-height:240px;flex:none}
+}
+
+#quizmoView.active .quizmo-compact-clock .quizmo-clock-number.minor{display:none}
+#quizmoView.active .quizmo-compact-svg .quizmo-small-note{display:none}

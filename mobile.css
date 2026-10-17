@@ -66,7 +66,7 @@
  #quizmoView .quizmo-question h2{font-size:25px}
  #quizmoView .quizmo-feedback{min-height:24px;font-size:15px}
  .quizmo-controls{grid-template-rows:auto auto;gap:6px}
- #quizmoView .quizmo-pad{grid-template-rows:repeat(4,52px);min-height:0;gap:4px}
+ #quizmoView .quizmo-pad{grid-template-rows:repeat(4,56px);min-height:236px;gap:4px}
  #quizmoView:has([data-level]) button{min-height:52px;min-width:48px}
  .cogat-choices{grid-auto-rows:64px;gap:6px}.cogat-choices svg{max-height:52px}
  .cogat-fold svg{width:64px;height:64px}
