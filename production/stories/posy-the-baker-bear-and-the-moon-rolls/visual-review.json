@@ -11,10 +11,10 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            385,
+            106,
+            915,
+            570
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=570 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            318,
+            80,
+            828,
+            756
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds; Posy's legs end at y~756 behind the floor step, above the y=760 safe zone and ~34px clear of the y=790 cream panel. No reframe needed."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            265,
+            58,
+            822,
+            703
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=703 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,19 +80,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            318,
+            72,
+            796,
+            660
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            955,
+            268,
+            1292,
+            660
           ]
         }
       ],
@@ -104,7 +104,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=660 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -112,19 +112,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            305,
+            100,
+            796,
+            711
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            1008,
+            305,
+            1313,
+            703
           ]
         }
       ],
@@ -136,7 +136,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=711 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -144,19 +144,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            318,
+            95,
+            809,
+            678
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            875,
+            325,
+            1220,
+            686
           ]
         }
       ],
@@ -168,7 +168,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=686 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -176,19 +176,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            252,
+            48,
+            796,
+            610
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            862,
+            252,
+            1260,
+            623
           ]
         }
       ],
@@ -200,7 +200,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=623 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -208,19 +208,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            239,
+            50,
+            756,
+            702
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            955,
+            280,
+            1287,
+            702
           ]
         }
       ],
@@ -232,7 +232,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=702 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -240,19 +240,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            265,
+            58,
+            695,
+            615
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            968,
+            265,
+            1287,
+            530
           ]
         }
       ],
@@ -264,7 +264,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=615 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -272,19 +272,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            358,
+            80,
+            769,
+            724
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            968,
+            334,
+            1353,
+            592
           ]
         }
       ],
@@ -296,7 +296,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds; Posy's feet end at y~724, ~66px clear of the y=790 cream panel. No reframe needed."
     },
     {
       "number": 11,
@@ -304,19 +304,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            172,
+            40,
+            875,
+            695
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            942,
+            340,
+            1313,
+            706
           ]
         }
       ],
@@ -328,7 +328,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=706 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -336,19 +336,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            239,
+            40,
+            828,
+            637
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            849,
+            239,
+            1260,
+            634
           ]
         }
       ],
@@ -360,7 +360,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -368,19 +368,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            279,
+            106,
+            756,
+            637
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            623,
+            239,
+            1035,
+            631
           ]
         }
       ],
@@ -392,7 +392,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -400,19 +400,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            305,
+            106,
+            796,
+            637
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            650,
+            289,
+            1088,
+            624
           ]
         }
       ],
@@ -424,7 +424,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -432,19 +432,19 @@
         {
           "label": "Posy",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            276,
+            159,
+            996,
+            710
           ]
         },
         {
           "label": "Tilda",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            594,
+            392,
+            1293,
+            710
           ]
         }
       ],
@@ -456,7 +456,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower paws, floor, trays, or rolls may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=710 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-17 (bolder style): all character bounds measured, feet/paws included, above y=760; no reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
