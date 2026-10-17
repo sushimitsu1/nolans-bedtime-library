@@ -2,13 +2,13 @@
 (() => {
   'use strict';
   const games = [
-    ['addition','Moonlight Sums','Add two and three digit numbers.'],
+    ['addition','Moonlight Sums','Regroup and add several large numbers.'],
     ['subtraction','Borrowing Bridge','Subtract with regrouping.'],
-    ['times','Star Table Trail','Multiply through 12 × 12.'],
+    ['times','Star Table Trail','Build products with facts and area models.'],
     ['division','Remainder Railway','Divide and find what is left over.'],
     ['place','Number Builders','Explore place value and expanded form.'],
-    ['fractions','Fraction Lanterns','Find halves, thirds, fourths and eighths of sets.'],
-    ['words','Adventure Maths','Solve one and two step word problems.'],
+    ['fractions','Fraction Lanterns','Explore fractions, equivalence and mixed groups.'],
+    ['words','Adventure Maths','Plan two and three step solutions.'],
     ['missing','Mystery Numbers','Fill the gap in an equation.'],
     ['measure','Clockwork Corner','Work with time, money and metric units.'],
     ['speed','Starlight Sprint','Try a gentle timed mix of maths.']
@@ -29,8 +29,10 @@
   progress.points = {current:natural(saved?.points?.current ?? saved?.score), lifetime:natural(saved?.points?.lifetime ?? saved?.score), milestones:natural(saved?.points?.milestones)};
   progress.requests = Array.isArray(saved?.requests) ? saved.requests.filter(r=>r && typeof r.name==='string' && typeof r.about==='string').map(r=>({...r,built:!!r.built})) : [];
   progress.runs = saved?.runs && typeof saved.runs==='object' ? saved.runs : {};
-  let run, rewardDismissed=false;
-  // Points rules (math and CogAT): each of the three correct question slots earns
+  progress.recent={};
+  for(const [id] of games) progress.recent[id]=Array.isArray(saved?.recent?.[id])?saved.recent[id].filter(s=>typeof s==='string').slice(-30):[];
+  let run, tasks=[], rewardDismissed=false;
+  // Points rules (math and CogAT): each of the five correct question slots earns
   // 1 + floor(level / 2). Completion earns 5 * level, plus 10 on first completion.
   // Already beaten levels earn half of question/completion points, floored, min 1.
   // Persisted best tracks the highest completion ever, including before a reset,
@@ -76,25 +78,6 @@
     panel.onclick=e=>{if(!e.target.hasAttribute('data-adjust')&&!e.target.hasAttribute('data-reset'))return;if(e.target.hasAttribute('data-reset'))progress.points={current:0,lifetime:0,milestones:0};else {const n=Number(panel.querySelector('input[type=number]').value);if(!Number.isSafeInteger(n))return;progress.points.current=Math.max(0,Math.min(Number.MAX_SAFE_INTEGER,progress.points.current+n));if(n>0)progress.points.lifetime=Math.min(Number.MAX_SAFE_INTEGER,progress.points.lifetime+n);}save();grownups();if(!active)home();else if(!done)render();else root.querySelectorAll('.quizmo-points').forEach(e=>e.outerHTML=meter());};
   }
   const save = () => { try { localStorage.setItem('jasper-quizmo', JSON.stringify(progress)); } catch {} };
-  const pick = n => Math.floor(Math.random()*n);
-  // Every level changes operands or the operation's complexity; questions vary on replay.
-  function question(id, l) {
-    const a = 12 + pick(20*l), b = 11 + pick(12*l);
-    if (id === 'addition') { const x = l > 3 ? 100 + pick(400) : a, y = l > 5 ? 100 + pick(300) : b; return {prompt:`${x} + ${y} = ?`, answers:[x+y], hint:'Add ones, then tens, then hundreds. Carry a ten when needed.'}; }
-    if (id === 'subtraction') { const y=11+10*pick(l+1), x=y+19+(l>3?100:0)+10*pick(3+l); return {prompt:`${x} − ${y} = ?`, answers:[x-y], hint:'Trade one ten for ten ones before subtracting the ones.'}; }
-    if (id === 'times') { const x=2+pick(Math.min(11,l+3)), y=2+pick(Math.min(11,l+3)); return {prompt:`${x} × ${y} = ?`, answers:[x*y], hint:`Count ${x} equal groups of ${y}.`}; }
-    if (id === 'division') { const d=2+pick(Math.min(11,l+2)), q=2+pick(l+3), r=1+pick(d-1); return {prompt:`${d*q+r} ÷ ${d}: quotient and remainder?`, labels:['Quotient','Remainder'], answers:[q,r], hint:`Find the biggest multiple of ${d} that fits. What is left over?`}; }
-    if (id === 'place') { const h=1+pick(9), t=1+pick(9), u=1+pick(9), n=h*100+t*10+u; return l%2 ? {prompt:`${n} = ${h*100} + ? + ${u}`, answers:[t*10], hint:'The middle digit counts tens.'} : {prompt:`What is the value of ${l<5?t:h} in ${n}? (${l<5?'tens':'hundreds'} place)`, answers:[l<5?t*10:h*100], hint:`Multiply the digit by ${l<5?10:100}.`}; }
-    if (id === 'fractions') { const d=[2,3,4,8][Math.min(3,Math.floor((l-1)/2))], n=1+pick(l+1), total=d*n; return {prompt:`What is 1/${d} of these ${total} lanterns?`, visual:`<div class="quizmo-set" aria-label="${total} lanterns">${'● '.repeat(total)}</div>`, answers:[n], hint:`Share ${total} into ${d} equal groups. How many in one group?`}; }
-    if (id === 'words') { const n=3+pick(l+2), each=3+pick(l+3), used=2+pick(n); return {prompt:l<4?`Jasper packs ${n} bags with ${each} apples each. How many apples?`:`Jasper packs ${n} bags with ${each} apples each, then gives away ${used} apples. How many remain?`, answers:[n*each-(l<4?0:used)], hint:l<4?'Multiply bags by apples per bag.':'First multiply, then subtract the apples given away.'}; }
-    if (id === 'missing') return l<4 ? {prompt:`? + ${b} = ${a+b}`, answers:[a], hint:'Subtract the known part from the total.'} : {prompt:`${b} × ? = ${b*(l+2)}`, answers:[l+2], hint:'Divide the total by the known factor.'};
-    if (id === 'measure') {
-      if (l%3===1) { const h=1+pick(10), m=l<4?30:45; return {prompt:`It is ${h}:${m}. How many minutes until ${h+1}:00?`, answers:[60-m], hint:'There are 60 minutes in an hour.'}; }
-      if (l%3===2) { const cost=15+pick(60), coins=l<5?100:200; return {prompt:`You pay ${coins} cents for a snack costing ${cost} cents. Change in cents?`, answers:[coins-cost], hint:'Subtract the cost from the amount paid.'}; }
-      return {prompt:`${l} metres and ${a} centimetres = how many centimetres?`, answers:[l*100+a], hint:'Each metre is 100 centimetres. Then add the extra centimetres.'};
-    }
-    return question(['addition','subtraction','times','missing'][pick(4)],l);
-  }
   let active, task, inputs, field=0, count=0, done=false, timer, deadline, down;
   const button=(text,action,extra='')=>`<button type="button" data-q-action="${action}" ${extra}>${text}</button>`;
   function leave() { clearInterval(timer); timer=null; down=null; }
@@ -106,21 +89,60 @@
   }
   function open(id, restart=false) {
     leave(); active=games.find(g=>g[0]===id); count=0; done=false;
-    const prior=progress.runs[id];
+    const stored=progress.runs[id];
+    const prior=stored && Number.isInteger(stored.level) && stored.level>=1 && stored.level<=8 && Array.isArray(stored.paid)
+      ? {...stored,paid:[...new Set(stored.paid.filter(n=>Number.isInteger(n)&&n>=0&&n<5))],replay:!!stored.replay,complete:!!stored.complete} : null;
     run=prior && (restart || !prior.complete) ? prior : {level:progress.levels[id],replay:progress.best[id]>=progress.levels[id],paid:[],complete:false};
+    tasks=window.JasperQuizmoGen.level(id,run.level,progress.recent[id]);
+    progress.recent[id]=[...progress.recent[id],...tasks.map(t=>t.sig)].slice(-30);
+    // Persist planning/history now. The fresh run becomes durable on its first
+    // paid slot, so a reset still clears the previous run until play resumes.
+    save();
     progress.runs[id]=run;
 
-    if(id==='speed') { deadline=Date.now()+60000+progress.levels[id]*5000; timer=setInterval(()=>{ const clock=root.querySelector('[data-clock]'); if(clock)clock.textContent=`${Math.max(0,Math.ceil((deadline-Date.now())/1000))} seconds · take your time`; if(Date.now()>=deadline)finish(false); },250); }
-    next();
+    if(id==='speed') { deadline=Date.now()+60000+run.level*5000; timer=setInterval(()=>{ const clock=root.querySelector('[data-clock]'); if(clock)clock.textContent=`${Math.max(0,Math.ceil((deadline-Date.now())/1000))}s · take your time`; if(Date.now()>=deadline)finish(false); },250); }
+    window.scrollTo(0,0);next();
   }
-  function next() { task=isCogat(active[0])?window.QuizmoCogat.question(active[0],run.level,count):question(active[0],run.level); inputs=(task.answers||[]).map(()=>'');field=0;render(); }
-  function tools() { return `<div class="quizmo-tools">${button('← Quizmo','home')}<div class="quizmo-game-heading"><h1>${active[1]}</h1><p>Level ${run.level} / 8 · Question ${count+1} / 3</p></div><div class="question-dots" aria-hidden="true">${[0,1,2].map(i=>`<i class="${i<=count?'filled':''}"></i>`).join('')}</div><span class="round-stars">⭐ ${progress.stars[active[0]]}</span>${button('Restart level','restart','class="restart-level"')}${button('Back to Level 1','reset-game','class="reset-game"')}${meter()}</div>`; }
+  function next() { task=tasks[count]; inputs=(task.answers||[]).map(()=>'');field=0;render(); }
+  function tools() { return `<div class="quizmo-tools">${button('← Quizmo','home')}<div class="quizmo-game-heading"><h1>${active[1]}</h1><p>Level ${run.level} / 8 · Question ${count+1} / 5</p>${active[0]==='speed'?'<p data-clock role="timer">Gentle timed round</p>':''}</div><div class="question-dots" aria-hidden="true">${[0,1,2,3,4].map(i=>`<i class="${i<=count?'filled':''}"></i>`).join('')}</div><span class="round-stars">⭐ ${progress.stars[active[0]]}</span>${button('Restart level','restart','class="restart-level"')}${button('Back to Level 1','reset-game','class="reset-game"')}${meter()}</div>`; }
+  function layoutVisuals(){
+    const portrait=innerWidth<=699,wasScrolling=root.classList.contains('quizmo-scroll'),previousScroll=scrollY;
+    root.classList.toggle('quizmo-scroll',portrait&&[...root.querySelectorAll('[data-lantern-total]')].some(svg=>Number(svg.dataset.lanternTotal)>64));
+    for(const svg of root.querySelectorAll('.quizmo-illustration')){
+      const box=portrait&&svg.dataset.portraitViewBox?svg.dataset.portraitViewBox:svg.dataset.wideViewBox;
+      if(box)svg.setAttribute('viewBox',box);
+      const scale=svg.getScreenCTM()?.a;
+      if(!scale)continue;
+      svg.classList.toggle('quizmo-compact-clock',scale<.5);
+      svg.classList.toggle('quizmo-compact-svg',scale<.5);
+      for(const label of svg.querySelectorAll('text')){
+        if(!label.dataset.baseFont)label.dataset.baseFont=label.getAttribute('font-size')||'18';
+        label.setAttribute('font-size',String(Math.max(Number(label.dataset.baseFont),11/scale)));
+      }
+    }
+    if(portrait&&!root.classList.contains('quizmo-scroll')){
+      const controls=root.querySelector('.quizmo-check,.cogat-choices'),bar=document.querySelector('.mobile-tabs');
+      if(controls&&controls.getBoundingClientRect().bottom>(bar?.getBoundingClientRect().top||innerHeight)+1){
+        root.classList.add('quizmo-scroll');
+        // The larger scroll layout changes the SVG scale; update readable labels once more.
+        for(const svg of root.querySelectorAll('.quizmo-illustration')){
+          const scale=svg.getScreenCTM()?.a;if(!scale)continue;
+          svg.classList.toggle('quizmo-compact-clock',scale<.5);
+          svg.classList.toggle('quizmo-compact-svg',scale<.5);
+          for(const label of svg.querySelectorAll('text'))label.setAttribute('font-size',String(Math.max(Number(label.dataset.baseFont||18),11/scale)));
+        }
+      }
+    }
+    if(wasScrolling&&root.classList.contains('quizmo-scroll')&&scrollY!==previousScroll)window.scrollTo(0,previousScroll);
+  }
+  window.addEventListener('resize',layoutVisuals);
   function render() {
     if(isCogat(active[0])) {
-      root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2>${task.visual||''}<p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
-      return;
+      root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
+      layoutVisuals();return;
     }
-    root.innerHTML=`${tools()}<div class="quizmo-board" data-level="${run.level}"><div class="quizmo-question">${active[0]==='speed'?'<p data-clock role="timer">Gentle timed round</p>':''}<h2>${task.prompt}</h2>${task.visual||''}<div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
+    root.innerHTML=`${tools()}<div class="quizmo-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><div class="quizmo-answer-area"><div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
+    layoutVisuals();
   }
   function finish(completed) {
     if(done)return; done=true; leave();
@@ -138,15 +160,15 @@
     if(action==='again')return open(active[0]);
     if(done||!active)return;
     if(action==='choice') {
-      if(Number(b.dataset.choice)!==task.correct){root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;return;}
-      earned();count++;if(count>=3)finish(true);else next();return;
+      if(Number(b.dataset.choice)!==task.correct){root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;layoutVisuals();return;}
+      earned();count++;if(count>=5)finish(true);else next();return;
     }
     if(action==='field'){field=Number(b.dataset.field);root.querySelectorAll('[data-field]').forEach(x=>x.setAttribute('aria-pressed',String(Number(x.dataset.field)===field)));}
-    if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);root.querySelector(`[data-input="${field}"]`).textContent=inputs[field]||'?'; }
+    if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);root.querySelector(`[data-input="${field}"]`).textContent=inputs[field]||'?';if(innerWidth<=699)layoutVisuals(); }
     if(action==='check') {
-      if(!task.answers.every((n,i)=>inputs[i]!==''&&Number(inputs[i])===n)) {root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;return;}
+      if(!task.answers.every((n,i)=>inputs[i]!==''&&Number(inputs[i])===n)) {root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;layoutVisuals();return;}
       earned();count++;
-      if(count>=3)finish(true);else {next();root.querySelector('.quizmo-feedback').textContent='That’s it! Here is your next challenge.';}
+      if(count>=5)finish(true);else {next();root.querySelector('.quizmo-feedback').textContent='That’s it! Here is your next challenge.';}
     }
   }
   function bind(target) {
@@ -158,5 +180,5 @@
   bind(root);bind(document.getElementById('quizmoTab'));
   grownups();
   document.getElementById('settingsButton').addEventListener('click',grownups);
-  window.JasperQuizmo={leave};
+  window.JasperQuizmo={leave,layout:layoutVisuals,current:()=>active&&!done?{...task,answers:task.answers?.slice(),choices:task.choices?.slice(),slot:count,level:run.level,game:active[0]}:null};
 })();
