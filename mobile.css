@@ -58,6 +58,8 @@
  .quizmo-game-heading h1{font-size:16px}.quizmo-game-heading p{font-size:11px}
  #quizmoView .quizmo-tools button{padding:4px 8px;font-size:13px;min-height:52px}
  .quizmo-tools .restart-level{grid-column:3;grid-row:1}
+ .quizmo-tools .reset-game{grid-column:2/4;grid-row:2;justify-self:end}
+ .quizmo-tools .quizmo-points{grid-column:1;grid-row:2;min-width:0;width:auto}
  .question-dots{display:none}.round-stars{grid-column:1/-1;justify-self:center;padding:2px 10px;font-size:12px}
  #quizmoView .quizmo-board[data-level]{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(110px,1fr) auto;flex:1;gap:8px;min-height:0}
  .quizmo-question{padding:10px;border-radius:16px;gap:6px}

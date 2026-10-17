@@ -19,10 +19,11 @@
   const root = document.getElementById('quizmoView');
   let saved;
   try { saved = JSON.parse(localStorage.getItem('jasper-quizmo') || '{}'); } catch {}
-  const progress = {score: Number.isSafeInteger(saved?.score) && saved.score >= 0 ? saved.score : 0, levels:{}, stars:{}};
+  const progress = {score: Number.isSafeInteger(saved?.score) && saved.score >= 0 ? saved.score : 0, levels:{}, stars:{}, best:{}};
   for (const [id] of games) {
     progress.levels[id] = Math.max(1, Math.min(8, Number.isInteger(saved?.levels?.[id]) ? saved.levels[id] : 1));
     progress.stars[id] = Math.max(0, Math.min(8, Number.isInteger(saved?.stars?.[id]) ? saved.stars[id] : 0));
+    progress.best[id] = Math.max(progress.stars[id], Math.max(0, Math.min(8, Number.isInteger(saved?.best?.[id]) ? saved.best[id] : 0)));
   }
   const natural = n => Number.isSafeInteger(n) && n >= 0 ? n : 0;
   progress.points = {current:natural(saved?.points?.current ?? saved?.score), lifetime:natural(saved?.points?.lifetime ?? saved?.score), milestones:natural(saved?.points?.milestones)};
@@ -32,6 +33,9 @@
   // Points rules (math and CogAT): each of the three correct question slots earns
   // 1 + floor(level / 2). Completion earns 5 * level, plus 10 on first completion.
   // Already beaten levels earn half of question/completion points, floored, min 1.
+  // Persisted best tracks the highest completion ever, including before a reset,
+  // and migrates from stars. Reset clears stars and the run, but best preserves
+  // replay rates and prevents earning the first-completion bonus again.
   // A persisted run pays each slot and completion once; Restart retains that run,
   // its level and replay rate, even after completion or reload. Play next round
   // starts a fresh run. 100 current points buys one request; overflow and lifetime
@@ -47,6 +51,22 @@
     dialog.addEventListener('click',e=>{if(e.target.dataset.idea){dialog.querySelector('input').value=e.target.dataset.idea;dialog.querySelector('textarea').value=({ 'Space explorers':'Explore planets and find friendly aliens.', 'Dinosaur puzzles':'Solve puzzles with friendly dinosaurs.', 'Ocean adventure':'Discover sea animals and hidden treasure.'})[e.target.dataset.idea];}if(e.target.hasAttribute('data-dismiss'))dialog.close();});
     dialog.addEventListener('close',()=>{rewardDismissed=true;dialog.remove();});
     dialog.querySelector('form').addEventListener('submit',e=>{e.preventDefault();const name=dialog.querySelector('input').value.trim(),about=dialog.querySelector('textarea').value.trim();if(!name||!about||progress.points.current<100)return;progress.requests.push({id:crypto.randomUUID(),date:new Date().toISOString(),name,about,built:false});progress.points.current-=100;progress.points.milestones++;save();dialog.close();grownups();if(!active)home();else if(!done)render();else root.querySelectorAll('.quizmo-points').forEach(e=>e.outerHTML=meter());});
+    document.body.append(dialog);dialog.showModal();
+  }
+  function confirmReset() {
+    if(!active || document.getElementById('quizmoResetConfirm'))return;
+    const id=active[0], dialog=document.createElement('dialog');
+    dialog.id='quizmoResetConfirm';dialog.className='quizmo-reward quizmo-confirm';
+    dialog.setAttribute('aria-labelledby','quizmoResetHeading');
+    dialog.innerHTML=`<h2 id="quizmoResetHeading">Start this game over from Level 1?</h2><p>Your points and game requests stay safe.</p><button type="button" data-confirm-reset>Yes, start over</button><button type="button" data-cancel-reset autofocus>Cancel</button>`;
+    dialog.addEventListener('click',e=>{
+      if(e.target.closest('[data-cancel-reset]'))dialog.close();
+      if(e.target.closest('[data-confirm-reset]')){
+        progress.levels[id]=1;progress.stars[id]=0;delete progress.runs[id];save();
+        dialog.close();open(id);
+      }
+    });
+    dialog.addEventListener('close',()=>dialog.remove());
     document.body.append(dialog);dialog.showModal();
   }
   function grownups() {
@@ -87,14 +107,14 @@
   function open(id, restart=false) {
     leave(); active=games.find(g=>g[0]===id); count=0; done=false;
     const prior=progress.runs[id];
-    run=prior && (restart || !prior.complete) ? prior : {level:progress.levels[id],replay:progress.stars[id]>=progress.levels[id],paid:[],complete:false};
+    run=prior && (restart || !prior.complete) ? prior : {level:progress.levels[id],replay:progress.best[id]>=progress.levels[id],paid:[],complete:false};
     progress.runs[id]=run;
 
     if(id==='speed') { deadline=Date.now()+60000+progress.levels[id]*5000; timer=setInterval(()=>{ const clock=root.querySelector('[data-clock]'); if(clock)clock.textContent=`${Math.max(0,Math.ceil((deadline-Date.now())/1000))} seconds · take your time`; if(Date.now()>=deadline)finish(false); },250); }
     next();
   }
   function next() { task=isCogat(active[0])?window.QuizmoCogat.question(active[0],run.level,count):question(active[0],run.level); inputs=(task.answers||[]).map(()=>'');field=0;render(); }
-  function tools() { return `<div class="quizmo-tools">${button('← Quizmo','home')}<div class="quizmo-game-heading"><h1>${active[1]}</h1><p>Level ${run.level} / 8 · Question ${count+1} / 3</p></div><div class="question-dots" aria-hidden="true">${[0,1,2].map(i=>`<i class="${i<=count?'filled':''}"></i>`).join('')}</div><span class="round-stars">⭐ ${progress.stars[active[0]]}</span>${button('Restart level','restart','class="restart-level"')}${meter()}</div>`; }
+  function tools() { return `<div class="quizmo-tools">${button('← Quizmo','home')}<div class="quizmo-game-heading"><h1>${active[1]}</h1><p>Level ${run.level} / 8 · Question ${count+1} / 3</p></div><div class="question-dots" aria-hidden="true">${[0,1,2].map(i=>`<i class="${i<=count?'filled':''}"></i>`).join('')}</div><span class="round-stars">⭐ ${progress.stars[active[0]]}</span>${button('Restart level','restart','class="restart-level"')}${button('Back to Level 1','reset-game','class="reset-game"')}${meter()}</div>`; }
   function render() {
     if(isCogat(active[0])) {
       root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2>${task.visual||''}<p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
@@ -104,12 +124,13 @@
   }
   function finish(completed) {
     if(done)return; done=true; leave();
-    if(completed) { const id=active[0], l=run.level;if(!run.complete){const bonus=run.replay?Math.max(1,Math.floor(5*l/2)):5*l;award(bonus+(progress.stars[id]<l?10:0));run.complete=true;}progress.stars[id]=Math.max(progress.stars[id],l);progress.levels[id]=Math.min(8,l+1);save(); }
+    if(completed) { const id=active[0], l=run.level;if(!run.complete){const bonus=run.replay?Math.max(1,Math.floor(5*l/2)):5*l;award(bonus+(progress.best[id]<l?10:0));run.complete=true;}progress.best[id]=Math.max(progress.best[id],l);progress.stars[id]=Math.max(progress.stars[id],l);progress.levels[id]=Math.min(8,l+1);save(); }
     root.innerHTML=`<div class="quizmo-board"><h1>${completed?'⭐ Level complete!':'✨ Lovely practice!'}</h1><p>${completed?'Your next challenge is ready.':'The timer is resting. Every answer was useful practice. Try again whenever you like.'}</p>${meter()}${button('Play next round','again')}${button('← Quizmo','home')}${button('Restart level','restart','class="restart-level"')}</div>`;
   }
   function dispatch(b) {
     const action=b.dataset.qAction;
     if(action==='math'||action==='cogat'){section=action==='math'?'Math Adventures':'CogAT Practice';return home();}
+    if(action==='reset-game')return confirmReset();
     if(action==='reward')return reward();
     if(action==='restart')return open(active[0],true);
     if(action==='open')return open(b.dataset.game);
