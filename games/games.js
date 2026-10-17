@@ -16,11 +16,20 @@
   let active = null, state = null, audio = null, down = null;
   const games = [];
   const save = () => { try { localStorage.setItem(key, JSON.stringify(prefs)); } catch { /* Play still works if storage is unavailable. */ } };
+  let speechRun=0;
   function say(message) {
+    const run=++speechRun;
     if (!prefs.narration || !window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
     speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(message); utterance.rate = .78; utterance.volume = .65;
-    speechSynthesis.speak(utterance);
+    const parts=(Array.isArray(message)?message:[message]).flat().filter(Boolean);
+    function next(i) {
+      if(run!==speechRun || i>=parts.length)return;
+      const part=typeof parts[i]==='string'?{text:parts[i]}:parts[i];
+      const utterance=new SpeechSynthesisUtterance(part.text);utterance.rate=part.rate||.78;utterance.volume=.65;
+      utterance.onend=()=>setTimeout(()=>next(i+1),part.pause||0);
+      speechSynthesis.speak(utterance);
+    }
+    next(0);
   }
   function sound(kind = 'chime') {
     if (!prefs.effects) return;
@@ -57,24 +66,25 @@
     state=active.start(level(id));state.level=level(id);state.done=false;state.hint=null;state.demonstration=false;render();repeat();
   }
   function render() {
-    root.innerHTML=`${tools()}<div data-level="${state.level}" data-round="${state.round}" class="game-board ${state.done?'resting':''}"><div class="game-scene"><img src="${state.done?active.art.replace('page-01','page-15'):active.art}" alt="${active.friend}"><div class="scene-overlay">${state.done?'🌙 💤':active.scene(state)}</div></div><div class="game-instruction" aria-live="polite">${state.done?state.completed?'⭐ Level complete! '+(state.level<8?'Next: level '+(state.level+1):'All eight levels mastered. Play again!'):'🌙 Rest time. Play again whenever you like.':active.prompt(state)}</div>${state.done?`<div class="game-cue">🌙 💤</div>${button('▶️','Play next level','next')}${button('🏠','Goodbye and return to games','home')}`:active.board(state,prefs)}</div>`;
+    root.innerHTML=`${tools()}<div data-level="${state.level}" data-round="${state.round}" class="game-board ${active.phonics?'phonics-board':''} ${state.done?'resting':''}"><div class="game-scene"><img src="${state.done?active.art.replace('page-01','page-15'):active.art}" alt="${active.friend}"><div class="scene-overlay">${state.done?'🌙 💤':active.scene(state)}</div></div><div class="game-instruction" aria-live="polite">${state.done?state.completed?'⭐ Level complete! '+(state.level<8?'Next: level '+(state.level+1):'All eight levels mastered. Play again!'):'🌙 Rest time. Play again whenever you like.':active.prompt(state)}</div>${state.done?`<div class="game-cue">🌙 💤</div>${button('▶️','Play next level','next')}${button('🏠','Goodbye and return to games','home')}`:active.board(state,prefs)}</div>`;
     if(!state.done && (state.hint!==null || state.demonstration)) {
       const value=state.hint ?? active.answer(state); const target=[...root.querySelectorAll('[data-value]')].find(b=>b.dataset.value===String(value));
       if(target){target.classList.add('hint');if(state.demonstration)target.insertAdjacentHTML('beforeend','<span class="demo-hand" aria-hidden="true">👆</span>');}
     }
   }
-  function repeat(){if(active&&!state.done){say(active.prompt(state));if(active.listen)active.listen(state,sound);}}
-  function finish(){if(!active || state.done)return;state.done=true;render();say('Thank you for helping. Goodnight, '+active.friend+'.');}
+  function repeat(){if(active&&!state.done){say(active.speech?active.speech(state):active.prompt(state));if(active.listen)active.listen(state,sound);}}
+  function finish(message){if(!active || state.done)return;state.done=true;render();say(message||'Thank you for helping. Goodnight, '+active.friend+'.');}
   function choose(value) {
     if(!active||state.done)return;
     state.demonstration=false;
+    const spoken=active.choiceSpeech?.(state,value) ?? [...root.querySelectorAll('[data-value]')].find(b=>b.dataset.value===value)?.getAttribute('aria-label');
     const result=active.choose(state,value,prefs);
     if(result.points)award(result.points);
     state.hint=result.hint??null;
-    if(result.done){state.completed=true;prefs.levels[active.id]=Math.min(8,state.level+1);award(2);finish();return;}
-    render();say(result.message||active.prompt(state));if(result.advance&&active.listen)active.listen(state,sound);
+    if(result.done){state.completed=true;prefs.levels[active.id]=Math.min(8,state.level+1);award(2);finish(spoken?[spoken,'Wonderful listening! Level complete.']:undefined);return;}
+    render();say([spoken,result.message||(active.speech?active.speech(state):active.prompt(state))].flat());if(result.advance&&active.listen)active.listen(state,sound);
   }
-  function leave(){if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}
+  function leave(){speechRun++;if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}
   function dispatch(b){switch(b.dataset.action){case 'filter':filter=b.dataset.filter;home();break;case 'next':open(active.id);break;case 'open':open(b.dataset.id);break;case 'choice':choose(b.dataset.value);break;case 'home':home();break;case 'repeat':repeat();break;case 'finish':finish();break;case 'sound':prefs.narration=!(prefs.narration||prefs.effects);prefs.effects=prefs.narration;save();leave();render();break;case 'parent':parent();break;}}
   root.addEventListener('click',e=>{if(e.detail===0){const b=e.target.closest('button');if(b)dispatch(b);}});
   document.getElementById('gamesTab').addEventListener('click',e=>{if(e.detail===0){showView('games');home();}});

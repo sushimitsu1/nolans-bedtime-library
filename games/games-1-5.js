@@ -1,4 +1,4 @@
-/* Curriculum helpers shared by all ten activities. No answer is revealed until help is needed. */
+/* Curriculum helpers shared by the learning activities. No answer is revealed until help is needed. */
 (() => {
   const G=window.NolanGames;
   const shuffle=a=>a.map(x=>({x,r:Math.random()})).sort((a,b)=>a.r-b.r).map(a=>a.x);
