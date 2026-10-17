@@ -12,7 +12,7 @@ const page=await browser.newPage(),url=`http://127.0.0.1:${server.address().port
 const click=s=>page.$eval(s,e=>e.click());
 const data=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')));
 async function load(value){await page.goto(url);await page.evaluate(v=>localStorage.setItem('jasper-quizmo',JSON.stringify(v)),value);await page.reload();await click('#quizmoTab');}
-async function answer(){const nums=await page.$eval('.quizmo-question h2',e=>e.textContent.match(/\d+/g).map(Number));for(const d of String(nums[0]+nums[1]))await click(`[data-key="${d}"]`);await click('[data-q-action=check]');}
+async function answer(){const task=await page.evaluate(()=>window.JasperQuizmo.current());if(task.choices){await click(`[data-choice="${task.correct}"]`);return;}for(let i=0;i<task.answers.length;i++){await click(`[data-field="${i}"]`);for(const d of String(task.answers[i]))await click(`[data-key="${d}"]`);}await click('[data-q-action=check]');}
 const request={id:'saved-request',date:'2026-10-01',name:'Rocket race',about:'Moon racing',built:false};
 await load({score:70,levels:{addition:4,subtraction:5,links:4},stars:{addition:3,subtraction:4,links:3},points:{current:40,lifetime:140,milestones:1},requests:[request],runs:{addition:{level:4,replay:false,paid:[],complete:false},subtraction:{level:5,replay:false,paid:[0],complete:false}}});
 await click('[data-game=addition]');
@@ -25,9 +25,9 @@ await click('[data-q-action=reset-game]');await click('[data-confirm-reset]');aw
 const reset=await data();assert.equal(reset.levels.addition,1);assert.equal(reset.stars.addition,0);assert.equal(reset.runs.addition,undefined);assert.equal(reset.best.addition,3);
 assert.equal(reset.levels.subtraction,5);assert.equal(reset.stars.subtraction,4);assert.deepEqual(reset.runs.subtraction,before.runs.subtraction);
 assert.deepEqual(reset.points,before.points);assert.deepEqual(reset.requests,before.requests);assert.equal(reset.score,before.score);
-assert.equal(await page.$eval('.quizmo-game-heading p',e=>e.textContent),'Level 1 / 8 · Question 1 / 3');
-for(let i=0;i<3;i++)await answer();
-const completed=await data();assert.equal(completed.points.current,reset.points.current+5);assert.equal(completed.points.lifetime,reset.points.lifetime+5);assert.equal(completed.best.addition,3);
+assert.equal(await page.$eval('.quizmo-game-heading p',e=>e.textContent),'Level 1 / 8 · Question 1 / 5');
+for(let i=0;i<5;i++)await answer();
+const completed=await data();assert.equal(completed.points.current,reset.points.current+7);assert.equal(completed.points.lifetime,reset.points.lifetime+7);assert.equal(completed.best.addition,3);
 await click('[data-q-action=home]');await click('[data-q-action=cogat]');await click('[data-game=links]');assert(await page.$('.reset-game'));
 await click('.reset-game');await click('[data-confirm-reset]');await page.waitForSelector('#quizmoResetConfirm',{hidden:true});
 assert.equal((await data()).levels.links,1);assert.equal((await data()).stars.links,0);assert.equal((await data()).best.links,3);assert.equal((await data()).runs.links,undefined);
@@ -41,5 +41,5 @@ for(const [width,height] of [[1366,768],[900,500],[844,390],[390,844]]){
  if(width!==900)await page.screenshot({path:`/workspace/ui-audit/quizmo-reset-${width}x${height}.png`});
  if(width===1366||width===390){await click('.reset-game');await page.screenshot({path:`/workspace/ui-audit/quizmo-reset-${width}x${height}-confirm.png`});await click('[data-cancel-reset]');await page.waitForSelector('#quizmoResetConfirm',{hidden:true});}
 }
-console.log('PASS reset: migration, cancel/Escape, game-only reset, preserved points/requests/score, replay +5, CogAT and four layouts');
+console.log('PASS reset: migration, cancel/Escape, game-only reset, preserved points/requests/score, replay +7, CogAT and four layouts');
 }finally{await browser.close();server.closeAllConnections();await new Promise(r=>server.close(r));}

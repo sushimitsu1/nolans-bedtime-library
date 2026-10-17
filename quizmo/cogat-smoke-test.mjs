@@ -1,5 +1,5 @@
 import {checkNavigation} from '../ui-smoke-helpers.mjs';
-// Run: node quizmo/smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
+// Run: node quizmo/cogat-smoke-test.mjs. Uses installed Puppeteer or Playwright and Chrome.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import http from 'node:http';
@@ -7,19 +7,16 @@ import vm from 'node:vm';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-// Validate every authored item before starting a browser.
-const context={window:{}};
-vm.runInNewContext(await fs.readFile(path.join(root,'quizmo/cogat.js'),'utf8'),context);
-for(const [id] of context.window.QuizmoCogat.games)for(let level=1;level<=8;level++)for(let q=0;q<3;q++){
-  const task=context.window.QuizmoCogat.question(id,level,q);
-  assert.equal(new Set(task.choices).size,task.choices.length,`${id} L${level}: unique choices`);
-  assert(task.prompt&&task.hint&&task.correct>=0&&task.correct<task.choices.length);
-  if(id==='series') {
-    const expected=[10+q,22+q,18+3*q,32+16*q,16+6*q,6+4*q,16+5*q,47+16*q][level-1];
-    assert.equal(task.choices[task.correct],expected,`series L${level} Q${q+1}`);
+// Validate generated tasks before starting a browser.
+const context=vm.createContext({window:{}});
+for(const name of ['visuals','cogat','generators'])vm.runInContext(await fs.readFile(path.join(root,`quizmo/${name}.js`),'utf8'),context);
+for(const [id] of context.window.QuizmoCogat.games)for(let level=1;level<=8;level++){
+  for(const task of context.window.JasperQuizmoGen.level(id,level)){
+    assert.equal(new Set(task.choices.map(context.window.QuizmoVisuals.normalizeSvg)).size,4);
+    assert(task.prompt&&task.hint&&task.correct>=0&&task.correct<4);
   }
 }
-console.log('PASS static: 120 items, unique options, hints and independently checked series answers');
+console.log('PASS static: 200 generated reasoning items with unique choices and hints');
 let puppeteer,playwright;
 for(const name of ['puppeteer','puppeteer-core','/tmp/shot/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js']){
   try{puppeteer=(await import(name)).default;break;}catch{}
@@ -53,9 +50,31 @@ try {
     for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:7,pointerType:'touch',isPrimary:true,button:0,clientX:x,clientY:y}));
   },selector);
   await viewport({width:1366,height:768});await page.goto(url,{waitUntil:'domcontentloaded'});await checkNavigation(page);
+  const shapeGeometry=await page.evaluate(()=>{
+    const fixture=document.createElement('div');fixture.style.cssText='position:fixed;left:-10000px;top:0;width:300px;height:230px;overflow:hidden;pointer-events:none';
+    const V=window.QuizmoVisuals,markup=[];
+    for(const shape of V.shapes)for(const count of [1,2,3,4])for(const size of [18,23])for(const angle of [0,90,180,270]){
+      const item={shape,count,size,angle,position:10,fill:'striped'};markup.push(V.shapeChoice(item),V.matrix([item,item,item,null]));
+    }
+    fixture.innerHTML=markup.join('');document.body.append(fixture);
+    const errors=[];let cells=0;
+    try{
+      for(const cell of fixture.querySelectorAll('.quizmo-matrix-cell')){
+        const frame=cell.querySelector('rect').getBoundingClientRect(),items=[...cell.querySelectorAll('.quizmo-figure-shape')].map(e=>e.getBoundingClientRect());cells++;
+        for(let i=0;i<items.length;i++){
+          const a=items[i];if(a.left<frame.left||a.right>frame.right||a.top<frame.top||a.bottom>frame.bottom)errors.push('Shape outside cell');
+          for(let j=i+1;j<items.length;j++){const b=items[j];if(Math.min(a.right,b.right)>Math.max(a.left,b.left)+.1&&Math.min(a.bottom,b.bottom)>Math.max(a.top,b.top)+.1)errors.push('Overlapping shapes');}
+        }
+      }
+      const ids=[...fixture.querySelectorAll('[id]')].map(e=>e.id);if(new Set(ids).size!==ids.length)errors.push('Duplicate SVG IDs');
+      return {errors:errors.slice(0,10),cells};
+    }finally{fixture.remove();}
+  });
+  assert.deepEqual(shapeGeometry.errors,[]);assert.equal(shapeGeometry.cells,1280);
+  console.log('PASS rendered shapes: all eight shapes, counts 1–4, two sizes, four rotations, matrix and choice cells; no overlap or duplicate IDs');
   const math={addition:4,subtraction:5,times:3,division:2,place:8,fractions:6,words:7,missing:2,measure:3,speed:4};
   const stars=Object.fromEntries(Object.entries(math).map(([id,n])=>[id,n-1]));
-  for(const size of [{width:1366,height:768},{width:1280,height:800},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500}]) {
+  for(const size of [{width:1366,height:768},{width:1280,height:800},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500},{width:844,height:390}]) {
     await viewport(size);
     await page.evaluate(({math,stars})=>localStorage.setItem('jasper-quizmo',JSON.stringify({score:137,levels:math,stars})),{math,stars});
     await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');await tap('[data-q-action="cogat"]');
@@ -64,9 +83,9 @@ try {
     for(const id of ids)for(let level=1;level<=8;level++) {
       await tap(`[data-game="${id}"]`);
       assert.equal(await page.$eval('[data-level]',e=>Number(e.dataset.level)),level);
-      for(let q=0;q<3;q++) {
+      for(let q=0;q<5;q++) {
         const length=await page.$$eval('[data-choice]',e=>e.length);assert(length>=3&&length<=4);
-        const correct=(level+q)%length;
+        const correct=await page.evaluate(()=>window.JasperQuizmo.current().correct);
         const before=await page.evaluate(()=>localStorage.getItem('jasper-quizmo'));
         await tap(`[data-choice="${(correct+1)%length}"]`);
         assert.match(await page.$eval('.quizmo-feedback',e=>e.textContent),/Nearly there.*Try again/);
@@ -86,22 +105,24 @@ try {
       for(const key of Object.keys(math)){assert.equal(saved.levels[key],math[key]);assert.equal(saved.stars[key],stars[key]);}
       await tap('[data-q-action="home"]');
     }
-    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')).score),1337);
+    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')).score),2137);
     await page.reload({waitUntil:'domcontentloaded'});await tap('#quizmoTab');await tap('[data-q-action="cogat"]');
     await tap('[data-game="figures"]');assert.equal(await page.$eval('[data-level]',e=>e.dataset.level),'8');
     await tap('[data-q-action="home"]');
     // Confirm old math game remains playable with its original saved level.
     await tap('[data-q-action="math"]');await page.click('[data-game="addition"]');assert.equal(await page.$eval('[data-level]',e=>e.dataset.level),'4');
-    console.log(`PASS ${size.width}x${size.height}: 5 games × 8 levels × 3 correct taps and retries, fit, storage, math preservation, reload, mouse`);
+    console.log(`PASS ${size.width}x${size.height}: 5 games × 8 levels × 5 correct taps and retries, fit, storage, math preservation, reload, mouse`);
   }
   await tap('[data-q-action="home"]');await tap('[data-q-action="cogat"]');
   await tap('[data-game="links"]');
-  await tap('[data-choice="2"]'); // Level 8 Q1: 8 % 3 = 2.
+  await tap(`[data-choice="${await page.evaluate(()=>window.JasperQuizmo.current().correct)}"]`);
   assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Question 2/);
-  const beforeRestart=await page.evaluate(()=>localStorage.getItem('jasper-quizmo'));
+  const beforeRestart=await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('jasper-quizmo'));delete p.recent;return p;});
+  const oldSig=await page.evaluate(()=>window.JasperQuizmo.current().sig);
   await tap('[data-q-action="restart"]');
   assert.match(await page.$eval('.quizmo-game-heading p',e=>e.textContent),/Level 8.*Question 1/);
-  assert.equal(await page.evaluate(()=>localStorage.getItem('jasper-quizmo')),beforeRestart);
+  assert.deepEqual(await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('jasper-quizmo'));delete p.recent;return p;}),beforeRestart);
+  assert.notEqual(await page.evaluate(()=>window.JasperQuizmo.current().sig),oldSig);
   console.log('PASS CogAT Restart level: Q2 → Q1, stars/levels/points preserved');
   assert.deepEqual(errors,[]);
 } catch(error) {console.error(error);process.exitCode=1;}
