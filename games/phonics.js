@@ -32,7 +32,7 @@
       answer:s=>s.task.answer,scene:s=>`${icon} · Level ${s.level} · ${s.round+1} / 3`,
       prompt:s=>s.task.prompt,speech:s=>s.task.speech||s.task.prompt,
       choiceSpeech(s,v){if(v.startsWith('sound-'))return sounds[s.task.tiles[Number(v.slice(6))]];return s.task.choices.find(c=>c.value===v)?.speech||s.task.choices.find(c=>c.value===v)?.label;},
-      board(s){const q=s.task;return `<div class="game-cue">${G.button('↻','Repeat instruction or sound','repeat','class="listening-replay"')}${q.cue||icon}${q.mode==='steps'?' '+('🟢'.repeat(s.selected.length)):''}</div>${q.tiles?`<div class="game-slots">${q.tiles.map((x,i)=>G.token('sound-'+i,x,`Hear sound ${i+1}`,`aria-pressed="${s.selected.includes('sound-'+i)}"`)).join('')}</div>`:''}<div class="game-choices">${q.choices.map(c=>G.token(c.value,c.icon,c.label,`aria-pressed="${s.selected.includes(c.value)}"`)).join('')}</div>`;},
+      board(s){const q=s.task;return `<div class="game-cue">${q.tiles?'':G.button('↻','Repeat instruction or sound','repeat','class="listening-replay"')}${q.cue||icon}${q.mode==='steps'?' '+('🟢'.repeat(s.selected.length)):''}</div>${q.tiles?`<div class="game-slots">${q.tiles.map((x,i)=>G.token('sound-'+i,x,`Hear sound ${i+1}`,`aria-pressed="${s.selected.includes('sound-'+i)}"`)).join('')}</div>`:''}<div class="game-choices">${q.choices.map(c=>G.token(c.value,c.icon,c.label,`aria-pressed="${s.selected.includes(c.value)}"`)).join('')}</div>`;},
       choose(s,v){const q=s.task;
         if(v.startsWith('sound-')&&q.tiles){const i=Number(v.slice(6));if(!s.selected.includes(v))s.selected.push(v);return {message:[{text:sounds[q.tiles[i]],pause:180},...blend(q.word,160),q.word.word+'. Now choose its picture.']};}
         if(q.mode==='build'){

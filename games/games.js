@@ -49,7 +49,7 @@
   function award(points) { prefs.points += points; save(); sound(); }
   function button(icon, label, action, extra='') { return `<button type="button" aria-label="${label}" data-action="${action}" ${extra}>${icon}</button>`; }
   function token(value, icon, label=value, extra='') { return button(icon, label, 'choice', `class="game-token" data-value="${value}" ${extra}`); }
-  function tools() {return `<div class="game-tools">${button('← Games Home','Games home','home')}${active?.phonics?'':button('↻','Repeat instruction or sound','repeat')}${button(prefs.narration||prefs.effects?'🔈':'🔇','Toggle sound','sound')}${button('🌙','Finish peacefully','finish')}</div>`;}
+  function tools() {return `<div class="game-tools">${button('← Games Home','Games home','home')}${active?.phonics&&!state?.task?.tiles?'':button('↻','Repeat instruction or sound','repeat')}${button(prefs.narration||prefs.effects?'🔈':'🔇','Toggle sound','sound')}${button('🌙','Finish peacefully','finish')}</div>`;}
   let filter="All";
   const category=g=>g.category||'Letters';
   const stops=(n,total=8)=>`<span class="progress-stops" aria-label="Stop ${n} of ${total}">${Array.from({length:total},(_,i)=>`<i class="${i<n-1?'passed':i===n-1?'current':''}"></i>`).join('')}</span>`;
