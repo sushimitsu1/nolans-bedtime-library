@@ -51,11 +51,11 @@ tree|branch|soil|shade|forest
 book|page|shelf|desk|reader
 shirt|sleeve|hat|closet|hanger
 `),
-    relation(3,'object-color','Match the usual color of each thing.',`
-snow|white|green|red|purple
-grass|green|white|red|purple
-lemon|yellow|blue|red|purple
-coal|black|white|green|yellow
+    relation(3,'worker-place','Match each job to its usual place.',`
+teacher|school|farm|stage|kitchen
+cook|kitchen|school|farm|stage
+farmer|farm|school|stage|kitchen
+actor|stage|farm|school|kitchen
 `)
   ];
   const links=relations.flatMap(rel=>rel.pairs.flatMap((first,i)=>rel.pairs.filter((_,j)=>j!==i).map(target=>Object.assign([first[0],first[1],target[0],target[1],...target.slice(2),rel.hint],{band:rel.band,relation:rel.name}))));
@@ -98,7 +98,7 @@ coal|black|white|green|yellow
     feature(3,'underground','carrot|potato|beet|radish','pea|corn|lettuce','The part we eat grows under the soil.'),
     feature(3,'trees','oak|pine|maple|birch','rose|grass|daisy','All are trees.'),
     feature(3,'sense-actions','listen|watch|smell|taste','eye|nose|sound','All are things you do to sense things.'),
-    feature(3,'room-parts','wall|floor|ceiling|door','garden|car|road','All are parts of a room.')
+    feature(3,'weekdays','Monday|Tuesday|Friday|Sunday','March|winter|year','All name days of the week.')
   ];
   const groups=features.flatMap(f=>f.members.map((answer,i)=>Object.assign([[1,2,3].map(k=>f.members[(i+k)%f.members.length]).join(', '),answer,...f.outsiders,f.hint],{band:f.band,feature:f.name})));
   const band=l=>l<=2?1:l<=5?2:3;
@@ -121,7 +121,7 @@ coal|black|white|green|yellow
       const type=types.includes(opts.mode)?opts.mode:pick(types,r),step=pick(l<=2?[1,2]:l===3?[2,5]:l<=5?[5,10]:[1,2,5,10],r);
       const jumps=type==='alternating'?pick([[1,2],[2,5],[5,-2],[10,-2]],r):[type==='minus'?-2:step];
       const count=type==='alternating'?4:pick([3,4],r);
-      const start=type==='minus'?int(2*count,48,r):int(0,48-count*Math.max(...jumps),r);
+      const start=type==='minus'?int(2*count+1,48,r):int(0,48-count*Math.max(...jumps),r);
       const ns=[start];for(let i=0;i<count;i++)ns.push(ns.at(-1)+jumps[i%jumps.length]);
       answer=ns.pop();wrong=[answer+1,answer-1,answer+2,ns.at(-1)];
       prompt=`${ns.join(', ')}, ?`;signature=`series:${type}:${ns.join(',')}`;operation=type;

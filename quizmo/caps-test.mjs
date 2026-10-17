@@ -22,6 +22,8 @@ function lanterns(t,tag){
 function check(t,l){
  const id=t.source||t.kind,op=t.operation,p=t.prompt,a=t.answers||[],ns=nums(p),tag=`${id} L${l}: ${p}`;
  const cap=(vs,max)=>assert(vs.every(n=>Number.isFinite(n)&&n>=0&&n<=max),`${tag}: cap ${max}, got ${vs}`);
+ assert(a.every(n=>n>0),`${tag}: zero answer`);
+ if(t.choices)assert.notEqual(t.choices[t.correct],'0',`${tag}: zero choice answer`);
  assert(p.length<=70,`${tag}: ${p.length} characters`);
  assert(t.visual.includes('<svg')&&t.visual.includes('role="img"'),tag);
  assert(!/type 1 or 2|enter 1 or 2/i.test(p),tag);
@@ -40,6 +42,7 @@ function check(t,l){
    if(l>=3&&l<=4)cap([y],9);if(l>=3&&l<=5)assert(x%10>=y%10,tag);
    if(l<6)assert.equal(t.borrows,0,tag);
    if(l>=3)assert(x>=20,tag);
+   if(op==='how-many-more')assert(y>=5&&x-y>=3,`${tag}: meaningful comparison`);
  }
  if(id==='times'){
    const f=t.factors;assert(f.every(n=>Number.isInteger(n)&&n>=1),tag);
@@ -59,12 +62,15 @@ function check(t,l){
    if(l<6&&['more','less'].includes(op))assert.equal(t.operands[1],10,tag);
    if(op==='compare')assert(t.choices.includes('<')&&t.choices.includes('>')&&t.choices.includes('='),tag);
    assert(!/round|thousand/i.test(p),tag);
+   if(op==='expanded')assert(!String(t.operands[0]).includes('0'),`${tag}: zero place in expanded form`);
+   if(op==='digit-value')assert(a[0]>0,tag);
+   if(l===8&&op==='compare')assert(t.operands.every(n=>n>=100),tag);
  }
  if(id==='fractions'){
    assert(t.denominators.every(d=>[2,3,4].includes(d)),tag);
    for(const c of t.choices||[])for(const m of c.matchAll(/\d+\/(\d+)/g))assert([2,3,4].includes(Number(m[1])),tag);
    if(op==='fraction-of-set'){
-     const [n,d,total]=t.operands;cap([total],12);assert([2,4].includes(d),tag);
+     const [n,d,total]=t.operands;cap([total],12);assert((l>=7?[2,3,4]:[2,4]).includes(d),tag);if(l>=7)assert(total>=8,`${tag}: late set too small`);
      if(n>1){assert.equal(l,8,tag);assert.equal(d,4,tag);assert([2,3].includes(n),tag);cap([total],8);}
      lanterns(t,tag);assert.match(t.hintVisual,/data-groups=/,tag);
    }
@@ -83,9 +89,9 @@ function check(t,l){
    assert(!/[×÷]/.test(p),tag);
  }
  if(id==='measure'){
-   if(op==='tell-time'){cap([a[0]],12);assert(a[0]>=1,tag);cap([a[1]],55);assert.deepEqual(Array.from(t.labels),['Hour','Minutes']);assert.equal(t.step,l<=2?60:l<=4?30:l<=6?15:5,tag);assert.equal(a[1]%t.step,0,tag);}
+   if(op==='tell-time'){cap([a[0]],12);assert(a[0]>=1,tag);cap([t.minutes],55);assert.deepEqual(Array.from(t.labels),t.minutes?['Hour','Minutes']:['Hour']);assert.equal(t.step,l<=2?60:l<=4?30:l<=6?15:5,tag);assert.equal(t.minutes%t.step,0,tag);}
    if(op==='ruler'){cap([t.start,t.end,...a],15);assert(t.end>t.start,tag);if(l<6)assert.equal(t.start,0,tag);assert(t.visual.includes('centimetre ruler'),tag);}
-   if(t.lengths)cap(t.lengths,15);
+   if(t.lengths){cap(t.lengths,15);assert(t.lengths[1]>=5&&t.lengths[0]-t.lengths[1]>=3,tag);}
    if(op==='area'){assert(l>=6,tag);cap([t.area],20);assert(t.area>=4,tag);assert.equal((t.visual.match(/class="quizmo-area-square"/g)||[]).length,t.area,tag);}
  }
  if(C.games.some(g=>g[0]===id)){
@@ -100,13 +106,18 @@ function check(t,l){
 }
 // Audit every authored word and every distractor, including unselected rows.
 for(const rel of C.audit.relations){
+ if(rel.band===3)assert(['tool-job','whole-part','worker-place'].includes(rel.name),'Late links must use a relationship, not a color fact');
  assert(rel.pairs.length>=4);const map=new Map(rel.pairs.map(p=>[p[0],p[1]]));assert.equal(map.size,rel.pairs.length);
  for(const [a,b,...wrong] of rel.pairs){assert.equal(wrong.length,3);assert.equal(new Set([b,...wrong]).size,4);assert(wrong.every(w=>w!==map.get(a)));vocabulary([a,b,...wrong,rel.hint].join(' '),`Links audit: ${a} / ${b}`);}
 }
 for(const f of C.audit.features){
+ assert.notEqual(f.name,'room-parts','Use a tight named category');
  assert(f.members.length>=4);assert.equal(new Set([...f.members,...f.outsiders]).size,f.members.length+f.outsiders.length);assert.equal(f.outsiders.length,3);
  vocabulary([...f.members,...f.outsiders,f.hint].join(' '),`Groups audit: ${f.name}`);
- for(const row of C.deck('groups',f.band===1?1:f.band===2?4:8,rng).filter(row=>row.feature===f.name)){assert(row[0].split(', ').every(w=>f.members.includes(w)));assert(f.members.includes(row[1]));assert(row.slice(2,5).every(w=>!f.members.includes(w)));}
+ for(const row of C.deck('groups',f.band===1?1:f.band===2?4:8,rng).filter(row=>row.feature===f.name)){assert(row[0].split(', ').every(w=>f.members.includes(w)));assert(f.members.includes(row[1]));assert(row.slice(2,5).every(w=>!f.members.includes(w)));
+   const examples=row[0].split(', '),candidates=row.slice(1,5),categories=C.audit.features.filter(other=>examples.every(w=>other.members.includes(w))),fits=candidates.filter(word=>categories.some(other=>other.members.includes(word)));
+   assert.deepEqual(Array.from(fits),[row[1]],`Exactly one answer fits every triple: ${row[0]}`);
+ }
 }
 for(const sizes of Object.values(C.bankSizes))for(const size of sizes)assert(size>=15);
 const modes={addition:['ten','double','sum','missing','pair','compare','three','story'],subtraction:['difference','compare','fewer','missing'],times:['groups','repeat','skip','missing','rows'],division:['sharing','grouping','half','double','remainder'],place:['expanded','shift','digit','compare'],fractions:['quantity','count','shaded','equal','compare'],words:['join','left','money','birds','time','change'],missing:['add','subtract','balance'],measure:['clock','length','compare','area'],series:['plus','minus','alternating'],puzzles:['machine','inverse','two-symbols','balance']};

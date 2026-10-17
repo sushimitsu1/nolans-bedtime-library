@@ -36,6 +36,44 @@ try{
   assert.equal(await page.$eval('#storiesTab',e=>e.getAttribute('aria-selected')),'false');
   assert.equal(await page.$$eval('section[aria-label="Math Adventures"] .quizmo-card',els=>els.length),10);
   const ids=await page.$$eval('section[aria-label="Math Adventures"] [data-game]',els=>els.map(e=>e.dataset.game));
+  // Every math presentation gets a deterministic phone fixture, not just a random opening.
+  if(puppeteer)await page.setViewport({width:390,height:844});else await page.setViewportSize({width:390,height:844});
+  const fixtures=[['addition',1,'sum'],['addition',1,'pair'],['addition',4,'missing'],['addition',8,'compare'],['addition',8,'three'],['subtraction',1,'difference'],['subtraction',4,'compare'],['subtraction',8,'fewer'],['subtraction',8,'missing'],['times',1,'groups'],['times',4,'repeat'],['times',4,'missing'],['times',8,'skip'],['times',8,'rows'],['division',4,'sharing'],['division',4,'grouping'],['division',4,'half'],['division',4,'double'],['division',8,'remainder'],['place',8,'expanded'],['place',8,'shift'],['place',8,'digit'],['place',8,'compare'],['fractions',8,'quantity'],['fractions',4,'count'],['fractions',8,'shaded'],['fractions',4,'equal'],['fractions',8,'compare'],['words',1,'join'],['words',1,'left'],['words',4,'birds'],['words',8,'money'],['words',8,'change'],['words',8,'time'],['missing',1,'add'],['missing',1,'subtract'],['missing',8,'balance'],['measure',1,'clock'],['measure',4,'clock'],['measure',8,'clock'],['measure',1,'length'],['measure',8,'length'],['measure',1,'compare'],['measure',8,'compare'],['measure',8,'area']];
+  await page.evaluate(()=>{const G=window.JasperQuizmoGen;window.quizmoPhoneOriginal=G.level;G.level=(id,l,recent)=>[window.quizmoPhoneFixture,...window.quizmoPhoneOriginal(id,l,recent).slice(1)];});
+  for(const [id,level,mode] of fixtures){
+    await page.evaluate(({id,level,mode})=>{
+      let seed=0x271828;const rng=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/2**32;};
+      let t;for(let i=0;i<2000;i++){
+        t=window.JasperQuizmoGen.question(id,level,{mode,rng});
+        if(id==='words'&&mode==='money'&&(t.coins.length!==6||!t.coins.includes(25)))continue;
+        if(id==='measure'&&mode==='length'&&level===8&&(t.start===0||t.end!==15))continue;
+        if(id==='times'&&mode==='skip'&&level===8&&t.operands[0]!==9)continue;
+        if(id==='measure'&&mode==='clock'&&level===8&&t.minutes%15===0)continue;
+        if(id==='measure'&&mode==='area'&&t.area!==20)continue;
+        break;
+      }
+      window.quizmoPhoneFixture=t;
+    },{id,level,mode});
+    await tap(`[data-game="${id}"]`);
+    for(const state of ['question','hint']){
+      if(state==='hint')await retry();
+      const fit=await page.evaluate(()=>{
+        const visual=document.querySelector('.quizmo-visual'),svg=visual.querySelector('svg'),box=svg.viewBox.baseVal,art=svg.querySelector('g[font-family]'),bounds=art.getBBox(),bar=document.querySelector('.mobile-tabs').getBoundingClientRect(),tools=document.querySelector('.quizmo-tools').getBoundingClientRect();
+        const controls=[...document.querySelectorAll('.quizmo-pad button,.quizmo-check,[data-choice],[data-field]')];
+        return {controls:controls.map(e=>{const r=e.getBoundingClientRect();return {text:e.textContent,width:r.width,height:r.height,top:r.top,bottom:r.bottom,left:r.left,right:r.right,hit:document.elementFromPoint(r.x+r.width/2,r.y+r.height/2)?.closest('button')===e};}),toolsBottom:tools.bottom,barTop:bar.top,scroll:document.documentElement.scrollHeight,height:innerHeight,width:document.documentElement.scrollWidth,fill:Math.max(bounds.width/box.width,bounds.height/box.height),readable:[...svg.querySelectorAll('text')].filter(e=>e.getBoundingClientRect().width>0).every(e=>parseFloat(getComputedStyle(e).fontSize)*svg.getScreenCTM().a>=10.95),usable:controls.every(e=>{const r=e.getBoundingClientRect();return r.width>=56&&r.height>=56&&r.top>=tools.bottom&&r.bottom<=bar.top&&r.left>=0&&r.right<=innerWidth&&document.elementFromPoint(r.x+r.width/2,r.y+r.height/2)?.closest('button')===e;}),clipped:[...document.querySelectorAll('.quizmo-question h2,.quizmo-feedback,.quizmo-visual')].some(e=>{const r=e.getBoundingClientRect();return r.left<0||r.right>innerWidth||r.top<tools.bottom||r.bottom>bar.top;})};
+      });
+      const label=`phone ${id} L${level} ${mode} ${state}`;
+      if(!fit.usable&&process.env.QUIZMO_PREVIEW_DIR){await fs.mkdir(process.env.QUIZMO_PREVIEW_DIR,{recursive:true});await page.screenshot({path:path.join(process.env.QUIZMO_PREVIEW_DIR,'failure.png')});}
+      assert(fit.scroll<=844&&fit.width<=390,`${label}: scrolling ${JSON.stringify(fit)}`);assert(fit.usable&&!fit.clipped,`${label}: inaccessible content ${JSON.stringify(fit)}`);assert(fit.readable,`${label}: small SVG label`);
+      if(['count-coins','change','ruler','equal-parts','skip-count','compare-length','length-gap','area','compare-sum','compare'].includes((await current()).operation))assert(fit.fill>=.7,`${label}: sparse SVG ${fit.fill}`);
+      if(state==='question'&&process.env.QUIZMO_PREVIEW_DIR&&['count-coins','ruler','equal-parts','skip-count','compare-length','area','compare-sum'].includes((await current()).operation)){
+        await fs.mkdir(process.env.QUIZMO_PREVIEW_DIR,{recursive:true});await page.screenshot({path:path.join(process.env.QUIZMO_PREVIEW_DIR,`${id}-${level}-${mode}.png`)});
+      }
+    }
+    await answer();assert.equal((await current()).slot,1,`${id} fixture must advance`);await tap('[data-q-action="home"]');
+  }
+  await page.evaluate(()=>{window.JasperQuizmoGen.level=window.quizmoPhoneOriginal;delete window.quizmoPhoneFixture;delete window.quizmoPhoneOriginal;});
+  console.log(`PASS phone fixtures: ${fixtures.length} math presentations at 390×844, questions and hints without scrolling, readable SVGs, artwork fills its canvas, 56px reachable controls and correct answers`);
   // Exercise every game and level at laptop sizes, including retry hints and
   // maximum operands/lantern sets. Reload afterwards to preserve progression checks.
   for(const viewport of [{width:1280,height:800},{width:1366,height:768},{width:1280,height:720},{width:1280,height:600},{width:1024,height:560},{width:900,height:500},{width:844,height:390}]) {
@@ -84,9 +122,9 @@ try{
   await retry();assert((await page.$$eval('.quizmo-visual [data-groups]',es=>es.length))>0);
   for(const viewport of [{width:1366,height:768},{width:900,height:500},{width:844,height:390},{width:390,height:844},{width:375,height:667}]){
     if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
-    for(const [den,total] of [[3,12],[4,16],[6,18],[8,24]]){
+    for(const [den,total] of [[2,6],[2,10],[4,8],[4,12]]){
       const geometry=await page.evaluate(({den,total})=>{
-        document.querySelector('.quizmo-question h2').textContent=`What is 3/${den} of ${total} lanterns?`;
+        document.querySelector('.quizmo-question h2').textContent=`What is 1/${den} of ${total} lanterns?`;
         document.querySelector('.quizmo-visual').innerHTML=window.QuizmoVisuals.fractions({mode:'quantity',d:den,total});window.JasperQuizmo.layout();
         const items=[...document.querySelectorAll('.quizmo-visual .quizmo-lantern')].map(e=>e.getBoundingClientRect()).filter(r=>r.width>0),errors=[];
         for(let i=0;i<items.length;i++)for(let j=i+1;j<items.length;j++){const a=items[i],b=items[j];if(Math.min(a.right,b.right)-Math.max(a.left,b.left)>.1&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>.1)errors.push('Touching lanterns');}
@@ -97,7 +135,7 @@ try{
     }
   }
   await tap('[data-q-action="home"]');
-  console.log('PASS lanterns: 12–24 ungrouped lanterns, no overlaps, countable phone art and grouped hint only after retry');
+  console.log('PASS lanterns: 6–12 ungrouped lanterns, no overlaps, countable phone art and grouped hint only after retry');
   // Long questions and full hints also fit the stacked phone layout without panel overlap.
   for(const viewport of [{width:390,height:844},{width:375,height:667}]){
     if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
@@ -137,7 +175,7 @@ try{
   for(const viewport of [{width:1366,height:768},{width:844,height:390},{width:390,height:844},{width:375,height:667}]){
     if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
     await page.evaluate(()=>{const G=window.JasperQuizmoGen;window.quizmoOriginalLevel=G.level;G.level=(id,l,recent)=>window.quizmoFixture?[window.quizmoFixture,...window.quizmoOriginalLevel(id,l,recent).slice(1)]:window.quizmoOriginalLevel(id,l,recent);});
-    for(const [id,level,mode] of [['addition',3,'pair'],['addition',5,'estimate'],['place',8,'compare'],['fractions',3,'shaded'],['fractions',8,'compare']]){
+    for(const [id,level,mode] of [['addition',3,'compare'],['addition',5,'compare'],['place',8,'compare'],['fractions',3,'shaded'],['fractions',8,'compare'],['fractions',2,'equal'],['measure',1,'compare']]){
       await page.evaluate(({id,level,mode})=>window.quizmoFixture=window.JasperQuizmoGen.question(id,level,{mode}),{id,level,mode});
       await tap(`[data-game="${id}"]`);
       const t=await current();assert(t.choices&&Number.isInteger(t.correct));assert.equal(await page.$('.quizmo-pad'),null);
@@ -154,7 +192,7 @@ try{
     }
     await page.evaluate(()=>{window.JasperQuizmoGen.level=window.quizmoOriginalLevel;delete window.quizmoFixture;});
   }
-  console.log('PASS math choices: comparisons, pair sums, estimates and fractions; correct hook, wrong-answer points, single advancement, four viewports and conditional remainder fields');
+  console.log('PASS math choices: sum comparisons, place signs and fractions; correct hook, wrong-answer points, single advancement, four viewports and conditional remainder fields');
   if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});
   await page.evaluate(()=>localStorage.removeItem('jasper-quizmo'));
   await page.reload({waitUntil:'domcontentloaded'});

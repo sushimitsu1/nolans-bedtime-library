@@ -124,7 +124,8 @@ function verifyMath(t){
      assert.equal(op==='shaded'?picked:a[0],op==='shaded'?`${lit}/${parts.length}`:parts.length);
    }
    if(op==='equal-parts'){
-     const groups=Array.from({length:4},(_,i)=>[...t.visual.matchAll(new RegExp(`data-option="${i}" data-width="([^"]+)"`,'g'))].map(m=>Number(m[1])));
+     const art=t.visual.split('class="quizmo-portrait-art"')[0];
+     const groups=Array.from({length:4},(_,i)=>[...art.matchAll(new RegExp(`data-option="${i}" data-width="([^"]+)"`,'g'))].map(m=>Number(m[1])));
      const fits=groups.map((g,i)=>g.length===n[0]&&g.every(w=>Math.abs(w-g[0])<.001)?String.fromCharCode(65+i):null).filter(Boolean);
      assert.deepEqual(fits,[picked]);
    }
@@ -143,7 +144,7 @@ function verifyMath(t){
    if(op==='balance-add')assert.equal(a[0]+n[0],n[1]+n[2]);
  }
  if(k==='measure'){
-   if(op==='tell-time'){assert.deepEqual(Array.from(a),[t.hour,t.minutes]);assert(!t.visual.includes(`>${t.hour}:${String(t.minutes).padStart(2,'0')}<`));}
+   if(op==='tell-time'){assert.deepEqual(Array.from(a),t.minutes?[t.hour,t.minutes]:[t.hour]);assert(!t.visual.includes(`>${t.hour}:${String(t.minutes).padStart(2,'0')}<`));}
    if(op==='length-gap')assert.equal(a[0],n[0]-n[1]);
    if(op==='ruler')assert.equal(a[0],t.end-t.start);
    if(op==='area')assert.equal(a[0],(t.visual.match(/class="quizmo-area-square"/g)||[]).length);

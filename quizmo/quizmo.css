@@ -124,3 +124,6 @@ body:has(#quizmoView.active) main>.view:not(.active){display:none}
 
 #quizmoView.active .quizmo-compact-clock .quizmo-clock-number.minor{display:none}
 #quizmoView.active .quizmo-compact-svg .quizmo-small-note{display:none}
+
+/* Answer fields are tap targets too, including on short portrait screens. */
+#quizmoView.active .quizmo-inputs button{min-width:56px;min-height:56px}
