@@ -8,7 +8,7 @@
   try { prefs = {...defaults, ...JSON.parse(localStorage.getItem(key) || '{}')}; } catch { prefs = {...defaults}; }
   prefs.points = Number.isSafeInteger(prefs.points) && prefs.points >= 0 ? prefs.points : 0;
   prefs.levels = prefs.levels && typeof prefs.levels === 'object' ? prefs.levels : {};
-  const retired=['bramble','aster','posy','willa'];
+  const retired=['bramble','aster','posy','willa','hazel','coby','cora','saffy','nova','toby'];
   if(retired.some(id=>Object.hasOwn(prefs.levels,id))){
     for(const id of retired)delete prefs.levels[id];
     try { localStorage.setItem(key, JSON.stringify(prefs)); } catch { /* Storage is optional. */ }
