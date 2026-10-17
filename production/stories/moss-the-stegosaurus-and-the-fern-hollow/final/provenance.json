@@ -164,8 +164,8 @@
       "sourceAssetPath": "production/stories/moss-the-stegosaurus-and-the-fern-hollow/staging/moss-the-stegosaurus-and-the-fern-hollow/illustrations/page-13.png",
       "sourceStorySlug": "moss-the-stegosaurus-and-the-fern-hollow",
       "sourcePageNumber": 13,
-      "finalSha256": "24d4fe1044b3f5bab426d7c75bffd77bd836da1648bf4a3ac3b936f54c91a322",
-      "sourceSha256": "723729c6717db89e830bd2f7609e4c60e8e8e70923829203cf38c376527f53c6",
+      "finalSha256": "b8d03bb0fa5f8f27c54121f936043d6cfdcdb35c362502e52a69b7a8e85fabaa",
+      "sourceSha256": "faf1ded98b8cd0477c3fee6841dbfe6ffbe1723ef6a0fd90d719887657743588",
       "compositionType": "single_scene",
       "validationStatus": "passed"
     },
@@ -176,8 +176,8 @@
       "sourceAssetPath": "production/stories/moss-the-stegosaurus-and-the-fern-hollow/staging/moss-the-stegosaurus-and-the-fern-hollow/illustrations/page-14.png",
       "sourceStorySlug": "moss-the-stegosaurus-and-the-fern-hollow",
       "sourcePageNumber": 14,
-      "finalSha256": "91ec085c3449956b49adb2a2c02fbab1be1c93f72ab8d67afccd60b3f2fc402a",
-      "sourceSha256": "154d84a33909f9a5f560e08c61a513c568bb715a91a95e33b01d757da407587b",
+      "finalSha256": "8044f1e3ff6588b5eed6f2b270f2fa539424393ff39437ae75cb429e8df7c93e",
+      "sourceSha256": "8c29e6e4f2f1924638a7df647d9924a3b2bcba5a60e397a139bc074451e3ab09",
       "compositionType": "single_scene",
       "validationStatus": "passed"
     },
@@ -188,8 +188,8 @@
       "sourceAssetPath": "production/stories/moss-the-stegosaurus-and-the-fern-hollow/staging/moss-the-stegosaurus-and-the-fern-hollow/illustrations/page-15.png",
       "sourceStorySlug": "moss-the-stegosaurus-and-the-fern-hollow",
       "sourcePageNumber": 15,
-      "finalSha256": "75f2a0235cf1cb0eb0d42263f2562f5ef0e57e4a1f5c57f087cd70208db0d389",
-      "sourceSha256": "f1139969bc1aa2256ad86f2aa5d55428b94f6068c47e8b60ef06960f7e1c410e",
+      "finalSha256": "5ea093a68ba04e1cfbc3ffca148aedee352987b374d806ae5d918067d77a1cd8",
+      "sourceSha256": "922d338ff489618fd5d9fe08dda4dc1172346041fed6ddd87fd4e2edc4654a58",
       "compositionType": "single_scene",
       "validationStatus": "passed"
     }
