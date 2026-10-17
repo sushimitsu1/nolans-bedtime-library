@@ -19,7 +19,7 @@ for(const id of ids){
       assert.equal(tasks.length,5);
       if(math.has(id))assert(!tasks[0].choices,`${id}: written opening`);
       assert.equal(new Set(tasks.map(t=>t.sig)).size,5,`${id} L${l} unique signatures`);
-      if(id==='figures')assert.equal(new Set(tasks.map(t=>V.normalizeSvg(t.visual))).size,5,`figures L${l}: unique visual questions under the shared instruction`);
+      if(['figures','measure'].includes(id))assert.equal(new Set(tasks.map(t=>t.prompt+'|'+V.normalizeSvg(t.visual))).size,5,`${id} L${l}: unique visual questions under the shared instruction`);
       else assert.equal(new Set(tasks.map(t=>t.prompt)).size,5,`${id} L${l} unique prompts`);
       const svgIds=tasks.flatMap(t=>[t.visual,...(t.choices||[])]).flatMap(markup=>[...markup.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
       assert.equal(new Set(svgIds).size,svgIds.length,`${id}: paint-server IDs must be unique across the whole round`);
@@ -42,6 +42,7 @@ for(const id of ids){
           assert(Number.isInteger(t.correct)&&t.correct>=0&&t.correct<4);positions.add(t.correct);
           sum+=difficultyScore(t);
           if(id==='series')verifySeries(t);
+          if(id==='puzzles')verifyPuzzle(t);
           if(id==='puzzles'&&['machine','inverse'].includes(t.operation)){
             const n=t.prompt.match(/\d+/g).map(Number),first=n[0],second=n[2];
             if(t.operation==='machine')assert(![first,second].includes(n[4]),'Machine must require a new input');
@@ -65,116 +66,98 @@ for(const id of ids){
   console.log(`PASS ${id}: 8 × 200 levels + replays${math.has(id)?`; mean curriculum difficulty ${means[id].map(Math.round).join(', ')}`:''}`);
 }
 // Score actual content, without reading the requested level: number size,
-// fact range, smaller fraction parts, and extra steps each add work.
+// fact range, inverse facts, comparing two fraction pieces, and extra steps add work.
 function difficultyScore(t){
- const k=t.source||t.kind,o=t.operation,n=t.operands||[],max=Math.max(0,...n),a=t.answers||[],steps=t.steps||1;
- if(k==='addition')return (t.addends?t.addends.reduce((s,n)=>s+n,0):max)/100+(t.regroups||0)*2+steps*2;
- if(k==='subtraction')return max/100+2;
- if(k==='times')return a[0]/15+steps*2+Math.max(...t.factors)/4;
- if(k==='division')return t.dividend/20+t.divisor/2+steps*4+(t.remainder?4:0);
- if(k==='place')return max/500+steps*3;
- if(k==='fractions')return Math.max(...t.denominators)+steps*3+(t.total||0)/24;
- if(k==='words'){
-   if(t.money)return t.paid/1000+(t.cost%100===0?1:t.cost%50===0?3:4)+steps*2;
-   if(o==='elapsed-time')return 60/t.step+a[0]/120+steps*2;
-   return max/50+steps*3;
- }
- if(k==='missing')return max/50+steps*4;
- if(k==='measure'){
-   if(o==='tell-time')return 2+60/t.step;
-   if(o==='elapsed-time')return 60/t.step+a[0]/120+steps*2;
-   if(o.startsWith('convert'))return a[0]/100+steps*2;
-   if(o==='perimeter'||o==='missing-side')return Math.max(...t.sides)/4+steps*3;
-   return t.area/10+steps*3;
- }
+ const k=t.source||t.kind,n=t.operands||[],max=Math.max(0,...n),steps=t.steps||1;
+ if(k==='addition')return Math.max(...t.addends)/15+(t.regroups||0)*2+steps;
+ if(k==='subtraction')return max/15+(t.borrows||0)*2;
+ if(k==='times')return Math.max(...t.factors)/4+(t.answers[0]||0)/20+steps+(['missing-factor','add-row'].includes(t.operation)?3:0);
+ if(k==='division')return t.dividend/10+t.divisor/2+steps+(t.remainder?2:0);
+ if(k==='place')return max/100+steps;
+ if(k==='fractions')return Math.max(...t.denominators)+(t.operands[0]>1?1:0)+steps+(t.operation==='compare'?2:0);
+ if(k==='words')return t.money?t.paid/15+steps:t.operation==='elapsed-hours'?t.duration/60+steps:max/10+steps;
+ if(k==='missing')return max/10+steps*3;
+ if(k==='measure')return t.operation==='tell-time'?2+60/t.step:t.operation==='area'?4+t.area/10:Math.max(...(t.lengths||[t.length]))/15+steps;
  if(k==='links'||k==='groups')return t.band*3;
- if(k==='series')return ({plus:1,minus:1,alternating:2,growing:2,'alternating-growing':3,interleaved:3})[o];
- if(k==='puzzles')return steps*3;
- if(k==='figures'){if(o==='paper')return Number(t.sig.split(':')[2])*3;const data=JSON.parse(t.sig.slice('figures:matrix:'.length));return data[2].length*(data[3]?2:1);}
+ if(k==='series'){const ns=t.prompt.match(/\d+/g).map(Number);return Math.abs(ns[1]-ns[0])+(t.operation==='alternating'?10:0);}
+ if(k==='puzzles'){const ns=t.prompt.match(/\d+/g).map(Number);return steps*3+Math.max(...ns)/10+(t.operation==='machine'||t.operation==='inverse'?(ns[1]-ns[0])/3:0);}
+ if(k==='figures'){const data=JSON.parse(t.sig.slice('figures:matrix:'.length));return data[2].length+(data[2].some(a=>['angle','size','position'].includes(a))?1:0);}
  throw Error(k);
 }
-// Independent arithmetic checks use the visible prompt, not the factory's answer calculation.
+// Independent checks read the facts in the prompt or count the drawn objects.
 function verifyMath(t){
-  const p=t.prompt,n=(p.match(/\d+/g)||[]).map(Number),a=t.answers,op=t.operation,kind=t.source||t.kind;
-  const picked=t.choices?.[t.correct];
-  if(kind==='addition'){
-    if(op==='sum'||op==='three-addends')assert.equal(a[0],n.reduce((s,v)=>s+v,0));
-    if(op==='missing-addend')assert.equal(n[0]+a[0],n[1]);
-    if(op==='make-100')assert.equal(picked.match(/\d+/g).map(Number).reduce((s,v)=>s+v),100);
-    if(op==='sum-then-use')assert.equal(a[0],n[0]+n[1]-n[2]);
-    if(op==='estimate')assert.equal(Number(picked),Math.round(n[1]/10)*10+Math.round(n[2]/10)*10);
-  }
-  if(kind==='subtraction')assert.equal(a[0],n[0]-n[1]);
-  if(kind==='times'){
-    if(op==='missing-factor')assert.equal(a[0]*n[0],n[1]);
-    if(op==='product')assert.equal(a[0],n[0]*n[1]);
-    if(op==='chair-rows')assert.equal(a[0],(n[0]+1)*n[1]);
-    if(op==='array')assert.equal(a[0],(n[0]-1)*n[1]);
-    if(op==='two-boxes')assert.equal(a[0],n[0]*n[1]+n[2]*n[3]);
-    if(op==='large-fact-groups')assert.equal(a[0],n[0]*n[1]);
-    if(op==='neighbor-fact'){assert.equal(n[0]*n[1],n[2]);assert.equal(a[0],n[3]*n[4]);}
-    if(op==='double-fact'){assert.equal(n[0]*n[1],n[2]);assert.equal(a[0],n[3]*n[4]);}
-  }
-  if(kind==='division'){
-    if(op==='missing-dividend')assert.equal(a[0]/n[0],n[1]);
-    else if(op==='reserve-groups')assert.equal(a[0],(n[0]-n[1])/n[2]);
-    else {assert.equal(a[0]*n[1]+(a[1]||0),n[0]);assert((a[1]||0)<n[1]);}
-  }
-  if(kind==='missing'){
-    if(op==='missing-factor')assert.equal(a[0]*n[0],n[1]);
-    if(op==='missing-dividend')assert.equal(a[0]/n[0],n[1]);
-    if(op==='missing-addend')assert.equal(a[0]+n[0],n[1]);
-    if(op==='missing-subtrahend')assert.equal(n[0]-a[0],n[1]);
-    if(op==='multiply-add')assert.equal(n[0]*a[0]+n[1],n[2]);
-    if(op==='two-sides')assert.equal(a[0]+n[0],n[1]*n[2]);
-    if(op==='subtract-product')assert.equal(n[0]-a[0],n[1]*n[2]);
-  }
-  if(kind==='place'){
-    if(op==='round-then-shift')assert.equal(a[0],Math.round(n[0]/100)*100+100);
-    if(op==='two-shifts')assert.equal(a[0],n[0]+n[1]-n[2]);
-    if(op==='expanded-pair')assert.equal(a[0]+a[1],n[0]-n.slice(1).reduce((s,v)=>s+v,0));
-    if(op==='compare-shift')assert.equal(picked,n[0]+n[1]>n[2]?'Left':n[0]+n[1]<n[2]?'Right':'Equal');
-    if(op==='round')assert.equal(a[0],Math.round(n[0]/n[1])*n[1]);
-    if(op==='more')assert.equal(a[0],n[1]+n[0]);
-    if(op==='less')assert.equal(a[0],n[1]-n[0]);
-    if(op==='digit-value')assert.equal(a[0],Math.floor(n[0]/n[1])%10*n[1]);
-    if(op==='expanded')assert.equal(a[0],n[0]-n.slice(1).reduce((s,v)=>s+v,0));
-    if(op==='compare')assert.equal(picked,n[0]>n[1]?'>':n[0]<n[1]?'<':'=');
-  }
-  if(kind==='words'){
-    if(op==='join')assert.equal(a[0],n[0]+n[1]);
-    if(op==='left')assert.equal(a[0],n[0]-n[1]);
-    if(op==='share-reserve')assert.equal(a[0],(n[0]-n[1])/n[2]);
-    if(op==='pack-use')assert.equal(a[0],n[0]*n[1]-n[2]);
-    if(op==='pack-extra')assert.equal(a[0],n[0]*n[1]+n[2]);
-  }
-  if(kind==='fractions'){
-    if(op==='fraction-of-set')assert.equal(a[0],n[0]*n[2]/n[1]);
-    if(op==='fraction-whole')assert.equal(a[0],n[1]*n[2]);
-    if(op==='fraction-then-use')assert.equal(a[0],n[0]*n[2]/n[1]-n[3]);
-    if(op==='equivalent-denominator')assert.equal(n[0]*a[0],n[1]*n[2]);
-    if(op==='equivalent')assert.equal(n[0]*n[2],a[0]*n[1]);
-    if(op==='compare')assert.equal(picked,n[0]*n[3]===n[2]*n[1]?'Equal':n[0]*n[3]>n[2]*n[1]?`${n[0]}/${n[1]}`:`${n[2]}/${n[3]}`);
-    if(op==='shaded'){
-      const parts=[...t.visual.matchAll(/class="quizmo-fraction-part" data-lit="(\d)"/g)];
-      assert.equal(picked,`${parts.filter(m=>m[1]==='1').length}/${parts.length}`);
-    }
-  }
-  if(op==='elapsed-time'){
-    const start=(n[0]%12)*60+n[1],end=(n[2]%12)*60+n[3];assert.equal(a[0],(end-start+720)%720);
-  }
-  if(op==='change')assert.equal(a[0],n[0]*100-(n[1]*100+n[2]));
-  if(kind==='measure'){
-    if(op==='convert-add')assert.equal(a[0],n[0]*100+n[1]+n[2]);
-    if(op==='missing-side')assert.equal(a[0],n[0]/2-n[1]);
-    if(op==='convert-length')assert.equal(a[0],n[0]*100+n[1]);
-    if(op==='perimeter')assert.equal(a[0],2*(n[0]+n[1]));
-    if(op==='area'||op==='lshape-area')assert.equal(a[0],(t.visual.match(/class="quizmo-area-square"/g)||[]).length);
-    if(op==='tell-time'){
-      assert.equal(a[0],t.hour);assert.equal(a[1],t.minutes);
-      assert(!t.visual.includes(`>${t.hour}:${String(t.minutes).padStart(2,'0')}<`),'No digital answer on clock');
-    }
-  }
+ const p=t.prompt,n=(p.match(/\d+/g)||[]).map(Number),a=t.answers,op=t.operation,k=t.source||t.kind,picked=t.choices?.[t.correct];
+ if(k==='addition'){
+   if(op==='sum'||op==='three-addends')assert.equal(a[0],n.reduce((x,y)=>x+y,0));
+   if(op==='missing-addend')assert.equal(n[0]+a[0],n[1]);
+   if(op==='make-ten')assert.equal(n[0]+Number(picked),n[1]);
+   if(op==='compare-sum')assert.equal(picked,n[0]+n[1]>n[2]?'>':n[0]+n[1]<n[2]?'<':'=');
+ }
+ if(k==='subtraction'){
+   if(op==='missing-subtrahend')assert.equal(n[0]-a[0],n[1]);
+   else assert.equal(a[0],n[0]-n[1]);
+ }
+ if(k==='times'){
+   if(op==='product')assert.equal(a[0],n[0]*n[1]);
+   if(op==='missing-factor')assert.equal(a[0]*n[0],n[1]);
+   if(op==='repeated-addition')assert.equal(a[0],n.reduce((x,y)=>x+y,0));
+   if(op==='skip-count')assert.equal(a[0],n.at(-1)+n[0]);
+   if(op==='add-row')assert.equal(a[0],(n[0]+1)*n[1]);
+ }
+ if(k==='division'){
+   const count=(t.visual.match(/class="quizmo-sharing-item"/g)||[]).length;
+   if(op==='double')assert.equal(a[0],2*n[0]);
+   else {assert.equal(count,n[0]);assert.equal(a[0]*(op==='half'?2:n[1])+(a[1]||0),n[0]);}
+ }
+ if(k==='place'){
+   if(op==='more')assert.equal(a[0],n[0]+n[1]);
+   if(op==='less')assert.equal(a[0],n[1]-n[0]);
+   if(op==='digit-value'){const pow=p.includes('hundreds')?100:p.includes('tens')?10:1;assert.equal(a[0],Math.floor(n[0]/pow)%10*pow);}
+   if(op==='expanded')assert.equal(a[0],n[0]-n.slice(1).reduce((x,y)=>x+y,0));
+   if(op==='compare')assert.equal(picked,n[0]>n[1]?'>':n[0]<n[1]?'<':'=');
+ }
+ if(k==='fractions'){
+   if(op==='fraction-of-set')assert.equal(a[0],n[0]*n[2]/n[1]);
+   if(op==='compare')assert.equal(picked,n[1]<n[3]?`1/${n[1]}`:`1/${n[3]}`);
+   if(['count-parts','shaded'].includes(op)){
+     const parts=[...t.visual.matchAll(/class="quizmo-fraction-part" data-lit="(\d)"/g)],lit=parts.filter(m=>m[1]==='1').length;
+     assert.equal(op==='shaded'?picked:a[0],op==='shaded'?`${lit}/${parts.length}`:parts.length);
+   }
+   if(op==='equal-parts'){
+     const groups=Array.from({length:4},(_,i)=>[...t.visual.matchAll(new RegExp(`data-option="${i}" data-width="([^"]+)"`,'g'))].map(m=>Number(m[1])));
+     const fits=groups.map((g,i)=>g.length===n[0]&&g.every(w=>Math.abs(w-g[0])<.001)?String.fromCharCode(65+i):null).filter(Boolean);
+     assert.deepEqual(fits,[picked]);
+   }
+ }
+ if(k==='words'){
+   if(op==='join')assert.equal(a[0],n[0]+n[1]);
+   if(op==='left')assert.equal(a[0],n[0]-n[1]);
+   if(op==='birds')assert.equal(a[0],n[0]+n[1]-n[2]);
+   if(op==='count-coins')assert.equal(a[0],[...t.visual.matchAll(/class="quizmo-coin" data-cents="(\d+)"/g)].reduce((sum,m)=>sum+Number(m[1]),0));
+   if(op==='change')assert.equal(a[0],n[0]-n[1]);
+   if(op==='elapsed-hours')assert.equal(a[0],((n[2]%12)*60+n[3]-(n[0]%12)*60-n[1]+720)%720/60);
+ }
+ if(k==='missing'){
+   if(op==='missing-addend')assert.equal(a[0]+n[0],n[1]);
+   if(op==='missing-subtrahend')assert.equal(n[0]-a[0],n[1]);
+   if(op==='balance-add')assert.equal(a[0]+n[0],n[1]+n[2]);
+ }
+ if(k==='measure'){
+   if(op==='tell-time'){assert.deepEqual(Array.from(a),[t.hour,t.minutes]);assert(!t.visual.includes(`>${t.hour}:${String(t.minutes).padStart(2,'0')}<`));}
+   if(op==='length-gap')assert.equal(a[0],n[0]-n[1]);
+   if(op==='ruler')assert.equal(a[0],t.end-t.start);
+   if(op==='area')assert.equal(a[0],(t.visual.match(/class="quizmo-area-square"/g)||[]).length);
+   if(op==='compare-length')assert.equal(picked,p.includes('shorter')?'B':'A');
+ }
+}
+function verifyPuzzle(t){
+ const n=t.prompt.match(/\d+/g).map(Number),picked=Number(t.choices[t.correct]);
+ if(t.operation==='machine'||t.operation==='inverse'){
+   assert.equal(n[1]-n[0],n[3]-n[2]);
+   assert.equal(picked,t.operation==='machine'?n[4]+n[1]-n[0]:n[4]-(n[1]-n[0]));
+ }
+ if(t.operation==='two-symbols')assert.equal(picked,n[1]-n[0]/2+n[2]);
+ if(t.operation==='balance')assert.equal(picked,n[1]+n[2]-n[0]+n[3]);
 }
 function verifySeries(t){
   const ns=t.prompt.match(/\d+/g).map(Number),a=Number(t.choices[t.correct]),last=ns.at(-1),diff=ns.slice(1).map((n,i)=>n-ns[i]);let expected;
@@ -199,13 +182,11 @@ for(const l of [1,4,8])for(let i=0;i<50;i++){
     const total=t.visual.slice(t.visual.indexOf('class="quizmo-total-row"'));
     assert([...total.matchAll(/<text[^>]*>([^<]+)<\/text>/g)].every(m=>m[1]==='='||m[1]==='?'));
   }
-  for(const mode of ['quantity','shaded','equivalent','compare'])verifyMath(G.question('fractions',l,{mode,rng}));
-  for(const mode of ['clock','time','area'])verifyMath(G.question('measure',l,{mode,rng}));
+  for(const mode of ['quantity','shaded','equal','compare'])verifyMath(G.question('fractions',l,{mode,rng}));
+  for(const mode of ['clock','length','area'])verifyMath(G.question('measure',l,{mode,rng}));
 }
-for(const paid of [500,1000,2000]){
-  const markup=V.measure({mode:'money',paid,cost:732});
-  assert(markup.includes('$7.32')&&markup.includes('quizmo-dollar-bill')&&markup.includes('quizmo-price-tag'));
-  assert.deepEqual([...markup.matchAll(/class="quizmo-coin" data-cents="(\d+)"/g)].map(m=>Number(m[1])),[25,10,5,1]);
+for(const coins of [[1,5,10,25],[25,25,25,25]]){
+ const markup=V.coins({coins});assert.deepEqual([...markup.matchAll(/class="quizmo-coin" data-cents="(\d+)"/g)].map(m=>Number(m[1])),coins);
 }
 // Explicit RNGs make planning reproducible, including fixed-bank shuffles.
 for(const id of ids){
