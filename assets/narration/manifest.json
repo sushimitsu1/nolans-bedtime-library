@@ -35,9 +35,19 @@
       "textHash": "42c96c1cc697c041",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "bramble-the-little-book-train-and-the-sleepy-story-town": {
+      "pages": 15,
+      "textHash": "bad0fb7e85a4a0e0",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "buzz-the-honeybee-and-the-moonlight-meadow": {
       "pages": 15,
       "textHash": "0575ce78f3c98330",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "cedar-the-night-train-and-the-sleepy-valley": {
+      "pages": 15,
+      "textHash": "64c0f1579717e443",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "chev-camaro": {
@@ -100,9 +110,19 @@
       "textHash": "8cb5ce9dcc577555",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "gavin-garbage-truck-moonlit-cleanup": {
+      "pages": 15,
+      "textHash": "97bd956cdeb52e61",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "grave-digger": {
       "pages": 15,
       "textHash": "2478125b14b8a236",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "harbor-hank-pilot-boat-loose-float-line": {
+      "pages": 15,
+      "textHash": "00c633c0df310504",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "harper-the-harbor-ferry-and-the-sleepy-lighthouse": {
@@ -115,9 +135,19 @@
       "textHash": "ae14e2ab0320f48a",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "hazel-the-little-tractor-and-the-moonlight-harvest": {
+      "pages": 15,
+      "textHash": "bd4af9112a0c1f40",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "heli-rescue-helicopter-mountain-picnic": {
       "pages": 15,
       "textHash": "93c3d490f577f273",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "juniper-the-little-hedgehog-and-the-moonlit-library": {
+      "pages": 15,
+      "textHash": "141efb15bc5961a3",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "lila-rooftop-balloon": {
@@ -128,6 +158,16 @@
     "lizze-the-lizard-and-the-lost-little-leaf": {
       "pages": 15,
       "textHash": "e486ec0708d2f60a",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "lumi-the-little-seaplane-and-the-festival-of-floating-lights": {
+      "pages": 15,
+      "textHash": "0e1ea6bce15a4228",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "luna-little-spaceship-sleepy-star-garden": {
+      "pages": 15,
+      "textHash": "3dd551d03e31322e",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "luna-the-lunar-rover-and-the-quiet-crater-camp": {
@@ -150,6 +190,16 @@
       "textHash": "d0d7f102b48cf274",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "milo-the-little-race-car-and-the-starlight-parade": {
+      "pages": 15,
+      "textHash": "60020b7effe044c2",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "mira-the-sea-turtle-and-the-glowing-garden": {
+      "pages": 15,
+      "textHash": "e54652d2ec46a5c6",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "mo-motor-grader": {
       "pages": 15,
       "textHash": "7230267dadc1c899",
@@ -165,9 +215,34 @@
       "textHash": "253092623d86fe62",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "moss-the-stegosaurus-and-the-fern-hollow": {
+      "pages": 15,
+      "textHash": "1325fec868da2bfc",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "niko-snowplow-sleepy-mountain-road": {
       "pages": 15,
       "textHash": "a3111af3d27d4d80",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "nova-night-bus-missing-star-sticker": {
+      "pages": 15,
+      "textHash": "6f51a6fe4a1a61b4",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "ollie-oil-truck-quiet-corner-leak": {
+      "pages": 15,
+      "textHash": "281b0ffee12e7200",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "orla-the-little-octopus-and-the-moonlight-melody": {
+      "pages": 15,
+      "textHash": "1783558d8892db2c",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "pip-pickle-forklift-sleepy-warehouse-shelf": {
+      "pages": 15,
+      "textHash": "f313fd9938123074",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "piper-the-airport-tug-and-the-sleepy-little-jet": {
@@ -183,6 +258,11 @@
     "po-police-pickup": {
       "pages": 15,
       "textHash": "4e84812db58ee2d3",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "posy-the-baker-bear-and-the-moon-rolls": {
+      "pages": 15,
+      "textHash": "6ff27983cce69bb6",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "ra-ratata": {
@@ -210,6 +290,21 @@
       "textHash": "30eed6ecfa65e540",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "rockey-rocket-sleepy-star": {
+      "pages": 15,
+      "textHash": "8f8fa0c1eafddfb0",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "ruby-rescue-rover-foggy-meadow-path": {
+      "pages": 15,
+      "textHash": "1c420823d541ad9b",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "saffy-the-little-triceratops-and-the-rainy-evening-song": {
+      "pages": 15,
+      "textHash": "2a115b67fd28f967",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "sami-the-semi-truck-and-the-sleepy-orchard-delivery": {
       "pages": 15,
       "textHash": "1f91cb47a46dc5fe",
@@ -225,9 +320,29 @@
       "textHash": "53be9067743fae76",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "stefan-shark-shimmering-shell": {
+      "pages": 15,
+      "textHash": "39155ec32e3a13c3",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "sunny-6x6-cozy-mountain-rescue": {
+      "pages": 15,
+      "textHash": "70bf798e7f95b689",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "tavi-the-little-lantern-boat-and-the-moonlit-river": {
+      "pages": 15,
+      "textHash": "0db34ae290c6190d",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "tess-quiet-night-drive": {
       "pages": 15,
       "textHash": "1ddbebcb5f315089",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "theo-the-train-engine-and-the-quiet-crossing": {
+      "pages": 15,
+      "textHash": "af9637b18b6a9512",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "thunderroarus-lost-fossil-trail": {
@@ -238,6 +353,11 @@
     "tilly-tractor-moonlit-pumpkin-patch": {
       "pages": 15,
       "textHash": "ffc8f71ac56e12fa",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "tom-trex-tiny-thunder": {
+      "pages": 15,
+      "textHash": "b488fd5d9513471e",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "towie-stuck-little-van": {
@@ -253,6 +373,11 @@
     "wally-street-sweeper-windy-leaf-parade": {
       "pages": 15,
       "textHash": "70fd2f4038b7840d",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "willa-the-little-plane-and-the-quiet-sky": {
+      "pages": 15,
+      "textHash": "7493c9679b1e283c",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "zombie-sleepy-stadium": {
