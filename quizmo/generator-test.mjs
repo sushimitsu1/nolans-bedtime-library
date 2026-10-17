@@ -176,12 +176,23 @@ function verifySeries(t){
 for(const l of [1,4,8])for(let i=0;i<50;i++){
   for(const id of ['addition','subtraction']){
     const t=G.question(id,l,{rng,mode:id==='addition'?'sum':'difference'});verifyMath(t);
-    const operands=t.prompt.match(/\d+/g).map(Number);
-    assert.deepEqual([...t.visual.matchAll(/class="quizmo-operand-row" data-value="(\d+)"/g)].map(m=>Number(m[1])),operands);
-    const expected=operands.reduce((s,n)=>s+String(n).split('').reduce((s,d)=>s+Number(d),0),0);
-    assert.equal((t.visual.match(/class="quizmo-base-block"/g)||[]).length,expected);
-    const total=t.visual.slice(t.visual.indexOf('class="quizmo-total-row"'));
-    assert([...total.matchAll(/<text[^>]*>([^<]+)<\/text>/g)].every(m=>m[1]==='='||m[1]==='?'));
+    const operands=t.prompt.match(/\d+/g).map(Number),[a,b]=operands,count=re=>(t.visual.match(re)||[]).length;
+    // The column problem carries the numbers; the blocks never show a grid, empty cells or a total row.
+    assert.deepEqual(Array.from(t.column.rows),operands);assert.equal(t.column.result,null);assert.equal(t.column.op,id==='addition'?'+':'−');
+    assert(!/quizmo-operand|quizmo-total-row|quizmo-base-block/.test(t.visual));
+    if(id==='addition'){
+      assert.deepEqual([...t.visual.matchAll(/class="quizmo-block-group" data-value="(\d+)"/g)].map(m=>Number(m[1])),operands);
+      assert.equal(count(/class="quizmo-rod"/g),operands.reduce((s,n)=>s+Math.floor(n/10),0));
+      assert.equal(count(/class="quizmo-cube"/g),operands.reduce((s,n)=>s+n%10,0));
+    }else{
+      assert.deepEqual([...t.visual.matchAll(/class="quizmo-block-group" data-value="(\d+)"/g)].map(m=>Number(m[1])),[a]);
+      assert.equal(count(/class="quizmo-rod"/g),Math.floor(a/10));assert.equal(count(/class="quizmo-cube"/g),a%10);
+      const borrow=a%10<b%10;assert.equal(!!t.tradeVisual,borrow);
+      if(borrow){assert.equal(count(/data-taken/g),0,'Nothing crossed out before the trade');
+        const tv=t.tradeVisual,taken=(tv.match(/data-taken="1"/g)||[]).length,cubes=(tv.match(/class="quizmo-cube"/g)||[]).length,rods=(tv.match(/class="quizmo-rod"/g)||[]).length;
+        assert.equal(rods,Math.floor(a/10)-1);assert.equal(cubes,a%10+10);assert.equal(taken,Math.floor(b/10)+b%10);const tr=(tv.match(/class="quizmo-rod" data-taken="1"/g)||[]).length,tc=(tv.match(/class="quizmo-cube" data-taken="1"/g)||[]).length;assert.equal(tr,Math.floor(b/10));assert.equal((rods-tr)*10+cubes-tc,a-b);}
+      else assert.equal(count(/data-taken="1"/g),Math.floor(b/10)+b%10);
+    }
   }
   for(const mode of ['quantity','shaded','equal','compare'])verifyMath(G.question('fractions',l,{mode,rng}));
   for(const mode of ['clock','length','area'])verifyMath(G.question('measure',l,{mode,rng}));
