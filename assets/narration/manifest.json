@@ -1,32 +1,139 @@
 {
   "version": 1,
-  "voice": "Matilda",
-  "voiceId": "XrExE9yKIg1WjnnlVkGX",
-  "model": "eleven_multilingual_v2",
+  "voice": "Sulafat",
+  "voiceId": "en-US-Chirp3-HD-Sulafat",
+  "provider": "google-cloud-tts",
+  "model": "chirp3-hd",
   "stories": {
     "bella-bulldozer": {
       "pages": 15,
-      "textHash": "c168789a6b936692"
+      "textHash": "c168789a6b936692",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "benny-backhoe-little-garden-pond": {
+      "pages": 15,
+      "textHash": "1d17339c108438f6",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "chev-camaro": {
+      "pages": 15,
+      "textHash": "aac9dc50e5bce459",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "cody-cement-mixer-cracked-sidewalk": {
+      "pages": 15,
+      "textHash": "f06b046f23184eb6",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "cranky-wobbly-sign": {
+      "pages": 15,
+      "textHash": "2d04bece74a94998",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "dan-dump-truck": {
       "pages": 15,
-      "textHash": "9e6c89b7335886dc"
+      "textHash": "9e6c89b7335886dc",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "dragon-glowing-cave-trail": {
+      "pages": 15,
+      "textHash": "fd941597be94beef",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "earth-shaker-wobbly-dirt-bridge": {
+      "pages": 15,
+      "textHash": "8d5b1f521e8c9fb7",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "eddie-buried-water-pipe": {
+      "pages": 15,
+      "textHash": "e1372ef79a2c26a7",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "el-toro-loco": {
+      "pages": 15,
+      "textHash": "31b5bd1631eb2ef0",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "finn-fireboat-drifting-sailboat": {
+      "pages": 15,
+      "textHash": "f7307c7ebab2034a",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "freddy-smoky-campfire": {
+      "pages": 15,
+      "textHash": "8cb5ce9dcc577555",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "grave-digger": {
+      "pages": 15,
+      "textHash": "2478125b14b8a236",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "lila-rooftop-balloon": {
+      "pages": 15,
+      "textHash": "2e6fbf34e8693cc1",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "max-d-twisty-training-track": {
+      "pages": 15,
+      "textHash": "c6123331a8442e7d",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "megalodon": {
+      "pages": 15,
+      "textHash": "d0d7f102b48cf274",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "mo-motor-grader": {
       "pages": 15,
-      "textHash": "7230267dadc1c899"
+      "textHash": "7230267dadc1c899",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "monster-mutt": {
+      "pages": 15,
+      "textHash": "fe943aa3edc01847",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "monster-mutt-dalmatian": {
+      "pages": 15,
+      "textHash": "253092623d86fe62",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "po-police-pickup": {
       "pages": 15,
-      "textHash": "4e84812db58ee2d3"
+      "textHash": "4e84812db58ee2d3",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "ra-ratata": {
       "pages": 15,
-      "textHash": "3e60cdfb782a06d1"
+      "textHash": "3e60cdfb782a06d1",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "son-uva-digger-moonlit-hill-climb": {
+      "pages": 15,
+      "textHash": "4c2e63c39184696e",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "tess-quiet-night-drive": {
+      "pages": 15,
+      "textHash": "1ddbebcb5f315089",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "towie-stuck-little-van": {
+      "pages": 15,
+      "textHash": "ef99f54ea8f90c67",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "tundra-the-snowcat-grooms-the-starry-slope": {
       "pages": 15,
-      "textHash": "acf7687bf1eb97f3"
+      "textHash": "acf7687bf1eb97f3",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "zombie-sleepy-stadium": {
+      "pages": 15,
+      "textHash": "d77079613c9a7cf8",
+      "voice": "en-US-Chirp3-HD-Sulafat"
     }
   }
 }
