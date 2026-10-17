@@ -1,0 +1,41 @@
+{
+  "storySlug": "up-and-over-with-calla-the-cable-car",
+  "attempts": {
+    "page-01": 2,
+    "page-02": 2,
+    "page-03": 2,
+    "page-04": 2,
+    "page-05": 2,
+    "page-06": 2,
+    "page-07": 2,
+    "page-08": 2,
+    "page-09": 2,
+    "page-10": 2,
+    "page-11": 2,
+    "page-12": 2,
+    "page-13": 2,
+    "page-14": 2,
+    "page-15": 2
+  },
+  "regeneratedPages": [
+    "cover",
+    "page-01",
+    "page-02",
+    "page-03",
+    "page-04",
+    "page-05",
+    "page-06",
+    "page-07",
+    "page-08",
+    "page-09",
+    "page-10",
+    "page-11",
+    "page-12",
+    "page-13",
+    "page-14",
+    "page-15"
+  ],
+  "retryLimit": 1,
+  "source": "approved ChatGPT package",
+  "regenerationNote": "2026-10-17: full redraw (redo2) in the bolder old-library style (user approved style on the Ollie test); pages 2 and 13 reframed ~1.02x/1.04x from the top to bring the lowest character pixel under y=760."
+}

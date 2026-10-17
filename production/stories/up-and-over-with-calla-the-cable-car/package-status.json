@@ -35,5 +35,5 @@
     "page9To10Continuity": "passed",
     "characterContinuity": "passed"
   },
-  "notes": "All WIP art freshly copied and all pages recomposed. All 15 raw and composed pages individually inspected; no character overlaps. Cover painted title preserved, text null. Four narration softenings documented. Browser smoke tests skipped: sandbox listen EPERM. Cache v105."
+  "notes": "Published from approved ChatGPT full-bleed package; cover + pages 1-15 replaced 2026-10-17 with bolder-style redo2 art (native 1448x1086, title painted into cover, no compositor text; pages 2 and 13 reframed ~1.02x/1.04x from the top). Pages composed with integrated cream panel + badge from story.json text."
 }

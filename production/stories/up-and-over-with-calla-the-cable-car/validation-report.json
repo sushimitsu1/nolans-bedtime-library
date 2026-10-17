@@ -4,8 +4,8 @@
   "narration": "passed; story.json = narration.json = app narration",
   "assets": "passed",
   "app": "passed; expected increase 1; 98 to 99; unrelated records unchanged",
-  "composition": "passed; all 15 pages individually reviewed",
-  "sourceArt": "all 17 PNG files hash-match WIP",
+  "composition": "passed; redo2 art 2026-10-17, all 15 pages individually reviewed; pages 2 and 13 reframed slightly",
+  "sourceArt": "all 16 redo2 PNGs copied to staging and WIP (pages 2 and 13 reframed copies)",
   "smokeTests": "games/videos/quizmo skipped: sandbox listen EPERM; reader server likewise unavailable",
-  "cache": "v105"
+  "cache": "v129"
 }
