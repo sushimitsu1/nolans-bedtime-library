@@ -34,7 +34,7 @@ try{
   const suffix=`${size.width}x${size.height}`;
   const mobileShot=async name=>{await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].filter(i=>i.getBoundingClientRect().top<innerHeight).map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:`/workspace/ui-audit/mobile-${name}-${suffix}.png`});};
   const noOverflow=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow ${suffix}`);
-  const visible=async selector=>assert(await page.$eval(selector,e=>{const r=e.getBoundingClientRect();const bar=document.querySelector('.mobile-tabs').getBoundingClientRect();return r.width>0&&r.height>0&&r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=bar.top+1;}),`Clipped ${selector} ${suffix}`);
+  const visible=async selector=>assert(await page.$eval(selector,e=>{const r=e.getBoundingClientRect();const nav=document.querySelector('.mobile-tabs');const bar=getComputedStyle(nav).display==='none'?{top:innerHeight}:nav.getBoundingClientRect();return r.width>0&&r.height>0&&r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=bar.top+1;}),`Clipped ${selector} ${suffix}`);
   if(size.width>size.height){
    assert(await page.$eval('.side-menu',e=>getComputedStyle(e).display!=='none'));
    assert(await page.$eval('.mobile-tabs',e=>getComputedStyle(e).display==='none'));

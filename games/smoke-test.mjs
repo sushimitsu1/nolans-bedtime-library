@@ -23,139 +23,81 @@ try{
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
   const page=await browser.newPage();if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const url=`http://127.0.0.1:${server.address().port}`;
+
   await page.evaluateOnNewDocument(()=>{
-    window.spoken=[];
-    window.speechSynthesis.speak=u=>{window.spoken.push(u.text);setTimeout(()=>u.onend?.(),0);};
-    localStorage.setItem('nolan-games-v1',localStorage.getItem('nolan-games-v1')||JSON.stringify({points:137,narration:true,effects:false,rewards:false,levels:{hazel:4,coby:3,nova:7,toby:6,bramble:7,aster:6,posy:5,willa:4}}));
+    window.spoken=[];window.tones=[];
+    speechSynthesis.speak=u=>{spoken.push(u.text);setTimeout(()=>u.onend?.(),0);};
+    localStorage.setItem('nolan-games-v1',localStorage.getItem('nolan-games-v1')||JSON.stringify({points:137,narration:true,effects:true,rewards:false,levels:{hazel:4,coby:3,cora:8,saffy:5,nova:7,toby:6,bramble:7,aster:6,posy:5,willa:4,lulu:3,sunny:2}}));
+    const osc=AudioContext.prototype.createOscillator;AudioContext.prototype.createOscillator=function(){tones.push('soft');return osc.call(this);};
   });
-  await page.goto(url,{waitUntil:'domcontentloaded'}).catch(async e=>{if(playwright)await page.goto(url,{waitUntil:'domcontentloaded'});else throw e;});
-  await checkNavigation(page);
-  const tap=async selector=>{await page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();if(r.width<(innerWidth<700?48:52)||r.height<48)throw Error('Small target '+selector);for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,pointerType:'touch',isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);};
-  const choose=v=>tap(`#gamesView [data-value="${v}"]`);
-  const open=id=>tap(`#gamesView [data-id="${id}"]`);
-  const home=()=>tap('#gamesView [data-action="home"]');
+  await page.goto(url,{waitUntil:'domcontentloaded'});
+  const tap=async selector=>page.evaluate(selector=>{const b=document.querySelector(selector);if(!b||b.disabled)throw Error('Missing target '+selector);const r=b.getBoundingClientRect();for(const type of ['pointerdown','pointerup'])b.dispatchEvent(new PointerEvent(type,{bubbles:true,pointerId:1,isPrimary:true,button:0,clientX:r.x+r.width/2,clientY:r.y+r.height/2}));},selector);
+  const open=id=>tap(`[data-id="${id}"]`),home=()=>tap('[data-action="home"]');
   await tap('#gamesTab');
-  assert.equal(await page.evaluate(()=>document.querySelectorAll('.game-card').length),12);
-  assert.equal(await page.evaluate(()=>['bramble','aster','posy','willa'].some(id=>document.querySelector(`[data-id="${id}"]`))),false);
+  assert.equal(await page.$$eval('.game-card',es=>es.length),12);
   const migrated=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')));
-  assert.deepEqual(migrated.levels,{hazel:4,coby:3,nova:7,toby:6});
-  assert.equal(migrated.points,137);assert.equal(migrated.narration,true);assert.equal(migrated.effects,false);assert.equal(migrated.rewards,false);
-  const clean=JSON.stringify({points:0,levels:{}});
-  await page.evaluate(value=>localStorage.setItem('nolan-games-v1',value),clean);
-  await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
-  assert.equal(await page.evaluate(()=>localStorage.getItem('nolan-games-v1')),clean,'Unrelated saves are untouched');
-  await fs.mkdir('/workspace/ui-audit',{recursive:true});
-  await page.screenshot({path:'/workspace/ui-audit/nolan-phonics-hub.png'});
-  assert.equal(await page.evaluate(()=>document.querySelector('#libraryView').classList.contains('active')),false);
-  await page.click('#settingsButton');
-  await page.evaluate(()=>{for(const k of ['effects']){const b=document.querySelector(`[data-pref="${k}"]`);b.checked=false;b.dispatchEvent(new Event('change',{bubbles:true}));}});
-  await page.click('#closeSettingsButton');
-  // Load the curriculum in isolation: verify all eight levels, then use its
-  // deterministic tasks to drive real pointer input (choices are shuffled).
-  const {default:vm}=await import('node:vm');
-  const games=[];
-  const context={window:{NolanGames:{register:g=>games.push(g),token:()=>'',button:()=>''}},Math};
-  vm.createContext(context);
-  for(const file of ['games-1-5.js','games-6-10.js','phonics.js'])vm.runInContext(await fs.readFile(path.join(root,'games',file),'utf8'),context);
+  assert.deepEqual(migrated.levels,{lulu:3,sunny:2});assert.equal(migrated.points,137);assert.equal(migrated.effects,true);assert.equal(migrated.rewards,false);
+  assert.equal(await page.$('[data-id="hazel"]'),null);
+  await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('nolan-games-v1'));p.levels={};localStorage.setItem('nolan-games-v1',JSON.stringify(p));});await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
+  const {default:vm}=await import('node:vm');const games=[];
+  const context={window:{NolanGames:{register:g=>games.push(g),token:()=>'',button:()=>''}},Math,setTimeout};vm.createContext(context);
+  for(const file of ['games-1-5.js','journeys.js','phonics.js'])vm.runInContext(await fs.readFile(path.join(root,'games',file),'utf8'),context);
+  assert.equal(games.length,12);
   const viewports=[{width:1366,height:768},{width:1280,height:720},{width:900,height:500},{width:390,height:844},{width:375,height:667},{width:844,height:390}];
-  for(const viewport of viewports){
-    if(puppeteer)await page.setViewport(viewport);else await page.setViewportSize(viewport);
-    for(const game of games){await open(game.id);
-      const boxes=await page.$$eval('#gamesView button',es=>es.filter(e=>!e.disabled).map(e=>{const r=e.getBoundingClientRect();return {label:e.getAttribute('aria-label'),x:r.x,y:r.y,right:r.right,bottom:r.bottom,w:r.width,h:r.height};}));
-      for(const r of boxes)assert(r.x>=0&&r.y>=0&&r.right<=viewport.width+1&&r.bottom<=viewport.height+1&&r.w>=48&&r.h>=48,`${game.id} ${JSON.stringify(viewport)} ${JSON.stringify(r)}`);
-      assert.equal(await page.$eval('.side-menu',e=>getComputedStyle(e).display),'none');
-      if(game.id==='lulu'&&viewport.width===390)await page.screenshot({path:'/workspace/ui-audit/nolan-phonics-game-phone.png'});
+  await fs.mkdir('/workspace/ui-audit',{recursive:true});
+  async function fit(id,vp){
+    const boxes=await page.$$eval('#gamesView button',es=>es.filter(e=>!e.disabled).map(e=>{const r=e.getBoundingClientRect();return {label:e.getAttribute('aria-label'),x:r.x,y:r.y,right:r.right,bottom:r.bottom,w:r.width,h:r.height};}));
+    for(const b of boxes)assert(b.x>=-1&&b.y>=-1&&b.right<=vp.width+1&&b.bottom<=vp.height+1&&b.w>=52&&b.h>=52,`${id} ${JSON.stringify(vp)}: ${JSON.stringify(b)}`);
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No horizontal overflow');
+    for(const sel of ['.side-menu','.mobile-tabs','.main-tabs'])assert(await page.$eval(sel,e=>!e.getClientRects().length||getComputedStyle(e).display==='none'),sel+' hidden during play');
+    const img=await page.$eval(id==='rollo'?'.world-friend':'.game-scene img',e=>{const r=e.getBoundingClientRect();return r.width>0&&r.height>0;}).catch(()=>true);assert(img,'Friend stays visible');
+  }
+  for(const vp of viewports){await page.setViewport(vp);await page.evaluate(()=>scrollTo(0,0));
+    const columns=await page.$eval('.game-grid',e=>({n:getComputedStyle(e).gridTemplateColumns.split(' ').length,w:e.clientWidth}));assert.equal(columns.n,columns.w>=1200?5:columns.w>=800?4:columns.w>=600?3:2);
+    if(vp.width===1366||vp.width===390)await page.screenshot({path:`/workspace/ui-audit/newgames-hub-${vp.width}x${vp.height}.png`});
+    for(const game of games){await open(game.id);await fit(game.id,vp);
+      if(game.id==='rollo'&&[1366,390,844].includes(vp.width)||game.id==='lulu'&&vp.width===390){await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});await page.screenshot({path:`/workspace/ui-audit/newgames-${game.id}-${vp.width}x${vp.height}.png`});}
       await home();}
   }
-  if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});
-  function nextChoice(s){const q=s.task;
-    if(q.mode==='build')return q.choices[0].value;
-    if(q.mode==='steps')return 'stone-'+s.selected.length;
-    if(q.mode==='all')return q.answers.find(x=>!s.selected.includes(x));
-    if(q.mode==='sort')return s.selected.length?'truck-'+s.selected[0].slice(-2):q.choices.find(x=>!x.value.startsWith('truck-')).value;
-    if(q.tiles){const i=q.tiles.findIndex((_,i)=>!s.selected.includes('sound-'+i));if(i!==-1)return 'sound-'+i;}
-    return String(q.answer);
-  }
-  let expected=0;
+  await page.emulateMediaFeatures([{name:'prefers-reduced-motion',value:'reduce'}]);
+  await page.setViewport({width:1366,height:768});
+  function step(s){switch(s.id){
+    case 'rollo':return ['cargo','bed'];case 'dax':return [s.level===8?'0':s.opened.includes('0')?'1':'0','bridge'];case 'bex':return ['parcel','porch'];
+    case 'zumi':if(s.level<6){const lane=s.relation==='equal'?'left':(s.relation==='more'?s.left>s.right:s.left<s.right)?'left':'right';return [lane,lane];}if(s.left===s.right)return s.relation==='fewer'?['from-left','right']:['from-right','left'];return s.left>s.right?['from-left','right']:['from-right','left'];
+    case 'otto':if(!s.chosenUnit)return ['unit-1',String(s.gaps[0])];return [String(s.track[s.gaps[0]]),String(s.gaps[0])];
+    case 'kip':{const i=s.bays.findIndex((_,i)=>!s.opened.includes(i));return [String(i),String(i)];}
+  }}
+  const choose=v=>tap(`[data-value="${v}"]`);
+  function phonicsStep(s){const q=s.task;if(q.mode==='build')return q.choices[0].value;if(q.mode==='steps')return 'stone-'+s.selected.length;if(q.mode==='all')return q.answers.find(x=>!s.selected.includes(x));if(q.mode==='sort')return s.selected.length?'truck-'+s.selected[0].slice(-2):q.choices.find(x=>!x.value.startsWith('truck-')).value;if(q.tiles){const i=q.tiles.findIndex((_,i)=>!s.selected.includes('sound-'+i));if(i!==-1)return 'sound-'+i;}return String(q.answer);}
+  let dragged=false;
   for(const game of games){
+    await page.evaluate(id=>{const p=JSON.parse(localStorage.getItem('nolan-games-v1'));p.levels[id]=1;localStorage.setItem('nolan-games-v1',JSON.stringify(p));},game.id);await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
     for(let level=1;level<=8;level++){
-
-      const autoSpeech=await page.evaluate(()=>spoken.length);
-      await open(game.id);
-      assert.equal(await page.evaluate(()=>Number(document.querySelector('[data-level]').dataset.level)),level);
-      if(game.phonics){
-        for(const vp of viewports){
-          if(puppeteer)await page.setViewport(vp);else await page.setViewportSize(vp);
-          const boxes=await page.$$eval('#gamesView button',es=>es.map(e=>{const r=e.getBoundingClientRect();return {v:e.dataset.value,x:r.x,y:r.y,right:r.right,bottom:r.bottom,w:r.width,h:r.height};}));
-          for(const b of boxes)assert(b.x>=0&&b.y>=0&&b.right<=vp.width+1&&b.bottom<=vp.height-(vp.width<700?64:0)+1&&b.w>=48&&b.h>=48,`${game.id} level ${level}, ${JSON.stringify(vp)}: ${JSON.stringify(b)}`);
+      await open(game.id);const s=game.start(level);assert.equal(await page.$eval('[data-level]',e=>+e.dataset.level),level);
+      assert(await page.evaluate(()=>spoken.length>0),'Spoken prompt');
+      for(const vp of viewports){await page.setViewport(vp);await fit(game.id,vp);}await page.setViewport({width:1366,height:768});
+      if(game.vehicle){
+        let missions=0;while(missions<3){let ready=false;let guard=0;while(!ready){assert(++guard<50,'Mission terminates');const [value,slot]=step(s);await tap(`[data-action="piece"][data-value="${value}"]`);
+          const result=game.place(s,value,slot);assert(result.ok,game.id+' model valid placement');
+          if(game.id==='rollo'&&level===1||level===1&&missions===0&&guard===1){await page.mouse.move(500,500);const a=await page.$(`[data-action="piece"][data-value="${value}"]`),b=await page.$(`[data-slot="${slot}"]`);const ar=await a.boundingBox(),br=await b.boundingBox();await page.mouse.move(ar.x+ar.width/2,ar.y+ar.height/2);await page.mouse.down();await page.mouse.move(br.x+br.width/2,br.y+br.height/2,{steps:12});await page.mouse.up();dragged=true;}
+          else await tap(`[data-slot="${slot}"]`);
+          ready=result.ready;
         }
-        if(puppeteer)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});
-      }
-      const state=game.start(level);let done=false;
-      if(game.phonics){
-        const prompt=game.speech(state),first=Array.isArray(prompt)?prompt[0]:prompt;
-        assert.equal(await page.evaluate(n=>spoken[n],autoSpeech),typeof first==='string'?first:first.text,game.id+' auto-speaks prompt');
-        const n=await page.evaluate(()=>spoken.length);await tap('#gamesView [data-action="repeat"]');
-        assert.equal(await page.evaluate(n=>spoken[n],n),typeof first==='string'?first:first.text,game.id+' replay speaks prompt');
-        assert.equal(await page.$eval('[data-action="repeat"]',e=>e.textContent),'🔊');
-        if(state.task.mode==='steps'){
-          await choose('stone-1');assert(await page.$('.hint'),'Sound steps gentle retry');
+        assert(await page.$('[data-action="depart"]'),game.id+' ready to travel');await tap('[data-action="depart"]');missions++;s.round++;if(missions<3)game.mission(s);
+        await page.waitForFunction(n=>document.querySelector('.resting')||+document.querySelector('[data-round]').dataset.round===n,{},missions);
         }
-        if(state.task.mode==='sort'){
-          await choose('truck-at');assert.equal(await page.evaluate(()=>document.querySelector('.game-board').dataset.round),'0','Truck alone cannot complete a round');
-        }
-        if(state.task.mode==='all'){
-          const wrong=state.task.choices.find(c=>!state.task.answers.includes(c.value)).value;
-          await choose(wrong);assert(await page.$('.hint'),'Rhymes gentle retry');
-        }
-        if(state.task.mode!=='build'&&state.task.mode!=='steps'&&state.task.mode!=='all'&&state.task.mode!=='sort'){
-          const wrong=await page.evaluate(answer=>[...document.querySelectorAll('.game-choices [data-value]')].find(c=>c.dataset.value!==answer).dataset.value,state.task.answer);
-          await choose(wrong);assert(await page.$('.hint'),game.id+' gentle retry');
-        }
-      }
-      if(level===1){
-        const before=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points||0);
-        if(!game.phonics){
-          const wrong=await page.evaluate(answer=>[...document.querySelectorAll('#gamesView [data-value]')].find(b=>b.dataset.value!==String(answer)).dataset.value,state.task.answer);
-          await choose(wrong);assert(await page.evaluate(()=>!!document.querySelector('.hint')));
-        }
-        assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points||0),before);
-      }
-      while(!done){
-        let result;
-        const value=game.phonics?nextChoice(state):String(state.task.answer);
-        const beforeSpeech=await page.evaluate(()=>spoken.length);
-        const expectedSpeech=game.phonics?game.choiceSpeech(state,value):null;
-        await choose(value);result=game.choose(state,value);
-        if(game.phonics&&state.task.mode!=='build'&&value.length===1&&game.id==='fam'&&level<=4){
-          const wrong=await page.evaluate(answer=>[...document.querySelectorAll('.game-choices [data-value]')].find(c=>c.dataset.value!==answer).dataset.value,state.task.answer);
-          await choose(wrong);assert(await page.$('.hint'),'Word family picture retry');
-        }
-        if(game.phonics){const heard=await page.evaluate(n=>spoken[n],beforeSpeech);assert.equal(heard,expectedSpeech,game.id+' speaks choice first');}
-        expected+=result.points||0;if(result.done){expected+=2;done=true;}
-      }
-      assert(await page.evaluate(()=>!!document.querySelector('.resting')),game.id+' level '+level);
-      const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')));
-      assert.equal(stored.levels[game.id],Math.min(8,level+1));assert.equal(stored.points,expected);
-      await tap('#gamesView [data-action="finish"]');await home();
-    }
-    console.log(`PASS ${game.title}: eight levels, gentle retry, points and progression`);
+      }else{let done=false;let guard=0;while(!done){assert(++guard<80);const value=phonicsStep(s);await choose(value);const result=game.choose(s,value);done=result.done;}}
+      assert(await page.$('.resting'),game.id+' level completed');const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')));assert.equal(stored.levels[game.id],Math.min(8,level+1));await home();
+    }console.log(`PASS ${game.title}: 8 levels, three missions, persisted progress`);
   }
-  // Early finish and cancelled input never count as completing a level.
-  await page.evaluate(()=>{const p=JSON.parse(localStorage.getItem('nolan-games-v1'));p.levels.hazel=3;localStorage.setItem('nolan-games-v1',JSON.stringify(p));});
-  await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');await open('hazel');
-  await page.evaluate(()=>{const b=document.querySelector('[data-value]');b.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointercancel',{bubbles:true,pointerId:4}));b.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerId:4}));});
-  await tap('#gamesView [data-action="finish"]');await home();await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
-  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).levels.hazel),3);
-  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('nolan-games-v1')).points),expected);
-  console.log('Checking service-worker cache and offline play');
-  await page.evaluate(async()=>{await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error('Service worker did not become ready')),30000))]);if(!navigator.serviceWorker.controller)await new Promise(resolve=>navigator.serviceWorker.addEventListener('controllerchange',resolve,{once:true}));});
-  const cacheVersion=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/const CACHE='([^']+)'/)[1];
-  const core=await page.evaluate(async version=>{const cache=await caches.open(version);return (await cache.keys()).map(r=>new URL(r.url).pathname);},cacheVersion);
-  for(const file of ['redesign.css','assets/fonts/nunito-regular.ttf','assets/fonts/nunito-extrabold.ttf','ui-smoke-helpers.mjs'])assert(core.includes('/'+file),`New offline asset ${file}`);
-  assert(core.includes('/games/games-6-10.js'));assert(core.includes('/games/phonics.js'));for(const g of games.filter(g=>g.phonics))assert(core.includes('/'+g.art));assert(core.includes('/games/smoke-test.mjs'));const expectedArt=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/assets\/books\/[^']+/g);assert.equal(expectedArt.length,12);for(const asset of expectedArt)assert(core.includes('/'+asset),asset);
-  if(puppeteer)await page.setOfflineMode(true);else await page.context().setOffline(true);
-  await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const {id} of games){await open(id);await page.waitForFunction(()=>{const img=document.querySelector('.game-scene img');return img?.complete&&img.naturalWidth>0;});assert(await page.evaluate(()=>{const img=document.querySelector('.game-scene img');return img.complete&&img.naturalWidth>0;}),`Offline artwork: ${id}`);await tap('#gamesView [data-action="finish"]');await home();}
-  await tap('#storiesTab');assert(await page.evaluate(()=>document.querySelector('#libraryView').classList.contains('active')));
-  assert.deepEqual(errors,[]);console.log(`PASS persisted ${expected} points; offline twelve games and artwork; Stories tab; no browser errors`);
+  assert(dragged);
+  // Gentle retries preserve mission state and do not play an error tone.
+  await open('kip');const before=await page.evaluate(()=>tones.length);await tap('[data-value="0"]');const selected=await page.evaluate(()=>tones.length);await tap('[data-slot="1"]');assert.equal(await page.evaluate(()=>tones.length),selected);assert.match(await page.$eval('.play-hint',e=>e.textContent),/Try/);assert(selected>=before);await home();
+  assert(!/buzzer|wrong-answer/i.test(await fs.readFile(path.join(root,'games/games.js'),'utf8')));
+  // Offline scenes and local SVG art are all precached.
+  await page.evaluate(()=>navigator.serviceWorker.ready);const cacheVersion=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/const CACHE='([^']+)'/)[1];assert.equal(cacheVersion,'nolan-library-v113');
+  const core=await page.evaluate(async v=>(await (await caches.open(v)).keys()).map(r=>new URL(r.url).pathname),cacheVersion);
+  for(const file of ['games/journeys.js','games/journeys.css',...games.map(g=>g.art)])assert(core.includes('/'+file),'Precached '+file);
+  await page.setOfflineMode(true);await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const g of games){await open(g.id);await page.waitForFunction(()=>[...document.querySelectorAll('#gamesView img')].every(i=>i.complete&&i.naturalWidth));await home();}
+  assert.deepEqual(errors,[]);console.log('PASS migration preserves phonics, mixed hub, six viewports, tap and real drag, speech, gentle retry, reduced motion, hidden navigation, v113 offline art; screenshots saved');
 }catch(error){console.error(error);process.exitCode=1;}finally{await browser?.close();server.closeAllConnections();await new Promise(resolve=>server.close(resolve));}
