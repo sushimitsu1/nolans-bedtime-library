@@ -5,6 +5,16 @@
   "provider": "google-cloud-tts",
   "model": "chirp3-hd",
   "stories": {
+    "amy-ambulance-sleepy-kitten": {
+      "pages": 15,
+      "textHash": "e35340f5ab9c643c",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "bailey-the-bucket-truck-and-the-flickering-streetlamp": {
+      "pages": 15,
+      "textHash": "aa24c92ff3069259",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "bella-bulldozer": {
       "pages": 15,
       "textHash": "c168789a6b936692",
@@ -15,6 +25,21 @@
       "textHash": "1d17339c108438f6",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "benny-harbor-tug-drifting-star-buoy": {
+      "pages": 15,
+      "textHash": "9eb7c90581cf1406",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "blue-thunder-rainy-lantern-trail": {
+      "pages": 15,
+      "textHash": "42c96c1cc697c041",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "buzz-the-honeybee-and-the-moonlight-meadow": {
+      "pages": 15,
+      "textHash": "0575ce78f3c98330",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "chev-camaro": {
       "pages": 15,
       "textHash": "aac9dc50e5bce459",
@@ -23,6 +48,11 @@
     "cody-cement-mixer-cracked-sidewalk": {
       "pages": 15,
       "textHash": "f06b046f23184eb6",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "cora-crane-truck-wobbly-sign": {
+      "pages": 15,
+      "textHash": "84ccc9d641e7876a",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "cranky-wobbly-sign": {
@@ -55,6 +85,11 @@
       "textHash": "31b5bd1631eb2ef0",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "ella-the-elephant-and-the-whispering-waterhole": {
+      "pages": 15,
+      "textHash": "fd4d61e873d7d871",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "finn-fireboat-drifting-sailboat": {
       "pages": 15,
       "textHash": "f7307c7ebab2034a",
@@ -70,9 +105,39 @@
       "textHash": "2478125b14b8a236",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "harper-the-harbor-ferry-and-the-sleepy-lighthouse": {
+      "pages": 15,
+      "textHash": "630d1d0c70e2d002",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "hazel-the-harvester-and-the-windy-wheat-field": {
+      "pages": 15,
+      "textHash": "ae14e2ab0320f48a",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "heli-rescue-helicopter-mountain-picnic": {
+      "pages": 15,
+      "textHash": "93c3d490f577f273",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "lila-rooftop-balloon": {
       "pages": 15,
       "textHash": "2e6fbf34e8693cc1",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "lizze-the-lizard-and-the-lost-little-leaf": {
+      "pages": 15,
+      "textHash": "e486ec0708d2f60a",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "luna-the-lunar-rover-and-the-quiet-crater-camp": {
+      "pages": 15,
+      "textHash": "9541841156d41b82",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "marley-the-mail-truck-and-the-moonlight-mix-up": {
+      "pages": 15,
+      "textHash": "c319fb154f408f81",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "max-d-twisty-training-track": {
@@ -100,6 +165,21 @@
       "textHash": "253092623d86fe62",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "niko-snowplow-sleepy-mountain-road": {
+      "pages": 15,
+      "textHash": "a3111af3d27d4d80",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "piper-the-airport-tug-and-the-sleepy-little-jet": {
+      "pages": 15,
+      "textHash": "81853c29248d6ec9",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "pirates-curse-foggy-lighthouse": {
+      "pages": 15,
+      "textHash": "d909c62a408967fe",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "po-police-pickup": {
       "pages": 15,
       "textHash": "4e84812db58ee2d3",
@@ -110,14 +190,54 @@
       "textHash": "3e60cdfb782a06d1",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "ra-ratata-cracked-playground-path": {
+      "pages": 15,
+      "textHash": "b8c3cabddea7ef1c",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "ra-ratata-moonlight-tunnel": {
+      "pages": 15,
+      "textHash": "a6e7b92164fb11d0",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "ra-ratata-sleepy-quarry-echo": {
+      "pages": 15,
+      "textHash": "e343792b7249302b",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "ra-ratata-wobbly-fountain-base": {
+      "pages": 15,
+      "textHash": "30eed6ecfa65e540",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "sami-the-semi-truck-and-the-sleepy-orchard-delivery": {
+      "pages": 15,
+      "textHash": "1f91cb47a46dc5fe",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "son-uva-digger-moonlit-hill-climb": {
       "pages": 15,
       "textHash": "4c2e63c39184696e",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
+    "sparkle-smash-firefly-parade": {
+      "pages": 15,
+      "textHash": "53be9067743fae76",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
     "tess-quiet-night-drive": {
       "pages": 15,
       "textHash": "1ddbebcb5f315089",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "thunderroarus-lost-fossil-trail": {
+      "pages": 15,
+      "textHash": "76004531fc4ead18",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "tilly-tractor-moonlit-pumpkin-patch": {
+      "pages": 15,
+      "textHash": "ffc8f71ac56e12fa",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "towie-stuck-little-van": {
@@ -128,6 +248,11 @@
     "tundra-the-snowcat-grooms-the-starry-slope": {
       "pages": 15,
       "textHash": "acf7687bf1eb97f3",
+      "voice": "en-US-Chirp3-HD-Sulafat"
+    },
+    "wally-street-sweeper-windy-leaf-parade": {
+      "pages": 15,
+      "textHash": "70fd2f4038b7840d",
       "voice": "en-US-Chirp3-HD-Sulafat"
     },
     "zombie-sleepy-stadium": {
