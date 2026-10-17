@@ -80,8 +80,8 @@
       "sourceAssetPath": "production/stories/mica-the-moon-rover-and-the-sleepy-star-trail/staging/mica-the-moon-rover-and-the-sleepy-star-trail/illustrations/page-06.png",
       "sourceStorySlug": "mica-the-moon-rover-and-the-sleepy-star-trail",
       "sourcePageNumber": 6,
-      "finalSha256": "ef568af45318d38f90e69b1c4771cd11b2e43f800302136f1a60fb5ac6f51942",
-      "sourceSha256": "0bf0dcbd7e524b28d3335af72c0796cc6c05660329c3cab41cf56a3bfab90808",
+      "finalSha256": "64a0410f64b413a33a03611c75326742f81b337c9125bfb1c9eb3136d07ec2bd",
+      "sourceSha256": "74282f075cebf7edfba7ec71d1636b57bf6b9e5d88b9ccd346d93bc21d23e686",
       "compositionType": "single_scene",
       "validationStatus": "passed"
     },

@@ -6,7 +6,7 @@
     "page-03": 2,
     "page-04": 2,
     "page-05": 2,
-    "page-06": 1,
+    "page-06": 2,
     "page-07": 2,
     "page-08": 2,
     "page-09": 2,
@@ -24,6 +24,7 @@
     "page-03",
     "page-04",
     "page-05",
+    "page-06",
     "page-07",
     "page-08",
     "page-09",
@@ -36,5 +37,5 @@
   ],
   "retryLimit": 1,
   "source": "approved ChatGPT package",
-  "regenerationNote": "2026-10-17: full redraw (redo2) in the bolder old-library style (user approved style on the Ollie test); no reframing needed. Page 6 keeps the previous art: the redo2 page 6 omitted Tillo (a required character) and needs a redraw."
+  "regenerationNote": "2026-10-17: full redraw (redo2) in the bolder old-library style (user approved style on the Ollie test); no reframing needed. Page 6 redrawn again to include Tillo and published separately."
 }
