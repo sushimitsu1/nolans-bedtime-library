@@ -11,10 +11,10 @@
         {
           "label": "Ollie",
           "box": [
-            280,
-            220,
-            980,
-            740
+            438,
+            199,
+            1180,
+            743
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=743 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Ollie",
           "box": [
-            320,
-            200,
-            1020,
-            735
+            358,
+            268,
+            981,
+            719
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=719 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Ollie",
           "box": [
-            300,
-            210,
-            1000,
-            745
+            260,
+            119,
+            1048,
+            668
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=668 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,19 +80,10 @@
         {
           "label": "Ollie",
           "box": [
-            260,
-            180,
-            920,
-            740
-          ]
-        },
-        {
-          "label": "puddle",
-          "box": [
-            520,
-            680,
-            780,
-            755
+            199,
+            122,
+            923,
+            666
           ]
         }
       ],
@@ -104,7 +95,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=666 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -112,10 +103,10 @@
         {
           "label": "Ollie",
           "box": [
-            300,
-            190,
-            980,
-            745
+            278,
+            138,
+            950,
+            605
           ]
         }
       ],
@@ -127,7 +118,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=605 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -135,28 +126,19 @@
         {
           "label": "Ollie",
           "box": [
-            420,
-            160,
-            1180,
-            740
+            411,
+            146,
+            1048,
+            639
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            120,
-            430,
-            430,
-            740
-          ]
-        },
-        {
-          "label": "puddle",
-          "box": [
-            380,
-            680,
-            560,
-            755
+            217,
+            440,
+            530,
+            678
           ]
         }
       ],
@@ -168,7 +150,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=678 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -177,18 +159,18 @@
           "label": "Ollie",
           "box": [
             400,
-            170,
-            1160,
-            745
+            32,
+            1245,
+            700
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            140,
-            420,
-            450,
-            740
+            66,
+            345,
+            557,
+            750
           ]
         }
       ],
@@ -200,7 +182,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style). Source reframed (crop 73,110,1374,1086 -> 1448x1086, ~1.11x) so Pippa's brushes (originally y=788, touching the y=790 panel) now end at y~750, above the y=760 safe zone."
     },
     {
       "number": 8,
@@ -208,28 +190,19 @@
         {
           "label": "Ollie",
           "box": [
-            380,
-            140,
-            1200,
-            735
+            509,
+            122,
+            1127,
+            650
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            80,
-            380,
-            420,
-            740
-          ]
-        },
-        {
-          "label": "cloth",
-          "box": [
-            480,
-            640,
-            760,
-            755
+            165,
+            268,
+            490,
+            544
           ]
         }
       ],
@@ -241,7 +214,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=650 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -249,19 +222,19 @@
         {
           "label": "Ollie",
           "box": [
-            360,
-            150,
-            1140,
-            740
+            557,
+            119,
+            1162,
+            623
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            100,
-            400,
-            440,
-            745
+            265,
+            265,
+            605,
+            597
           ]
         }
       ],
@@ -273,7 +246,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=623 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -281,19 +254,19 @@
         {
           "label": "Ollie",
           "box": [
-            380,
-            150,
-            1160,
+            385,
+            109,
+            1188,
             740
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            90,
-            390,
-            430,
-            745
+            66,
+            387,
+            517,
+            758
           ]
         }
       ],
@@ -305,7 +278,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style). Measured bounds: Pippa brush tips y~758 stay above y=760 and the y=790 panel; Ollie's rolled cleanup cloth (prop) reaches y~766, still above the panel."
     },
     {
       "number": 11,
@@ -313,19 +286,19 @@
         {
           "label": "Ollie",
           "box": [
-            360,
-            160,
-            1120,
-            740
+            345,
+            101,
+            1040,
+            605
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            110,
-            400,
-            450,
-            745
+            133,
+            366,
+            504,
+            629
           ]
         }
       ],
@@ -337,7 +310,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=629 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -345,19 +318,19 @@
         {
           "label": "Ollie",
           "box": [
-            340,
-            150,
-            1100,
-            740
+            477,
+            119,
+            1199,
+            668
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            120,
-            410,
-            460,
-            745
+            199,
+            408,
+            530,
+            652
           ]
         }
       ],
@@ -369,7 +342,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=668 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -377,19 +350,19 @@
         {
           "label": "Ollie",
           "box": [
-            320,
-            160,
-            980,
-            740
+            332,
+            154,
+            862,
+            562
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            140,
-            420,
-            450,
-            745
+            106,
+            358,
+            377,
+            570
           ]
         }
       ],
@@ -401,7 +374,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=570 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -409,19 +382,19 @@
         {
           "label": "Ollie",
           "box": [
-            300,
-            170,
-            1050,
-            740
+            491,
+            155,
+            1101,
+            617
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            160,
-            430,
-            470,
-            750
+            257,
+            387,
+            584,
+            634
           ]
         }
       ],
@@ -433,7 +406,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=634 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -441,19 +414,19 @@
         {
           "label": "Ollie",
           "box": [
-            280,
-            200,
-            1080,
-            740
+            360,
+            85,
+            1240,
+            704
           ]
         },
         {
           "label": "Pippa",
           "box": [
-            180,
-            470,
-            480,
-            750
+            159,
+            377,
+            619,
+            753
           ]
         }
       ],
@@ -465,15 +438,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo art (2026-10-17, bolder style). Source reframed (crop 67,100,1382,1086 -> 1448x1086, ~1.10x) so Pippa's brushes (originally y=782) now end at y~753, above the y=760 safe zone."
     }
   ],
-  "safeZoneNotes": "ChatGPT full-bleed art places Ollie/Pippa faces mid-frame. Wheels and cobblestone puddle/cloth often sit near or below y=760; the integrated cream panel covers that low-detail ground safely.",
+  "safeZoneNotes": "Redo art 2026-10-17 (bolder style): all character bounds measured, wheels and brushes included, above y=760. Pages 7 and 15 reframed slightly (zoom ~1.1x from top) to lift Pippa's brushes clear of the panel.",
   "individuallyInspectedPages": [
     1,
+    2,
+    3,
+    4,
     5,
+    6,
+    7,
+    8,
     9,
     10,
+    11,
+    12,
+    13,
+    14,
     15
   ],
   "page9To10Continuity": "passed",
