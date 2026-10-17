@@ -11,10 +11,10 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            279,
+            180,
+            796,
+            597
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=597 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            345,
+            159,
+            809,
+            544
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=544 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            186,
+            172,
+            743,
+            663
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=663 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,19 +80,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            146,
+            167,
+            716,
+            671
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            756,
+            313,
+            1074,
+            658
           ]
         }
       ],
@@ -104,7 +104,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=671 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -112,19 +112,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            318,
+            138,
+            769,
+            520
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            756,
+            297,
+            1008,
+            509
           ]
         }
       ],
@@ -136,7 +136,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=520 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -176,19 +176,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            80,
+            159,
+            637,
+            684
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            650,
+            332,
+            950,
+            668
           ]
         }
       ],
@@ -200,7 +200,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=684 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -208,19 +208,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            729,
+            117,
+            1109,
+            480
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            456,
+            289,
+            721,
+            546
           ]
         }
       ],
@@ -232,7 +232,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=546 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -240,19 +240,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            106,
+            172,
+            530,
+            517
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            517,
+            313,
+            756,
+            523
           ]
         }
       ],
@@ -264,7 +264,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=523 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -272,19 +272,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            159,
+            252,
+            499,
+            549
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            499,
+            371,
+            703,
+            549
           ]
         }
       ],
@@ -296,7 +296,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=549 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -304,19 +304,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            40,
+            186,
+            663,
+            703
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            544,
+            358,
+            981,
+            698
           ]
         }
       ],
@@ -328,7 +328,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds; lowest wheels at y~703 (65%), ~87px clear of the y=790 cream panel. No reframe needed."
     },
     {
       "number": 12,
@@ -336,19 +336,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            225,
+            300,
+            650,
+            645
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            637,
+            398,
+            870,
+            624
           ]
         }
       ],
@@ -360,7 +360,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=645 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -368,19 +368,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            676,
+            292,
+            1021,
+            570
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            942,
+            377,
+            1260,
+            570
           ]
         }
       ],
@@ -392,7 +392,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=570 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -400,19 +400,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            106,
+            265,
+            557,
+            552
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            544,
+            377,
+            849,
+            565
           ]
         }
       ],
@@ -424,7 +424,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=565 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -432,19 +432,19 @@
         {
           "label": "Mica",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            106,
+            265,
+            689,
+            710
           ]
         },
         {
           "label": "Tillo",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            668,
+            403,
+            1039,
+            710
           ]
         }
       ],
@@ -456,7 +456,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower wheels or dust may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds; lowest wheels at y~710 (65%), ~80px clear of the y=790 cream panel; resting pads below are props. No reframe needed."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-17 (bolder style): all character bounds measured, wheels and antennas included, above y=760; no reframing needed. Page 6 keeps the previous art: the redo2 page 6 omitted Tillo (a required character) and needs a redraw.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
