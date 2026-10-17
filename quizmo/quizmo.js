@@ -2,13 +2,13 @@
 (() => {
   'use strict';
   const games = [
-    ['addition','Moonlight Sums','Regroup and add several large numbers.'],
+    ['addition','Moonlight Sums','Regroup, find missing parts and reason.'],
     ['subtraction','Borrowing Bridge','Subtract with regrouping.'],
-    ['times','Star Table Trail','Build products with facts and area models.'],
+    ['times','Star Table Trail','Use arrays, equal groups and times facts.'],
     ['division','Remainder Railway','Divide and find what is left over.'],
     ['place','Number Builders','Explore place value and expanded form.'],
-    ['fractions','Fraction Lanterns','Explore fractions, equivalence and mixed groups.'],
-    ['words','Adventure Maths','Plan two and three step solutions.'],
+    ['fractions','Fraction Lanterns','Explore parts, sets and equal fractions.'],
+    ['words','Adventure Maths','Solve one and two step adventures.'],
     ['missing','Mystery Numbers','Fill the gap in an equation.'],
     ['measure','Clockwork Corner','Work with time, money and metric units.'],
     ['speed','Starlight Sprint','Try a gentle timed mix of maths.']
@@ -137,8 +137,8 @@
   }
   window.addEventListener('resize',layoutVisuals);
   function render() {
-    if(isCogat(active[0])) {
-      root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(choice,'choice',`data-choice="${i}"`)).join('')}</div></div>`;
+    if(task.choices) {
+      root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(isCogat(active[0])?choice:escape(choice),'choice',`data-choice="${i}"`)).join('')}</div></div>`;
       layoutVisuals();return;
     }
     root.innerHTML=`${tools()}<div class="quizmo-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><div class="quizmo-answer-area"><div class="quizmo-inputs">${inputs.map((value,i)=>button(`${task.labels?.[i]||'Answer'}: <span data-input="${i}">${value||'?'}</span>`,'field',`data-field="${i}" aria-pressed="${field===i}"`)).join('')}</div><p class="quizmo-feedback" role="status">Use the number pad, then check.</p></div></div><div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div></div>`;
@@ -148,6 +148,11 @@
     if(done)return; done=true; leave();
     if(completed) { const id=active[0], l=run.level;if(!run.complete){const bonus=run.replay?Math.max(1,Math.floor(5*l/2)):5*l;award(bonus+(progress.best[id]<l?10:0));run.complete=true;}progress.best[id]=Math.max(progress.best[id],l);progress.stars[id]=Math.max(progress.stars[id],l);progress.levels[id]=Math.min(8,l+1);save(); }
     root.innerHTML=`<div class="quizmo-board"><h1>${completed?'⭐ Level complete!':'✨ Lovely practice!'}</h1><p>${completed?'Your next challenge is ready.':'The timer is resting. Every answer was useful practice. Try again whenever you like.'}</p>${meter()}${button('Play next round','again')}${button('← Quizmo','home')}${button('Restart level','restart','class="restart-level"')}</div>`;
+  }
+  function showHint() {
+    root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;
+    if(task.hintVisual){root.querySelector('.quizmo-visual').innerHTML=task.hintVisual;}
+    layoutVisuals();
   }
   function dispatch(b) {
     const action=b.dataset.qAction;
@@ -160,13 +165,13 @@
     if(action==='again')return open(active[0]);
     if(done||!active)return;
     if(action==='choice') {
-      if(Number(b.dataset.choice)!==task.correct){root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;layoutVisuals();return;}
+      if(Number(b.dataset.choice)!==task.correct){showHint();return;}
       earned();count++;if(count>=5)finish(true);else next();return;
     }
     if(action==='field'){field=Number(b.dataset.field);root.querySelectorAll('[data-field]').forEach(x=>x.setAttribute('aria-pressed',String(Number(x.dataset.field)===field)));}
     if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);root.querySelector(`[data-input="${field}"]`).textContent=inputs[field]||'?';if(innerWidth<=699)layoutVisuals(); }
     if(action==='check') {
-      if(!task.answers.every((n,i)=>inputs[i]!==''&&Number(inputs[i])===n)) {root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;layoutVisuals();return;}
+      if(!task.answers.every((n,i)=>inputs[i]!==''&&Number(inputs[i])===n)) {showHint();return;}
       earned();count++;
       if(count>=5)finish(true);else {next();root.querySelector('.quizmo-feedback').textContent='That’s it! Here is your next challenge.';}
     }

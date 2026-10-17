@@ -10,37 +10,53 @@
   function svg(label,body,w=600,h=280,meta={}){
     const prefix=`qv-${++svgInstance}-`;
     const artwork=body.replace(/url\(#([a-zA-Z]\w*)\)/g,(_,name)=>`url(#${prefix}${name})`);
-    return `<svg class="quizmo-illustration" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" data-wide-view-box="0 0 ${w} ${h}" ${meta.portrait?`data-portrait-view-box="${meta.portrait}" data-lantern-total="${meta.total}"`:""} role="img" aria-label="${esc(label)}"><defs><linearGradient id="${prefix}lanternGlow" x2="0" y2="1"><stop stop-color="#fff5b8"/><stop offset=".5" stop-color="#f2a93b"/><stop offset="1" stop-color="#d58a16"/></linearGradient><radialGradient id="${prefix}halo"><stop stop-color="#f2a93b" stop-opacity=".13"/><stop offset="1" stop-color="#f2a93b" stop-opacity="0"/></radialGradient><pattern id="${prefix}qStripes" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="7" height="7" fill="#fff9ed"/><path d="M0 0V7" stroke="#357ca5" stroke-width="3"/></pattern><linearGradient id="${prefix}billPaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3db"/><stop offset=".55" stop-color="#d7e5c8"/><stop offset="1" stop-color="#b7cfae"/></linearGradient><radialGradient id="${prefix}silverCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#fff"/><stop offset=".35" stop-color="#e6ecee"/><stop offset=".72" stop-color="#b5c1c5"/><stop offset="1" stop-color="#7f9098"/></radialGradient><radialGradient id="${prefix}copperCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#ffe8bc"/><stop offset=".4" stop-color="#e5ad76"/><stop offset=".75" stop-color="#bd7848"/><stop offset="1" stop-color="#894c30"/></radialGradient><linearGradient id="${prefix}woodRuler" x2="0" y2="1"><stop stop-color="#fff0ca"/><stop offset=".18" stop-color="#efd09a"/><stop offset=".82" stop-color="#e6b976"/><stop offset="1" stop-color="#c9904b"/></linearGradient></defs><g font-family="system-ui,sans-serif">${artwork}</g></svg>`;
+    return `<svg class="quizmo-illustration" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" data-wide-view-box="0 0 ${w} ${h}" ${meta.portrait?`data-portrait-view-box="${meta.portrait}" data-lantern-total="${meta.total}"`:""} ${meta.rows?`data-rows="${meta.rows}" data-cols="${meta.cols}"`:""} role="img" aria-label="${esc(label)}"><defs><linearGradient id="${prefix}lanternGlow" x2="0" y2="1"><stop stop-color="#fff5b8"/><stop offset=".5" stop-color="#f2a93b"/><stop offset="1" stop-color="#d58a16"/></linearGradient><radialGradient id="${prefix}halo"><stop stop-color="#f2a93b" stop-opacity=".13"/><stop offset="1" stop-color="#f2a93b" stop-opacity="0"/></radialGradient><pattern id="${prefix}qStripes" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="7" height="7" fill="#fff9ed"/><path d="M0 0V7" stroke="#357ca5" stroke-width="3"/></pattern><linearGradient id="${prefix}billPaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3db"/><stop offset=".55" stop-color="#d7e5c8"/><stop offset="1" stop-color="#b7cfae"/></linearGradient><radialGradient id="${prefix}silverCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#fff"/><stop offset=".35" stop-color="#e6ecee"/><stop offset=".72" stop-color="#b5c1c5"/><stop offset="1" stop-color="#7f9098"/></radialGradient><radialGradient id="${prefix}copperCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#ffe8bc"/><stop offset=".4" stop-color="#e5ad76"/><stop offset=".75" stop-color="#bd7848"/><stop offset="1" stop-color="#894c30"/></radialGradient><linearGradient id="${prefix}woodRuler" x2="0" y2="1"><stop stop-color="#fff0ca"/><stop offset=".18" stop-color="#efd09a"/><stop offset=".82" stop-color="#e6b976"/><stop offset="1" stop-color="#c9904b"/></linearGradient></defs><g font-family="system-ui,sans-serif">${artwork}</g></svg>`;
   }
   function lantern(x,y,s=1){return `<g class="quizmo-lantern" transform="translate(${x} ${y}) scale(${s})"><ellipse cy="25" rx="28" ry="43" fill="url(#halo)"/><path d="M-9 0V-9Q0-23 9-9V0" fill="none" stroke="#264a61" stroke-width="2"/><ellipse cy="24" rx="23" ry="28" fill="url(#lanternGlow)" stroke="#d58a16" stroke-width="2"/><path d="M-12 0Q-24 24-12 49M0 0V49M12 0Q24 24 12 49" fill="none" stroke="#fff9ed" stroke-opacity=".65" stroke-width="1.5"/><path d="M-21 15H21M-23 29H23M-19 41H19" stroke="#d58a16" fill="none"/><rect x="-12" y="-3" width="24" height="6" rx="2" fill="#c65b34"/><rect x="-11" y="48" width="22" height="5" rx="2" fill="#c65b34"/><path d="M0 53V65M-4 59V69M4 59V69" stroke="#c65b34" stroke-width="2"/></g>`;}
+  function lanternLayout(total,denominator,answer,finalAnswer=answer){
+    // Prefer a complete rectangle, then a countable staggered last row. Never label groups.
+    const candidates=Array.from({length:11},(_,i)=>({cols:i+2,rows:Math.ceil(total/(i+2))})).filter(x=>x.cols<=total&&x.rows<=6);
+    const avoid=[denominator,answer,finalAnswer],safe=candidates.filter(x=>!avoid.includes(x.rows)&&!avoid.includes(x.cols));
+    const pool=safe.length?safe:candidates;
+    pool.sort((a,b)=>(total%a.cols?100:0)-(total%b.cols?100:0)+Math.abs(a.cols-a.rows*1.8)-Math.abs(b.cols-b.rows*1.8));
+    return pool[0];
+  }
   function fractions(d){
     if(d.mode==='quantity'){
-      const groups=d.d,perGroup=d.total/groups;
-      function scene(width,height,portrait){
-        const groupCols=portrait?(groups===3?2:groups<=4?2:groups<=8?2:groups<=12?2:4):(({2:2,3:3,4:2,5:3,6:3,7:4,8:4,9:3,10:5,12:4,16:4})[groups]||Math.ceil(Math.sqrt(groups*1.5)));
-        const groupRows=Math.ceil(groups/groupCols),margin=portrait?16:24,gap=portrait?8:10,top=portrait?38:44;
-        const gw=(width-2*margin-gap*(groupCols-1))/groupCols,gh=(height-top-18-gap*(groupRows-1))/groupRows;
-        let cols=1,scale=0;
-        // Full halos are 56 × 87; 60 × 96 slots keep a clear gap without wasting space.
-        for(let c=1;c<=perGroup;c++){
-          const fit=Math.min(1.25,(gw-12)/(c*60),(gh-12)/(Math.ceil(perGroup/c)*96));
-          if(fit>scale){cols=c;scale=fit;}
-        }
-        const rows=Math.ceil(perGroup/cols);
-        let body=text(width/2,17,portrait?`${groups} equal groups`:`${d.total} lanterns · ${groups} equal groups`,portrait?22:18);
-        for(let g=0;g<groups;g++){
-          const groupRow=Math.floor(g/groupCols),itemsInRow=Math.min(groupCols,groups-groupRow*groupCols);
-          const gx=margin+(groupCols-itemsInRow)*(gw+gap)/2+(g%groupCols)*(gw+gap),gy=top+groupRow*(gh+gap);
-          body+=`<g class="quizmo-lantern-group" data-count="${perGroup}">`+rect(gx,gy,gw,gh,'#fff3d8',9);
-          for(let i=0;i<perGroup;i++){
-            const row=Math.floor(i/cols),inRow=Math.min(cols,perGroup-row*cols);
-            body+=lantern(gx+gw/2+(i%cols-(inRow-1)/2)*60*scale,gy+gh/2+(row-(rows-1)/2)*96*scale-25*scale,scale);
+      const layout=lanternLayout(d.total,d.d,(d.n||1)*d.total/d.d,d.answer);
+      function scene(width,height){
+        const cols=d.grouped?d.d:layout.cols,rows=Math.ceil(d.total/cols),top=32;
+        const cellW=(width-24)/cols,cellH=(height-top-12)/rows,scale=Math.min(1.2,cellW/64,cellH/96);
+        let body=text(width/2,15,d.grouped?`${d.d} equal groups`:`${d.total} lanterns`,20);
+        if(d.grouped){
+          const per=d.total/d.d,gw=(width-24)/d.d;
+          for(let g=0;g<d.d;g++){
+            body+=`<g class="quizmo-lantern-group" data-groups="${d.d}" data-count="${per}">`+rect(12+g*gw,top,gw-4,height-top-8,'#fff3d8');
+            const size=Math.min(1.1,(gw-8)/60,(height-top-16)/(per*96));
+            for(let i=0;i<per;i++)body+=lantern(12+(g+.5)*gw,top+(i+.5)*(height-top-8)/per-25*size,size);
+            body+='</g>';
           }
-          body+='</g>';
-        }
+        }else for(let i=0;i<d.total;i++)body+=lantern(12+(i%cols+.5)*cellW,top+(Math.floor(i/cols)+.5)*cellH-25*scale,scale);
         return body;
       }
-      return svg('Paper lanterns in equal groups, with each lantern separate and the same glow',`<g class="quizmo-wide-art">${scene(600,380,false)}</g><g class="quizmo-portrait-art">${scene(400,440,true)}</g>`,600,380,{portrait:'0 0 400 440',total:d.total});
+      return svg(d.grouped?'Lanterns split into equal groups for a hint':'Lanterns in simple rows, ready to split into equal groups',`<g class="quizmo-wide-art">${scene(600,320)}</g><g class="quizmo-portrait-art">${scene(400,240)}</g>`,600,320,{portrait:'0 0 400 240',total:d.total,rows:d.grouped?d.total/d.d:layout.rows,cols:d.grouped?d.d:layout.cols});
+    }
+    if(d.shaded){
+      const style=d.style||0,mask=d.mask??((1<<d.n)-1),part=(i,body)=>`<g class="quizmo-fraction-part" data-lit="${(mask>>i)&1}">${body}</g>`,color=i=>(mask>>i)&1?'#f2a93b':'#fff9ed';
+      let body='';
+      for(let i=0;i<d.d;i++){
+        if(style===3||style===5){
+          const a=-Math.PI/2+i*2*Math.PI/d.d,b=a+2*Math.PI/d.d,r=110,cx=300,cy=140;
+          const x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r,x2=cx+Math.cos(b)*r,y2=cy+Math.sin(b)*r;
+          body+=part(i,`<path d="M${cx} ${cy}L${x} ${y}A${r} ${r} 0 ${d.d===2?0:0} 1 ${x2} ${y2}Z" fill="${color(i)}" stroke="#357ca5" stroke-width="2"/>`);
+        }else{
+          const cols=style===2?1:(style===1||style===4)&&d.d===4?2:d.d,rows=Math.ceil(d.d/cols),width=style===0?480:200,height=style===0?130:200;
+          body+=part(i,rect(300-width/2+(i%cols)*width/cols,140-height/2+Math.floor(i/cols)*height/rows,width/cols,height/rows,color(i),0));
+        }
+      }
+      if(style===4)body=`<g transform="rotate(35 300 140)">${body}</g>`;
+      if(style===5)body+='<circle cx="300" cy="140" r="48" fill="#edf6fa" stroke="#357ca5" stroke-width="2"/>';
+      return svg('One whole split into equal parts; gold parts are shaded',body,600,280);
     }
     const items=[{n:d.n,d:d.d,label:`${d.n}/${d.d}`},{n:d.n2??d.n,d:d.d2??d.d,label:d.label2??`${d.n2??d.n}/${d.d2??d.d}`}];
     if(d.n3!==undefined)items.push({n:d.n3,d:d.d3??d.d,label:`${d.n3}/${d.d3??d.d}`});
@@ -114,8 +130,8 @@
       const x=45+(i%columns)*cw,y=(rows===1?155:99)+Math.floor(i/columns)*115;
       body+=rect(x,y,cw-10,60,'#bad7e7')+`<circle cx="${x+14}" cy="${y+62}" r="6" fill="#17324d"/><circle cx="${x+cw-25}" cy="${y+62}" r="6" fill="#17324d"/>`+text(x+(cw-10)/2,y+30,String(i+1),23);
     }
-    body+=rect(185,325,230,40,'#fff3d8')+text(300,345,'Leftover tray: ?',18);
-    return svg('Empty railway cars for equal sharing and a separate leftover tray',body,600,380);
+    if(d.remainder)body+=rect(185,325,230,40,'#fff3d8')+text(300,345,'Leftover tray: ?',18);
+    return svg(d.remainder?'Empty railway cars for equal sharing and a separate leftover tray':'Empty railway cars for equal sharing',body,600,380);
   }
   function words(d){
     let body=text(300,25,'Adventure supplies',22);
@@ -126,13 +142,20 @@
     return svg('Supply crates and bags labeled with the given quantities',body,600,380);
   }
   function machine(d){
-    return svg('Number machine with an unknown input and operation boxes',rect(16,140,100,80,'#fff9ed')+text(66,180,d.input??'?',28)+`<path d="M120 180h45m-12-10 12 10-12 10M333 180h43m-12-10 12 10-12 10" fill="none" stroke="#357ca5" stroke-width="5"/>`+rect(173,65,155,240,'#bad7e7',18)+text(250,145,d.op||'Find the rule',22)+text(250,220,d.op2||'Keep it balanced',18)+rect(390,140,190,80,'#fff3d8')+text(485,180,d.output??'?',25)+text(300,350,'Undo operations in reverse order',18),600,380);
+    return svg('Number machine with an unknown input and rule boxes',rect(16,140,100,80,'#fff9ed')+text(66,180,d.input??'?',28)+`<path d="M120 180h45m-12-10 12 10-12 10M333 180h43m-12-10 12 10-12 10" fill="none" stroke="#357ca5" stroke-width="5"/>`+rect(173,65,155,240,'#bad7e7',18)+text(250,145,d.op||'Find the rule',22)+text(250,220,d.op2||'Keep it balanced',18)+rect(390,140,190,80,'#fff3d8')+text(485,180,d.output??'?',25)+text(300,350,'Undo each step in reverse order',18),600,380);
   }
   function clock(x,y,time,label,showTime=true){const m=time%60,h=Math.floor(time/60)%12,hand=(angle,len,w)=>`<path d="M${x} ${y}l${Math.sin(angle)*len} ${-Math.cos(angle)*len}" stroke="#17324d" stroke-width="${w}" stroke-linecap="round"/>`;let b=`<circle cx="${x}" cy="${y}" r="89" fill="#fff9ed" stroke="#357ca5" stroke-width="5"/>`;
     for(let i=0;i<60;i++){const a=i*Math.PI/30;b+=`<path d="M${x+Math.sin(a)*82} ${y-Math.cos(a)*82}l${-Math.sin(a)*(i%5?4:8)} ${Math.cos(a)*(i%5?4:8)}" stroke="#264a61" stroke-width="${i%5?1:2}"/>`;}
     for(let i=1;i<=12;i++){const a=i*Math.PI/6;b+=text(x+Math.sin(a)*70,y-Math.cos(a)*70,i,19).replace('<text ',`<text class="quizmo-clock-number ${i%3?'minor':'major'}" `);}
     return b+hand((h+m/60)*Math.PI/6,43,6)+hand(m*Math.PI/30,64,3)+`<circle cx="${x}" cy="${y}" r="5" fill="#c65b34"/>`+text(x,y+117,`${label}${showTime?` ${Math.floor(time/60)%12||12}:${String(m).padStart(2,'0')}`:''}`,20);}
   function measure(d){
+    if(d.mode==='clock')return svg('Clock with hour and minute hands; read the time',clock(300,150,d.time,'',false),600,280);
+    if(d.mode==='grid'){
+      const size=Math.min(54,500/d.w,290/d.h),left=(600-d.w*size)/2,top=(340-d.h*size)/2;
+      let body='';
+      for(let y=0;y<d.h;y++)for(let x=0;x<d.w;x++)if(!(x>=d.w-d.cutW&&y<d.cutH))body+=rect(left+x*size,top+y*size,size,size,'#f2cf80',0).replace('<rect ','<rect class="quizmo-area-square" ');
+      return svg('Each grid square is one square unit. Count the area.',body,600,340);
+    }
     if(d.mode==='time')return svg('Start and end analog clocks with exact minute and hour hands',clock(155,130,d.start,'Start')+clock(445,245,d.end,'End')+'<path d="M270 155L325 210m-16-3 16 3-2-16" fill="none" stroke="#357ca5" stroke-width="3"/>',600,380);
     if(d.mode==='money'){
       const dollars=d.paid/100,price=`$${Math.floor(d.cost/100)}.${String(d.cost%100).padStart(2,'0')}`;
@@ -193,6 +216,6 @@
   function shapeChoice(s){return svg(`${s.count} ${s.fill} ${s.shape}, rotation ${s.angle||0} degrees, size ${s.size}, position ${s.position||0}`,cell(s),140,110);}
   function matrix(cells,cols=2){const w=cols*150,h=Math.ceil(cells.length/cols)*115;const describe=s=>s?`${s.count} ${s.fill} ${s.shape}, rotation ${s.angle} degrees, size ${s.size}, vertical offset ${s.position}`:'missing cell';return svg(`Shape matrix with ${cols} columns: ${cells.map(describe).join('; ')}`,cells.map((s,i)=>cell(s,(i%cols)*150,Math.floor(i/cols)*115,150,115)).join(''),w,h);}
   function paper(points,folds=0){let b=rect(25,20,190,190,'#fff9ed',0);if(folds){b+=`<path d="M120 20V210${folds===2?'M25 115H215':''}" stroke="#c65b34" stroke-width="2" stroke-dasharray="7 5"/><path d="M192 53Q160 10 137 53l12-5m-12 5 1-13" stroke="#357ca5" stroke-width="3" fill="none"/>`;if(folds===2)b+=`<path d="M55 181Q12 151 55 129l-5 12m5-12-13 1" stroke="#357ca5" stroke-width="3" fill="none"/>`;b+=`<path d="M25 20H120V${folds===2?115:210}H25Z" fill="#bad7e755"/>`;}
-    points.forEach(([x,y])=>{b+=`<circle cx="${25+x*1.9}" cy="${20+y*1.9}" r="6" fill="#17324d"/>`;});return svg(folds?`${folds} fold lines with directional arrows; punch at ${points.map(p=>p.join(', ')).join('; ')}`:`Opened paper with holes at ${points.map(p=>p.join(', ')).join('; ')}`,b,240,230);}
-  window.QuizmoVisuals={normalizeSvg,svg,text,rect,place,arithmetic,fractions,times,division,words,machine,measure,shapeChoice,matrix,paper,shapes};
+    points.forEach(([x,y])=>{b+=`<circle cx="${25+x*1.9}" cy="${20+y*1.9}" r="6" fill="#17324d"/>`;});return svg(folds?`${folds} fold lines with arrows; punch at ${points.map(p=>p.join(', ')).join('; ')}`:`Opened paper with holes at ${points.map(p=>p.join(', ')).join('; ')}`,b,240,230);}
+  window.QuizmoVisuals={normalizeSvg,svg,text,rect,place,arithmetic,lanternLayout,fractions,times,division,words,machine,measure,shapeChoice,matrix,paper,shapes};
 })();

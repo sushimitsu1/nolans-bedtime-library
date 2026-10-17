@@ -81,3 +81,20 @@
  .video-player{gap:6px;padding:8px max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom))}
  .video-player video{max-height:calc(100dvh - 156px);width:min(100%,calc((100dvh - 156px)*16/9))}
 }
+
+/* Quizmo reserves the answer controls before sizing its small, countable scenes. */
+@media (max-width:700px) and (orientation:portrait){
+ #quizmoView.active:not(.quizmo-scroll):has(.quizmo-tools){height:calc(100dvh - var(--mobile-bar));padding:6px;gap:6px}
+ #quizmoView.active .quizmo-board[data-level]{grid-template-rows:minmax(0,1fr) auto;gap:6px}
+ #quizmoView.active .quizmo-controls{grid-template-rows:176px 56px;min-height:238px;gap:6px}
+ #quizmoView.active .quizmo-pad{grid-template-columns:repeat(4,minmax(56px,1fr));grid-template-rows:repeat(3,56px);min-height:176px;gap:4px}
+ #quizmoView.active .quizmo-visual{min-height:0;max-height:none;flex:1 1 0}
+ #quizmoView.active .quizmo-question{gap:5px;padding:8px;overflow:hidden}
+ #quizmoView.active .quizmo-question h2{font-size:20px;line-height:1.15}
+ #quizmoView.active .quizmo-feedback{font-size:13px;line-height:1.2;min-height:1.2em}
+ #quizmoView.active .quizmo-answer-area{gap:4px}
+ #quizmoView.active .cogat-choices{grid-template-rows:repeat(2,64px);grid-auto-rows:64px;gap:6px}
+ #quizmoView.active .cogat-choices button{min-width:56px;min-height:56px}
+ #quizmoView.active .cogat-choices button:only-child{grid-column:1/-1}
+ #quizmoView.active.quizmo-scroll .quizmo-board[data-level]{grid-template-rows:auto auto}
+}
