@@ -51,7 +51,8 @@ try{
  await page.click('#backButton');assert((await audio()).paused);
 
  // A story without narration audio keeps the browser voice and never requests MP3s.
- const other=await page.evaluate(t=>stories.find(s=>s.id!==t && !narrationAudioManifest.stories[s.id]).id,TUNDRA);
+ // Every story is narrated now, so drop one from the in-page manifest to simulate a story without audio.
+ const other=await page.evaluate(t=>{const s=stories.find(s=>s.id!==t && !narrationAudioManifest.stories[s.id]) || stories.find(s=>s.id!==t);delete narrationAudioManifest.stories[s.id];return s.id;},TUNDRA);
  const before=requests.length;await page.evaluate(()=>{window.__spoken=[];});
  await open(other,0);await page.click('#readPageButton');
  await page.waitForFunction(()=>window.__spoken.length>0 || document.getElementById('narrationStatus').textContent==='No narrator voices available',{timeout:8000});
