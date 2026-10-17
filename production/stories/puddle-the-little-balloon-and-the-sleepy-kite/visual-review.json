@@ -11,10 +11,10 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            313,
+            40,
+            676,
+            552
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=552 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,19 +34,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            345,
+            24,
+            716,
+            538
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            756,
+            300,
+            1074,
+            570
           ]
         }
       ],
@@ -58,7 +58,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=570 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -66,19 +66,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            225,
+            12,
+            695,
+            718
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            756,
+            265,
+            1180,
+            737
           ]
         }
       ],
@@ -90,7 +90,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds incl. basket and ribbon tail. Basket bottom y~718; Zuzu's sharp ribbon tail ends y~737. A faint, depth-blurred second ribbon wisp continues to y~768 (x~1110-1175): below the y=760 guide but still ~22px clear of the y=790 cream panel, so nothing is covered. Not reframed because the balloon crown sits at y~12 and any crop-up would cut it."
     },
     {
       "number": 4,
@@ -98,19 +98,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            279,
+            5,
+            756,
+            658
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            530,
+            400,
+            663,
+            504
           ]
         }
       ],
@@ -122,7 +122,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=658 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -130,19 +130,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            279,
+            13,
+            764,
+            637
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            517,
+            385,
+            650,
+            517
           ]
         }
       ],
@@ -154,7 +154,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -162,19 +162,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            279,
+            5,
+            756,
+            637
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            517,
+            398,
+            663,
+            504
           ]
         }
       ],
@@ -186,7 +186,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -194,19 +194,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            159,
+            5,
+            782,
+            741
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            438,
+            424,
+            623,
+            584
           ]
         }
       ],
@@ -218,7 +218,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured bounds incl. basket; basket bottom y~741 (68%), ~49px clear of the y=790 cream panel. No reframe needed."
     },
     {
       "number": 8,
@@ -226,19 +226,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            106,
+            13,
+            570,
+            623
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            345,
+            400,
+            491,
+            504
           ]
         }
       ],
@@ -250,7 +250,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=623 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -258,19 +258,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            159,
+            27,
+            557,
+            562
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            491,
+            313,
+            769,
+            544
           ]
         }
       ],
@@ -282,7 +282,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=562 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -290,19 +290,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            233,
+            5,
+            716,
+            690
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            491,
+            430,
+            637,
+            536
           ]
         }
       ],
@@ -314,7 +314,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -322,19 +322,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            172,
+            5,
+            695,
+            695
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            889,
+            318,
+            1180,
+            584
           ]
         }
       ],
@@ -346,7 +346,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=695 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -354,19 +354,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            286,
+            24,
+            703,
+            565
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            928,
+            233,
+            1340,
+            584
           ]
         }
       ],
@@ -378,7 +378,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=584 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -386,10 +386,10 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            345,
+            40,
+            690,
+            483
           ]
         }
       ],
@@ -401,7 +401,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=483 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -409,10 +409,10 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            623,
+            212,
+            1003,
+            690
           ]
         }
       ],
@@ -424,7 +424,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -432,19 +432,19 @@
         {
           "label": "Puddle",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            197,
+            254,
+            509,
+            668
           ]
         },
         {
           "label": "Zuzu",
           "box": [
-            80,
-            90,
-            1300,
-            750
+            1113,
+            223,
+            1283,
+            360
           ]
         }
       ],
@@ -456,7 +456,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower basket, grass, or stream may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-17, bolder style): measured subject bounds; lowest character pixel y=668 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-17 (bolder style): all character bounds measured, baskets, kite tails and ribbons included, above y=760; no reframing needed. Page 3 has a faint blurred ribbon wisp reaching y~768, still clear of the y=790 panel.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
