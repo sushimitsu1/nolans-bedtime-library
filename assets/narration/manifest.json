@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "voice": "Matilda",
+  "voiceId": "XrExE9yKIg1WjnnlVkGX",
+  "model": "eleven_multilingual_v2",
+  "stories": {
+    "tundra-the-snowcat-grooms-the-starry-slope": {
+      "pages": 15,
+      "textHash": "acf7687bf1eb97f3"
+    }
+  }
+}
