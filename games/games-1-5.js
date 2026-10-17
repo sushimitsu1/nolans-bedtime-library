@@ -20,9 +20,5 @@
       s.task=config.task(s);return {points:3,advance:true,message:'You did it! '+s.task.prompt};
     }
   });}
-  const art=slug=>`assets/books/${slug}/page-01.webp`;
-  G.curriculum={shuffle,range,pictures,choices,numbers,register,art};
-  register({id:'hazel',title:'Hazel’s Count to Twenty',friend:'Hazel',icon:'🎃',art:art('hazel-the-little-tractor-and-the-moonlight-harvest'),task(s){const max=Math.min(20,6+s.level*2),n=Math.max(3,max-2+s.round%3);return {answer:n,prompt:'Count the pumpkins. Tap the number that tells how many.',cue:pictures(n,'🎃'),choices:numbers(n,20,Math.min(8,s.level+2))};}});
-  register({id:'coby',title:'Coby’s Picture Addition',friend:'Coby',icon:'➕',art:art('coby-the-little-trolley-and-the-city-of-sleepy-lights'),task(s){const total=Math.min(10,s.level+2+s.round%2),a=1+(s.round+s.level)% (total-1),b=total-a;return {answer:total,prompt:`${a} apples and ${b} apples. How many altogether?`,cue:`${pictures(a)} + ${pictures(b)} = ?`,choices:numbers(total,10,s.level<3?3:5)};}});
-  register({id:'cora',title:'Cora’s Take-Away Builder',friend:'Cora',icon:'➖',art:art('cora-crane-truck-wobbly-sign'),task(s){const n=Math.min(10,s.level+3),take=1+(s.round+s.level)%n;return {answer:n-take,prompt:`There are ${n} blocks. Take away ${take}. How many stay?`,cue:`${pictures(n-take,'🧱')}<span class="taken">${pictures(take,'🧱')}</span>`,choices:numbers(n-take,10,s.level<3?3:5)};}});
+  G.curriculum={shuffle,range,pictures,choices,numbers,register};
 })();
