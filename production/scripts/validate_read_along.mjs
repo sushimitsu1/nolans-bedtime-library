@@ -25,7 +25,7 @@ requireMatch(/utterance\.voice=voice;/, 'every utterance must explicitly use the
 requireMatch(/showView\(view\)[\s\S]*view!==['"]reader['"]\) stopNarration\(\{disableReadAlong:true\}\)/, 'leaving the reader must stop speech and reset read-along');
 requireMatch(/function openStory\(id\)[\s\S]*stopNarration\(\{disableReadAlong:true\}\)/, 'opening a story must reset the previous story read-along state');
 requireMatch(/stopNarrationButton['"]\)\.addEventListener\(['"]click['"],\(\)=>stopNarration\(\{disableReadAlong:true\}\)\)/, 'the Stop button must disable read-along');
-requireMatch(/stopNarrationButton['"]\)\.disabled=!speechSupported \|\| \(!narrationActive && !narrationPreparing && !readAlongEnabled\)/, 'Stop must remain available while narration is preparing or read-along is enabled');
+requireMatch(/stopNarrationButton['"]\)\.disabled=!(?:speechSupported|canNarrate) \|\| \(!narrationActive && !narrationPreparing && !readAlongEnabled\)/, 'Stop must remain available while narration is preparing or read-along is enabled');
 requireMatch(/nextButton['"]\)\.addEventListener\(['"]click['"],nextPage\)/, 'Next button must use the shared forward-navigation path');
 requireMatch(/nextOverlay['"]\)\.addEventListener\(['"]click['"],nextPage\)/, 'forward page edge must use the shared forward-navigation path');
 requireMatch(/\['ArrowRight',' ','Enter'\][\s\S]*nextPage\(\)/, 'right-arrow navigation must use the shared forward-navigation path');

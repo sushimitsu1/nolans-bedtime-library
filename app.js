@@ -3286,6 +3286,18 @@ let availableNarrationVoices = [];
 let narrationVoicesLogged = false;
 let narrationVoiceLocked = false;
 let pageRenderGeneration = 0;
+// Pre-made narration audio (one MP3 per page) for stories listed in assets/narration/manifest.json.
+// Stories without audio keep using the browser voice below.
+const NARRATION_AUDIO_ROOT = 'assets/narration';
+let narrationAudioManifest = null;
+const narrationAudioElement = typeof Audio==='function' ? new Audio() : null;
+const narrationAudioBlobs = new Map();
+const narrationAudioFailed = new Set();
+let narrationAudioActive = false;
+const narrationAudioManifestReady = (narrationAudioElement ? fetch(`${NARRATION_AUDIO_ROOT}/manifest.json`) : Promise.reject())
+  .then(response=>response.ok ? response.json() : null)
+  .then(manifest=>{ narrationAudioManifest=manifest && typeof manifest.stories==='object' ? manifest : null; if(activeStory) updateNarrationControls(); })
+  .catch(()=>{});
 const storage = {
   favorites: 'nolan:favorites',
   fontSize: 'nolan:font-size',
@@ -3387,18 +3399,96 @@ function getCurrentNarrationText(){
   return typeof text==='string' ? text.trim() : '';
 }
 
+function narrationAudioPath(story=activeStory,page=currentPage){
+  const entry=narrationAudioManifest?.stories?.[story?.id];
+  if(!narrationAudioElement || !entry || page<0 || page>=Number(entry.pages)) return '';
+  const path=`${NARRATION_AUDIO_ROOT}/${story.id}/p${page+1}.mp3`;
+  return narrationAudioFailed.has(path) ? '' : path;
+}
+
+function hasNarrationAudio(){ return Boolean(narrationAudioPath()); }
+
+function loadNarrationAudio(path){
+  if(!narrationAudioBlobs.has(path)){
+    // Fetch the whole file (no Range request) so the service worker can cache it, then play a blob URL.
+    const pending=fetch(path)
+      .then(response=>{ if(!response.ok) throw new Error(`Narration audio HTTP ${response.status}`); return response.arrayBuffer(); })
+      .then(buffer=>URL.createObjectURL(new Blob([buffer],{type:'audio/mpeg'})))
+      .catch(error=>{ narrationAudioBlobs.delete(path); throw error; });
+    narrationAudioBlobs.set(path,pending);
+  }
+  return narrationAudioBlobs.get(path);
+}
+
+function preloadNarrationAudio(){
+  if(!activeStory) return;
+  const prefix=`${NARRATION_AUDIO_ROOT}/${activeStory.id}/`;
+  for(const [path,pending] of narrationAudioBlobs){
+    if(!path.startsWith(prefix)){ narrationAudioBlobs.delete(path); pending.then(url=>URL.revokeObjectURL(url)).catch(()=>{}); }
+  }
+  [0,1].forEach(delta=>{ const path=narrationAudioPath(activeStory,currentPage+delta); if(path) loadNarrationAudio(path).catch(()=>{}); });
+}
+
+async function playNarrationAudio(path){
+  stopNarration();
+  const generation=narrationGeneration;
+  const storyId=activeStory?.id;
+  const page=currentPage;
+  const audio=narrationAudioElement;
+  const isCurrent=()=>narrationGeneration===generation && activeStory?.id===storyId && currentPage===page;
+  const fallBackToBrowserVoice=()=>{
+    narrationAudioFailed.add(path);
+    narrationAudioActive=false;
+    narrationActive=false;
+    narrationPaused=false;
+    narrationPreparing=false;
+    readCurrentPage({enableReadAlong:false});
+  };
+  narrationPreparing=true;
+  setNarrationState('Preparing voice…');
+  updateNarrationControls();
+  let src;
+  try{ src=await loadNarrationAudio(path); }
+  catch{ if(isCurrent()) fallBackToBrowserVoice(); return; }
+  if(!isCurrent()) return;
+  narrationPreparing=false;
+  audio.onended=()=>{ if(isCurrent()){ narrationAudioActive=false; narrationActive=false; narrationPaused=false; setNarrationState('Ready'); updateNarrationControls(); } };
+  audio.onerror=()=>{ if(isCurrent() && narrationAudioActive) fallBackToBrowserVoice(); };
+  if(audio.src!==src) audio.src=src;
+  audio.currentTime=0;
+  audio.volume=narrationSettings.volume;
+  narrationAudioActive=true;
+  narrationActive=true;
+  narrationPaused=false;
+  setNarrationState('Reading');
+  updateNarrationControls();
+  try{ await audio.play(); }
+  catch(error){
+    if(!isCurrent()) return;
+    if(error?.name==='NotAllowedError'){
+      narrationAudioActive=false;
+      narrationActive=false;
+      setNarrationState('Tap Read page to listen');
+      updateNarrationControls();
+      return;
+    }
+    fallBackToBrowserVoice();
+  }
+}
+
 function setNarrationState(state){
   $('narrationStatus').textContent=state;
 }
 
 function updateNarrationControls(){
   const hasText=Boolean(getCurrentNarrationText());
-  $('readPageButton').disabled=!speechSupported || !hasText;
-  $('pauseNarrationButton').disabled=!speechSupported || !hasText || !narrationActive;
-  $('restartNarrationButton').disabled=!speechSupported || !hasText;
-  $('stopNarrationButton').disabled=!speechSupported || (!narrationActive && !narrationPreparing && !readAlongEnabled);
-  $('narrationUnsupported').hidden=speechSupported;
-  $('narrationUnavailable').hidden=!speechSupported || currentPage<0 || hasText;
+  const canNarrate=speechSupported || hasNarrationAudio();
+  $('readPageButton').disabled=!canNarrate || !hasText;
+  $('pauseNarrationButton').disabled=!canNarrate || !hasText || !narrationActive;
+  $('restartNarrationButton').disabled=!canNarrate || !hasText;
+  $('stopNarrationButton').disabled=!canNarrate || (!narrationActive && !narrationPreparing && !readAlongEnabled);
+  $('narrationUnsupported').hidden=canNarrate;
+  $('narrationUnavailable').hidden=!canNarrate || currentPage<0 || hasText;
 }
 
 function prepareSpeechText(displayText){
@@ -3577,6 +3667,8 @@ function stopNarration({disableReadAlong=false}={}){
     readAlongStoryId=null;
   }
   const hadNarration=narrationActive || narrationUtterance;
+  if(narrationAudioElement && (narrationAudioActive || !narrationAudioElement.paused)) narrationAudioElement.pause();
+  narrationAudioActive=false;
   narrationUtterance=null;
   narrationActive=false;
   narrationPaused=false;
@@ -3592,6 +3684,14 @@ async function readCurrentPage({enableReadAlong=true}={}){
     readAlongStoryId=activeStory.id;
   }
   const text=getCurrentNarrationText();
+  if(text && narrationAudioElement && !narrationAudioManifest){
+    const waitingStoryId=activeStory?.id;
+    const waitingPage=currentPage;
+    await Promise.race([narrationAudioManifestReady,new Promise(resolve=>setTimeout(resolve,1500))]);
+    if(activeStory?.id!==waitingStoryId || currentPage!==waitingPage) return;
+  }
+  const audioPath=text ? narrationAudioPath() : '';
+  if(audioPath){ await playNarrationAudio(audioPath); return; }
   if(!speechSupported || !text){ updateNarrationControls(); return; }
   stopNarration();
   const generation=narrationGeneration;
@@ -3641,6 +3741,19 @@ async function readCurrentPage({enableReadAlong=true}={}){
 }
 
 function pauseOrResumeNarration(){
+  if(narrationAudioActive && narrationActive){
+    if(narrationPaused){
+      narrationAudioElement.play().catch(()=>{});
+      narrationPaused=false;
+      setNarrationState('Reading');
+    } else {
+      narrationAudioElement.pause();
+      narrationPaused=true;
+      setNarrationState('Paused');
+    }
+    updateNarrationControls();
+    return;
+  }
   if(!speechSupported || !narrationActive) return;
   if(narrationPaused){
     window.speechSynthesis.resume();
@@ -3657,7 +3770,7 @@ function pauseOrResumeNarration(){
 function restartCurrentPageNarration(){
   const storyId=activeStory?.id;
   const page=currentPage;
-  if(!speechSupported || !getCurrentNarrationText()) return;
+  if((!speechSupported && !hasNarrationAudio()) || !getCurrentNarrationText()) return;
   stopNarration();
   setTimeout(()=>{ if(activeStory?.id===storyId && currentPage===page) readCurrentPage({enableReadAlong:false}); },0);
 }
@@ -3771,6 +3884,7 @@ function renderPage({autoRead=false}={}){
   if(!isCover) localStorage.setItem(`progress:${activeStory.id}`,currentPage);
   updateNarrationControls();
   preloadNearby();
+  preloadNarrationAudio();
 }
 
 function nextPage(){
