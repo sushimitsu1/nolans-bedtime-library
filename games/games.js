@@ -8,6 +8,11 @@
   try { prefs = {...defaults, ...JSON.parse(localStorage.getItem(key) || '{}')}; } catch { prefs = {...defaults}; }
   prefs.points = Number.isSafeInteger(prefs.points) && prefs.points >= 0 ? prefs.points : 0;
   prefs.levels = prefs.levels && typeof prefs.levels === 'object' ? prefs.levels : {};
+  const retired=['bramble','aster','posy','willa'];
+  if(retired.some(id=>Object.hasOwn(prefs.levels,id))){
+    for(const id of retired)delete prefs.levels[id];
+    try { localStorage.setItem(key, JSON.stringify(prefs)); } catch { /* Storage is optional. */ }
+  }
   let active = null, state = null, audio = null, down = null;
   const games = [];
   const save = () => { try { localStorage.setItem(key, JSON.stringify(prefs)); } catch { /* Play still works if storage is unavailable. */ } };
@@ -37,7 +42,7 @@
   function token(value, icon, label=value, extra='') { return button(icon, label, 'choice', `class="game-token" data-value="${value}" ${extra}`); }
   function tools() {return `<div class="game-tools">${button('🏠','Games home','home')}${button('🔊','Repeat instruction or sound','repeat')}${button(prefs.narration||prefs.effects?'🔈':'🔇','Toggle sound','sound')}${button('🌙','Finish peacefully','finish')}</div>`;}
   let filter="All";
-  const category=g=>["hazel","coby","cora","bramble","aster","saffy"].includes(g.id)?"Counting":g.id==="nova"?"Patterns":"Letters";
+  const category=g=>["hazel","coby","cora","saffy"].includes(g.id)?"Counting":g.id==="nova"?"Patterns":"Letters";
   function home() {
     leave(); active=null; state=null;
     root.innerHTML=`<div class="hub-heading"><div><h1>Games</h1><p>Learn with a sleepy friend · ages 3–5</p></div><span>⭐ ${Math.floor(prefs.points/5)} stars</span></div><div class="game-filters">${['All','Counting','Patterns','Letters'].map(c=>`<button type="button" data-action="filter" data-filter="${c}" aria-pressed="${filter===c}">${c} <small>${games.filter(g=>c==='All'||category(g)===c).length}</small></button>`).join('')}</div><div class="game-grid">${games.filter(g=>filter==='All'||category(g)===filter).map(g=>`<button type="button" class="game-card" data-action="open" data-id="${g.id}" aria-label="${g.title}"><img src="${g.art}" alt="${g.friend}"><span>${g.icon} ${g.title}</span><small>⭐ Level ${level(g.id)} / 8</small></button>`).join('')}</div>`;
