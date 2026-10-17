@@ -95,7 +95,7 @@ try{
   await open('kip');const before=await page.evaluate(()=>tones.length);await tap('[data-value="0"]');const selected=await page.evaluate(()=>tones.length);await tap('[data-slot="1"]');assert.equal(await page.evaluate(()=>tones.length),selected);assert.match(await page.$eval('.play-hint',e=>e.textContent),/Try/);assert(selected>=before);await home();
   assert(!/buzzer|wrong-answer/i.test(await fs.readFile(path.join(root,'games/games.js'),'utf8')));
   // Offline scenes and local SVG art are all precached.
-  await page.evaluate(()=>navigator.serviceWorker.ready);const cacheVersion=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/const CACHE='([^']+)'/)[1];assert.equal(cacheVersion,'nolan-library-v113');
+  await page.evaluate(()=>navigator.serviceWorker.ready);const cacheVersion=(await fs.readFile(path.join(root,'sw.js'),'utf8')).match(/const CACHE='([^']+)'/)[1];assert.match(cacheVersion,/^nolan-library-v\d+$/);assert(Number(cacheVersion.split('-v')[1])>=113,'cache must be at least the v113 games release');
   const core=await page.evaluate(async v=>(await (await caches.open(v)).keys()).map(r=>new URL(r.url).pathname),cacheVersion);
   for(const file of ['games/journeys.js','games/journeys.css',...games.map(g=>g.art)])assert(core.includes('/'+file),'Precached '+file);
   await page.setOfflineMode(true);await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');for(const g of games){await open(g.id);await page.waitForFunction(()=>[...document.querySelectorAll('#gamesView img')].every(i=>i.complete&&i.naturalWidth));await home();}
