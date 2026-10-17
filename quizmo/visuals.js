@@ -10,7 +10,7 @@
   function svg(label,body,w=600,h=280,meta={}){
     const prefix=`qv-${++svgInstance}-`;
     const artwork=body.replace(/url\(#([a-zA-Z]\w*)\)/g,(_,name)=>`url(#${prefix}${name})`);
-    return `<svg class="quizmo-illustration" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" data-wide-view-box="0 0 ${w} ${h}" ${meta.portrait?`data-portrait-view-box="${meta.portrait}" ${meta.total!==undefined?`data-lantern-total="${meta.total}"`:""}`:""} ${meta.rows?`data-rows="${meta.rows}" data-cols="${meta.cols}"`:""} role="img" aria-label="${esc(label)}"><defs><linearGradient id="${prefix}lanternGlow" x2="0" y2="1"><stop stop-color="#fff5b8"/><stop offset=".5" stop-color="#f2a93b"/><stop offset="1" stop-color="#d58a16"/></linearGradient><radialGradient id="${prefix}halo"><stop stop-color="#f2a93b" stop-opacity=".13"/><stop offset="1" stop-color="#f2a93b" stop-opacity="0"/></radialGradient><pattern id="${prefix}qStripes" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="7" height="7" fill="#fff9ed"/><path d="M0 0V7" stroke="#357ca5" stroke-width="3"/></pattern><linearGradient id="${prefix}billPaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3db"/><stop offset=".55" stop-color="#d7e5c8"/><stop offset="1" stop-color="#b7cfae"/></linearGradient><radialGradient id="${prefix}silverCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#fff"/><stop offset=".35" stop-color="#e6ecee"/><stop offset=".72" stop-color="#b5c1c5"/><stop offset="1" stop-color="#7f9098"/></radialGradient><radialGradient id="${prefix}copperCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#ffe8bc"/><stop offset=".4" stop-color="#e5ad76"/><stop offset=".75" stop-color="#bd7848"/><stop offset="1" stop-color="#894c30"/></radialGradient><linearGradient id="${prefix}woodRuler" x2="0" y2="1"><stop stop-color="#fff0ca"/><stop offset=".18" stop-color="#efd09a"/><stop offset=".82" stop-color="#e6b976"/><stop offset="1" stop-color="#c9904b"/></linearGradient></defs><g font-family="system-ui,sans-serif">${artwork}</g></svg>`;
+    return `<svg class="quizmo-illustration" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" data-wide-view-box="0 0 ${w} ${h}" ${meta.portrait?`data-portrait-view-box="${meta.portrait}" ${meta.total!==undefined?`data-lantern-total="${meta.total}"`:""}`:""} ${meta.blocks?`data-blocks="${meta.blocks}"`:""} ${meta.rows?`data-rows="${meta.rows}" data-cols="${meta.cols}"`:""} role="img" aria-label="${esc(label)}"><defs><linearGradient id="${prefix}lanternGlow" x2="0" y2="1"><stop stop-color="#fff5b8"/><stop offset=".5" stop-color="#f2a93b"/><stop offset="1" stop-color="#d58a16"/></linearGradient><radialGradient id="${prefix}halo"><stop stop-color="#f2a93b" stop-opacity=".13"/><stop offset="1" stop-color="#f2a93b" stop-opacity="0"/></radialGradient><pattern id="${prefix}qStripes" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="7" height="7" fill="#fff9ed"/><path d="M0 0V7" stroke="#357ca5" stroke-width="3"/></pattern><linearGradient id="${prefix}billPaper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3db"/><stop offset=".55" stop-color="#d7e5c8"/><stop offset="1" stop-color="#b7cfae"/></linearGradient><radialGradient id="${prefix}silverCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#fff"/><stop offset=".35" stop-color="#e6ecee"/><stop offset=".72" stop-color="#b5c1c5"/><stop offset="1" stop-color="#7f9098"/></radialGradient><radialGradient id="${prefix}copperCoin" cx=".28" cy=".22" r=".85"><stop stop-color="#ffe8bc"/><stop offset=".4" stop-color="#e5ad76"/><stop offset=".75" stop-color="#bd7848"/><stop offset="1" stop-color="#894c30"/></radialGradient><linearGradient id="${prefix}woodRuler" x2="0" y2="1"><stop stop-color="#fff0ca"/><stop offset=".18" stop-color="#efd09a"/><stop offset=".82" stop-color="#e6b976"/><stop offset="1" stop-color="#c9904b"/></linearGradient></defs><g font-family="system-ui,sans-serif">${artwork}</g></svg>`;
   }
   function lantern(x,y,s=1){return `<g class="quizmo-lantern" transform="translate(${x} ${y}) scale(${s})"><ellipse cy="25" rx="28" ry="43" fill="url(#halo)"/><path d="M-9 0V-9Q0-23 9-9V0" fill="none" stroke="#264a61" stroke-width="2"/><ellipse cy="24" rx="23" ry="28" fill="url(#lanternGlow)" stroke="#d58a16" stroke-width="2"/><path d="M-12 0Q-24 24-12 49M0 0V49M12 0Q24 24 12 49" fill="none" stroke="#fff9ed" stroke-opacity=".65" stroke-width="1.5"/><path d="M-21 15H21M-23 29H23M-19 41H19" stroke="#d58a16" fill="none"/><rect x="-12" y="-3" width="24" height="6" rx="2" fill="#c65b34"/><rect x="-11" y="48" width="22" height="5" rx="2" fill="#c65b34"/><path d="M0 53V65M-4 59V69M4 59V69" stroke="#c65b34" stroke-width="2"/></g>`;}
   function lanternLayout(total,denominator,answer,finalAnswer=answer){
@@ -68,48 +68,82 @@
     }).join('');
     return svg('Fraction bars with equal-length wholes divided into labeled equal parts',body,600,380);
   }
-  function place(d){
-    const digits=String(d.n).split(''), names=['TTh','Th','H','T','O'].slice(-digits.length);
-    let b=text(300,23,d.title||'Build by place value',20);const cw=540/digits.length;
-    digits.forEach((v,i)=>{const x=30+i*cw;b+=rect(x,48,cw-5,300,'#fff9ed')+text(x+cw/2,71,names[i],14)+text(x+cw/2,121,v,36);const unit=digits.length-i-1;
-      for(let k=0;k<Number(v);k++){const bx=x+12+(k%3)*(cw-24)/3,by=165+Math.floor(k/3)*48;
-        if(unit>=3)b+=`<path d="M${bx} ${by+7}l12-7 12 7v16l-12 7-12-7Z M${bx} ${by+7}l12 7 12-7 M${bx+12} ${by+14}v16" fill="#357ca5" stroke="#17324d"/>`;
-        else if(unit===2)b+=rect(bx,by,22,22,'#bad7e7',1)+`<path d="M${bx+7} ${by}v22m7-22v22M${bx} ${by+7}h22m-22 7h22" stroke="#357ca5" stroke-width=".7"/>`;
-        else if(unit===1)b+=rect(bx+6,by,6,27,'#f2a93b',1)+`<path d="M${bx+6} ${by+9}h6m-6 9h6" stroke="#d58a16"/>`;
-        else b+=rect(bx+5,by+5,12,12,'#f2a93b',2);
-      }
-    });return svg('Place-value chart with grouped base-ten blocks',b,600,380);
+  function place(d){return blocks({mode:'place',n:d.n});}
+  // Base-ten blocks: tall ten-rods, ones cubes in columns of five, hundred flats.
+  const blockColors=[['#6db3df','#1f5f8b'],['#84cf98','#2f7a45'],['#f6c46a','#a8701a']];
+  function rod(x,y,c,taken,extra=''){
+    let b=`<g class="quizmo-rod"${taken?' data-taken="1"':''}${extra}><g${taken?' opacity=".3"':''}><rect x="${x}" y="${y}" width="22" height="100" rx="3" fill="${c[0]}" stroke="${c[1]}" stroke-width="2"/>`;
+    for(let i=1;i<10;i++)b+=`<path d="M${x} ${y+i*10}h22" stroke="${c[1]}" stroke-width="1"/>`;
+    b+=`<path d="M${x+5} ${y+4}v92" stroke="#fff" stroke-opacity=".45" stroke-width="3"/></g>`;
+    if(taken)b+=`<path d="M${x-3} ${y+10}L${x+25} ${y+90}M${x+25} ${y+10}L${x-3} ${y+90}" stroke="#c65b34" stroke-width="4" stroke-linecap="round"/>`;
+    return b+'</g>';
   }
-  function arithmetic(d){
-    const values=d.values,columns=Math.max(...values.map(n=>String(n).length))+(d.operation==='addition'?1:0),names=['TTh','Th','H','T','O'].slice(-columns),cw=520/columns,rowHeight=values.length===3?78:108,header=42;
-    let body=rect(48,6,526,header-8,'#e5eff4',6);
-    names.forEach((name,i)=>{body+=text(48+cw*(i+.5),23,name,25);});
-    values.forEach((value,row)=>{
-      body+=`<g class="quizmo-operand-row" data-value="${value}">`;
-      const y=header+row*rowHeight,digits=String(value).padStart(columns,'0');
-      if(row)body+=text(25,y+rowHeight/2,d.operation==='subtraction'?'−':'+',31);
-      for(let col=0;col<columns;col++){
-        const digit=Number(digits[col]),x=48+col*cw,place=columns-col-1;
-        body+=`<g class="quizmo-operand-cell" data-digit="${digit}" data-place="${place}">`+rect(x,y,cw-5,rowHeight-6,row%2?'#edf5f9':'#fff9ed',5)+text(x+cw/2,y+19,digit,30);
-        const stepX=Math.min(23,(cw-20)/3),stepY=values.length===3?12:19,scale=values.length===3?.72:.95;
-        for(let k=0;k<digit;k++){
-          const bx=x+cw/2+(k%3-1)*stepX,by=y+37+Math.floor(k/3)*stepY;
-          let block;
-          if(place>=3)block=`<path d="M-7-3L0-7 7-3V5L0 9-7 5Z M-7-3L0 1 7-3 M0 1V9" fill="#357ca5" stroke="#17324d" stroke-width="1"/>`;
-          else if(place===2)block=rect(-7,-6,14,14,'#bad7e7',0)+'<path d="M-2-6V8M3-6V8M-7-1H7M-7 4H7" stroke="#357ca5" stroke-width=".6"/>';
-          else if(place===1)block=rect(-3,-6,6,16,'#f2a93b',1)+'<path d="M-3-2H3M-3 3H3M-3 7H3" stroke="#d58a16" stroke-width=".6"/>';
-          else block=rect(-5,-4,10,10,'#f2a93b',1);
-          body+=`<g class="quizmo-base-block" transform="translate(${bx} ${by}) scale(${scale})">${block}</g>`;
-        }
-        body+='</g>';
-      }
-      body+='</g>';
-    });
-    const totalY=header+values.length*rowHeight;
-    body+=`<g class="quizmo-total-row"><path d="M48 ${totalY-2}H571" stroke="#17324d" stroke-width="3"/>`+text(25,totalY+31,'=',29);
-    for(let col=0;col<columns;col++)body+=rect(48+col*cw,totalY+9,cw-5,52,'#fff1d6',5)+text(48+cw*(col+.5),totalY+35,'?',31);
-    return svg(`Place-value calculation: ${values.join(d.operation==='subtraction'?' minus ':' plus ')}; result cells are unknown`,body+'</g>',600,totalY+72);
+  function cube(x,y,c,taken,extra=''){
+    let b=`<g class="quizmo-cube"${taken?' data-taken="1"':''}${extra}><g${taken?' opacity=".3"':''}><rect x="${x}" y="${y}" width="18" height="18" rx="3" fill="${c[0]}" stroke="${c[1]}" stroke-width="2"/><path d="M${x+4} ${y+4}h7" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/></g>`;
+    if(taken)b+=`<path d="M${x-1} ${y-1}L${x+19} ${y+19}M${x+19} ${y-1}L${x-1} ${y+19}" stroke="#c65b34" stroke-width="3" stroke-linecap="round"/>`;
+    return b+'</g>';
   }
+  function flat(x,y,c){let b=`<g class="quizmo-flat"><rect x="${x}" y="${y}" width="100" height="100" rx="3" fill="${c[0]}" stroke="${c[1]}" stroke-width="2"/>`;for(let i=1;i<10;i++)b+=`<path d="M${x+i*10} ${y}v100M${x} ${y+i*10}h100" stroke="${c[1]}" stroke-width=".8"/>`;return b+'</g>';}
+  // Cubes fill columns of five, so ten ones read like a ten-frame.
+  function cubes(x,y,count,c,taken=()=>false,extra=()=>''){let b='';for(let k=0;k<count;k++)b+=cube(x+Math.floor(k/5)*22,y+(k%5)*20+1,c,taken(k),extra(k));return {body:b,width:count?Math.ceil(count/5)*22-4:0};}
+  function group(n,x,y,c,opt={}){
+    const hundreds=opt.hundreds?Math.floor(n/100):0,tens=Math.floor((n-hundreds*100)/10),ones=n%10,takeT=opt.takeTens||0,takeO=opt.takeOnes||0;
+    let b=`<g class="quizmo-block-group" data-value="${n}">`,cx=x;
+    for(let i=0;i<hundreds;i++){b+=flat(cx,y,c);cx+=108;}
+    if(hundreds&&(tens||ones))cx+=8;
+    for(let i=0;i<tens;i++){b+=rod(cx,y,c,i>=tens-takeT);cx+=30;}
+    if(tens&&ones)cx+=10;
+    const cs=cubes(cx,y,ones,c,k=>k>=ones-takeO);b+=cs.body;cx+=cs.width;
+    return {body:b+'</g>',width:Math.max(0,cx-x)};
+  }
+  const capW=(c,content)=>Math.max(content+20,String(c).length*11+24,150);
+  function blocks(d){
+    if(d.mode==='subtraction'){
+      const {a,b}=d,T=Math.floor(a/10),O=a%10,bt=Math.floor(b/10),bo=b%10,borrow=O<bo,traded=borrow&&d.traded;
+      const c=blockColors[0];
+      if(!traded){
+        const g=group(a,10,44,c,borrow?{}:{takeTens:bt,takeOnes:bo});
+        const caption=d.caption||(borrow?'Not enough ones':`${a} take away ${b}`),w=capW(caption,g.width);
+        return svg(borrow?`${a} as base-ten blocks; not enough ones to take ${bo}`:`${a} as base-ten blocks with ${b} crossed out`,text(w/2,18,caption,22)+`<g transform="translate(${(w-20-g.width)/2} 0)">${g.body}</g>`,w,154,{blocks:1});
+      }
+      // One rod becomes ten loose cubes; take the ones from the loose cubes first.
+      let body=`<g class="quizmo-block-group" data-value="${a}" data-traded="1">`,x=10;
+      for(let i=0;i<T-1;i++){body+=rod(x,44,c,i>=T-1-bt);x+=30;}
+      if(T>1)x+=10;
+      if(O){const cs=cubes(x,44,O,c,()=>true);body+=cs.body;x+=cs.width+14;}
+      const need=bo-O,box=x;
+      const cs=cubes(x+6,44,10,c,k=>k>=10-need,k=>` style="--i:${k}" data-traded-cube="1"`);
+      body+=`<rect x="${box}" y="38" width="${cs.width+12}" height="110" rx="10" fill="none" stroke="#d58a16" stroke-width="2.5" stroke-dasharray="6 5"/>`+cs.body+'</g>';x+=cs.width+22;
+      const caption=d.caption||'1 ten → 10 ones',w=capW(caption,x-10);
+      return svg(`${a} after trading one ten for ten ones, with ${b} crossed out`,text(w/2,18,caption,22)+`<g transform="translate(${(w-x-10)/2} 0)">${body}</g>`,w,154,{blocks:1});
+    }
+    if(d.mode==='addition'){
+      const vs=d.values,ones=vs.reduce((s,n)=>s+n%10,0);
+      if(d.merged&&ones>=10){
+        let body='',x=10;
+        vs.forEach((n,i)=>{for(let t=0;t<Math.floor(n/10);t++){body+=`<g class="quizmo-block-group" data-value="${n}">`+rod(x,44,blockColors[i])+'</g>';x+=30;}});
+        x+=10;const ring=x;let k=0;
+        vs.forEach((n,i)=>{for(let j=0;j<n%10;j++,k++)body+=cube(x+Math.floor(k/5)*22,44+(k%5)*20+1,blockColors[i]);});
+        const width=Math.ceil(k/5)*22-4;
+        body+=`<rect x="${ring-6}" y="38" width="${2*22-4+12}" height="110" rx="10" fill="none" stroke="#d58a16" stroke-width="2.5" stroke-dasharray="6 5"/>`;
+        x+=width;const w=capW('Make a new ten',x-10);
+        return svg('All the blocks pushed together; ten ones circled to make a new ten',text(w/2,18,'Make a new ten',22)+`<g transform="translate(${(w-x-10)/2} 0)">${body}</g>`,w,154,{blocks:1});
+      }
+      const rowH=118;let body='',maxW=0;
+      const gs=vs.map((n,i)=>group(n,62,10+i*rowH,blockColors[i]));
+      gs.forEach((g,i)=>{body+=text(28,60+i*rowH,i?`+${vs[i]}`:vs[i],26)+g.body;maxW=Math.max(maxW,g.width);});
+      const w=Math.max(62+maxW+12,240);
+      return svg(`Base-ten blocks for ${vs.join(' plus ')}, one row per number`,body,w,vs.length*rowH,{blocks:vs.length});
+    }
+    if(d.mode==='place'){
+      const g=group(d.n,10,10,blockColors[0],{hundreds:true}),w=Math.max(g.width+20,240);
+      return svg(`${d.n} built from base-ten blocks`,`<g transform="translate(${(w-20-g.width)/2} 0)">${g.body}</g>`,w,120,{blocks:1});
+    }
+    const g=group(d.n,10,44,blockColors[0]),cap=d.caption||`${d.n} in all`,w=capW(cap,g.width);
+    return svg(`${d.n} as base-ten blocks`,text(w/2,18,cap,22)+`<g transform="translate(${(w-20-g.width)/2} 0)">${g.body}</g>`,w,154,{blocks:1});
+  }
+  // Kept for any older callers: arithmetic now draws blocks, never a grid.
+  function arithmetic(d){return blocks({mode:'addition',values:d.values});}
   function times(d){
     let body='';
     if(d.a<=12&&d.b<=12){
@@ -277,5 +311,5 @@
   function matrix(cells,cols=2){const w=cols*150,h=Math.ceil(cells.length/cols)*115;const describe=s=>s?`${s.count} ${s.fill} ${s.shape}, rotation ${s.angle} degrees, size ${s.size}, vertical offset ${s.position}`:'missing cell';return svg(`Shape matrix with ${cols} columns: ${cells.map(describe).join('; ')}`,cells.map((s,i)=>cell(s,(i%cols)*150,Math.floor(i/cols)*115,150,115)).join(''),w,h);}
   function paper(points,folds=0){let b=rect(25,20,190,190,'#fff9ed',0);if(folds){b+=`<path d="M120 20V210${folds===2?'M25 115H215':''}" stroke="#c65b34" stroke-width="2" stroke-dasharray="7 5"/><path d="M192 53Q160 10 137 53l12-5m-12 5 1-13" stroke="#357ca5" stroke-width="3" fill="none"/>`;if(folds===2)b+=`<path d="M55 181Q12 151 55 129l-5 12m5-12-13 1" stroke="#357ca5" stroke-width="3" fill="none"/>`;b+=`<path d="M25 20H120V${folds===2?115:210}H25Z" fill="#bad7e755"/>`;}
     points.forEach(([x,y])=>{b+=`<circle cx="${25+x*1.9}" cy="${20+y*1.9}" r="6" fill="#17324d"/>`;});return svg(folds?`${folds} fold lines with arrows; punch at ${points.map(p=>p.join(', ')).join('; ')}`:`Opened paper with holes at ${points.map(p=>p.join(', ')).join('; ')}`,b,240,230);}
-  window.QuizmoVisuals={sharing,skip,coins,ruler,lengths,partOptions,normalizeSvg,svg,text,rect,place,arithmetic,lanternLayout,fractions,times,division,words,machine,measure,shapeChoice,matrix,paper,shapes};
+  window.QuizmoVisuals={blocks,sharing,skip,coins,ruler,lengths,partOptions,normalizeSvg,svg,text,rect,place,arithmetic,lanternLayout,fractions,times,division,words,machine,measure,shapeChoice,matrix,paper,shapes};
 })();

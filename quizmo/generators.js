@@ -22,26 +22,27 @@
       const choices=options.slice(0,4);for(let i=choices.length-1;i>0;i--){const j=int(0,i,r);[choices[i],choices[j]]=[choices[j],choices[i]];}
       return {...task,choices,correct:choices.indexOf(String(answer))};
     };
+    const col=(op,rows,result=null)=>({column:{op,rows,result}}),takeAway=(a,b,caption)=>V.blocks({mode:'subtraction',a,b,traded:true,caption});
     if(id==='addition'){
       const type=select(l<=2?['sum','missing','pair','ten','double']:l===8?['sum','missing','compare','three','story']:['sum','missing','compare','story']);
       if(type==='three'){
         const ns=Array.from({length:3},()=>int(2,9,r)),total=ns.reduce((a,b)=>a+b,0);
-        return make('three-addends',ns,`${ns[0]} red, ${ns[1]} blue, ${ns[2]} gold beads. How many beads?`,[total],'Join two parts, then add the last part.',V.arithmetic({values:ns,operation:'addition'}),{addends:ns,regroups:0,steps:2});
+        return make('three-addends',ns,`${ns[0]} red, ${ns[1]} blue, ${ns[2]} gold beads. How many beads?`,[total],'Join two parts, then add the last part.',V.blocks({mode:'addition',values:ns}),{addends:ns,regroups:0,steps:2,...col('+',ns),hintVisual:V.blocks({mode:'addition',values:ns,merged:true})});
       }
       const [a,b]=sample(()=>{if(type==='ten'){const a=int(2,8,r);return [a,10-a];}if(type==='double'){const a=int(2,l===1?7:9,r);return [a,a+1];}return l<=2?[int(3,12,r),int(2,9,r)]:[int(l<=4?12:21,[0,0,39,78,79,79,85,85][l-1],r),int(2,l===3?5:l===4?9:48,r)];},([a,b])=>a+b<=(l===1?15:l===2?20:100)&&(l>=6||l<=2||!carries(a,b)));
       const extra={addends:[a,b],regroups:l<=2?0:carries(a,b)};
-      if(type==='pair')return choice(make('make-ten',[a,b],`${a} + ? = ${a+b}. Which part is missing?`,[],'Count up from the first part to the whole.',V.machine({input:a,op:'+ ?',output:a+b}),extra),b,[b-1,b+1,a+b]);
-      if(type==='compare'){const other=Math.min(100,a+b+choose([-2,-1,0,1,2],r));return choice(make('compare-sum',[a,b,other],`${a} + ${b} ? ${other}. Choose the sign.`,[],'Add the two parts, then compare.',V.arithmetic({values:[a,b],operation:'addition'}),{...extra,steps:2}),a+b>other?'>':a+b<other?'<':'=',['<','>','=']);}
-      if(type==='missing'||type==='ten')return make('missing-addend',[a,b],`${a} + ? = ${a+b}`,[b],'Count up to find the missing part.',V.machine({input:a,op:'+ ?',output:a+b}),extra);
-      return make('sum',[a,b],(type==='story'||l>=3)?`${a} beads in a box. Add ${b}. How many now?`:`${a} + ${b} = ?`,[a+b],extra.regroups?'Make a new ten, then add the tens.':'Add the ones, then the tens.',V.arithmetic({values:[a,b],operation:'addition'}),extra);
+      if(type==='pair')return choice(make('make-ten',[a,b],`${a} + ? = ${a+b}. Which part is missing?`,[],'Count up from the first part to the whole.',V.blocks({mode:'whole',n:a+b}),{...extra,...col('+',[a,null],a+b),hintVisual:takeAway(a+b,a,`Take away the ${a}`)}),b,[b-1,b+1,a+b]);
+      if(type==='compare'){const other=Math.min(100,a+b+choose([-2,-1,0,1,2],r));return choice(make('compare-sum',[a,b,other],`${a} + ${b} ? ${other}. Choose the sign.`,[],'Add the two parts, then compare.',V.blocks({mode:'addition',values:[a,b]}),{...extra,steps:2}),a+b>other?'>':a+b<other?'<':'=',['<','>','=']);}
+      if(type==='missing'||type==='ten')return make('missing-addend',[a,b],`${a} + ? = ${a+b}`,[b],'Count up to find the missing part.',V.blocks({mode:'whole',n:a+b}),{...extra,...col('+',[a,null],a+b),hintVisual:takeAway(a+b,a,`Take away the ${a}`)});
+      return make('sum',[a,b],(type==='story'||l>=3)?`${a} beads in a box. Add ${b}. How many now?`:`${a} + ${b} = ?`,[a+b],extra.regroups?'Make a new ten, then add the tens.':'Add the ones, then the tens.',V.blocks({mode:'addition',values:[a,b]}),{...extra,...col('+',[a,b]),hintVisual:V.blocks({mode:'addition',values:[a,b],merged:true})});
     }
     if(id==='subtraction'){
       const type=select(l<=2?['difference','compare','missing']:['difference','compare','fewer','missing']);
       const [a,b]=sample(()=>l<=2?[int(7,l===1?15:20,r),int(2,12,r)]:[int(l<=4?21:32,l===3?49:l===4?79:99,r),int(2,l<=4?9:65,r)],([a,b])=>a>b&&(!['compare','fewer'].includes(type)||b>=5&&a-b>=3)&&(l<=2||l>=6||a%10>=b%10));
       const extra={subtrahends:[a,b],borrows:l<=2?0:Number(a%10<b%10)};
-      if(type==='missing')return make('missing-subtrahend',[a,b],`${a} − ? = ${a-b}`,[b],'Find the part taken away from the whole.',V.machine({input:a,op:'− ?',output:a-b}),extra);
+      if(type==='missing')return make('missing-subtrahend',[a,b],`${a} − ? = ${a-b}`,[b],'Find the part taken away from the whole.',V.blocks({mode:'whole',n:a}),{...extra,...col('−',[a,null],a-b),hintVisual:takeAway(a,b,`${a-b} stay`)});
       const prompt=type==='compare'?`Mia has ${a} beads. Leo has ${b}. How many more has Mia?`:type==='fewer'?`Mia has ${a} beads. Leo has ${b}. How many fewer has Leo?`:l>=3?`${a} beads. Take away ${b}. How many stay?`:`${a} − ${b} = ?`;
-      return make(type==='difference'?'difference':'how-many-more',[a,b],prompt,[a-b],extra.borrows?'Trade a ten for ones, then find the gap.':'Find the gap between the two amounts.',V.arithmetic({values:[a,b],operation:'subtraction'}),extra);
+      return make(type==='difference'?'difference':'how-many-more',[a,b],prompt,[a-b],extra.borrows?'Trade a ten for ones, then find the gap.':'Find the gap between the two amounts.',V.blocks({mode:'subtraction',a,b}),{...extra,...col('−',[a,b]),...(a%10<b%10?{tradeVisual:V.blocks({mode:'subtraction',a,b,traded:true}),hintVisual:V.blocks({mode:'subtraction',a,b,traded:true})}:{})});
     }
     if(id==='times'){
       const type=select(l<=2?['groups','repeat','skip']:l<=5?['groups','repeat','skip','missing']:['groups','missing','rows','skip']);
@@ -99,8 +100,8 @@
     if(id==='missing'){
       const a=int(2,l===1?6:l===2?7:l===3?8:l<=5?9:15,r),b=int(3,l===1?9:l===2?10:l<=5?11:25,r),type=select(l<6?['add','subtract']:['add','subtract','balance']);
       if(type==='balance'){const c=int(2,12,r),d=int(3,15,r),x=c+d-a;if(x<=0)return question(id,l,opts);return make('balance-add',[a,c,d],`? + ${a} = ${c} + ${d}`,[x],'Find the right total, then the missing part.',V.machine({input:'?',op:`+ ${a}`,output:`${c} + ${d}`}),{steps:2});}
-      if(type==='subtract')return make('missing-subtrahend',[a+b,a],`${a+b} − ? = ${b}`,[a],'Find what was taken away.',V.machine({input:a+b,op:'− ?',output:b}));
-      return make('missing-addend',[a,b],`? + ${a} = ${a+b}`,[b],'Count up to the whole.',V.machine({input:'?',op:`+ ${a}`,output:a+b}));
+      if(type==='subtract')return make('missing-subtrahend',[a+b,a],`${a+b} − ? = ${b}`,[a],'Find what was taken away.',V.blocks({mode:'whole',n:a+b}),{...col('−',[a+b,null],b),hintVisual:takeAway(a+b,a,`${b} stay`)});
+      return make('missing-addend',[a,b],`? + ${a} = ${a+b}`,[b],'Count up to the whole.',V.blocks({mode:'whole',n:a+b}),{...col('+',[null,a],a+b),hintVisual:takeAway(a+b,a,`Take away the ${a}`)});
     }
     if(id==='measure'){
       const type=select(l<=5?['clock','length','compare']:['clock','length','compare','area']);

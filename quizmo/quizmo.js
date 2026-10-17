@@ -136,7 +136,40 @@
     if(wasScrolling&&root.classList.contains('quizmo-scroll')&&scrollY!==previousScroll)window.scrollTo(0,previousScroll);
   }
   window.addEventListener('resize',layoutVisuals);
+  // Vertical column problems: the slot under the line is the answer field.
+  const bare=p=>/^[\d?]+ [+−] [\d?]+ = [\d?]+(\. Which part is missing\?)?$/.test(p);
+  function heading(){
+    if(!task.column||!bare(task.prompt))return task.prompt;
+    if(task.column.rows.includes(null))return 'What number is missing?';
+    return task.column.op==='−'?'Take away. How many are left?':'Add them. How many in all?';
+  }
+  function slotDigits(value){
+    const k=task.column.k,v=String(value||'');
+    if(!v)return `<i class="qc-ph" style="grid-column:${k}">?</i>`;
+    if(v.length>k)return `<i style="grid-column:1/-1;text-align:right">${v}</i>`;
+    return [...v].map((d,j)=>`<i style="grid-column:${k-v.length+1+j}">${d}</i>`).join('');
+  }
+  function paint(i){const el=root.querySelector(`[data-input="${i}"]`);if(!el)return;if(task.column&&!task.choices)el.innerHTML=slotDigits(inputs[i]);else el.textContent=inputs[i]||'?';}
+  function columnHTML(){
+    const c=task.column,known=[...c.rows,c.result].filter(v=>v!==null),k=Math.max(...known.map(v=>String(v).length),...(task.answers||[]).map(v=>String(v).length));
+    c.k=k;
+    const places=['hundreds','tens','ones'].slice(-k);
+    const slot=()=>task.choices?`<div class="qc-slot qc-static" style="grid-column:2/span ${k}"><span class="qc-digits" style="--k:${k}"><i class="qc-ph" style="grid-column:${k}">?</i></span></div>`
+      :`<div class="quizmo-inputs qc-slot" style="grid-column:2/span ${k}">${button(`<span class="qc-digits" style="--k:${k}" data-input="0">${slotDigits(inputs[0])}</span>`,'field',`data-field="0" aria-pressed="true" aria-label="Answer"`)}</div>`;
+    const num=v=>{const t=String(v);return [...t].map((d,j)=>`<span class="qc-d" style="grid-column:${2+k-t.length+j}">${d}</span>`).join('');};
+    let h=k>=2?`<span class="qc-op"></span>${places.map((p,i)=>`<span class="qc-place" style="grid-column:${2+i}">${p}</span>`).join('')}`:'';
+    c.rows.forEach((v,i)=>{h+=`<span class="qc-op">${i===c.rows.length-1?c.op:''}</span>`+(v===null?slot():num(v));});
+    h+=`<span class="qc-line" style="grid-column:1/span ${k+1}"></span><span class="qc-op"></span>`+(c.result===null?slot():num(c.result));
+    const label=`${c.rows.map(v=>v??'missing number').join(` ${c.op==='−'?'minus':'plus'} `)} equals ${c.result??'the answer'}`;
+    return `<div class="quizmo-column" role="group" aria-label="${label}" data-k="${k}" style="--k:${k}">${h}</div>`;
+  }
   function render() {
+    if(task.column){
+      const trade=task.tradeVisual?button('Trade a ten','trade','class="qc-trade"'):'';
+      const answer=task.choices?`<div class="cogat-choices">${task.choices.map((choice,i)=>button(escape(choice),'choice',`data-choice="${i}"`)).join('')}</div>`:`<div class="quizmo-controls"><div class="quizmo-pad">${[1,2,3,4,5,6,7,8,9,'clear',0,'erase'].map(n=>button(n==='erase'?'⌫':n==='clear'?'Clear':n,'key',`data-key="${n}" aria-label="${n==='erase'?'Erase last digit':n}"`)).join('')}</div>${button('Check answer','check', 'class="quizmo-check"')}</div>`;
+      root.innerHTML=`${tools()}<div class="quizmo-board${task.choices?' cogat-board':''}" data-level="${run.level}"><div class="quizmo-question quizmo-column-question"><h2>${heading()}</h2><div class="quizmo-work">${columnHTML()}<div class="quizmo-visual">${task.visual}</div></div><div class="quizmo-answer-area">${trade}<p class="quizmo-feedback" role="status">${task.choices?'Tap your choice.':'Use the pad, then check.'}</p></div></div>${answer}</div>`;
+      layoutVisuals();return;
+    }
     if(task.choices) {
       root.innerHTML=`${tools()}<div class="quizmo-board cogat-board" data-level="${run.level}"><div class="quizmo-question"><h2>${task.prompt}</h2><div class="quizmo-visual">${task.visual||''}</div><p class="quizmo-feedback" role="status">Tap your choice.</p></div><div class="cogat-choices">${task.choices.map((choice,i)=>button(isCogat(active[0])?choice:escape(choice),'choice',`data-choice="${i}"`)).join('')}</div></div>`;
       layoutVisuals();return;
@@ -151,7 +184,7 @@
   }
   function showHint() {
     root.querySelector('.quizmo-feedback').textContent=`Nearly there. ${task.hint} Try again.`;
-    if(task.hintVisual){root.querySelector('.quizmo-visual').innerHTML=task.hintVisual;}
+    if(task.hintVisual){root.querySelector('.quizmo-visual').innerHTML=task.hintVisual;root.querySelector('.qc-trade')?.remove();}
     layoutVisuals();
   }
   function dispatch(b) {
@@ -159,6 +192,7 @@
     if(action==='math'||action==='cogat'){section=action==='math'?'Math Adventures':'CogAT Practice';return home();}
     if(action==='reset-game')return confirmReset();
     if(action==='reward')return reward();
+    if(action==='trade'){if(task?.tradeVisual){root.querySelector('.quizmo-visual').innerHTML=task.tradeVisual;b.remove();root.querySelector('.quizmo-feedback').textContent='One ten is now 10 ones. Take away, then count what is left.';layoutVisuals();}return;}
     if(action==='restart')return open(active[0],true);
     if(action==='open')return open(b.dataset.game);
     if(action==='home')return home();
@@ -169,7 +203,7 @@
       earned();count++;if(count>=5)finish(true);else next();return;
     }
     if(action==='field'){field=Number(b.dataset.field);root.querySelectorAll('[data-field]').forEach(x=>x.setAttribute('aria-pressed',String(Number(x.dataset.field)===field)));}
-    if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);root.querySelector(`[data-input="${field}"]`).textContent=inputs[field]||'?';if(innerWidth<=699)layoutVisuals(); }
+    if(action==='key') { const key=b.dataset.key;inputs[field]=key==='clear'?'':key==='erase'?inputs[field].slice(0,-1):(inputs[field]+key).slice(0,6);paint(field);if(innerWidth<=699)layoutVisuals(); }
     if(action==='check') {
       if(!task.answers.every((n,i)=>inputs[i]!==''&&Number(inputs[i])===n)) {showHint();return;}
       earned();count++;
