@@ -4,6 +4,26 @@
   "voiceId": "XrExE9yKIg1WjnnlVkGX",
   "model": "eleven_multilingual_v2",
   "stories": {
+    "bella-bulldozer": {
+      "pages": 15,
+      "textHash": "c168789a6b936692"
+    },
+    "dan-dump-truck": {
+      "pages": 15,
+      "textHash": "9e6c89b7335886dc"
+    },
+    "mo-motor-grader": {
+      "pages": 15,
+      "textHash": "7230267dadc1c899"
+    },
+    "po-police-pickup": {
+      "pages": 15,
+      "textHash": "4e84812db58ee2d3"
+    },
+    "ra-ratata": {
+      "pages": 15,
+      "textHash": "3e60cdfb782a06d1"
+    },
     "tundra-the-snowcat-grooms-the-starry-slope": {
       "pages": 15,
       "textHash": "acf7687bf1eb97f3"
