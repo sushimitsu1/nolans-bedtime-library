@@ -16,7 +16,10 @@
       ],
       "textAreaBox": null,
       "overlap": false,
-      "textFits": true
+      "textFits": true,
+      "titlePainted": true,
+      "titleOverlay": false,
+      "redrawn": "2026-10-18 cover redo (bolder style)"
     },
     {
       "file": "page-01.webp",
