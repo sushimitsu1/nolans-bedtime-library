@@ -11,10 +11,10 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            265,
+            71,
+            962,
+            495
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=495 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            251,
+            88,
+            895,
+            530
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=530 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            106,
+            205,
+            778,
+            629
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=629 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,10 +80,10 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            209,
+            187,
+            834,
+            576
           ]
         }
       ],
@@ -95,7 +95,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=576 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -103,19 +103,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            248,
+            159,
+            926,
+            583
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            955,
+            248,
+            1167,
+            495
           ]
         }
       ],
@@ -127,7 +127,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=583 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -135,19 +135,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            180,
+            159,
+            728,
+            530
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            817,
+            265,
+            1036,
+            460
           ]
         }
       ],
@@ -159,7 +159,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=530 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -167,19 +167,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            141,
+            117,
+            849,
+            576
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            849,
+            187,
+            1025,
+            364
           ]
         }
       ],
@@ -191,7 +191,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=576 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -199,19 +199,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            110,
+            134,
+            516,
+            400
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            552,
+            170,
+            658,
+            293
           ]
         }
       ],
@@ -223,7 +223,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=400 stays above the y=760 safe zone and the y=790 cream panel. Floating island dips toward the panel; island is scenery, not a character."
     },
     {
       "number": 9,
@@ -231,19 +231,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            159,
+            71,
+            629,
+            371
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            725,
+            177,
+            884,
+            325
           ]
         }
       ],
@@ -255,7 +255,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=371 stays above the y=760 safe zone and the y=790 cream panel. Floating island dips toward the panel; island is scenery, not a character."
     },
     {
       "number": 10,
@@ -263,19 +263,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            180,
+            159,
+            781,
+            566
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            951,
+            219,
+            1135,
+            407
           ]
         }
       ],
@@ -287,7 +287,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=566 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -295,19 +295,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            141,
+            117,
+            707,
+            453
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            806,
+            170,
+            983,
+            347
           ]
         }
       ],
@@ -319,7 +319,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=453 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -327,19 +327,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            198,
+            134,
+            718,
+            470
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            834,
+            205,
+            1029,
+            417
           ]
         }
       ],
@@ -351,7 +351,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=470 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -359,19 +359,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            170,
+            127,
+            622,
+            424
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            622,
+            269,
+            792,
+            410
           ]
         }
       ],
@@ -383,7 +383,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=424 stays above the y=760 safe zone and the y=790 cream panel. Floating island dips toward the panel; island is scenery, not a character."
     },
     {
       "number": 14,
@@ -391,19 +391,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            206,
+            141,
+            871,
+            608
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            857,
+            354,
+            1097,
+            566
           ]
         }
       ],
@@ -415,7 +415,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=608 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -423,19 +423,19 @@
         {
           "label": "Luna",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            184,
+            173,
+            877,
+            611
           ]
         },
         {
           "label": "Nib",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            863,
+            356,
+            1103,
+            577
           ]
         }
       ],
@@ -447,7 +447,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover characters/story action above y=760. Lower hull, thruster, cloud, or garden floor may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=611 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. No reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
