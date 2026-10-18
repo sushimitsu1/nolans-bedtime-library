@@ -74,7 +74,7 @@ try{
     await page.evaluate(id=>{const p=JSON.parse(localStorage.getItem('nolan-games-v1'));p.levels[id]=1;localStorage.setItem('nolan-games-v1',JSON.stringify(p));},game.id);await page.reload({waitUntil:'domcontentloaded'});await tap('#gamesTab');
     for(let level=1;level<=8;level++){
       await open(game.id);const s=game.start(level);assert.equal(await page.$eval('[data-level]',e=>+e.dataset.level),level);
-      assert(await page.evaluate(()=>spoken.length>0),'Spoken prompt');
+      assert(await page.evaluate(()=>(spoken.length+(window.NolanVoice?.calls||0))>0),'Spoken prompt');
       for(const vp of viewports){await page.setViewport(vp);await fit(game.id,vp);}await page.setViewport({width:1366,height:768});
       if(game.vehicle){
         let missions=0;while(missions<3){let ready=false;let guard=0;while(!ready){assert(++guard<50,'Mission terminates');const [value,slot]=step(s);await tap(`[data-action="piece"][data-value="${value}"]`);

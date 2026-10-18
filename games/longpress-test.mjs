@@ -44,18 +44,18 @@ try{
   for(const id of ['rollo','dax','bex','zumi','otto','kip']){
     await tap(`#gamesView [data-action="open"][data-id="${id}"]`);await page.waitForSelector("#gamesView .journey-piece:not(:disabled)",{timeout:5000}).catch(async e=>{console.log(await page.locator("#gamesView").innerHTML());throw e;});
     // 1) long press then drag onto the drop zone
-    let before=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,spoken.length]);
+    let before=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,(spoken.length+(window.NolanVoice?.calls||0))]);
     await holdDrag('#gamesView .journey-piece:not(:disabled)','#gamesView [data-slot]');await sleep(150);
-    let after=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,spoken.length]);
+    let after=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,(spoken.length+(window.NolanVoice?.calls||0))]);
     assert(after[0]!==before[0]||after[1]>before[1],`${id}: long press + drag did nothing`);await clean(`${id} drag`);
     // 2) long press then release selects the piece (a tap), then tapping the zone places it
     if(!await page.locator('#gamesView .journey-piece:not(:disabled)').count()){results.push(`${id}: drag ok (no pieces left for tap check)`);await tap('#gamesView [data-action="home"]');continue;}
     await hold('#gamesView .journey-piece:not(:disabled)');await sleep(100);
     const pressed=await page.locator('#gamesView .journey-piece[aria-pressed="true"]').count();
     assert.equal(pressed,1,`${id}: long press + release did not count as a tap`);await clean(`${id} hold`);
-    before=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,spoken.length]);
+    before=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,(spoken.length+(window.NolanVoice?.calls||0))]);
     await tap('#gamesView [data-slot]');await sleep(150);
-    after=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,spoken.length]);
+    after=await page.evaluate(()=>[document.querySelector('#gamesView .vehicle-board').innerText,(spoken.length+(window.NolanVoice?.calls||0))]);
     assert(after[0]!==before[0]||after[1]>before[1],`${id}: tap on zone after held select did nothing`);await clean(`${id} tap`);
     results.push(`${id}: long-press drag ok, long-press tap ok`);
     await tap('#gamesView [data-action="home"]');
@@ -69,7 +69,7 @@ try{
   await tap('#gamesView [data-action="home"]');
   // A tap-choice game: long press then release still answers.
   await tap('#gamesView [data-action="open"][data-id="lulu"]');await page.waitForSelector('#gamesView .game-token');
-  if(await page.locator('#gamesView .game-token').count()){const n=await page.evaluate(()=>spoken.length);await hold('#gamesView .game-token');await sleep(150);assert(await page.evaluate(()=>spoken.length)>n,'tap game: long-press release ignored');await clean('tap game');results.push('tap-choice game: long-press tap ok');}
+  if(await page.locator('#gamesView .game-token').count()){const n=await page.evaluate(()=>(spoken.length+(window.NolanVoice?.calls||0)));await hold('#gamesView .game-token');await sleep(150);assert(await page.evaluate(()=>(spoken.length+(window.NolanVoice?.calls||0)))>n,'tap game: long-press release ignored');await clean('tap game');results.push('tap-choice game: long-press tap ok');}
   // Quizmo: long press then release on a choice / keypad key.
   await tap('#gamesView [data-action="home"]');await tap('#quizmoTab');await page.waitForSelector('#quizmoView [data-q-action="open"]');await tap('#quizmoView [data-q-action="open"]');
   await page.waitForSelector('#quizmoView [data-q-action="key"], #quizmoView [data-q-action="choice"]');
@@ -92,7 +92,7 @@ try{
     assert(y1>y0,`games hub no longer scrolls by touch (${y0}->${y1})`);results.push(`games hub touch scroll ok (${y0}->${Math.round(y1)})`);await clean('hub scroll');
     await tap('#gamesView [data-action="open"][data-id="rollo"]');await page.waitForSelector('#gamesView .recount-load');}
   // "Count my load" in Cargo Run: long press then release counts once (recount speech) and leaves no selection.
-  {const n=await page.evaluate(()=>spoken.length);await hold('#gamesView .recount-load');await sleep(150);assert(await page.evaluate(()=>spoken.length)>n,'Count my load: long-press tap ignored');await clean('Count my load');
+  {const n=await page.evaluate(()=>(spoken.length+(window.NolanVoice?.calls||0)));await hold('#gamesView .recount-load');await sleep(150);assert(await page.evaluate(()=>(spoken.length+(window.NolanVoice?.calls||0)))>n,'Count my load: long-press tap ignored');await clean('Count my load');
    const sel=await page.evaluate(()=>{const b=document.querySelector('#gamesView .recount-load');const r=document.createRange();r.selectNodeContents(b);getSelection().removeAllRanges();getSelection().addRange(r);return new Promise(res=>setTimeout(()=>res(String(getSelection())),50));});
    assert.equal(sel,'','forced selection on Count my load was not cleared');results.push('Count my load: long-press tap ok, forced selection cleared by selectionchange');}
   // Text fields stay selectable.

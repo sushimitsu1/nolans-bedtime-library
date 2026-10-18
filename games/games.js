@@ -18,9 +18,11 @@
   const save = () => { try { localStorage.setItem(key, JSON.stringify(prefs)); } catch { /* Play still works if storage is unavailable. */ } };
   let speechRun=0;
   function say(message) {
-    const run=++speechRun;
-    if (!prefs.narration || !window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
-    speechSynthesis.cancel();
+    speechRun++;
+    if (!prefs.narration) return;
+    if (window.NolanVoice) { NolanVoice.speak(message); return; }
+    if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
+    const run=speechRun;speechSynthesis.cancel();
     const parts=(Array.isArray(message)?message:[message]).flat().filter(Boolean);
     function next(i) {
       if(run!==speechRun || i>=parts.length)return;
@@ -87,7 +89,7 @@
     if(result.done){state.completed=true;prefs.levels[active.id]=Math.min(8,state.level+1);award(2);finish(spoken?[spoken,'Wonderful listening! Level complete.']:undefined);return;}
     render();say([spoken,result.message||(active.speech?active.speech(state):active.prompt(state))].flat());if(result.advance&&active.listen)active.listen(state,sound);
   }
-  function leave(){speechRun++;if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}
+  function leave(){speechRun++;if(window.NolanVoice)NolanVoice.cancel();else if(window.speechSynthesis)speechSynthesis.cancel();if(audio)audio.suspend();down=null;}
   function dispatch(b){switch(b.dataset.action){case 'filter':filter=b.dataset.filter;home();break;case 'next':open(active.id);break;case 'open':open(b.dataset.id);break;case 'piece':selectPiece(b.dataset.value);break;case 'place':placePiece(b.dataset.slot);break;case 'depart':depart();break;case 'recount':say(active.recount(state));break;case 'choice':choose(b.dataset.value);break;case 'home':home();break;case 'repeat':repeat();break;case 'finish':finish();break;case 'sound':prefs.narration=!(prefs.narration||prefs.effects);prefs.effects=prefs.narration;save();leave();render();break;case 'parent':parent();break;}}
   root.addEventListener('click',e=>{if(e.detail===0){const b=e.target.closest('button');if(b)dispatch(b);}});
   document.getElementById('gamesTab').addEventListener('click',e=>{if(e.detail===0){showView('games');home();}});
