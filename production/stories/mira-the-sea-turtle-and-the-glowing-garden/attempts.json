@@ -6,64 +6,65 @@
       "status": "accepted"
     },
     "1": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "2": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "3": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "4": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "5": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "6": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "7": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "8": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "9": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "10": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "11": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "12": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "13": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "14": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     },
     "15": {
-      "attempts": 1,
+      "attempts": 2,
       "status": "accepted"
     }
-  }
+  },
+  "regenerationNote": "2026-10-18: pages 1-15 redrawn (redo2) in the bolder old-library style; cover untouched. Reframed pages 15 (content shifted up, rows below the panel line stretched to fill)."
 }

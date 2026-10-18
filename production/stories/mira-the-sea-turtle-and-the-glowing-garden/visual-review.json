@@ -11,10 +11,10 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            477,
+            265,
+            1202,
+            690
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel. Nori peeks from the anemone as a background foreshadow; matches the page 3 introduction (Nori peeking from a soft anemone)."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            375,
+            194,
+            1188,
+            601
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=601 stays above the y=760 safe zone and the y=790 cream panel. Nori swims nearby as background before the page 3 introduction."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            619,
+            187,
+            1397,
+            647
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            230,
+            382,
+            442,
+            523
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=647 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,19 +89,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            445,
+            205,
+            1107,
+            647
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            216,
+            347,
+            463,
+            534
           ]
         }
       ],
@@ -113,7 +113,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=647 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -121,19 +121,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            336,
+            177,
+            1043,
+            573
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            159,
+            283,
+            396,
+            442
           ]
         }
       ],
@@ -145,7 +145,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=573 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -153,19 +153,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            392,
+            141,
+            1163,
+            644
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            216,
+            276,
+            481,
+            460
           ]
         }
       ],
@@ -177,7 +177,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=644 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -185,19 +185,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            583,
+            187,
+            1220,
+            605
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            325,
+            318,
+            573,
+            495
           ]
         }
       ],
@@ -209,7 +209,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=605 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -217,19 +217,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            445,
+            187,
+            994,
+            576
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            198,
+            276,
+            445,
+            453
           ]
         }
       ],
@@ -241,7 +241,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=576 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -249,19 +249,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            389,
+            199,
+            1096,
+            663
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            345,
+            265,
+            575,
+            442
           ]
         }
       ],
@@ -273,7 +273,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=663 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -281,19 +281,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            77,
+            177,
+            718,
+            641
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            939,
+            287,
+            1194,
+            508
           ]
         }
       ],
@@ -305,7 +305,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=641 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -313,19 +313,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            221,
+            177,
+            818,
+            597
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            818,
+            332,
+            1017,
+            508
           ]
         }
       ],
@@ -337,7 +337,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=597 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -345,19 +345,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            252,
+            199,
+            760,
+            597
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            805,
+            354,
+            981,
+            500
           ]
         }
       ],
@@ -369,7 +369,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=597 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -377,19 +377,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            513,
+            194,
+            1096,
+            629
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            283,
+            265,
+            548,
+            453
           ]
         }
       ],
@@ -401,7 +401,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=629 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -409,19 +409,19 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            587,
+            212,
+            1206,
+            636
           ]
         },
         {
           "label": "Nori",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            198,
+            371,
+            463,
+            566
           ]
         }
       ],
@@ -433,7 +433,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -441,9 +441,9 @@
         {
           "label": "Mira",
           "box": [
-            60,
-            90,
-            1300,
+            318,
+            381,
+            1448,
             750
           ]
         }
@@ -456,7 +456,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Mira, Nori, and the story action above y=760. Lower sand, coral, and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=750 stays above the y=760 safe zone and the y=790 cream panel. Reframed: front flippers were ~y785; content shifted up 36px, sand below y800 stretched; flippers now ~748."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. Reframed pages 15 (content shifted up, rows below the panel line stretched to fill).",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

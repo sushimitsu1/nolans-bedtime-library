@@ -11,10 +11,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            35,
+            265,
+            1220,
+            679
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            11,
+            300,
+            1188,
+            727
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=727 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            35,
+            240,
+            1008,
+            636
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,10 +80,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            145,
+            152,
+            930,
+            506
           ]
         }
       ],
@@ -95,7 +95,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=506 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -103,10 +103,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            212,
+            141,
+            1061,
+            442
           ]
         }
       ],
@@ -118,7 +118,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=442 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -126,10 +126,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            32,
+            42,
+            951,
+            477
           ]
         }
       ],
@@ -141,7 +141,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=477 stays above the y=760 safe zone and the y=790 cream panel. Busy village scenery in the bottom third sits under the caption panel; scene detail only."
     },
     {
       "number": 7,
@@ -149,10 +149,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            53,
+            170,
+            912,
+            548
           ]
         }
       ],
@@ -164,7 +164,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=548 stays above the y=760 safe zone and the y=790 cream panel. Busy scenery in the bottom third sits under the caption panel; scene detail only."
     },
     {
       "number": 8,
@@ -172,10 +172,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            67,
+            81,
+            1047,
+            435
           ]
         }
       ],
@@ -187,7 +187,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=435 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -195,10 +195,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            71,
+            42,
+            926,
+            460
           ]
         }
       ],
@@ -210,7 +210,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=460 stays above the y=760 safe zone and the y=790 cream panel. Busy scenery in the bottom third sits under the caption panel; scene detail only."
     },
     {
       "number": 10,
@@ -218,10 +218,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            152,
+            159,
+            1213,
+            566
           ]
         }
       ],
@@ -233,7 +233,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=566 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -241,10 +241,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            64,
+            53,
+            948,
+            488
           ]
         }
       ],
@@ -256,7 +256,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=488 stays above the y=760 safe zone and the y=790 cream panel. Busy scenery in the bottom third sits under the caption panel; scene detail only."
     },
     {
       "number": 12,
@@ -264,10 +264,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            67,
+            64,
+            905,
+            488
           ]
         }
       ],
@@ -279,7 +279,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=488 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -287,10 +287,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            107,
+            85,
+            1024,
+            532
           ]
         }
       ],
@@ -302,7 +302,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=532 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -310,10 +310,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            8,
+            240,
+            1120,
+            742
           ]
         }
       ],
@@ -325,7 +325,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=742 stays above the y=760 safe zone and the y=790 cream panel. Wheels measured at full-res zoom: bottom ~y740."
     },
     {
       "number": 15,
@@ -333,10 +333,10 @@
         {
           "label": "Willa",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            51,
+            153,
+            1343,
+            718
           ]
         }
       ],
@@ -348,7 +348,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject box covers Willa and the story action above y=760. Lower wheels, grass, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=718 stays above the y=760 safe zone and the y=790 cream panel. Wheels measured at full-res zoom: bottom ~y715."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. No reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
