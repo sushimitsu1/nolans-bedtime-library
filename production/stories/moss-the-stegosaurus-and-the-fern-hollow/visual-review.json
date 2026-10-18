@@ -409,19 +409,19 @@
         {
           "label": "Moss",
           "box": [
-            216,
-            212,
-            965,
-            629
+            223,
+            106,
+            1202,
+            644
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            675,
-            495,
+            622,
+            474,
             905,
-            636
+            644
           ]
         }
       ],
@@ -433,7 +433,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel. Near-identical re-render of page 13 composition (not an md5 duplicate); flagged for review."
+      "notes": "Redo2 p14 v2 (2026-10-18): closer camera angle replacing the near-duplicate of p13; Poppy asleep under Moss's plate; lowest character pixel y=644, above the y=760 safe zone and y=790 panel."
     },
     {
       "number": 15,

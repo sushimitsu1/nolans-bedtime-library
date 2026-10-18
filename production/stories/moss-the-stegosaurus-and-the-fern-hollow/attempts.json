@@ -58,7 +58,7 @@
       "status": "accepted"
     },
     "14": {
-      "attempts": 3,
+      "attempts": 4,
       "status": "accepted"
     },
     "15": {
@@ -66,5 +66,5 @@
       "status": "accepted"
     }
   },
-  "regenerationNote": "2026-10-18: pages 1-15 redrawn (redo2) in the bolder old-library style; cover untouched. No reframing needed."
+  "regenerationNote": "2026-10-18: pages 1-15 redrawn (redo2) in the bolder old-library style; cover untouched. No reframing needed. Page 14 redrawn again (v2, closer angle) to avoid near-duplicating page 13."
 }
