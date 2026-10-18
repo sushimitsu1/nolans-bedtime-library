@@ -1,0 +1,46 @@
+{
+  "storySlug": "nova-night-bus-missing-star-sticker",
+  "locked": true,
+  "mainCharacter": {
+    "name": "Nova",
+    "role": "Main character; a calm blueberry night bus",
+    "color": "Long blueberry-blue body with silver trim, creamy white roof stripe, and soft gold headlight glow",
+    "bodyShape": "Long rounded night bus with gentle curves, large side windows, six matching wheels, and no arms or hands",
+    "face": "Large kind lavender windshield eyes and a warm friendly smile across the front panel",
+    "wheels": "Six dark charcoal tires with silver hubcaps and tiny blueberry center dots",
+    "accessories": "Silver side mirrors, a soft roof night lantern row, and a cream destination board shape with no readable text"
+  },
+  "supportingCharacters": {
+    "Twinkle": {
+      "color": "Small pearly white body with lavender doors and a gold star outline on the hood",
+      "bodyShape": "Tiny rounded city car with four wheels and no arms or hands",
+      "face": "Round teal windshield eyes and a hopeful little smile",
+      "wheels": "Four small charcoal tires with lavender hubcaps",
+      "accessories": null,
+      "role": "Supporting character; a little star-loving city car"
+    },
+    "Star Sticker": {
+      "color": null,
+      "bodyShape": null,
+      "face": null,
+      "wheels": null,
+      "accessories": null,
+      "role": "Supporting prop; Twinkle's special star sticker"
+    }
+  },
+  "setting": {
+    "Lantern Route": "A gentle evening bus route with rounded cottages, street lanterns, a park path, a quiet depot, and a starry sky overhead",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle night-route colors, and no readable text"
+  },
+  "style": "Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.",
+  "continuityRules": [
+    "Nova keeps the same blueberry body, silver trim, cream roof stripe, lavender windshield eyes, six matching wheels, and soft roof lanterns on every page.",
+    "Nova and every vehicle have no human-like arms or hands.",
+    "Twinkle remains a tiny pearly white and lavender car with teal eyes and a gold star outline on the hood.",
+    "The gold star sticker is missing on Pages 4-9, found on Page 10, and back on Twinkle from Page 11 onward.",
+    "The calm last-stop depot appears on Pages 13-15 with warm porch lights.",
+    "The sky progresses from golden evening to lavender dusk, starry twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "referenceImage": "production/stories/nova-night-bus-missing-star-sticker/staging/nova-night-bus-missing-star-sticker/illustrations/cover.png"
+}

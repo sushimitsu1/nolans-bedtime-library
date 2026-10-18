@@ -1,0 +1,38 @@
+{
+  "storySlug": "pip-pickle-forklift-sleepy-warehouse-shelf",
+  "locked": true,
+  "mainCharacter": {
+    "name": "Pip",
+    "role": "Main character; a careful little warehouse forklift",
+    "color": "Mint-green body with cream forks, pale yellow mast, and soft navy accents",
+    "bodyShape": "Small compact forklift with a rounded cabin, short mast, two cream lifting forks, and no arms or hands",
+    "face": "Round friendly blue windshield eyes and a tiny smile on the front panel",
+    "wheels": "Four solid dark charcoal tires with cream hubcaps",
+    "accessories": "Small navy side mirrors, a pale yellow safety stripe on the mast, and a soft night lantern clipped near the cabin roof"
+  },
+  "supportingCharacters": {
+    "Blanket Crate": {
+      "color": null,
+      "bodyShape": null,
+      "face": null,
+      "wheels": null,
+      "accessories": null,
+      "role": "Supporting prop; a wooden crate of soft bedtime blankets"
+    }
+  },
+  "setting": {
+    "Sleepy Shelf Warehouse": "A calm evening warehouse with low wooden shelves, soft floor lights, stacked blanket crates, wide aisles, and a round night clock on the wall",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle warehouse evening glow, and no readable text"
+  },
+  "style": "Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.",
+  "continuityRules": [
+    "Pip keeps the same mint-green body, cream forks, pale yellow mast, blue windshield eyes, four matching wheels, and night lantern on every page.",
+    "Pip and every vehicle have no human-like arms or hands; lifting is done only with the cream forks.",
+    "The blanket crate stays light pine with lavender, cream, and sky-blue blankets and a purple tag.",
+    "The low wooden shelf destination is introduced early and matches on Pages 4 and 11-15.",
+    "The crate is wobbly on Pages 4-9 and sits steady on the shelf from Page 11 onward.",
+    "The sky/warehouse light progresses from golden evening through soft dusk to quiet night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "referenceImage": "production/stories/pip-pickle-forklift-sleepy-warehouse-shelf/staging/pip-pickle-forklift-sleepy-warehouse-shelf/illustrations/cover.png"
+}

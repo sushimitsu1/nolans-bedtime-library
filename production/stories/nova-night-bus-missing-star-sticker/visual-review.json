@@ -11,10 +11,10 @@
         {
           "label": "Nova",
           "box": [
-            100,
-            130,
-            980,
-            728
+            336,
+            177,
+            1167,
+            665
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=665 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Nova",
           "box": [
-            120,
-            140,
-            980,
-            736
+            0,
+            177,
+            612,
+            610
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=610 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Nova",
           "box": [
-            80,
-            150,
-            980,
-            744
+            141,
+            110,
+            785,
+            640
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            300,
-            1280,
-            724
+            760,
+            400,
+            1185,
+            665
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=665 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,19 +89,19 @@
         {
           "label": "Nova",
           "box": [
-            100,
-            120,
-            980,
-            720
+            633,
+            78,
+            1290,
+            612
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            315,
-            1280,
-            732
+            198,
+            293,
+            637,
+            612
           ]
         }
       ],
@@ -113,7 +113,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=612 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -121,19 +121,19 @@
         {
           "label": "Nova",
           "box": [
-            120,
-            130,
-            980,
-            728
+            597,
+            66,
+            1216,
+            606
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            330,
-            1280,
-            700
+            199,
+            332,
+            597,
+            619
           ]
         }
       ],
@@ -145,7 +145,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=619 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -153,19 +153,19 @@
         {
           "label": "Nova",
           "box": [
-            80,
-            140,
-            980,
-            736
+            610,
+            110,
+            1415,
+            610
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            300,
-            1280,
-            708
+            256,
+            376,
+            628,
+            641
           ]
         }
       ],
@@ -177,7 +177,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=641 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -185,19 +185,19 @@
         {
           "label": "Nova",
           "box": [
-            100,
-            150,
-            980,
-            744
+            66,
+            133,
+            707,
+            575
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            315,
-            1280,
-            716
+            707,
+            354,
+            1083,
+            606
           ]
         }
       ],
@@ -209,7 +209,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=606 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -217,19 +217,19 @@
         {
           "label": "Nova",
           "box": [
-            120,
-            120,
-            980,
-            720
+            234,
+            88,
+            796,
+            531
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            330,
-            1280,
-            724
+            698,
+            323,
+            1008,
+            544
           ]
         }
       ],
@@ -241,7 +241,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=544 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -249,19 +249,19 @@
         {
           "label": "Nova",
           "box": [
-            80,
-            130,
-            980,
-            728
+            88,
+            88,
+            690,
+            523
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            300,
-            1280,
-            732
+            619,
+            336,
+            1054,
+            654
           ]
         }
       ],
@@ -273,7 +273,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=654 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -281,28 +281,28 @@
         {
           "label": "Nova",
           "box": [
-            100,
-            140,
-            980,
-            736
+            74,
+            106,
+            707,
+            583
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            315,
-            1280,
-            700
+            658,
+            371,
+            1079,
+            672
           ]
         },
         {
           "label": "Star Sticker",
           "box": [
-            640,
-            480,
-            820,
-            680
+            1117,
+            608,
+            1202,
+            690
           ]
         }
       ],
@@ -314,7 +314,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -322,28 +322,28 @@
         {
           "label": "Nova",
           "box": [
-            120,
-            150,
-            980,
-            744
+            654,
+            81,
+            1361,
+            682
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            330,
-            1280,
-            708
+            141,
+            293,
+            725,
+            693
           ]
         },
         {
           "label": "Star Sticker",
           "box": [
-            640,
-            480,
-            820,
-            680
+            495,
+            470,
+            629,
+            566
           ]
         }
       ],
@@ -355,7 +355,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=693 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -363,19 +363,19 @@
         {
           "label": "Nova",
           "box": [
-            80,
-            120,
-            980,
-            720
+            421,
+            78,
+            1446,
+            672
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            300,
-            1280,
-            716
+            481,
+            393,
+            813,
+            654
           ]
         }
       ],
@@ -387,7 +387,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -395,19 +395,19 @@
         {
           "label": "Nova",
           "box": [
-            100,
-            130,
-            980,
-            728
+            88,
+            106,
+            926,
+            665
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            315,
-            1280,
-            724
+            371,
+            318,
+            513,
+            424
           ]
         }
       ],
@@ -419,7 +419,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=665 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -427,19 +427,19 @@
         {
           "label": "Nova",
           "box": [
-            120,
-            140,
-            980,
-            736
+            110,
+            88,
+            902,
+            601
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            330,
-            1280,
-            732
+            817,
+            442,
+            1061,
+            647
           ]
         }
       ],
@@ -451,7 +451,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=647 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -459,19 +459,19 @@
         {
           "label": "Nova",
           "box": [
-            80,
-            150,
-            980,
-            744
+            124,
+            117,
+            972,
+            658
           ]
         },
         {
           "label": "Twinkle",
           "box": [
-            860,
-            300,
-            1280,
-            700
+            796,
+            470,
+            1054,
+            658
           ]
         }
       ],
@@ -483,7 +483,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels and road surface may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=658 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760; no reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

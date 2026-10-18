@@ -11,10 +11,10 @@
         {
           "label": "Pip",
           "box": [
-            260,
-            140,
-            1120,
-            740
+            311,
+            124,
+            962,
+            583
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=583 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Pip",
           "box": [
-            180,
-            150,
-            980,
-            735
+            223,
+            212,
+            926,
+            679
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Pip",
           "box": [
-            160,
-            150,
-            820,
-            740
+            149,
+            205,
+            743,
+            679
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            860,
-            360,
-            1280,
-            750
+            725,
+            453,
+            1089,
+            672
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,19 +89,19 @@
         {
           "label": "Pip",
           "box": [
-            140,
-            160,
-            700,
-            735
+            138,
+            152,
+            849,
+            679
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            760,
-            280,
-            1300,
-            750
+            728,
+            329,
+            1255,
+            672
           ]
         }
       ],
@@ -113,7 +113,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -121,19 +121,19 @@
         {
           "label": "Pip",
           "box": [
-            180,
-            140,
-            900,
-            740
+            99,
+            212,
+            866,
+            672
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            920,
-            340,
-            1340,
-            750
+            796,
+            371,
+            1280,
+            697
           ]
         }
       ],
@@ -145,7 +145,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=697 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -153,19 +153,19 @@
         {
           "label": "Pip",
           "box": [
-            150,
-            150,
-            860,
-            735
+            92,
+            124,
+            1149,
+            720
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            780,
-            300,
-            1320,
-            745
+            612,
+            336,
+            1202,
+            679
           ]
         }
       ],
@@ -177,7 +177,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=720 stays above the y=760 safe zone and the y=790 cream panel. Rear tire bottom measured at full-res zoom: y~717."
     },
     {
       "number": 7,
@@ -185,19 +185,19 @@
         {
           "label": "Pip",
           "box": [
-            170,
-            140,
-            880,
-            730
+            159,
+            110,
+            725,
+            690
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            800,
-            260,
-            1320,
-            720
+            619,
+            329,
+            1131,
+            637
           ]
         }
       ],
@@ -209,7 +209,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -217,19 +217,19 @@
         {
           "label": "Pip",
           "box": [
-            200,
-            150,
-            900,
-            740
+            163,
+            194,
+            990,
+            672
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            820,
-            280,
-            1300,
-            730
+            587,
+            392,
+            990,
+            601
           ]
         }
       ],
@@ -241,7 +241,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -249,19 +249,19 @@
         {
           "label": "Pip",
           "box": [
-            160,
-            150,
-            860,
-            740
+            219,
+            194,
+            1079,
+            672
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            840,
-            300,
-            1320,
-            745
+            690,
+            371,
+            1079,
+            594
           ]
         }
       ],
@@ -273,7 +273,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -281,19 +281,19 @@
         {
           "label": "Pip",
           "box": [
-            140,
-            160,
-            780,
-            735
+            322,
+            124,
+            1238,
+            644
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            760,
-            280,
-            1280,
-            740
+            817,
+            325,
+            1231,
+            548
           ]
         }
       ],
@@ -305,7 +305,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=644 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -313,19 +313,19 @@
         {
           "label": "Pip",
           "box": [
-            180,
-            160,
-            900,
-            740
+            184,
+            134,
+            760,
+            608
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            920,
-            220,
-            1360,
-            620
+            990,
+            276,
+            1379,
+            583
           ]
         }
       ],
@@ -337,7 +337,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=608 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -345,19 +345,19 @@
         {
           "label": "Pip",
           "box": [
-            200,
-            180,
-            860,
-            730
+            315,
+            187,
+            849,
+            594
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            900,
-            200,
-            1360,
-            600
+            1011,
+            230,
+            1446,
+            566
           ]
         }
       ],
@@ -369,7 +369,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=594 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -377,19 +377,19 @@
         {
           "label": "Pip",
           "box": [
-            160,
-            180,
-            820,
-            740
+            62,
+            113,
+            1032,
+            757
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            860,
-            180,
-            1340,
-            580
+            834,
+            198,
+            1400,
+            608
           ]
         }
       ],
@@ -401,7 +401,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=757 stays above the y=760 safe zone and the y=790 cream panel. Front wheel bottom measured at full-res zoom: y~757, ~33px clear of the panel; no reframe needed."
     },
     {
       "number": 14,
@@ -409,10 +409,10 @@
         {
           "label": "Pip",
           "box": [
-            280,
-            160,
-            1100,
-            740
+            122,
+            156,
+            919,
+            673
           ]
         }
       ],
@@ -424,7 +424,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=673 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -432,19 +432,19 @@
         {
           "label": "Pip",
           "box": [
-            240,
-            170,
-            980,
-            735
+            113,
+            215,
+            843,
+            665
           ]
         },
         {
           "label": "Blanket Crate",
           "box": [
-            1000,
-            180,
-            1380,
-            560
+            1004,
+            342,
+            1323,
+            608
           ]
         }
       ],
@@ -456,7 +456,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Wheels, forks near the floor, and shelf bases may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=665 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760; no reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
