@@ -11,10 +11,10 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            106,
+            177,
+            902,
+            707
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=707 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            57,
+            311,
+            598,
+            672
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            159,
+            240,
+            672,
+            647
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            594,
+            400,
+            820,
+            647
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=647 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,19 +89,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            110,
+            99,
+            799,
+            700
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            799,
+            382,
+            1082,
+            700
           ]
         }
       ],
@@ -113,7 +113,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=700 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -121,19 +121,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            690,
+            134,
+            1185,
+            594
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            265,
+            424,
+            442,
+            594
           ]
         }
       ],
@@ -145,7 +145,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=594 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -153,19 +153,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            110,
+            177,
+            764,
+            654
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            693,
+            389,
+            905,
+            644
           ]
         }
       ],
@@ -177,7 +177,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=654 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -185,19 +185,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            159,
+            99,
+            771,
+            605
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            707,
+            347,
+            926,
+            594
           ]
         }
       ],
@@ -209,7 +209,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=605 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -217,19 +217,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            110,
+            293,
+            693,
+            725
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            605,
+            506,
+            799,
+            718
           ]
         }
       ],
@@ -241,7 +241,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=725 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -249,19 +249,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            212,
+            106,
+            1054,
+            700
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            725,
+            407,
+            1079,
+            707
           ]
         }
       ],
@@ -273,7 +273,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=707 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -281,19 +281,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            216,
+            88,
+            1093,
+            690
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            711,
+            424,
+            1011,
+            690
           ]
         }
       ],
@@ -305,7 +305,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -313,19 +313,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            318,
+            205,
+            1008,
+            647
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            690,
+            453,
+            937,
+            654
           ]
         }
       ],
@@ -337,7 +337,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=654 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -345,19 +345,19 @@
         {
           "label": "Moss",
           "box": [
-            60,
-            90,
-            1300,
-            750
+            110,
+            152,
+            1011,
+            700
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            80,
-            90,
-            1280,
-            750
+            640,
+            523,
+            994,
+            700
           ]
         }
       ],
@@ -369,7 +369,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover Moss, Poppy, and the story action above y=760. Lower ferns and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=700 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -377,19 +377,19 @@
         {
           "label": "Moss",
           "box": [
-            340,
-            230,
-            1280,
-            724
+            177,
+            212,
+            955,
+            629
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            840,
-            570,
-            1220,
-            724
+            672,
+            495,
+            902,
+            636
           ]
         }
       ],
@@ -401,7 +401,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Redo art (2026-10-16): measured subject bounds; lowest character pixel y=724 stays above the y=760 safe zone and the y=790 cream panel. Foreground ferns below are intentionally excluded."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -409,19 +409,19 @@
         {
           "label": "Moss",
           "box": [
-            110,
-            200,
-            1280,
-            756
+            216,
+            212,
+            965,
+            629
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            800,
-            420,
-            1270,
-            756
+            675,
+            495,
+            905,
+            636
           ]
         }
       ],
@@ -433,7 +433,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Redo art (2026-10-16): measured subject bounds; lowest character pixel y=756 stays above the y=760 safe zone and the y=790 cream panel. Foreground ferns below are intentionally excluded."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel. Near-identical re-render of page 13 composition (not an md5 duplicate); flagged for review."
     },
     {
       "number": 15,
@@ -441,19 +441,19 @@
         {
           "label": "Moss",
           "box": [
-            130,
-            220,
-            1200,
-            716
+            141,
+            205,
+            972,
+            636
           ]
         },
         {
           "label": "Poppy",
           "box": [
-            820,
-            420,
-            1200,
-            720
+            707,
+            470,
+            926,
+            636
           ]
         }
       ],
@@ -465,7 +465,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Redo art (2026-10-16): measured subject bounds; lowest character pixel y=720 stays above the y=760 safe zone and the y=790 cream panel. Foreground ferns below are intentionally excluded."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=636 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. No reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }
