@@ -1,0 +1,10 @@
+Use case: illustration-story
+Asset type: children's bedtime storybook interior page illustration, full-bleed 4:3
+Primary request: Page 3 scene — Soft white fog drifts across the meadow path as Ruby slows, amber lights glowing softly through the mist.
+Subject: Ruby: color=Compact coral-pink lower body with a creamy white upper cabin and soft gold accents; body=Short sturdy rescue rover with rounded fenders, a snug cabin, four strong wheels, and no arms or hands; face=Large warm brown windshield eyes with soft lashes and a kind smile in the front grille; wheels=Four dark charcoal tires with cream hubcaps and tiny coral center dots; accessories=Amber roof light bar, silver side mirrors, and a small cream first-aid kit emblem on each door
+Scene/backdrop: Match setting bible and continuity. Time of day: foggy evening
+Style/medium: Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.
+Composition/framing: true 4:3 landscape (~1448x1086), one continuous scene, important subjects fully above y≈760 (bottom 25-30% soft uncluttered space for later narration panel overlay)
+Lighting/mood: foggy evening, warm bedtime-safe, gentle
+Constraints: Introduce gentle fog—not scary. Ruby remains fully visible and calm.; vehicles have no arms/hands; match locked character bible exactly
+Avoid: text, letters, numbers, page badges, logos, watermarks, panels, collage, grids, multi-panel, comic layout, arms/hands on vehicles

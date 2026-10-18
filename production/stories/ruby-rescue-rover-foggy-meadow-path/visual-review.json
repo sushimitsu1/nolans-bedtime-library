@@ -11,10 +11,10 @@
         {
           "label": "Ruby",
           "box": [
-            220,
-            150,
-            1120,
-            740
+            265,
+            172,
+            828,
+            589
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=589 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Ruby",
           "box": [
-            240,
-            140,
-            1100,
-            730
+            217,
+            194,
+            790,
+            634
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=634 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,10 +57,10 @@
         {
           "label": "Ruby",
           "box": [
-            260,
-            160,
-            1080,
-            740
+            233,
+            172,
+            790,
+            597
           ]
         }
       ],
@@ -72,7 +72,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=597 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -80,19 +80,19 @@
         {
           "label": "Ruby",
           "box": [
-            160,
-            150,
-            860,
-            735
+            133,
+            162,
+            809,
+            679
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            900,
-            400,
-            1280,
-            750
+            915,
+            361,
+            1233,
+            679
           ]
         }
       ],
@@ -104,7 +104,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -112,19 +112,19 @@
         {
           "label": "Ruby",
           "box": [
-            180,
-            140,
-            900,
-            740
+            48,
+            146,
+            822,
+            695
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            940,
-            430,
-            1300,
-            750
+            225,
+            424,
+            517,
+            695
           ]
         }
       ],
@@ -136,7 +136,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=695 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -144,19 +144,19 @@
         {
           "label": "Ruby",
           "box": [
-            200,
-            150,
-            920,
-            735
+            225,
+            95,
+            790,
+            501
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            960,
-            420,
-            1320,
-            750
+            801,
+            289,
+            1029,
+            528
           ]
         }
       ],
@@ -168,7 +168,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=528 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -176,19 +176,19 @@
         {
           "label": "Ruby",
           "box": [
-            140,
-            160,
-            820,
-            740
+            252,
+            191,
+            796,
+            668
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            860,
-            440,
-            1220,
-            750
+            790,
+            385,
+            1034,
+            676
           ]
         }
       ],
@@ -200,7 +200,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=676 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -208,19 +208,19 @@
         {
           "label": "Ruby",
           "box": [
-            180,
-            140,
-            900,
-            735
+            225,
+            141,
+            774,
+            626
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            940,
-            420,
-            1280,
-            750
+            756,
+            374,
+            968,
+            645
           ]
         }
       ],
@@ -232,7 +232,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=645 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -240,19 +240,19 @@
         {
           "label": "Ruby",
           "box": [
-            160,
-            150,
-            800,
-            740
+            199,
+            172,
+            822,
+            650
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            840,
-            430,
-            1180,
-            750
+            212,
+            398,
+            438,
+            650
           ]
         }
       ],
@@ -264,7 +264,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=650 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -272,19 +272,19 @@
         {
           "label": "Ruby",
           "box": [
-            180,
-            150,
-            860,
-            735
+            186,
+            149,
+            902,
+            687
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            900,
-            410,
-            1240,
-            750
+            225,
+            387,
+            451,
+            687
           ]
         }
       ],
@@ -296,7 +296,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=687 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -304,28 +304,28 @@
         {
           "label": "Ruby",
           "box": [
-            80,
-            160,
-            620,
-            740
+            66,
+            252,
+            703,
+            695
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            660,
-            450,
-            960,
-            750
+            159,
+            477,
+            411,
+            695
           ]
         },
         {
           "label": "Mama Sheep",
           "box": [
-            1000,
-            250,
-            1380,
-            735
+            1021,
+            164,
+            1446,
+            584
           ]
         }
       ],
@@ -337,7 +337,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=695 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 12,
@@ -345,28 +345,28 @@
         {
           "label": "Ruby",
           "box": [
-            60,
-            180,
-            540,
-            740
+            66,
+            255,
+            650,
+            698
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            680,
-            440,
-            980,
-            750
+            902,
+            398,
+            1114,
+            624
           ]
         },
         {
           "label": "Mama Sheep",
           "box": [
-            1000,
-            240,
-            1380,
-            730
+            995,
+            186,
+            1406,
+            610
           ]
         }
       ],
@@ -378,7 +378,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=698 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -386,28 +386,28 @@
         {
           "label": "Ruby",
           "box": [
-            80,
-            160,
-            580,
-            735
+            111,
+            260,
+            578,
+            597
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            720,
-            430,
-            1020,
-            750
+            968,
+            292,
+            1127,
+            517
           ]
         },
         {
           "label": "Mama Sheep",
           "box": [
-            1040,
-            250,
-            1380,
-            735
+            1008,
+            159,
+            1353,
+            517
           ]
         }
       ],
@@ -419,7 +419,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=597 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -427,19 +427,19 @@
         {
           "label": "Ruby",
           "box": [
-            140,
-            150,
-            820,
-            740
+            119,
+            202,
+            790,
+            692
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            980,
-            380,
-            1320,
-            745
+            1101,
+            308,
+            1313,
+            599
           ]
         }
       ],
@@ -451,7 +451,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=692 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -460,18 +460,18 @@
           "label": "Ruby",
           "box": [
             180,
-            160,
-            920,
-            740
+            259,
+            759,
+            689
           ]
         },
         {
           "label": "Lulu",
           "box": [
-            1040,
-            340,
-            1360,
-            720
+            1071,
+            413,
+            1346,
+            562
           ]
         }
       ],
@@ -483,7 +483,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces/upper bodies above y=760. Wheels and some ground props enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels and hooves; lowest character pixel y=689 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels and hooves included, above y=760; no reframing needed.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

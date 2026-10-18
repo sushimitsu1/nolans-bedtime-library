@@ -1,26 +1,40 @@
 {
   "storySlug": "ruby-rescue-rover-foggy-meadow-path",
   "attempts": {
-    "page-01": 1,
-    "page-02": 1,
-    "page-03": 1,
-    "page-04": 1,
-    "page-05": 1,
-    "page-06": 1,
-    "page-07": 1,
-    "page-08": 1,
-    "page-09": 1,
-    "page-10": 1,
-    "page-11": 1,
-    "page-12": 1,
-    "page-13": 1,
-    "page-14": 1,
-    "page-15": 1
+    "page-01": 2,
+    "page-02": 2,
+    "page-03": 2,
+    "page-04": 2,
+    "page-05": 2,
+    "page-06": 2,
+    "page-07": 2,
+    "page-08": 2,
+    "page-09": 2,
+    "page-10": 2,
+    "page-11": 2,
+    "page-12": 2,
+    "page-13": 2,
+    "page-14": 2,
+    "page-15": 2
   },
   "regeneratedPages": [
+    "page-01",
+    "page-02",
+    "page-03",
+    "page-04",
+    "page-05",
+    "page-06",
+    "page-07",
     "page-08",
-    "page-09"
+    "page-09",
+    "page-10",
+    "page-11",
+    "page-12",
+    "page-13",
+    "page-14",
+    "page-15"
   ],
   "retryLimit": 1,
-  "source": "approved ChatGPT package"
+  "source": "approved ChatGPT package",
+  "regenerationNote": "2026-10-18: pages 1-15 redrawn (redo2) in the bolder old-library style; cover redone separately the same morning; no reframing needed."
 }
