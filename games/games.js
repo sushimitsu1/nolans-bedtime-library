@@ -93,10 +93,17 @@
   document.getElementById('gamesTab').addEventListener('click',e=>{if(e.detail===0){showView('games');home();}});
   document.getElementById('storiesTab').addEventListener('click',e=>{if(e.detail===0){showView('library');renderLibrary();}});
   // A tap must end on the same button; scrolling and cancelled touches never choose.
-  root.addEventListener('pointerdown',e=>{if(e.isPrimary===false||e.button>0)return;const b=e.target.closest('button');if(b&&!b.disabled){down={b,x:e.clientX,y:e.clientY,id:e.pointerId};if(b.dataset.drag){if(e.isTrusted)b.setPointerCapture(e.pointerId);b.classList.add('dragging');}}});
+  // Drag pieces: capture the pointer and cancel the browser's own long-press behaviour (text selection,
+  // copy callout, image drag) so a long hold still drags, and a long hold then release still counts as a tap.
+  function resetDrag(){if(down){down.b.style.transform='';down.b.classList.remove('dragging');}down=null;}
+  root.addEventListener('pointerdown',e=>{if(e.isPrimary===false||e.button>0)return;const b=e.target.closest('button');if(b&&!b.disabled){if(down)resetDrag();down={b,x:e.clientX,y:e.clientY,id:e.pointerId};if(b.dataset.drag){e.preventDefault();if(e.isTrusted)try{b.setPointerCapture(e.pointerId);}catch{}b.classList.add('dragging');}}});
+  root.addEventListener('touchstart',e=>{if(e.target instanceof Element&&e.target.closest('button[data-drag]:not(:disabled)'))e.preventDefault();},{passive:false});
+  root.addEventListener('lostpointercapture',e=>{if(down?.id===e.pointerId&&down.b===e.target)resetDrag();});
+  document.addEventListener('lostpointercapture',e=>{if(down?.id===e.pointerId&&!down.b.isConnected)resetDrag();});
+  window.addEventListener('blur',resetDrag);document.addEventListener('visibilitychange',()=>{if(document.hidden)resetDrag();});
   root.addEventListener('pointermove',e=>{if(down?.id===e.pointerId&&down.b.dataset.drag){down.b.style.transform=`translate(${e.clientX-down.x}px,${e.clientY-down.y}px)`;}});
   root.addEventListener('pointerup',e=>{const tap=down;down=null;if(!tap||tap.id!==e.pointerId)return;tap.b.style.transform='';tap.b.classList.remove('dragging');const moved=Math.hypot(e.clientX-tap.x,e.clientY-tap.y);if(tap.b.dataset.drag&&moved>=24){const slot=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-slot]')||[...root.querySelectorAll('[data-slot]')].find(el=>{const r=el.getBoundingClientRect();return e.clientX>=r.left-20&&e.clientX<=r.right+20&&e.clientY>=r.top-20&&e.clientY<=r.bottom+20;});if(slot){if(active.vehicle){selectPiece(tap.b.dataset.value);placePiece(slot.dataset.slot);}else{choose(tap.b.dataset.value);choose(slot.dataset.value);}}return;}if(moved<24&&tap.b===e.target.closest('button'))dispatch(tap.b);});
-  root.addEventListener('pointercancel',()=>{if(down){down.b.style.transform='';down.b.classList.remove('dragging');}down=null;});
+  root.addEventListener('pointercancel',e=>{if(!down||down.id===e.pointerId)resetDrag();});
   document.getElementById('grownupGameSettings').addEventListener('change',e=>{const k=e.target.dataset.pref;if(k&&Object.hasOwn(defaults,k)){prefs[k]=e.target.checked;save();}});
   parent();
   root.addEventListener('change',e=>{const k=e.target.dataset.pref;if(k&&Object.hasOwn(defaults,k)){prefs[k]=e.target.checked;save();parent();parent();}});

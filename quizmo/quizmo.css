@@ -165,3 +165,8 @@ body:has(#quizmoView.active) main>.view:not(.active){display:none}
  .qc-place{display:none}
  #quizmoView.active .quizmo-column .qc-slot button{min-height:56px}
 }
+/* Long-press guard: no text selection, copy callout, tap flash or image drag on Quizmo. */
+#quizmoView,#quizmoView *,dialog.quizmo-reward,dialog.quizmo-reward *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+#quizmoView img,#quizmoView svg{-webkit-user-drag:none;user-drag:none}
+#quizmoView button{touch-action:manipulation}
+#quizmoView input,#quizmoView textarea,#quizmoView select,dialog.quizmo-reward input,dialog.quizmo-reward textarea,dialog.quizmo-reward select{-webkit-user-select:text;user-select:text;-webkit-touch-callout:default}
