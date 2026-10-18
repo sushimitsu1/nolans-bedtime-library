@@ -11,10 +11,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            336,
+            283,
+            1185,
+            690
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            81,
+            196,
+            1446,
+            752
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=752 stays above the y=760 safe zone and the y=790 cream panel. Reframed: wheels were ~y782; content shifted up 34px, rails below y800 stretched; wheels now ~751."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            265,
+            276,
+            1315,
+            700
           ]
         },
         {
           "label": "Hattie",
           "box": [
-            1080,
-            140,
-            1380,
-            520
+            195,
+            152,
+            318,
+            311
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=700 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,10 +89,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            198,
+            276,
+            1241,
+            722
           ]
         }
       ],
@@ -104,7 +104,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=722 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 5,
@@ -112,10 +112,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            300,
+            300,
+            1255,
+            679
           ]
         }
       ],
@@ -127,7 +127,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 6,
@@ -135,10 +135,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            180,
+            212,
+            1153,
+            654
           ]
         }
       ],
@@ -150,7 +150,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=654 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 7,
@@ -158,10 +158,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            265,
+            46,
+            1238,
+            382
           ]
         }
       ],
@@ -173,7 +173,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=382 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -181,10 +181,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            304,
+            276,
+            1294,
+            690
           ]
         }
       ],
@@ -196,7 +196,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -204,10 +204,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            141,
+            278,
+            1344,
+            743
           ]
         }
       ],
@@ -219,7 +219,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=743 stays above the y=760 safe zone and the y=790 cream panel. Reframed: wheels were ~y765; shifted up 22px, now ~743."
     },
     {
       "number": 10,
@@ -227,10 +227,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            392,
+            300,
+            1329,
+            725
           ]
         }
       ],
@@ -242,7 +242,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=725 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -250,10 +250,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            336,
+            261,
+            1361,
+            735
           ]
         }
       ],
@@ -265,7 +265,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=735 stays above the y=760 safe zone and the y=790 cream panel. Reframed: wheels were ~y750; shifted up 15px, now ~735."
     },
     {
       "number": 12,
@@ -273,10 +273,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            198,
+            329,
+            994,
+            693
           ]
         }
       ],
@@ -288,7 +288,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=693 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -296,10 +296,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            141,
+            283,
+            884,
+            601
           ]
         }
       ],
@@ -311,7 +311,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=601 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -319,10 +319,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            276,
+            194,
+            1308,
+            675
           ]
         }
       ],
@@ -334,7 +334,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=675 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -342,10 +342,10 @@
         {
           "label": "Cedar",
           "box": [
-            60,
-            90,
-            1320,
-            750
+            194,
+            187,
+            1379,
+            682
           ]
         }
       ],
@@ -357,7 +357,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Lower train hull, track, and ground may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=682 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. Reframed pages 2, 9, 11 (content shifted up, rows below the panel line stretched to fill).",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

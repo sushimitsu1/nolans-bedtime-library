@@ -11,10 +11,10 @@
         {
           "label": "Hank",
           "box": [
-            90,
-            120,
-            980,
-            740
+            230,
+            35,
+            948,
+            697
           ]
         }
       ],
@@ -26,7 +26,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=697 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 2,
@@ -34,10 +34,10 @@
         {
           "label": "Hank",
           "box": [
-            110,
-            130,
-            1000,
-            750
+            209,
+            35,
+            860,
+            637
           ]
         }
       ],
@@ -49,7 +49,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 3,
@@ -57,19 +57,19 @@
         {
           "label": "Hank",
           "box": [
-            80,
-            128,
-            970,
-            748
+            78,
+            39,
+            849,
+            690
           ]
         },
         {
           "label": "Dot",
           "box": [
-            970,
-            308,
-            1350,
-            728
+            849,
+            470,
+            1315,
+            697
           ]
         }
       ],
@@ -81,7 +81,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=697 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 4,
@@ -89,28 +89,28 @@
         {
           "label": "Hank",
           "box": [
-            100,
-            112,
-            990,
-            732
+            14,
+            0,
+            711,
+            615
           ]
         },
         {
           "label": "Dot",
           "box": [
-            990,
-            292,
-            1370,
-            712
+            675,
+            342,
+            1000,
+            597
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            430,
-            172,
-            890,
-            692
+            870,
+            501,
+            1386,
+            750
           ]
         }
       ],
@@ -122,7 +122,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=750 stays above the y=760 safe zone and the y=790 cream panel. Reframed: buoy bottom was ~y820; content shifted up 75px (mast tip trimmed), water below y850 stretched; buoy bottom now ~750. Trailing rope beyond the float is scene detail."
     },
     {
       "number": 5,
@@ -130,19 +130,19 @@
         {
           "label": "Hank",
           "box": [
-            106,
-            132,
-            996,
-            752
+            88,
+            35,
+            785,
+            601
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            436,
-            192,
-            896,
-            712
+            902,
+            400,
+            1255,
+            690
           ]
         }
       ],
@@ -154,7 +154,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel. Trailing float line runs under the panel as scene detail; buoy body bottom ~690."
     },
     {
       "number": 6,
@@ -162,28 +162,28 @@
         {
           "label": "Hank",
           "box": [
-            82,
-            126,
-            972,
-            746
+            32,
+            13,
+            693,
+            579
           ]
         },
         {
           "label": "Dot",
           "box": [
-            972,
-            306,
-            1352,
-            726
+            640,
+            402,
+            958,
+            632
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            412,
-            186,
-            872,
-            706
+            1064,
+            473,
+            1347,
+            738
           ]
         }
       ],
@@ -195,7 +195,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=738 stays above the y=760 safe zone and the y=790 cream panel. Reframed: buoy bottom was ~y760; shifted up 22px, now ~738. The trailing float line runs under the panel as scene detail."
     },
     {
       "number": 7,
@@ -203,28 +203,28 @@
         {
           "label": "Hank",
           "box": [
-            102,
-            124,
-            992,
-            744
+            336,
+            35,
+            955,
+            690
           ]
         },
         {
           "label": "Dot",
           "box": [
-            992,
-            304,
-            1372,
-            724
+            35,
+            435,
+            371,
+            672
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            432,
-            184,
-            892,
-            704
+            926,
+            506,
+            1238,
+            707
           ]
         }
       ],
@@ -236,7 +236,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=707 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 8,
@@ -244,28 +244,28 @@
         {
           "label": "Hank",
           "box": [
-            94,
-            114,
-            984,
-            734
+            81,
+            10,
+            640,
+            548
           ]
         },
         {
           "label": "Dot",
           "box": [
-            984,
-            294,
-            1364,
-            714
+            640,
+            382,
+            994,
+            583
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            424,
-            174,
-            884,
-            694
+            1100,
+            400,
+            1400,
+            637
           ]
         }
       ],
@@ -277,7 +277,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=637 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 9,
@@ -285,19 +285,19 @@
         {
           "label": "Hank",
           "box": [
-            108,
-            134,
-            998,
-            754
+            300,
+            18,
+            636,
+            407
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            438,
-            194,
-            898,
-            714
+            1043,
+            336,
+            1238,
+            460
           ]
         }
       ],
@@ -309,7 +309,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=460 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 10,
@@ -317,28 +317,28 @@
         {
           "label": "Hank",
           "box": [
-            78,
-            128,
-            968,
-            748
+            322,
+            35,
+            817,
+            583
           ]
         },
         {
           "label": "Dot",
           "box": [
-            968,
-            308,
-            1348,
-            728
+            39,
+            396,
+            339,
+            583
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            408,
-            188,
-            868,
-            708
+            870,
+            382,
+            1177,
+            608
           ]
         }
       ],
@@ -350,7 +350,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=608 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 11,
@@ -358,28 +358,28 @@
         {
           "label": "Hank",
           "box": [
-            98,
-            122,
-            988,
-            742
+            0,
+            0,
+            678,
+            678
           ]
         },
         {
           "label": "Dot",
           "box": [
-            988,
-            302,
-            1368,
-            722
+            672,
+            378,
+            962,
+            632
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            428,
-            182,
-            888,
-            702
+            990,
+            484,
+            1266,
+            738
           ]
         }
       ],
@@ -391,7 +391,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=738 stays above the y=760 safe zone and the y=790 cream panel. Reframed: buoy bottom was ~y760; shifted up 22px, now ~738."
     },
     {
       "number": 12,
@@ -399,28 +399,28 @@
         {
           "label": "Hank",
           "box": [
-            96,
-            130,
-            986,
-            750
+            110,
+            35,
+            693,
+            612
           ]
         },
         {
           "label": "Dot",
           "box": [
-            986,
-            310,
-            1366,
-            730
+            640,
+            417,
+            905,
+            608
           ]
         },
         {
           "label": "Dock Float",
           "box": [
-            426,
-            190,
-            886,
-            710
+            1047,
+            470,
+            1277,
+            672
           ]
         }
       ],
@@ -432,7 +432,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 13,
@@ -440,19 +440,19 @@
         {
           "label": "Hank",
           "box": [
-            84,
-            124,
-            974,
-            744
+            88,
+            18,
+            760,
+            672
           ]
         },
         {
           "label": "Dot",
           "box": [
-            974,
-            304,
-            1354,
-            724
+            813,
+            442,
+            1131,
+            690
           ]
         }
       ],
@@ -464,7 +464,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=690 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 14,
@@ -472,19 +472,19 @@
         {
           "label": "Hank",
           "box": [
-            104,
-            116,
-            994,
-            736
+            279,
+            35,
+            852,
+            583
           ]
         },
         {
           "label": "Dot",
           "box": [
-            994,
-            296,
-            1374,
-            716
+            817,
+            424,
+            1100,
+            601
           ]
         }
       ],
@@ -496,7 +496,7 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=601 stays above the y=760 safe zone and the y=790 cream panel."
     },
     {
       "number": 15,
@@ -504,19 +504,19 @@
         {
           "label": "Hank",
           "box": [
-            92,
-            126,
-            982,
-            746
+            230,
+            64,
+            795,
+            594
           ]
         },
         {
           "label": "Dot",
           "box": [
-            982,
-            306,
-            1362,
-            726
+            760,
+            435,
+            1061,
+            601
           ]
         }
       ],
@@ -528,7 +528,25 @@
         "consistentBadgePlacement": "passed",
         "noBlockedStoryAction": "passed"
       },
-      "notes": "Subject boxes cover faces and story action above y=760. Hulls and water may enter the cream-panel safe zone and are intentionally excluded from requiredSubjectBoxes."
+      "notes": "Redo2 art (2026-10-18, bolder style): measured subject bounds incl. wheels/forks; lowest character pixel y=601 stays above the y=760 safe zone and the y=790 cream panel."
     }
+  ],
+  "safeZoneNotes": "Redo2 art 2026-10-18 (bolder style): all character bounds measured, wheels included, above y=760. Reframed pages 4, 6, 11 (content shifted up, rows below the panel line stretched to fill).",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ]
 }

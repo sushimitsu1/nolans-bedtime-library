@@ -1,0 +1,10 @@
+Use case: illustration-story
+Asset type: children's bedtime storybook interior page illustration, full-bleed 4:3
+Primary request: Page 10 scene — Hank and Dot hold the red-and-white float steady beside a wooden piling with the cream line nearly in place.
+Subject: Hank: color=Navy blue hull with a creamy white cabin, pale yellow cabin light, and soft red bumper trim; body=Short stout pilot boat with a rounded bow, snug cabin, soft rubber bumpers, and no arms or hands; face=Large calm blue windshield eyes and a gentle smile on the bow; wheels=No wheels; floats on water with a small cream wake; accessories=Pale yellow cabin roof light, silver railings, a coiled soft rope on the deck, and tiny navy life rings on each side; Dot: color=Sunny yellow hull with white seats and sky-blue trim; body=Tiny rounded dinghy with no arms or hands; face=Round green eyes on the bow and a cheerful little smile; wheels=None; accessories=A small cream paddle rest and a pale blue bow fender; Dock Float: color=None; body=None; face=None; wheels=None; accessories=None
+Scene/backdrop: Match setting bible and continuity. Time of day: violet twilight
+Style/medium: Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.
+Composition/framing: true 4:3 landscape (~1448x1086), one continuous scene, important subjects fully above y≈760 (bottom 25-30% soft uncluttered space for later narration panel overlay)
+Lighting/mood: violet twilight, warm bedtime-safe, gentle
+Constraints: Nearly resolved. Keep all designs locked. Calm water.; vehicles have no arms/hands; match locked character bible exactly
+Avoid: text, letters, numbers, page badges, logos, watermarks, panels, collage, grids, multi-panel, comic layout, arms/hands on vehicles

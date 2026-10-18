@@ -1,0 +1,46 @@
+{
+  "storySlug": "harbor-hank-pilot-boat-loose-float-line",
+  "locked": true,
+  "mainCharacter": {
+    "name": "Hank",
+    "role": "Main character; a stout, kind harbor pilot boat",
+    "color": "Navy blue hull with a creamy white cabin, pale yellow cabin light, and soft red bumper trim",
+    "bodyShape": "Short stout pilot boat with a rounded bow, snug cabin, soft rubber bumpers, and no arms or hands",
+    "face": "Large calm blue windshield eyes and a gentle smile on the bow",
+    "wheels": "No wheels; floats on water with a small cream wake",
+    "accessories": "Pale yellow cabin roof light, silver railings, a coiled soft rope on the deck, and tiny navy life rings on each side"
+  },
+  "supportingCharacters": {
+    "Dot": {
+      "color": "Sunny yellow hull with white seats and sky-blue trim",
+      "bodyShape": "Tiny rounded dinghy with no arms or hands",
+      "face": "Round green eyes on the bow and a cheerful little smile",
+      "wheels": null,
+      "accessories": "A small cream paddle rest and a pale blue bow fender",
+      "role": "Supporting character; a small sunny dinghy friend"
+    },
+    "Dock Float": {
+      "color": null,
+      "bodyShape": null,
+      "face": null,
+      "wheels": null,
+      "accessories": null,
+      "role": "Supporting prop; a soft harbor float that drifted loose"
+    }
+  },
+  "setting": {
+    "Moonlit Harbor": "A calm vehicle harbor with wooden docks, soft pilings, warm pier lanterns, gentle waves, and a quiet boat shed",
+    "visualStyle": "Warm polished 3D children's illustration, soft rounded forms, clean single-scene compositions, gentle harbor evening colors, and no readable text"
+  },
+  "style": "Warm polished 3D children's animation illustration, bright friendly lighting, soft rounded forms, true 4:3 landscape single continuous scene. NO text, letters, numbers, badges, logos, watermarks, panels, collage, grid, comic layout, contact sheet, or multi-panel. Vehicles have NO arms, hands, or human limbs. Leave the bottom 25-30% of the frame as soft uncluttered ground/space so a narration panel can overlay later; keep all important subjects above the lower quarter.",
+  "continuityRules": [
+    "Hank keeps the same navy-and-white colors, pale yellow cabin light, blue windshield eyes, soft red bumpers, silver railings, coiled rope, and life rings on every page.",
+    "Hank and every boat/vehicle have no human-like arms or hands; help is done with gentle hull bumps and the soft rope.",
+    "Dot remains a tiny sunny yellow dinghy with green bow eyes and sky-blue trim.",
+    "The dock float is red-and-white; its cream line is loose on Pages 4-9 and secured by Page 11.",
+    "The wooden dock and pier lanterns match across pages; water stays calm and bedtime-safe.",
+    "The sky progresses from golden evening to lavender dusk, blue twilight, and moonlit night.",
+    "Every illustration is one continuous scene with no panels, collage, grid, contact sheet, text, badge, logo, or watermark."
+  ],
+  "referenceImage": "production/stories/harbor-hank-pilot-boat-loose-float-line/staging/harbor-hank-pilot-boat-loose-float-line/illustrations/cover.png"
+}
