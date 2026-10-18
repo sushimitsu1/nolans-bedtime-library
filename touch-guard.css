@@ -1,0 +1,8 @@
+/* App-wide long-press guard (loaded last, applies to every view: library, reader, Games, each game, Quizmo).
+   iOS only honours user-select:none reliably when the element, its ancestors and its descendants all carry it,
+   so the whole tree is covered and selection is re-enabled ONLY for real text fields. */
+html,body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+:is(#gamesView,#quizmoView,.main-tabs,.mobile-tabs,dialog),:is(#gamesView,#quizmoView,.main-tabs,.mobile-tabs,dialog) *,
+button,button *,[role=button],[role=button] *,[role=tab],[role=tab] *,label,label *,summary,summary *{-webkit-user-select:none!important;user-select:none!important;-webkit-touch-callout:none!important}
+img,svg{-webkit-user-drag:none;user-drag:none}
+:is(html,#gamesView,#quizmoView,dialog) :is(input,textarea,[contenteditable],[contenteditable] *){-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important}

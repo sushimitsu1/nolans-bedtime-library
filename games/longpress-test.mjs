@@ -76,10 +76,30 @@ try{
   const q0=await page.locator('#quizmoView').innerText();
   await hold('#quizmoView [data-q-action="key"], #quizmoView [data-q-action="choice"]');await sleep(150);
   assert.notEqual(await page.locator('#quizmoView').innerText(),q0,'quizmo: long-press release ignored');await clean('quizmo');results.push('quizmo: long-press tap ok');
-  // Reader text stays selectable.
-  assert(await page.evaluate(()=>{const e=new Event('selectstart',{bubbles:true,cancelable:true});document.getElementById('readerView').dispatchEvent(e);return !e.defaultPrevented;}),'reader selection blocked');
-  const readerSel=await page.evaluate(()=>getComputedStyle(document.querySelector('#readerView, .reader, body')).webkitUserSelect||getComputedStyle(document.body).userSelect);
-  assert.notEqual(readerSel,'none','reader text should stay selectable');results.push(`reader user-select: ${readerSel}`);
+  // Button text and labels are unselectable everywhere (games hub, each game, Quizmo, tabs); text fields stay selectable.
+  for(const where of ['quizmo','games-hub','cargo-run']){
+    if(where==='games-hub'){await tap('#quizmoView [data-q-action="home"]').catch(()=>{});await tap('#gamesTab');await page.waitForSelector('#gamesView .game-card, #gamesView [data-action="open"]');}
+    if(where==='cargo-run'){await tap('#gamesView [data-action="open"][data-id="rollo"]');await page.waitForSelector('#gamesView .recount-load');}
+    const bad=await page.evaluate(()=>{const us=n=>{const c=getComputedStyle(n);return c.webkitUserSelect||c.getPropertyValue('-webkit-user-select')||c.userSelect;};
+      const nodes=[document.documentElement,document.body,...document.querySelectorAll('button, button *, label, label *, [role=button], [role=tab], #gamesView *, #quizmoView *')].filter(n=>!n.matches('input,textarea,[contenteditable]'));
+      return {n:nodes.length,bad:nodes.filter(n=>us(n)!=='none').slice(0,5).map(n=>n.outerHTML.slice(0,80)),callout:getComputedStyle(document.body).getPropertyValue('-webkit-touch-callout')};});
+    assert.deepEqual(bad.bad,[],`${where}: selectable buttons/labels`);if(bad.callout)assert.equal(bad.callout,'none');results.push(`${where}: ${bad.n} button/label/game nodes all user-select:none`);
+  }
+  // Touch-default cancelling only where nothing scrolls: report it, and prove the games hub still scrolls by touch.
+  results.push('cargo-run touchstart default cancelled: '+await page.evaluate(()=>{try{const b=document.querySelector('#gamesView .recount-load');const t=new Touch({identifier:9,target:b,clientX:1,clientY:1});const e=new TouchEvent('touchstart',{bubbles:true,cancelable:true,touches:[t],targetTouches:[t],changedTouches:[t]});b.dispatchEvent(e);return e.defaultPrevented;}catch{return 'n/a (no Touch constructor)';}}));
+  if(cdp){await tap('#gamesView [data-action="home"]');await page.waitForSelector('#gamesView [data-action="open"][data-id="rollo"]');await page.evaluate(()=>scrollTo(0,0));const c=await centre('#gamesView [data-action="open"]');const y0=await page.evaluate(()=>scrollY);
+    await touch('touchStart',c.x,c.y+150);for(let i=1;i<=10;i++){await touch('touchMove',c.x,c.y+150-i*25);await sleep(16);}await touch('touchEnd',c.x,c.y-100);await sleep(400);const y1=await page.evaluate(()=>scrollY);
+    assert(y1>y0,`games hub no longer scrolls by touch (${y0}->${y1})`);results.push(`games hub touch scroll ok (${y0}->${Math.round(y1)})`);await clean('hub scroll');
+    await tap('#gamesView [data-action="open"][data-id="rollo"]');await page.waitForSelector('#gamesView .recount-load');}
+  // "Count my load" in Cargo Run: long press then release counts once (recount speech) and leaves no selection.
+  {const n=await page.evaluate(()=>spoken.length);await hold('#gamesView .recount-load');await sleep(150);assert(await page.evaluate(()=>spoken.length)>n,'Count my load: long-press tap ignored');await clean('Count my load');
+   const sel=await page.evaluate(()=>{const b=document.querySelector('#gamesView .recount-load');const r=document.createRange();r.selectNodeContents(b);getSelection().removeAllRanges();getSelection().addRange(r);return new Promise(res=>setTimeout(()=>res(String(getSelection())),50));});
+   assert.equal(sel,'','forced selection on Count my load was not cleared');results.push('Count my load: long-press tap ok, forced selection cleared by selectionchange');}
+  // Text fields stay selectable.
+  assert.equal(await page.evaluate(()=>{const i=document.createElement('input');document.body.append(i);const v=getComputedStyle(i).userSelect||getComputedStyle(i).webkitUserSelect;i.remove();return v;}),'text','inputs must stay selectable');
+  // Story reader is unselectable too now.
+  const readerSel=await page.evaluate(()=>{const c=getComputedStyle(document.querySelector('#readerView'));return c.webkitUserSelect||c.userSelect;});
+  assert.equal(readerSel,'none','reader should be unselectable');results.push(`reader user-select: ${readerSel}`);
   assert.deepEqual(errors,[]);
   console.log(`${engine} long-press test passed\n - `+results.join('\n - '));
 }finally{await browser?.close();server.close();}
