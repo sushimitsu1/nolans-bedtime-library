@@ -28,7 +28,6 @@
 - Pirate's Curse
 - ThunderROARus
 - Sparkle Smash
-- Scooby-Doo
 - Max-D
 
 ## Other planned non-monster stories

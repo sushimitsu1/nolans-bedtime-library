@@ -246,7 +246,7 @@
       "notes": "Published from validated four-story handoff package with complete WebP assets and exact narration."
     },
     {
-      "title": "Pirate\u2019s Curse and the Foggy Lighthouse",
+      "title": "Pirate’s Curse and the Foggy Lighthouse",
       "slug": "pirates-curse-foggy-lighthouse",
       "category": "Monster Trucks",
       "status": "published",
@@ -271,15 +271,6 @@
       "published": true,
       "dateAdded": "2026-07-24",
       "notes": "Published from validated four-story handoff package with complete WebP assets and exact narration."
-    },
-    {
-      "title": "Scooby-Doo",
-      "slug": "scooby-doo",
-      "category": "Monster Trucks",
-      "status": "not_started",
-      "published": false,
-      "dateAdded": null,
-      "notes": "Approved future Monster Jam pool; final story title not yet defined."
     },
     {
       "title": "Amy the Ambulance and the Sleepy Kitten",
