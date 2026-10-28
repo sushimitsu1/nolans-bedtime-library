@@ -136,7 +136,7 @@ narration: [
 ]
 },
 {
-  id: 'grave-digger', title: 'Grave Digger and the Moonlight Mud Track', category: 'Monster Trucks',
+  id: 'grave-digger', title: 'Grave Digger and the Moonlight Mud Track', category: 'Monster Jam',
   description: 'Grave Digger finds a safe path through a giant muddy puddle so the moonlight ride can begin.',
   keywords: ['grave digger','monster jam','monster truck','moonlight','mud','mud track','night ride','teamwork'],
   cover: 'assets/books/grave-digger/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/grave-digger/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -159,7 +159,7 @@ narration: [
 ]
 },
 {
-  id: 'el-toro-loco', title: 'El Toro Loco and the Big Red Jump', category: 'Monster Trucks',
+  id: 'el-toro-loco', title: 'El Toro Loco and the Big Red Jump', category: 'Monster Jam',
   description: 'El Toro Loco tackles the big red jump and helps repair the track so everyone can keep racing.',
   keywords: ['el toro loco','monster jam','monster truck','bull','red jump','ramp','race','teamwork'],
   cover: 'assets/books/el-toro-loco/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/el-toro-loco/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -182,7 +182,7 @@ narration: [
 ]
 },
 {
-  id: 'monster-mutt', title: 'Monster Mutt and the Lost Bone Parade', category: 'Monster Trucks',
+  id: 'monster-mutt', title: 'Monster Mutt and the Lost Bone Parade', category: 'Monster Jam',
   description: 'Monster Mutt follows his nose and works with his friends to rescue the missing Bone Parade float.',
   keywords: ['monster mutt','monster jam','monster truck','dog','bone parade','lost bone','parade','teamwork'],
   cover: 'assets/books/monster-mutt/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/monster-mutt/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -205,7 +205,7 @@ narration: [
 ]
 },
 {
-  id: 'megalodon', title: 'Megalodon and the Splashy Shortcut', category: 'Monster Trucks',
+  id: 'megalodon', title: 'Megalodon and the Splashy Shortcut', category: 'Monster Jam',
   description: 'Megalodon discovers loose bridge boards and helps repair the splashy shortcut before the beach parade.',
   keywords: ['megalodon','monster jam','monster truck','shark','beach','splash','shortcut','bridge','parade'],
   cover: 'assets/books/megalodon/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/megalodon/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -228,7 +228,7 @@ narration: [
 ]
 },
 {
-id: 'monster-mutt-dalmatian', title: 'Monster Mutt Dalmatian and the Firehouse Race', category: 'Monster Trucks',
+id: 'monster-mutt-dalmatian', title: 'Monster Mutt Dalmatian and the Firehouse Race', category: 'Monster Jam',
 description: 'Monster Mutt Dalmatian helps prepare the firehouse track, races safely, and stops to help a friend.',
 keywords: ['monster mutt dalmatian','monster jam','monster truck','dalmatian','firehouse','race','fire truck','teamwork'],
 cover: 'assets/books/monster-mutt-dalmatian/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/monster-mutt-dalmatian/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -251,7 +251,7 @@ narration: [
 ]
 },
 {
-id: 'zombie-sleepy-stadium', title: 'Zombie and the Sleepy Stadium', category: 'Monster Trucks',
+id: 'zombie-sleepy-stadium', title: 'Zombie and the Sleepy Stadium', category: 'Monster Jam',
 description: 'Zombie and his friends prepare the quiet stadium for a gentle nighttime roll under the stars.',
 keywords: ['zombie','monster truck','sleepy stadium','stadium','nighttime','flags','little fans','teamwork','bedtime'],
 cover: 'assets/books/zombie-sleepy-stadium/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/zombie-sleepy-stadium/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -343,7 +343,7 @@ narration: [
 ]
 },
 {
-id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: 'Race Cars',
+id: 'chev-camaro', title: 'Chev the Camaro and the Sleepy Speedway', category: 'Monster Jam',
 description: 'Chev and his friends make the little speedway smooth and safe for a gentle moonlight roll before bed.',
 keywords: ['chev','camaro','race car','race cars','speedway','moonlight','safe driving','teamwork','bedtime'],
 cover: 'assets/books/chev-camaro/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/chev-camaro/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -366,7 +366,7 @@ narration: [
 ]
 },
 {
-id: 'dragon-glowing-cave-trail', title: 'Dragon and the Glowing Cave Trail', category: 'Monster Trucks',
+id: 'dragon-glowing-cave-trail', title: 'Dragon and the Glowing Cave Trail', category: 'Monster Jam',
 description: 'Dragon and his friends follow a glowing crystal trail, help one another, and find a peaceful cave.',
 keywords: ['dragon','monster truck','glowing cave','crystals','blue thunder','earth shaker','trail','teamwork','bedtime'],
 cover: 'assets/books/dragon-glowing-cave-trail/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/dragon-glowing-cave-trail/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -389,7 +389,7 @@ narration: [
 ]
 },
 {
-id: 'max-d-twisty-training-track', title: 'Max-D and the Twisty Training Track', category: 'Monster Trucks',
+id: 'max-d-twisty-training-track', title: 'Max-D and the Twisty Training Track', category: 'Monster Jam',
 description: 'Max-D practices careful turns and helps his friends make the twisty training track safe and ready.',
 keywords: ['max-d','max d','monster truck','twisty track','training track','practice','flags','turns','teamwork','bedtime'],
 cover: 'assets/books/max-d-twisty-training-track/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/max-d-twisty-training-track/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -458,7 +458,7 @@ narration: [
 ]
 },
 {
-id: 'tess-quiet-night-drive', title: 'Tess the Tesla and the Quiet Night Drive', category: 'Race Cars',
+id: 'tess-quiet-night-drive', title: 'Tess the Tesla and the Quiet Night Drive', category: 'Monster Jam',
 description: 'Tess enjoys a peaceful evening drive and helps Ollie find his way home through the softly glowing town.',
 keywords: ['tess','tesla','electric car','race cars','quiet night drive','ollie','lantern lane','charging','helping','bedtime'],
 cover: 'assets/books/tess-quiet-night-drive/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/tess-quiet-night-drive/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -481,7 +481,7 @@ narration: [
 ]
 },
 {
-id: 'earth-shaker-wobbly-dirt-bridge', title: 'Earth Shaker and the Wobbly Dirt Bridge', category: 'Monster Trucks',
+id: 'earth-shaker-wobbly-dirt-bridge', title: 'Earth Shaker and the Wobbly Dirt Bridge', category: 'Monster Jam',
 description: 'Earth Shaker helps two rabbits make a wobbly forest bridge strong, steady, and safe.',
 keywords: ['earth shaker','monster truck','dirt bridge','forest','rabbits','clover meadow','teamwork','helping'],
 cover: 'assets/books/earth-shaker-wobbly-dirt-bridge/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/earth-shaker-wobbly-dirt-bridge/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -504,7 +504,7 @@ narration: [
 ]
 },
 {
-id: 'son-uva-digger-moonlit-hill-climb', title: 'Son-uva Digger and the Moonlit Hill Climb', category: 'Monster Trucks',
+id: 'son-uva-digger-moonlit-hill-climb', title: 'Son-uva Digger and the Moonlit Hill Climb', category: 'Monster Jam',
 description: 'Son-uva Digger takes a calm, careful climb up Moonbeam Hill beneath the silver moon.',
 keywords: ['son-uva digger','monster truck','moonlit hill','moonbeam hill','hill climb','night','bravery','careful'],
 cover: 'assets/books/son-uva-digger-moonlit-hill-climb/cover.webp', pages: Array.from({length:15},(_,i)=>`assets/books/son-uva-digger-moonlit-hill-climb/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -665,7 +665,7 @@ narration: [
 ]
 },
 {
-id: "blue-thunder-rainy-lantern-trail", title: "Blue Thunder and the Rainy Lantern Trail", category: "Monster Trucks",
+id: "blue-thunder-rainy-lantern-trail", title: "Blue Thunder and the Rainy Lantern Trail", category: "Monster Jam",
 description: "After a summer shower washes away the markers for a lakeside lantern parade, Blue Thunder and a little lantern cart rebuild a safe, shining trail.",
 keywords: ["blue thunder", "monster truck", "rain", "lantern trail", "silver lake", "storm", "teamwork"],
 cover: "assets/books/blue-thunder-rainy-lantern-trail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/blue-thunder-rainy-lantern-trail/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -705,7 +705,7 @@ speechText: [
 ]
 },
 {
-id: "pirates-curse-foggy-lighthouse", title: "Pirate’s Curse and the Foggy Lighthouse", category: "Monster Trucks",
+id: "pirates-curse-foggy-lighthouse", title: "Pirate’s Curse and the Foggy Lighthouse", category: "Monster Jam",
 description: "When a lighthouse lens cart becomes stuck in wet sand and fog hides the hill path, Pirate’s Curse uses patience, clues, and teamwork to bring the golden light home.",
 keywords: ["pirate's curse", "pirates curse", "monster truck", "fog", "lighthouse", "coral cove", "boats"],
 cover: "assets/books/pirates-curse-foggy-lighthouse/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/pirates-curse-foggy-lighthouse/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -745,7 +745,7 @@ speechText: [
 ]
 },
 {
-id: "thunderroarus-lost-fossil-trail", title: "ThunderROARus and the Lost Fossil Trail", category: "Monster Trucks",
+id: "thunderroarus-lost-fossil-trail", title: "ThunderROARus and the Lost Fossil Trail", category: "Monster Jam",
 description: "A warm canyon wind scatters the signs for a children’s fossil walk, so ThunderROARus uses real tracks, careful observation, and sturdy stone bases to rebuild the trail.",
 keywords: ["thunderroarus", "monster truck", "dinosaur", "fossil trail", "sunset fossil park", "map", "teamwork"],
 cover: "assets/books/thunderroarus-lost-fossil-trail/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/thunderroarus-lost-fossil-trail/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -785,7 +785,7 @@ speechText: [
 ]
 },
 {
-id: "sparkle-smash-firefly-parade", title: "Sparkle Smash and the Firefly Parade", category: "Monster Trucks",
+id: "sparkle-smash-firefly-parade", title: "Sparkle Smash and the Firefly Parade", category: "Monster Jam",
 description: "When bright lanterns and a noisy parade scare the meadow fireflies into hiding, Sparkle Smash helps create a softer celebration where every little light can shine.",
 keywords: ["sparkle smash", "monster truck", "firefly parade", "starflower meadow", "sparkles", "teamwork"],
 cover: "assets/books/sparkle-smash-firefly-parade/cover.webp", pages: Array.from({length:15},(_,i)=>`assets/books/sparkle-smash-firefly-parade/page-${String(i+1).padStart(2,'0')}.webp`),
@@ -3786,7 +3786,7 @@ function toggleFavorite(id){
 
 function renderCategoryCounts(){
   const countFor = category => stories.filter(story=>story.category===category).length;
-  [['Emergency Vehicles','emergencyCount'],['Construction Vehicles','constructionCount'],['Monster Trucks','monsterCount'],['Race Cars','raceCarsCount']].forEach(([category,id])=>{
+  [['Emergency Vehicles','emergencyCount'],['Construction Vehicles','constructionCount'],['Monster Jam','monsterCount'],['Race Cars','raceCarsCount']].forEach(([category,id])=>{
     const count=countFor(category);
     $(id).textContent=`${count} ${count===1?'story':'stories'} available`;
   });
@@ -3818,6 +3818,7 @@ function renderLibrary(){
         </div>
       </div>
     </article>`).join('');
+  $('sectionNote').hidden = selectedCategory!=='Monster Jam';
   $('storyCount').textContent = `${visibleStories.length} ${visibleStories.length===1?'story':'stories'}`;
   $('emptyState').hidden = visibleStories.length>0;
   document.querySelectorAll('.read-button').forEach(button=>button.addEventListener('click',()=>openStory(button.dataset.story)));

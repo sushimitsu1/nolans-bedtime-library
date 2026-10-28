@@ -25,3 +25,5 @@ main>.view:not(.active){display:none!important}
  #quizmoView .hub-heading{min-height:60px;margin-bottom:8px}
  #quizmoView .quizmo-segments{margin-bottom:8px}
 }
+.section-note{margin:0 0 16px;padding:10px 14px;max-width:760px;border-radius:14px;background:#fff;border:1px solid var(--line);color:#4c6378;font-size:15px;line-height:1.45;font-weight:600}
+.section-note[hidden]{display:none}
