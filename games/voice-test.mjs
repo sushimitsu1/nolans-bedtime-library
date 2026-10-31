@@ -12,7 +12,7 @@ const engines=process.argv.slice(2).length?process.argv.slice(2):['chromium','we
 for(const engine of engines){
   const opts=engine==='chromium'?{executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']}:{};
   let browser;try{browser=await pw[engine].launch(opts);}catch(e){console.log(`SKIP ${engine}: ${e.message.split('\n')[0]}`);continue;}
-  const ctx=await browser.newContext({reducedMotion:'reduce',serviceWorkers:'block',viewport:{width:1180,height:820}});const page=await ctx.newPage();
+  const ctx=await browser.newContext({reducedMotion:'reduce',serviceWorkers:'block',viewport:{width:1180,height:820}});const page=await ctx.newPage();await (await import('../ui-smoke-helpers.mjs')).unlockFamily(page);
   const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
   await page.addInitScript(()=>{window.__synth=[];if(window.speechSynthesis)speechSynthesis.speak=u=>{__synth.push(u.text);setTimeout(()=>u.onend?.(),0);};});
   await page.goto(url);await page.evaluate(()=>NolanVoice.ready);

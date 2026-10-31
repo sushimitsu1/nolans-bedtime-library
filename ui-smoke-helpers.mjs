@@ -16,3 +16,10 @@ export async function checkNavigation(page){
   await page.click('#storiesTab');
   if(page.setViewport)await page.setViewport({width:1366,height:768});else await page.setViewportSize({width:1366,height:768});
 }
+// Smoke tests run as an already-unlocked family device (the lock itself is covered by family-lock-test.mjs).
+export async function unlockFamily(page){
+  const {readFileSync}=await import('node:fs');
+  const hash=readFileSync(new URL('./family-lock.js',import.meta.url),'utf8').match(/hash: '([0-9a-f]{64})'/)[1];
+  const seed=h=>{try{localStorage.setItem('nolan:familyUnlock',h);}catch{}};
+  if(page.evaluateOnNewDocument)await page.evaluateOnNewDocument(seed,hash);else await page.addInitScript(seed,hash);
+}

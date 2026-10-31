@@ -8,7 +8,7 @@ const server=http.createServer(async(req,res)=>{try{const file=path.resolve('.'+
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const browser=await puppeteer.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});
 try{
-const page=await browser.newPage(),url=`http://127.0.0.1:${server.address().port}`;
+const page=await browser.newPage(),url=`http://127.0.0.1:${server.address().port}`;await (await import('../ui-smoke-helpers.mjs')).unlockFamily(page);
 const click=s=>page.$eval(s,e=>e.click());
 const data=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('jasper-quizmo')));
 async function load(value){await page.goto(url);await page.evaluate(v=>localStorage.setItem('jasper-quizmo',JSON.stringify(v)),value);await page.reload();await click('#quizmoTab');}

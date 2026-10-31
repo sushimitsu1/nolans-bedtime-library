@@ -8,7 +8,7 @@ const root=path.dirname(new URL(import.meta.url).pathname);
 const server=http.createServer(async(req,res)=>{try{const name=new URL(req.url,'http://localhost').pathname;const file=path.resolve(root,'.'+(name==='/'?'/index.html':name));if(!file.startsWith(root+'/'))throw Error();res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json'})[path.extname(file)]||'application/octet-stream');res.end(await fs.readFile(file));}catch{res.writeHead(404);res.end();}});
 await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
 try{
- browser=await puppeteer.launch({headless:true,executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(`http://127.0.0.1:${server.address().port}`);await checkNavigation(page);
+ browser=await puppeteer.launch({headless:true,executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});const page=await browser.newPage();await (await import('./ui-smoke-helpers.mjs')).unlockFamily(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(`http://127.0.0.1:${server.address().port}`);await checkNavigation(page);
  assert.equal(await page.$$eval('.story-card',es=>es.length),100);
  assert.equal(await page.$eval('.story-grid',e=>getComputedStyle(e).gridTemplateColumns.split(' ').length),4);
  assert(await page.$eval('#keepReading',e=>e.hidden),'No progress hides Keep reading');

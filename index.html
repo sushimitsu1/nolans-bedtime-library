@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="locked">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0f67b1">
   <meta name="description" content="Nolan's Big Vehicle Bedtime Library">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="family-lock.css">
+  <script src="family-lock.js"></script>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icons/icon-192.png">
   <link rel="stylesheet" href="styles.css">
@@ -18,6 +21,22 @@
   <title>Nolan's Bedtime Library</title>
 </head>
 <body>
+  <div id="familyLock" class="family-lock" role="dialog" aria-modal="true" aria-labelledby="familyLockTitle">
+    <form id="familyLockForm" class="family-lock-card" autocomplete="off" novalidate>
+      <div class="family-lock-art" aria-hidden="true">🚚<span>🌙</span></div>
+      <p class="family-lock-eyebrow">Nolan's Bedtime Library</p>
+      <h1 id="familyLockTitle">Grown-ups, type the family code</h1>
+      <p class="family-lock-help">Just once on this device. After that it stays open.</p>
+      <label for="familyLockInput" class="family-lock-sr">Family code</label>
+      <div class="family-lock-field">
+        <input id="familyLockInput" name="familyCode" type="password" inputmode="numeric" autocomplete="current-password" enterkeyhint="go" spellcheck="false" autocapitalize="off" autocorrect="off" aria-describedby="familyLockError">
+        <button id="familyLockShow" type="button" aria-pressed="false" aria-label="Show or hide the code">👀 Show</button>
+      </div>
+      <p id="familyLockError" class="family-lock-error" role="alert" aria-live="assertive"></p>
+      <button id="familyLockButton" type="submit">🔓 Unlock</button>
+      <noscript><p class="family-lock-error">Please turn on JavaScript to open the library.</p></noscript>
+    </form>
+  </div>
   <aside class="side-menu">
     <button class="brand" id="homeButton" aria-label="Go to library home"><img src="assets/icons/icon-192.png" alt="" class="brand-icon"><span><strong>Bedtime</strong><small>Library</small></span></button>
     <nav class="main-tabs" role="tablist" aria-label="Main navigation">

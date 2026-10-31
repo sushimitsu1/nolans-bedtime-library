@@ -20,7 +20,7 @@ try{
   const device=playwright.devices['iPhone 13'];
   browser=engine==='webkit'?await playwright.webkit.launch():await playwright.chromium.launch({executablePath:process.env.CHROME_PATH||undefined,args:['--no-sandbox']});
   const context=await browser.newContext({...device,serviceWorkers:'block'});
-  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await context.newPage();await (await import('../ui-smoke-helpers.mjs')).unlockFamily(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.addInitScript(()=>{
     window.spoken=[];window.menus=0;
     speechSynthesis.speak=u=>{spoken.push(u.text);setTimeout(()=>u.onend?.(),0);};

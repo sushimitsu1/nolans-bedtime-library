@@ -39,7 +39,7 @@ let browser;
 try {
   const opts={headless:true,executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage','--allow-file-access-from-files']};
   browser=puppeteer?await puppeteer.launch(opts):await playwright.chromium.launch(opts);
-  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  const page=await browser.newPage();await (await import('../ui-smoke-helpers.mjs')).unlockFamily(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const viewport=async size=>puppeteer?page.setViewport(size):page.setViewportSize(size);
   const tap=async selector=>page.evaluate(selector=>{
     document.querySelector('#quizmoReward [data-dismiss]')?.click();const b=document.querySelector(selector);if(!b)throw Error('Missing '+selector);

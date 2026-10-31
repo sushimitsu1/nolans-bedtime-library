@@ -13,7 +13,7 @@ await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
 const TUNDRA='tundra-the-snowcat-grooms-the-starry-slope';
 try{
  browser=await puppeteer.launch({headless:true,executablePath:'/usr/bin/google-chrome',args:['--no-sandbox','--autoplay-policy=no-user-gesture-required','--mute-audio']});
- const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const page=await browser.newPage();await (await import('./ui-smoke-helpers.mjs')).unlockFamily(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.setViewport({width:1366,height:768});
  await page.evaluateOnNewDocument(()=>{window.__spoken=[];const real=window.speechSynthesis;if(real){real.speak=u=>window.__spoken.push(u.text);}});
  await page.goto(`http://127.0.0.1:${server.address().port}`);
