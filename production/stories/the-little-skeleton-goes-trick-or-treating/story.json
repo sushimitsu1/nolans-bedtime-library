@@ -1,0 +1,259 @@
+{
+  "title": "The Little Skeleton Goes Trick-or-Treating",
+  "slug": "the-little-skeleton-goes-trick-or-treating",
+  "category": "Little Skeleton",
+  "description": "On Halloween the Little Skeleton goes trick-or-treating with his forest friends, and his glowing heart lights Mae's dark lane.",
+  "characterBible": {
+    "Little Skeleton": {
+      "role": "Main character",
+      "color": "The Little Skeleton: small toddler-proportioned cute cartoon skeleton with soft rounded ivory-cream toy-like bones (no sharp edges, no realistic anatomy), big round smooth head, large round eye sockets holding big glossy dark-blue eyes with warm white glints, rosy cheek blush, small closed happy smile with no visible teeth, a chunky knitted pumpkin-orange scarf, and a small softly glowing golden heart inside his rounded ribcage; small rounded skeleton hands and feet; never scary, never a toothy grin",
+      "bodyShape": "The Little Skeleton: small toddler-proportioned cute cartoon skeleton with soft rounded ivory-cream toy-like bones (no sharp edges, no realistic anatomy), big round smooth head, large round eye sockets holding big glossy dark-blue eyes with warm white glints, rosy cheek blush, small closed happy smile with no visible teeth, a chunky knitted pumpkin-orange scarf, and a small softly glowing golden heart inside his rounded ribcage; small rounded skeleton hands and feet; never scary, never a toothy grin",
+      "face": "The Little Skeleton: small toddler-proportioned cute cartoon skeleton with soft rounded ivory-cream toy-like bones (no sharp edges, no realistic anatomy), big round smooth head, large round eye sockets holding big glossy dark-blue eyes with warm white glints, rosy cheek blush, small closed happy smile with no visible teeth, a chunky knitted pumpkin-orange scarf, and a small softly glowing golden heart inside his rounded ribcage; small rounded skeleton hands and feet; never scary, never a toothy grin",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Glimmer": {
+      "role": "Supporting character",
+      "color": "Glimmer: a tiny round chubby firefly with a dark-brown body, big friendly eyes, two little antennae, small translucent wings and a softly glowing lantern-yellow tail",
+      "bodyShape": "Glimmer: a tiny round chubby firefly with a dark-brown body, big friendly eyes, two little antennae, small translucent wings and a softly glowing lantern-yellow tail",
+      "face": "Glimmer: a tiny round chubby firefly with a dark-brown body, big friendly eyes, two little antennae, small translucent wings and a softly glowing lantern-yellow tail",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Hoot": {
+      "role": "Supporting character",
+      "color": "Hoot: a round grandmotherly owl with soft gray-brown and cream feathers, big amber eyes behind tiny round gold-rimmed spectacles, small feathered ear tufts; wings only, no hands",
+      "bodyShape": "Hoot: a round grandmotherly owl with soft gray-brown and cream feathers, big amber eyes behind tiny round gold-rimmed spectacles, small feathered ear tufts; wings only, no hands",
+      "face": "Hoot: a round grandmotherly owl with soft gray-brown and cream feathers, big amber eyes behind tiny round gold-rimmed spectacles, small feathered ear tufts; wings only, no hands",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Dewdrop": {
+      "role": "Supporting character",
+      "color": "Dewdrop: a tiny cream-white baby bunny with one upright ear and one floppy ear, pink nose, pink inner ears, big dark eyes; natural paws only",
+      "bodyShape": "Dewdrop: a tiny cream-white baby bunny with one upright ear and one floppy ear, pink nose, pink inner ears, big dark eyes; natural paws only",
+      "face": "Dewdrop: a tiny cream-white baby bunny with one upright ear and one floppy ear, pink nose, pink inner ears, big dark eyes; natural paws only",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Mae": {
+      "role": "Supporting character; first appears on page 8",
+      "color": "Mae: a sweet five-year-old girl with wavy brown hair, rosy cheeks and big brown eyes, wearing a yellow pointed witch hat with a purple band, a yellow cape over a purple dress, and brown boots",
+      "bodyShape": "Mae: a sweet five-year-old girl with wavy brown hair, rosy cheeks and big brown eyes, wearing a yellow pointed witch hat with a purple band, a yellow cape over a purple dress, and brown boots",
+      "face": "Mae: a sweet five-year-old girl with wavy brown hair, rosy cheeks and big brown eyes, wearing a yellow pointed witch hat with a purple band, a yellow cape over a purple dress, and brown boots",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Halloween village": {
+      "role": "Setting shown on page 1",
+      "color": "Cozy cobbled village lane with cottages, warm golden windows and friendly smiling carved jack-o'-lanterns on every step",
+      "bodyShape": "Cozy cobbled village lane with cottages, warm golden windows and friendly smiling carved jack-o'-lanterns on every step",
+      "face": "Cozy cobbled village lane with cottages, warm golden windows and friendly smiling carved jack-o'-lanterns on every step",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "dinosaur-costume boy": {
+      "role": "Page 5 only",
+      "color": "A small boy about four in a soft green dinosaur costume with a hood",
+      "bodyShape": "A small boy about four in a soft green dinosaur costume with a hood",
+      "face": "A small boy about four in a soft green dinosaur costume with a hood",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "grandma": {
+      "role": "Page 6 only",
+      "color": "A smiling grandma with gray hair in a bun, round glasses and a lavender cardigan",
+      "bodyShape": "A smiling grandma with gray hair in a bun, round glasses and a lavender cardigan",
+      "face": "A smiling grandma with gray hair in a bun, round glasses and a lavender cardigan",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "The Magic Forest beside a sleepy village: tall friendly trees, glowing blue mushrooms, sparkling star-like leaves, a moon pond with lily pads, a little wooden bridge over a brook, a low mossy stone wall at the forest edge, and cottages with warm golden windows on rolling hills.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same style as the library's recent covers), soft rounded forms, reassuring expressions, cozy twilight and moonlight palette of indigo, plum, glowing teal-blue mushrooms, moss green, pumpkin orange and warm gold. Never spooky: no horror treatment, no cobwebs, graves, bats, sharp teeth or dark menace. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text."
+  },
+  "continuityRules": [
+    "The Little Skeleton: small toddler-proportioned cute cartoon skeleton with soft rounded ivory-cream toy-like bones (no sharp edges, no realistic anatomy), big round smooth head, large round eye sockets holding big glossy dark-blue eyes with warm white glints, rosy cheek blush, small closed happy smile with no visible teeth, a chunky knitted pumpkin-orange scarf, and a small softly glowing golden heart inside his rounded ribcage; small rounded skeleton hands and feet; never scary, never a toothy grin",
+    "Glimmer: a tiny round chubby firefly with a dark-brown body, big friendly eyes, two little antennae, small translucent wings and a softly glowing lantern-yellow tail",
+    "Hoot: a round grandmotherly owl with soft gray-brown and cream feathers, big amber eyes behind tiny round gold-rimmed spectacles, small feathered ear tufts; wings only, no hands",
+    "Dewdrop: a tiny cream-white baby bunny with one upright ear and one floppy ear, pink nose, pink inner ears, big dark eyes; natural paws only",
+    "Mae: a sweet five-year-old girl with wavy brown hair, rosy cheeks and big brown eyes, wearing a yellow pointed witch hat with a purple band, a yellow cape over a purple dress, and brown boots",
+    "Cozy cobbled village lane with cottages, warm golden windows and friendly smiling carved jack-o'-lanterns on every step",
+    "A small boy about four in a soft green dinosaur costume with a hood",
+    "A smiling grandma with gray hair in a bun, round glasses and a lavender cardigan",
+    "The Little Skeleton is always cute and friendly with no visible teeth; his golden heart glows softly in every appearance.",
+    "No text, letters or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "It was Halloween evening in the sleepy village, and every window glowed with a smiling pumpkin.",
+      "illustrationScene": "Village lane at dusk, every window and doorstep with a friendly glowing carved pumpkin, warm orange glow, big orange moon.",
+      "requiredCharacters": [
+        "Halloween village"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Up in the Magic Forest, the Little Skeleton tied his orange scarf. Tonight he was going trick-or-treating!",
+      "illustrationScene": "The Little Skeleton ties his orange scarf, excited grin, glowing blue mushrooms around him, holding a small pumpkin treat basket.",
+      "requiredCharacters": [
+        "Little Skeleton"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "Glimmer the firefly lit the way, and Dewdrop the bunny hopped along with a little basket.",
+      "illustrationScene": "The Little Skeleton, Glimmer and Dewdrop (with a tiny woven basket) head down the forest path toward the village lights.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Glimmer",
+        "Dewdrop"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Hoot the owl flew above them. Remember, she hooted, say please and thank you at every door.",
+      "illustrationScene": "Hoot glides above with wings wide, the moon behind her; the Little Skeleton, Glimmer and Dewdrop look up and nod.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Glimmer",
+        "Dewdrop",
+        "Hoot"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "At the first house, a boy in a dinosaur costume opened the door. Trick or treat! they sang.",
+      "illustrationScene": "A cottage doorway: a small boy in a green dinosaur costume opens the door; the Little Skeleton and Dewdrop sing on the doorstep, Glimmer glowing.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Dewdrop",
+        "Glimmer",
+        "dinosaur-costume boy"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "What a wonderful skeleton costume! said the boy's grandma, and she gave him a shiny red apple.",
+      "illustrationScene": "A smiling grandma in a cardigan places a shiny red apple in the Little Skeleton's pumpkin basket; he looks pleased and a bit bashful.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "grandma"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "The Little Skeleton giggled. Clickety-clack went his bones, and the pumpkins seemed to smile back.",
+      "illustrationScene": "The Little Skeleton giggles with a happy little hop on the lane; nearby jack-o'-lanterns grin wider.",
+      "requiredCharacters": [
+        "Little Skeleton"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Down the lane, a little girl named Mae sat on her front step. But her lantern had gone out.",
+      "illustrationScene": "Mae sits on her front step holding a paper lantern that is clearly dark and unlit; the Little Skeleton approaches down the lane.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Mae"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "The lane feels too dark without it, Mae whispered, hugging her knees.",
+      "illustrationScene": "Close on Mae looking a little sad on her step, her lantern dark and unlit beside her; the Little Skeleton kneels gently beside her.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Mae"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Then the Little Skeleton's golden heart began to glow, warm and bright like a little nightlight.",
+      "illustrationScene": "The Little Skeleton's heart glows bright gold, lighting up both his and Mae's faces; Mae's eyes go wide with wonder; her lantern is still unlit.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Mae"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Glimmer and her firefly cousins came too, and the whole lane twinkled with soft golden light.",
+      "illustrationScene": "Dozens of fireflies swirl down the lane like fairy lights; Mae and the Little Skeleton smile; Dewdrop and Hoot watch from a fence.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Mae",
+        "Glimmer",
+        "Dewdrop",
+        "Hoot"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Mae smiled. Thank you! she said, and she gave him her very best treat, a star-shaped cookie.",
+      "illustrationScene": "Mae hands the Little Skeleton a big star-shaped cookie with yellow icing; both smiling warmly on her doorstep.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Mae"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "The Little Skeleton shared his treats with his friends: one for Glimmer, Dewdrop, and Hoot too.",
+      "illustrationScene": "Sitting on a low garden wall, the Little Skeleton hands an apple slice to Dewdrop, a crumb to Glimmer and a berry to Hoot.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Glimmer",
+        "Dewdrop",
+        "Hoot"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "They waved goodbye to Mae and walked home beneath the big round orange moon.",
+      "illustrationScene": "The friends walk up the hill toward the forest under a big orange moon, Mae waving from her glowing doorway far behind.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Glimmer",
+        "Dewdrop",
+        "Hoot",
+        "Mae"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "In his mossy bed, he tucked the star cookie by his pillow, whispered happy Halloween, and drifted off to sleep.",
+      "illustrationScene": "Sleepy ending: the Little Skeleton asleep on soft moss, star cookie beside his pillow, heart glowing softly, friends dozing around him.",
+      "requiredCharacters": [
+        "Little Skeleton",
+        "Glimmer",
+        "Dewdrop",
+        "Hoot"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail ground, path, moss, grass or cobblestones, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

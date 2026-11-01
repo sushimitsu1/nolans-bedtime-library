@@ -1,0 +1,1015 @@
+{
+  "storySlug": "the-little-skeleton-goes-trick-or-treating",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-01.png",
+      "text": "It was Halloween evening in the sleepy village, and every window glowed with a smiling pumpkin.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Halloween village",
+          "box": [
+            0,
+            0,
+            1448,
+            720
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-02.png",
+      "text": "Up in the Magic Forest, the Little Skeleton tied his orange scarf. Tonight he was going trick-or-treating!",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            591,
+            28,
+            973,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-03.png",
+      "text": "Glimmer the firefly lit the way, and Dewdrop the bunny hopped along with a little basket.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            492,
+            96,
+            834,
+            732
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            809,
+            322,
+            1011,
+            696
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            339,
+            304,
+            441,
+            431
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-04.png",
+      "text": "Hoot the owl flew above them. Remember, she hooted, say please and thank you at every door.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            639,
+            141,
+            945,
+            742
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            940,
+            354,
+            1159,
+            728
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            226,
+            85,
+            601,
+            370
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            375,
+            455,
+            587,
+            667
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-05.png",
+      "text": "At the first house, a boy in a dinosaur costume opened the door. Trick or treat! they sang.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            718,
+            134,
+            1011,
+            735
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            978,
+            421,
+            1188,
+            738
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            1131,
+            568,
+            1195,
+            665
+          ]
+        },
+        {
+          "label": "dinosaur-costume boy",
+          "box": [
+            361,
+            78,
+            728,
+            667
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-06.png",
+      "text": "What a wonderful skeleton costume! said the boy's grandma, and she gave him a shiny red apple.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            421,
+            124,
+            690,
+            752
+          ]
+        },
+        {
+          "label": "grandma",
+          "box": [
+            693,
+            0,
+            1176,
+            749
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-07.png",
+      "text": "The Little Skeleton giggled. Clickety-clack went his bones, and the pumpkins seemed to smile back.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            509,
+            74,
+            973,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-08.png",
+      "text": "Down the lane, a little girl named Mae sat on her front step. But her lantern had gone out.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            764,
+            134,
+            1068,
+            742
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            191,
+            71,
+            566,
+            714
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-09.png",
+      "text": "The lane feels too dark without it, Mae whispered, hugging her knees.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            803,
+            64,
+            1181,
+            749
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            226,
+            0,
+            728,
+            752
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-10.png",
+      "text": "Then the Little Skeleton's golden heart began to glow, warm and bright like a little nightlight.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            693,
+            144,
+            1068,
+            700
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            215,
+            82,
+            591,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-11.png",
+      "text": "Glimmer and her firefly cousins came too, and the whole lane twinkled with soft golden light.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            707,
+            49,
+            979,
+            591
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            370,
+            25,
+            665,
+            594
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            85,
+            124,
+            304,
+            379
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            266,
+            173,
+            389,
+            431
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            714,
+            474,
+            771,
+            526
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-12.png",
+      "text": "Mae smiled. Thank you! she said, and she gave him her very best treat, a star-shaped cookie.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            693,
+            127,
+            1082,
+            742
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            226,
+            64,
+            735,
+            714
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-13.png",
+      "text": "The Little Skeleton shared his treats with his friends: one for Glimmer, Dewdrop, and Hoot too.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            502,
+            49,
+            962,
+            747
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            181,
+            68,
+            587,
+            393
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            891,
+            209,
+            1202,
+            597
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            325,
+            382,
+            537,
+            591
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-14.png",
+      "text": "They waved goodbye to Mae and walked home beneath the big round orange moon.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            601,
+            205,
+            884,
+            639
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            382,
+            335,
+            559,
+            667
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            212,
+            417,
+            370,
+            580
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            120,
+            120,
+            393,
+            346
+          ]
+        },
+        {
+          "label": "Mae",
+          "box": [
+            1077,
+            205,
+            1181,
+            375
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-goes-trick-or-treating/staging/the-little-skeleton-goes-trick-or-treating/illustrations/page-15.png",
+      "text": "In his mossy bed, he tucked the star cookie by his pillow, whispered happy Halloween, and drifted off to sleep.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            492,
+            247,
+            919,
+            615
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            714,
+            460,
+            919,
+            611
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            318,
+            68,
+            509,
+            271
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            544,
+            219,
+            619,
+            286
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

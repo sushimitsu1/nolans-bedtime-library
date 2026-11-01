@@ -1,0 +1,10 @@
+{
+  "story": "passed",
+  "text": "passed",
+  "narration": "passed; story.json = narration.json = app narration; Sulafat MP3s (en-US-Chirp3-HD-Sulafat) via narrate_google.mjs",
+  "assets": "passed",
+  "app": "passed; expected increase 1; unrelated records unchanged",
+  "composition": "passed; 15 pages individually reviewed; all subjects above y=760",
+  "sourceArt": "16:9 raw art reframed to 1448x1086 (see visual-review safeZoneNotes); cover is a native 4:3 image with the title painted in",
+  "cache": "v144"
+}

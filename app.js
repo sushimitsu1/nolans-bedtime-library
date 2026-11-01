@@ -3314,6 +3314,63 @@ narration: [
     "He curled up on a soft bed of moss, his heart glowing warm, and drifted off to sleep beneath the stars."
   ]
 },
+{
+  "id": "the-little-skeleton-goes-trick-or-treating",
+  "title": "The Little Skeleton Goes Trick-or-Treating",
+  "category": "Little Skeleton",
+  "description": "On Halloween the Little Skeleton goes trick-or-treating with his forest friends, and his glowing heart lights Mae's dark lane.",
+  "keywords": [
+    "little skeleton",
+    "skeleton",
+    "halloween",
+    "trick or treat",
+    "pumpkin",
+    "mae",
+    "firefly",
+    "glimmer",
+    "owl",
+    "hoot",
+    "bunny",
+    "dewdrop",
+    "kindness",
+    "goodnight"
+  ],
+  "cover": "assets/books/the-little-skeleton-goes-trick-or-treating/cover.webp",
+  "pages": [
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-01.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-02.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-03.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-04.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-05.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-06.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-07.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-08.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-09.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-10.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-11.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-12.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-13.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-14.webp",
+    "assets/books/the-little-skeleton-goes-trick-or-treating/page-15.webp"
+  ],
+  "narration": [
+    "It was Halloween evening in the sleepy village, and every window glowed with a smiling pumpkin.",
+    "Up in the Magic Forest, the Little Skeleton tied his orange scarf. Tonight he was going trick-or-treating!",
+    "Glimmer the firefly lit the way, and Dewdrop the bunny hopped along with a little basket.",
+    "Hoot the owl flew above them. Remember, she hooted, say please and thank you at every door.",
+    "At the first house, a boy in a dinosaur costume opened the door. Trick or treat! they sang.",
+    "What a wonderful skeleton costume! said the boy's grandma, and she gave him a shiny red apple.",
+    "The Little Skeleton giggled. Clickety-clack went his bones, and the pumpkins seemed to smile back.",
+    "Down the lane, a little girl named Mae sat on her front step. But her lantern had gone out.",
+    "The lane feels too dark without it, Mae whispered, hugging her knees.",
+    "Then the Little Skeleton's golden heart began to glow, warm and bright like a little nightlight.",
+    "Glimmer and her firefly cousins came too, and the whole lane twinkled with soft golden light.",
+    "Mae smiled. Thank you! she said, and she gave him her very best treat, a star-shaped cookie.",
+    "The Little Skeleton shared his treats with his friends: one for Glimmer, Dewdrop, and Hoot too.",
+    "They waved goodbye to Mae and walked home beneath the big round orange moon.",
+    "In his mossy bed, he tucked the star cookie by his pillow, whispered happy Halloween, and drifted off to sleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
