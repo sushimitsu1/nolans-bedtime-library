@@ -1,0 +1,38 @@
+{
+  "storySlug": "the-little-skeleton-turns-into-a-boy",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "Third of the three original Little Skeleton stories. Art made with the built-in image tool from the user-approved character sheet and samples; the boy (pages 11-15) is unnamed, as requested. Title painted into the cover. Text approved by the user; small validator-driven wording tweaks on pages 1, 2 and 14."
+}

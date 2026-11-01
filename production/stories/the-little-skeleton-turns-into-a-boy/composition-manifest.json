@@ -1,0 +1,1024 @@
+{
+  "storySlug": "the-little-skeleton-turns-into-a-boy",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-01.png",
+      "text": "One evening, autumn leaves were falling in the Magic Forest, and the Little Skeleton watched the village lights.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            770,
+            80,
+            1075,
+            648
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-02.png",
+      "text": "He thought of Mae and the Halloween children. I wish I could play with them every day, he sighed, but I'm a skeleton.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            608,
+            240,
+            834,
+            679
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-03.png",
+      "text": "Hoot ruffled her feathers. Deep in the forest grows the Wishing Tree, she said. It listens to kind hearts.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            421,
+            40,
+            834,
+            752
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            785,
+            243,
+            1117,
+            554
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-04.png",
+      "text": "So the Little Skeleton, Glimmer and Dewdrop set off along the path of glowing mushrooms.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            667,
+            85,
+            926,
+            594
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            901,
+            226,
+            1103,
+            566
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            335,
+            71,
+            632,
+            305
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            431,
+            346,
+            608,
+            526
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-05.png",
+      "text": "They crossed a little bridge over a giggling brook. Clickety-clack went his feet on the boards.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            605,
+            95,
+            848,
+            580
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            831,
+            259,
+            1032,
+            570
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            403,
+            297,
+            561,
+            452
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-06.png",
+      "text": "At last they found the Wishing Tree, its silver leaves shimmering like moonlight on water.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            283,
+            424,
+            424,
+            724
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            424,
+            520,
+            551,
+            714
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            382,
+            314,
+            544,
+            441
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            124,
+            512,
+            247,
+            629
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            580,
+            0,
+            1448,
+            707
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-07.png",
+      "text": "The Little Skeleton touched the bark gently. Please, he whispered, I wish I could be a real boy.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            431,
+            82,
+            827,
+            747
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            328,
+            301,
+            474,
+            450
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            707,
+            0,
+            1448,
+            749
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-08.png",
+      "text": "The leaves rustled softly. Every kind thing you have done, said the tree, I have kept in my branches.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            247,
+            403,
+            441,
+            731
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            421,
+            519,
+            540,
+            717
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            471,
+            431,
+            591,
+            587
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            594,
+            141,
+            1075,
+            707
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-09.png",
+      "text": "Shining pictures glowed in its leaves: helping Dewdrop home, lighting Mae's lane, and sharing his treats.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            403,
+            342,
+            601,
+            740
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            580,
+            0,
+            1448,
+            707
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-10.png",
+      "text": "Then a swirl of golden sparkles danced around him, soft and warm like a hug.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            530,
+            382,
+            764,
+            735
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            222,
+            452,
+            385,
+            714
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            361,
+            509,
+            495,
+            693
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            396,
+            424,
+            433,
+            467
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-11.png",
+      "text": "When the sparkles settled, there stood a little boy with rosy cheeks, curly hair and the same orange scarf.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            498,
+            89,
+            990,
+            742
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-12.png",
+      "text": "He wiggled his fingers and touched his warm cheeks. Inside, his golden heart still glowed, just as before.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            566,
+            96,
+            891,
+            742
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-13.png",
+      "text": "Glimmer twinkled and Dewdrop hopped for joy. Of course you are still you, said wise old Hoot.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            535,
+            158,
+            962,
+            742
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            280,
+            320,
+            512,
+            660
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            962,
+            322,
+            1135,
+            537
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            509,
+            238,
+            568,
+            318
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-14.png",
+      "text": "Tomorrow you can play in the village together, she said, and come home to the forest whenever you like.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            667,
+            102,
+            993,
+            696
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            370,
+            314,
+            655,
+            632
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            602,
+            462,
+            707,
+            575
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            940,
+            266,
+            1174,
+            591
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-turns-into-a-boy/staging/the-little-skeleton-turns-into-a-boy/illustrations/page-15.png",
+      "text": "That night the little boy snuggled under a soft leaf blanket, his friends close by, and drifted off to sleep.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            481,
+            219,
+            855,
+            622
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            764,
+            410,
+            969,
+            618
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            846,
+            68,
+            1096,
+            351
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            789,
+            226,
+            831,
+            276
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

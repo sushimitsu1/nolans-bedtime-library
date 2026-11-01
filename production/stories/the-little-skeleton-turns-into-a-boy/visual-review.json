@@ -1,0 +1,696 @@
+{
+  "storySlug": "the-little-skeleton-turns-into-a-boy",
+  "measurementMethod": "Individual visual inspection of each 1448x1086 source on a 100px grid. Approximate, not segmentation.",
+  "safeZoneNotes": "Raw art generated 16:9 with the built-in image tool, then reframed to 4:3: up to 40 rows of sky trimmed from the top, scaled to 1448 wide and anchored at the top; the rows under the caption panel are a soft blurred, dimmed mirror of the foreground. All character bounds above y=760.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            770,
+            80,
+            1075,
+            648
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 59.67,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=648 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            608,
+            240,
+            834,
+            679
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 62.52,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            421,
+            40,
+            834,
+            752
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            785,
+            243,
+            1117,
+            554
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.24,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=752 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            667,
+            85,
+            926,
+            594
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            901,
+            226,
+            1103,
+            566
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            335,
+            71,
+            632,
+            305
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            431,
+            346,
+            608,
+            526
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 54.7,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=594 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            605,
+            95,
+            848,
+            580
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            831,
+            259,
+            1032,
+            570
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            403,
+            297,
+            561,
+            452
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 53.41,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=580 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            283,
+            424,
+            424,
+            724
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            424,
+            520,
+            551,
+            714
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            382,
+            314,
+            544,
+            441
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            124,
+            512,
+            247,
+            629
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            580,
+            0,
+            1448,
+            707
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 66.67,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=724 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            431,
+            82,
+            827,
+            747
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            328,
+            301,
+            474,
+            450
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            707,
+            0,
+            1448,
+            749
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.97,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=749 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            247,
+            403,
+            441,
+            731
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            421,
+            519,
+            540,
+            717
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            471,
+            431,
+            591,
+            587
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            594,
+            141,
+            1075,
+            707
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.31,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=731 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            403,
+            342,
+            601,
+            740
+          ]
+        },
+        {
+          "label": "Wishing Tree",
+          "box": [
+            580,
+            0,
+            1448,
+            707
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.14,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=740 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            530,
+            382,
+            764,
+            735
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            222,
+            452,
+            385,
+            714
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            361,
+            509,
+            495,
+            693
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            396,
+            424,
+            433,
+            467
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.68,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=735 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            498,
+            89,
+            990,
+            742
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.32,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=742 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            566,
+            96,
+            891,
+            742
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.32,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=742 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            535,
+            158,
+            962,
+            742
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            280,
+            320,
+            512,
+            660
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            962,
+            322,
+            1135,
+            537
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            509,
+            238,
+            568,
+            318
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.32,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=742 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            667,
+            102,
+            993,
+            696
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            370,
+            314,
+            655,
+            632
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            602,
+            462,
+            707,
+            575
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            940,
+            266,
+            1174,
+            591
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.09,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=696 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "boy",
+          "box": [
+            481,
+            219,
+            855,
+            622
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            764,
+            410,
+            969,
+            618
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            846,
+            68,
+            1096,
+            351
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            789,
+            226,
+            831,
+            276
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.27,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds on a 100px grid of the 1448x1086 source; lowest character pixel y=622 stays above the y=760 safe zone and the y=790 cream panel."
+    }
+  ]
+}

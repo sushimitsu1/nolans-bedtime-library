@@ -3371,6 +3371,64 @@ narration: [
     "In his mossy bed, he tucked the star cookie by his pillow, whispered happy Halloween, and drifted off to sleep."
   ]
 },
+{
+  "id": "the-little-skeleton-turns-into-a-boy",
+  "title": "The Little Skeleton Turns Into a Boy",
+  "category": "Little Skeleton",
+  "description": "The Little Skeleton visits the Wishing Tree, which remembers every kind thing he has done and gently turns him into a real boy with the same glowing heart.",
+  "keywords": [
+    "little skeleton",
+    "skeleton",
+    "boy",
+    "wishing tree",
+    "wish",
+    "magic forest",
+    "kindness",
+    "firefly",
+    "glimmer",
+    "owl",
+    "hoot",
+    "bunny",
+    "dewdrop",
+    "autumn",
+    "goodnight"
+  ],
+  "cover": "assets/books/the-little-skeleton-turns-into-a-boy/cover.webp",
+  "pages": [
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-01.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-02.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-03.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-04.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-05.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-06.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-07.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-08.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-09.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-10.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-11.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-12.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-13.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-14.webp",
+    "assets/books/the-little-skeleton-turns-into-a-boy/page-15.webp"
+  ],
+  "narration": [
+    "One evening, autumn leaves were falling in the Magic Forest, and the Little Skeleton watched the village lights.",
+    "He thought of Mae and the Halloween children. I wish I could play with them every day, he sighed, but I'm a skeleton.",
+    "Hoot ruffled her feathers. Deep in the forest grows the Wishing Tree, she said. It listens to kind hearts.",
+    "So the Little Skeleton, Glimmer and Dewdrop set off along the path of glowing mushrooms.",
+    "They crossed a little bridge over a giggling brook. Clickety-clack went his feet on the boards.",
+    "At last they found the Wishing Tree, its silver leaves shimmering like moonlight on water.",
+    "The Little Skeleton touched the bark gently. Please, he whispered, I wish I could be a real boy.",
+    "The leaves rustled softly. Every kind thing you have done, said the tree, I have kept in my branches.",
+    "Shining pictures glowed in its leaves: helping Dewdrop home, lighting Mae's lane, and sharing his treats.",
+    "Then a swirl of golden sparkles danced around him, soft and warm like a hug.",
+    "When the sparkles settled, there stood a little boy with rosy cheeks, curly hair and the same orange scarf.",
+    "He wiggled his fingers and touched his warm cheeks. Inside, his golden heart still glowed, just as before.",
+    "Glimmer twinkled and Dewdrop hopped for joy. Of course you are still you, said wise old Hoot.",
+    "Tomorrow you can play in the village together, she said, and come home to the forest whenever you like.",
+    "That night the little boy snuggled under a soft leaf blanket, his friends close by, and drifted off to sleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
