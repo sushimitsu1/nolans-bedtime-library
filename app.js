@@ -3259,6 +3259,61 @@ narration: [
     "Goodnight, moon-smooth rink, murmured Fennel. Everything was ready for a gentle morning."
   ]
 },
+{
+  "id": "the-little-skeleton-and-the-magic-forest",
+  "title": "The Little Skeleton and the Magic Forest",
+  "category": "Little Skeleton",
+  "description": "A kind little skeleton follows a firefly into the glowing Magic Forest, makes new friends, and lights a lost bunny's way home.",
+  "keywords": [
+    "little skeleton",
+    "skeleton",
+    "magic forest",
+    "firefly",
+    "glimmer",
+    "owl",
+    "hoot",
+    "bunny",
+    "dewdrop",
+    "kindness",
+    "friends",
+    "goodnight"
+  ],
+  "cover": "assets/books/the-little-skeleton-and-the-magic-forest/cover.webp",
+  "pages": [
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-01.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-02.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-03.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-04.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-05.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-06.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-07.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-08.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-09.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-10.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-11.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-12.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-13.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-14.webp",
+    "assets/books/the-little-skeleton-and-the-magic-forest/page-15.webp"
+  ],
+  "narration": [
+    "At the edge of a sleepy village, on a soft green hill, lived the Little Skeleton.",
+    "He had a round smiley head, a cozy orange scarf, and a tiny golden heart that glowed.",
+    "Every night he rattled softly, clickety-clack, but he had no friend to share the stars with.",
+    "One evening, a firefly named Glimmer blinked beside him. Follow me, she twinkled, to the Magic Forest!",
+    "Clickety-clack went his feet as they tiptoed past the old stone wall and into the trees.",
+    "The Magic Forest was full of wonders. Mushrooms glowed blue, and the leaves sparkled like tiny stars.",
+    "A wise old owl named Hoot peeked down from her branch. Who-who is this new friend? she hooted.",
+    "The Little Skeleton waved shyly. I'm the Little Skeleton, he said. I hope I'm not too rattly.",
+    "Hoot smiled. In the Magic Forest, everyone is welcome, rattles and all.",
+    "Down by the moon pond, a baby bunny named Dewdrop was crying. She had lost her way home.",
+    "The Little Skeleton's golden heart glowed brighter, lighting the path like a gentle lantern.",
+    "Together they followed the glowing mushrooms until they found Dewdrop's cozy burrow under the roots.",
+    "Thank you, said Dewdrop's mama. A heart that glows like yours is a very special thing.",
+    "Glimmer, Hoot and Dewdrop gathered close, and the Little Skeleton wasn't lonely anymore.",
+    "He curled up on a soft bed of moss, his heart glowing warm, and drifted off to sleep beneath the stars."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
@@ -4008,6 +4063,11 @@ cityServiceCategoryTab.className = 'category-tab';
 cityServiceCategoryTab.dataset.category = 'City Service Vehicles';
 cityServiceCategoryTab.textContent = 'City Service Vehicles';
 document.querySelector('.category-tabs').insertBefore(cityServiceCategoryTab, document.querySelector('[data-category="favorites"]'));
+const littleSkeletonCategoryTab = document.createElement('button');
+littleSkeletonCategoryTab.className = 'category-tab';
+littleSkeletonCategoryTab.dataset.category = 'Little Skeleton';
+littleSkeletonCategoryTab.textContent = 'Little Skeleton';
+document.querySelector('.category-tabs').insertBefore(littleSkeletonCategoryTab, document.querySelector('[data-category="favorites"]'));
 document.querySelectorAll('.category-tab').forEach(tab=>tab.addEventListener('click',()=>{
   selectedCategory=tab.dataset.category;
   document.querySelectorAll('.category-tab').forEach(item=>item.classList.toggle('selected',item===tab));

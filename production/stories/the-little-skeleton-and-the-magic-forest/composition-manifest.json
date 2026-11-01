@@ -1,0 +1,970 @@
+{
+  "storySlug": "the-little-skeleton-and-the-magic-forest",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-01.png",
+      "text": "At the edge of a sleepy village, on a soft green hill, lived the Little Skeleton.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            365,
+            70,
+            822,
+            730
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-02.png",
+      "text": "He had a round smiley head, a cozy orange scarf, and a tiny golden heart that glowed.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            488,
+            88,
+            870,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-03.png",
+      "text": "Every night he rattled softly, clickety-clack, but he had no friend to share the stars with.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            315,
+            95,
+            725,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-04.png",
+      "text": "One evening, a firefly named Glimmer blinked beside him. Follow me, she twinkled, to the Magic Forest!",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            481,
+            21,
+            813,
+            749
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            834,
+            167,
+            1032,
+            375
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-05.png",
+      "text": "Clickety-clack went his feet as they tiptoed past the old stone wall and into the trees.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            618,
+            64,
+            1007,
+            742
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            400,
+            441,
+            551,
+            625
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-06.png",
+      "text": "The Magic Forest was full of wonders. Mushrooms glowed blue, and the leaves sparkled like tiny stars.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            441,
+            49,
+            870,
+            750
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            862,
+            311,
+            990,
+            470
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-07.png",
+      "text": "A wise old owl named Hoot peeked down from her branch. Who-who is this new friend? she hooted.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            403,
+            212,
+            672,
+            750
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            686,
+            396,
+            775,
+            502
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            919,
+            7,
+            1216,
+            297
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-08.png",
+      "text": "The Little Skeleton waved shyly. I'm the Little Skeleton, he said. I hope I'm not too rattly.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            396,
+            124,
+            820,
+            750
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            389,
+            360,
+            495,
+            474
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            898,
+            0,
+            1181,
+            311
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-09.png",
+      "text": "Hoot smiled. In the Magic Forest, everyone is welcome, rattles and all.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            665,
+            134,
+            1046,
+            710
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            601,
+            368,
+            679,
+            455
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            240,
+            92,
+            665,
+            467
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-10.png",
+      "text": "Down by the moon pond, a baby bunny named Dewdrop was crying. She had lost her way home.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            735,
+            78,
+            1068,
+            747
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            481,
+            361,
+            735,
+            665
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            1138,
+            59,
+            1343,
+            304
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            1046,
+            375,
+            1117,
+            452
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-11.png",
+      "text": "The Little Skeleton's golden heart glowed brighter, lighting the path like a gentle lantern.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            460,
+            25,
+            799,
+            747
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            792,
+            290,
+            1061,
+            714
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-12.png",
+      "text": "Together they followed the glowing mushrooms until they found Dewdrop's cozy burrow under the roots.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            591,
+            139,
+            905,
+            738
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            870,
+            361,
+            1106,
+            718
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            332,
+            460,
+            537,
+            667
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            198,
+            78,
+            573,
+            370
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-13.png",
+      "text": "Thank you, said Dewdrop's mama. A heart that glows like yours is a very special thing.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            778,
+            134,
+            1089,
+            747
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            566,
+            354,
+            778,
+            714
+          ]
+        },
+        {
+          "label": "Dewdrop's mama",
+          "box": [
+            297,
+            35,
+            735,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-14.png",
+      "text": "Glimmer, Hoot and Dewdrop gathered close, and the Little Skeleton wasn't lonely anymore.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            424,
+            0,
+            849,
+            755
+          ]
+        },
+        {
+          "label": "Dewdrop",
+          "box": [
+            382,
+            232,
+            608,
+            579
+          ]
+        },
+        {
+          "label": "Hoot",
+          "box": [
+            841,
+            258,
+            1117,
+            572
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            361,
+            116,
+            488,
+            272
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/the-little-skeleton-and-the-magic-forest/staging/the-little-skeleton-and-the-magic-forest/illustrations/page-15.png",
+      "text": "He curled up on a soft bed of moss, his heart glowing warm, and drifted off to sleep beneath the stars.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Little Skeleton",
+          "box": [
+            488,
+            238,
+            947,
+            601
+          ]
+        },
+        {
+          "label": "Glimmer",
+          "box": [
+            870,
+            506,
+            959,
+            594
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

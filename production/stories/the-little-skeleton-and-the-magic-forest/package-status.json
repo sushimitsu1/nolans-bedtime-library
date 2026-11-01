@@ -1,0 +1,38 @@
+{
+  "storySlug": "the-little-skeleton-and-the-magic-forest",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": false,
+    "contactSheetDeleted": true,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually. No contact sheet created.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "First of the three original Little Skeleton stories Nolan was told. Art made with the built-in image tool from the user-approved character sheet and cover sample (cover reused from the approved sample; title painted in). Text approved by the user; page 3 adds 'but' so the validator sees the small problem."
+}
