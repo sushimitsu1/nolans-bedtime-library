@@ -1,0 +1,988 @@
+{
+  "storySlug": "pia-the-paver-and-the-night-road-crew",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-01.png",
+      "text": "Once upon a time, in a quiet little town, Pia the paver lived in the road crew garage with her friends.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            113,
+            127,
+            509,
+            622
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            489,
+            156,
+            991,
+            686
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            975,
+            199,
+            1358,
+            686
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-02.png",
+      "text": "Every evening, when the town went to sleep, the night road crew rolled out to work. Tonight was a big job.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            63,
+            262,
+            466,
+            692
+          ]
+        },
+        {
+          "label": "Duke",
+          "box": [
+            459,
+            199,
+            991,
+            665
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            785,
+            190,
+            1337,
+            735
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-03.png",
+      "text": "Main Street was old and cracked and full of bumps. The town needs a fresh new road by morning, said Pia.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pia",
+          "box": [
+            425,
+            57,
+            982,
+            566
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-04.png",
+      "text": "Duke the dump truck rumbled up with a load of warm, black road mix. Rolo the steamroller rolled along behind.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pia",
+          "box": [
+            43,
+            183,
+            552,
+            665
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            545,
+            226,
+            885,
+            643
+          ]
+        },
+        {
+          "label": "Duke",
+          "box": [
+            805,
+            156,
+            1371,
+            643
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-05.png",
+      "text": "Click, click! Bright work lights glowed on tall stands, and the sleeping street turned golden.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            380,
+            93,
+            692,
+            389
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            609,
+            143,
+            869,
+            425
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            885,
+            163,
+            1081,
+            425
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-06.png",
+      "text": "Duke tipped his bed, and the warm road mix slid into Pia's big front hopper with a soft whoosh.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            36,
+            120,
+            905,
+            679
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            812,
+            190,
+            1378,
+            699
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-07.png",
+      "text": "Pia rolled forward slow and steady. Out of her back came a wide, flat ribbon of brand-new road.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pia",
+          "box": [
+            482,
+            43,
+            1251,
+            552
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-08.png",
+      "text": "Behind her came Rolo. Squish, press, smooth! He made the new road flat and firm.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            319,
+            93,
+            799,
+            615
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            735,
+            86,
+            1152,
+            529
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-09.png",
+      "text": "Shh, said Pia. We have to work softly so we don't wake the town. Everyone tiptoed on their tires.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Pia",
+          "box": [
+            7,
+            133,
+            609,
+            708
+          ]
+        },
+        {
+          "label": "Duke",
+          "box": [
+            552,
+            127,
+            1088,
+            629
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            1061,
+            183,
+            1407,
+            643
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-10.png",
+      "text": "A little cat watched from a windowsill as the crew worked together under the stars.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Cat",
+          "box": [
+            20,
+            132,
+            382,
+            747
+          ]
+        },
+        {
+          "label": "Duke",
+          "box": [
+            529,
+            39,
+            948,
+            385
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            765,
+            95,
+            1138,
+            485
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            1111,
+            132,
+            1364,
+            485
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-11.png",
+      "text": "Block by block, the old bumpy road disappeared, and a shiny new road stretched down Main Street.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            346,
+            93,
+            699,
+            389
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            563,
+            111,
+            878,
+            421
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            862,
+            133,
+            1086,
+            416
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-12.png",
+      "text": "Duke rolled the last load to the very end of the street, and Pia laid the final stretch.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            93,
+            29,
+            862,
+            636
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            566,
+            133,
+            1188,
+            692
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-13.png",
+      "text": "Rolo gave one last careful roll. The road is ready, whispered Pia, and the crew beamed in the glow.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            143,
+            50,
+            629,
+            559
+          ]
+        },
+        {
+          "label": "Duke",
+          "box": [
+            672,
+            70,
+            1118,
+            416
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            968,
+            93,
+            1364,
+            459
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-14.png",
+      "text": "Click, click, off went the work lights. Pink morning light peeked over the rooftops as the town began to wake.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            77,
+            143,
+            715,
+            636
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            459,
+            170,
+            1011,
+            692
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            998,
+            213,
+            1387,
+            692
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/pia-the-paver-and-the-night-road-crew/staging/pia-the-paver-and-the-night-road-crew/illustrations/page-15.png",
+      "text": "The night road crew rolled home to their garage, yawned big yawns and fell fast asleep. Goodnight, new road!",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Duke",
+          "box": [
+            63,
+            176,
+            699,
+            665
+          ]
+        },
+        {
+          "label": "Pia",
+          "box": [
+            432,
+            176,
+            1005,
+            722
+          ]
+        },
+        {
+          "label": "Rolo",
+          "box": [
+            998,
+            219,
+            1378,
+            722
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

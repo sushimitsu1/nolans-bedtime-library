@@ -1,0 +1,224 @@
+{
+  "title": "Pia the Paver and the Night Road Crew",
+  "slug": "pia-the-paver-and-the-night-road-crew",
+  "category": "Construction Vehicles",
+  "description": "While the town sleeps, Pia the paver and her night road crew, Duke the dump truck and Rolo the steamroller, lay a fresh, smooth new road under bright work lights, working softly so no one wakes.",
+  "characterBible": {
+    "Pia": {
+      "role": "Main character, an asphalt paver",
+      "color": "Pia: a friendly cartoon asphalt paver machine, low and wide, glossy plum-purple body with sunny-yellow trim, a wide open hopper bin at the front, chunky black crawler tracks, a small yellow canopy roof on top, a wide flat smoothing plate at the back; her face is on the front: two big friendly amber eyes in a small front windshield panel and a smiling mouth on the front panel above the hopper; a small orange beacon light; tracks only, no arms, hands or legs",
+      "bodyShape": "Pia: a friendly cartoon asphalt paver machine, low and wide, glossy plum-purple body with sunny-yellow trim, a wide open hopper bin at the front, chunky black crawler tracks, a small yellow canopy roof on top, a wide flat smoothing plate at the back; her face is on the front: two big friendly amber eyes in a small front windshield panel and a smiling mouth on the front panel above the hopper; a small orange beacon light; tracks only, no arms, hands or legs",
+      "face": "Pia: a friendly cartoon asphalt paver machine, low and wide, glossy plum-purple body with sunny-yellow trim, a wide open hopper bin at the front, chunky black crawler tracks, a small yellow canopy roof on top, a wide flat smoothing plate at the back; her face is on the front: two big friendly amber eyes in a small front windshield panel and a smiling mouth on the front panel above the hopper; a small orange beacon light; tracks only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Duke": {
+      "role": "Crew member, a dump truck",
+      "color": "Duke: a big friendly cartoon dump truck, fire-engine-red cab and gray dump bed, big black wheels, big kind brown eyes in the windshield, a wide smiling silver grille mouth, amber roof lights; wheels only, no arms, hands or legs",
+      "bodyShape": "Duke: a big friendly cartoon dump truck, fire-engine-red cab and gray dump bed, big black wheels, big kind brown eyes in the windshield, a wide smiling silver grille mouth, amber roof lights; wheels only, no arms, hands or legs",
+      "face": "Duke: a big friendly cartoon dump truck, fire-engine-red cab and gray dump bed, big black wheels, big kind brown eyes in the windshield, a wide smiling silver grille mouth, amber roof lights; wheels only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Rolo": {
+      "role": "Crew member, a steamroller (from Rolo the Steamroller)",
+      "color": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "bodyShape": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "face": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Cat": {
+      "role": "A little cat in a window (page 10 only)",
+      "color": "a small fluffy gray cat with white paws",
+      "bodyShape": "a small fluffy gray cat with white paws",
+      "face": "a small fluffy gray cat with white paws",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A quiet little town at night: a long main street lined with cozy shuttered shops and houses with dark sleeping windows, old street lamps, a road crew garage, bright work lights on tall stands making golden pools of light, fresh black road and a big starry sky, then a soft pink dawn.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent vehicle books like Gavin the Garbage Truck), friendly vehicles with big expressive eyes in the windshield and smiling grille mouths, soft rounded forms, reassuring expressions, warm cinematic light. Never scary. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text, letters, numbers or logos."
+  },
+  "continuityRules": [
+    "Pia: a friendly cartoon asphalt paver machine, low and wide, glossy plum-purple body with sunny-yellow trim, a wide open hopper bin at the front, chunky black crawler tracks, a small yellow canopy roof on top, a wide flat smoothing plate at the back; her face is on the front: two big friendly amber eyes in a small front windshield panel and a smiling mouth on the front panel above the hopper; a small orange beacon light; tracks only, no arms, hands or legs",
+    "Duke: a big friendly cartoon dump truck, fire-engine-red cab and gray dump bed, big black wheels, big kind brown eyes in the windshield, a wide smiling silver grille mouth, amber roof lights; wheels only, no arms, hands or legs",
+    "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+    "a small fluffy gray cat with white paws",
+    "Vehicles have wheels, tracks or drums only: no arms, hands, legs or wings.",
+    "No text, letters, numbers, brands or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Once upon a time, in a quiet little town, Pia the paver lived in the road crew garage with her friends.",
+      "illustrationScene": "Pia smiles in the open doorway of a cozy road crew garage at evening, Duke and Rolo parked inside beside her.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Every evening, when the town went to sleep, the night road crew rolled out to work. Tonight was a big job.",
+      "illustrationScene": "Pia, Duke and Rolo roll out in a line down a quiet town street at dusk, house windows going dark.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "Main Street was old and cracked and full of bumps. The town needs a fresh new road by morning, said Pia.",
+      "illustrationScene": "Pia looks at a long old main street full of cracks and bumps under street lamps, a determined face.",
+      "requiredCharacters": [
+        "Pia"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Duke the dump truck rumbled up with a load of warm, black road mix. Rolo the steamroller rolled along behind.",
+      "illustrationScene": "Duke arrives with a steaming load of black road mix in his bed, Rolo rolling behind him, Pia greeting them on the street.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Click, click! Bright work lights glowed on tall stands, and the sleeping street turned golden.",
+      "illustrationScene": "Tall work light stands switch on, flooding the street with warm golden light; Pia, Duke and Rolo blink happily in the glow.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Duke tipped his bed, and the warm road mix slid into Pia's big front hopper with a soft whoosh.",
+      "illustrationScene": "Duke backs up to Pia and tips his bed so black road mix slides gently into Pia's wide front hopper.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Pia rolled forward slow and steady. Out of her back came a wide, flat ribbon of brand-new road.",
+      "illustrationScene": "Pia crawls slowly along the street, a wide smooth ribbon of fresh black road stretching out behind her, under work lights.",
+      "requiredCharacters": [
+        "Pia"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Behind her came Rolo. Squish, press, smooth! He made the new road flat and firm.",
+      "illustrationScene": "Rolo rolls over the fresh black road behind Pia, his silver drum pressing it smooth and shiny.",
+      "requiredCharacters": [
+        "Pia",
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Shh, said Pia. We have to work softly so we don't wake the town. Everyone tiptoed on their tires.",
+      "illustrationScene": "Pia, Duke and Rolo moving carefully and quietly along the street with gentle shushing faces, sleeping houses with dark windows behind them.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "A little cat watched from a windowsill as the crew worked together under the stars.",
+      "illustrationScene": "A small gray cat sits in a glowing windowsill above the street, watching Pia, Duke and Rolo working below under the stars.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo",
+        "Cat"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Block by block, the old bumpy road disappeared, and a shiny new road stretched down Main Street.",
+      "illustrationScene": "Wide view down the long main street: a shiny new black road stretching far ahead in the work lights, Pia leading the crew.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Duke rolled the last load to the very end of the street, and Pia laid the final stretch.",
+      "illustrationScene": "At the end of the street by a little town square, Duke pours the last load into Pia's hopper as she lays the final piece of road.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Rolo gave one last careful roll. The road is ready, whispered Pia, and the crew beamed in the glow.",
+      "illustrationScene": "Pia, Duke and Rolo side by side admiring the long, smooth, finished road, beaming proudly in the golden work light.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "late night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Click, click, off went the work lights. Pink morning light peeked over the rooftops as the town began to wake.",
+      "illustrationScene": "The work lights are off and a soft pink dawn glows over the rooftops; the crew looks sleepy on the fresh road.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "dawn",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "The night road crew rolled home to their garage, yawned big yawns and fell fast asleep. Goodnight, new road!",
+      "illustrationScene": "Inside the cozy road crew garage, Pia, Duke and Rolo sleep side by side with eyes closed, pale dawn light through the window.",
+      "requiredCharacters": [
+        "Pia",
+        "Duke",
+        "Rolo"
+      ],
+      "timeOfDay": "dawn",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

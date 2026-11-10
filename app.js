@@ -3709,6 +3709,62 @@ narration: [
     "The campfire glowed low, the stars kept twinkling, and everyone, even Wes, drifted off to sleep."
   ]
 },
+{
+  "id": "pia-the-paver-and-the-night-road-crew",
+  "title": "Pia the Paver and the Night Road Crew",
+  "category": "Construction Vehicles",
+  "description": "While the town sleeps, Pia the paver and her night road crew, Duke the dump truck and Rolo the steamroller, lay a fresh, smooth new road under bright work lights, working softly so no one wakes.",
+  "keywords": [
+    "pia",
+    "paver",
+    "asphalt paver",
+    "road crew",
+    "night crew",
+    "duke",
+    "dump truck",
+    "rolo",
+    "steamroller",
+    "new road",
+    "work lights",
+    "construction",
+    "goodnight"
+  ],
+  "cover": "assets/books/pia-the-paver-and-the-night-road-crew/cover.webp",
+  "pages": [
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-01.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-02.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-03.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-04.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-05.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-06.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-07.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-08.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-09.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-10.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-11.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-12.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-13.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-14.webp",
+    "assets/books/pia-the-paver-and-the-night-road-crew/page-15.webp"
+  ],
+  "narration": [
+    "Once upon a time, in a quiet little town, Pia the paver lived in the road crew garage with her friends.",
+    "Every evening, when the town went to sleep, the night road crew rolled out to work. Tonight was a big job.",
+    "Main Street was old and cracked and full of bumps. The town needs a fresh new road by morning, said Pia.",
+    "Duke the dump truck rumbled up with a load of warm, black road mix. Rolo the steamroller rolled along behind.",
+    "Click, click! Bright work lights glowed on tall stands, and the sleeping street turned golden.",
+    "Duke tipped his bed, and the warm road mix slid into Pia's big front hopper with a soft whoosh.",
+    "Pia rolled forward slow and steady. Out of her back came a wide, flat ribbon of brand-new road.",
+    "Behind her came Rolo. Squish, press, smooth! He made the new road flat and firm.",
+    "Shh, said Pia. We have to work softly so we don't wake the town. Everyone tiptoed on their tires.",
+    "A little cat watched from a windowsill as the crew worked together under the stars.",
+    "Block by block, the old bumpy road disappeared, and a shiny new road stretched down Main Street.",
+    "Duke rolled the last load to the very end of the street, and Pia laid the final stretch.",
+    "Rolo gave one last careful roll. The road is ready, whispered Pia, and the crew beamed in the glow.",
+    "Click, click, off went the work lights. Pink morning light peeked over the rooftops as the town began to wake.",
+    "The night road crew rolled home to their garage, yawned big yawns and fell fast asleep. Goodnight, new road!"
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
