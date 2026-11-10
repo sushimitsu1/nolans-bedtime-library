@@ -1,0 +1,38 @@
+{
+  "storySlug": "celine-the-seahorse-and-the-police-submarine",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually and on a review sheet kept outside the repo (/workspace/celine/celine-contact-sheet.jpg). Failed pages regenerated: page 5 (extra characters), page 6 (missing blue light), page 8 (near-duplicate of page 7, then tail in safe zone), page 13 (Celine same size as Mama, submarine with legs), page 14 (arm-like fins), page 15 (winged submarine); pages 1, 2 and 4 regenerated at 16:9 for safe-zone framing.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "New original story requested by the family: Celine the little seahorse loses Mama while chasing a bubble, stays put and asks a helper, and Officer Sonar the police submarine helps her find Mama. Art made with the built-in image tool from a character reference scene (Celine, Mama, Officer Sonar). Title painted into the cover. Distinct from Corin the Little Seahorse (apricot male seahorse, reef-song story)."
+}

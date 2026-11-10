@@ -1,0 +1,216 @@
+{
+  "title": "Celine the Seahorse and the Police Submarine",
+  "slug": "celine-the-seahorse-and-the-police-submarine",
+  "category": "Ocean Animals",
+  "description": "When little Celine the seahorse chases a shiny bubble and loses her mama, she stays put and asks a helper, and kind Officer Sonar the police submarine helps her search the reef until they find Mama.",
+  "characterBible": {
+    "Celine": {
+      "role": "Main character, a little seahorse",
+      "color": "Celine: a small cute baby seahorse, bubblegum-pink body with a soft lavender back fin and lavender crown crest, pale cream-pink ridged belly, a long curly tail that curls into a neat spiral, big glossy sky-blue eyes with white glints, rosy cheeks with three tiny white freckle dots, small happy smile; natural seahorse shape, fins only, no arms or hands",
+      "bodyShape": "Celine: a small cute baby seahorse, bubblegum-pink body with a soft lavender back fin and lavender crown crest, pale cream-pink ridged belly, a long curly tail that curls into a neat spiral, big glossy sky-blue eyes with white glints, rosy cheeks with three tiny white freckle dots, small happy smile; natural seahorse shape, fins only, no arms or hands",
+      "face": "Celine: a small cute baby seahorse, bubblegum-pink body with a soft lavender back fin and lavender crown crest, pale cream-pink ridged belly, a long curly tail that curls into a neat spiral, big glossy sky-blue eyes with white glints, rosy cheeks with three tiny white freckle dots, small happy smile; natural seahorse shape, fins only, no arms or hands",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Mama": {
+      "role": "Celine's mother",
+      "color": "Mama: Celine's mother, a grown-up seahorse about twice Celine's size, same species and same bubblegum-to-rose pink body with lavender fins and crest, cream-pink belly ridges, gentle sky-blue eyes with long lashes, kind smile, and a single string of small shiny white pearls around her neck; fins only, no arms or hands",
+      "bodyShape": "Mama: Celine's mother, a grown-up seahorse about twice Celine's size, same species and same bubblegum-to-rose pink body with lavender fins and crest, cream-pink belly ridges, gentle sky-blue eyes with long lashes, kind smile, and a single string of small shiny white pearls around her neck; fins only, no arms or hands",
+      "face": "Mama: Celine's mother, a grown-up seahorse about twice Celine's size, same species and same bubblegum-to-rose pink body with lavender fins and crest, cream-pink belly ridges, gentle sky-blue eyes with long lashes, kind smile, and a single string of small shiny white pearls around her neck; fins only, no arms or hands",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Officer Sonar": {
+      "role": "Friendly police submarine helper",
+      "color": "Officer Sonar: a small round friendly toy-like police submarine, glossy bright blue upper hull and white lower hull, a band of blue-and-white checkered squares around the middle, a gold star badge emblem with no letters on its side, a big round porthole window on the front as a friendly face with two big kind eyes painted above a smiling mouth, a little periscope on top, a soft glowing blue siren dome light on top, a small propeller at the back and a warm round searchlight under the face; no people inside, no letters, words or real agency logos",
+      "bodyShape": "Officer Sonar: a small round friendly toy-like police submarine, glossy bright blue upper hull and white lower hull, a band of blue-and-white checkered squares around the middle, a gold star badge emblem with no letters on its side, a big round porthole window on the front as a friendly face with two big kind eyes painted above a smiling mouth, a little periscope on top, a soft glowing blue siren dome light on top, a small propeller at the back and a warm round searchlight under the face; no people inside, no letters, words or real agency logos",
+      "face": "Officer Sonar: a small round friendly toy-like police submarine, glossy bright blue upper hull and white lower hull, a band of blue-and-white checkered squares around the middle, a gold star badge emblem with no letters on its side, a big round porthole window on the front as a friendly face with two big kind eyes painted above a smiling mouth, a little periscope on top, a soft glowing blue siren dome light on top, a small propeller at the back and a warm round searchlight under the face; no people inside, no letters, words or real agency logos",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Puff": {
+      "role": "A sleepy pufferfish in the coral garden (page 11 only)",
+      "color": "Puff: a small round friendly yellow pufferfish with soft orange spots, big sleepy eyes and a tiny smile, gently puffed and soft, no spikes that look sharp",
+      "bodyShape": "Puff: a small round friendly yellow pufferfish with soft orange spots, big sleepy eyes and a tiny smile, gently puffed and soft, no spikes that look sharp",
+      "face": "Puff: a small round friendly yellow pufferfish with soft orange spots, big sleepy eyes and a tiny smile, gently puffed and soft, no spikes that look sharp",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A warm, sunlit tropical sea: a soft green seagrass meadow (Celine's home), colorful rounded coral gardens, purple sea fans, smooth rocks, sandy sea floor and a tall golden-green kelp forest; gentle light rays from the surface, drifting bubbles, evening and moonlit blues at the end.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent ocean books like Mira the Sea Turtle), soft rounded forms, reassuring expressions, rich turquoise, aqua and deep blue water with warm coral pinks, purples and gold light. Never scary: no sharks, no dark menace, no storms. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text."
+  },
+  "continuityRules": [
+    "Celine: a small cute baby seahorse, bubblegum-pink body with a soft lavender back fin and lavender crown crest, pale cream-pink ridged belly, a long curly tail that curls into a neat spiral, big glossy sky-blue eyes with white glints, rosy cheeks with three tiny white freckle dots, small happy smile; natural seahorse shape, fins only, no arms or hands",
+    "Mama: Celine's mother, a grown-up seahorse about twice Celine's size, same species and same bubblegum-to-rose pink body with lavender fins and crest, cream-pink belly ridges, gentle sky-blue eyes with long lashes, kind smile, and a single string of small shiny white pearls around her neck; fins only, no arms or hands",
+    "Officer Sonar: a small round friendly toy-like police submarine, glossy bright blue upper hull and white lower hull, a band of blue-and-white checkered squares around the middle, a gold star badge emblem with no letters on its side, a big round porthole window on the front as a friendly face with two big kind eyes painted above a smiling mouth, a little periscope on top, a soft glowing blue siren dome light on top, a small propeller at the back and a warm round searchlight under the face; no people inside, no letters, words or real agency logos",
+    "Puff: a small round friendly yellow pufferfish with soft orange spots, big sleepy eyes and a tiny smile, gently puffed and soft, no spikes that look sharp",
+    "Celine is always clearly smaller than Mama; both are the same pink-and-lavender seahorse design.",
+    "Officer Sonar has no people inside, no letters or words, no real police agency logos; only the gold star emblem and blue-and-white checkered band.",
+    "No text, letters or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "Deep in the warm blue sea, little Celine the seahorse woke up and curled her tail around Mama's tail in the swaying seagrass.",
+      "illustrationScene": "Celine and Mama float side by side in a sunny seagrass meadow, their tails gently curled together, morning light rays from above.",
+      "requiredCharacters": [
+        "Celine",
+        "Mama"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Celine loved to play bubble chase. Pop, pop! She giggled as tiny bubbles wiggled up toward the shimmering light.",
+      "illustrationScene": "Celine happily chases a stream of small round bubbles rising from the seagrass, Mama watching kindly a little behind her.",
+      "requiredCharacters": [
+        "Celine",
+        "Mama"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "One big shiny bubble drifted away on a gentle current, and Celine swam after it, past the coral and far, far along.",
+      "illustrationScene": "Celine swims after one big rainbow-shimmering bubble carried along a gentle sparkly current, past colorful coral, alone.",
+      "requiredCharacters": [
+        "Celine"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "When the bubble popped, Celine looked around. Mama? The seagrass was gone, and Mama was missing.",
+      "illustrationScene": "Celine floats alone in open blue water among unfamiliar rocks, looking around with a surprised, slightly worried face; a few tiny popped-bubble sparkles near her.",
+      "requiredCharacters": [
+        "Celine"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Her little heart went thump, thump. But Celine remembered what Mama always said: if you get lost, stay put and find a helper.",
+      "illustrationScene": "Close view of Celine holding still with a brave little face, a soft thought-glow of Mama's kind face shimmering faintly in the bubbles above her.",
+      "requiredCharacters": [
+        "Celine"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "So Celine held on to a soft sea fan and waited. Then a friendly blue light glowed through the water: blink, blink.",
+      "illustrationScene": "Celine curls her tail around a purple sea fan coral, looking toward a soft blue light glowing in the distant water.",
+      "requiredCharacters": [
+        "Celine"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "A little round submarine hummed up beside her. Hello, I'm Officer Sonar, the police submarine. Are you lost, little one?",
+      "illustrationScene": "Officer Sonar arrives close beside Celine with its blue siren dome glowing softly, smiling kindly; Celine looks up at it, still holding the sea fan.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "I can't find my mama, Celine whispered. Officer Sonar smiled kindly. Don't worry, we will find her together.",
+      "illustrationScene": "Celine and Officer Sonar face each other up close, Celine with a small hopeful face, Officer Sonar giving a warm, reassuring smile.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "What does your mama look like? asked Officer Sonar. She's pink like me, but bigger, said Celine, with shiny pearls.",
+      "illustrationScene": "Celine talks excitedly to Officer Sonar, and a dreamy shimmering bubble above them shows a small picture of Mama with her pearl string.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Officer Sonar switched on a warm searchlight and sent out a soft sonar song: ping, ping, ping.",
+      "illustrationScene": "Officer Sonar shines a warm golden searchlight beam ahead, gentle circular sonar ripples spreading through the water; Celine floats close at its side.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "They peeked into the coral garden, where Puff the pufferfish yawned. I saw a pink seahorse near the kelp forest, he said.",
+      "illustrationScene": "In a bright coral garden, Puff the pufferfish talks kindly to Celine and Officer Sonar, pointing the way with a fin.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar",
+        "Puff"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Off they went together to the tall kelp forest. The searchlight glowed softly between the swaying green ribbons.",
+      "illustrationScene": "Officer Sonar and Celine travel side by side into a tall golden-green kelp forest, the searchlight glowing between the kelp.",
+      "requiredCharacters": [
+        "Celine",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Then Celine heard a voice she knew. Celine! There was Mama, swimming toward her with her pearls shining in the light.",
+      "illustrationScene": "Mama swims toward Celine out of the kelp with a joyful face, her pearls shining in the searchlight; Celine turns with a delighted face, Officer Sonar nearby.",
+      "requiredCharacters": [
+        "Celine",
+        "Mama",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Mama wrapped Celine in a big tail hug. You stayed put and found a helper, said Officer Sonar. You did just right!",
+      "illustrationScene": "Mama and Celine hug with their tails wrapped together, eyes closed happily; Officer Sonar beams beside them with its blue light glowing.",
+      "requiredCharacters": [
+        "Celine",
+        "Mama",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Back home in the seagrass, Celine waved goodnight to Officer Sonar, snuggled close to Mama, and drifted off to sleep.",
+      "illustrationScene": "Night in the home seagrass meadow under a soft moonbeam: Celine sleeps snuggled against Mama, tails curled together, while Officer Sonar glides away in the background with a gentle blue glow.",
+      "requiredCharacters": [
+        "Celine",
+        "Mama",
+        "Officer Sonar"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail sandy sea floor, small pebbles or soft seagrass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

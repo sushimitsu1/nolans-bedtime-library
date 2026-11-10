@@ -1,0 +1,579 @@
+{
+  "storySlug": "celine-the-seahorse-and-the-police-submarine",
+  "measurementMethod": "Individual visual inspection of each raw image, converted to 1448x1086 final coordinates. Approximate, not segmentation.",
+  "safeZoneNotes": "Raw art generated 16:9 with the built-in image tool (page 3 cropped to a 16:9 window from a 4:3 generation), then reframed to 4:3: 0-4.5% of rows trimmed from the top on pages 2, 5, 7 and 8, scaled to 1448 wide and anchored at the top; the rows under the caption panel are a soft blurred, dimmed mirror of the foreground. All character bounds above y=760. Cover is a native 4:3 image with the title painted in.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            424,
+            156,
+            714,
+            735
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            707,
+            42,
+            1046,
+            742
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.32,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=742 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            318,
+            195,
+            665,
+            732
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            799,
+            18,
+            1075,
+            747
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.78,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=747 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            283,
+            127,
+            679,
+            728
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.03,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=728 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            516,
+            92,
+            806,
+            714
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.75,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=714 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            530,
+            6,
+            863,
+            755
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.52,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=755 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            332,
+            57,
+            629,
+            665
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 61.23,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=665 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            311,
+            40,
+            636,
+            754
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            679,
+            33,
+            1294,
+            612
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.43,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=754 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            191,
+            27,
+            764,
+            592
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            749,
+            48,
+            1075,
+            741
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.23,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=741 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            339,
+            141,
+            580,
+            679
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            778,
+            177,
+            1202,
+            601
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 62.52,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=679 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            247,
+            42,
+            771,
+            445
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            247,
+            226,
+            452,
+            622
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.27,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=622 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            226,
+            57,
+            502,
+            672
+          ]
+        },
+        {
+          "label": "Puff",
+          "box": [
+            509,
+            205,
+            877,
+            523
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            891,
+            127,
+            1372,
+            587
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 61.88,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=672 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            403,
+            35,
+            643,
+            544
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            757,
+            92,
+            1152,
+            488
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 50.09,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=544 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            134,
+            198,
+            523,
+            608
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            544,
+            219,
+            764,
+            714
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            841,
+            21,
+            1181,
+            728
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.03,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=728 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            318,
+            134,
+            573,
+            728
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            537,
+            35,
+            792,
+            749
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            813,
+            219,
+            1287,
+            679
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.97,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=749 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            346,
+            212,
+            580,
+            707
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            481,
+            42,
+            735,
+            700
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            905,
+            163,
+            1230,
+            452
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.1,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=707 stays above the y=760 safe zone and the y=790 cream panel."
+    }
+  ]
+}

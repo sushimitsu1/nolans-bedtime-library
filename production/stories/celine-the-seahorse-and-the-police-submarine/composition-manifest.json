@@ -1,0 +1,907 @@
+{
+  "storySlug": "celine-the-seahorse-and-the-police-submarine",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-01.png",
+      "text": "Deep in the warm blue sea, little Celine the seahorse woke up and curled her tail around Mama's tail in the swaying seagrass.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            424,
+            156,
+            714,
+            735
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            707,
+            42,
+            1046,
+            742
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-02.png",
+      "text": "Celine loved to play bubble chase. Pop, pop! She giggled as tiny bubbles wiggled up toward the shimmering light.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            318,
+            195,
+            665,
+            732
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            799,
+            18,
+            1075,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-03.png",
+      "text": "One big shiny bubble drifted away on a gentle current, and Celine swam after it, past the coral and far, far along.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            283,
+            127,
+            679,
+            728
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-04.png",
+      "text": "When the bubble popped, Celine looked around. Mama? The seagrass was gone, and Mama was missing.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            516,
+            92,
+            806,
+            714
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-05.png",
+      "text": "Her little heart went thump, thump. But Celine remembered what Mama always said: if you get lost, stay put and find a helper.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            530,
+            6,
+            863,
+            755
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-06.png",
+      "text": "So Celine held on to a soft sea fan and waited. Then a friendly blue light glowed through the water: blink, blink.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            332,
+            57,
+            629,
+            665
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-07.png",
+      "text": "A little round submarine hummed up beside her. Hello, I'm Officer Sonar, the police submarine. Are you lost, little one?",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            311,
+            40,
+            636,
+            754
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            679,
+            33,
+            1294,
+            612
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-08.png",
+      "text": "I can't find my mama, Celine whispered. Officer Sonar smiled kindly. Don't worry, we will find her together.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            191,
+            27,
+            764,
+            592
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            749,
+            48,
+            1075,
+            741
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-09.png",
+      "text": "What does your mama look like? asked Officer Sonar. She's pink like me, but bigger, said Celine, with shiny pearls.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            339,
+            141,
+            580,
+            679
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            778,
+            177,
+            1202,
+            601
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-10.png",
+      "text": "Officer Sonar switched on a warm searchlight and sent out a soft sonar song: ping, ping, ping.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            247,
+            42,
+            771,
+            445
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            247,
+            226,
+            452,
+            622
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-11.png",
+      "text": "They peeked into the coral garden, where Puff the pufferfish yawned. I saw a pink seahorse near the kelp forest, he said.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            226,
+            57,
+            502,
+            672
+          ]
+        },
+        {
+          "label": "Puff",
+          "box": [
+            509,
+            205,
+            877,
+            523
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            891,
+            127,
+            1372,
+            587
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-12.png",
+      "text": "Off they went together to the tall kelp forest. The searchlight glowed softly between the swaying green ribbons.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            403,
+            35,
+            643,
+            544
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            757,
+            92,
+            1152,
+            488
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-13.png",
+      "text": "Then Celine heard a voice she knew. Celine! There was Mama, swimming toward her with her pearls shining in the light.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Officer Sonar",
+          "box": [
+            134,
+            198,
+            523,
+            608
+          ]
+        },
+        {
+          "label": "Celine",
+          "box": [
+            544,
+            219,
+            764,
+            714
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            841,
+            21,
+            1181,
+            728
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-14.png",
+      "text": "Mama wrapped Celine in a big tail hug. You stayed put and found a helper, said Officer Sonar. You did just right!",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            318,
+            134,
+            573,
+            728
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            537,
+            35,
+            792,
+            749
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            813,
+            219,
+            1287,
+            679
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/celine-the-seahorse-and-the-police-submarine/staging/celine-the-seahorse-and-the-police-submarine/illustrations/page-15.png",
+      "text": "Back home in the seagrass, Celine waved goodnight to Officer Sonar, snuggled close to Mama, and drifted off to sleep.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Celine",
+          "box": [
+            346,
+            212,
+            580,
+            707
+          ]
+        },
+        {
+          "label": "Mama",
+          "box": [
+            481,
+            42,
+            735,
+            700
+          ]
+        },
+        {
+          "label": "Officer Sonar",
+          "box": [
+            905,
+            163,
+            1230,
+            452
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}
