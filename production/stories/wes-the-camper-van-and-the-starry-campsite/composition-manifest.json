@@ -1,0 +1,961 @@
+{
+  "storySlug": "wes-the-camper-van-and-the-starry-campsite",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-01.png",
+      "text": "Early one morning, Wes the camper van woke up in the driveway. Today was the family's big camping trip!",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            403,
+            97,
+            1138,
+            733
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-02.png",
+      "text": "Mom packed the blankets, Dad packed the snacks, and their little girl packed her favorite star book.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            516,
+            54,
+            1315,
+            712
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            156,
+            104,
+            339,
+            712
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            303,
+            76,
+            529,
+            705
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            240,
+            337,
+            403,
+            730
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-03.png",
+      "text": "Wes hummed down the winding road past hills, farms and a sparkling river. Beep, beep, here we go!",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            301,
+            83,
+            1143,
+            737
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            283,
+            237,
+            453,
+            409
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            432,
+            196,
+            579,
+            423
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            566,
+            260,
+            729,
+            400
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-04.png",
+      "text": "At lunchtime they stopped under a big oak tree for a picnic. Wes rested his wheels in the cool shade.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            686,
+            133,
+            1131,
+            489
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            376,
+            247,
+            502,
+            489
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            466,
+            219,
+            595,
+            453
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            579,
+            312,
+            699,
+            489
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-05.png",
+      "text": "In the afternoon they reached the campsite by a quiet lake, ringed with tall pine trees.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            559,
+            86,
+            1131,
+            566
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-06.png",
+      "text": "Tonight we'll look at the stars from my pop-up roof, said Wes. The little girl clapped her happy hands.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            403,
+            32,
+            1217,
+            740
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            312,
+            288,
+            579,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-07.png",
+      "text": "But as the sun went down, big gray clouds rolled across the sky. The stars were missing!",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            425,
+            120,
+            1068,
+            667
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-08.png",
+      "text": "We need the stars, said the little girl. Wes winked a headlight. Let's be patient together.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            586,
+            50,
+            1188,
+            586
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            360,
+            233,
+            595,
+            622
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-09.png",
+      "text": "They roasted marshmallows by a small, safe campfire, and Dad told a funny story about a sleepy bear.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            665,
+            77,
+            1364,
+            679
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            86,
+            170,
+            410,
+            729
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            339,
+            127,
+            765,
+            708
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            595,
+            319,
+            792,
+            708
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-10.png",
+      "text": "Then a soft breeze blew over the lake, and the clouds drifted away like sheep going home.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            629,
+            174,
+            1281,
+            733
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-11.png",
+      "text": "One star, two stars, a hundred stars! The whole sky began to twinkle.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            636,
+            147,
+            1301,
+            733
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-12.png",
+      "text": "Wes popped up his roof with a gentle click, and the family climbed up into the cozy top bunk.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            495,
+            8,
+            1174,
+            739
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            643,
+            117,
+            749,
+            257
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            828,
+            94,
+            912,
+            250
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            891,
+            130,
+            991,
+            257
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-13.png",
+      "text": "Snuggled in blankets, they found the Big Dipper and watched a shooting star zoom by.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            385,
+            16,
+            1088,
+            751
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            643,
+            102,
+            749,
+            262
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            715,
+            72,
+            812,
+            242
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            821,
+            122,
+            962,
+            272
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-14.png",
+      "text": "I wish for more camping trips with Wes, the little girl whispered. Wes smiled a sleepy smile.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            439,
+            29,
+            1138,
+            692
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            473,
+            163,
+            686,
+            416
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/wes-the-camper-van-and-the-starry-campsite/staging/wes-the-camper-van-and-the-starry-campsite/illustrations/page-15.png",
+      "text": "The campfire glowed low, the stars kept twinkling, and everyone, even Wes, drifted off to sleep.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            676,
+            57,
+            1251,
+            622
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

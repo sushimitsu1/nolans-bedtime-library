@@ -3654,6 +3654,61 @@ narration: [
     "Kit rolled home on the quiet road under the moon, empty and happy, and parked for a long, sleepy rest. Goodnight, Kit."
   ]
 },
+{
+  "id": "wes-the-camper-van-and-the-starry-campsite",
+  "title": "Wes the Camper Van and the Starry Campsite",
+  "category": "Pick-Up Trucks",
+  "description": "Wes the camper van takes his family on a cozy road trip to a lakeside campsite, and when clouds hide the stars, they wait together until the sky sparkles and they stargaze from his pop-up roof.",
+  "keywords": [
+    "wes",
+    "camper van",
+    "camper",
+    "camping",
+    "road trip",
+    "campsite",
+    "stars",
+    "stargazing",
+    "pop-up roof",
+    "family",
+    "lake",
+    "goodnight"
+  ],
+  "cover": "assets/books/wes-the-camper-van-and-the-starry-campsite/cover.webp",
+  "pages": [
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-01.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-02.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-03.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-04.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-05.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-06.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-07.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-08.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-09.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-10.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-11.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-12.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-13.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-14.webp",
+    "assets/books/wes-the-camper-van-and-the-starry-campsite/page-15.webp"
+  ],
+  "narration": [
+    "Early one morning, Wes the camper van woke up in the driveway. Today was the family's big camping trip!",
+    "Mom packed the blankets, Dad packed the snacks, and their little girl packed her favorite star book.",
+    "Wes hummed down the winding road past hills, farms and a sparkling river. Beep, beep, here we go!",
+    "At lunchtime they stopped under a big oak tree for a picnic. Wes rested his wheels in the cool shade.",
+    "In the afternoon they reached the campsite by a quiet lake, ringed with tall pine trees.",
+    "Tonight we'll look at the stars from my pop-up roof, said Wes. The little girl clapped her happy hands.",
+    "But as the sun went down, big gray clouds rolled across the sky. The stars were missing!",
+    "We need the stars, said the little girl. Wes winked a headlight. Let's be patient together.",
+    "They roasted marshmallows by a small, safe campfire, and Dad told a funny story about a sleepy bear.",
+    "Then a soft breeze blew over the lake, and the clouds drifted away like sheep going home.",
+    "One star, two stars, a hundred stars! The whole sky began to twinkle.",
+    "Wes popped up his roof with a gentle click, and the family climbed up into the cozy top bunk.",
+    "Snuggled in blankets, they found the Big Dipper and watched a shooting star zoom by.",
+    "I wish for more camping trips with Wes, the little girl whispered. Wes smiled a sleepy smile.",
+    "The campfire glowed low, the stars kept twinkling, and everyone, even Wes, drifted off to sleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

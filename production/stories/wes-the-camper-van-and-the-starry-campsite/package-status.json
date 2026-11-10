@@ -1,0 +1,38 @@
+{
+  "storySlug": "wes-the-camper-van-and-the-starry-campsite",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "GenerateImage with charref; contact-sheet visual review; boxes estimated from raws",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "Category Pick-Up Trucks is the closest approved fit for a camper van. Pop-up roof closed on pages 1-11, raised on 12-15."
+}

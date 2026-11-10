@@ -1,0 +1,643 @@
+{
+  "storySlug": "wes-the-camper-van-and-the-starry-campsite",
+  "measurementMethod": "Individual visual inspection of each raw image on a gridded review sheet, converted to 1448x1086 final coordinates. Approximate, not segmentation.",
+  "safeZoneNotes": "Raw art generated 16:9 with the built-in image tool, then reframed to 4:3: scaled to 1448 wide and anchored at the top (with a small top trim on some pages, see trims); the rows under the caption panel are a soft blurred, dimmed mirror of the foreground. All character bounds above y=760. Cover is a native 4:3 image with the title painted in.",
+  "trims": {
+    "p01": 0.02,
+    "p02": 0.02,
+    "p03": 0.02,
+    "p06": 0.03,
+    "p10": 0.02,
+    "p11": 0.02,
+    "p12": 0.04,
+    "p13": 0.05
+  },
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            403,
+            97,
+            1138,
+            733
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.5,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=733 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            516,
+            54,
+            1315,
+            712
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            156,
+            104,
+            339,
+            712
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            303,
+            76,
+            529,
+            705
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            240,
+            337,
+            403,
+            730
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.22,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=730 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            301,
+            83,
+            1143,
+            737
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            283,
+            237,
+            453,
+            409
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            432,
+            196,
+            579,
+            423
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            566,
+            260,
+            729,
+            400
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.86,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=737 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            686,
+            133,
+            1131,
+            489
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            376,
+            247,
+            502,
+            489
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            466,
+            219,
+            595,
+            453
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            579,
+            312,
+            699,
+            489
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 45.03,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=489 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            559,
+            86,
+            1131,
+            566
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 52.12,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=566 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            403,
+            32,
+            1217,
+            740
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            312,
+            288,
+            579,
+            747
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.78,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=747 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            425,
+            120,
+            1068,
+            667
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 61.42,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=667 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            586,
+            50,
+            1188,
+            586
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            360,
+            233,
+            595,
+            622
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.27,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=622 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            665,
+            77,
+            1364,
+            679
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            86,
+            170,
+            410,
+            729
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            339,
+            127,
+            765,
+            708
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            595,
+            319,
+            792,
+            708
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.13,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=729 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            629,
+            174,
+            1281,
+            733
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.5,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=733 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            636,
+            147,
+            1301,
+            733
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.5,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=733 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            495,
+            8,
+            1174,
+            739
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            643,
+            117,
+            749,
+            257
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            828,
+            94,
+            912,
+            250
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            891,
+            130,
+            991,
+            257
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.05,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=739 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            385,
+            16,
+            1088,
+            751
+          ]
+        },
+        {
+          "label": "Mom",
+          "box": [
+            643,
+            102,
+            749,
+            262
+          ]
+        },
+        {
+          "label": "Dad",
+          "box": [
+            715,
+            72,
+            812,
+            242
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            821,
+            122,
+            962,
+            272
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.15,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=751 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            439,
+            29,
+            1138,
+            692
+          ]
+        },
+        {
+          "label": "Little girl",
+          "box": [
+            473,
+            163,
+            686,
+            416
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.72,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=692 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Wes",
+          "box": [
+            676,
+            57,
+            1251,
+            622
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 57.27,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=622 stays above the y=760 safe zone and the y=790 cream panel."
+    }
+  ]
+}
