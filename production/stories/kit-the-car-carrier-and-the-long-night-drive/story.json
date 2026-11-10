@@ -1,0 +1,230 @@
+{
+  "title": "Kit the Car Carrier and the Long Night Drive",
+  "slug": "kit-the-car-carrier-and-the-long-night-drive",
+  "category": "Delivery Vehicles",
+  "description": "Kit the car carrier drives three little cars to their brand-new homes, tucking each one in at its stop, and the long drive grows quieter and sleepier until even Kit is ready for bed.",
+  "characterBible": {
+    "Kit": {
+      "role": "Main character, a car-carrier truck",
+      "color": "Kit: a friendly cartoon car-carrier truck, a cobalt-blue cab with a big windshield face (two big round warm hazel eyes with white glints and a smiling silver grille mouth), amber roof lights, pulling one long single-deck silver open car-carrier trailer with a flat top deck and a fold-down ramp at the back; wheels only, no arms, hands or legs",
+      "bodyShape": "Kit: a friendly cartoon car-carrier truck, a cobalt-blue cab with a big windshield face (two big round warm hazel eyes with white glints and a smiling silver grille mouth), amber roof lights, pulling one long single-deck silver open car-carrier trailer with a flat top deck and a fold-down ramp at the back; wheels only, no arms, hands or legs",
+      "face": "Kit: a friendly cartoon car-carrier truck, a cobalt-blue cab with a big windshield face (two big round warm hazel eyes with white glints and a smiling silver grille mouth), amber roof lights, pulling one long single-deck silver open car-carrier trailer with a flat top deck and a fold-down ramp at the back; wheels only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Red car": {
+      "role": "The little red car",
+      "color": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "bodyShape": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "face": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Yellow car": {
+      "role": "The little yellow car",
+      "color": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "bodyShape": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "face": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Button": {
+      "role": "Button, the littlest purple car",
+      "color": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "bodyShape": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "face": "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A gentle countryside road trip at dusk and night: rolling hills, farm fields, a red barn, a seaside cottage by soft waves, a hill road, and a little blue house with a glowing lamp; warm sunset colors turning to a calm starry, moonlit night.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent vehicle books like Gavin the Garbage Truck), friendly vehicles with big expressive eyes in the windshield and smiling grille mouths, soft rounded forms, reassuring expressions, warm cinematic light. Never scary. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text, letters, numbers or logos."
+  },
+  "continuityRules": [
+    "Kit: a friendly cartoon car-carrier truck, a cobalt-blue cab with a big windshield face (two big round warm hazel eyes with white glints and a smiling silver grille mouth), amber roof lights, pulling one long single-deck silver open car-carrier trailer with a flat top deck and a fold-down ramp at the back; wheels only, no arms, hands or legs",
+    "the little cars: small rounded toy-like cartoon cars, each about a quarter of Kit's cab size, each with big friendly eyes in its windshield and a little smile: the little red car (cherry red), the little yellow car (sunshine yellow), and Button, the smallest, a lavender-purple little car with round headlights",
+    "Vehicles have wheels, tracks or drums only: no arms, hands, legs or wings.",
+    "No text, letters, numbers, brands or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One evening, Kit the car carrier rolled out onto the road with three little cars riding in a row on his back.",
+      "illustrationScene": "Kit drives along a country road at golden evening with three little cars in a row on his trailer deck: red, yellow and little purple Button.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "There was a little red car, a little yellow car and Button, the littlest purple car. Each one was going to a new home.",
+      "illustrationScene": "Closer view of the three little cars on Kit's trailer deck smiling, the red car, the yellow car and tiny purple Button, Kit's cab visible at the front.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "It's a long drive, said Kit. But don't worry, I'll tuck each of you in at your stop.",
+      "illustrationScene": "Kit smiles back over his shoulder toward the three little cars on his trailer, parked by a road sign-free country lane at sunset.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Kit hummed down the road past fields and hills while the sky turned pink and orange.",
+      "illustrationScene": "Wide view: Kit with the three little cars drives along a winding road through rolling hills and fields under a pink and orange sky.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Button peeked over the edge. What if my new home cannot find me in the dark? he whispered.",
+      "illustrationScene": "Close view of little purple Button peeking worriedly over the edge of Kit's trailer deck, the other two cars beside him, dusk sky.",
+      "requiredCharacters": [
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Kit smiled and switched on his warm headlights. Every new home has a light on for you, he said.",
+      "illustrationScene": "Kit switches on warm golden headlights on the dusky road, smiling kindly; the three little cars look reassured.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "The first stop was a red barn on a farm. Kit lowered his ramp, and the little red car rolled down to its cozy new garage.",
+      "illustrationScene": "At a farm with a red barn, Kit's ramp is down and the little red car rolls down it toward a small cozy garage; the yellow car and Button stay on the deck.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Goodnight, little red car, said Kit softly. The farm lamp blinked, and the little red car closed its eyes.",
+      "illustrationScene": "The little red car sleeps with eyes closed inside a cozy little garage under a glowing farm lamp; Kit waits nearby with the yellow car and Button on his deck.",
+      "requiredCharacters": [
+        "Kit",
+        "Red car",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "On rolled Kit, a little slower now, under the first twinkling stars. The road felt sleepy and quiet.",
+      "illustrationScene": "Kit drives on along a quiet road under the first twinkling stars with just the yellow car and Button on his deck.",
+      "requiredCharacters": [
+        "Kit",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "The second stop was a seaside cottage. The little yellow car rolled down into a garage with a seashell lamp.",
+      "illustrationScene": "At a little seaside cottage by gentle moonlit waves, the yellow car rolls down Kit's ramp toward a small garage with a glowing seashell-shaped lamp; Button stays on the deck.",
+      "requiredCharacters": [
+        "Kit",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Goodnight, little yellow car, Kit yawned. The waves whispered shh, shh, and the little yellow car fell asleep.",
+      "illustrationScene": "The little yellow car sleeps in its seaside garage, eyes closed, soft waves and moon beyond; Kit with Button on deck yawns nearby.",
+      "requiredCharacters": [
+        "Kit",
+        "Yellow car",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Now only Button was left. Kit drove slowly over the hill, his headlights glowing softly.",
+      "illustrationScene": "Kit drives slowly over a moonlit hill with only little purple Button on his long trailer deck, headlights glowing.",
+      "requiredCharacters": [
+        "Kit",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "There it was, a little blue house with a lamp glowing just for Button. He rolled down the ramp, safe and sound.",
+      "illustrationScene": "At a small blue house with a glowing window lamp and porch light, Button rolls happily down Kit's ramp toward a tiny garage.",
+      "requiredCharacters": [
+        "Kit",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Button snuggled into his new garage. Thank you for tucking me in, Kit, he whispered with a yawn.",
+      "illustrationScene": "Button snuggled inside a tiny cozy garage with a little blanket, sleepy eyes half closed, smiling at Kit outside in the moonlight.",
+      "requiredCharacters": [
+        "Kit",
+        "Button"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Kit rolled home on the quiet road under the moon, empty and happy, and parked for a long, sleepy rest. Goodnight, Kit.",
+      "illustrationScene": "Kit, with his trailer now empty, sleeps peacefully parked by a quiet road under a big moon and stars, eyes closed with a content smile.",
+      "requiredCharacters": [
+        "Kit"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or grass, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

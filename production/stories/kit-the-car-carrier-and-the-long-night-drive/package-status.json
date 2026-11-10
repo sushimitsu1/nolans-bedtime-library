@@ -1,0 +1,38 @@
+{
+  "storySlug": "kit-the-car-carrier-and-the-long-night-drive",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "GenerateImage with charref; contact-sheet visual review; boxes estimated from review grids",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "Page 5 required characters are the three cars (Kit's trailer deck runs to the bottom edge as setting); page 10 shows Kit's cab from behind."
+}

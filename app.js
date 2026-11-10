@@ -3599,6 +3599,61 @@ narration: [
     "Lola parked beside the swings and lowered her bucket to rest. Goodnight, sandbox, she yawned, and fell asleep."
   ]
 },
+{
+  "id": "kit-the-car-carrier-and-the-long-night-drive",
+  "title": "Kit the Car Carrier and the Long Night Drive",
+  "category": "Delivery Vehicles",
+  "description": "Kit the car carrier drives three little cars to their brand-new homes, tucking each one in at its stop, and the long drive grows quieter and sleepier until even Kit is ready for bed.",
+  "keywords": [
+    "kit",
+    "car carrier",
+    "car transporter",
+    "truck",
+    "little cars",
+    "button",
+    "new home",
+    "night drive",
+    "delivery",
+    "farm",
+    "seaside",
+    "goodnight"
+  ],
+  "cover": "assets/books/kit-the-car-carrier-and-the-long-night-drive/cover.webp",
+  "pages": [
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-01.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-02.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-03.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-04.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-05.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-06.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-07.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-08.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-09.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-10.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-11.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-12.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-13.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-14.webp",
+    "assets/books/kit-the-car-carrier-and-the-long-night-drive/page-15.webp"
+  ],
+  "narration": [
+    "One evening, Kit the car carrier rolled out onto the road with three little cars riding in a row on his back.",
+    "There was a little red car, a little yellow car and Button, the littlest purple car. Each one was going to a new home.",
+    "It's a long drive, said Kit. But don't worry, I'll tuck each of you in at your stop.",
+    "Kit hummed down the road past fields and hills while the sky turned pink and orange.",
+    "Button peeked over the edge. What if my new home cannot find me in the dark? he whispered.",
+    "Kit smiled and switched on his warm headlights. Every new home has a light on for you, he said.",
+    "The first stop was a red barn on a farm. Kit lowered his ramp, and the little red car rolled down to its cozy new garage.",
+    "Goodnight, little red car, said Kit softly. The farm lamp blinked, and the little red car closed its eyes.",
+    "On rolled Kit, a little slower now, under the first twinkling stars. The road felt sleepy and quiet.",
+    "The second stop was a seaside cottage. The little yellow car rolled down into a garage with a seashell lamp.",
+    "Goodnight, little yellow car, Kit yawned. The waves whispered shh, shh, and the little yellow car fell asleep.",
+    "Now only Button was left. Kit drove slowly over the hill, his headlights glowing softly.",
+    "There it was, a little blue house with a lamp glowing just for Button. He rolled down the ramp, safe and sound.",
+    "Button snuggled into his new garage. Thank you for tucking me in, Kit, he whispered with a yawn.",
+    "Kit rolled home on the quiet road under the moon, empty and happy, and parked for a long, sleepy rest. Goodnight, Kit."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

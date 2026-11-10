@@ -1,0 +1,1060 @@
+{
+  "storySlug": "kit-the-car-carrier-and-the-long-night-drive",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-01.png",
+      "text": "One evening, Kit the car carrier rolled out onto the road with three little cars riding in a row on his back.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            213,
+            183,
+            1303,
+            692
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            692,
+            276,
+            937,
+            489
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            928,
+            305,
+            1091,
+            489
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1079,
+            326,
+            1222,
+            489
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-02.png",
+      "text": "There was a little red car, a little yellow car and Button, the littlest purple car. Each one was going to a new home.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            102,
+            129,
+            1303,
+            729
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            620,
+            129,
+            815,
+            403
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            907,
+            107,
+            1140,
+            342
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1111,
+            98,
+            1294,
+            292
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-03.png",
+      "text": "It's a long drive, said Kit. But don't worry, I'll tuck each of you in at your stop.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            20,
+            179,
+            1335,
+            729
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            183,
+            191,
+            570,
+            525
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            529,
+            209,
+            805,
+            496
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            774,
+            220,
+            1009,
+            485
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-04.png",
+      "text": "Kit hummed down the road past fields and hills while the sky turned pink and orange.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            407,
+            296,
+            998,
+            529
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            661,
+            317,
+            794,
+            428
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            794,
+            326,
+            905,
+            416
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            887,
+            330,
+            977,
+            412
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-05.png",
+      "text": "Button peeked over the edge. What if my new home cannot find me in the dark? he whispered.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Button",
+          "box": [
+            387,
+            138,
+            876,
+            554
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            864,
+            217,
+            1161,
+            545
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            1140,
+            260,
+            1364,
+            493
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-06.png",
+      "text": "Kit smiled and switched on his warm headlights. Every new home has a light on for you, he said.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            143,
+            172,
+            1416,
+            724
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            672,
+            244,
+            968,
+            489
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            946,
+            276,
+            1149,
+            489
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1140,
+            305,
+            1303,
+            489
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-07.png",
+      "text": "The first stop was a red barn on a farm. Kit lowered his ramp, and the little red car rolled down to its cozy new garage.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            61,
+            118,
+            1405,
+            729
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            489,
+            272,
+            887,
+            607
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            876,
+            249,
+            1161,
+            485
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1140,
+            272,
+            1312,
+            476
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-08.png",
+      "text": "Goodnight, little red car, said Kit softly. The farm lamp blinked, and the little red car closed its eyes.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            498,
+            244,
+            1385,
+            713
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            113,
+            357,
+            407,
+            600
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            928,
+            285,
+            1161,
+            509
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1149,
+            305,
+            1353,
+            509
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-09.png",
+      "text": "On rolled Kit, a little slower now, under the first twinkling stars. The road felt sleepy and quiet.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            138,
+            179,
+            1308,
+            704
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            857,
+            287,
+            1086,
+            491
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1063,
+            310,
+            1226,
+            491
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-10.png",
+      "text": "The second stop was a seaside cottage. The little yellow car rolled down into a garage with a seashell lamp.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            147,
+            235,
+            1095,
+            692
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            278,
+            321,
+            581,
+            581
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            579,
+            262,
+            851,
+            457
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-11.png",
+      "text": "Goodnight, little yellow car, Kit yawned. The waves whispered shh, shh, and the little yellow car fell asleep.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            498,
+            186,
+            1192,
+            534
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            163,
+            251,
+            419,
+            457
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            844,
+            229,
+            1079,
+            403
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-12.png",
+      "text": "Now only Button was left. Kit drove slowly over the hill, his headlights glowing softly.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            287,
+            206,
+            1215,
+            638
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            857,
+            310,
+            1052,
+            468
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-13.png",
+      "text": "There it was, a little blue house with a lamp glowing just for Button. He rolled down the ramp, safe and sound.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            156,
+            196,
+            1192,
+            735
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            833,
+            310,
+            1127,
+            599
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-14.png",
+      "text": "Button snuggled into his new garage. Thank you for tucking me in, Kit, he whispered with a yawn.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            622,
+            97,
+            1145,
+            681
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            179,
+            294,
+            670,
+            686
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/kit-the-car-carrier-and-the-long-night-drive/staging/kit-the-car-carrier-and-the-long-night-drive/illustrations/page-15.png",
+      "text": "Kit rolled home on the quiet road under the moon, empty and happy, and parked for a long, sleepy rest. Goodnight, Kit.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            204,
+            115,
+            1258,
+            534
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

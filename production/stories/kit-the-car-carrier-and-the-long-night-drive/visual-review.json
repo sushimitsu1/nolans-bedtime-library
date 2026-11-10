@@ -1,0 +1,739 @@
+{
+  "storySlug": "kit-the-car-carrier-and-the-long-night-drive",
+  "measurementMethod": "Individual visual inspection of each raw image on a gridded review sheet, converted to 1448x1086 final coordinates. Approximate, not segmentation.",
+  "safeZoneNotes": "Raw art generated 16:9 with the built-in image tool, then reframed to 4:3: scaled to 1448 wide and anchored at the top (with a small top trim on some pages, see trims); the rows under the caption panel are a soft blurred, dimmed mirror of the foreground. All character bounds above y=760. Cover is a native 4:3 image with the title painted in.",
+  "trims": {
+    "p02": 0.03,
+    "p03": 0.03,
+    "p05": 0.045,
+    "p07": 0.03,
+    "p13": 0.02
+  },
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            213,
+            183,
+            1303,
+            692
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            692,
+            276,
+            937,
+            489
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            928,
+            305,
+            1091,
+            489
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1079,
+            326,
+            1222,
+            489
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.72,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=692 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            102,
+            129,
+            1303,
+            729
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            620,
+            129,
+            815,
+            403
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            907,
+            107,
+            1140,
+            342
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1111,
+            98,
+            1294,
+            292
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.13,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=729 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            20,
+            179,
+            1335,
+            729
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            183,
+            191,
+            570,
+            525
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            529,
+            209,
+            805,
+            496
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            774,
+            220,
+            1009,
+            485
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.13,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=729 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            407,
+            296,
+            998,
+            529
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            661,
+            317,
+            794,
+            428
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            794,
+            326,
+            905,
+            416
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            887,
+            330,
+            977,
+            412
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 48.71,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=529 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Button",
+          "box": [
+            387,
+            138,
+            876,
+            554
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            864,
+            217,
+            1161,
+            545
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            1140,
+            260,
+            1364,
+            493
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 51.01,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=554 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            143,
+            172,
+            1416,
+            724
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            672,
+            244,
+            968,
+            489
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            946,
+            276,
+            1149,
+            489
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1140,
+            305,
+            1303,
+            489
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 66.67,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=724 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            61,
+            118,
+            1405,
+            729
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            489,
+            272,
+            887,
+            607
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            876,
+            249,
+            1161,
+            485
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1140,
+            272,
+            1312,
+            476
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.13,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=729 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            498,
+            244,
+            1385,
+            713
+          ]
+        },
+        {
+          "label": "Red car",
+          "box": [
+            113,
+            357,
+            407,
+            600
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            928,
+            285,
+            1161,
+            509
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1149,
+            305,
+            1353,
+            509
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 65.65,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=713 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            138,
+            179,
+            1308,
+            704
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            857,
+            287,
+            1086,
+            491
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            1063,
+            310,
+            1226,
+            491
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.83,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=704 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            147,
+            235,
+            1095,
+            692
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            278,
+            321,
+            581,
+            581
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            579,
+            262,
+            851,
+            457
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.72,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=692 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            498,
+            186,
+            1192,
+            534
+          ]
+        },
+        {
+          "label": "Yellow car",
+          "box": [
+            163,
+            251,
+            419,
+            457
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            844,
+            229,
+            1079,
+            403
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 49.17,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=534 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            287,
+            206,
+            1215,
+            638
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            857,
+            310,
+            1052,
+            468
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 58.75,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=638 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            156,
+            196,
+            1192,
+            735
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            833,
+            310,
+            1127,
+            599
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.68,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=735 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            622,
+            97,
+            1145,
+            681
+          ]
+        },
+        {
+          "label": "Button",
+          "box": [
+            179,
+            294,
+            670,
+            686
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.17,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=686 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Kit",
+          "box": [
+            204,
+            115,
+            1258,
+            534
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 49.17,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw on a gridded review image (approx.); lowest character pixel y=534 stays above the y=760 safe zone and the y=790 cream panel."
+    }
+  ]
+}
