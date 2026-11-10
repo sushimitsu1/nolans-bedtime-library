@@ -1,0 +1,193 @@
+{
+  "title": "Bree the School Bus and the First Snow",
+  "slug": "bree-the-school-bus-and-the-first-snow",
+  "category": "City Service Vehicles",
+  "description": "On her last route of the day, Bree the school bus drives each child safely home, and just as she reaches the final stop, the first snow of the year begins to fall.",
+  "characterBible": {
+    "Bree": {
+      "role": "Main character, a school bus",
+      "color": "Bree: a friendly classic cartoon school bus, bright school-bus yellow with two thin black side stripes, rounded short nose, a big windshield with two big friendly warm-brown eyes with long lashes, a smiling black front grille mouth, round headlights, small red and amber roof lights, a folding entry door on her right side, a row of side windows; absolutely no words, letters or numbers on the bus; wheels only, no arms, hands or legs",
+      "bodyShape": "Bree: a friendly classic cartoon school bus, bright school-bus yellow with two thin black side stripes, rounded short nose, a big windshield with two big friendly warm-brown eyes with long lashes, a smiling black front grille mouth, round headlights, small red and amber roof lights, a folding entry door on her right side, a row of side windows; absolutely no words, letters or numbers on the bus; wheels only, no arms, hands or legs",
+      "face": "Bree: a friendly classic cartoon school bus, bright school-bus yellow with two thin black side stripes, rounded short nose, a big windshield with two big friendly warm-brown eyes with long lashes, a smiling black front grille mouth, round headlights, small red and amber roof lights, a folding entry door on her right side, a row of side windows; absolutely no words, letters or numbers on the bus; wheels only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Children": {
+      "role": "The children on the bus",
+      "color": "the children: cute stylized 3D animated-film kids in winter hats and mittens: a little girl in a red knit hat, two little brothers in matching blue puffy coats, and a boy in a green knit hat with a pom-pom",
+      "bodyShape": "the children: cute stylized 3D animated-film kids in winter hats and mittens: a little girl in a red knit hat, two little brothers in matching blue puffy coats, and a boy in a green knit hat with a pom-pom",
+      "face": "the children: cute stylized 3D animated-film kids in winter hats and mittens: a little girl in a red knit hat, two little brothers in matching blue puffy coats, and a boy in a green knit hat with a pom-pom",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A cozy small town on a cold late-autumn afternoon and evening: a brick school, tree-lined streets with bare trees, little houses with glowing porch lights, a bakery and a frosty park; a heavy gray sky that turns into gentle falling first snow in the blue evening.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent vehicle books like Gavin the Garbage Truck), friendly vehicles with big expressive eyes in the windshield and smiling grille mouths, soft rounded forms, reassuring expressions, warm cinematic light. Never scary. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text, letters, numbers or logos."
+  },
+  "continuityRules": [
+    "Bree: a friendly classic cartoon school bus, bright school-bus yellow with two thin black side stripes, rounded short nose, a big windshield with two big friendly warm-brown eyes with long lashes, a smiling black front grille mouth, round headlights, small red and amber roof lights, a folding entry door on her right side, a row of side windows; absolutely no words, letters or numbers on the bus; wheels only, no arms, hands or legs",
+    "the children: cute stylized 3D animated-film kids in winter hats and mittens: a little girl in a red knit hat, two little brothers in matching blue puffy coats, and a boy in a green knit hat with a pom-pom",
+    "Vehicles have wheels, tracks or drums only: no arms, hands, legs or wings.",
+    "No text, letters, numbers, brands or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One cold afternoon, Bree the school bus rolled up to the school with her yellow paint shining.",
+      "illustrationScene": "Bree pulls up in front of a cozy red-brick school on a cold gray afternoon, bare trees, smiling brightly.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Ding, ding went the school bell, and the children climbed aboard, cozy in their hats and mittens.",
+      "illustrationScene": "Children in winter hats and coats climb up into Bree's open door as Bree smiles warmly, school behind.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "Look at the gray sky, said a girl by the window. Maybe it will snow! But no flakes had fallen yet.",
+      "illustrationScene": "Bree drives along a street under a heavy gray sky, a little girl in a red knit hat looking up out of a side window hopefully.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Bree hummed down the road to her first stop. The girl in the red hat hopped off and waved goodbye.",
+      "illustrationScene": "At a little house with a red door, the girl in the red hat waves from the sidewalk as Bree smiles, door open.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Bree drove on past the bakery and the frosty park. The sky grew darker and the air grew colder.",
+      "illustrationScene": "Bree drives past a glowing little bakery and a frosty park with bare trees as the sky darkens to blue-gray.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "At the second stop, two little brothers ran up their path to a house with a glowing porch light.",
+      "illustrationScene": "Two little brothers in blue coats run up a garden path to a house with a warm porch light while Bree waits at the curb.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Will the snow come before I get home? asked the boy in the green hat. We need to hurry!",
+      "illustrationScene": "Inside view through Bree's windshield area: the boy in the green pom-pom hat leans forward in his seat looking out at the dark sky; Bree's friendly face visible at the front from outside angle.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Not too fast, said Bree softly. Safe and steady is the school bus way.",
+      "illustrationScene": "Bree drives calmly and carefully down a quiet street lined with glowing windows, her headlights warm, the boy in the green hat smiling at a window.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Then, just as they turned onto the last street, one tiny snowflake drifted past the window.",
+      "illustrationScene": "A single glittering snowflake drifts past Bree's side window in the blue evening; the boy in the green hat gasps happily behind the glass.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Then two, then ten, then a hundred! The first snow of the year was falling all around.",
+      "illustrationScene": "Wide view: soft fluffy snowflakes falling all over the street of little houses as Bree drives through with her headlights on.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Bree slowed down and turned on her warm headlights. The snowflakes sparkled like little stars.",
+      "illustrationScene": "Close view of Bree's smiling face and glowing headlights, snowflakes sparkling in the light beams.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "At the very last stop, Bree opened her doors, and the boy stepped out into the snow, right in front of his home.",
+      "illustrationScene": "Bree's door open in front of a cozy house; the boy in the green hat steps out onto the snowy sidewalk, arms out to the falling snow.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Thank you, Bree! he called, catching a snowflake on his tongue. We got home together, just in time!",
+      "illustrationScene": "The boy in the green hat on his snowy front path catches a snowflake on his tongue, waving at Bree, a warm porch light glowing.",
+      "requiredCharacters": [
+        "Bree",
+        "Children"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Every child was home, warm and safe, watching the first snow from their windows.",
+      "illustrationScene": "Cozy view of a snowy street of little houses with warm glowing windows, a child's silhouette in a window, and Bree driving away slowly.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Bree drove back to the bus barn as the snow made a soft white blanket. Goodnight, Bree, whispered the snowy night.",
+      "illustrationScene": "Bree parked sleeping with eyes closed in front of a cozy bus barn, a soft blanket of snow on her roof and snowflakes falling under a lamp.",
+      "requiredCharacters": [
+        "Bree"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail road or sidewalk, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

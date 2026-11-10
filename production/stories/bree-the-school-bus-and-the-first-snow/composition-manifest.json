@@ -1,0 +1,853 @@
+{
+  "storySlug": "bree-the-school-bus-and-the-first-snow",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-01.png",
+      "text": "One cold afternoon, Bree the school bus rolled up to the school with her yellow paint shining.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            247,
+            47,
+            1224,
+            739
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-02.png",
+      "text": "Ding, ding went the school bell, and the children climbed aboard, cozy in their hats and mittens.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            170,
+            36,
+            1258,
+            665
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            658,
+            233,
+            1188,
+            636
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-03.png",
+      "text": "Look at the gray sky, said a girl by the window. Maybe it will snow! But no flakes had fallen yet.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            233,
+            206,
+            1219,
+            686
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            905,
+            324,
+            991,
+            425
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-04.png",
+      "text": "Bree hummed down the road to her first stop. The girl in the red hat hopped off and waved goodbye.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            170,
+            27,
+            1208,
+            739
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            885,
+            246,
+            1131,
+            719
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-05.png",
+      "text": "Bree drove on past the bakery and the frosty park. The sky grew darker and the air grew colder.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            471,
+            77,
+            1251,
+            538
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-06.png",
+      "text": "At the second stop, two little brothers ran up their path to a house with a glowing porch light.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            63,
+            70,
+            842,
+            636
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            828,
+            199,
+            1231,
+            665
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-07.png",
+      "text": "Will the snow come before I get home? asked the boy in the green hat. We need to hurry!",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            240,
+            76,
+            1274,
+            726
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            889,
+            224,
+            1061,
+            409
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-08.png",
+      "text": "Not too fast, said Bree softly. Safe and steady is the school bus way.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            516,
+            57,
+            955,
+            466
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            833,
+            176,
+            878,
+            240
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-09.png",
+      "text": "Then, just as they turned onto the last street, one tiny snowflake drifted past the window.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            176,
+            24,
+            1274,
+            746
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            894,
+            194,
+            1088,
+            363
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-10.png",
+      "text": "Then two, then ten, then a hundred! The first snow of the year was falling all around.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            471,
+            70,
+            1068,
+            502
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-11.png",
+      "text": "Bree slowed down and turned on her warm headlights. The snowflakes sparkled like little stars.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            283,
+            39,
+            1199,
+            731
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-12.png",
+      "text": "At the very last stop, Bree opened her doors, and the boy stepped out into the snow, right in front of his home.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            199,
+            36,
+            1201,
+            722
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            772,
+            240,
+            1124,
+            708
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-13.png",
+      "text": "Thank you, Bree! he called, catching a snowflake on his tongue. We got home together, just in time!",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            133,
+            28,
+            898,
+            553
+          ]
+        },
+        {
+          "label": "Children",
+          "box": [
+            891,
+            121,
+            1251,
+            750
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-14.png",
+      "text": "Every child was home, warm and safe, watching the first snow from their windows.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            489,
+            106,
+            1048,
+            489
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/bree-the-school-bus-and-the-first-snow/staging/bree-the-school-bus-and-the-first-snow/illustrations/page-15.png",
+      "text": "Bree drove back to the bus barn as the snow made a soft white blanket. Goodnight, Bree, whispered the snowy night.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Bree",
+          "box": [
+            403,
+            70,
+            1075,
+            554
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    }
+  ]
+}

@@ -3765,6 +3765,60 @@ narration: [
     "The night road crew rolled home to their garage, yawned big yawns and fell fast asleep. Goodnight, new road!"
   ]
 },
+{
+  "id": "bree-the-school-bus-and-the-first-snow",
+  "title": "Bree the School Bus and the First Snow",
+  "category": "City Service Vehicles",
+  "description": "On her last route of the day, Bree the school bus drives each child safely home, and just as she reaches the final stop, the first snow of the year begins to fall.",
+  "keywords": [
+    "bree",
+    "school bus",
+    "bus",
+    "school",
+    "first snow",
+    "snow",
+    "snowflakes",
+    "winter",
+    "kids",
+    "route",
+    "goodnight"
+  ],
+  "cover": "assets/books/bree-the-school-bus-and-the-first-snow/cover.webp",
+  "pages": [
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-01.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-02.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-03.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-04.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-05.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-06.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-07.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-08.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-09.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-10.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-11.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-12.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-13.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-14.webp",
+    "assets/books/bree-the-school-bus-and-the-first-snow/page-15.webp"
+  ],
+  "narration": [
+    "One cold afternoon, Bree the school bus rolled up to the school with her yellow paint shining.",
+    "Ding, ding went the school bell, and the children climbed aboard, cozy in their hats and mittens.",
+    "Look at the gray sky, said a girl by the window. Maybe it will snow! But no flakes had fallen yet.",
+    "Bree hummed down the road to her first stop. The girl in the red hat hopped off and waved goodbye.",
+    "Bree drove on past the bakery and the frosty park. The sky grew darker and the air grew colder.",
+    "At the second stop, two little brothers ran up their path to a house with a glowing porch light.",
+    "Will the snow come before I get home? asked the boy in the green hat. We need to hurry!",
+    "Not too fast, said Bree softly. Safe and steady is the school bus way.",
+    "Then, just as they turned onto the last street, one tiny snowflake drifted past the window.",
+    "Then two, then ten, then a hundred! The first snow of the year was falling all around.",
+    "Bree slowed down and turned on her warm headlights. The snowflakes sparkled like little stars.",
+    "At the very last stop, Bree opened her doors, and the boy stepped out into the snow, right in front of his home.",
+    "Thank you, Bree! he called, catching a snowflake on his tongue. We got home together, just in time!",
+    "Every child was home, warm and safe, watching the first snow from their windows.",
+    "Bree drove back to the bus barn as the snow made a soft white blanket. Goodnight, Bree, whispered the snowy night."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
