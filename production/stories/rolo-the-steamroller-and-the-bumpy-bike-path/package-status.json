@@ -1,0 +1,38 @@
+{
+  "storySlug": "rolo-the-steamroller-and-the-bumpy-bike-path",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually on gridded review sheets and on the contact sheet kept outside the repo (/workspace/rolo/contact-sheet.jpg). Failed pages regenerated: pages 2, 3, 5, 6, 7, 8 and 11 (flat blank band drawn at the bottom), page 5 again (near-duplicate of page 4), page 12 (near-duplicate of page 4). Page 4 trimmed 2% from the top for the safe zone.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "New original story requested by the family: Rolo the steamroller smooths the park's lumpy new bike path one slow, flat roll at a time, with Tilly the little dump truck filling the holes with gravel. Art made with the built-in image tool from a character reference image (Rolo, Tilly). Title painted into the cover."
+}

@@ -1,0 +1,199 @@
+{
+  "title": "Rolo the Steamroller and the Bumpy Bike Path",
+  "slug": "rolo-the-steamroller-and-the-bumpy-bike-path",
+  "category": "Construction Vehicles",
+  "description": "The park's brand-new bike path is lumpy and full of holes, so Rolo the steamroller and Tilly the little dump truck work into the night, one slow, flat roll at a time, until it is smooth for the kids to ride tomorrow.",
+  "characterBible": {
+    "Rolo": {
+      "role": "Main character, a steamroller",
+      "color": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "bodyShape": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "face": "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Tilly": {
+      "role": "Rolo's friend, a little dump truck",
+      "color": "Tilly: a small cheerful cartoon dump truck about half Rolo's height, sky-blue cab and sky-blue tipping dump bed, white bumper, four black wheels, big round green eyes with long lashes in her windshield, a happy smiling grille mouth, a tiny round yellow roof light; wheels only, no arms, hands or legs",
+      "bodyShape": "Tilly: a small cheerful cartoon dump truck about half Rolo's height, sky-blue cab and sky-blue tipping dump bed, white bumper, four black wheels, big round green eyes with long lashes in her windshield, a happy smiling grille mouth, a tiny round yellow roof light; wheels only, no arms, hands or legs",
+      "face": "Tilly: a small cheerful cartoon dump truck about half Rolo's height, sky-blue cab and sky-blue tipping dump bed, white bumper, four black wheels, big round green eyes with long lashes in her windshield, a happy smiling grille mouth, a tiny round yellow roof light; wheels only, no arms, hands or legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Duck": {
+      "role": "A sleepy duck by the pond (page 9 only)",
+      "color": "a small white duck with an orange beak and sleepy eyes",
+      "bodyShape": "a small white duck with an orange beak and sleepy eyes",
+      "face": "a small white duck with an orange beak and sleepy eyes",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A friendly neighborhood park with a winding new bike path, green lawns, a duck pond with reeds, swings and a little playground, old leafy trees and warm park lamps; golden evening light that turns into a calm starry, moonlit night.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent vehicle books like Gavin the Garbage Truck), friendly vehicles with big expressive eyes in the windshield and smiling grille mouths, soft rounded forms, reassuring expressions, warm cinematic light. Never scary. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text, letters, numbers or logos."
+  },
+  "continuityRules": [
+    "Rolo: a friendly cartoon road steamroller, bright tangerine-orange body with cream-white trim, one big wide shiny silver steel drum roller at the front and two chunky black rubber tires at the back, a small rounded cab with a cream roof, a small amber beacon light on the roof; his face is on the cab windshield: two big round friendly brown eyes with white glints and soft eyebrows, and a wide smiling mouth on the orange front panel above the drum; wheels and drum only, no arms, hands or legs",
+    "Tilly: a small cheerful cartoon dump truck about half Rolo's height, sky-blue cab and sky-blue tipping dump bed, white bumper, four black wheels, big round green eyes with long lashes in her windshield, a happy smiling grille mouth, a tiny round yellow roof light; wheels only, no arms, hands or legs",
+    "a small white duck with an orange beak and sleepy eyes",
+    "Vehicles have wheels, tracks or drums only: no arms, hands, legs or wings.",
+    "No text, letters, numbers, brands or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One sunny evening, Rolo the steamroller rolled into the park, his big round roller shining in the golden light.",
+      "illustrationScene": "Rolo rolls happily along a park lane toward a winding new bike path, golden evening sun behind leafy trees.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "The park had a brand-new bike path for the neighborhood kids. But the path was lumpy, bumpy and full of little holes.",
+      "illustrationScene": "Rolo looks at a long winding bike path full of lumps and small holes stretching across the green park, with a surprised face.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "A bike can't ride on this, said Rolo. The kids need a smooth path by tomorrow morning.",
+      "illustrationScene": "Close view of Rolo looking thoughtful and determined beside a bumpy section of the path, a parked empty kid's bike leaning on a bench nearby.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Tilly the little dump truck beeped hello. I brought a load of soft gravel to fill the holes, she said.",
+      "illustrationScene": "Tilly the little dump truck arrives on the path with a heaping load of gravel in her bed, greeting Rolo cheerfully.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Tilly tipped her bed, and the gravel slid out with a gentle swish into every little hole.",
+      "illustrationScene": "Tilly tips her dump bed up and gravel slides out onto the bumpy path, filling the holes; Rolo watches nearby, smiling.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Now it was Rolo's turn. Slow and steady, he rolled forward: rumble, rumble, flat.",
+      "illustrationScene": "Rolo rolls slowly forward over the gravel, his silver drum pressing it flat, a smooth stretch of path appearing behind him.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Up a gentle hill and down again, Rolo rolled one slow, flat roll at a time.",
+      "illustrationScene": "Rolo rolls up a gentle grassy hill on the winding path under a pink and orange sunset sky.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "At the big bump by the duck pond, Rolo went extra slow. Squish, squash, smooth!",
+      "illustrationScene": "Beside a calm duck pond with reeds, Rolo carefully rolls over a big bump in the path, concentrating with a happy little smile.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "A sleepy duck peeked out from the reeds. What a quiet, careful machine, she quacked.",
+      "illustrationScene": "A small white duck peeks out of the pond reeds and smiles at Rolo, who smiles back from the path, soft dusk light on the water.",
+      "requiredCharacters": [
+        "Rolo",
+        "Duck"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "The sun went down, and the park lamps glowed. Rolo switched on his headlights and kept on rolling.",
+      "illustrationScene": "Night falls in the park: warm park lamps glow along the path and Rolo rolls on with his round headlights shining.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Around the playground and past the swings, the path grew smoother and smoother under the stars.",
+      "illustrationScene": "Rolo rolls along the path past a little playground with swings and a slide under a starry sky, the path behind him smooth and shiny.",
+      "requiredCharacters": [
+        "Rolo"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Tilly followed behind and checked every bend. Not one bump left, she beeped. The path is ready!",
+      "illustrationScene": "Tilly drives along the smooth path behind Rolo, beaming happily, both in lamplight on a curve of the path.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Rolo and Tilly looked back at the long, smooth path, shining like a ribbon in the moonlight. We did it together!",
+      "illustrationScene": "Rolo and Tilly side by side at the top of a small rise, looking back over the long smooth winding path glowing in moonlight.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Tomorrow the kids will ride their bikes here, said Tilly. Rolo smiled. It will feel as soft as a pillow.",
+      "illustrationScene": "Rolo and Tilly rest by the path near a bike rack with a few empty kids' bikes, under a big round moon, both smiling dreamily.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Rolo parked by the park gate, turned off his lights and yawned. Goodnight, smooth path. Goodnight, Tilly.",
+      "illustrationScene": "Rolo and Tilly parked side by side by the park's iron gate, eyes closed and sleeping peacefully, a big moon and stars above.",
+      "requiredCharacters": [
+        "Rolo",
+        "Tilly"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or path surface, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}

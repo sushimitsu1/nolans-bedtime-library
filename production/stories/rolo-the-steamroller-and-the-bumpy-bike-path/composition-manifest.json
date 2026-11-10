@@ -1,0 +1,835 @@
+{
+  "storySlug": "rolo-the-steamroller-and-the-bumpy-bike-path",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-01.png",
+      "text": "One sunny evening, Rolo the steamroller rolled into the park, his big round roller shining in the golden light.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            253,
+            61,
+            889,
+            733
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-02.png",
+      "text": "The park had a brand-new bike path for the neighborhood kids. But the path was lumpy, bumpy and full of little holes.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            346,
+            41,
+            815,
+            570
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-03.png",
+      "text": "A bike can't ride on this, said Rolo. The kids need a smooth path by tomorrow morning.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            305,
+            52,
+            835,
+            591
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-04.png",
+      "text": "Tilly the little dump truck beeped hello. I brought a load of soft gravel to fill the holes, she said.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            113,
+            86,
+            753,
+            746
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            765,
+            187,
+            1335,
+            717
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-05.png",
+      "text": "Tilly tipped her bed, and the gravel slid out with a gentle swish into every little hole.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            124,
+            102,
+            516,
+            534
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            611,
+            57,
+            1247,
+            595
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-06.png",
+      "text": "Now it was Rolo's turn. Slow and steady, he rolled forward: rumble, rumble, flat.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            317,
+            81,
+            916,
+            631
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-07.png",
+      "text": "Up a gentle hill and down again, Rolo rolled one slow, flat roll at a time.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            498,
+            122,
+            864,
+            468
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-08.png",
+      "text": "At the big bump by the duck pond, Rolo went extra slow. Squish, squash, smooth!",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            326,
+            70,
+            916,
+            713
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-09.png",
+      "text": "A sleepy duck peeked out from the reeds. What a quiet, careful machine, she quacked.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            520,
+            50,
+            946,
+            498
+          ]
+        },
+        {
+          "label": "Duck",
+          "box": [
+            326,
+            407,
+            520,
+            600
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-10.png",
+      "text": "The sun went down, and the park lamps glowed. Rolo switched on his headlights and kept on rolling.",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            346,
+            143,
+            977,
+            742
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-11.png",
+      "text": "Around the playground and past the swings, the path grew smoother and smoother under the stars.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            357,
+            154,
+            876,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-12.png",
+      "text": "Tilly followed behind and checked every bend. Not one bump left, she beeped. The path is ready!",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            235,
+            111,
+            713,
+            600
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            774,
+            233,
+            1201,
+            611
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-13.png",
+      "text": "Rolo and Tilly looked back at the long, smooth path, shining like a ribbon in the moonlight. We did it together!",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            672,
+            90,
+            998,
+            407
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            977,
+            163,
+            1303,
+            398
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-14.png",
+      "text": "Tomorrow the kids will ride their bikes here, said Tilly. Rolo smiled. It will feel as soft as a pillow.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            133,
+            122,
+            570,
+            579
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            611,
+            213,
+            998,
+            529
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "/workspace/nolans-bedtime-library/production/stories/rolo-the-steamroller-and-the-bumpy-bike-path/staging/rolo-the-steamroller-and-the-bumpy-bike-path/illustrations/page-15.png",
+      "text": "Rolo parked by the park gate, turned off his lights and yawned. Goodnight, smooth path. Goodnight, Tilly.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Rolo",
+          "box": [
+            172,
+            111,
+            765,
+            692
+          ]
+        },
+        {
+          "label": "Tilly",
+          "box": [
+            774,
+            296,
+            1262,
+            692
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    }
+  ]
+}

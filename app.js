@@ -3489,6 +3489,61 @@ narration: [
     "Back home in the seagrass, Celine waved goodnight to Officer Sonar, snuggled close to Mama, and drifted off to sleep."
   ]
 },
+{
+  "id": "rolo-the-steamroller-and-the-bumpy-bike-path",
+  "title": "Rolo the Steamroller and the Bumpy Bike Path",
+  "category": "Construction Vehicles",
+  "description": "The park's brand-new bike path is lumpy and full of holes, so Rolo the steamroller and Tilly the little dump truck work into the night, one slow, flat roll at a time, until it is smooth for the kids to ride tomorrow.",
+  "keywords": [
+    "rolo",
+    "steamroller",
+    "road roller",
+    "tilly",
+    "dump truck",
+    "bike path",
+    "park",
+    "smooth",
+    "gravel",
+    "construction",
+    "duck pond",
+    "goodnight"
+  ],
+  "cover": "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/cover.webp",
+  "pages": [
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-01.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-02.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-03.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-04.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-05.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-06.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-07.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-08.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-09.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-10.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-11.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-12.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-13.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-14.webp",
+    "assets/books/rolo-the-steamroller-and-the-bumpy-bike-path/page-15.webp"
+  ],
+  "narration": [
+    "One sunny evening, Rolo the steamroller rolled into the park, his big round roller shining in the golden light.",
+    "The park had a brand-new bike path for the neighborhood kids. But the path was lumpy, bumpy and full of little holes.",
+    "A bike can't ride on this, said Rolo. The kids need a smooth path by tomorrow morning.",
+    "Tilly the little dump truck beeped hello. I brought a load of soft gravel to fill the holes, she said.",
+    "Tilly tipped her bed, and the gravel slid out with a gentle swish into every little hole.",
+    "Now it was Rolo's turn. Slow and steady, he rolled forward: rumble, rumble, flat.",
+    "Up a gentle hill and down again, Rolo rolled one slow, flat roll at a time.",
+    "At the big bump by the duck pond, Rolo went extra slow. Squish, squash, smooth!",
+    "A sleepy duck peeked out from the reeds. What a quiet, careful machine, she quacked.",
+    "The sun went down, and the park lamps glowed. Rolo switched on his headlights and kept on rolling.",
+    "Around the playground and past the swings, the path grew smoother and smoother under the stars.",
+    "Tilly followed behind and checked every bend. Not one bump left, she beeped. The path is ready!",
+    "Rolo and Tilly looked back at the long, smooth path, shining like a ribbon in the moonlight. We did it together!",
+    "Tomorrow the kids will ride their bikes here, said Tilly. Rolo smiled. It will feel as soft as a pillow.",
+    "Rolo parked by the park gate, turned off his lights and yawned. Goodnight, smooth path. Goodnight, Tilly."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });
