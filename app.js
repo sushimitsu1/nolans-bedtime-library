@@ -3544,6 +3544,61 @@ narration: [
     "Rolo parked by the park gate, turned off his lights and yawned. Goodnight, smooth path. Goodnight, Tilly."
   ]
 },
+{
+  "id": "lola-the-wheel-loader-and-the-giant-sandbox",
+  "title": "Lola the Wheel Loader and the Giant Sandbox",
+  "category": "Construction Vehicles",
+  "description": "The park's giant new sandbox is empty the night before it opens, so Lola the wheel loader scoops, carries and pours a whole mountain of sand, with Nutmeg the squirrel cheering her on, until it is soft and ready by morning.",
+  "keywords": [
+    "lola",
+    "wheel loader",
+    "loader",
+    "bucket",
+    "sandbox",
+    "sand",
+    "nutmeg",
+    "squirrel",
+    "park",
+    "construction",
+    "scoop",
+    "goodnight"
+  ],
+  "cover": "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/cover.webp",
+  "pages": [
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-01.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-02.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-03.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-04.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-05.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-06.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-07.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-08.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-09.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-10.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-11.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-12.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-13.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-14.webp",
+    "assets/books/lola-the-wheel-loader-and-the-giant-sandbox/page-15.webp"
+  ],
+  "narration": [
+    "One early evening, Lola the wheel loader rolled into the park with her big silver bucket held up high.",
+    "By the swings stood a brand-new wooden sandbox, as big as a pond. But it was empty, with not one grain of sand.",
+    "The park opens in the morning, said Nutmeg the squirrel. The kids need sand to dig and build!",
+    "Lola looked at the tall sand pile by the gate. I can do this, one big scoop at a time, she said.",
+    "Lola lowered her bucket, rolled forward, and scooped. Crunch, swoosh! Her bucket was full to the top.",
+    "Beep, beep, she backed up slowly, then rolled across the grass to the sandbox.",
+    "Up went the bucket, and down poured the sand like a soft golden waterfall. Swish!",
+    "Scoop, roll, pour. Scoop, roll, pour. Nutmeg cheered from the fence every time.",
+    "The moon came up over the trees. The sandbox was full, but the sand was lumpy and wobbly.",
+    "Lola tipped her bucket flat and rolled back and forth, making the sand smooth like a blanket.",
+    "Nutmeg found a few lost acorns in the sand and tucked them safely in her cheeks.",
+    "Then Lola scooped one last tiny bucket and made a little sand hill for the kids to dig.",
+    "Lola and Nutmeg looked at the giant sandbox, soft and smooth under the stars. It's ready, said Lola.",
+    "Tomorrow there will be castles and tunnels and buckets and spades, Nutmeg whispered happily.",
+    "Lola parked beside the swings and lowered her bucket to rest. Goodnight, sandbox, she yawned, and fell asleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

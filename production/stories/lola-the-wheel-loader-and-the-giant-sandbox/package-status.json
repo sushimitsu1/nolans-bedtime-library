@@ -1,0 +1,38 @@
+{
+  "storySlug": "lola-the-wheel-loader-and-the-giant-sandbox",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually on gridded review sheets and on the contact sheet kept outside the repo (/workspace/lola/contact-sheet.jpg). Failed images regenerated: page 9 (extra character, sand not lumpy), page 10 (extra character with odd cape), page 12 (lettering on a sign), cover (a background child figure). Pages 11, 14 and 15 trimmed 3-3.5% from the top for the safe zone.",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "New original story requested by the family: Lola the wheel loader fills the park's giant new sandbox overnight, scoop by scoop, with Nutmeg the squirrel cheering her on. Art made with the built-in image tool from a character reference image (Lola, Nutmeg). Title painted into the cover."
+}

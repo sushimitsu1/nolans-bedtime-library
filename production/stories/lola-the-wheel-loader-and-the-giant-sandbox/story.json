@@ -1,0 +1,191 @@
+{
+  "title": "Lola the Wheel Loader and the Giant Sandbox",
+  "slug": "lola-the-wheel-loader-and-the-giant-sandbox",
+  "category": "Construction Vehicles",
+  "description": "The park's giant new sandbox is empty the night before it opens, so Lola the wheel loader scoops, carries and pours a whole mountain of sand, with Nutmeg the squirrel cheering her on, until it is soft and ready by morning.",
+  "characterBible": {
+    "Lola": {
+      "role": "Main character, a wheel loader",
+      "color": "Lola: a friendly cartoon wheel loader, sunny-yellow body with lavender-purple trim and purple wheel hubs, four huge chunky black tires, a big wide silver front bucket on two yellow mechanical lift booms, a boxy glass cab; her face is in the cab windshield: two big round friendly violet eyes with lashes, and a cheerful smiling mouth on the grille panel below the cab; an amber beacon light on the roof; wheels and bucket only, no hands, no human arms, no legs",
+      "bodyShape": "Lola: a friendly cartoon wheel loader, sunny-yellow body with lavender-purple trim and purple wheel hubs, four huge chunky black tires, a big wide silver front bucket on two yellow mechanical lift booms, a boxy glass cab; her face is in the cab windshield: two big round friendly violet eyes with lashes, and a cheerful smiling mouth on the grille panel below the cab; an amber beacon light on the roof; wheels and bucket only, no hands, no human arms, no legs",
+      "face": "Lola: a friendly cartoon wheel loader, sunny-yellow body with lavender-purple trim and purple wheel hubs, four huge chunky black tires, a big wide silver front bucket on two yellow mechanical lift booms, a boxy glass cab; her face is in the cab windshield: two big round friendly violet eyes with lashes, and a cheerful smiling mouth on the grille panel below the cab; an amber beacon light on the roof; wheels and bucket only, no hands, no human arms, no legs",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Nutmeg": {
+      "role": "Lola's friend, a squirrel",
+      "color": "Nutmeg: a small fluffy red-brown squirrel with a big bushy tail, a cream belly and bright black eyes",
+      "bodyShape": "Nutmeg: a small fluffy red-brown squirrel with a big bushy tail, a cream belly and bright black eyes",
+      "face": "Nutmeg: a small fluffy red-brown squirrel with a big bushy tail, a cream belly and bright black eyes",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A friendly town park with green lawns, swings, a slide, tall oak trees and a fence; a giant new rounded wooden sandbox by the swings and a tall golden sand pile by the park gate; warm evening light turning into a calm starry, moonlit night.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent vehicle books like Gavin the Garbage Truck), friendly vehicles with big expressive eyes in the windshield and smiling grille mouths, soft rounded forms, reassuring expressions, warm cinematic light. Never scary. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text, letters, numbers or logos."
+  },
+  "continuityRules": [
+    "Lola: a friendly cartoon wheel loader, sunny-yellow body with lavender-purple trim and purple wheel hubs, four huge chunky black tires, a big wide silver front bucket on two yellow mechanical lift booms, a boxy glass cab; her face is in the cab windshield: two big round friendly violet eyes with lashes, and a cheerful smiling mouth on the grille panel below the cab; an amber beacon light on the roof; wheels and bucket only, no hands, no human arms, no legs",
+    "Nutmeg: a small fluffy red-brown squirrel with a big bushy tail, a cream belly and bright black eyes",
+    "Vehicles have wheels, tracks or drums only: no arms, hands, legs or wings.",
+    "No text, letters, numbers, brands or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One early evening, Lola the wheel loader rolled into the park with her big silver bucket held up high.",
+      "illustrationScene": "Lola rolls proudly into a green park through the gate, bucket raised, warm evening light.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "By the swings stood a brand-new wooden sandbox, as big as a pond. But it was empty, with not one grain of sand.",
+      "illustrationScene": "A giant empty rounded wooden sandbox beside the swings; Lola looks at it with a surprised face.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "The park opens in the morning, said Nutmeg the squirrel. The kids need sand to dig and build!",
+      "illustrationScene": "Nutmeg the squirrel stands on the sandbox edge chattering up at Lola, who listens kindly.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "Lola looked at the tall sand pile by the gate. I can do this, one big scoop at a time, she said.",
+      "illustrationScene": "Lola faces a tall golden mountain of sand by the park gate, looking brave and cheerful, Nutmeg on a fence post nearby.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "evening",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Lola lowered her bucket, rolled forward, and scooped. Crunch, swoosh! Her bucket was full to the top.",
+      "illustrationScene": "Lola drives her lowered bucket into the sand pile and lifts a heaping bucket of sand, sand trickling off the edges.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Beep, beep, she backed up slowly, then rolled across the grass to the sandbox.",
+      "illustrationScene": "Lola carries a full bucket of sand across the park lawn toward the sandbox, sunset glowing behind trees.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Up went the bucket, and down poured the sand like a soft golden waterfall. Swish!",
+      "illustrationScene": "Lola tips her raised bucket over the sandbox and a golden waterfall of sand pours down into it.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Scoop, roll, pour. Scoop, roll, pour. Nutmeg cheered from the fence every time.",
+      "illustrationScene": "Lola rolls back toward the sand pile with an empty bucket while Nutmeg cheers from the top of the fence, the sandbox now partly filled.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "The moon came up over the trees. The sandbox was full, but the sand was lumpy and wobbly.",
+      "illustrationScene": "Moonrise over the trees; the sandbox is full of lumpy uneven heaps of sand; Lola looks at it thoughtfully.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Lola tipped her bucket flat and rolled back and forth, making the sand smooth like a blanket.",
+      "illustrationScene": "Lola glides along the sandbox edge with her bucket held flat, leaving a smooth flat layer of sand behind, park lamps glowing.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "Nutmeg found a few lost acorns in the sand and tucked them safely in her cheeks.",
+      "illustrationScene": "Nutmeg sits in the smooth sand with chubby cheeks full of acorns, looking pleased; Lola smiles down at her from behind.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Then Lola scooped one last tiny bucket and made a little sand hill for the kids to dig.",
+      "illustrationScene": "Lola gently pours a small last scoop of sand into a neat little rounded sand hill in the middle of the sandbox, under stars.",
+      "requiredCharacters": [
+        "Lola"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Lola and Nutmeg looked at the giant sandbox, soft and smooth under the stars. It's ready, said Lola.",
+      "illustrationScene": "Lola and Nutmeg side by side admiring the giant smooth sandbox with its little sand hill, glowing in moonlight.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Tomorrow there will be castles and tunnels and buckets and spades, Nutmeg whispered happily.",
+      "illustrationScene": "Nutmeg on Lola's bucket edge, both gazing dreamily at the sandbox, where a soft shimmery daydream bubble above shows little sand castles.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "Lola parked beside the swings and lowered her bucket to rest. Goodnight, sandbox, she yawned, and fell asleep.",
+      "illustrationScene": "Lola sleeps peacefully beside the swings with her bucket lowered to the ground, Nutmeg curled up asleep in the bucket, big moon above.",
+      "requiredCharacters": [
+        "Lola",
+        "Nutmeg"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass or sand, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}
