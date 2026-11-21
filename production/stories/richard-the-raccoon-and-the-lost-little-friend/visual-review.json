@@ -1,0 +1,606 @@
+{
+  "storySlug": "richard-the-raccoon-and-the-lost-little-friend",
+  "measurementMethod": "Individual visual inspection of each raw image, converted to 1448x1086 final coordinates. Approximate, not segmentation.",
+  "safeZoneNotes": "Raw art generated 16:9 with the built-in image tool from a locked character reference (cover + reference sheet), then reframed to 4:3: 3-6% of rows trimmed from the top on pages 7, 8, 9, 11, 12, 13 and 14, scaled to 1448 wide and anchored at the top; the rows under the caption panel are a soft blurred, dimmed mirror of the foreground. All character bounds above y=760. Cover is a native 4:3 image with the title painted in.",
+  "individuallyInspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            163,
+            721,
+            738
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            735,
+            134,
+            1202,
+            738
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.96,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=738 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 2,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            127,
+            721,
+            693
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            735,
+            102,
+            1181,
+            693
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.81,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=693 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 3,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            85,
+            219,
+            587,
+            686
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            898,
+            276,
+            1152,
+            622
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 63.17,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=686 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 4,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            382,
+            120,
+            905,
+            728
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 67.03,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=728 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 5,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            318,
+            85,
+            983,
+            696
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 64.09,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=696 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 6,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            21,
+            339,
+            502,
+            703
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            926,
+            49,
+            1174,
+            724
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 66.67,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=724 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 7,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            226,
+            266,
+            629,
+            740
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            679,
+            25,
+            1152,
+            747
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 68.78,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=747 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 8,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            134,
+            273,
+            601,
+            731
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            735,
+            4,
+            1202,
+            759
+          ]
+        },
+        {
+          "label": "Bio (thought bubble)",
+          "box": [
+            424,
+            0,
+            785,
+            290
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.89,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=759 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 9,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            156,
+            243,
+            665,
+            675
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            566,
+            0,
+            1160,
+            675
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 62.15,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=675 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 10,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            452,
+            283,
+            686,
+            549
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            735,
+            54,
+            983,
+            551
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 50.74,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=551 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 11,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            417,
+            378,
+            749,
+            748
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            665,
+            0,
+            1025,
+            752
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.24,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=752 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 12,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            212,
+            346,
+            523,
+            725
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            530,
+            18,
+            841,
+            751
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            912,
+            386,
+            1174,
+            723
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.15,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=751 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 13,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            177,
+            245,
+            608,
+            751
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            509,
+            252,
+            820,
+            747
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            785,
+            40,
+            1145,
+            754
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.43,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=754 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 14,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            305,
+            530,
+            732
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            502,
+            313,
+            792,
+            732
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            820,
+            21,
+            1160,
+            754
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 69.43,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=754 stays above the y=760 safe zone and the y=790 cream panel."
+    },
+    {
+      "number": 15,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            233,
+            290,
+            551,
+            629
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            431,
+            290,
+            693,
+            615
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            1018,
+            212,
+            1216,
+            718
+          ]
+        }
+      ],
+      "panelTopPercent": 72.74,
+      "characterBottomPercent": 66.11,
+      "panelOverlap": false,
+      "safeZoneCompliance": true,
+      "composition": "passed; composed page individually inspected; no character overlap",
+      "finalChecks": {
+        "subjectPlacement": "passed",
+        "safeZoneCompliance": "passed",
+        "panelIntegration": "passed",
+        "consistentPanelSize": "passed",
+        "consistentBadgePlacement": "passed",
+        "noBlockedStoryAction": "passed"
+      },
+      "notes": "Measured subject bounds by individual visual inspection of the 16:9 raw (approx.); lowest character pixel y=718 stays above the y=760 safe zone and the y=790 cream panel."
+    }
+  ]
+}

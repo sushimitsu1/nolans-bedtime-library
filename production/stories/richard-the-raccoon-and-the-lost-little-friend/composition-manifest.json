@@ -1,0 +1,934 @@
+{
+  "storySlug": "richard-the-raccoon-and-the-lost-little-friend",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-01.png",
+      "text": "One sunny morning, Richard the little raccoon met his best friend Bio the bear cub by the big mossy log.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            163,
+            721,
+            738
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            735,
+            134,
+            1202,
+            738
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-02.png",
+      "text": "They played all morning, hopping over roots, splashing in the little creek, and giggling under the tall pine trees.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            127,
+            721,
+            693
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            735,
+            102,
+            1181,
+            693
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-03.png",
+      "text": "Then Richard found a pile of shiny acorns, while Bio followed a fluttery blue butterfly down a twisty path.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            85,
+            219,
+            587,
+            686
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            898,
+            276,
+            1152,
+            622
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-04.png",
+      "text": "When Richard looked up, the forest was quiet and Bio was gone. Bio, where are you? he called, but only the leaves rustled.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            382,
+            120,
+            905,
+            728
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 46
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-05.png",
+      "text": "Richard's tummy felt fluttery. He took a slow, deep breath, in and out. Stay calm and find a helper, he told himself.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            318,
+            85,
+            983,
+            696
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-06.png",
+      "text": "Then he heard soft footsteps and a cheerful whistle. A kind forest ranger in a big round hat came down the trail.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            21,
+            339,
+            502,
+            703
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            926,
+            49,
+            1174,
+            724
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-07.png",
+      "text": "Hello there, I'm Ranger June. You look like you could use a little help, she said, kneeling down with a warm smile.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            226,
+            266,
+            629,
+            740
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            679,
+            25,
+            1152,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-08.png",
+      "text": "I lost my friend Bio, said Richard. He's a little brown bear with a blue scarf. Let's find him together, said Ranger June.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            134,
+            273,
+            601,
+            731
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            735,
+            4,
+            1202,
+            759
+          ]
+        },
+        {
+          "label": "Bio (thought bubble)",
+          "box": [
+            424,
+            0,
+            785,
+            290
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-09.png",
+      "text": "Ranger June showed Richard how to look for clues. Look, little round paw prints in the soft mud!",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            156,
+            243,
+            665,
+            675
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            566,
+            0,
+            1160,
+            675
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-10.png",
+      "text": "They followed the paw prints past the ferns and over a little wooden bridge. Richard called, Bio! Bio!",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            452,
+            283,
+            686,
+            549
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            735,
+            54,
+            983,
+            551
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-11.png",
+      "text": "The sun was getting low, so Ranger June held up her lantern. Its warm glow lit the path like a tiny firefly.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            417,
+            378,
+            749,
+            748
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            665,
+            0,
+            1025,
+            752
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-12.png",
+      "text": "Then they heard a small voice near the old oak tree. Richard? It was Bio, sitting by the butterfly flowers!",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            212,
+            346,
+            523,
+            725
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            530,
+            18,
+            841,
+            751
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            912,
+            386,
+            1174,
+            723
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-13.png",
+      "text": "Richard and Bio shared a big, happy hug. You stayed calm and asked for help, said Ranger June. You were very brave!",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            177,
+            245,
+            608,
+            751
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            509,
+            252,
+            820,
+            747
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            785,
+            40,
+            1145,
+            754
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-14.png",
+      "text": "Ranger June walked them home along the lantern-lit trail, as the first stars twinkled through the trees.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            163,
+            305,
+            530,
+            732
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            502,
+            313,
+            792,
+            732
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            820,
+            21,
+            1160,
+            754
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/richard-the-raccoon-and-the-lost-little-friend/staging/richard-the-raccoon-and-the-lost-little-friend/illustrations/page-15.png",
+      "text": "That night, Bio slept over in Richard's cozy tree hollow. Ranger June waved goodnight, and the two friends snuggled close and drifted off to sleep.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Richard",
+          "box": [
+            233,
+            290,
+            551,
+            629
+          ]
+        },
+        {
+          "label": "Bio",
+          "box": [
+            431,
+            290,
+            693,
+            615
+          ]
+        },
+        {
+          "label": "Ranger June",
+          "box": [
+            1018,
+            212,
+            1216,
+            718
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 40
+    }
+  ]
+}

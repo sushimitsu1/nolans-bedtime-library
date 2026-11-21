@@ -3819,6 +3819,69 @@ narration: [
     "Bree drove back to the bus barn as the snow made a soft white blanket. Goodnight, Bree, whispered the snowy night."
   ]
 },
+{
+  "id": "richard-the-raccoon-and-the-lost-little-friend",
+  "title": "Richard the Raccoon and the Lost Little Friend",
+  "category": "Animal Friends",
+  "description": "When Richard the little raccoon and his best friend Bio the bear cub get separated in the forest, Richard stays calm and finds a helper, and kind Ranger June helps him follow the clues until they find Bio.",
+  "keywords": [
+    "richard",
+    "raccoon",
+    "bio",
+    "bear",
+    "bear cub",
+    "ranger",
+    "forest ranger",
+    "ranger june",
+    "lost",
+    "friend",
+    "best friend",
+    "helper",
+    "stay calm",
+    "forest",
+    "paw prints",
+    "lantern",
+    "butterfly",
+    "tree hollow",
+    "animal friends",
+    "goodnight"
+  ],
+  "cover": "assets/books/richard-the-raccoon-and-the-lost-little-friend/cover.webp",
+  "pages": [
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-01.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-02.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-03.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-04.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-05.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-06.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-07.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-08.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-09.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-10.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-11.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-12.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-13.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-14.webp",
+    "assets/books/richard-the-raccoon-and-the-lost-little-friend/page-15.webp"
+  ],
+  "narration": [
+    "One sunny morning, Richard the little raccoon met his best friend Bio the bear cub by the big mossy log.",
+    "They played all morning, hopping over roots, splashing in the little creek, and giggling under the tall pine trees.",
+    "Then Richard found a pile of shiny acorns, while Bio followed a fluttery blue butterfly down a twisty path.",
+    "When Richard looked up, the forest was quiet and Bio was gone. Bio, where are you? he called, but only the leaves rustled.",
+    "Richard's tummy felt fluttery. He took a slow, deep breath, in and out. Stay calm and find a helper, he told himself.",
+    "Then he heard soft footsteps and a cheerful whistle. A kind forest ranger in a big round hat came down the trail.",
+    "Hello there, I'm Ranger June. You look like you could use a little help, she said, kneeling down with a warm smile.",
+    "I lost my friend Bio, said Richard. He's a little brown bear with a blue scarf. Let's find him together, said Ranger June.",
+    "Ranger June showed Richard how to look for clues. Look, little round paw prints in the soft mud!",
+    "They followed the paw prints past the ferns and over a little wooden bridge. Richard called, Bio! Bio!",
+    "The sun was getting low, so Ranger June held up her lantern. Its warm glow lit the path like a tiny firefly.",
+    "Then they heard a small voice near the old oak tree. Richard? It was Bio, sitting by the butterfly flowers!",
+    "Richard and Bio shared a big, happy hug. You stayed calm and asked for help, said Ranger June. You were very brave!",
+    "Ranger June walked them home along the lantern-lit trail, as the first stars twinkled through the trees.",
+    "That night, Bio slept over in Richard's cozy tree hollow. Ranger June waved goodnight, and the two friends snuggled close and drifted off to sleep."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

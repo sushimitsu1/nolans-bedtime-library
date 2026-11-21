@@ -1,0 +1,38 @@
+{
+  "storySlug": "richard-the-raccoon-and-the-lost-little-friend",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually and on a review sheet kept outside the repo (/workspace/richard/richard-contact-sheet.jpg). Character sheet regenerated twice until Ranger June read as a grown-up adult (first two had a child-like ranger). Page 8 regenerated (Bio appeared physically in the scene instead of only in the thought bubble). Page 11 and 15 text adjusted to match the art (lantern already lit; Ranger June waves goodnight while the friends sleep).",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "New original story from Jasper's idea (Nov 20): Richard the raccoon and his best friend Bio the bear cub get separated in the forest; Richard stays calm and finds a helper, and kind Ranger June the forest ranger helps him follow Bio's paw prints until they find him. Art made with the built-in image tool from a locked character reference (cover, Richard/Bio sheet, Ranger June sheet). Title painted into the cover. Distinct from existing Animal Friends titles and from Coby the Little Trolley (raccoon Otis is a passenger) and Posy the Baker Bear."
+}

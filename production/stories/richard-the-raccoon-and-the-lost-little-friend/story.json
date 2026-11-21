@@ -1,0 +1,210 @@
+{
+  "title": "Richard the Raccoon and the Lost Little Friend",
+  "slug": "richard-the-raccoon-and-the-lost-little-friend",
+  "category": "Animal Friends",
+  "description": "When Richard the little raccoon and his best friend Bio the bear cub get separated in the forest, Richard stays calm and finds a helper, and kind Ranger June helps him follow the clues until they find Bio.",
+  "characterBible": {
+    "Richard": {
+      "role": "Main character, a little raccoon",
+      "color": "Richard: a small cute young raccoon, soft silver-gray fur, a black eye mask with crisp white edges around big glossy warm-brown eyes with white glints, white eyebrows, a cream-white muzzle and a small black button nose, round gray ears with white rims, a cream belly patch, small dark-gray hands and feet, and a big fluffy tail with five gray-and-black rings and a black tip; happy little smile; walks on all fours or sits up; no clothes or accessories",
+      "bodyShape": "Richard: a small cute young raccoon, soft silver-gray fur, a black eye mask with crisp white edges around big glossy warm-brown eyes with white glints, white eyebrows, a cream-white muzzle and a small black button nose, round gray ears with white rims, a cream belly patch, small dark-gray hands and feet, and a big fluffy tail with five gray-and-black rings and a black tip; happy little smile; walks on all fours or sits up; no clothes or accessories",
+      "face": "Richard: a small cute young raccoon, soft silver-gray fur, a black eye mask with crisp white edges around big glossy warm-brown eyes with white glints, white eyebrows, a cream-white muzzle and a small black button nose, round gray ears with white rims, a cream belly patch, small dark-gray hands and feet, and a big fluffy tail with five gray-and-black rings and a black tip; happy little smile; walks on all fours or sits up; no clothes or accessories",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Bio": {
+      "role": "Richard's best friend, a bear cub",
+      "color": "Bio: a small round cuddly bear cub, Richard's best friend and about one and a half times Richard's size, warm honey-brown fur, a lighter tan muzzle with a big dark-brown nose, small round ears with tan insides, big glossy dark-brown eyes with white glints, a soft round tummy, and a sky-blue knitted scarf tied around his neck; sweet friendly smile; no other clothes",
+      "bodyShape": "Bio: a small round cuddly bear cub, Richard's best friend and about one and a half times Richard's size, warm honey-brown fur, a lighter tan muzzle with a big dark-brown nose, small round ears with tan insides, big glossy dark-brown eyes with white glints, a soft round tummy, and a sky-blue knitted scarf tied around his neck; sweet friendly smile; no other clothes",
+      "face": "Bio: a small round cuddly bear cub, Richard's best friend and about one and a half times Richard's size, warm honey-brown fur, a lighter tan muzzle with a big dark-brown nose, small round ears with tan insides, big glossy dark-brown eyes with white glints, a soft round tummy, and a sky-blue knitted scarf tied around his neck; sweet friendly smile; no other clothes",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Ranger June": {
+      "role": "Kind forest ranger helper (a person)",
+      "color": "Ranger June: a kind grown-up woman forest ranger, warm tan-brown skin, friendly dark-brown eyes, soft smile, wavy dark-brown hair in a low bun under a tan flat-brimmed ranger hat, an olive-green short-sleeved ranger shirt with a plain gold pine-tree patch (no letters) on the sleeve, khaki trousers, sturdy brown boots, and a small brown backpack; carries a warm glowing brass lantern in the evening scenes; no badges with text, no weapons",
+      "bodyShape": "Ranger June: a kind grown-up woman forest ranger, warm tan-brown skin, friendly dark-brown eyes, soft smile, wavy dark-brown hair in a low bun under a tan flat-brimmed ranger hat, an olive-green short-sleeved ranger shirt with a plain gold pine-tree patch (no letters) on the sleeve, khaki trousers, sturdy brown boots, and a small brown backpack; carries a warm glowing brass lantern in the evening scenes; no badges with text, no weapons",
+      "face": "Ranger June: a kind grown-up woman forest ranger, warm tan-brown skin, friendly dark-brown eyes, soft smile, wavy dark-brown hair in a low bun under a tan flat-brimmed ranger hat, an olive-green short-sleeved ranger shirt with a plain gold pine-tree patch (no letters) on the sleeve, khaki trousers, sturdy brown boots, and a small brown backpack; carries a warm glowing brass lantern in the evening scenes; no badges with text, no weapons",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A sunny, friendly green forest: a mossy clearing with a big fallen log, a shallow sparkling creek, tall pines and oaks, ferns, a twisty dirt trail with soft mud patches, a little wooden footbridge, wildflowers under an old oak, and Richard's cozy tree hollow; golden sunset, blue dusk and moonlit night at the end.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent animal books like Kumo the Little Panda and Aster the Little Fox), soft rounded forms, reassuring expressions, rich greens, warm golds and soft purples. Never scary: no dark menace, no storms, no wolves. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text."
+  },
+  "continuityRules": [
+    "Richard: a small cute young raccoon, soft silver-gray fur, a black eye mask with crisp white edges around big glossy warm-brown eyes with white glints, white eyebrows, a cream-white muzzle and a small black button nose, round gray ears with white rims, a cream belly patch, small dark-gray hands and feet, and a big fluffy tail with five gray-and-black rings and a black tip; happy little smile; walks on all fours or sits up; no clothes or accessories",
+    "Bio: a small round cuddly bear cub, Richard's best friend and about one and a half times Richard's size, warm honey-brown fur, a lighter tan muzzle with a big dark-brown nose, small round ears with tan insides, big glossy dark-brown eyes with white glints, a soft round tummy, and a sky-blue knitted scarf tied around his neck; sweet friendly smile; no other clothes",
+    "Ranger June: a kind grown-up woman forest ranger, warm tan-brown skin, friendly dark-brown eyes, soft smile, wavy dark-brown hair in a low bun under a tan flat-brimmed ranger hat, an olive-green short-sleeved ranger shirt with a plain gold pine-tree patch (no letters) on the sleeve, khaki trousers, sturdy brown boots, and a small brown backpack; carries a warm glowing brass lantern in the evening scenes; no badges with text, no weapons",
+    "Bio is always a little bigger than Richard; Ranger June is a grown-up and much taller than both.",
+    "Ranger June's clothes have no letters, words or real agency logos; only the plain gold pine-tree patch.",
+    "No text, letters or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "One sunny morning, Richard the little raccoon met his best friend Bio the bear cub by the big mossy log.",
+      "illustrationScene": "Richard and Bio greet each other happily beside a big mossy fallen log in a sunny green forest clearing, morning light through the trees.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "They played all morning, hopping over roots, splashing in the little creek, and giggling under the tall pine trees.",
+      "illustrationScene": "Richard and Bio play together, splashing and giggling at the edge of a shallow sparkling forest creek between tall pine trees.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "Then Richard found a pile of shiny acorns, while Bio followed a fluttery blue butterfly down a twisty path.",
+      "illustrationScene": "Richard happily gathers shiny acorns under an oak tree in the foreground on the left, while in the background on the right Bio wanders away down a twisty path following a blue butterfly.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio"
+      ],
+      "timeOfDay": "late morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "When Richard looked up, the forest was quiet and Bio was gone. Bio, where are you? he called, but only the leaves rustled.",
+      "illustrationScene": "Richard stands alone holding a few acorns, looking around with a surprised, slightly worried face among tall quiet trees; a few leaves drift down.",
+      "requiredCharacters": [
+        "Richard"
+      ],
+      "timeOfDay": "midday",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Richard's tummy felt fluttery. He took a slow, deep breath, in and out. Stay calm and find a helper, he told himself.",
+      "illustrationScene": "Close view of Richard sitting on a mossy stump with his eyes gently closed, taking a calm deep breath, paws on his tummy, soft dappled sunlight.",
+      "requiredCharacters": [
+        "Richard"
+      ],
+      "timeOfDay": "midday",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Then he heard soft footsteps and a cheerful whistle. A kind forest ranger in a big round hat came down the trail.",
+      "illustrationScene": "Ranger June walks down a sunny forest trail whistling cheerfully; Richard peeks out hopefully from beside a fern, watching her come.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Hello there, I'm Ranger June. You look like you could use a little help, she said, kneeling down with a warm smile.",
+      "illustrationScene": "Ranger June kneels down on the trail to Richard's level with a warm smile; Richard looks up at her, a little shy and hopeful.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "I lost my friend Bio, said Richard. He's a little brown bear with a blue scarf. Let's find him together, said Ranger June.",
+      "illustrationScene": "Richard explains to Ranger June, who kneels beside him; a soft dreamy thought bubble above them shows a small picture of Bio in his blue scarf.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "Ranger June showed Richard how to look for clues. Look, little round paw prints in the soft mud!",
+      "illustrationScene": "Ranger June crouches and points to a trail of small round bear-cub paw prints in a patch of soft mud on the path; Richard leans in, curious and excited.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "They followed the paw prints past the ferns and over a little wooden bridge. Richard called, Bio! Bio!",
+      "illustrationScene": "Ranger June and Richard cross a small wooden footbridge over a gentle stream among ferns; Richard calls out with paws cupped around his mouth.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "The sun was getting low, so Ranger June held up her lantern. Its warm glow lit the path like a tiny firefly.",
+      "illustrationScene": "Golden sunset light in the forest; Ranger June holds up a glowing brass lantern, its warm light on the path, Richard walking close at her side.",
+      "requiredCharacters": [
+        "Richard",
+        "Ranger June"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Then they heard a small voice near the old oak tree. Richard? It was Bio, sitting by the butterfly flowers!",
+      "illustrationScene": "Bio sits among pretty wildflowers under a big old oak tree with the blue butterfly nearby, looking up happily; Richard and Ranger June arrive with the lantern glowing.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio",
+        "Ranger June"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Richard and Bio shared a big, happy hug. You stayed calm and asked for help, said Ranger June. You were very brave!",
+      "illustrationScene": "Richard and Bio hug tightly with joyful closed eyes under the old oak; Ranger June kneels nearby smiling warmly, holding her glowing lantern.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio",
+        "Ranger June"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "Ranger June walked them home along the lantern-lit trail, as the first stars twinkled through the trees.",
+      "illustrationScene": "Ranger June walks along a forest trail holding her glowing lantern, Richard and Bio walking side by side ahead of her; first stars and a deep blue dusk sky through the trees.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio",
+        "Ranger June"
+      ],
+      "timeOfDay": "dusk",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "That night, Bio slept over in Richard's cozy tree hollow. Ranger June waved goodnight, and the two friends snuggled close and drifted off to sleep.",
+      "illustrationScene": "Night: Richard and Bio sleep snuggled together on soft leaves inside a cozy round hollow in a big tree, moonlight and stars; Ranger June waves goodnight softly in the background as she walks away with her lantern.",
+      "requiredCharacters": [
+        "Richard",
+        "Bio",
+        "Ranger June"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail forest floor, soft moss, grass or fallen leaves, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}
