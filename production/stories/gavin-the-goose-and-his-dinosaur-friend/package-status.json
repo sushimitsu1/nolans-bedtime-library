@@ -1,0 +1,38 @@
+{
+  "storySlug": "gavin-the-goose-and-his-dinosaur-friend",
+  "status": "published",
+  "validation": {
+    "story": "passed",
+    "rawArtwork": "passed",
+    "composition": "passed",
+    "visibleText": "passed",
+    "narration": "passed",
+    "textToNarrationEquality": "passed",
+    "finalAssetPackage": "passed",
+    "app": "passed"
+  },
+  "qa": {
+    "contactSheetReviewed": true,
+    "contactSheetDeleted": false,
+    "reviewMethod": "All 15 raw and all 15 composed pages inspected individually and on a review sheet kept outside the repo (/workspace/gavin-goose/contact-sheet.jpg). Locked character sheet (Gavin, Daniel, Fairy Marigold) used as reference for every page. Pages 1 and 3 regenerated (flat solid color band at the bottom), page 4 regenerated (collage with title and extra characters), page 12 regenerated (two Gavins). Page 10 and 12 text adjusted to match the art (Daniel smiles rather than lowering his neck on page 10; Gavin splashes beside Daniel instead of sliding down his neck on page 12).",
+    "individuallyInspectedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "characterContinuity": "passed"
+  },
+  "notes": "New original story from Jasper's idea (Nov 22): lonely little Gavin the goose makes a wish by an old willow tree, Fairy Marigold pops out of the tree trunk and conjures a big, gentle dinosaur friend named Daniel, and the two play happily ever after. Art made with the built-in image tool from a locked character reference sheet and the cover. Title painted into the cover. No existing goose or fairy stories; distinct from the Dinosaurs category title and other Animal Friends titles."
+}

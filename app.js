@@ -3882,6 +3882,69 @@ narration: [
     "That night, Bio slept over in Richard's cozy tree hollow. Ranger June waved goodnight, and the two friends snuggled close and drifted off to sleep."
   ]
 },
+{
+  "id": "gavin-the-goose-and-his-dinosaur-friend",
+  "title": "Gavin the Goose and His Dinosaur Friend",
+  "category": "Animal Friends",
+  "description": "Gavin the little goose is lonely by his quiet pond until Fairy Marigold pops out of an old tree trunk and gives him a big, gentle dinosaur friend named Daniel, and the two play happily ever after.",
+  "keywords": [
+    "gavin",
+    "goose",
+    "little goose",
+    "daniel",
+    "dinosaur",
+    "friendly dinosaur",
+    "fairy",
+    "fairy marigold",
+    "marigold",
+    "wish",
+    "lonely",
+    "new friend",
+    "best friend",
+    "pond",
+    "tree trunk",
+    "sparkles",
+    "hide-and-seek",
+    "fireflies",
+    "animal friends",
+    "goodnight"
+  ],
+  "cover": "assets/books/gavin-the-goose-and-his-dinosaur-friend/cover.webp",
+  "pages": [
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-01.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-02.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-03.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-04.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-05.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-06.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-07.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-08.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-09.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-10.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-11.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-12.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-13.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-14.webp",
+    "assets/books/gavin-the-goose-and-his-dinosaur-friend/page-15.webp"
+  ],
+  "narration": [
+    "By a quiet little pond lived a little goose named Gavin, with soft white feathers and a bright orange beak.",
+    "Every morning Gavin waddled all around the pond, but there was no one to play with. He felt very lonely.",
+    "He tried to play tag with the dragonflies, but they zipped away much too fast.",
+    "He tried to splash with the frogs, but they hopped away with a plip and a plop.",
+    "Gavin sat down by a big old tree trunk and gave a tiny, sad honk. I wish I had a friend, he whispered.",
+    "Then, pop! Out of the old tree trunk popped a tiny fairy, with shimmery wings and a swirl of golden sparkles.",
+    "Hello, Gavin! I'm Fairy Marigold, she said with a smile. I heard your wish, and I know just what to do.",
+    "Fairy Marigold waved her little wand. The sparkles swirled and twirled, round and round, bigger and bigger.",
+    "When the sparkles floated away, there stood a big, gentle dinosaur with a long neck and a kind smile. Hi, I'm Daniel, he said.",
+    "Gavin felt a little shy. But Daniel smiled his kindest smile and asked, Will you be my friend? Gavin flapped his wings and honked, Yes!",
+    "They played hide-and-seek around the trees. Daniel was much too big to hide, and Gavin giggled and giggled.",
+    "Down by the pond, Daniel bent his long neck down low. Splish, splash! Gavin flapped in the water and made Daniel giggle.",
+    "Fairy Marigold sprinkled sparkles over the water, and the two friends splashed and laughed together.",
+    "When the sun went down, they watched the fireflies twinkle, and Gavin cuddled up close to his big new friend.",
+    "That night, Gavin snuggled up close to Daniel by the old tree. Goodnight, whispered Fairy Marigold. And every day after that, the two friends played happily ever after."
+  ]
+},
 ];
 
 stories.forEach(story=>{ if(!Array.isArray(story.narration)) story.narration=[]; });

@@ -1,0 +1,898 @@
+{
+  "storySlug": "gavin-the-goose-and-his-dinosaur-friend",
+  "pages": [
+    {
+      "file": "cover.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/cover.png",
+      "text": null,
+      "pageBadge": null,
+      "panel": false,
+      "layout": "full_page_cover",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": null,
+      "overlap": false,
+      "textFits": true
+    },
+    {
+      "file": "page-01.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-01.png",
+      "text": "By a quiet little pond lived a little goose named Gavin, with soft white feathers and a bright orange beak.",
+      "pageBadge": 1,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            622,
+            134,
+            947,
+            636
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-02.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-02.png",
+      "text": "Every morning Gavin waddled all around the pond, but there was no one to play with. He felt very lonely.",
+      "pageBadge": 2,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            615,
+            78,
+            919,
+            540
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-03.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-03.png",
+      "text": "He tried to play tag with the dragonflies, but they zipped away much too fast.",
+      "pageBadge": 3,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            523,
+            99,
+            983,
+            549
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-04.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-04.png",
+      "text": "He tried to splash with the frogs, but they hopped away with a plip and a plop.",
+      "pageBadge": 4,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            778,
+            120,
+            1053,
+            573
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-05.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-05.png",
+      "text": "Gavin sat down by a big old tree trunk and gave a tiny, sad honk. I wish I had a friend, he whispered.",
+      "pageBadge": 5,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            502,
+            339,
+            799,
+            747
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-06.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-06.png",
+      "text": "Then, pop! Out of the old tree trunk popped a tiny fairy, with shimmery wings and a swirl of golden sparkles.",
+      "pageBadge": 6,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            393,
+            311,
+            757,
+            742
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            764,
+            99,
+            1053,
+            535
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-07.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-07.png",
+      "text": "Hello, Gavin! I'm Fairy Marigold, she said with a smile. I heard your wish, and I know just what to do.",
+      "pageBadge": 7,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            502,
+            339,
+            799,
+            749
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            785,
+            120,
+            1110,
+            615
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-08.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-08.png",
+      "text": "Fairy Marigold waved her little wand. The sparkles swirled and twirled, round and round, bigger and bigger.",
+      "pageBadge": 8,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            495,
+            349,
+            714,
+            752
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            764,
+            88,
+            1110,
+            568
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-09.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-09.png",
+      "text": "When the sparkles floated away, there stood a big, gentle dinosaur with a long neck and a kind smile. Hi, I'm Daniel, he said.",
+      "pageBadge": 9,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            219,
+            359,
+            438,
+            752
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            474,
+            20,
+            1068,
+            734
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            856,
+            119,
+            1195,
+            625
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 44
+    },
+    {
+      "file": "page-10.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-10.png",
+      "text": "Gavin felt a little shy. But Daniel smiled his kindest smile and asked, Will you be my friend? Gavin flapped his wings and honked, Yes!",
+      "pageBadge": 10,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            198,
+            252,
+            566,
+            740
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            544,
+            58,
+            1124,
+            728
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            940,
+            117,
+            1280,
+            641
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 42
+    },
+    {
+      "file": "page-11.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-11.png",
+      "text": "They played hide-and-seek around the trees. Daniel was much too big to hide, and Gavin giggled and giggled.",
+      "pageBadge": 11,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            269,
+            294,
+            580,
+            740
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            481,
+            54,
+            1188,
+            718
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-12.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-12.png",
+      "text": "Down by the pond, Daniel bent his long neck down low. Splish, splash! Gavin flapped in the water and made Daniel giggle.",
+      "pageBadge": 12,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            212,
+            396,
+            488,
+            665
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            509,
+            181,
+            1372,
+            594
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 44
+    },
+    {
+      "file": "page-13.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-13.png",
+      "text": "Fairy Marigold sprinkled sparkles over the water, and the two friends splashed and laughed together.",
+      "pageBadge": 13,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            191,
+            354,
+            551,
+            735
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            544,
+            88,
+            1110,
+            721
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            940,
+            64,
+            1301,
+            594
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-14.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-14.png",
+      "text": "When the sun went down, they watched the fireflies twinkle, and Gavin cuddled up close to his big new friend.",
+      "pageBadge": 14,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            877,
+            311,
+            1145,
+            682
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            587,
+            110,
+            1386,
+            679
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 48
+    },
+    {
+      "file": "page-15.webp",
+      "sourceIllustration": "production/stories/gavin-the-goose-and-his-dinosaur-friend/staging/gavin-the-goose-and-his-dinosaur-friend/illustrations/page-15.png",
+      "text": "That night, Gavin snuggled up close to Daniel by the old tree. Goodnight, whispered Fairy Marigold. And every day after that, the two friends played happily ever after.",
+      "pageBadge": 15,
+      "panel": true,
+      "layout": "integrated_full_bleed",
+      "illustrationBox": [
+        0,
+        0,
+        1448,
+        1086
+      ],
+      "textAreaBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "panelBox": [
+        62,
+        790,
+        1386,
+        1034
+      ],
+      "badgeBox": [
+        1278,
+        928,
+        1374,
+        1024
+      ],
+      "safeZoneTop": 760,
+      "requiredSubjectBoxes": [
+        {
+          "label": "Gavin",
+          "box": [
+            325,
+            441,
+            636,
+            757
+          ]
+        },
+        {
+          "label": "Daniel",
+          "box": [
+            424,
+            195,
+            1131,
+            757
+          ]
+        },
+        {
+          "label": "Fairy Marigold",
+          "box": [
+            884,
+            88,
+            1145,
+            346
+          ]
+        }
+      ],
+      "requiredArtworkOverlap": false,
+      "fullBleed": true,
+      "letterboxed": false,
+      "outerFrame": false,
+      "textFits": true,
+      "fontSize": 38
+    }
+  ]
+}

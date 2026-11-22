@@ -1,0 +1,207 @@
+{
+  "title": "Gavin the Goose and His Dinosaur Friend",
+  "slug": "gavin-the-goose-and-his-dinosaur-friend",
+  "category": "Animal Friends",
+  "description": "Gavin the little goose is lonely by his quiet pond until Fairy Marigold pops out of an old tree trunk and gives him a big, gentle dinosaur friend named Daniel, and the two play happily ever after.",
+  "characterBible": {
+    "Gavin": {
+      "role": "Main character, a little white goose",
+      "color": "Gavin: a small cute young white goose, soft fluffy snow-white feathers with a slightly fluffy head tuft, a bright orange rounded beak, big glossy dark-brown eyes with white glints, small rounded wings, short orange legs and webbed feet; sweet expressive face; no clothes or accessories",
+      "bodyShape": "Gavin: a small cute young white goose, soft fluffy snow-white feathers with a slightly fluffy head tuft, a bright orange rounded beak, big glossy dark-brown eyes with white glints, small rounded wings, short orange legs and webbed feet; sweet expressive face; no clothes or accessories",
+      "face": "Gavin: a small cute young white goose, soft fluffy snow-white feathers with a slightly fluffy head tuft, a bright orange rounded beak, big glossy dark-brown eyes with white glints, small rounded wings, short orange legs and webbed feet; sweet expressive face; no clothes or accessories",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Daniel": {
+      "role": "Gavin's new best friend, a big gentle dinosaur",
+      "color": "Daniel: a big, gentle, friendly long-necked baby sauropod dinosaur, about three times as tall as Gavin, soft rounded chubby body, minty sea-green skin with a pale cream-yellow belly and a few round darker-green spots on his back, a small round head with big glossy kind brown eyes with white glints and long lashes, rosy cheeks, a wide gentle closed-mouth smile (no teeth, no claws, no spikes), stubby round legs, a long tapering tail; toddler-safe, cuddly and never scary; no clothes or accessories",
+      "bodyShape": "Daniel: a big, gentle, friendly long-necked baby sauropod dinosaur, about three times as tall as Gavin, soft rounded chubby body, minty sea-green skin with a pale cream-yellow belly and a few round darker-green spots on his back, a small round head with big glossy kind brown eyes with white glints and long lashes, rosy cheeks, a wide gentle closed-mouth smile (no teeth, no claws, no spikes), stubby round legs, a long tapering tail; toddler-safe, cuddly and never scary; no clothes or accessories",
+      "face": "Daniel: a big, gentle, friendly long-necked baby sauropod dinosaur, about three times as tall as Gavin, soft rounded chubby body, minty sea-green skin with a pale cream-yellow belly and a few round darker-green spots on his back, a small round head with big glossy kind brown eyes with white glints and long lashes, rosy cheeks, a wide gentle closed-mouth smile (no teeth, no claws, no spikes), stubby round legs, a long tapering tail; toddler-safe, cuddly and never scary; no clothes or accessories",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    },
+    "Fairy Marigold": {
+      "role": "Kind tiny fairy who lives in the old tree trunk",
+      "color": "Fairy Marigold: a tiny fairy only about as tall as Gavin, warm golden-tan skin, rosy cheeks, big friendly hazel eyes, curly auburn-brown hair in a top bun with loose curls with a little crown of tiny orange marigold flowers, a dress made of layered orange and yellow marigold petals, shimmering translucent pale-gold butterfly-shaped wings, bare feet, and a tiny wooden wand with a glowing golden sparkle at the tip (no star shape, no text); she glows softly with tiny golden sparkles",
+      "bodyShape": "Fairy Marigold: a tiny fairy only about as tall as Gavin, warm golden-tan skin, rosy cheeks, big friendly hazel eyes, curly auburn-brown hair in a top bun with loose curls with a little crown of tiny orange marigold flowers, a dress made of layered orange and yellow marigold petals, shimmering translucent pale-gold butterfly-shaped wings, bare feet, and a tiny wooden wand with a glowing golden sparkle at the tip (no star shape, no text); she glows softly with tiny golden sparkles",
+      "face": "Fairy Marigold: a tiny fairy only about as tall as Gavin, warm golden-tan skin, rosy cheeks, big friendly hazel eyes, curly auburn-brown hair in a top bun with loose curls with a little crown of tiny orange marigold flowers, a dress made of layered orange and yellow marigold petals, shimmering translucent pale-gold butterfly-shaped wings, bare feet, and a tiny wooden wand with a glowing golden sparkle at the tip (no star shape, no text); she glows softly with tiny golden sparkles",
+      "accessories": "Only the fixed accessories described above; no text or logos."
+    }
+  },
+  "settingBible": {
+    "location": "A sunny, friendly meadow around a calm sparkling pond with cattails, lily pads and reeds, a big old willow tree with a thick gnarled trunk and a round knothole, a few birch trees; golden sunset with fireflies and a moonlit starry night at the end.",
+    "visualStyle": "1448x1086 pixels, true 4:3 landscape, bold bright glossy polished 3D children's illustration for ages 3-5 (same bold redo2 style as the library's recent animal books like Richard the Raccoon and Kumo the Little Panda), soft rounded forms, reassuring expressions, rich greens, warm golds and soft purples. Never scary: no sharp teeth, no claws, no roaring, no storms. One continuous full-bleed scene only; no collage, grid, contact sheet, split screen or multiple panels; no text."
+  },
+  "continuityRules": [
+    "Gavin: a small cute young white goose, soft fluffy snow-white feathers with a slightly fluffy head tuft, a bright orange rounded beak, big glossy dark-brown eyes with white glints, small rounded wings, short orange legs and webbed feet; sweet expressive face; no clothes or accessories",
+    "Daniel: a big, gentle, friendly long-necked baby sauropod dinosaur, about three times as tall as Gavin, soft rounded chubby body, minty sea-green skin with a pale cream-yellow belly and a few round darker-green spots on his back, a small round head with big glossy kind brown eyes with white glints and long lashes, rosy cheeks, a wide gentle closed-mouth smile (no teeth, no claws, no spikes), stubby round legs, a long tapering tail; toddler-safe, cuddly and never scary; no clothes or accessories",
+    "Fairy Marigold: a tiny fairy only about as tall as Gavin, warm golden-tan skin, rosy cheeks, big friendly hazel eyes, curly auburn-brown hair in a top bun with loose curls with a little crown of tiny orange marigold flowers, a dress made of layered orange and yellow marigold petals, shimmering translucent pale-gold butterfly-shaped wings, bare feet, and a tiny wooden wand with a glowing golden sparkle at the tip (no star shape, no text); she glows softly with tiny golden sparkles",
+    "Daniel is always clearly much bigger than Gavin (about three times as tall); Fairy Marigold is tiny, about Gavin's height.",
+    "Daniel always looks friendly and toddler-safe: closed-mouth smile, no teeth, no claws, no spikes.",
+    "No text, letters or logos in page artwork."
+  ],
+  "pages": [
+    {
+      "number": 1,
+      "text": "By a quiet little pond lived a little goose named Gavin, with soft white feathers and a bright orange beak.",
+      "illustrationScene": "Gavin stands alone at the edge of a calm sparkling pond in a sunny green meadow, morning light, cattails and lily pads, a big old willow tree with a thick trunk in the background.",
+      "requiredCharacters": [
+        "Gavin"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 2,
+      "text": "Every morning Gavin waddled all around the pond, but there was no one to play with. He felt very lonely.",
+      "illustrationScene": "Gavin waddles slowly along the grassy pond path, looking down with a small lonely face; the wide empty meadow around him.",
+      "requiredCharacters": [
+        "Gavin"
+      ],
+      "timeOfDay": "morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 3,
+      "text": "He tried to play tag with the dragonflies, but they zipped away much too fast.",
+      "illustrationScene": "Gavin flaps his little wings, trying to chase three shimmering blue dragonflies that zip away over the reeds; he looks a little sad and puzzled.",
+      "requiredCharacters": [
+        "Gavin"
+      ],
+      "timeOfDay": "late morning",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 4,
+      "text": "He tried to splash with the frogs, but they hopped away with a plip and a plop.",
+      "illustrationScene": "Gavin at the water's edge looks hopefully at two small cheerful green frogs leaping off lily pads away from him into the pond, little ripples.",
+      "requiredCharacters": [
+        "Gavin"
+      ],
+      "timeOfDay": "midday",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 5,
+      "text": "Gavin sat down by a big old tree trunk and gave a tiny, sad honk. I wish I had a friend, he whispered.",
+      "illustrationScene": "Gavin sits by himself at the foot of the big old willow tree's thick gnarled trunk, which has a round knothole hollow; he looks up wistfully, making a wish.",
+      "requiredCharacters": [
+        "Gavin"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 6,
+      "text": "Then, pop! Out of the old tree trunk popped a tiny fairy, with shimmery wings and a swirl of golden sparkles.",
+      "illustrationScene": "Fairy Marigold pops out of the round knothole in the willow tree trunk in a burst of golden sparkles, arms open happily; Gavin jumps back in delighted surprise.",
+      "requiredCharacters": [
+        "Gavin",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 7,
+      "text": "Hello, Gavin! I'm Fairy Marigold, she said with a smile. I heard your wish, and I know just what to do.",
+      "illustrationScene": "Fairy Marigold hovers in the air in front of Gavin beside the tree trunk, smiling warmly and pointing her little wand; Gavin looks up at her with hopeful wide eyes.",
+      "requiredCharacters": [
+        "Gavin",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 8,
+      "text": "Fairy Marigold waved her little wand. The sparkles swirled and twirled, round and round, bigger and bigger.",
+      "illustrationScene": "Fairy Marigold waves her wand and a huge swirling spiral of golden sparkles twirls up beside the tree in the meadow; Gavin watches in amazement. No dinosaur yet.",
+      "requiredCharacters": [
+        "Gavin",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 9,
+      "text": "When the sparkles floated away, there stood a big, gentle dinosaur with a long neck and a kind smile. Hi, I'm Daniel, he said.",
+      "illustrationScene": "Daniel stands in the meadow where the last golden sparkles drift away, smiling kindly down at small Gavin; Fairy Marigold flutters nearby, pleased.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 10,
+      "text": "Gavin felt a little shy. But Daniel smiled his kindest smile and asked, Will you be my friend? Gavin flapped his wings and honked, Yes!",
+      "illustrationScene": "By the pond, Daniel smiles kindly beside little Gavin, who flaps his wings happily with his beak open in a joyful honk; Fairy Marigold flutters nearby.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 11,
+      "text": "They played hide-and-seek around the trees. Daniel was much too big to hide, and Gavin giggled and giggled.",
+      "illustrationScene": "Daniel tries to hide behind a thin birch tree but his big body and long neck stick out on both sides; Gavin points and giggles.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 12,
+      "text": "Down by the pond, Daniel bent his long neck down low. Splish, splash! Gavin flapped in the water and made Daniel giggle.",
+      "illustrationScene": "Daniel stands on the pond bank bending his long neck down low toward the water, smiling at Gavin, who flaps joyfully in a little splash in the pond.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel"
+      ],
+      "timeOfDay": "late afternoon",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 13,
+      "text": "Fairy Marigold sprinkled sparkles over the water, and the two friends splashed and laughed together.",
+      "illustrationScene": "Gavin and Daniel splash happily in the shallow pond, water droplets glittering; Fairy Marigold flies above them sprinkling golden sparkles.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "golden hour",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 14,
+      "text": "When the sun went down, they watched the fireflies twinkle, and Gavin cuddled up close to his big new friend.",
+      "illustrationScene": "Sunset by the pond: Gavin and Daniel sit side by side on the grass watching gentle glowing fireflies; Gavin leans against Daniel's side, warm orange and purple sky.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel"
+      ],
+      "timeOfDay": "sunset",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    },
+    {
+      "number": 15,
+      "text": "That night, Gavin snuggled up close to Daniel by the old tree. Goodnight, whispered Fairy Marigold. And every day after that, the two friends played happily ever after.",
+      "illustrationScene": "Night under the moon and stars: Daniel lies curled up asleep beside the big willow tree with his long neck curved around little Gavin, who sleeps snuggled against him; tiny Fairy Marigold waves goodnight from the knothole in the trunk, glowing softly.",
+      "requiredCharacters": [
+        "Gavin",
+        "Daniel",
+        "Fairy Marigold"
+      ],
+      "timeOfDay": "night",
+      "continuityNotes": "All characters retain the exact characterBible design. Keep every character, face, important feature, required object and all action entirely in the upper two-thirds (y < 724). Bottom third (y >= 724) must be plain low-detail grass, soft moss, clover or calm pond water, with no characters or important objects; a caption panel will be added there later and must not cover characters. Do not draw the panel."
+    }
+  ]
+}
